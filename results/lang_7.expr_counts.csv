@@ -1,0 +1,2906 @@
+$ == null	4451
+$ == 0	2281
+$ < 0	2058
+$ != null	1156
+$ > 0	1104
+$ <= 0	955
+$ == 0.0	481
+$ == 1	467
+$ != 0	420
+$.length == 0	415
+$ > 1	392
+$ >= 0	361
+$ <= 0.0	315
+$ < 0.0	285
+$ < 1	281
+$ == -1	213
+$ < 2	191
+$ != 0.0	175
+$[index] == FREE	156
+states[$] == FREE	156
+$ > 0.5	156
+$ > 2	155
+$.length < 2	136
+$ > 1.0	135
+$ >= upper	134
+$.length != nRows	131
+$ > 0.0	127
+$ < .5	120
+$ == INFINITE	112
+$.length != nCols	110
+$[i].length != yLen	106
+f.value($) == 0.0	105
+states[$] == FULL	104
+$[index] == FULL	104
+$.length != y.length	102
+$ < n	101
+$ > ZERO	99
+Math.abs($) <= functionValueAccuracy	97
+$ < 0.0001	96
+$ > 0.9999	96
+$ <= 1.0	94
+$.getIndex() == 0	92
+$.getRowDimension() != nRows	89
+$ == Integer.MIN_VALUE	89
+$.getColumnDimension() != nCols	89
+$ instanceof ArrayRealVector	88
+$ != x	87
+$[0] == null	85
+$.nans == INFINITE	84
+$ instanceof OpenMapRealVector	83
+$ == 2	83
+$[i] < 0	81
+$ == Double.POSITIVE_INFINITY	80
+$[r].length != nCols	79
+$ instanceof Number	78
+keys[$] == key	78
+$ != count	78
+$[index] == key	78
+$.mant[mant.length-1] == 0	77
+$ > overflow	75
+$.getEntry(i) == ZERO	72
+$==Integer.MIN_VALUE	72
+FastMath.abs($) <= functionValueAccuracy	71
+$.getRowDimension() != m	70
+($ & 0x1) != 0	69
+subMatrix[$].length != nCols	68
+$[i] == 0	68
+$.getColumnDimension() != 1	68
+$.size() == 0	68
+$ > b	67
+$.length > 0	67
+$.compareTo(BigInteger.ZERO) < 0	65
+$.getZ() > 0.9999999999	64
+$.getY() < -0.9999999999	64
+$.getZ() < -0.9999999999	64
+$.getX() > 0.9999999999	64
+$.getY() > 0.9999999999	64
+comparator.compare(reflected, $) < 0	64
+$.getX() < -0.9999999999	64
+$[i][j].length != zLen	63
+xbdi.getEntry($) == ZERO	63
+d[$].length != nCols	62
+$[k] != 0	62
+$.getDimension() != m	61
+$ >= maxIterations	61
+$ == k	61
+$ >= 1	60
+$.getCut() == null	59
+$ > Integer.MAX_VALUE	59
+$ == Long.MIN_VALUE	58
+$ < maxDenominator	58
+$.nans == FINITE	56
+$ != y0	54
+$ < Integer.MIN_VALUE	53
+$.getDimension() != nCols	52
+$.getDimension() != nRows	52
+$ instanceof AbstractListChromosome<?>	52
+$ <= 2.0	52
+$ == solvedCols	52
+$ instanceof SparseFieldVector<?>	52
+$.getRowDimension() != 1	52
+$ > available	52
+$ <= 0.5	51
+$.numerator == 0	51
+$ != FINITE	49
+$ == FINITE	49
+($ & 0x1) == 0	49
+$ instanceof Integer	48
+$ == Double.NEGATIVE_INFINITY	48
+$ != INFINITE_WINDOW	48
+$ <= 2.2204e-16	48
+$ < x	48
+$ > -0.19	48
+$ > x1	48
+$ <= rLimit	46
+$.length != rows	46
+$ >= 1.0	46
+$ >= n	45
+$ <= ZERO	45
+$ == 1.0	45
+$ < 0.1	44
+yInitial * $ < 0	44
+$==0	44
+$[i] <= '9'	44
+$.length != 3	44
+$ == j	44
+$ == GoalType.MINIMIZE	42
+result.mant[$.length-1] == 0	42
+buf[$] <= '9'	42
+$.value(min) == 0.0	40
+$.value(max) == 0.0	40
+$.length == 1	40
+$.length != m	40
+$ <= 1	40
+comparator.compare($, best) < 0	39
+$ < j	39
+$[i] != 0	38
+$.length < 1	38
+$ > n	38
+++$ > maxIterations	38
+$ != k	37
+$.length != dimension	37
+$ != col	37
+$ != nCols	37
+$.length() == 1	37
+$ == false	36
+$ == ZERO	36
+$[j] == 0	35
+$.classify() == Dfp.INFINITE	35
+$ < a	35
+$.length() == 0	35
+$.size() > 1	34
+$ < end	34
+$ == Integer.MAX_VALUE	33
+$.length != n	33
+$ == x	33
+$ instanceof SparseRealVector	32
+($ = filePointer.readLine()) == null	32
+$ <= threshold	32
+(str = $.readLine()) == null	32
+$ != sample2.length	32
+$.compare(reflected, best) < 0	32
+comparator.compare($, worst) < 0	32
+$ >= 0.0	32
+$ > 100	32
+$.getRelationship() == Relationship.GEQ	32
+$.intValue() < 0	32
+$ > 3	32
+$ < 10E-20	32
+$ > populationSize	32
+comparator.compare($, reflected) <= 0	32
+$.getN() > 0	32
+$ > maxStep	32
+$[i].length != nCols	31
+$ > hi	31
+$ != j	30
+$ > max	30
+$ >= N	30
+$[i] >= '0'	30
+$.currentState != null	30
+$[k] != 0.0	30
+$.length != dimensionSize.length	30
+$ >= minimalIterationCount	30
+$.getPlusInside() != null	30
+($ & 1) == 1	30
+$.getPlusOutside() != null	30
+$.length != 2	30
+hK[$] != 0.0	30
+$.value(initial) == 0.0	30
+FastMath.abs($) < functionValueAccuracy	30
+$ instanceof PolynomialFunction	30
+$ == yi	29
+$ < maxIterations	29
+$ == MULTIPLICATIVE_MODE	29
+$ < m	29
+$ < 3	29
+$ >= omegaCount	28
+$[$.length-1] == 0	28
+$ < 21	28
+$.length != yval.length	28
+buf[$] >= '0'	28
+coefficients[$] < 0	28
+$ == dN1	28
+$ < 67	28
+($ & 0x8000000000000000L) != 0	27
+Math.abs($ - oldx) <= tolerance	27
+$ != b	27
+$.getEntry(i) != ZERO	27
+$.length > 1	27
+Math.abs(x - $) <= tolerance	27
+$ <= absoluteAccuracy	27
+$.length != weights.length	27
+$ < solvedCols	26
+states[$] != FULL	26
+$ <= orthoTolerance	26
+$[index] != FULL	26
+$ == capacity	26
+0.1 * $ < previousCost	26
+$ < 0.5	26
+$.length != columns	26
+$.length != dim	26
+$.length < rowsCount	26
+lmDiag[$] == 0	26
+$.length < 3	26
+$ >= 1.0e-4	26
+$ instanceof BigFraction	26
+$ >= 0.75	26
+lmDiag[$] != 0	26
+0.1 * $ >= previousCost	26
+$[0].length < columnsCount	26
+$[i] == FULL	26
+oldStates[$] == FULL	26
+$ > ak2	26
+$ <= costRelativeTolerance	26
+$ >= -threshold	26
+$ <= previousFP	26
+$.length < selectedRows.length	26
+$ >= mBlock.length	26
+$ < k	26
+$.length != refLength	26
+$ <= 0.25	26
+(startIndex + $) > internalArray.length	26
+$ != columns	26
+$ >= outBlock.length	26
+Math.min($.length, sample2.length) < 2	25
+$ != other.virtualSize	25
+$[0].length == 0	25
+$ >= index	25
+$ > endColumn	25
+$.length * selectedColumns.length == 0	25
+selectedRows.length * $.length == 0	25
+Math.min(sample1.length, $.length) < 2	25
+$ > endRow	25
+$ >= iCutover	24
+$ != y	24
+$ instanceof Fraction	24
+$ >= p	24
+$ < lower	24
+$ != ITERATION_CHECK_DISABLED	24
+$ > a	24
+$.length != b.length	24
+$ >= MAXIMAL_AGING	24
+$ < b	24
+FastMath.abs($) < 1.0e-10	24
+$ >= maxIterationCount	24
+$ > upper	24
+$ > 20.0	24
+$[0].length < selectedColumns.length	23
+$ instanceof String	23
+$ % 2 != 0	23
+$ instanceof Complex	23
+$ == rhs	23
+$ != variance	22
+$ * yMax < 0	22
+$ * yMin < 0	22
+$ instanceof BinaryChromosome	22
+$ <= S_LIMIT	22
+$ >= 0.5	22
+$ != mean	22
+$ instanceof RandomKey<?>	22
+$ >= C_LIMIT	22
+++$ > maxEvaluations	22
+$.size() < 2	22
+$.currentState == null	22
+$.getN() < 2	21
+fval[$].length != yLen	21
+$ > 3294198.0	21
+$ < 8e298	21
+$ == dN	21
+$ >= 2	21
+$ > -8e298	21
+$[0] == 0.0	21
+$ > 1.5707963267948966	21
+$ != xa	21
+$ < lo	21
+work[$ - 2] == 0.0	21
+$ > 2.0	21
+$.sign == -1	21
+($ & 1) == 0	21
+$.length != fval.length	21
+$ == dN2	21
+$ < p	21
+$[j4 - 2] == 0.0	21
+FastMath.abs($ - oldx) <= tolerance	21
+$ < pivot	21
+FastMath.abs(x - $) <= tolerance	21
+$.nans != FINITE	21
+$ > 64	20
+MathUtils.sign($) + MathUtils.sign(y) == 0.0	20
+$ < fB	20
+$ < fC	20
+$ > .5	20
+$ > fC	20
+$ > 20	20
+Math.min(sampleStats1.getN(), $.getN()) < 2	20
+$.getY() == y	20
+$.getNumArtificialVariables() == 0	20
+$[row].length != nCols	20
+$ > fB	20
+Math.min($.getN(), sampleStats2.getN()) < 2	20
+$ == -1.0	20
+$ < MIN_RELATIVE_TOLERANCE	20
+$ == c	20
+$ == RotationOrder.XZX	19
+$ == RotationOrder.XZY	19
+$ == RotationOrder.YXY	19
+$ == RotationOrder.YXZ	19
+observed1[$] == 0	19
+$ == RotationOrder.YZY	19
+$ == RotationOrder.YZX	19
+$[2].length != 3	19
+$ < -1	19
+$ == RotationOrder.XYZ	19
+$ == RotationOrder.XYX	19
+$.length != observed.length	19
+$ <= limit	19
+$ >= polynomials.length	19
+$[i] == null	19
+$[0].length != 3	19
+$ % 2 == 0	19
+$[1].length != 3	19
+$ == RotationOrder.ZXZ	19
+$ == RotationOrder.ZXY	19
+observed2[$] == 0	19
+$ == RotationOrder.ZYX	19
+$ + length > values.length	19
+$ < y	19
+$.length != observed2.length	19
+begin + $ > values.length	19
+singularValues[$] != 0	18
+$ == TransformType.INVERSE	18
+$ * den > scaden	18
+$[0] != 0	18
+$ > len	18
+$.length != y0.length	18
+$ < -20	18
+upperDifference.getEntry($) == ZERO	18
+Precision.compareTo(entry, 0d, $) > 0	18
+$.getEntry(nfxm) == ZERO	18
+$.getEntry(i) == bigstp	18
+$ <= fw	18
+$ == 0L	18
+$.length != rhs.length	18
+$ <= fx	18
+$.cut == null	18
+FastMath.abs($[i]) > maxAbsoluteValue	18
+$ < fopt	18
+$.getReal() == 0	18
+e[$] != 0	18
+Math.abs(rootFindingFunction.value($)) < 1E-6	18
+$ < ZERO	18
+temp * $ > scaden	18
+1 / $ < 0	18
+$ < nct	18
+$ < bdtol	18
+$ <= fv	18
+$ < Precision.SAFE_MIN	18
+$ == trustRegionCenterInterpolationPointIndex	18
+$ > absoluteThreshold	18
+$.length != upper.length	18
+$ == GoalType.MAXIMIZE	18
+work1.getEntry($) == bigstp	18
+xbdi.getEntry($) != ZERO	18
+$ == TransformType.FORWARD	18
+$ >= simplex.length	18
+stepStart + $ > t	17
+$ + stepSize > t	17
+$.bitLength() > 31	17
+stepStart + $ < t	17
+$ == INDEX_NOT_FOUND	17
+$ instanceof RealVector	17
+$.length() > 0	17
+($&1)==0	17
+$ instanceof double[]	17
+$ + stepSize < t	17
+$.size() != l	17
+$-- != 0	17
+$==1	17
+$ <= 4	17
+$ == n	17
+Long.MIN_VALUE / $ <= a	16
+$ != ADDITIVE_MODE	16
+$ == bytes.length	16
+$ + 1 > numElements	16
+$.compare(outContracted, reflected) <= 0	16
+$ instanceof StatisticalSummaryValues	16
+(z.subtract($)).abs() <= tolerance	16
+$ > 999.9	16
+$.getN() > 3	16
+$ > threshold	16
+$[0] != 0.0	16
+$.size() > populationLimit	16
+$.getBinStats().size() == 0	16
+$[index[i]][index[i]] < -small	16
+$ instanceof StatisticalSummaryValues == false	16
+$.compare(reflected, expanded) <= 0	16
+source.substring(startIndex, endIndex).compareTo($.toString()) == 0	16
+$ * yB <= 0	16
+$.length - 1 != polynomials.length	16
+c.compare(v, $.lastKey()) >= 0	16
+c.compare($, nextValue) > 0	16
+comparator.compare(simplex[i], $) > 0	16
+c[$[i]][$[i]] < -small	16
+comparator.compare(expanded, $) < 0	16
+$.compare(expanded, reflected) < 0	16
+$ instanceof SummaryStatistics	16
+comparator.compare(outContracted, $) <= 0	16
+$ < -threshold	16
+$ instanceof Vector3D	16
+$ < -0.1	16
+$[i] <= 0	16
+(startIndex + $) >= internalArray.length	16
+$.n <= 3	16
+$ == x1	16
+$ > high	16
+c.compare($, freqTable.firstKey()) < 0	16
+in[i][$] < 0	16
+$.length != observations.length	16
+$[0].length < 2	16
+$.compare(v, freqTable.lastKey()) >= 0	16
+$.compare(v, freqTable.firstKey()) < 0	16
+Long.MIN_VALUE - $ <= a	16
+$ == omegaCount	16
+$ >= 5	16
+$ >= 7	16
+source.substring(startIndex, $).compareTo(sb.toString()) == 0	16
+locatePoint($, sMin) <= 0	16
+comparator.compare($, secondBest) < 0	16
+c[index[$]][index[$]] < -small	16
+in[$] < 0	16
+$ > value	16
+$ >= numElements	16
+$ > 10.0	16
+$ < 1.0001	16
+$ instanceof AbstractStorelessUnivariateStatistic == false	16
+$ <= targetIter	16
+($ + index) >= internalArray.length	16
+$.getValue() < 0	16
+$.length != means.length	16
+$ instanceof SummaryStatistics == false	16
+$.getRelationship() == Relationship.LEQ	16
+$.length != standardDeviation.length	16
+$[i][j] < 0	16
+$.getStandardDeviation() > 0	16
+locatePoint($, sMax) >= 0	16
+($.subtract(oldz)).abs() <= tolerance	16
+$ instanceof MultivariateSummaryStatistics	16
+$ < maxIter	16
+$.n < 3	16
+locatePoint(time, $) >= 0	16
+$.compare(reflected, worst) < 0	16
+in[$] <= 0	16
+$ == endIndex	16
+comparator.compare(simplex[$], pointValuePair) > 0	16
+$.length != size	16
+$ instanceof Mean	16
+$ > 0.1	16
+$ < targetIter	16
+$[i] == '.'	16
+$.steps.size() == 0	16
+$.v1 == null	16
+$ > 1.0e15	16
+comparator.compare($[i], pointValuePair) > 0	16
+$ instanceof MultivariateSummaryStatistics == false	16
+$.getN() == 0	16
+$.compare(inContracted, worst) < 0	16
+$.getRelationship() == relationship	16
+($ + (numElements + 1)) > internalArray.length	16
+$ < low	16
+$ <= maxChecks	16
+$ < min_dist	16
+$.length != covariance.length	16
+$ < u	16
+$ != pivotRow	16
+$.compare(reflected, secondBest) < 0	16
+comparator.compare(reflected, $) <= 0	16
+comparator.compare(best, $) <= 0	16
+(startIndex + ($ + 1)) > internalArray.length	16
+comparator.compare(inContracted, $) < 0	16
+$.compare(simplex[i], pointValuePair) > 0	16
+$ instanceof Percentile	16
+$.length != order	16
+c.compare(v, $.firstKey()) < 0	16
+in[$][j] < 0	16
+$.size() < k	16
+$.n == 0	16
+$.n == 1	16
+$.getRelationship() == Relationship.EQ	16
+$.abs() <= functionValueAccuracy	16
+c.compare($, freqTable.lastKey()) >= 0	16
+$ < -maxStep	16
+source.substring($, endIndex).compareTo(sb.toString()) == 0	16
+yA * $ <= 0	16
+c.compare(v, $) > 0	16
+comparator.compare($, reflected) < 0	16
+$.substring(startIndex, endIndex).compareTo(sb.toString()) == 0	16
+$ > maxError	16
+$ instanceof AbstractStorelessUnivariateStatistic	16
+$ <= 6	16
+comparator.compare($, expanded) <= 0	16
+$ <= k	16
+$.compare(v, nextValue) > 0	16
+$ < 1.0	16
+$.compare(best, reflected) <= 0	16
+$ < minStep	16
+2 * $ == n	16
+$ > numElements	16
+$ < value	16
+$.length != sums.length	16
+locatePoint(time, $) <= 0	16
+$ != MULTIPLICATIVE_MODE	16
+$.max == source.maxImpl	15
+Math.abs($) <= 2.2204e-16	15
+$ == endRow	15
+$.length <= 1	15
+$.min == source.minImpl	15
+Math.abs(convergent - $) > epsilon	15
+$ instanceof ResizableDoubleArray	15
+Math.abs($ - value) < epsilon	15
+$.substring(startIndex, endIndex).compareTo(expected) != 0	15
+$ < 10.0	15
+$.variance == source.varianceImpl	15
+$ instanceof ResizableDoubleArray == false	15
+$ instanceof RealMatrix	15
+$.sumLog == source.sumLogImpl	15
+imagEigenvalues[$] == 0	15
+hK[$ - diagOffset] != 0.0	15
+Math.abs($) <= costRelativeTolerance	15
+$ instanceof RealMatrix == false	15
+$.mean == source.meanImpl	15
+$.sum == source.sumImpl	15
+$[minor] != 0.0	15
+$.geoMean == source.geoMeanImpl	15
+source.substring(startIndex, $).compareTo(expected) != 0	15
+source.substring($, endIndex).compareTo(expected) != 0	15
+$[k - diagOffset] != 0.0	15
+$ > delta	15
+Math.abs($ - value) > epsilon	15
+$ < e	15
+$.length == dimensionSize.length	15
+source.substring(startIndex, endIndex).compareTo($) != 0	15
+qrtMinor[$] != 0.0	15
+realEigenvalues[$] == 0	15
+$.length == d	15
+Math.abs(a0 - $) < epsilon	15
+$ <= b	15
+$ <= minimalIterationCount	15
+hK[k - $] != 0.0	15
+$.sumsq == source.sumsqImpl	15
+$ == SNAN	14
+d2FdXdY[$].length != yLen	14
+$ != dFdX.length	14
+$ < -1.0	14
+$ != f.length	14
+$.mant[mant.length-1] != 0	14
+$ > b1	14
+$ < absoluteTolerance	14
+$.mant[$.mant.length - 1] == 0	14
+f[$].length != yLen	14
+$ != bsign	14
+$ != d2FdXdY.length	14
+FastMath.abs(convergent - $) > epsilon	14
+$ > 709	14
+$ < cnst1	14
+$.length < 4	14
+$.length < p.coefficients.length	14
+coefficients[$] != 0	14
+$[p] != '0'	14
+$ != dFdY.length	14
+$ < z1	14
+$.value() > max	14
+FastMath.abs(root - $) <= convergence	14
+$.length != mainSetDimension	14
+buf[$] == '.'	14
+($ - 1) != 0	14
+dFdX[$].length != yLen	14
+$ < 1030	14
+buf[$] >= '1'	14
+$[i] >= '1'	14
+$ > maxDegree	14
+$.classify() == Dfp.FINITE	14
+$.charAt(p) == '.'	14
+$ * $ == 1.0	14
+$ <= 61	14
+100 * Math.max(b2, $) < a2	14
+$ > mant.length	14
+$ <= 66	14
+$.length != yArray.length	14
+100 * Math.max($, b1) < a2	14
+$[$.length-1] != 0	14
+($ & 1) != 0	14
+FastMath.abs($ - value) < epsilon	14
+$ == 1024	14
+FastMath.abs(a0 - $) < epsilon	14
+$.classify() == INFINITE	14
+$ == -1023	14
+$.exp < b.exp	14
+dFdY[$].length != yLen	14
+($ & 2) != 0	14
+$ > MAX_EXP	14
+$ == QNAN	14
+FastMath.abs($ - value) > epsilon	14
+$ >= RADIX	14
+$ < MIN_EXP	14
+$ < sp	14
+$ < a2	14
+fpdecimal.charAt($) == '.'	14
+$ > -1023	13
+($ + i) > internalArray.length	13
+$ <= cols	13
+$[ir][ir] < small	13
+$ == 31	13
+BigInteger.ZERO.compareTo($) > 0	13
+$ instanceof LinearObjectiveFunction	13
+$ instanceof BigInteger	13
+$ > upperBound	13
+$ > 1.5	13
+$ < minDistance	13
+$ == ConjugateGradientFormula.FLETCHER_REEVES	13
+($ + numElements) > internalArray.length	13
+c[$][$] < small	13
+$ < lowerBound	13
+$ == offset	13
+BigInteger.ONE.compareTo($) < 0	13
+$ instanceof BufferedReader	13
+$[0].length + 1 > x.length	13
+$.right == null	12
+v1.length + $.length == 0	12
+FastMath.abs($) > 40	12
+$[i] > tol	12
+$ >= lower	12
+$ != m	12
+$.skew == Skew.BALANCED	12
+FastMath.abs($ - t) <= convergence	12
+$[i] == '1'	12
+$.getZ().getReal() > 0.9999999999	12
+$.getMinus().getCut() != null	12
+$.attribute == null	12
+node.getCut().side($.getHyperplane()) == Side.PLUS	12
+$ == iu	12
+$ == 0f	12
+$.getY().getReal() < -0.9999999999	12
+$ == x.length	12
+$ != -1	12
+$.left == null	12
+$.getValue() > 0	12
+$ == 0x80000000	12
+$.getZ().getReal() < -0.9999999999	12
+$.getCut().side(sub.getHyperplane()) == Side.PLUS	12
+$ - start != nbPoints	12
+$.length != x.length	12
+node.element.compareTo($) > 0	12
+$ >= 3	12
+FastMath.signum($) + FastMath.signum(y) == 0.0	12
+cut.side($) == Side.PLUS	12
+$ <= x	12
+$.length != dataI.length	12
+FastMath.abs($) > overflow	12
+$ == 0x8000000000000000L	12
+$ <= rmax	12
+$ == 0d	12
+$.getX().getReal() > 0.9999999999	12
+$ < startRow	12
+$ > SIMPSON_MAX_ITERATIONS_COUNT	12
+crossP.dotProduct($.getNormal()) < 0	12
+$ < wEnd	12
+$ > TRAPEZOID_MAX_ITERATIONS_COUNT	12
+$ < nrt	12
+Math.abs(root - $) <= convergence	12
+$ < pivotsHeap.length	12
+FastMath.abs(realEigenvalues[$]) > maxAbsoluteValue	12
+$ != cachedOriginal	12
+$ == DctNormalization.ORTHOGONAL_DCT_I	12
+$ == tree.parent.plus	12
+$ >= length	12
+$ < -20.0	12
+FastMath.abs($) <= threshold	12
+$.side(sHyperplane) == Side.PLUS	12
+getBasicRow($) == null	12
+$ == direction	12
+Math.abs(sumExpected - $) > 10E-6	12
+$ > eps	12
+$ < startColumn	12
+$ <= 0.	12
+$.skew == Skew.LEFT_HIGH	12
+$ < d	12
+$ < c	12
+$ > _j	12
+$.getPlus().getCut() != null	12
+$.dotProduct(otherPlane.getNormal()) < 0	12
+$.length + v2.length == 0	12
+binaryRepresentation[$] == '1'	12
+Math.abs($ - sumObserved) > 10E-6	12
+$.getX().getReal() < -0.9999999999	12
+FastMath.abs(pendingEventTime - $) <= convergence	12
+$ < 255	12
+checkPoint($, loc) == Location.INSIDE	12
+FastMath.abs($) < Precision.SAFE_MIN	12
+$ > ROMBERG_MAX_ITERATIONS_COUNT	12
+$ <= upper	12
+$.getY().getReal() > 0.9999999999	12
+end - $ != nbPoints	12
+$ > Double.MIN_VALUE	12
+$[0] == 1	12
+singularValues[$] > tol	12
+1 / $ > 0	12
+FastMath.abs($) <= ftol	12
+$ < 2047	12
+$.skew == Skew.RIGHT_HIGH	12
+$.nordsieck != null	11
+$.length() != 0	11
+$ >= array.length	11
+MathUtils.compareTo($.getEntry(0, i), 0, epsilon) < 0	11
+$.compareTo(bestChromosome) > 0	11
+$ < -t	11
+$.scaled != null	11
+MathUtils.compareTo(tableau.getEntry(0, i), 0, $) < 0	11
+$.stateVariation != null	11
+Double.compare($[i].getValue(), $[i - 1].getValue()) > 0	11
+$.field != null	11
+$ >= m	11
+$.getNumArtificialVariables() > 0	11
+$ instanceof AggregatingSummaryStatistics == false	11
+FastMath.abs($) <= costRelativeTolerance	11
+$ == robustnessIters	11
+$ > qr	11
+$ == DateTimeZone.UTC	11
+$ instanceof Frequency	11
+MathUtils.compareTo(tableau.getEntry(0, $), 0, epsilon) < 0	11
+$.getDimension() != y.length	11
+$ instanceof Class<?>	11
+$ != other.n	11
+$.getMax() > max	11
+$ instanceof VectorialCovariance	11
+$ >1	11
+$.freqTable != null	11
+$.getDimension() != y0.length	11
+$.getMin() < min	11
+$ instanceof EuclideanIntegerPoint	11
+$ < qa	11
+$ != other.isBiasCorrected	11
+chromosome.compareTo($) > 0	11
+$.length == yArray.length	11
+$ instanceof AggregatingSummaryStatistics	11
+$ < v.length	11
+$ instanceof VectorialMean	11
+Double.compare(ranks[$].getValue(), ranks[$ - 1].getValue()) > 0	11
+$ < -lambda	11
+$ <= p1	11
+$ == NaNStrategy.FIXED	11
+$ == EventHandler.RESET_STATE	10
+FastMath.abs(x1 - $) <= absoluteAccuracy	10
+$[0] != null	10
+FastMath.abs($) > tol1	10
+(w - wLim) * ($ - w) > 0	10
+$ == max	10
+$ != i	10
+MathUtils.sign(y0) + MathUtils.sign($) == 0.0	10
+Precision.compareTo(imagEigenvalues[i], 0.0, $) < 0.0	10
+(Precision.EPSILON * $) * $ > 1	10
+$ > fX2	10
+$ instanceof SimplexTableau	10
+$ > 32	10
+$ instanceof BigMatrixImpl == false	10
+fa * $ > 0.0	10
+$ instanceof BigMatrixImpl	10
+$ == x0	10
+$ == x2	10
+b - $ < tol2	10
+$.size() >= minPts	10
+$ < 0.0d	10
+(w - $) * ($ - xC) >= 0	10
+$.polynoms == null	10
+$.abs().compareTo(largest) == 1	10
+$ >= upperBound	10
+$ < hi	10
+$ instanceof Variance	10
+$ < 10	10
+($ - wLim) * (wLim - xC) >= 0	10
+($ - fVal) > delta	10
+(w - $) * (xC - w) > 0	10
+(w - xC) * ($ - w) > 0	10
+(w - $) * (xB - w) > 0	10
+$ >= seed.length	10
+FastMath.abs(fn1 - $) <= threshold	10
+$ instanceof EventException	10
+(fX2 - $) > delta	10
+$ <= qrRankingThreshold	10
+$ * (direction - $) >= 0	10
+fm * $ > 0.0	10
+u - $ < tol2	10
+MathUtils.sign($) + MathUtils.sign(ym) == 0.0	10
+FastMath.abs($ - x0) <= absoluteAccuracy	10
+$ > p	10
+$ == variance	10
+$ >= dim	10
+$ instanceof DerivativeException	10
+sum.abs().compareTo($) == 1	10
+FastMath.abs($) < tol1	10
+$ / oldDelta > 1	10
+$ <=0	10
+lu[max][$].abs().compareTo(TOO_SMALL) <= 0	10
+swap[$] != rank	10
+lu[$][col].abs().compareTo(TOO_SMALL) <= 0	10
+y0 * $ >= 0	10
+delta / $ > 1	10
+$ - u < tol2	10
+$ * fb > 0.0	10
+$[max][col].abs().compareTo(TOO_SMALL) <= 0	10
+$ * y1 >= 0	10
+$ == 0x000fffffffffffffL	10
+FastMath.abs($ - fn) <= threshold	10
+(w - wLim) * (wLim - $) >= 0	10
+$ == meanImpl	10
+$ instanceof LinearConstraint	10
+$ * fmin > 0.0	10
+$ instanceof LocalDate	10
+$ instanceof GeometricMean	10
+($ - wLim) * (xC - $) > 0	10
+$ - a < tol2	10
+MathUtils.sign(y1) + MathUtils.sign($) == 0.0	10
+$ <= 2	10
+++$ > maxCostEval	10
+d * ($ - d) >= 0	10
+MathUtils.sign(y2) + MathUtils.sign($) == 0.0	10
+$ <= p	10
+$ <= m	10
+$[1] != null	10
+$[rank] != rank	10
+($ - xC) * (xB - $) > 0	10
+lu[max][col].abs().compareTo($) <= 0	10
+Precision.compareTo($, 0d, maxUlps) > 0	10
+Math.max($, worstFitness) - Math.min(historyBest, bestFitness) < stopTolFun	9
+Math.max(historyWorst, $) - Math.min(historyBest, $) == 0	9
+Math.max(historyWorst, worstFitness) - Math.min(historyBest, $) < stopTolFun	9
+Math.abs($ - pendingEventTime) <= convergence	9
+$ / c3 < 0	9
+$.getEntry(i) <= ZERO	9
+gradientAtTrustRegionCenter.getEntry($) >= ZERO	9
+$ == knew	9
+$.getEntry(k) != ZERO	9
+$ > itcsav	9
+Math.max(trustRegionCenterOffset.getEntry(i) - $.getEntry(i), glagValue) < ZERO	9
+$ > yMax	9
+$ > distsq	9
+$ > array.length	9
+$ != 1	9
+$ >= checkFeasableCount	9
+s.getEntry($) > ZERO	9
+$ < yMin	9
+e[$ + 1] == 0.0	9
+$ * d4 < ZERO	9
+$.length <= 0	9
+$ instanceof ParameterizedType	9
+$ instanceof InitialGuess	9
+$ + ccovmu + negccov > 0	9
+$ <= -TWO_POWER_52	9
+$ + ccovmu > 0	9
+$.getEntry(j) <= ZERO	9
+Math.abs(tMed - $) < 1e-6	9
+$ instanceof Weight	9
+$ <= TWO_HUNDRED_FIFTY	9
+$ > diagonalOnly	9
+$ <= .7	9
+steps[$] == 0	9
+$.getEntry(j) >= ZERO	9
+$ > HALF	9
+$.getEntry(i) > ZERO	9
+$ / c2 < 0	9
+Math.abs(t1 - $) <= convergence	9
+Math.abs($) <= tolerance	9
+Math.abs(tMax - $) < 1e-6	9
+$ >= TWO_POWER_52	9
+$[i + 1] == 0.0	9
+$.length != values.length	9
+$ != startPoint.length	9
+Math.max(historyWorst, bestFitness) - Math.min($, bestFitness) == 0	9
+Math.abs($) > largest	9
+$.getEntry(j) <= initialTrustRegionRadius	9
+Math.max($, bestFitness) - Math.min(historyBest, bestFitness) == 0	9
+$.getEntry(iact) < ZERO	9
+$.getEntry(trustRegionCenterInterpolationPointIndex) <= fsave	9
+lowerDifference.getEntry($) >= -initialTrustRegionRadius	9
+weights[$] < 0	9
+Math.max(historyWorst, $) - Math.min(historyBest, bestFitness) < stopTolFun	9
+lowerDifference.getEntry($) == ZERO	9
+$ > -gw	9
+$.getEntry(nfmm) == ZERO	9
+$ == nfm	9
+$ > redmax	9
+$ < npt	9
+$ != kbase	9
+Math.max(trustRegionCenterOffset.getEntry(i) - upperDifference.getEntry(i), $) < ZERO	9
+Math.max($.getEntry(i) - upperDifference.getEntry(i), glagValue) < ZERO	9
+$ != ZERO	9
+s.getEntry($) < ZERO	9
+$ == itermax	9
+Math.abs($ - tMin) < 1e-6	9
+$.getEntry(i, 0) < 0	9
+Precision.compareTo(entry, 0d, $) < 0	9
+$ > negcovMax	9
+Math.abs($) > ztest	9
+Math.min(trustRegionCenterOffset.getEntry($) - lowerDifference.getEntry($), glagValue) > ZERO	9
+Math.abs(fn1 - $) <= threshold	9
+Math.min(trustRegionCenterOffset.getEntry(i) - lowerDifference.getEntry(i), $) > ZERO	9
+Math.abs($) < ONE_OVER_FOUR	9
+work1.getEntry($) == ZERO	9
+fAtInterpolationPoints.getEntry($) <= fsave	9
+$.getOrder() >= nbPoints	9
+$ < iu	9
+angbd * $ > tempa	9
+$ > cauchy	9
+angbd * $ > tempb	9
+Math.max(trustRegionCenterOffset.getEntry($) - upperDifference.getEntry($), glagValue) < ZERO	9
+$ < stplen	9
+FastMath.abs($) <= 2.2204e-16	9
+$.length != scale.length	9
+Math.abs($) > tolerance	9
+$ < MINIMUM_PROBLEM_DIMENSION	9
+$.getEntry(i) == ONE	9
+$ >= ZERO	9
+$ instanceof DiagonalMatrix	9
+$ > fitnessHistory.length	9
+Math.abs($) < minStep	9
+singularValues[$] > threshold	9
+weights[$] > 0.0	9
+xbdi.getEntry($) == MINUS_ONE	9
+$ == column	9
+Math.max(delta, $) > rho	9
+$ * temp > tempb	9
+Math.floor($) < x0	9
+$ != im	9
+Math.abs($ - min) <= absoluteAccuracy	9
+$ < 15.0	9
+s.getEntry($) != ZERO	9
+$.getEntry(i) == MINUS_ONE	9
+$.getColumnDimension() == 1	9
+ccov1 + ccovmu + $ > 0	9
+$.getReal() > -0.19	9
+$ * stepb < ZERO	9
+$ <= ONE_OVER_TEN	9
+gradientAtTrustRegionCenter.getEntry($) <= ZERO	9
+min($) <= 0	9
+$ < iCutover	9
+$[i] > threshold	9
+c2 / $ < 0	9
+$ > e	9
+Math.abs($) < tolerance	9
+$ >= max	9
+$ == MINUS_ONE	9
+$[i] > 0.0	9
+$ instanceof DoubleIndex	9
+Precision.compareTo($, 0d, epsilon) < 0	9
+xbdi.getEntry($) == ONE	9
+$.length != simplex.length	9
+Math.min($.getEntry(i) - lowerDifference.getEntry(i), glagValue) > ZERO	9
+$ > presav	9
+Math.abs($ - root) > convergence	9
+$.length != init.length	9
+$ > startIndex	9
+stepa * $ < ZERO	9
+Math.abs(max - $) <= absoluteAccuracy	9
+Math.abs($ - x0) <= absoluteAccuracy	9
+Math.abs(previousEventTime - $) > convergence	9
+Math.abs($ - fn) <= threshold	9
+$ < cauchy	9
+c1 / $ < 0	9
+$ < nh	9
+$ < requiredMinDiff	9
+$ > rho	9
+d3 * $ < ZERO	9
+lowerDifference.getEntry($) >= ZERO	9
+getIterations() % $ == 0	9
+$.getEntry(j) >= -initialTrustRegionRadius	9
+Math.max($, dnorm) > rho	9
+modelSecondDerivativesParameters.getEntry($) != ZERO	9
+$.getEntry(i) >= ZERO	9
+$ >= npt	9
+Math.min(trustRegionCenterOffset.getEntry(i) - $.getEntry(i), glagValue) > ZERO	9
+isSupported($) == false	9
+$ > bestFitness	9
+Math.abs(x1 - $) <= absoluteAccuracy	9
+$ > stoppingTrustRegionRadius	9
+ccov1 + $ + negccov > 0	9
+Math.abs($.value(upperBound)) < 1E-6	9
+Math.abs($ - tMed) < 1e-6	9
+$ * temp > tempa	9
+Math.max(historyWorst, worstFitness) - Math.min($, bestFitness) < stopTolFun	9
+Math.abs($.value(lowerBound)) < 1E-6	9
+$.length != array2.length	9
+upperDifference.getEntry($) <= initialTrustRegionRadius	9
+$ <= SIXTEEN	9
+$ <= n	9
+$[i].length < 2	9
+data[$].length < 2	9
+$ < blen	9
+diagD.getEntry($, 0) < 0	9
+upperDifference.getEntry($) <= ZERO	9
+ccov1 + $ > 0	9
+$ < expansion	9
+$ + 1 >= minimalIterationCount	8
+$.getValue() == 0	8
+--$ == 0	8
+$ < xval.length	8
+$[0] > 0	8
+$[j] > p	8
+(values[$] > cutoff) == booleanDirection	8
+$ != n	8
+$ instanceof Object[]	8
+(b - $) < t2	8
+Precision.compareTo(imagEigenvalues[$], 0.0, EPSILON) < 0.0	8
+$.getValue() <= minValue	8
+Precision.compareTo($, 0d, epsilon) > 0	8
+values[$] > cutoff	8
+$ instanceof FieldMatrix<?>	8
+($ - u) < t2	8
+$ >= j	8
+$ >= r	8
+(values[i] > $) == booleanDirection	8
+$ > maxDistance	8
+$ == 3	8
+realEigenvalues[$] > p	8
+Math.abs(lu[max][$]) < singularityThreshold	8
+$ instanceof FieldMatrix<?> == false	8
+$.charAt(i) <= '9'	8
+($[i] > cutoff) == booleanDirection	8
+$ < minValue	8
+$ < umin	8
+$ > maxVariance	8
+Math.abs($) > tol	8
+$ instanceof LocalTime	8
+(u - $) < t2	8
+($ - a) < t2	8
+$ > maxNumber	8
+$ == Long.MAX_VALUE	8
+$[i] > cutoff	8
+$.size() == 2	8
+Math.abs(lu[$][col]) < singularityThreshold	8
+$ < 100	8
+$.getValue() >= maxValue	8
+$ > '9'	8
+$ instanceof TypeVariable<?>	8
+$ != firstPointIndex	8
+$.getIndex() >= dim	8
+$ instanceof WildcardType	8
+$ <= bestVarianceSum	8
+$.length != otherPoint.length	8
+$ == 63	8
+$ == maxIter	8
+Math.abs($[max][col]) < singularityThreshold	8
+Math.abs($ - ta) <= convergence	8
+$ < minIndex	8
+$.charAt(i) >= '0'	8
+$ != offset	8
+Precision.compareTo($[i], 0.0, EPSILON) < 0.0	8
+$ == w	8
+$ > 0.0036	7
+$.sign != b.sign	7
+$ < Integer.MAX_VALUE	7
+countEigenValues(middle, $, n) >= n	7
+$.getCut() != null	7
+$.charAt(p) == '0'	7
+countEigenValues(middle, $, n) >= 1	7
+$ <= -1.0	7
+$.size() > 0	7
+compare($, b) > 0	7
+(result.exp+$.length) < MIN_EXP	7
+$ > 2147483646	7
+++$ > maximalCount	7
+fval[$][j].length != zLen	7
+$ > 0.003	7
+FastMath.abs($ - min) <= absoluteAccuracy	7
+$[i].length != nVars	7
+$ != yArray.length	7
+$[j] == 0.0	7
+$ < expansionFactor	7
+$ - start > 2	7
+remainder[$.length] != 0	7
+b.mant[$.length-1] == 0	7
+fpdecimal.charAt($) >= '1'	7
+a.mant[$.length-1] == 0	7
+FastMath.abs($[m]) + delta == delta	7
+Math.abs($[i]) <= max	7
+FastMath.abs(tMed - $) < 1e-6	7
+$ > 0.167	7
+FastMath.abs(e[$]) + delta == delta	7
+countEigenValues(middle, index, $) >= 1	7
+FastMath.abs(max - $) <= absoluteAccuracy	7
+val[$] <= previous	7
+countEigenValues(middle, index, $) >= n	7
+$[q] == '.'	7
+$.getRowDimension() != singularValues.length	7
+d2FdYdZ[i][$].length != zLen	7
+fpdecimal.charAt($) == '0'	7
+FastMath.abs($[max][col]) < singularityThreshold	7
+MathUtils.compareTo($.getEntry(0, i), minValue, epsilon) < 0	7
+FastMath.abs($) > largest	7
+striped[$] != '0'	7
+dFdY[$][j].length != zLen	7
+product[$] != 0	7
+FastMath.abs($ - sumObserved) > 10E-6	7
+d3FdXdYdZ[i][$].length != zLen	7
+d2FdXdY[$][j].length != zLen	7
+MathUtils.compareTo(tableau.getEntry(0, i), minValue, $) < 0	7
+$ instanceof BigReal	7
+$ >= numberOfElements	7
+buffer[$] == '.'	7
+compare(a, $) > 0	7
+fval[i][$].length != zLen	7
+dFdZ[$].length != yLen	7
+$ > offset	7
+$ == bsign	7
+divisor.mant[$.length-1] == 0	7
+100 * Math.max($, oldB1) < b2	7
+FastMath.abs(lu[$][col]) < singularityThreshold	7
+dFdZ[i][$].length != zLen	7
+fpexp.charAt($) >= '0'	7
+Math.abs(lIJ - $) > maxDelta	7
+$ >= numberOfTrials	7
+$.charAt(p) > '9'	7
+$ > 1.633123935319537E16	7
+dFdX[$][j].length != zLen	7
+$.indexOf(-") != -1"	7
+val[$] >= previous	7
+$ > 0.031	7
+val[$] < previous	7
+$ > 0.036	7
+$ > numberOfTrials	7
+n0 - $ > 3	7
+iter % $ == 0	7
+$ < 1.01	7
+$ <= -1023	7
+$ instanceof GenericArrayType	7
+FastMath.abs($ - ta) <= convergence	7
+$ != x.sign	7
+dFdX[i][$].length != zLen	7
+quotient[$] != 0	7
+$ != d2FdYdZ.length	7
+$.exp > b.exp	7
+fpdecimal.charAt($) < '0'	7
+$ > 0.15	7
+$ != expected	7
+$ >= totalSize	7
+$ < mainSetDimension	7
+$ - i0 > 3	7
+fpexp.charAt($) <= '9'	7
+$ < z2	7
+$ >= 4	7
+FastMath.abs($ - root) > convergence	7
+$ < -1074	7
+$ instanceof TransformerMap	7
+$ == x.sign	7
+($ & 0x7ff0000000000000L) == 0	7
+$ >= deflatedEnd	7
+d2FdXdZ[i][$].length != zLen	7
+$.getDimension() != singularValues.length	7
+$.exp < -1	7
+work[$ + 2] <= 0	7
+striped[$] == '0'	7
+$[$.length-1] > 10	7
+$[i + 2] <= 0	7
+$.mant[b.mant.length-1] != 0	7
+FastMath.abs(tMax - $) < 1e-6	7
+FastMath.abs(lu[max][$]) < singularityThreshold	7
+$[j4 - 3] == 0.0	7
+$ == -6	7
+work[$ - 4] > b1	7
+$.length < v.length	7
+$ * $ > 1.0	7
+$[np - 8] > b2	7
+work[$ - 3] == 0.0	7
+$ < -2147483646	7
+$.charAt(i) == '-'	7
+d3FdXdYdZ[$][j].length != zLen	7
+dFdZ[$][j].length != zLen	7
+x.mant[$.length-1] == 0	7
+$.length != singularValues.length	7
+$ == 4503599627370496L	7
+comparator.compare(contracted, $) < 0	7
+$ < -22	7
+$ > -1	7
+(result.mant[$.length-result.exp]&1) != 0	7
+x.mant[$.length-1] != 0	7
+$.mant[$.mant.length-1] != 0	7
+steps[$] == 0.0	7
+rawdigits[$] != '0'	7
+$ < minRatio	7
+$ == '-'	7
+$ < min	7
+$ != dFdZ.length	7
+end - $ > 2	7
+d2FdXdZ[$][j].length != zLen	7
+$.charAt(p) < '0'	7
+$ > 4	7
+FastMath.abs($ - lJI) > maxDelta	7
+$ > 0.087	7
+mant[$] != 0	7
+FastMath.abs(lIJ - $) > maxDelta	7
+d2FdYdZ[$][j].length != zLen	7
+d2FdXdZ[$].length != yLen	7
+$[0].classify() == Dfp.INFINITE	7
+$ != d2FdXdZ.length	7
+result.mant[$.length-1] != 0	7
+$ == (long) y	7
+FastMath.abs($ - tMin) < 1e-6	7
+FastMath.abs(e[m]) + $ == delta	7
+work[$ - 8] > b2	7
+$.charAt(p) <= '9'	7
+FastMath.abs($) < minStep	7
+FastMath.abs($ - tMed) < 1e-6	7
+$ <= t	7
+$ > 1023	7
+f[i][$].length != zLen	7
+d3FdXdYdZ[$].length != yLen	7
+$ > 0.097	7
+$ != startConfiguration.length	7
+$.getRoundingMode() == DfpField.RoundingMode.ROUND_DOWN	7
+$[q] == '0'	7
+$ == rsign	7
+val[$] > previous	7
+dx.mant[$.length-1] == 0	7
+$.charAt(p) >= '1'	7
+$ != rawdigits.length	7
+FastMath.abs(previousEventTime - $) > convergence	7
+x[$].length != nVars	7
+compare(this, $) == 0	7
+$ instanceof Dfp	7
+($.exp+mant.length) < MIN_EXP	7
+$ < sigma	7
+$ > numberOfElements	7
+d2FdYdZ[$].length != yLen	7
+$[mant.length] != 0	7
+$.exp > 0	7
+$.exp > 1	7
+$.length != w.length	7
+FastMath.abs(sumExpected - $) > 10E-6	7
+Math.abs($ - lJI) > maxDelta	7
+$[np - 4] > b1	7
+100 * $ < b2	7
+$ == -18	7
+$ * $ < 1.0	7
+$ < minG	7
+FastMath.sqrt(FastMath.abs($ - meanX * meanX)) < accuracy	7
+$ < striped.length	7
+($.mant[mant.length-$.exp]&1) != 0	7
+$.compare(contracted, best) < 0	7
+fpdecimal.charAt($) > '9'	7
+$ == yArray.length	7
+fpexp.charAt($) == '-'	7
+fpdecimal.charAt($) <= '9'	7
+Math.abs(secondary[$]) <= max	7
+$ >= mant.length	7
+$ == mant.length	7
+$ > 746	7
+$ == 709	7
+countEigenValues($, index, n) >= n	7
+countEigenValues($, index, n) >= 1	7
+FastMath.abs($ - previousEventTime) <= convergence	7
+$ % n == 0	7
+$.sign == 1	7
+a.mant[$.mant.length-1] != 0	7
+d2FdXdY[i][$].length != zLen	7
+$ != d3FdXdYdZ.length	7
+$ >= size	7
+$[$.length-1] > 100	7
+$[$.length-1] > 1000	7
+$ > 0.99	7
+MathUtils.compareTo(tableau.getEntry(0, $), minValue, epsilon) < 0	7
+FastMath.abs($) < accuracy	7
+$ >= maxIter	7
+$ > size	7
+FastMath.floor($) == z2	7
+MathUtils.compareTo(tableau.getEntry(0, i), $, epsilon) < 0	7
+dFdY[i][$].length != zLen	7
+FastMath.sqrt(FastMath.abs(meanXSquared - $ * $)) < accuracy	7
+$!=0.0	7
+f[$][j].length != zLen	7
+$ < 128	7
+$ <= nvars	7
+100 * Math.max(b1, $) < b2	7
+A[$][$] < 0	6
+sigma * Math.max(Math.abs(pcCol[$]), sqrtDiagC[$]) > stopTolX	6
+(instant ^ $) < 0	6
+$ instanceof AbstractRealMatrix	6
+$.right != null	6
+FastMath.signum(y0) + FastMath.signum($) == 0.0	6
+FastMath.signum(y1) + FastMath.signum($) == 0.0	6
+$ >= end	6
+$ > -Precision.SAFE_MIN	6
+$ > rdwarf	6
+fa * $ >= 0.0	6
+$.getIterations() == 2	6
+$ > next	6
+$.getKey() > max	6
+$[k + 1] < 0	6
+this.vorder[$] != i	6
+$ < to	6
+work[$] > value	6
+$[i] > -1	6
+$ == col	6
+$ == DstNormalization.ORTHOGONAL_DST_I	6
+$ > fHi	6
+$ < cgnorm	6
+(($ >> j) & 1) == 1	6
+$.getControlMatrix() == null	6
+z[$] > 0	6
+$ instanceof JacobiKey	6
+(ll & $) == ll	6
+($ % 1. / (ccov1 + ccovmu + negccov) / dimension / 10.) < 1	6
+$ <= ninv	6
+$.cut != null	6
+$ != d	6
+$.length != target.length	6
+$.getNorm() < 1.0e-10	6
+$ > -24	6
+$ == 2d	6
+$.compareTo(this.element) < 0	6
+$.length == ot.components.length	6
+$[index] > previous	6
+$ instanceof Vector1D	6
+Math.abs(r[$]) * work_sing[row] < temp	6
+$ * MACH_PREC >= 0.1	6
+$.length < ot.encoding.length	6
+$.getRowDimension() > 0	6
+$.getReal() > threshold	6
+nextY * $ <= 0	6
+$[0] == 0x0L	6
+$.element.compareTo(element) > 0	6
+$ instanceof Serializable	6
+$.getAttribute() == null	6
+($ - xA) <= xTol	6
+$[i] > 1.0	6
+$[0] * $[1] < 0	6
+work_sing[$] < temp	6
+((SubPlane) attribute.getPlusOutside()).getRemainingRegion().checkPoint($) == Location.INSIDE	6
+x[$] == null	6
+$ * Math.max(Math.abs(pcCol[i]), sqrtDiagC[i]) > stopTolX	6
+$.getKey() <= x	6
+$ > x3max	6
+stepStart + $ <= t	6
+ltI[$] <= absolutePositivityThreshold	6
+$ + stepSize >= t	6
+$ > agiant	6
+$ < -277	6
+$ != previous	6
+$ < x0	6
+$.getReal() < -threshold	6
+$ > -127	6
+$ < xB	6
+$ < fHi	6
+$ >= b	6
+variablesToInclude[$] > -1	6
+$[i].getFreeParameters() != parameters	6
+$ instanceof PopulationSize	6
+FastMath.abs($ - 1d) > 1e-8	6
+Math.abs(m.getEntry($, c)) > epsilon	6
+$.length == 2	6
+FastMath.abs($) > Precision.EPSILON	6
+$ instanceof AbstractSimplex	6
+$.getKey() < min	6
+$ >= Wmax	6
+$ instanceof Composite	6
+$ instanceof Decimal64	6
+FastMath.abs( $ ) > Precision.SAFE_MIN	6
+Math.abs($[pos]) * work_sing[row] < temp	6
+$.length < extend	6
+sigma * $[i] > stopTolUpX	6
+i - $ + 1 > 0	6
+$.getInitialErrorCovariance() == null	6
+sigma * Math.max(Math.abs(pcCol[i]), $[i]) > stopTolX	6
+FastMath.abs($) <= SHORTCUT	6
+$ == lastTime	6
+FastMath.abs(s - $) > epsa	6
+$ < 0.	6
+($ & -$) == n	6
+$ <= cgnorm	6
+((SubPlane) attribute.getPlusInside()).getRemainingRegion().checkPoint($) == Location.INSIDE	6
+(m^$) >= 0	6
+$ instanceof Pair	6
+getBit(vIndex, $) != 0	6
+($^s) >= 0	6
+FastMath.abs($) < 1.0e-20	6
+$[node] >= 0	6
+$ == 1d	6
+cumulativeProbability($ - dx) == px	6
+$ != node.parent.right	6
+$.element.compareTo(reference) < 0	6
+$ instanceof Vector2D	6
+$.length != probabilities.length	6
+$ == '+'	6
+sigma * Math.max(Math.abs($[i]), sqrtDiagC[i]) > stopTolX	6
+$ == Side.PLUS	6
+$ * fx < 0	6
+$ instanceof ComparableSegment	6
+$[in] > 0.0	6
+$.length != localArray.length	6
+$ < ot.offset	6
+(iterations % 1. / ($ + ccovmu + negccov) / dimension / 10.) < 1	6
+$ + 1 < m	6
+$ + 1 < p	6
+$.cachedPivots != null	6
+$.getColumnDimension() > 0	6
+$ < wMiddle	6
+$[i].getOrder() != order	6
+$[5] <= 0	6
+$ != node.parent.left	6
+$[i].length == 0	6
+e[$ + 1] < 0	6
+$ == ExpansionMode.MULTIPLICATIVE	6
+lRow * $ >= Integer.MAX_VALUE	6
+$.getPrimary() != ode	6
+$ > 276	6
+$ * fmin > 0	6
+$ - j + 1 > 0	6
+$ == Short.MIN_VALUE	6
+$ > 0.25	6
+Math.abs(m.getEntry(r, $)) > epsilon	6
+$ < rslLen	6
+$ < '0'	6
+checkPoint(low, $) == Location.INSIDE	6
+$ < 2d	6
+cumulativeProbability($) < px	6
+1 / $ > 0.0	6
+$ >= nvars	6
+((SubPlane) $.getPlusOutside()).getRemainingRegion().checkPoint(point2D) == Location.INSIDE	6
+$ == Byte.MIN_VALUE	6
+acond * $ >= 0.1	6
+$.getInitialStateEstimate() == null	6
+$ > lower	6
+$.length + 1 != nvars	6
+$[i] > 0	6
+$ == to	6
+$ == pivot	6
+$.getRowDimension() != n	6
+$ < 1024	6
+$[1] != 1	6
+$ < Precision.EPSILON	6
+s[$] < 0	6
+$.length != nvars	6
+Math.abs(r[pos]) * $[row] < temp	6
+$ < selectedDistance	6
+Math.abs(r[pos]) * work_sing[$] < temp	6
+$.length > 2	6
+$ <= ninvhalf	6
+d[$] > 0.0	6
+fm * $ > 0	6
+$ >= x3max	6
+FastMath.abs($) > 1.0e-3	6
+FastMath.abs($) > tol	6
+($ = getBase()) != null	6
+$ != 0d	6
+$ < start	6
+$.getReal() >= 0	6
+t[$].getOrder() != order	6
+$.length != len	6
+((i >> $) & 1) == 1	6
+FastMath.signum(y2) + FastMath.signum($) == 0.0	6
+$ * fb >= 0.0	6
+$ - j + 1 < 0	6
+x[$] > 1.0	6
+$ != geoMean	6
+$ >= 10.0	6
+x[$].length == 0	6
+$[i] > value	6
+$ < rdwarf	6
+$[0][0] == null	6
+$ != 1d	6
+$[2] <= 0	6
+$ <= msb	6
+((SubPlane) $.getPlusInside()).getRemainingRegion().checkPoint(point2D) == Location.INSIDE	6
+checkPoint(high, $) == Location.INSIDE	6
+$ > -53	6
+$ < 1.0e-10	6
+$ <= epsx	6
+$ > j	6
+Math.abs($.getEntry(r, c)) > epsilon	6
+historyWorst-$ < stopTolHistFun	6
+y0 * $ > 0	6
+i - $ + 1 < 0	6
+$[col] < temp	6
+(xB - $) <= xTol	6
+$ <= -LOG_MAX_VALUE	6
+$ instanceof Target	6
+$ instanceof BracketedUnivariateSolver<?>	6
+pivotsHeap[$] >= 0	6
+$-historyBest < stopTolHistFun	6
+$ <= lower	6
+FastMath.abs($) <= tol	6
+$.get(0).getStart() == null	6
+$[index] < previous	6
+$ > 2097	6
+$.getReal() < 0	6
+sigma * sqrtDiagC[$] > stopTolUpX	6
+$ < mu	6
+($ & mask) != ll	6
+$ == Side.MINUS	6
+$.attribute != null	6
+stepStart + $ >= t	6
+($ & mask) == ll	6
+$ < -0.5	6
+$ != b.length	6
+$ < FastMath.PI	6
+$ > x1max	6
+$.length > ot.encoding.length	6
+checkedCumulativeProbability($) >= p	6
+$ < f	6
+$[index] >= previous	6
+array[$] < min	6
+FastMath.abs($) < convergence	6
+$[k][k] < 0	6
+$ > _b	6
+$.element == element	6
+(iterations % 1. / (ccov1 + $ + negccov) / dimension / 10.) < 1	6
+this.vorder[$] == i	6
+++$ < len	6
+$ + stepSize <= t	6
+$ >= LOG_MAX_VALUE	6
+(iterations % 1. / (ccov1 + ccovmu + negccov) / $ / 10.) < 1	6
+$.length != 6	6
+$ * y1 > 0	6
+$.compareTo(BigFraction.ONE_HALF) == 1	6
+$ * lCol >= Integer.MAX_VALUE	6
+$ instanceof OrderedTuple	6
+$ < -2098	6
+(iterations % 1. / (ccov1 + ccovmu + $) / dimension / 10.) < 1	6
+max($)/min($) > 1e7	6
+$[1] * $[2] < 0	6
+t[$].getFreeParameters() != parameters	6
+FastMath.signum($) + FastMath.signum(ym) == 0.0	6
+$ != dimension	6
+$ > x2	6
+$ instanceof SimpleBounds	6
+$[0] != 1	6
+$ instanceof Sigma	6
+$ > 30	6
+$.parent == null	6
+(ll & $) != ll	6
+f1 * $ < 0	6
+$ != actual	6
+$ <= 2d	6
+$ >= -1d	6
+cumulativeProbability(x - $) == px	6
+$.left != null	6
+$.length > nvars	6
+$[i] <= absolutePositivityThreshold	6
+$ instanceof AbstractListChromosome	6
+$ != rawLoop.length	6
+$ > 0d	6
+$[k] <= 0	6
+x[$] < 0	6
+1 - $ <= d	6
+$ < largest	6
+singularValues[$] <= 0	6
+$.countFieldsToPrint(period, 1, locale) > 0	6
+$ <= costR	6
+FastMath.abs($ - t) > epsa	6
+inputSigma[$] < 0	6
+$[0] == 0	6
+getBit($, k) != 0	6
+$ > ot.offset	6
+array[$] > max	6
+$[index] <= previous	6
+$ instanceof GoalType	6
+$ < originalCost	6
+$ * yA <= 0	6
+$.element.compareTo(reference) > 0	6
+FastMath.abs($) < tol	6
+components[$] < 0	6
+$-- == 0	6
+$ * sqrtDiagC[i] > stopTolUpX	6
+node.element.compareTo($) < 0	6
+$ == l	6
+$.sign >= 0	6
+$.polynomials == null	6
+$ == StepNormalizerMode.MULTIPLES	6
+$ > xA	6
+$ == AllowedSolution.ANY_SIDE	6
+FastMath.abs(e[$]) > maxAbsoluteValue	6
+$ < upper	6
+$ <= 1d	6
+$ > 1.0e-10	6
+FastMath.abs($.getReal()) <= threshold	6
+$ / c2 < 0.0	5
+instant - $ >= iCutover	5
+ltI[$] < absolutePositivityThreshold	5
+$ instanceof Comparable<?>	5
+$ != neighbor	5
+FastMath.abs($) < CUTOFF_THRESHOLD	5
+$[i] >= r	5
+$ < subtrahendRem	5
+$ > otherValue	5
+countSum1 * $ == 0	5
+$ / c3 < 0.0	5
+$ == 30	5
+c2 / $ < 0.0	5
+Precision.compareTo(imagEigenvalues[i], 0.0, $) > 0	5
+visited.get($) != null	5
+pa.signum() * $.signum() <= 0	5
+chromosomes.size() + $.size() > populationLimit	5
+$[m][m - 1] != 0.0	5
+c1 / $ < 0.0	5
+$ != PointStatus.PART_OF_CLUSTER	5
+$ * pc <= 0	5
+$ > 1.0d	5
+$.nextDouble() < ratio	5
+$[i] < absolutePositivityThreshold	5
+$ == 10	5
+Precision.compareTo(imagEigenvalues[i], 0.0, $) < 0	5
+$ instanceof Calendar	5
+$ + iGapDuration < iCutover	5
+$ == 's'	5
+p.value($) == 0.0	5
+$ < otherValue	5
+$ % 2 == 1	5
+$.signum() * pc.signum() <= 0	5
+$.size() + chromosomeColl.size() > populationLimit	5
+($ ^ offset) >= 0	5
+$[i] == ch	5
+$ <= minY	5
+instant + $ < iCutover	5
+$.y < shift.x	5
+FastMath.log($) >= maxLogY	5
+$ >= Precision.SAFE_MIN	5
+FastMath.abs($ - 1.0) < epsilon	5
+$.getZone() != null	5
+pa * $ <= 0	5
+$.getNumeratorAsInt() != 0	5
+$ * countSum2 == 0	5
+$.size() >= populationLimit	5
+householderVectors[$][$ - 1] != 0.0	5
+$ >= SECONDS_MILLIS	5
+$[i] < min	5
+$ < transitions.length	5
+$ - iGapDuration >= iCutover	5
+$ < idx	5
+$ < dim	5
+dx2[$] >= r	5
+$ instanceof Date	5
+$ > end	5
+$ > data.length	5
+$ instanceof InitializationCompletedMarkerException	5
+$.get(point) != null	5
+$[1] == null	5
+dstPos + $ == append	4
+x[$] >= 0	4
+Math.abs($ - previousEventTime) <= convergence	4
+ga * $ > 0	4
+$ < -1e-6	4
+$ * gb > 0	4
+$ > 1e-6	4
+orders[$] > 0	4
+$ <= TWO_EPS	4
+(strLen = $.length()) == 0	4
+$ == 'F'	4
+$[i] != null	4
+newCache[p][$] == null	4
+$ + 1 < length	4
+$ < 1000	4
+$ instanceof byte[]	4
+(base = $) != null	4
+(instant ^ $) >= 0	4
+$ < -mu	4
+$ < stirlingS2.length	4
+$ != end	4
+$ instanceof boolean[]	4
+($ = iBase) != null	4
+$ instanceof char[]	4
+$ <= c4	4
+$ <= c1	4
+$ <= c3	4
+$ <= c2	4
+Precision.compareTo(imagEigenvalues[$], 0.0, EPSILON) < 0	4
+covMatEigenvalues[$] < 0	4
+Double.doubleToLongBits($[0]) < 0	4
+$ == NONE	4
+$ < csLast	4
+($ = str.length()) == 0	4
+Precision.compareTo($[i], 0.0, EPSILON) < 0	4
+Precision.compareTo(imagEigenvalues[$], 0.0, EPSILON) > 0	4
+$ < second	4
+$ instanceof short[]	4
+$ < otherMillis	4
+$>0	4
+cache[$].length > order	4
+$++ < n	4
+$ < subtrahendInstant	4
+newCache[$][o] == null	4
+$.getOffsetInteger() != null	4
+$ != compiler.order	4
+$ instanceof NaturalRanking	4
+$ == 'f'	4
+$ instanceof int[]	4
+$ >= 'a'	4
+Precision.compareTo($[i], 0.0, EPSILON) > 0	4
+$[parameters].length > order	4
+$ > order	4
+$ <= 'z'	4
+$[xOffset] >= 0	4
+($ ^ sum) < 0	4
+$ == RESET_STATE	4
+$[j] == ch	4
+++$ > MAX_ITERATIONS	4
+$ != compiler.parameters	4
+$ <= instant	4
+$ == RESET_DERIVATIVES	4
+$[k] > 0	4
+(val1 ^ $) < 0	4
+searchChars[$] == ch	4
+$.isSupported() == false	4
+$ != Integer.MIN_VALUE	4
+$ == value	4
+$.size() <= 0	4
+$ <= 'Z'	4
+$ >= 'A'	4
+$ + i == append	4
+$.getFinalState() != null	4
+$ == 'E'	4
+$.length > parameters	4
+$[p][o] == null	4
+$ instanceof long[]	4
+$[j] > max	4
+$[0].length > x.length	4
+$ instanceof float[]	4
+$++ % 2 != 0	4
+get($) != value	3
+$ >= maxEvaluations	3
+$ != numCols	3
+Math.abs($ - logLikelihood) > threshold	3
+$[i] <= t	3
+(iterations % 1. / (ccov1 + $ + negccov) / dimension / 10.) < 1.	3
+$.sign < 0	3
+before.countFieldsToPrint($, 1, locale) > 0	3
+$++ == max	3
+$ < prevY	3
+$!=null	3
+$ > endIndex	3
+$ instanceof SearchInterval	3
+MathUtils.compareTo(tableau.getEntry($, col), 0, epsilon) >= 0	3
+$ != r	3
+$ == 'o'	3
+MathUtils.compareTo(entry, 0, $) > 0	3
+$[r] != r	3
+$ <= -TWO_POWER_53	3
+$ != inserted	3
+$ >= 1373653	3
+$ instanceof MaxIter	3
+$ <= PAD_LIMIT	3
+$ <= sum	3
+$ < costR	3
+$ < 16.0	3
+$.getNode() == null	3
+$ < secondLargest	3
+$ < minDigits	3
+MathUtils.compareTo(tableau.getEntry(i, col), 0, $) >= 0	3
+1/$ > 0.0	3
+$ >= TWO_POWER_53	3
+sigma*(Math.max(Math.abs(pcCol[i]), $[i])) > stopTolX	3
+$[ir][ir] <= small	3
+max($) / min($) > 1e7	3
+neighbor.distanceFrom($) <= eps	3
+$ == originalZone	3
+cache[parameters][$] != null	3
+$ == il	3
+$ > 59	3
+$ == CharUtils.LF	3
+$ instanceof FieldVector3D	3
+searchList[$] == null	3
+$[parameters][order] != null	3
+$ instanceof CachedDateTimeZone	3
+$*sqrtDiagC[i] > stopTolUpX	3
+FastMath.abs($.getOffset(vertex.getLocation())) <= hyperplaneThickness	3
+$.getReal() > 0.1	3
+$.length < nCols	3
+MathUtils.compareTo($.getEntry(0, i), 0, epsilon) > 0	3
+$ <= 2.5	3
+swap[$] != r	3
+$ < sum	3
+$ <= 8.0	3
+FastMath.abs(e[$]) > threshold	3
+$ < iNextInfo.iPeriodStart	3
+singletons.get($) == null	3
+(iterations % 1. / (ccov1 + ccovmu + $) / dimension / 10.) < 1.	3
+$ < extremeT	3
+Math.abs(previousLogLikelihood - $) > threshold	3
+$ == 'O'	3
+Math.abs($) > epsilon	3
+$ >= 25326001	3
+(thisNorm / $) * rNorm < dropThreshold	3
+1/$ == 0	3
+$ instanceof LinearConstraintSet	3
+Math.abs($[i])>maxAbsoluteValue	3
+MathUtils.compareTo(tableau.getEntry(0, $), 0, epsilon) > 0	3
+$ == modType	3
+FastMath.abs($[i])>maxAbsoluteValue	3
+$ - historyBest < stopTolHistFun	3
+$<0	3
+$ == 'N'	3
+$ > internalArray.length	3
+k[i][$] != 0	3
+sigma*(Math.max(Math.abs(pcCol[$]), sqrtDiagC[$])) > stopTolX	3
+$ >= iCutoverMillis	3
+cs.charAt($) != ' '	3
+$ <= expandedCost	3
+historyWorst - $ < stopTolHistFun	3
+$.charAt(i) != ' '	3
+$ instanceof ModelFunctionJacobian	3
+FastMath.abs($[k]) <= threshold	3
+sigma*$[i] > stopTolUpX	3
+$ instanceof SparseFieldVector	3
+$ != 2	3
+MathUtils.compareTo($, 0, epsilon) > 0	3
+$.getName().indexOf('$') == -1	3
+(iterations % 1. / ($ + ccovmu + negccov) / dimension / 10.) < 1.	3
+$ > 1000.0	3
+MathUtils.compareTo(tableau.getEntry(i, $), 0, epsilon) >= 0	3
+$.length != data.length	3
+$ < smallest	3
+$ <= iSkip	3
+$ == line2	3
+$[0].length < nCols	3
+1/$ < 0.0	3
+$.length < sampleSize	3
+$ < RADIX	3
+k[$][j] != 0	3
+$ >= parameters	3
+$ < 6.25	3
+FastMath.abs($) < cutOff	3
+FastMath.abs($[k]) > threshold	3
+replacementList[$] == null	3
+$ == bl	3
+$ instanceof UnivariateObjectiveFunction	3
+$ < Double.MIN_VALUE	3
+c[$][$] <= small	3
+$ == 'w'	3
+$ >= 2047	3
+$.distanceFrom(point) <= eps	3
+$ <= 1.5	3
+$ == 'e'	3
+(iterations % 1. / (ccov1 + ccovmu + negccov) / $ / 10.) < 1.	3
+$ instanceof EuclideanDoublePoint	3
+after.countFieldsToPrint(period, 1, $) > 0	3
+(thisNorm / lastNorm) * $ < dropThreshold	3
+lTData[$][$] < absolutePositivityThreshold	3
+($ % 1. / (ccov1 + ccovmu + negccov) / dimension / 10.) < 1.	3
+$ instanceof FieldMatrix	3
+$ < t	3
+$.getN() <= 1	3
+$ != start	3
+$ > second	3
+$ instanceof DerivativeStructure	3
+updates[$] <= t	3
+$==null	3
+$*(Math.max(Math.abs(pcCol[i]), sqrtDiagC[i])) > stopTolX	3
+$ instanceof BracketingStep	3
+($ & 0x1) == 1	3
+$ instanceof FieldMatrix == false	3
+FastMath.abs(e[$]) <= threshold	3
+$ == ADDITIVE_MODE	3
+DateTimeZone.UTC.equals($.getZone()) == false	3
+$.getSecond().getDimension() != dim	3
+destination[$].length < columnsCount	3
+sigma*(Math.max(Math.abs($[i]), sqrtDiagC[i])) > stopTolX	3
+$ instanceof MaxEval	3
+$ == SECONDS_MILLIS	3
+$.getColumnDimension() != n	3
+$[i].length < columnsCount	3
+$.getReal() < 0.0	3
+$ instanceof ObjectiveFunctionGradient	3
+$.x == 0.0	3
+($ / lastNorm) * rNorm < dropThreshold	3
+$ instanceof ObjectiveFunction	3
+$.get(i) == null	3
+$>1e-6	3
+$ instanceof Quaternion	3
+$ != nMinus1	3
+MathUtils.compareTo(tableau.getEntry(0, i), 0, $) > 0	3
+$.length != nR	3
+$[i][j] != 0	3
+sigma*sqrtDiagC[$] > stopTolUpX	3
+$.length == 5	3
+$ <= Precision.SAFE_MIN	3
+$ != minor	3
+$ > l2NormSquaredMax	3
+FastMath.abs(line.getOffset($.getLocation())) <= hyperplaneThickness	3
+after.countFieldsToPrint($, 1, locale) > 0	3
+$[i][i] < absolutePositivityThreshold	3
+buffer[$] == ch	3
+$ == otherMillis	3
+before.countFieldsToPrint(period, 1, $) > 0	3
+$ <= v	3
+$ != Long.MIN_VALUE	3
+$ >= hi	3
+MathUtils.compareTo($.getEntry(i, col), 0, epsilon) >= 0	3
+$<-1e-6	3
+$ instanceof ModelFunction	3
+$ > Long.MIN_VALUE	3
+$.getReal() < -0.1	3
+cache[$][order] != null	3
+$ <= 20.0	3
+k[$] != 0	3
+$ != columnDimension	3
+$.getFirst() < 0	3
+$ instanceof NonNegativeConstraint	3
+array[$] == null	3
+$ == 'n'	3
+$ <= scale	2
+Character.isDigit(cs.charAt($)) == false	2
+$ instanceof Map.Entry<?,?>	2
+value.compareTo($) >= 0	2
+nBools - 1 + $ >= 32	2
+Precision.compareTo($, 0.0d, epsilon) > 0	2
+Math.sqrt(Math.abs($ - meanX * meanX)) < accuracy	2
+Character.isWhitespace($.charAt(i)) == false	2
+$ >= '0'	2
+$ > dimension	2
+$.charAt(i + 1) == '\''	2
+$.charAt(0) == '-'	2
+$ >= 4503599627370496.0	2
+(nBytes - 1) * 8 + $ >= 64	2
+$ == padLen	2
+$ == last	2
+FastMath.abs(realEigenvalues[$])>maxAbsoluteValue	2
+$[i] == 'E'	2
+$.getRangeDurationType() == null	2
+str.charAt($) == '^'	2
+searchList[$].length() == 0	2
+$ == 'y'	2
+tableau.getEntry(basicRow, $) == 1	2
+distance(neighbor, $) <= eps	2
+$ == 29	2
+$ instanceof DataRow	2
+$ < textIndex	2
+singularValues[$]>0	2
+(c = text.charAt(position + $ + 1)) < '0'	2
+Math.floor($) == z2	2
+$ == 'T'	2
+Math.abs(realEigenvalues[$])>maxAbsoluteValue	2
+($ ^ diff) < 0	2
+$ == end	2
+$ < iCutoverMillis	2
+$ >= below	2
+$ > 'z'	2
+$ instanceof ReadablePeriod == false	2
+$ >= instant	2
+$ > maxDay	2
+$ == searchLast	2
+$ instanceof DoublePoint	2
+value.compareTo($) > 0	2
+$.getCause() == null	2
+$[i] <= max	2
+$ >= min	2
+$[i].length() == 0	2
+Character.isWhitespace(cs.charAt($)) == false	2
+Math.abs($) < accuracy	2
+(c = $.charAt(position + length + 1)) < '0'	2
+$ instanceof Annotation	2
+$ instanceof DateTimeParser	2
+$ == millis	2
+$ / val2 != val1	2
+$.length() <= len	2
+$ < skip	2
+membershipMatrix[$][j] > maxMembership	2
+$.length > numOfDimensions	2
+pattern.charAt($ + 1) == '\''	2
+Math.min(x.length, $.length) < 2	2
+$ <= 1.0d	2
+array[$] != null	2
+nBools - 1 + $ >= 8	2
+n + $ == 0	2
+((NaturalRanking) $).getNanStrategy() == NaNStrategy.REMOVED	2
+$ > MIDPOINT_MAX_ITERATIONS_COUNT	2
+$ <= above	2
+$ < iFromYear	2
+array[$] <= max	2
+$ == 12	2
+iChronology.getYear($) <= 0	2
+$ < size	2
+$.charAt(0) == 'L'	2
+Character.isLetterOrDigit($.charAt(i)) == false	2
+$ instanceof BaseLocal	2
+$ == 'Y'	2
+$ >= 9	2
+distance($, point) <= eps	2
+$ <= -4503599627370496.0	2
+$[i][j] > maxMembership	2
+chars[$] >= '0'	2
+$ < 10000	2
+$.compareTo(end) >= 0	2
+(nShorts - 1) * 16 + $ >= 64	2
+iFieldFormatters[$] != null	2
+$ > MAX_DIMENSION	2
+$.isInstance(obj) == false	2
+$[i]>0	2
+types[$] == null	2
+$ > bases.length	2
+$ instanceof FixedDateTimeZone	2
+$.length() <= 0	2
+$ < below	2
+Precision.compareTo($[i], 0.0, epsilon) < 0.0	2
+$ <= dimension	2
+++$ == 0	2
+$ > above	2
+(val1 ^ $) >= 0	2
+Pattern.matches(pattern, $) == false	2
+$ < 30	2
+$ instanceof ReadablePeriod	2
+(c = text.charAt($ + length + 1)) < '0'	2
+$ > PAD_LIMIT	2
+$[i] == search	2
+value.compareTo($) < 0	2
+$ <= max	2
+Character.isLetter(cs.charAt($)) == false	2
+$ == '\''	2
+$ == idx	2
+$ < dimension	2
+chars[$] <= '9'	2
+$[3] == 0.0	2
+$[i] >= min	2
+$.charAt(lastIdx - 1) == CharUtils.CR	2
+$ == 'p'	2
+$ instanceof GregorianCalendar	2
+$.charAt($.length() - 1) == ';'	2
+chars[$] == 'e'	2
+$ + 1 >= limit	2
+$[i] > max	2
+value.compareTo($) <= 0	2
+$ > m	2
+array[$] >= min	2
+$ == sz	2
+$ == 'S'	2
+$ < searchLast	2
+$.length != bases.length	2
+$.compareTo(start) < 0	2
+$ > Calendar.SATURDAY	2
+(limit = $) != null	2
+thisBuf[$] == ch	2
+$ instanceof RuntimeException	2
+$.compareTo(start) <= 0	2
+$ < 'A'	2
+total / $ != val1	2
+Math.sqrt(Math.abs(meanXSquared - $ * $)) < accuracy	2
+Precision.compareTo(s, 0.0d, $) > 0	2
+(nBytes - 1) * 8 + $ >= 16	2
+Precision.compareTo(imagEigenvalues[$], 0.0, epsilon) < 0.0	2
+input.charAt($) == '\\'	2
+DateTimeUtils.isContiguous($) == false	2
+$.length < numOfDimensions	2
+$ < i	2
+$ == falseValue	2
+$ < 7	2
+chars[$] == '.'	2
+superType.isAssignableFrom($) == false	2
+substitute($, 0, length) == false	2
+($ ^ val2) >= 0	2
+buffer[$] == search	2
+($ = text.charAt(position + length + 1)) < '0'	2
+$ < Calendar.SUNDAY	2
+(instantLocal ^ $) < 0	2
+(nShorts - 1) * 16 + $ >= 32	2
+Math.min($.length, y.length) < 2	2
+$.length != 4	2
+$ < length	2
+$.dimension != dimension	2
+nBools - 1 + $ >= 64	2
+$ == PRINT_ZERO_ALWAYS	2
+membershipMatrix[i][$] > maxMembership	2
+$ > oldPos	2
+$ > chars.length	2
+$ instanceof DateTimePrinter	2
+tableau.getEntry($, i) == 1	2
+$[i] == 'e'	2
+cs.charAt($) == searchChar	2
+$.compareTo(end) > 0	2
+$ != nextAdjusted	2
+$ == object2	2
+$ < 256	2
+Character.isLetter($.charAt(i)) == false	2
+$.charAt(pos) == '^'	2
+chars[$] == 'E'	2
+$ instanceof PeriodType	2
+Character.isDigit($.charAt(i)) == false	2
+(nBytes - 1) * 8 + $ >= 32	2
+substitute(buf, 0, $) == false	2
+$ == 'P'	2
+$ == 354	2
+$ == trueValue	2
+$.floatValue() == 0.0F	2
+$.isAssignableFrom(type) == false	2
+nBools - 1 + $ >= 16	2
+$ == 't'	2
+$ >= FEB_29	2
+$.getToYear() == Integer.MAX_VALUE	2
+$.getEntry(basicRow, i) == 1	2
+$ instanceof LocalDateTime	2
+$.getYear(instant) <= 0	2
+Pattern.matches($, input) == false	2
+$ > 'Z'	2
+$.end == Character.MAX_VALUE	2
+$ != INDEX_NOT_FOUND	2
+$ + omegaCount == 0	2
+($ ^ offset) < 0	2
+(nInts - 1) * 32 + $ >= 64	2
+$ != replace	2
+FastMath.abs($) <= TWO_EPS	2
+$ >= width	2
+$== null	2
+$ < padLen	2
+$ < 'a'	2
+$ <= 19	2
+($ ^ adjustedInstant) < 0	2
+$ == SECONDS_OPTIONAL_MILLIS	2
+isAsciiNumeric($) == false	2
+$ <= '9'	2
+Math.abs($) == 1	2
+$ instanceof AbstractIntegrator	2
+$ == cs2	2
+type.isInstance($) == false	2
+$.charAt(i) == searchChar	2
+Character.isLetterOrDigit(cs.charAt($)) == false	2
+$.charAt(index) == '\\'	2
+$>=n	2
+$ < scale	2
+chars[$ + 1] == 'x'	1
+$ < 0x10	1
+$ > Byte.MAX_VALUE	1
+$ == oldPos	1
+$.charAt(5) != '_'	1
+$ instanceof AbstractPartialFieldProperty == false	1
+input.charAt($) == '&'	1
+($ = strs.length) == 0	1
+$.iType == type	1
+$[pos.getIndex()] != END_FE	1
+entries[$] == null	1
+$.contains(defaultLocale) == false	1
+chars[$ - 1] == escape	1
+$ > instant	1
+$ == Character.UPPERCASE_LETTER	1
+(nHexs - 1) * 4 + $ >= 32	1
+$ != era	1
+$.length != startPoint.length	1
+getFieldType($).getDurationType() == type	1
+$ < expectedPos	1
+$ < range.end	1
+chars[$] < '0'	1
+$.remove(DurationFieldType.months()) == false	1
+$.length != types.length	1
+$ == pivotYear	1
+$ > 354	1
+$ instanceof PreciseDurationField	1
+$ > Short.MAX_VALUE	1
+Precision.compareTo(p, 0.0, $) < 0	1
+$ > maxDom	1
+Precision.compareTo($, minValue, maxUlps) < 0	1
+$.charAt(i) == separatorChar	1
+source.substring($, endIndex).compareTo( getImaginaryCharacter()) != 0	1
+chars[$] > 'F'	1
+$ == falseString	1
+($ - 1) * 8 + dstPos >= 64	1
+$.indexOf(remove) == INDEX_NOT_FOUND	1
+$ == year	1
+$ != offsetAdjusted	1
+substitute(buf, 0, $.length()) == false	1
+input.charAt(index + $) == '+'	1
+$ > position	1
+$ == skip	1
+$ == field	1
+$.year().get(nextMillis) >= YEAR_LIMIT	1
+$ < instant	1
+$ == 'U'	1
+($ & 5) == 5	1
+$.charAt(index) == '&'	1
+$.getTime() != time	1
+lastRangeField.compareTo($) == 0	1
+$ != CharUtils.CR	1
+$ instanceof MillisDurationField	1
+separatorChars.indexOf($.charAt(i)) >= 0	1
+$ > nextOffset	1
+(copyOfParsers[i] = $[i]) == null	1
+(instantUTC ^ $) >= 0	1
+$ != 5	1
+$ == Character.LOWERCASE_LETTER	1
+$ % (30 * 60000L) == 0	1
+(endMatchLen = prefixMatcher.isMatch($, pos, offset, bufEnd)) != 0	1
+$ instanceof PeriodType == false	1
+FastMath.abs(e[$])>maxAbsoluteValue	1
+$ instanceof AbstractPartialFieldProperty	1
+Integer.parseInt(input.subSequence($, end).toString(), 10) > OCTAL_MAX	1
+(($ << (64 - 38)) >> (64 - 38)) == seconds	1
+$ == denominator	1
+$.charAt(index + i) == '+'	1
+($ = iUpperLimit) != null	1
+$>x1max	1
+chars[$] == '+'	1
+str.charAt($ + 1) == '-'	1
+types[$ - 1].getRangeDurationType() == null	1
+$ <= start	1
+$ == START_FMT	1
+Integer.parseInt(input.subSequence(start, $).toString(), 10) > OCTAL_MAX	1
+str.charAt($) == separatorChar	1
+str.charAt($) <= '9'	1
+$ instanceof SimpleDateFormat == false	1
+compareReverse($, days) <= 0	1
+$ instanceof OfYear	1
+$ == 25	1
+str.charAt($ - 1) == 'S'	1
+$[i] > 'f'	1
+MemberUtils.compareParameterTypes($.getParameterTypes(), result .getParameterTypes(), parameterTypes) < 0	1
+FastMath.abs($) < tolerance	1
+$ <= 57343	1
+$.isInstance(object) == false	1
+$[minor][minor] != 0.0	1
+$ instanceof AbstractReadableInstantFieldProperty	1
+$ > 0.016	1
+$.length() != 2	1
+$.length() != 3	1
+$ == '.'	1
+$ > MAX_YEAR	1
+$ <= size	1
+$.getIndex() >= 0	1
+isSupported(type, $) == false	1
+$ >= sepLen	1
+compare($, result, false) > 0	1
+$ < Short.MIN_VALUE	1
+$.length() > est	1
+Precision.compareTo($[i], 0.0, epsilon) > 0	1
+--$ % 2 == 1	1
+$ < MIN_YEAR	1
+CharUtils.isAsciiPrintable($.charAt(i)) == false	1
+($ + len) < 0	1
+add(subtrahendInstant, $) > minuendInstant	1
+$ instanceof MutableBoolean	1
+($ - 1) * 16 + srcPos >= 64	1
+$ <= diffFromFloor	1
+(nHexs - 1) * 4 + $ >= 16	1
+$.charAt(len - 1) == 's'	1
+separatorChars.indexOf(str.charAt($)) >= 0	1
+getDelimiterMatcher().isMatch(chars, start, start, $) > 0	1
+$ == 'x'	1
+$ >= firstWeekMillis2	1
+$ > 0xffff	1
+($ - 1) * 4 + srcPos >= 16	1
+$ >= 56192	1
+$ != idKey.id	1
+$ != yearStartMillis	1
+$ - 1 + srcPos >= 16	1
+MemberUtils.compareParameterTypes( accessibleMethod.getParameterTypes(), $.getParameterTypes(), parameterTypes) < 0	1
+$ instanceof Cloneable	1
+max - $ > 32	1
+$.equals(text) == false	1
+compareReverse(first, $) >= 0	1
+$ > 0xff	1
+compare($, result, true) < 0	1
+$ >= prevIndex	1
+($ - 1) * 8 + srcPos >= 64	1
+$<100	1
+$ < Byte.MIN_VALUE	1
+$ >= len	1
+$ >= WEEK_53	1
+isSupported($, iFieldType) == false	1
+$>agiant	1
+$ > indicesIndex	1
+(values[block] & 1 << ($.ordinal() % Long.SIZE)) != 0	1
+priorVariables.contains($) == false	1
+ArrayUtils.isSameLength($, toClassArray) == false	1
+Character.isLowerCase(cs.charAt($)) == false	1
+chars[$] != remove	1
+right	1
+$ < -3	1
+ha * $ < 0	1
+$ instanceof PeriodPrinter	1
+$ instanceof PeriodParser	1
+$ > maxOutWeeks	1
+$ instanceof DelegatedDurationField	1
+$ != nextOffset	1
+$ < 0x100	1
+compare(value, $, false) > 0	1
+Character.isUpperCase(cs.charAt($)) == false	1
+withUTC().dayOfYear().remainder($) == 0	1
+$ == offsetOriginal	1
+MathUtils.compareTo(entry, 0, $) >= 0	1
+chars.contains(chrs[$]) == expect	1
+$.length() <= maxWidth	1
+CharSequenceUtils.indexOf($, ch2, 0) < 0	1
+$ > 51	1
+$ == true""	1
+Character.isUpperCase($.charAt(i)) == false	1
+($ - 1) * 4 + srcPos >= 8	1
+$ instanceof CharSet == false	1
+(get($) & 1) == 0	1
+$ instanceof UnsupportedDurationField	1
+offset + $ > chars.length	1
+text.charAt($) != ':'	1
+$.getDurationField() != durationField	1
+$ > otherEnd	1
+$ instanceof StepHandlerWrapper	1
+(endMatchLen = prefixMatcher.isMatch(chars, $, offset, bufEnd)) != 0	1
+src.length - $ < 4	1
+isAssignable(classArray[$], toClassArray[$], autoboxing) == false	1
+$ > length	1
+$ == Character.MIN_VALUE	1
+($ ^ instantUTC) < 0	1
+$ != END_FE	1
+$.charAt(pos + 2) == '-'	1
+$ > 0.05	1
+$ < nextOffset	1
+$ instanceof ReadableInstant == false	1
+$.isMatch(buf, i, 0, endIndex) > 0	1
+MemberUtils.compareParameterTypes( accessibleMethod.getParameterTypes(), bestMatch.getParameterTypes(), $) < 0	1
+$.chars != null	1
+$ > expectedPos	1
+$ + 1 < strLen	1
+list.contains($) == false	1
+$.length < len	1
+$ % 1000L == 0	1
+$[pos - 1] == escape	1
+CharSequenceUtils.indexOf(searchChars, $, 0) < 0	1
+$.charAt(i) == '.'	1
+$[i + 1] == null	1
+$.getWeeksInYear(minuendWeekyear) <= 52	1
+$[i] >= previous	1
+$[i] == 'D'	1
+$[i] < '0'	1
+getDelimiterMatcher().isMatch(chars, $, $, len) > 0	1
+$ == Calendar.SECOND	1
+$ instanceof Triple<?,?,?>	1
+$ == 'l'	1
+$ - 1 + srcPos >= 32	1
+$[i] == 'l'	1
+$ instanceof FastDateFormat == false	1
+$.remove(DurationFieldType.seconds()) == false	1
+$ == type	1
+(values[$] & 1 << (constant.ordinal() % Long.SIZE)) != 0	1
+($ & 6) == 6	1
+$ != SECONDS_OPTIONAL_MILLIS	1
+$ + length > chars.length	1
+$ == chrono	1
+$ instanceof StringBuilder	1
+(offsetLocal - $) < 0	1
+$.charAt(i - 1) == t_j	1
+$.start == 0	1
+qr[$][$] > 0	1
+($[block] & 1 << (constant.ordinal() % Long.SIZE)) != 0	1
+$.doubleValue() == 0.0D	1
+$ == CharUtils.CR	1
+str.charAt($ - 1) == CharUtils.CR	1
+$ instanceof ScaledDurationField	1
+comparator.compare(element1, $) < 1	1
+$ > bestInvalidPos	1
+Precision.compareTo(entry, $, maxUlps) < 0	1
+$ instanceof StrictDateTimeField	1
+getQuoteMatcher().isMatch($, start, start, len) > 0	1
+$ != pos2	1
+$ < diffToCeiling	1
+$.compare(element1, element2) < 1	1
+($ / 1000) * 1000 == millis	1
+$ instanceof Fraction == false	1
+chars[$] == 'L'	1
+iEraText.equals($) == false	1
+period.getValue($) != 0	1
+$ < digits	1
+$.charAt(0) == '#'	1
+($ ^ instantLocal) < 0	1
+Math.abs(lu[max][$]) < TOO_SMALL	1
+$ > endLimit	1
+FastMath.abs($) > tolerance	1
+c[$.getIndex()] == START_FMT	1
+$.charAt(0)=='+'	1
+$.get(Calendar.DAY_OF_MONTH) == 29	1
+$ instanceof FastDatePrinter == false	1
+$ == iSkip	1
+$ >= position	1
+$ instanceof ReadableDuration == false	1
+$==31	1
+$ != 29	1
+$ >= 8	1
+$.charAt(position) != ','	1
+$.remove(DurationFieldType.years()) == false	1
+css[$].charAt(stringPos) != comparisonChar	1
+$.iYear != year	1
+($ - 1) * 4 + dstPos >= 8	1
+$ > rhsMillis	1
+$ instanceof ReadablePartial == false	1
+str.charAt($ - 1) == 's'	1
+$[i] > 'F'	1
+$.next() == null	1
+(nHexs - 1) * 4 + $ >= 64	1
+$[n] <= threshold	1
+(startIndex + $) > chars.length	1
+$[i - 1].getRangeDurationType() == null	1
+$ >= throwables.length	1
+$.iSuffix != null	1
+$ <= nextMillis	1
+$.isPrecise() == false	1
+p[$] <= threshold	1
+$.length() < 3	1
+$ * hc < 0	1
+$ instanceof ConstantInitializer<?>	1
+$[i] == type	1
+source.substring(startIndex, $).compareTo( getImaginaryCharacter()) != 0	1
+$ == 'a'	1
+getDelimiterMatcher().isMatch($, start, start, len) > 0	1
+$ instanceof ReadableInstant	1
+$.getPivotYear() != null	1
+$[field]==null	1
+$.remove(DurationFieldType.millis()) == false	1
+$ == true	1
+$ < ret	1
+$ instanceof CharRange == false	1
+$ - min > 32	1
+$[i] <= previous	1
+$ == 'X'	1
+pos + $ >= len	1
+matcher.isMatch($, i, startIndex, len) > 0	1
+(nHex - 1) * 4 + $ >= 8	1
+substitute($, 0, source.length()) == false	1
+$ > firstMillis	1
+$.getDate() == dom	1
+$.length != zval.length	1
+$.charAt(len - 1) == 'S'	1
+$ != tokenStart	1
+$ !=x	1
+$ instanceof ZonedChronology == false	1
+($ - 1) * 4 + srcPos >= 64	1
+$ != replacementLength	1
+src.length - $ < 16	1
+chars[$] < 'A'	1
+chars[$] == '0'	1
+$ == 'r'	1
+ArrayUtils.isSameLength(classArray, $) == false	1
+FastMath.floor($) < x0	1
+$ > ROUND_HALF_EVEN	1
+(endMatchLen = prefixMatcher.isMatch(chars, pos, offset, $)) != 0	1
+$[start] == '0'	1
+$ instanceof Long	1
+(nHex - 1) * 4 + $ >= 16	1
+$.charAt(position) != ':'	1
+c[$] == QUOTE	1
+get($) == DateTimeConstants.CE	1
+Arrays.binarySearch(this.excludeFieldNames, $.getName()) >= 0	1
+$ == str2	1
+$ % 60000L == 0	1
+chars.contains($[i]) == expect	1
+isSupported($.getDurationType()) == false	1
+$ < instantAdjusted	1
+$ == firstMillis	1
+$ == nextStdOffset	1
+$.length > 8	1
+(instantUTC ^ $) < 0	1
+$ instanceof StandardDateTimeFieldType	1
+$ instanceof ReadableInterval == false	1
+$ == '_'	1
+css[$] == null	1
+$.charAt(i) == sep	1
+$ instanceof LimitChronology	1
+FastMath.abs(t1 - $) <= convergence	1
+$ instanceof MutableByte	1
+FastMath.abs($) <= tolerance	1
+$ > 0xFFFF	1
+$ == second	1
+$ instanceof EventHandlerWrapper	1
+$.getName() == null	1
+$ > thisEnd	1
+$ instanceof PrecalculatedZone	1
+$.get(Calendar.DATE) == 1	1
+($ - 1) * 16 + srcPos >= 32	1
+$.charAt(position) != '.'	1
+$ == other.numerator	1
+$[i] < 'A'	1
+$ <= Integer.MAX_VALUE	1
+$ instanceof SimpleDateFormat	1
+$ >= diff	1
+$ > b.length	1
+(($ - min) * (max -$)) < 0	1
+($ = cs.length()) == 0	1
+$ instanceof StrBuilder	1
+$ == c2	1
+comparator.compare($, element2) < 1	1
+pos + $ > bufferEnd	1
+chars[$] == 'd'	1
+$ != instant	1
+$.iAfterParser == null	1
+$ < diffFromFloor	1
+isAssignable($[i], toClassArray[i], autoboxing) == false	1
+((initial - min) * ($ -initial)) < 0	1
+$ < rhsMillis	1
+$.getCountry().length() > 0	1
+$.remove(DurationFieldType.hours()) == false	1
+str.charAt($) == sep	1
+$ < decPos	1
+($ - offsetAdjusted) < 0	1
+$ >= 56320	1
+$ instanceof Boolean	1
+$ == ':'	1
+$ > bestValidPos	1
+$ < values.length	1
+$ instanceof FieldFormatter	1
+compareReverse($, months) >= 0	1
+($ + 1) >= length	1
+$ instanceof SavedState	1
+$ < 500	1
+$[2] == 0.0	1
+$ >= upperMillis	1
+$ == periodStart	1
+$ instanceof TimeZoneDisplayKey	1
+$ != millis	1
+parsers[$ + 1] == null	1
+$.charAt($.length() - 1) != CSV_QUOTE	1
+Integer.parseInt($.subSequence(start, end).toString(), 10) > OCTAL_MAX	1
+instantAdjusted - $ <= diff	1
+isAssignable(classArray[i], toClassArray[i], $) == false	1
+str.charAt($) >= '0'	1
+$.contains(chrs[i]) == expect	1
+$.charAt(1) == 't'	1
+end - $ > 1	1
+matcher.isMatch(buf, i, $, len) > 0	1
+$.getValue(i) != 0	1
+$ == Character.MAX_VALUE	1
+Precision.compareTo(entry, minValue, $) < 0	1
+$ == 'L'	1
+$[i] == 'L'	1
+$ != originalParser	1
+isAssignable(classArray[i], $[i], autoboxing) == false	1
+Math.abs($[m]) + delta == delta	1
+Math.abs($[max][col]) < TOO_SMALL	1
+$ - index > 1	1
+$ instanceof ReadableInterval	1
+$ instanceof StrictChronology	1
+$ instanceof Token	1
+$>rdwarf	1
+$.remove(DurationFieldType.weeks()) == false	1
+$ >= overlapEnd	1
+(strsLen = $.length) == 0	1
+$ < fieldIndex	1
+$ != '.'	1
+(int)(($.iPeriodStart >> 32)) != period	1
+rangeField.compareTo($) > 0	1
+$.getZone() == zone	1
+$ > buffer.length	1
+$ instanceof FastDateFormat	1
+$.get(Calendar.DST_OFFSET) != 0	1
+compareReverse(first, $) <= 0	1
+$ > 7	1
+$.charAt(i) != '0'	1
+(end = $.length()) == 0	1
+$ == position	1
+$ > 8	1
+$ instanceof LimitChronology == false	1
+tokens[$].getValue() == value	1
+$.iStartRecurrence.getSaveMillis() > 0	1
+$ < indicesIndex	1
+$ == Calendar.MILLISECOND	1
+$ < replaceCharsLength	1
+$.iRules == null	1
+$ == END_FE	1
+$ != type2	1
+$ - 1 != millis	1
+$ < -8e298	1
+($>0?-$:$) < -denominator	1
+($ - 1) * 4 + dstPos >= 64	1
+str.charAt($ - 1) != '0'	1
+chars[$] > '9'	1
+$[i] == '+'	1
+$.getName().indexOf(ClassUtils.INNER_CLASS_SEPARATOR_CHAR) != -1	1
+1".equals($) == false"	1
+$ instanceof Recurrence	1
+(($ * scalar) / scalar) == rangeMillis	1
+$ instanceof DSTZone	1
+$.remove(DurationFieldType.days()) == false	1
+$==0.0	1
+$ != SECONDS_MILLIS	1
+(copyOfParsers[$] = parsers[$]) == null	1
+$ > 0.3	1
+$ == currentType	1
+matcher.isMatch(buf, $, 0, endIndex) > 0	1
+$ == other.denominator	1
+CharUtils.isAsciiPrintable(cs.charAt($)) == false	1
+$ > fieldIndex	1
+$.compareTo(loopRangeField) < 0	1
+--$ < 0	1
+$ == Calendar.AM_PM	1
+$[pos.getIndex()] == START_FMT	1
+$.getSaveMillis() == 0	1
+$ > 0.074	1
+$.compareTo(loopRangeField) == 0	1
+$ == DateUtils.SEMI_MONTH	1
+$ >= variables	1
+getQuoteMatcher().isMatch(chars, $, $, len) > 0	1
+$ == 'A'	1
+MathUtils.compareTo($, 0, epsilon) >= 0	1
+$ != expectedPos	1
+$ + 1 == range.start	1
+$[i] == 'f'	1
+$.iLocale.get() == locale	1
+$ > minuendDom	1
+Precision.compareTo(imagEigenvalues[$], 0.0, epsilon) < 0	1
+$.charAt(0) != CSV_QUOTE	1
+$ == a2	1
+str.charAt($) == '.'	1
+($ - 1) * 8 + srcPos >= 32	1
+$ == ~pos	1
+$ > ret	1
+MemberUtils.compareParameterTypes( $.getParameterTypes(), bestMatch.getParameterTypes(), parameterTypes) < 0	1
+$.isMatch(buf, i, startIndex, len) > 0	1
+$ - 1 + dstPos >= 32	1
+chars[$] == 'f'	1
+$ instanceof Collection<?>	1
+++$ >= length	1
+$ - prev <= diff	1
+$ == lastChar	1
+$ < iSkip	1
+$ instanceof RealMatrixImpl == false	1
+add($, difference) > minuendInstant	1
+$[i] > '9'	1
+$ != removeLen	1
+$ == iUpperLimit	1
+(Math.abs($) % DateTimeConstants.MILLIS_PER_SECOND) == 0	1
+$ instanceof DataInput	1
+chars[$] == '-'	1
+$.iAfterPrinter == null	1
+($ = prefixMatcher.isMatch(chars, pos, offset, bufEnd)) != 0	1
+$ >= offset	1
+$[i] != ch	1
+s.charAt($ - 1) == t_j	1
+$ <= toYear	1
+$.get(Calendar.MONTH) == Calendar.FEBRUARY	1
+$ instanceof AbstractReadableInstantFieldProperty == false	1
+($ - 1) * 16 + dstPos >= 64	1
+$ != 'w'	1
+$ instanceof StrictChronology == false	1
+$ > 65535	1
+$ - 1 + dstPos >= 64	1
+($ - 1) * 8 + dstPos >= 16	1
+text.charAt($) != ','	1
+(nHexs - 1) * 4 + $ >= 8	1
+$[0] == Calendar.DATE	1
+($[i] = parsers[i]) == null	1
+$.size() == 1	1
+$[i] < previous	1
+++$ >= newLength	1
+$ == trueString	1
+$ instanceof Map<?,?>	1
+$ == months	1
+Precision.compareTo($, 0.0, epsilon) < 0	1
+chars[$] < 'a'	1
+$ instanceof StandardDurationFieldType	1
+matcher.isMatch(buf, i, 0, $) > 0	1
+$ instanceof ZonedChronology	1
+distribution.cumulativeProbability($) == 1.0d	1
+$ instanceof ReadableDuration	1
+(endMatchLen = prefixMatcher.isMatch(chars, pos, $, bufEnd)) != 0	1
+$[i].getValue() == value	1
+$ == delimiter	1
+$.cumulativeProbability(glb) == 1.0d	1
+$ > 0xf	1
+$ == nextOffset	1
+MemberUtils.compareParameterTypes(ctor.getParameterTypes(), $ .getParameterTypes(), parameterTypes) < 0	1
+$.getCountry().length() != 0	1
+$ == 'R'	1
+$ == parser	1
+$ * v == 0	1
+$ < ROUND_NONE	1
+$.canBuildFormatter() == false	1
+$ >= count	1
+$.substring(startIndex, endIndex).compareTo( getImaginaryCharacter()) != 0	1
+$.charAt(index + 1) == '#'	1
+$ == savedFields.length	1
+$ < year	1
+$ > 23	1
+matcher.isMatch($, i, 0, endIndex) > 0	1
+$.getExternalExecutor() == null	1
+$ > 0xfff	1
+$ < N	1
+chars[$] == 'l'	1
+$ <= offsetAfter	1
+$ < 4	1
+qr[$][$] != 0.0	1
+$.remove(DurationFieldType.minutes()) == false	1
+digitCount($, position, 2) < 2	1
+($ - 1) * 32 + dstPos >= 64	1
+$[i] == 'd'	1
+$.millisOfDay().get(iCutoverMillis) == 0	1
+FastMath.abs($ - pendingEventTime) <= convergence	1
+$ == MODIFY_ROUND	1
+$[minor][minor] > 0	1
+$.getVariant().length() > 0	1
+$[i] < 'a'	1
+$ < chars.length	1
+(($ << (64 - 30)) >> (64 - 30)) == minutes	1
+$ > est	1
+$[arrayPos].charAt(stringPos) != comparisonChar	1
+$.charAt(offset) == ' '	1
+$ < firstWeekMillis1	1
+add($, difference) < minuendInstant	1
+$ - 1 + dstPos >= 8	1
+$[i] != remove	1
+chars[$] == 'D'	1
+$.getMonths() < 8	1
+chars[$] > 'f'	1
+$ instanceof SoftReference<?>	1
+$ > iToYear	1
+$ >= 55296	1
+$ instanceof DateTimeComparator	1
+$ == nullValue	1
+getQuoteMatcher().isMatch(chars, start, start, $) > 0	1
+$ instanceof MutableInt	1
+$=='\''	1
+chrono.year().get($) >= YEAR_LIMIT	1
+$ == MODIFY_CEILING	1
+$ <= 56319	1
+$ > maxEvaluations	1
+input.charAt($ + 1) == '#'	1
+$ instanceof MutableLong	1
+$ != START_FMT	1
+$ instanceof CharSet	1
+u * $ == 0	1
+buffer[$] != ch	1
+$ != zone	1
+str.charAt($) == ' '	1
+$ == o2	1
+$.length - srcPos < 16	1
+$.length() == 6	1
+$ - 1 + dstPos >= 16	1
+$[start] == QUOTE	1
+Precision.compareTo(imagEigenvalues[$], 0.0, epsilon) > 0	1
+$ == 'u'	1
+($ + len) > b.length	1
+$ + len > bufferEnd	1
+$ > 8e298	1
+$ instanceof MutableShort	1
+$ <= diffToCeiling	1
+$ instanceof IDKey	1
+$.getParameterTypes().length == 0	1
+Character.isLowerCase($.charAt(i)) == false	1
+($ - 1) * 4 + dstPos >= 16	1
+$ != 'u'	1
+$ == ','	1
+($ - 1) * 8 + dstPos >= 32	1
+$ != endInstant	1
+$[j] < min	1
+$ != 's'	1
+text.charAt($) != '.'	1
+$ instanceof DataOutput	1
+$ != '\''	1
+$ != c2	1
+input.charAt($ + i) == '+'	1
+$.charAt(1) == 'T'	1
+css[arrayPos].charAt($) != comparisonChar	1
+$ == iParseType	1
+$>=x3max	1
+$.get(Calendar.YEAR) > 280000000	1
+$.charAt(2) != '_'	1
+getFieldType($) == type	1
+((rangeMillis * $) / $) == rangeMillis	1
+$[i] == '-'	1
+Math.abs(lu[$][col]) < TOO_SMALL	1
+$.charAt(length - 1) != '0'	1
+getWrappedField().get($) < 0	1
+$[start + 1] == 'x'	1
+$ instanceof Character	1
+$[i] == 'F'	1
+$ instanceof ReadablePartial	1
+(off + $) < 0	1
+$.floatValue() == 0.0D	1
+$ < stopAt	1
+$ >= sz	1
+$.length - srcPos < 4	1
+($ ^ val2) < 0	1
+Math.abs(e[$])>maxAbsoluteValue	1
+position + $ != suffixPos	1
+$[0] == Calendar.HOUR_OF_DAY	1
+$.isPrimitive() == false	1
+++$ > maximalIterationCount	1
+$.wrappedFactory == null	1
+Math.abs(e[m]) + $ == delta	1
+$ > year	1
+$.getValue() == value	1
+$ - 1 + srcPos >= 8	1
+$.charAt(pos + 1) == '-'	1
+$ instanceof ExtendedFirstOrderDifferentialEquations	1
+$ >= args.length	1
+$.charAt(0) == 'p'	1
+$ < _shortest	1
+$ + i >= len	1
+$.iUntilYear == Integer.MAX_VALUE	1
+$ instanceof CharRange	1
+$[i] > previous	1
+$.length()>2	1
+$.getIndex() < 0	1
+zval[$].length != yLen	1
+($ - 1) * 16 + dstPos >= 32	1
+$.getParameterTypes().length > 0	1
+$<rdwarf	1
+c[$.getIndex()] != END_FE	1
+$.getYears() == 0	1
+caches[$]==null	1
+$ != index	1
+$.compareTo(loopRangeField) > 0	1
+$.contains(varName) == false	1
+chars[$] == 'F'	1
+($ & 0x7fffffff) == scaled	1
+(($ << (64 - 6)) >> (64 - 6)) == units	1
+$ > otherMillis	1
+gregorian.millisOfDay().get($) == 0	1
+(nHex - 1) * 4 + $ >= 32	1
+lastRangeField.compareTo($) < 0	1
+$ >= 10	1
+$ >= 12	1
+$ >= 15	1
+$ instanceof LenientChronology == false	1
+$ <= position	1
+$>x3max	1
+compare(value, $, true) < 0	1
+$ == seqEnd	1
+overlaps($) == false	1
+$.charAt(0) == 'P'	1
+$.charAt(0)=='-'	1
+$ <= 56191	1
+matcher.isMatch(buf, $, startIndex, len) > 0	1
+MemberUtils.compareParameterTypes(ctor.getParameterTypes(), result .getParameterTypes(), $) < 0	1
+($ = iLowerLimit) != null	1
+((initial - $) * (max -initial)) < 0	1
+$.getMonths() > 4	1
+$ == RANGE_MONTH_MONDAY	1
+$ <= 3	1
+matcher.isMatch(buf, i, startIndex, $) > 0	1
+str.charAt($ + 2) == '-'	1
+$ != lastLocal	1
+(off + $) > b.length	1
+$ > beg	1
+str.charAt($) != '0'	1
+$ > 16	1
+ret.charAt($ - 1) == CharUtils.CR	1
+$ > 10	1
+$ > 18	1
+(endMatchLen = $.isMatch(chars, pos, offset, bufEnd)) != 0	1
+$.length != a2.length	1
+iChronology.getWeeksInYear($) <= 52	1
+$ < 0x1000	1
+iTypes[$] == type	1
+$ instanceof LenientChronology	1
+$ >= maxValue	1
+$.indexOf(str.charAt(i)) >= 0	1
+$ + length != suffixPos	1
+getFieldValue($) != Long.MAX_VALUE	1
+clazz.isInstance($) == false	1
+digitCount(text, $, 2) < 2	1
+$ - 1 + srcPos >= 64	1
+$.getMinimumValue() != 0	1
+$.getRangeDurationField().getType() != lastType	1
+($ - 1) * 4 + dstPos >= 32	1
+($ - 1) * 8 + srcPos >= 16	1
+$ instanceof FastDatePrinter	1
+(nHex - 1) * 4 + $ >= 64	1
+$ > 365	1
+$ instanceof FastDateParser	1
+$ instanceof Error	1
+$ == H	1
+Math.abs(e[$]) + delta == delta	1
+$ == M	1
+$ == zone	1
+$ == S	1
+$ instanceof RealMatrixImpl	1
+$ == d	1
+$ == m	1
+$ == s	1
+$ == y	1
+$.get(Calendar.HOUR_OF_DAY) == 0	1
+get($) == DateTimeConstants.BCE	1
+$ < overlapStart	1
+$.charAt(index + 1) == 'u'	1
+($ - 1) * 32 + srcPos >= 64	1
+$ == 5	1
+$ >= 25	1
+$ instanceof LenientDateTimeField	1
+($ + length) > chars.length	1
+$ != result	1
+$ == Calendar.MINUTE	1
+str.indexOf($) == INDEX_NOT_FOUND	1
+input.charAt($ + 1) == 'u'	1
+$ != longestStrLen	1
+Precision.compareTo($[i], 0.0, epsilon) < 0	1
+$.getZone() != newZone	1
+add(subtrahendInstant, $) < minuendInstant	1
+($ - 1) * 4 + srcPos >= 32	1
+$ > _longest	1
+$ < minFields	1
