@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
-def preprocess(data_file_path, feature_num, target_col):
+def preprocess(data_file_path, feature_num):
     start_time = datetime.datetime.now()
     training_file = data_file_path[0:-4]+'_train.csv'
     testing_file = data_file_path[0:-4]+'_test.csv'

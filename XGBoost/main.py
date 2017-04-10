@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # allow for assign one specific col as the target, start from 0
     target_col = 4
     # preprocess, encode
-    classes, x_encoders, y_encoder = preprocess(data_file_path, feature_num, target_col)
+    classes, x_encoders, y_encoder = preprocess(data_file_path, feature_num)
     class_num = len(classes)
     # train the model
     # train(data_file_path, model_saved_path, feature_num, 'multi:softprob', class_num)
