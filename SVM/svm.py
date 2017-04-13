@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import KFold, cross_val_score, GridSearchCV
 
-encoded_data_file = '../input/lang_expr/lang.expr_encoded.csv'
-feature_num = 5
-data = pd.read_csv(encoded_data_file, sep=',', header=0, encoding='utf-8')
+encoded_data_file = '../input/math_expr/math.expr_formatted_encoded.csv'
+feature_num = 6
+data = pd.read_csv(encoded_data_file, sep=',', header=None, encoding='utf-8')
 dataset = data.values
 
 X = dataset[:, 0:feature_num]
