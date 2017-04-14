@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import KFold, cross_val_score, GridSearchCV
 
-encoded_data_file = '../input/math_expr/math.expr_formatted_encoded.csv'
+encoded_data_file = '../input/math_expr/math_3.expr_formatted_encoded.csv'
 feature_num = 6
 data = pd.read_csv(encoded_data_file, sep=',', header=None, encoding='utf-8')
 dataset = data.values

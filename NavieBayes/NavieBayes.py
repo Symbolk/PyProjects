@@ -2,7 +2,7 @@ import os
 import numpy as np
 import heapq as hq
 import pandas as pd
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import MultinomialNB, GaussianNB
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report
 
 
 # preprossing
-data = pd.read_csv('../input/math_expr/math.expr_formatted_encoded.csv', sep=',', header=None)
+data = pd.read_csv('../input/lang_expr/lang_2.expr_formatted_test.csv', sep=',', header=None)
 
 print('Reading the raw data file:')
 dataset = data.values
@@ -21,9 +21,9 @@ y=dataset[:,6]
 
 # print(dataset.shape)
 # V=CountVectorizer()
-# X=V.fit_transform(X_0)
+# X=V.fit_transform(X)
 
-# y=V.fit_transform(y_0)
+# y=V.fit_transform(y)
 X_train, X_test, y_train, y_test=train_test_split(X, y, test_size=0.2)
 classes=np.unique(y)
 
@@ -39,7 +39,7 @@ print('Test data size:{}'.format(y_test.shape))
 
 # train the model multinomialNB
 print('Training with NavieBayes:')
-clf=MultinomialNB()
+clf=GaussianNB()
 clf.fit(X,y)
 scores = cross_val_score(clf, X, y, cv=5)
 print("CV Accuracy: %0.5f (+/- %0.5f)" % (scores.mean(), scores.std() * 2))

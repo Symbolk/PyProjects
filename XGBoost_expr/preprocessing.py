@@ -8,19 +8,10 @@ from sklearn.model_selection import train_test_split
 def preprocess(data_file_path, feature_num):
     start_time = datetime.datetime.now()
     training_file = data_file_path[0:-4]+'_train.csv'
-    testing_file = data_file_path[0:-4]+'_test.csv'
+    validating_file = data_file_path[0:-4]+'_test.csv'
     # also save the encoded data for later use
     encoded_data_file = data_file_path[0:-4]+'_encoded.csv'
 
-    if os.path.exists(training_file):
-        print('Training set file already exists and be removed.')
-        os.remove(training_file)
-    if os.path.exists(testing_file):
-        print('Testing set file already exists and be removed.')
-        os.remove(testing_file)
-    if os.path.exists(encoded_data_file):
-        print('Encoded_data file already exists and be removed.')
-        os.remove(encoded_data_file)
     # load data from a csv file
     data = pd.read_csv(data_file_path, sep='\t', header=None, encoding='utf-8')
     dataset = data.values
@@ -55,29 +46,31 @@ def preprocess(data_file_path, feature_num):
     print('Training set size: {}'.format(y_train.shape))
     print('Validation set size: {}'.format(y_test.shape))
     # write the encoded data into 2 files
-    with open(training_file, 'a+') as f:
-        for i in range(0, X_train.shape[0]):
-            for x in X_train[i]:
-                f.write('%s,'% x)
-            f.write('%s' % y_train[i])
-            f.write('\n')
-    with open(testing_file, 'a+') as f:
-        for i in range(0, X_test.shape[0]):
-            for x in X_test[i]:
-                f.write('%s,'% x)
-            f.write('%s' % y_test[i])
-            f.write('\n')
-
-    ### write the encoded data into 1 file
-    with open(encoded_data_file, 'a+') as f:
-        for i in range(0, X.shape[0]):
-            for x in encoded_x[i]:
-                f.write("%s," % x)
-            f.write("%s" % encoded_y[i])
-            f.write('\n')
+    if not os.path.exists(training_file):
+        with open(training_file, 'a+') as f:
+            for i in range(0, X_train.shape[0]):
+                for x in X_train[i]:
+                    f.write('%s,'% x)
+                f.write('%s' % y_train[i])
+                f.write('\n')
+    if not os.path.exists(validating_file):
+        with open(validating_file, 'a+') as f:
+            for i in range(0, X_test.shape[0]):
+                for x in X_test[i]:
+                    f.write('%s,'% x)
+                f.write('%s' % y_test[i])
+                f.write('\n')
+    if not os.path.exists(encoded_data_file):
+        ### write the encoded data into 1 file
+        with open(encoded_data_file, 'a+') as f:
+            for i in range(0, X.shape[0]):
+                for x in encoded_x[i]:
+                    f.write("%s," % x)
+                f.write("%s" % encoded_y[i])
+                f.write('\n')
 
     end_time = datetime.datetime.now()
     run_time = end_time - start_time
     print('Preprossing finished, time cost : {}'.format(run_time))
-    print('Data splited and saved in {} and {}'.format(training_file, testing_file))
+    print('Data splited and saved in {} and {}'.format(training_file, validating_file))
     return (classes, x_encoders, y_encoder)

@@ -6,7 +6,7 @@ import os
 import pandas as pd
 import datetime
 
-def train(data_file_path, model_file_path, feature_num, training_objective, class_num):
+def train(data_file_path, model_file_path, feature_num, training_objective):
     start_time = datetime.datetime.now()
     # clear the saved model
     data_file = data_file_path.split('/')[-1][0:-4]
@@ -15,7 +15,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
 
     # check the encoded data
     training_file = data_file_path[0:-4]+'_train.csv'
-    testing_file = data_file_path[0:-4]+'_test.csv'
+    validating_file = data_file_path[0:-4]+'_test.csv'
     if not os.path.exists(training_file):
         print('Training set file does not exist!')
         os._exit(0)
@@ -33,11 +33,11 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     # X_train = training_data_values[:, 0:feature_num]
     # y_train = training_data_values[:, feature_num]
     # # load encoded validation set
-    testing_data = pd.read_csv(testing_file, sep=',', header=None, encoding='utf-8')
-    testing_data_values = testing_data.values
-    print('Validataion set size: {}'.format(testing_data_values.shape))
-    X_valid = testing_data_values[:, 0:feature_num]
-    y_valid = testing_data_values[:, feature_num]
+    validating_data = pd.read_csv(validating_file, sep=',', header=None, encoding='utf-8')
+    validating_data_values = validating_data.values
+    print('Validataion set size: {}'.format(validating_data_values.shape))
+    X_valid = validating_data_values[:, 0:feature_num]
+    y_valid = validating_data_values[:, feature_num]
 
     # init the model
     if os.path.exists(model_file):
@@ -64,13 +64,12 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
         'col_sample_bytree': 0.2,
         'min_child_weight': 1,
         'save_period': 0,
-        'eval_metric': 'merror',
+        'eval_metric': 'error',
         'silent': 1,
-        'lambda': 2,
-        'num_class': class_num
+        'lambda': 2
     }
-    num_round = 100
-    early_stop = 5
+    num_round = 1000
+    early_stop = 10
     learning_rates = [(num_round - i) / (num_round * 10.0) for i in range(num_round)]
 
     watchlist = [(M_train, 'train'), (M_valid, 'eval')]
@@ -80,16 +79,9 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     # print(model.predict(M_valid))
 
     ### do cv with the func
-    # cv_scores = cross_val_score(model, X, y, cv=5, n_jobs=-1)
-    # # # print("Cross validation score: %0.5f (+/- %0.5f)" % (cv_score.mean(), cv_score.std() * 2))
-    # print('CV scores: {}'.format(cv_scores))
-
-    ### or mannuly split the data and do a 5 cv
-    # k_fold = KFold(n_splits=5)
-    # for i in range(5):
-    #     print('Doing No.{} CV...'.format(i))
-    #     for train_indices, test_indices in k_fold.split(X):
-    #         cvm = model.fit(X[train_indices], y[train_indices])
+    # cv_scores = xgb.cv(params, M_train, num_boost_round=num_round, nfold=5, metrics={'error'},\
+    #                    seed=0, callbacks=[xgb.callback.print_evaluation(show_stdv=False), xgb.callback.early_stop(early_stop)])
+    # print(cv_scores)
 
     # save the best model on the disk
     with open(model_file, 'w') as f:

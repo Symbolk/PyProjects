@@ -51,7 +51,7 @@ def format_data(file_path):
             f.write('\n')
 
 if __name__ == '__main__':
-    file_path = '../input/math_expr/math_3.expr.csv'
+    file_path = '../input/lang_expr/m_3.expr.csv'
     # non_feature col indexes, start from 0
     # non_feature_cols = [1,2]
     # target_col = 7

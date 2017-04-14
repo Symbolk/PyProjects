@@ -25,7 +25,7 @@ def merge(data_path, project, type):
     # for f in file_list:
     #     print(f)
     print('Merging the following files...')
-    merged_file = '../input/'+project+'_'+type+'/'+'math_3.'+type+'.csv'
+    merged_file = '../input/'+project+'_'+type+'/'+'chart_1.'+type+'.csv'
     data_set = set()
     data_list = list()
 
@@ -33,7 +33,7 @@ def merge(data_path, project, type):
         os.remove(merged_file)
 
     ### for a single file, just modify here
-    single_file = ['../input/res/math_3.expr.csv']
+    single_file = ['../input/res/chart_1.var.csv']
     for fl in single_file:
         with open(fl ,'r') as f:
             orig_len = 0
@@ -57,8 +57,8 @@ def merge(data_path, project, type):
 
 if __name__ == '__main__':
     data_path='../input/res/'
-    project='math'
-    type='expr'
+    project='chart'
+    type='var'
     ### merge all project_bugid.type.csv under the data_path folder
     merge(data_path, project, type)
 

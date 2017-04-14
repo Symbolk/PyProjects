@@ -12,7 +12,7 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
     start_time = datetime.datetime.now()
     data_file_name = data_file_path.split('/')[-1][0:-4]
     # model_file = model_file_path + data_file_name + '_model.pkl'
-    model_file = '../model/math.expr_formatted_model.pkl'
+    model_file = '../model/lang_2.expr_formatted_model.pkl'
     result_file = result_file_path + data_file_name +'_results.csv'
     answer_file = result_file_path + data_file_name +'_answers.csv'
     encoded_data_file = data_file_path[0:-4] + '_encoded.csv'
@@ -24,7 +24,7 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
         print('Testing set file does not exist!')
         os._exit(0)
     # load encoded training data
-    testing_data = pd.read_csv('../input/math_expr/math.expr_formatted_test.csv', sep=',', header=None)
+    testing_data = pd.read_csv('../input/lang_expr/lang_2.expr_formatted_test.csv', sep=',', header=None)
     testing_data_values = testing_data.values
     print('Testing set size: {}'.format(testing_data_values.shape))
     X_test = testing_data_values[:, 0:feature_num]
