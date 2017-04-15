@@ -3,10 +3,9 @@ import pandas as pd
 from matplotlib import pyplot
 from xgboost import plot_importance
 import xgboost as xgb
-import heapq as hq
 import os
 import datetime
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support, precision_score
 
 ### predict the true pos examples, and see whether they can be classified correctly
 def predict(data_file_path, model_file_path, result_file_path, feature_num, x_encoders, y_encoder):
@@ -60,14 +59,18 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, x_en
                 y_pred.append(1)
             else:
                 y_pred.append(0)
-
-    accuracy = accuracy_score(y_test, y_pred)
-    print('Precision: %.5f%%' % (accuracy*100.0))
+    # If normalize == True, return the correctly classified samples (float), else it returns the number of correctly classified samples (int).
+    accuracy = accuracy_score(y_test, y_pred) # average on all classes
+    print('Accuracy: %.3f%%' % (accuracy*100.0))
+    precision = precision_score(y_test, y_pred, average=None)
+    print('Precision: %.3f%%' % (precision * 100.0))
     # cerror = sum(int(y_pred[i]) != y_test[i] for i in range(len(y_test))) / float(len(y_test))
-    print(len(y_pred))
 
-
-
+    # precision, recall, thresholds = precision_recall_curve(y_test,y_prob)
+    # print(precision)
+    # print(recall)
+    # print(thresholds)
+    print(precision_recall_fscore_support(y_test, y_pred))
     ### plot the feature importance
     ## with plt
     # pyplot.bar(range(len(model.feature_importances_)), model.feature_importances_)
