@@ -33,7 +33,7 @@ def merge(data_path, project, type):
         os.remove(merged_file)
 
     ### for a single file, just modify here
-    single_file = ['../input/res/chart_1.var.csv']
+    single_file = ['../input/res/chart_1.expr.csv']
     for fl in single_file:
         with open(fl ,'r') as f:
             orig_len = 0
@@ -58,7 +58,7 @@ def merge(data_path, project, type):
 if __name__ == '__main__':
     data_path='../input/res/'
     project='chart'
-    type='var'
+    type='expr'
     ### merge all project_bugid.type.csv under the data_path folder
     merge(data_path, project, type)
 

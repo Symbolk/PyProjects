@@ -24,7 +24,7 @@ def format_data(file_path):
     counter = collections.Counter(Y)
     frequent_y = list()
     for c in counter.items():
-        if c[1]>10:
+        if c[1]>1:
             frequent_y.append(c[0])
 
     print('all class num:{}'.format(len(np.unique(Y))))
@@ -51,7 +51,7 @@ def format_data(file_path):
             f.write('\n')
 
 if __name__ == '__main__':
-    file_path = '../input/lang_expr/m_3.expr.csv'
+    file_path = '../input/chart_expr/chart_1.expr.csv'
     # non_feature col indexes, start from 0
     # non_feature_cols = [1,2]
     # target_col = 7

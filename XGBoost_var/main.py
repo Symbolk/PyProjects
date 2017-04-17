@@ -1,6 +1,6 @@
 from preprocessing import *
 from training import *
-from predicting import *
+from testing import *
 
 if __name__ == '__main__':
     data_file_path = '../input/chart_var/chart_1.var.csv'
