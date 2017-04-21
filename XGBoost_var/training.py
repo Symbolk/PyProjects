@@ -15,7 +15,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective):
 
     # check the encoded data
     training_file = data_file_path[0:-4]+'_train.csv'
-    validating_file = data_file_path[0:-4]+'_test.csv'
+    validating_file = data_file_path[0:-4]+'_valid.csv'
     if not os.path.exists(training_file):
         print('Training set file does not exist!')
         os._exit(0)
@@ -25,7 +25,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective):
     dataset = data.values
     X = dataset[:, 0:feature_num]
     y = dataset[:, feature_num]
-    print('Dataset size: {}'.format(dataset.shape))
+    print('Training set size: {}'.format(dataset.shape))
     # load encoded training set
     # training_data = pd.read_csv(training_file, sep=',', header=None, encoding='utf-8')
     # training_data_values = training_data.values
@@ -65,11 +65,12 @@ def train(data_file_path, model_file_path, feature_num, training_objective):
         'min_child_weight': 1,
         'save_period': 0,
         'eval_metric': 'error',
+        # 'eval_metric': 'rmse',
         'silent': 1,
         'lambda': 2
     }
     num_round = 1000
-    early_stop = 10
+    early_stop = 100
     learning_rates = [(num_round - i) / (num_round * 10.0) for i in range(num_round)]
 
     watchlist = [(M_train, 'train'), (M_valid, 'eval')]

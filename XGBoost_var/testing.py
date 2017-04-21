@@ -27,7 +27,7 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, x_en
     print('Testing set size: {}'.format(testing_data_values.shape))
     row_indices = testing_data_values[:, 0]
     y_test = testing_data_values[:, 1]
-    X_test = testing_data_values[:, 2:33]
+    X_test = testing_data_values[:, 2:2+feature_num]
 
     M_test = xgb.DMatrix(X_test, label=y_test)
 
@@ -50,7 +50,7 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, x_en
     # append the probabilities into the result_file
     with open(result_file, 'a+') as f:
         for i in range(0, y_prob.shape[0]):
-            f.write('%s,'%row_indices[i])
+            f.write('row%s,'%row_indices[i])
             f.write('%s,'%y_test[i])
             f.write('1=%.3f,'%y_prob[i])
             f.write('0=%.3f'%(1-y_prob[i]))
@@ -63,7 +63,10 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, x_en
     accuracy = accuracy_score(y_test, y_pred) # average on all classes
     print('Accuracy: %.3f%%' % (accuracy*100.0))
     precision = precision_score(y_test, y_pred, average=None)
-    print('Precision: %.3f%%' % (precision * 100.0))
+    ## print the average precision
+    # print('Precision: %.3f%%' % (precision * 100.0))
+    ## print the precisions for each classes(here we have 2 for binary)
+    print('Precision: {}'.format(precision))
     # cerror = sum(int(y_pred[i]) != y_test[i] for i in range(len(y_test))) / float(len(y_test))
 
     # precision, recall, thresholds = precision_recall_curve(y_test,y_prob)

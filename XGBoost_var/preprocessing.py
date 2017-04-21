@@ -19,9 +19,10 @@ def preprocess(data_file_path, feature_num):
     dataset = data.values
     print('Dataset size: {}'.format(dataset.shape))
     # split data into X and y
-    X = dataset[:, 2:feature_num]
+    # 3 to 11: 8
+    X = dataset[:, 3:3+feature_num]
     X = X.astype(str)
-    Y = dataset[:, feature_num]
+    Y = dataset[:, 3+feature_num]
 
     Y = Y.astype(str)
     classes = np.unique(Y)
@@ -46,9 +47,9 @@ def preprocess(data_file_path, feature_num):
     encoded_y = y_encoder.fit_transform(Y)
 
     # split the data into training and validating set
-    X_train, X_test, y_train, y_test = train_test_split(encoded_x, encoded_y, test_size=0.2, random_state=7)
-    print('Training set size: {}'.format(y_train.shape))
-    print('validating set size: {}'.format(y_test.shape))
+    X_train, X_valid, y_train, y_valid = train_test_split(encoded_x, encoded_y, test_size=0.2, random_state=7)
+    print('Training set size: {}'.format(X_train.shape))
+    print('Validating set size: {}'.format(X_valid.shape))
 
     # write the encoded data into 2 files
     if not os.path.exists(training_file):
@@ -60,10 +61,10 @@ def preprocess(data_file_path, feature_num):
                 f.write('\n')
     if not os.path.exists(validating_file):
         with open(validating_file, 'a+') as f:
-            for i in range(0, X_test.shape[0]):
-                for x in X_test[i]:
+            for i in range(0, y_valid.shape[0]):
+                for x in X_valid[i]:
                     f.write('%s,'% x)
-                f.write('%s' % y_test[i])
+                f.write('%s' % y_valid[i])
                 f.write('\n')
     if not os.path.exists(encoded_data_file):
         ### write the encoded data into 1 file
