@@ -11,8 +11,7 @@ from sklearn.metrics import accuracy_score
 def predict(data_file_path, model_file_path, result_file_path, feature_num, classes, x_encoders, y_encoder):
     start_time = datetime.datetime.now()
     data_file_name = data_file_path.split('/')[-1][0:-4]
-    # model_file = model_file_path + data_file_name + '_model.pkl'
-    model_file = '../model/lang_2.expr_formatted_model.pkl'
+    model_file = model_file_path + data_file_name + '_model.pkl'
     result_file = result_file_path + data_file_name +'_results.csv'
     answer_file = result_file_path + data_file_name +'_answers.csv'
     encoded_data_file = data_file_path[0:-4] + '_encoded.csv'
@@ -24,7 +23,7 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
         print('Testing set file does not exist!')
         os._exit(0)
     # load encoded training data
-    testing_data = pd.read_csv('../input/lang_expr/lang_2.expr_formatted_test.csv', sep=',', header=None)
+    testing_data = pd.read_csv(testing_file, sep=',', header=None)
     testing_data_values = testing_data.values
     print('Testing set size: {}'.format(testing_data_values.shape))
     X_test = testing_data_values[:, 0:feature_num]
@@ -40,14 +39,17 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
     print(model)
 
     # predicting the classes
-    y_pred = model.predict(X_test)
-    y_rounded_pred = [round(v) for v in y_pred]
-    accuracy = accuracy_score(y_test, y_rounded_pred)
-    print('Precision(Right Top1) : %.5f%%' % (accuracy*100.0))
-    cerror = sum(int(y_pred[i]) != y_test[i] for i in range(len(y_test))) / float(len(y_test))
-
+    M_pred = xgb.DMatrix(X_test, label=y_test)
+    y_pred = model.predict(M_pred)
+    # y_rounded_pred = [round(v) for v in y_pred]
+    # accuracy = accuracy_score(y_test, y_rounded_pred)
+    # print('Precision(Right Top1) : %.5f%%' % (accuracy*100.0))
+    # cerror = sum(int(y_pred[i]) != y_test[i] for i in range(len(y_test))) / float(len(y_test))
+    accuracy = accuracy_score(y_test, y_pred) # average on all classes
+    print('Accuracy(top1): %.3f%%' % (accuracy*100.0))
     # predicting the probablities
-    y_prob = model.predict_proba(X_test)
+    ###! original XGBoost has no predict_proba!
+    y_prob = model.predict_proba(M_pred)
 
     right10 = 0
     right5 = 0
@@ -96,9 +98,9 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
             f.write('\n')
 
     print('Right in top5: %d' % right5)
-    print('Precision: %.5f%%' % (float(right5) / len(X_test) * 100.0))
+    print('Precision: %.3f%%' % (float(right5) / len(X_test) * 100.0))
     print('Right in top10: %d' % right10)
-    print('Precision: %.5f%%' % (float(right10) / len(X_test) * 100.0))
+    print('Precision: %.3f%%' % (float(right10) / len(X_test) * 100.0))
 
     ### plot the feature importance
     ## with plt

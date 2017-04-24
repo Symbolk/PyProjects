@@ -73,7 +73,8 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, x_en
     # print(precision)
     # print(recall)
     # print(thresholds)
-    print(precision_recall_fscore_support(y_test, y_pred))
+    p, r, f, label_nums = precision_recall_fscore_support(y_test, y_pred)
+    print('Precision: {}, Recall: {}, F1_score: {}, Label_nums: {}'.format(p,r,f,label_nums))
     ### plot the feature importance
     ## with plt
     # pyplot.bar(range(len(model.feature_importances_)), model.feature_importances_)

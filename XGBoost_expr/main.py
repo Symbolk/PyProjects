@@ -3,8 +3,7 @@ from training import *
 from testing import *
 
 if __name__ == '__main__':
-    data_file_path = '../input/chart_expr/chart_1.expr_formatted.csv'
-    # data_file_path = '../input/math_3_buggy.csv'
+    data_file_path = '../input/time_expr/time_15.expr.csv'
     model_saved_path = '../model/'
     result_path = '../output/'
     # feature_num = # cols - 1(only one target)

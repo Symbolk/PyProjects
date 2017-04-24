@@ -69,8 +69,8 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
         'lambda': 2,
         'num_class': class_num
     }
-    num_round = 100
-    early_stop = 5
+    num_round = 1000
+    early_stop = 10
     learning_rates = [(num_round - i) / (num_round * 10.0) for i in range(num_round)]
 
     watchlist = [(M_train, 'train'), (M_valid, 'eval')]

@@ -17,9 +17,9 @@ def preprocess(data_file_path, feature_num):
     dataset = data.values
     print('Raw data size: {}'.format(dataset.shape))
     # split data into X and y
-    X = dataset[:, 1:1+feature_num]
+    X = dataset[:, 3:3+feature_num]
     X = X.astype(str)
-    Y = dataset[:, 1+feature_num]
+    Y = dataset[:, 3+feature_num]
     # Y = dataset[:, target_col:target_col+1]
     # print(Y)
     # encoding string as integers
