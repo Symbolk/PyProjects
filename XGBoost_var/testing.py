@@ -50,7 +50,7 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, x_en
     # append the probabilities into the result_file
     with open(result_file, 'a+') as f:
         for i in range(0, y_prob.shape[0]):
-            f.write('row%s,'%row_indices[i])
+            f.write('row %s,'%row_indices[i])
             f.write('%s,'%y_test[i])
             f.write('1=%.3f,'%y_prob[i])
             f.write('0=%.3f'%(1-y_prob[i]))

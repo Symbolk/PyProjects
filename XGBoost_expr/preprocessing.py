@@ -15,11 +15,11 @@ def preprocess(data_file_path, feature_num):
     # load data from a csv file
     data = pd.read_csv(data_file_path, sep='\t', header=None, encoding='utf-8')
     dataset = data.values
-    print('Dataset size: {}'.format(dataset.shape))
+    print('Raw data size: {}'.format(dataset.shape))
     # split data into X and y
-    X = dataset[:, 0:feature_num]
+    X = dataset[:, 1:1+feature_num]
     X = X.astype(str)
-    Y = dataset[:, feature_num]
+    Y = dataset[:, 1+feature_num]
     # Y = dataset[:, target_col:target_col+1]
     # print(Y)
     # encoding string as integers

@@ -1,6 +1,8 @@
 import os
 import re
 
+### deprated, only needed when duplicate rows too much
+
 def list_files(dir, filter, fileList):
     newDir = dir
     if os.path.isfile(dir):
@@ -25,7 +27,7 @@ def merge(data_path, project, type):
     # for f in file_list:
     #     print(f)
     print('Merging the following files...')
-    merged_file = '../input/'+project+'_'+type+'/'+'chart_1.'+type+'.csv'
+    merged_file = '../input/'+project+'_'+type+'/'+'chart_1.'+type+'_merged.csv'
     data_set = set()
     data_list = list()
 
@@ -33,7 +35,7 @@ def merge(data_path, project, type):
         os.remove(merged_file)
 
     ### for a single file, just modify here
-    single_file = ['../input/res/chart_1.expr.csv']
+    single_file = ['../input/chart_expr/chart_1.expr.csv']
     for fl in single_file:
         with open(fl ,'r') as f:
             orig_len = 0

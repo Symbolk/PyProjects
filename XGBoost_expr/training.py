@@ -25,7 +25,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     dataset = data.values
     X = dataset[:, 0:feature_num]
     y = dataset[:, feature_num]
-    print('Dataset size: {}'.format(dataset.shape))
+    print('Encoded data size: {}'.format(dataset.shape))
     # load encoded training set
     # training_data = pd.read_csv(training_file, sep=',', header=None, encoding='utf-8')
     # training_data_values = training_data.values
