@@ -9,13 +9,13 @@ import datetime
 def train(data_file_path, model_file_path, feature_num, training_objective, class_num):
     start_time = datetime.datetime.now()
     # clear the saved model
-    data_file = data_file_path.split('/')[-1][0:-4]
+    data_file = data_file_path.split('/')[-1][0:-13]
     model_file = model_file_path + data_file + '_model.pkl'
-    encoded_data_file = data_file_path[0:-4]+'_encoded.csv'
+    encoded_data_file = data_file_path[0:-13]+'_encoded.csv'
 
     # check the encoded data
-    training_file = data_file_path[0:-4]+'_train.csv'
-    testing_file = data_file_path[0:-4]+'_test.csv'
+    training_file = data_file_path[0:-13]+'_train.csv'
+    validating_file = data_file_path[0:-13]+'_valid.csv'
     if not os.path.exists(training_file):
         print('Training set file does not exist!')
         os._exit(0)
@@ -33,7 +33,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     # X_train = training_data_values[:, 0:feature_num]
     # y_train = training_data_values[:, feature_num]
     # # load encoded validation set
-    testing_data = pd.read_csv(testing_file, sep=',', header=None, encoding='utf-8')
+    testing_data = pd.read_csv(validating_file, sep=',', header=None, encoding='utf-8')
     testing_data_values = testing_data.values
     print('Validataion set size: {}'.format(testing_data_values.shape))
     X_valid = testing_data_values[:, 0:feature_num]

@@ -151,7 +151,7 @@ def gen_exprs(project_bugid, oracle, expr_model_path, output_path, raw_expr_path
         if_ids.append(raw_expr_values[r, 0])
         varnames.append(raw_expr_values[r, 5])
         raw_exprs.append(raw_expr_values[r, :])
-
+    print(encoded_rows)
     ## load the model
     if not os.path.exists(expr_model_path):
         print('Model file does not exist!')
@@ -165,7 +165,7 @@ def gen_exprs(project_bugid, oracle, expr_model_path, output_path, raw_expr_path
     encoded_rows_array = np.array(encoded_rows)
     # print(encoded_rows_array.shape)
     X_pred = encoded_rows_array[:, 0:6]
-    print(X_pred.shape)
+    # print(X_pred)
     y_pred = encoded_rows_array[:, 6]
     M_pred = xgb.DMatrix(X_pred)
     y_prob = model.predict(M_pred)
@@ -174,7 +174,7 @@ def gen_exprs(project_bugid, oracle, expr_model_path, output_path, raw_expr_path
     X_raw = raw_exprs_array[:, 0:6]
     Y_raw = raw_exprs_array[:, 6]
 
-    print(y_prob.shape)
+    print(y_prob)
 
     ## save the results
     if os.path.exists(expr_predicted):
@@ -195,8 +195,6 @@ def gen_exprs(project_bugid, oracle, expr_model_path, output_path, raw_expr_path
                 f.write('{}'.format(tag_pred))# predicate
                 f.write('\t%f'%line[alts[j]])
                 f.write('\n')
-
-
 
 
 if __name__ == '__main__':

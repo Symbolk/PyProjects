@@ -29,16 +29,15 @@ def format_data(file_path, frequency):
         if c[1]>frequency:
             frequent_y.append(c[0])
 
-    print('class num:{}'.format(len(np.unique(Y))))
-    print('rows num:{}'.format(Y.shape[0]))
+    print('All class num:{}'.format(len(np.unique(Y))))
+    print('All rows num:{}'.format(Y.shape[0]))
 
-    print('frequent class(>{}) num:{}'.format(frequency, len(frequent_y)))
+    print('Frequent class(>{}) num:{}'.format(frequency, len(frequent_y)))
     frequent_indices = list()
     for i in range(0, Y.shape[0]):
-        # print(Y[i])
         if Y[i] in frequent_y:
             frequent_indices.append(i)
-    print('frequent rows num:{}'.format(len(frequent_indices)))
+    print('Frequent rows num:{}'.format(len(frequent_indices)))
 
     # write the data back to another file
     formatted_data_file = file_path[0:-4]+'_formatted.csv'
@@ -54,9 +53,9 @@ def format_data(file_path, frequency):
             f.write('\n')
 
 if __name__ == '__main__':
-    file_path = '../input/chart_expr/chart_1.expr.csv'
+    file_path = '../input/chart/expr/chart_19.expr.csv'
     # non_feature col indexes, start from 0
     # non_feature_cols = [1,2]
     # target_col = 7
-    frequency = 4
+    frequency = 1
     format_data(file_path, frequency)
