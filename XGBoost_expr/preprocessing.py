@@ -6,16 +6,16 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
-def preprocess(data_file_path, feature_num):
+def preprocess(data_file_path, feature_num, frequency):
     start_time = datetime.datetime.now()
     training_file = data_file_path[0:-4]+'_train.csv'
     validating_file = data_file_path[0:-4]+'_valid.csv'
     # also save the encoded data for later use
     encoded_data_file = data_file_path[0:-4]+'_encoded.csv'
-    less_encoded_data_file = data_file_path[0:-4] + '_frequent.csv'
+    frequent_encoded_data_file = data_file_path[0:-4] + '_frequent.csv'
 
     # load data from a csv file
-    data = pd.read_csv(data_file_path, sep='\t', header=None, encoding='utf-8')
+    data = pd.read_csv(data_file_path, sep='\t', header=0, encoding='utf-8')
     dataset = data.values
     print('Raw data size: {}'.format(dataset.shape))
     # split data into X and y
@@ -52,7 +52,6 @@ def preprocess(data_file_path, feature_num):
     class_num = len(classes)
     print('All class num: %d' % class_num)
     # count the examples and drop the infrequent ones
-    frequency = 1
     counter = collections.Counter(Y)
     frequent_y = list()
     for c in counter.items():
@@ -65,15 +64,20 @@ def preprocess(data_file_path, feature_num):
             frequent_indices.append(i)
     print('Frequent rows num: {}'.format(len(frequent_indices)))
 
-    with open(less_encoded_data_file, 'a+') as f:
-        for i in frequent_indices:
-            for x in encoded_x[i]:
-                f.write('%s,'%(x))
-            f.write('%s'%(encoded_y[i]))
-            f.write('\n')
+    if not os.path.exists(frequent_encoded_data_file):
+        with open(frequent_encoded_data_file, 'a+') as f:
+            for i in frequent_indices:
+                for x in encoded_x[i]:
+                    f.write('%s,'%(x))
+                f.write('%s'%(encoded_y[i]))
+                f.write('\n')
 
+    frequent_data=pd.read_csv(frequent_encoded_data_file, sep=',', header=None, encoding='utf-8')
+    frequent_values=frequent_data.values
+    frequent_x = frequent_values[:, 0:6]
+    frequent_y = frequent_values[:, 6]
     # split the data into training and validing set
-    X_train, X_valid, y_train, y_valid = train_test_split(encoded_x, encoded_y, test_size=0.2, random_state=7)
+    X_train, X_valid, y_train, y_valid = train_test_split(frequent_x, frequent_y, test_size=0.2, random_state=7)
     print('Training set size: {}'.format(y_train.shape))
     print('Validation set size: {}'.format(y_valid.shape))
     # write the encoded data into 2 files

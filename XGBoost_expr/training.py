@@ -11,7 +11,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     # clear the saved model
     data_file = data_file_path.split('/')[-1][0:-13]
     model_file = model_file_path + data_file + '_model.pkl'
-    encoded_data_file = data_file_path[0:-13]+'_encoded.csv'
+    encoded_data_file = data_file_path
 
     # check the encoded data
     training_file = data_file_path[0:-13]+'_train.csv'
@@ -25,7 +25,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     dataset = data.values
     X = dataset[:, 0:feature_num]
     y = dataset[:, feature_num]
-    print('Encoded data size: {}'.format(dataset.shape))
+    print('Training data size: {}'.format(dataset.shape))
     # load encoded training set
     # training_data = pd.read_csv(training_file, sep=',', header=None, encoding='utf-8')
     # training_data_values = training_data.values
@@ -35,7 +35,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     # # load encoded validation set
     testing_data = pd.read_csv(validating_file, sep=',', header=None, encoding='utf-8')
     testing_data_values = testing_data.values
-    print('Validataion set size: {}'.format(testing_data_values.shape))
+    print('Validating data size: {}'.format(testing_data_values.shape))
     X_valid = testing_data_values[:, 0:feature_num]
     y_valid = testing_data_values[:, feature_num]
 
@@ -63,7 +63,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
         'subsample': 0.7,
         'col_sample_bytree': 0.2,
         'min_child_weight': 1,
-        'save_period': 0,
+        'save_period': 10,
         'eval_metric': 'merror',
         'silent': 1,
         'lambda': 2,
