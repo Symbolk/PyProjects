@@ -3,13 +3,12 @@ from training import *
 from testing import *
 
 def run_expr(params):
-
     ## construct the path strings with params
-    data_file_path = '../input/'+params['project']+'/expr/'+params['project']+'_'+params['bugid']+'.expr.csv'
-    frequent_file_path = '../input/chart/expr/chart_19.expr_frequent.csv'
+    data_file_path = params['input_path']+params['project']+'/expr/'+params['project']+'_'+params['bugid']+'.expr.csv'
+    frequent_file_path = params['input_path']+params['project']+'/expr/'+params['project']+'_'+params['bugid']+'.expr_frequent.csv'
 
     model_saved_path = params['model_path']
-    result_path = '../output/'+params['project']+'/expr/'
+    result_path = params['output_path']+params['project']+'/expr/'
     # feature_num = # cols - 1(only one target)
     feature_num = 6
     frequency = params['expr_frequency']
@@ -30,4 +29,4 @@ if __name__ == '__main__':
         'model_path':'../model/',
         'expr_frequency': 10
     }
-    run_expr(params)
+    # run_expr(params)

@@ -116,13 +116,13 @@ def run_gen_exprs(params):
     bugid = params['bugid']
     project_bugid = project+'_'+bugid
 
-    expr_model_path = '../model/'+project_bugid+'.expr_model.pkl'
-    output_path = '../output/'+project+'/'
+    expr_model_path = params['model_path']+project_bugid+'.expr_model.pkl'
+    output_path = params['output_path']+project+'/'
 
-    oracle = '../input/'+project+'/pred/'+project_bugid+'.csv'
-    raw_expr_path = '../input/'+project+'/expr/'+project_bugid+'.expr.csv'
+    oracle = params['input_path']+project+'/pred/'+project_bugid+'.csv'
+    raw_expr_path = params['input_path']+project+'/expr/'+project_bugid+'.expr.csv'
 
-    encoded_raw_expr = '../input/'+project+'/expr/'+project_bugid+'.expr_encoded.csv'
+    encoded_raw_expr = params['input_path']+project+'/expr/'+project_bugid+'.expr_encoded.csv'
     # get the predicted exprs
     gen_exprs(project_bugid, oracle, expr_model_path, output_path, raw_expr_path, encoded_raw_expr)
 
@@ -131,4 +131,4 @@ if __name__ == '__main__':
         'project':'time',
         'bugid': '15'
     }
-    run_gen_exprs(params)
+    # run_gen_exprs(params)

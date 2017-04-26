@@ -3,9 +3,9 @@ from training import *
 from testing import *
 
 def run_var(params):
-    data_file_path = '../input/' + params['project'] + '/var/' + params['project'] + '_'+params['bugid']+'.var.csv'
+    data_file_path = params['input_path']+ params['project'] + '/var/' + params['project'] + '_'+params['bugid']+'.var.csv'
     model_saved_path = params['model_path']
-    result_path = '../output/'+params['project']+'/var/'
+    result_path = params['output_path']+params['project']+'/var/'
     # feature_num = # cols - 1(only one target)
     feature_num = 8
     # preprocess, encode
@@ -24,4 +24,4 @@ if __name__ == '__main__':
         'model_path':'../model/',
         'expr_frequency': 10
     }
-    run_var(params)
+    # run_var(params)

@@ -7,12 +7,14 @@ from XGBoost_var.main import *
 if __name__ == '__main__':
     params ={
         'project':'chart',
-        'bugid':'19',
+        'bugid':'1',
         'type': 'expr',
-        'model_path':'../model/',
-        'expr_frequency': 10
+        'expr_frequency': 10,
+        'model_path': 'model/',
+        'input_path':'input/',
+        'output_path':'output/'
     }
     run_expr(params)
-    run_var(params)
-    run_predict_vars(params)
-    run_gen_exprs(params)
+    # run_var(params)
+    # run_predict_vars(params)
+    # run_gen_exprs(params)

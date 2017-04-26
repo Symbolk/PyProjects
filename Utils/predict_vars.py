@@ -95,13 +95,13 @@ def run_predict_vars(params):
     bugid = params['bugid']
     project_bugid = project+'_'+bugid
 
-    var_model_path = '../model/'+project_bugid+'.var_model.pkl'
-    output_path = '../output/'+project+'/'
+    var_model_path = params['model_path']+project_bugid+'.var_model.pkl'
+    output_path = params['output_path']+project+'/'
 
-    oracle = '../input/'+project+'/pred/'+project_bugid+'.csv'
-    raw_var_path = '../input/'+project+'/var/'+project_bugid+ '.var.csv'
+    oracle = params['input_path']+project+'/pred/'+project_bugid+'.csv'
+    raw_var_path = params['input_path']+project+'/var/'+project_bugid+ '.var.csv'
 
-    encoded_raw_var = '../input/'+project+'/var/'+project_bugid+'.var_encoded.csv'
+    encoded_raw_var = params['input_path']+project+'/var/'+project_bugid+'.var_encoded.csv'
     # get the predicted varnames
     predict_vars(project_bugid, oracle, var_model_path, output_path, raw_var_path, encoded_raw_var)
 
