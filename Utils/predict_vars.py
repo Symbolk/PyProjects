@@ -95,6 +95,8 @@ def run_predict_vars(params):
     bugid = params['bugid']
     project_bugid = project+'_'+bugid
 
+    print('Predicting var for {}...'.format(project_bugid))
+
     var_model_path = params['model_path']+project_bugid+'.var_model.pkl'
     output_path = params['output_path']+project+'/'
 

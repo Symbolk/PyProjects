@@ -3,6 +3,8 @@ from training import *
 from testing import *
 
 def run_var(params):
+    print('Training var model for {}_{}...'.format(params['project'], params['bugid']))
+
     data_file_path = params['input_path']+ params['project'] + '/var/' + params['project'] + '_'+params['bugid']+'.var.csv'
     model_saved_path = params['model_path']
     result_path = params['output_path']+params['project']+'/var/'

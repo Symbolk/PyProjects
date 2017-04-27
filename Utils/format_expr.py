@@ -40,7 +40,7 @@ def format_data(file_path, frequency):
     print('Frequent rows num:{}'.format(len(frequent_indices)))
 
     # write the data back to another file
-    formatted_data_file = file_path[0:-4]+'_formatted.csv'
+    formatted_data_file = file_path[0:-4]+'_frequent_raw.csv'
     if os.path.exists(formatted_data_file):
         os.remove(formatted_data_file)
 
@@ -53,9 +53,9 @@ def format_data(file_path, frequency):
             f.write('\n')
 
 if __name__ == '__main__':
-    file_path = '../input/chart/expr/chart_19.expr.csv'
+    file_path = '../input/math/expr/math_3.expr.csv'
     # non_feature col indexes, start from 0
     # non_feature_cols = [1,2]
     # target_col = 7
-    frequency = 1
+    frequency = 20
     format_data(file_path, frequency)

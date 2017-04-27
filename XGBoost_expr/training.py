@@ -63,14 +63,14 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
         'subsample': 0.7,
         'col_sample_bytree': 0.2,
         'min_child_weight': 1,
-        'save_period': 10,
+        'save_period': 0,
         'eval_metric': 'merror',
         'silent': 1,
         'lambda': 2,
         'num_class': class_num
     }
-    num_round = 1000
-    early_stop = 10
+    num_round = 10
+    early_stop = 5
     learning_rates = [(num_round - i) / (num_round * 10.0) for i in range(num_round)]
 
     watchlist = [(M_train, 'train'), (M_valid, 'eval')]
