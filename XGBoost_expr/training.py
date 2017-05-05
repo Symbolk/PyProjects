@@ -69,15 +69,16 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
         'lambda': 2,
         'num_class': class_num
     }
-    num_round = 10
-    early_stop = 5
+    num_round = 1000
+    early_stop = 10
     learning_rates = [(num_round - i) / (num_round * 10.0) for i in range(num_round)]
 
     watchlist = [(M_train, 'train'), (M_valid, 'eval')]
-    model = xgb.train(params, M_train, num_boost_round=num_round, evals=watchlist,
-                    early_stopping_rounds=early_stop, learning_rates=learning_rates)
-    # model = xgb.train(params, M_train, evals=watchlist)
-    # print(model.predict(M_valid))
+    model = xgb.Booster()
+    # model = xgb.train(params, M_train, num_boost_round=num_round, evals=watchlist,
+    #                 early_stopping_rounds=early_stop, learning_rates=learning_rates)
+    model = xgb.train(params, M_train, evals=watchlist)
+    print(model.predict(M_valid))
 
     ### do cv with the func
     # cv_scores = cross_val_score(model, X, y, cv=5, n_jobs=-1)
@@ -91,10 +92,13 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     #     for train_indices, test_indices in k_fold.split(X):
     #         cvm = model.fit(X[train_indices], y[train_indices])
 
-    # save the best model on the disk
-    with open(model_file, 'w') as f:
-        pk.dump(model, f)
-        print('Model saved in {}'.format(model_file))
+    ## save the model with pickle
+    # with open(model_file, 'w') as f:
+    #     pk.dump(model, f)
+    #     print('Model saved in {}'.format(model_file))
+    ## save the model in xgboost style
+    model.save_model(model_file)
+    print('Model saved in {}'.format(model_file))
 
     end_time = datetime.datetime.now()
     run_time = end_time-start_time

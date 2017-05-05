@@ -12,13 +12,14 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
     start_time = datetime.datetime.now()
     data_file_name = data_file_path.split('/')[-1][0:-4]
     model_file = model_file_path + data_file_name + '_model.pkl'
+    print(model_file)
     result_file = result_file_path + data_file_name +'_results.csv'
     answer_file = result_file_path + data_file_name +'_answers.csv'
     encoded_data_file = data_file_path[0:-4] + '_encoded.csv'
 
     # load the testing data from file
     # testing_file = data_file_path[0:-4] + '_test.csv'
-    testing_file = data_file_path[0:-4]+'_encoded.csv'
+    testing_file = data_file_path[0:-4]+'_frequent.csv'
     if not os.path.exists(testing_file):
         print('Testing set file does not exist!')
         os._exit(0)
@@ -33,23 +34,36 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
     if not os.path.exists(model_file):
         print('Model file does not exist!')
         os._exit(0)
-    with open(model_file, 'r') as f:
-        model = pk.load(f)
-        print('Model loaded from {}'.format(model_file))
+    # with open(model_file, 'r') as f:
+    #     model = pk.load(f)
+    #     print('Model loaded from {}'.format(model_file))
+
+    model=xgb.Booster()
+    model.load_model(model_file)
+    print('Model loaded from {}'.format(model_file))
     print(model)
 
     # predicting the classes
     M_pred = xgb.DMatrix(X_test, label=y_test)
-    y_pred = model.predict(M_pred)
+    y_prob = model.predict(M_pred)
+
+    right1 = 0
+    for i in range(0, X_test.shape[0]):
+        line =y_prob[i]
+        a = hq.nlargest(1, range(len(line)), line.__getitem__)
+        if a[0]==y_test[i]:
+            right1+=1
+    print(right1)
     # y_rounded_pred = [round(v) for v in y_pred]
+    # print(y_rounded_pred)
     # accuracy = accuracy_score(y_test, y_rounded_pred)
     # print('Precision(Right Top1) : %.5f%%' % (accuracy*100.0))
     # cerror = sum(int(y_pred[i]) != y_test[i] for i in range(len(y_test))) / float(len(y_test))
-    accuracy = accuracy_score(y_test, y_pred) # average on all classes
-    print('Accuracy(top1): %.3f%%' % (accuracy*100.0))
+    # accuracy = accuracy_score(y_test, y_pred) # average on all classes
+    print('Accuracy(top1): %.3f%%' % (100*float(right1)/float(y_test.shape[0])))
     # predicting the probablities
     ###! original XGBoost has no predict_proba!
-    y_prob = model.predict_proba(M_pred)
+    # y_prob = model.predict_proba(M_pred)
 
     right10 = 0
     right5 = 0
@@ -76,7 +90,8 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
                 if alts[j] == y_test[i]:
                     right5 += 1
             for k in range(10):
-                tag_pred = classes[alts[k]]
+                tag_pred = alts[k]
+                # tag_pred = classes[alts[k]]
                 original = y_encoder.inverse_transform(tag_pred)
                 right_results.append(original)
                 right_probas.append(line[alts[k]])
@@ -109,8 +124,10 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
 
     ### or with xg func
     # plot feature importance
-    plot_importance(model)
-    pyplot.show()
+    # plot_importance(model)
+    # pyplot.show()
+
+    xgb.plot_importance(model)
 
     end_time = datetime.datetime.now()
     run_time = end_time - start_time

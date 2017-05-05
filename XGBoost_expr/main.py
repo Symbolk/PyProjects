@@ -16,19 +16,22 @@ def run_expr(params):
     frequency = params['expr_frequency']
     # preprocess, encode-
     classes, x_encoders, y_encoder = preprocess(data_file_path, feature_num, frequency)
-    # class_num = len(classes)
+    class_num = len(classes)
     # train the model
     # train(frequent_file_path, model_saved_path, feature_num, 'multi:softprob', class_num)
     # predict
-    # predict(data_file_path,model_saved_path, result_path, feature_num, classes, x_encoders, y_encoder)
+    predict(data_file_path,model_saved_path, result_path, feature_num, classes, x_encoders, y_encoder)
     # run_gen_exprs(params, y_encoder)
 
 if __name__ == '__main__':
     params ={
-        'project':'chart',
-        'bugid':'19',
+        'project':'retrofit',
+        'bugid':'',
         'type': 'expr',
-        'model_path':'../model/',
-        'expr_frequency': 10
+        'expr_frequency': 0,
+        'model_path': '../model/',
+        'input_path':'../input/',
+        'output_path':'../output/',
+        'gen_expr_top': 10
     }
-    # run_expr(params)
+    run_expr(params)

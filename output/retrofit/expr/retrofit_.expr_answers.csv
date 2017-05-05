@@ -1,0 +1,134 @@
+No 10 is right.,Right result is: $ instanceof Class<?>.,Probability is: 0.0151802534238.
+No 5 is right.,Right result is: $ < count.,Probability is: 0.0135380383581.
+No 3 is right.,Right result is: toResolve == $.,Probability is: 0.0124452365562.
+No 5 is right.,Right result is: $ instanceof ParameterizedType.,Probability is: 0.012008767575.
+No 3 is right.,Right result is: $ instanceof GenericArrayType.,Probability is: 0.0119437789544.
+No 1 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0118143456057.
+No 6 is right.,Right result is: $ != null.,Probability is: 0.0117978397757.
+No 4 is right.,Right result is: $.isSuccessful().,Probability is: 0.011502946727.
+No 7 is right.,Right result is: $.isInterface().,Probability is: 0.0114679224789.
+No 2 is right.,Right result is: RequestBody.class.isAssignableFrom(Utils.getRawType($)).,Probability is: 0.0113644357771.
+No 1 is right.,Right result is: $ instanceof Class<?>.,Probability is: 0.0151802534238.
+No 2 is right.,Right result is: $ < count.,Probability is: 0.0135380383581.
+No 3 is right.,Right result is: toResolve == $.,Probability is: 0.0124452365562.
+No 6 is right.,Right result is: $ instanceof ParameterizedType.,Probability is: 0.012008767575.
+No 6 is right.,Right result is: $ instanceof GenericArrayType.,Probability is: 0.0119437789544.
+No 4 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0118143456057.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.0117978397757.
+No 3 is right.,Right result is: $.isSuccessful().,Probability is: 0.011502946727.
+No 2 is right.,Right result is: $.isInterface().,Probability is: 0.0114679224789.
+No 8 is right.,Right result is: RequestBody.class.isAssignableFrom(Utils.getRawType($)).,Probability is: 0.0113644357771.
+No 1 is right.,Right result is: $ instanceof Class<?>.,Probability is: 0.0151802534238.
+No 3 is right.,Right result is: $ < count.,Probability is: 0.0135380383581.
+No 1 is right.,Right result is: toResolve == $.,Probability is: 0.0124452365562.
+No 1 is right.,Right result is: $ instanceof ParameterizedType.,Probability is: 0.012008767575.
+No 1 is right.,Right result is: $ instanceof GenericArrayType.,Probability is: 0.0119437789544.
+No 1 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0118143456057.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.0117978397757.
+No 7 is right.,Right result is: $.isSuccessful().,Probability is: 0.011502946727.
+No 1 is right.,Right result is: $.isInterface().,Probability is: 0.0114679224789.
+No 4 is right.,Right result is: RequestBody.class.isAssignableFrom(Utils.getRawType($)).,Probability is: 0.0113644357771.
+No 7 is right.,Right result is: $ != null.,Probability is: 0.068358823657.
+No 8 is right.,Right result is: $ == null.,Probability is: 0.0202891342342.
+No 9 is right.,Right result is: $.canceled.,Probability is: 0.0160962250084.
+No 6 is right.,Right result is: $.creationFailure instanceof IOException.,Probability is: 0.013073769398.
+No 1 is right.,Right result is: $.getRawType(returnType) != Call.class.,Probability is: 0.0114176813513.
+No 7 is right.,Right result is: $.creationFailure != null.,Probability is: 0.0113722290844.
+No 1 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0109385121614.
+No 1 is right.,Right result is: $ instanceof TypeVariable.,Probability is: 0.0106646344066.
+No 5 is right.,Right result is: $.,Probability is: 0.0103942705318.
+No 8 is right.,Right result is: $ >= 0x7f.,Probability is: 0.0103697665036.
+No 9 is right.,Right result is: $ instanceof Class<?>.,Probability is: 0.01391482912.
+No 7 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.013072100468.
+No 4 is right.,Right result is: getRawType($) != Call.class.,Probability is: 0.0124405985698.
+No 1 is right.,Right result is: $ instanceof ParameterizedType.,Probability is: 0.012324235402.
+No 2 is right.,Right result is: toResolve == $.,Probability is: 0.0122852418572.
+No 1 is right.,Right result is: $ instanceof GenericArrayType.,Probability is: 0.0122575396672.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0121077671647.
+No 1 is right.,Right result is: $.isInterface().,Probability is: 0.0117691820487.
+No 2 is right.,Right result is: $.isSuccessful().,Probability is: 0.010928102769.
+No 2 is right.,Right result is: $ instanceof Class.,Probability is: 0.010530195199.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.068358823657.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0202891342342.
+No 5 is right.,Right result is: $.canceled.,Probability is: 0.0160962250084.
+No 4 is right.,Right result is: $.creationFailure instanceof IOException.,Probability is: 0.013073769398.
+No 7 is right.,Right result is: $.getRawType(returnType) != Call.class.,Probability is: 0.0114176813513.
+No 1 is right.,Right result is: $.creationFailure != null.,Probability is: 0.0113722290844.
+No 2 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0109385121614.
+No 2 is right.,Right result is: $ instanceof TypeVariable.,Probability is: 0.0106646344066.
+No 1 is right.,Right result is: $.,Probability is: 0.0103942705318.
+No 1 is right.,Right result is: $ >= 0x7f.,Probability is: 0.0103697665036.
+No 1 is right.,Right result is: $ instanceof Class<?>.,Probability is: 0.01391482912.
+No 4 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.013072100468.
+No 1 is right.,Right result is: getRawType($) != Call.class.,Probability is: 0.0124405985698.
+No 2 is right.,Right result is: $ instanceof ParameterizedType.,Probability is: 0.012324235402.
+No 1 is right.,Right result is: toResolve == $.,Probability is: 0.0122852418572.
+No 2 is right.,Right result is: $ instanceof GenericArrayType.,Probability is: 0.0122575396672.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0121077671647.
+No 1 is right.,Right result is: $.isInterface().,Probability is: 0.0117691820487.
+No 1 is right.,Right result is: $.isSuccessful().,Probability is: 0.010928102769.
+No 4 is right.,Right result is: $ instanceof Class.,Probability is: 0.010530195199.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.108296386898.
+No 2 is right.,Right result is: $ == null.,Probability is: 0.0253019407392.
+No 1 is right.,Right result is: $.canceled.,Probability is: 0.0149594843388.
+No 2 is right.,Right result is: $.creationFailure instanceof IOException.,Probability is: 0.012150477618.
+No 1 is right.,Right result is: $ < count.,Probability is: 0.0119835734367.
+No 1 is right.,Right result is: $.creationFailure != null.,Probability is: 0.0114128151909.
+No 1 is right.,Right result is: $ instanceof TypeVariable.,Probability is: 0.00991147942841.
+No 4 is right.,Right result is: $.getRawType(returnType) != Call.class.,Probability is: 0.00984505563974.
+No 1 is right.,Right result is: argumentCount != $.length.,Probability is: 0.00946350581944.
+No 2 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.00942924059927.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0359574742615.
+No 2 is right.,Right result is: $ == null.,Probability is: 0.020534420386.
+No 1 is right.,Right result is: $.canceled.,Probability is: 0.016290821135.
+No 1 is right.,Right result is: $.creationFailure instanceof IOException.,Probability is: 0.0132318250835.
+No 6 is right.,Right result is: $ < count.,Probability is: 0.0130500644445.
+No 4 is right.,Right result is: $.creationFailure != null.,Probability is: 0.0124285137281.
+No 8 is right.,Right result is: $ instanceof TypeVariable.,Probability is: 0.0107935648412.
+No 8 is right.,Right result is: $.getRawType(returnType) != Call.class.,Probability is: 0.0107212262228.
+No 5 is right.,Right result is: argumentCount != $.length.,Probability is: 0.0103057213128.
+No 1 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0102684078738.
+No 5 is right.,Right result is: $ != null.,Probability is: 0.0359574742615.
+No 4 is right.,Right result is: $ == null.,Probability is: 0.020534420386.
+No 3 is right.,Right result is: $.canceled.,Probability is: 0.016290821135.
+No 2 is right.,Right result is: $.creationFailure instanceof IOException.,Probability is: 0.0132318250835.
+No 8 is right.,Right result is: $ < count.,Probability is: 0.0130500644445.
+No 7 is right.,Right result is: $.creationFailure != null.,Probability is: 0.0124285137281.
+No 1 is right.,Right result is: $ instanceof TypeVariable.,Probability is: 0.0107935648412.
+No 1 is right.,Right result is: $.getRawType(returnType) != Call.class.,Probability is: 0.0107212262228.
+No 4 is right.,Right result is: argumentCount != $.length.,Probability is: 0.0103057213128.
+No 4 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0102684078738.
+No 3 is right.,Right result is: $ == null.,Probability is: 0.0417827740312.
+No 3 is right.,Right result is: $ != null.,Probability is: 0.0352926291525.
+No 2 is right.,Right result is: $.canceled.,Probability is: 0.0159896090627.
+No 2 is right.,Right result is: $.creationFailure instanceof IOException.,Probability is: 0.0129871731624.
+No 9 is right.,Right result is: $ >= 0x7f.,Probability is: 0.0119013143703.
+No 8 is right.,Right result is: $.creationFailure != null.,Probability is: 0.0117259668186.
+No 9 is right.,Right result is: $.executed.,Probability is: 0.0115919755772.
+No 1 is right.,Right result is: $.getRawType(returnType) != Call.class.,Probability is: 0.011342054233.
+No 10 is right.,Right result is: $.,Probability is: 0.0111094685271.
+No 7 is right.,Right result is: $ == '%'.,Probability is: 0.0105789266527.
+No 3 is right.,Right result is: $ != null.,Probability is: 0.105689898133.
+No 8 is right.,Right result is: $ == null.,Probability is: 0.0511909648776.
+No 7 is right.,Right result is: $.canceled.,Probability is: 0.0145994378254.
+No 4 is right.,Right result is: $.,Probability is: 0.0119301909581.
+No 1 is right.,Right result is: $.creationFailure instanceof IOException.,Probability is: 0.0118580376729.
+No 1 is right.,Right result is: $ >= 0x7f.,Probability is: 0.0108665879816.
+No 2 is right.,Right result is: $.creationFailure != null.,Probability is: 0.0107064871117.
+No 6 is right.,Right result is: $.executed.,Probability is: 0.0105841448531.
+No 7 is right.,Right result is: $.getRawType(returnType) != Call.class.,Probability is: 0.0103559512645.
+No 10 is right.,Right result is: $ == '%'.,Probability is: 0.00965917110443.
+No 6 is right.,Right result is: $ == null.,Probability is: 0.0429800190032.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.0294075682759.
+No 1 is right.,Right result is: $.,Probability is: 0.0141981197521.
+No 5 is right.,Right result is: $ >= 0x7f.,Probability is: 0.0108048105612.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.0106900436804.
+No 7 is right.,Right result is: $ == '%'.,Probability is: 0.0106896022335.
+No 6 is right.,Right result is: PATH_SEGMENT_ALWAYS_ENCODE_SET.indexOf($) != -1.,Probability is: 0.0106051731855.
+No 2 is right.,Right result is: $.executed.,Probability is: 0.0105216829106.
+No 5 is right.,Right result is: $.canceled.,Probability is: 0.0105100870132.
+No 1 is right.,Right result is: a == $.,Probability is: 0.0103206550702.
+No 4 is right.,Right result is: $ == null.,Probability is: 0.0360001660883.
+No 3 is right.,Right result is: $ != null.,Probability is: 0.0294587612152.
+No 2 is right.,Right result is: $.,Probability is: 0.0120928948745.
+No 1 is right.,Right result is: $ instanceof WildcardType.,Probability is: 0.0118279401213.

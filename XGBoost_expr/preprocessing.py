@@ -77,7 +77,7 @@ def preprocess(data_file_path, feature_num, frequency):
     frequent_x = frequent_values[:, 0:6]
     frequent_y = frequent_values[:, 6]
     # split the data into training and validing set
-    X_train, X_valid, y_train, y_valid = train_test_split(frequent_x, frequent_y, test_size=0.2, random_state=7)
+    X_train, X_valid, y_train, y_valid = train_test_split(frequent_x, frequent_y, test_size=0.1, random_state=7)
     print('Training set size: {}'.format(y_train.shape))
     print('Validation set size: {}'.format(y_valid.shape))
     # write the encoded data into 2 files
