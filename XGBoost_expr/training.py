@@ -78,7 +78,7 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
     # model = xgb.train(params, M_train, num_boost_round=num_round, evals=watchlist,
     #                 early_stopping_rounds=early_stop, learning_rates=learning_rates)
     model = xgb.train(params, M_train, evals=watchlist)
-    print(model.predict(M_valid))
+    # print(model.predict(M_valid))
 
     ### do cv with the func
     # cv_scores = cross_val_score(model, X, y, cv=5, n_jobs=-1)

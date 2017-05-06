@@ -1,0 +1,4046 @@
+id	oracle
+520	element != null
+521	top == null
+522	element != null
+523	node.element == element
+524	node.element.compareTo(element) > 0
+525	node.element.compareTo(reference) < 0
+526	node.right == null
+527	node.left == null
+528	node.element.compareTo(reference) > 0
+529	node.left == null
+530	node.right == null
+1312	rowDimension <= 0
+1313	columnDimension <= 0
+1314	d == null
+1315	d.length == 0
+1316	d[0].length == 0
+1317	d.length == 0
+1318	columns < 0
+1319	p < 0
+1320	isSquare()
+1321	p == 0
+1322	p == 1
+1323	binaryRepresentation[i] == '1'
+1324	destination.length < rowsCount
+1324	destination[0].length < columnsCount
+1325	destination.length < selectedRows.length
+1325	destination[0].length < selectedColumns.length
+1326	subMatrix == null
+1327	nRows == 0
+1328	nCols == 0
+1329	subMatrix[r].length != nCols
+1330	matrix.getColumnDimension() != nCols
+1330	matrix.getRowDimension() != 1
+1331	matrix.getRowDimension() != nRows
+1331	matrix.getColumnDimension() != 1
+1332	vector.getDimension() != nCols
+1333	vector.getDimension() != nRows
+1334	array.length != nCols
+1335	array.length != nRows
+1336	nRows != nCols
+1337	v.length != nCols
+1338	v.getDimension() != nCols
+1339	v.length != nRows
+1340	v.getDimension() != nRows
+1341	i > 0
+1342	j > 0
+1343	object == this
+1344	object instanceof FieldMatrix<?> == false
+1345	m.getColumnDimension() != nCols
+1345	m.getRowDimension() != nRows
+1346	getEntry(row, col).equals(m.getEntry(row, col))
+1347	row >= getRowDimension()
+1347	row < 0
+1348	column >= getColumnDimension()
+1348	column < 0
+1349	endRow < startRow
+1350	endColumn < startColumn
+1351	selectedColumns == null
+1351	selectedRows == null
+1352	selectedColumns.length == 0
+1352	selectedRows.length == 0
+1353	getRowDimension() != m.getRowDimension()
+1353	getColumnDimension() != m.getColumnDimension()
+1354	getRowDimension() != m.getRowDimension()
+1354	getColumnDimension() != m.getColumnDimension()
+1355	getColumnDimension() != m.getRowDimension()
+884	format == null
+885	format == null
+886	index < n
+887	index < n
+935	x1 < x0
+936	p < 0.0
+936	p > 1.0
+937	p == 0.0
+938	lower == Integer.MIN_VALUE
+939	checkedCumulativeProbability(lower) >= p
+940	p == 1.0
+941	chebyshevApplies
+942	tmp > lower
+943	tmp < upper
+944	xm > upper
+944	xm < lower
+945	pm >= p
+946	sampleSize <= 0
+947	Double.isNaN(result)
+2753	y0.length != equations.getDimension()
+2754	y.length != equations.getDimension()
+2755	statesInitialized
+2756	state.evaluateStep(interpolator)
+2757	isLastStep
+2758	currentEvent.reset(eventT, eventY)
+2759	currentEvent.evaluateStep(interpolator)
+2760	dt <= threshold
+1733	weightedResidualJacobian.length != rows
+1734	objective.length != rows
+1735	rows <= cols
+1666	++iterations > maxIterations
+2357	data == null
+2358	data.length != nobs * (nvars + 1)
+2359	nobs <= nvars
+2360	noIntercept
+2361	y == null
+2362	y.length == 0
+2363	x == null
+2364	x.length == 0
+2365	noIntercept
+2366	x[i].length != nVars
+2367	y == null
+2367	x == null
+2368	x.length != y.length
+2369	x.length == 0
+2370	x[0].length + 1 > x.length
+2371	x.length != covariance.length
+2372	covariance.length > 0
+2372	covariance.length != covariance[0].length
+2800	supportedName.equals(name)
+2801	isSupported(name)
+2442	i > 0
+2443	bytesOut == bytes.length
+2444	n <= 0
+2445	Double.isNaN(cachedNormalDeviate)
+2446	s != 0
+1076	x0 > x1
+1077	p > 1.0
+1077	p < 0.0
+1078	p == 0.0
+1079	p == 1.0
+1080	lowerBound == Double.NEGATIVE_INFINITY
+1081	chebyshevApplies
+1082	upperBound == Double.POSITIVE_INFINITY
+1083	chebyshevApplies
+1084	isSupportConnected()
+1085	x - dx >= getSupportLowerBound()
+1086	cumulativeProbability(x - dx) == px
+1087	cumulativeProbability(midPoint) < px
+1088	sampleSize <= 0
+1197	rowDimension < 1
+1198	columnDimension < 1
+1199	p < 0
+1200	isSquare()
+1201	p == 0
+1202	p == 1
+1203	binaryRepresentation[i] == '1'
+1204	maxI == -1
+1205	destination.length < rowsCount
+1205	destination[0].length < columnsCount
+1206	destination[0].length < selectedColumns.length
+1206	destination.length < selectedRows.length
+1207	nRows == 0
+1208	nCols == 0
+1209	subMatrix[r].length != nCols
+1210	matrix.getRowDimension() != 1
+1210	matrix.getColumnDimension() != nCols
+1211	matrix.getColumnDimension() != 1
+1211	matrix.getRowDimension() != nRows
+1212	vector.getDimension() != nCols
+1213	vector.getDimension() != nRows
+1214	array.length != nCols
+1215	array.length != nRows
+1216	nRows != nCols
+1217	v.length != nCols
+1218	v.getDimension() != nCols
+1219	v.length != nRows
+1220	v.getDimension() != nRows
+1221	object == this
+1222	object instanceof RealMatrix == false
+1223	m.getRowDimension() != nRows
+1223	m.getColumnDimension() != nCols
+1224	getEntry(row, col) != m.getEntry(row, col)
+558	boundary.size() == 0
+559	hyperplanes == null
+559	hyperplanes.length == 0
+560	node.insertCut(hyperplane)
+561	node.insertCut(inserted.copySelf())
+562	iterator.hasNext()
+563	node.getCut() == null
+564	cell.getCut() == null
+565	tree.getCut() != null
+565	includeBoundaryAttributes
+565	tree.getAttribute() == null
+566	barycenter == null
+567	barycenter == null
+568	node.getCut() == null
+569	(Boolean) node.getAttribute()
+570	node.getCut().side(sub.getHyperplane()) == Side.PLUS
+571	isEmpty(node.getMinus())
+572	isEmpty(node.getMinus())
+573	sides.plusFound()
+573	sides.minusFound()
+574	node.getCut().side(sub.getHyperplane()) == Side.PLUS
+575	isEmpty(node.getPlus())
+576	isEmpty(node.getPlus())
+577	sides.minusFound()
+577	sides.plusFound()
+578	sides.minusFound()
+578	sides.plusFound()
+579	node.getCut().getHyperplane().sameOrientationAs(sub.getHyperplane())
+580	(Boolean) node.getPlus().getAttribute()
+580	node.getPlus().getCut() != null
+581	(Boolean) node.getMinus().getAttribute()
+581	node.getMinus().getCut() != null
+582	node.getPlus().getCut() != null
+582	(Boolean) node.getPlus().getAttribute()
+583	node.getMinus().getCut() != null
+583	(Boolean) node.getMinus().getAttribute()
+584	node.getCut() == null
+585	plus == null
+586	minus == null
+587	node.getCut() == null
+588	attribute != null
+1746	steps == null
+1747	steps.length == 0
+1748	steps[j] == 0
+1749	referenceSimplex.length <= 0
+1750	refI.length != dimension
+1751	refI[k] != refJ[k]
+1752	allEquals
+1753	i > 0
+1754	dimension != startPoint.length
+1755	Double.isNaN(vertex.getValue())
+1756	comparator.compare(simplex[i], pointValuePair) > 0
+1757	index < 0
+1757	index >= simplex.length
+1758	index >= simplex.length
+1758	index < 0
+1759	points.length != simplex.length
+2617	interpolator.currentState == null
+2618	dimension < 0
+2619	secondaryMappers == null
+2620	dirtyState
+2621	finalized
+2622	currentState == null
+2623	currentState != null
+2624	dimension < 0
+2024	values == null
+2025	test(values, begin, length)
+2026	values == null
+2027	test(values, begin, length)
+2028	object == this
+2029	object instanceof AbstractStorelessUnivariateStatistic == false
+614	node.getCut() == null
+615	attribute != null
+2149	values == null
+2150	begin < 0
+2151	length < 0
+2152	begin + length > values.length
+2153	length == 0
+2153	allowEmpty
+2154	weights == null
+2155	weights.length != values.length
+2156	Double.isNaN(weights[i])
+2157	Double.isInfinite(weights[i])
+2158	weights[i] < 0
+2159	containsPositiveWeight
+2159	weights[i] > 0.0
+2160	containsPositiveWeight
+2434	seed == null
+2435	seed.length < v.length
+2701	error >= 1.0
+2702	isLastStep
+2703	resetOccurred
+2704	filteredNextIsLast
+2697	error >= 1.0
+2698	isLastStep
+2699	resetOccurred
+2700	filteredNextIsLast
+2751	t == null
+2736	initialStepSize < minStep
+2736	initialStepSize > maxStep
+2737	vecAbsoluteTolerance.length != mainSetDimension
+2737	vecAbsoluteTolerance != null
+2738	vecRelativeTolerance != null
+2738	vecRelativeTolerance.length != mainSetDimension
+2739	initialStep > 0
+2740	forward
+2741	h < getMinStep()
+2742	h > getMaxStep()
+2743	forward
+2744	FastMath.abs(h) < minStep
+2745	acceptSmall
+2746	filteredH > maxStep
+2747	filteredH < -maxStep
+2163	statistics == null
+2164	iterator.hasNext()
+2165	current.getMin() < min
+2165	Double.isNaN(min)
+2166	Double.isNaN(max)
+2166	current.getMax() > max
+2167	n == 0
+2168	n == 1
+2584	array != null
+2585	o instanceof Object[]
+11	s > Integer.MAX_VALUE
+11	s < Integer.MIN_VALUE
+12	n == k
+12	k == 0
+13	k == 1
+13	k == n - 1
+14	k > n / 2
+15	n <= 61
+16	n <= 66
+17	n == k
+17	k == 0
+18	k == 1
+18	k == n - 1
+19	k > n/2
+20	n < 67
+21	n == k
+21	k == 0
+22	k == 1
+22	k == n - 1
+23	n < 67
+24	n < 1030
+25	k > n / 2
+26	n < 0
+27	n > 20
+28	n < 0
+29	n < 21
+30	n < 0
+31	n < 21
+32	u == 0
+32	v == 0
+33	u == Integer.MIN_VALUE
+33	v == Integer.MIN_VALUE
+34	u > 0
+35	v > 0
+36	k == 31
+37	t > 0
+38	v == 0
+38	u == 0
+39	v == Long.MIN_VALUE
+39	u == Long.MIN_VALUE
+40	u > 0
+41	v > 0
+42	k == 63
+43	t > 0
+44	b == 0
+44	a == 0
+45	lcm == Integer.MIN_VALUE
+46	b == 0
+46	a == 0
+47	lcm == Long.MIN_VALUE
+48	m > Integer.MAX_VALUE
+48	m < Integer.MIN_VALUE
+49	a > b
+50	a < 0
+51	b < 0
+52	a >= Long.MAX_VALUE / b
+53	b > 0
+54	Long.MIN_VALUE / b <= a
+55	a > 0
+56	a <= Long.MAX_VALUE / b
+57	s > Integer.MAX_VALUE
+57	s < Integer.MIN_VALUE
+58	b == Long.MIN_VALUE
+59	a < 0
+60	e < 0
+61	(e & 0x1) != 0
+62	e < 0
+63	(e & 0x1) != 0
+64	e < 0
+65	(e & 0x1) != 0
+66	e < 0
+67	(e & 0x1) != 0
+68	e < 0
+69	e < 0
+70	(e & 0x1) != 0
+71	e.compareTo(BigInteger.ZERO) < 0
+72	e.testBit(0)
+73	a > b
+74	a < 0
+75	b < 0
+76	Long.MIN_VALUE - b <= a
+77	a <= Long.MAX_VALUE - b
+78	n < k
+79	n < 0
+1295	copyArray
+1296	nRows == 0
+1297	nCols == 0
+1298	d[r].length != nCols
+1299	data == null
+1300	row > 0
+1301	column > 0
+1302	nRows == 0
+1303	nCols == 0
+1304	subMatrix[i].length != nCols
+1305	v.length != nCols
+1306	v.length != nRows
+1470	copyArray
+1471	d == null
+1472	nRows == 0
+1473	nCols == 0
+1474	d[r].length != nCols
+1475	data == null
+1476	row > 0
+1477	column > 0
+1478	nRows == 0
+1479	nCols == 0
+1480	subMatrix[i].length != nCols
+1481	v.length != nCols
+1482	v.length != nRows
+1573	d == null
+1574	d == null
+1575	d == null
+1576	d.length == 0
+1577	d == null
+1578	d == null
+1579	d.length < pos + size
+1580	d == null
+1581	d.length < pos + size
+1582	v == null
+1583	v == null
+1584	v == null
+1585	v2 == null
+1585	v1 == null
+1586	v2 == null
+1586	v1 == null
+1587	v1 == null
+1587	v2 == null
+1588	v1 == null
+1588	v2 == null
+1589	v1.length + v2.length == 0
+1590	v1.length + v2.length == 0
+1591	data.length != n
+1592	this == other
+1593	other == null
+1594	data.length != rhs.getDimension()
+1595	data[i].equals(rhs.getEntry(i))
+1596	index >= getDimension()
+1596	index < 0
+1159	d == null
+1160	d == null
+1161	d.length < pos + size
+1162	d == null
+1163	d.length < pos + size
+1164	v == null
+1165	v instanceof ArrayRealVector
+1166	v instanceof ArrayRealVector
+1167	v instanceof ArrayRealVector
+1168	v instanceof ArrayRealVector
+1169	v instanceof ArrayRealVector
+1170	v instanceof ArrayRealVector
+1171	v instanceof ArrayRealVector
+1172	v instanceof ArrayRealVector
+1173	v instanceof ArrayRealVector
+1174	n < 0
+1175	v instanceof ArrayRealVector
+1176	data.length != n
+1177	Double.isNaN(v)
+1178	isNaN()
+1179	Double.isInfinite(v)
+1180	this == other
+1181	other instanceof RealVector
+1182	data.length != rhs.getDimension()
+1183	rhs.isNaN()
+1184	data[i] != rhs.getEntry(i)
+1185	isNaN()
+1186	y instanceof ArrayRealVector
+1819	lowerDifference.getEntry(j) >= -initialTrustRegionRadius
+1820	lowerDifference.getEntry(j) >= ZERO
+1821	upperDifference.getEntry(j) <= initialTrustRegionRadius
+1822	upperDifference.getEntry(j) <= ZERO
+1823	trustRegionCenterInterpolationPointIndex != kbase
+1824	i < j
+1825	getEvaluations() > npt
+1826	dnorm < HALF * rho
+1827	getEvaluations() <= nfsav + 2
+1828	errbig > frhosq * crvmin
+1828	crvmin > ZERO
+1829	newPoint.getEntry(j) == lowerDifference.getEntry(j)
+1830	newPoint.getEntry(j) == upperDifference.getEntry(j)
+1831	bdtest < bdtol
+1832	bdtest < bdtol
+1833	dsq <= xoptsq * ONE_OVER_A_THOUSAND
+1834	ntrits == 0
+1835	ntrits == 0
+1836	cauchy > ZERO
+1836	denom < cauchy
+1837	k == trustRegionCenterInterpolationPointIndex
+1838	temp * den > scaden
+1839	newPoint.getEntry(i) == lowerDifference.getEntry(i)
+1840	newPoint.getEntry(i) == upperDifference.getEntry(i)
+1841	isMinimize
+1842	ntrits == -1
+1843	i == j
+1844	dnorm > rho
+1845	ntrits > 0
+1846	vquad >= ZERO
+1847	ratio <= ONE_OVER_TEN
+1848	ratio <= .7
+1849	delta <= rho * 1.5
+1850	f < fopt
+1851	temp * den > scaden
+1852	scaden <= HALF * biglsq
+1853	f < fopt
+1854	i < j
+1855	ntrits > 0
+1856	trustRegionCenterOffset.getEntry(i) == lowerDifference.getEntry(i)
+1857	trustRegionCenterOffset.getEntry(i) == upperDifference.getEntry(i)
+1858	gqsq < TEN * gisq
+1859	itest >= 3
+1860	i < n
+1861	i < npt
+1862	i < nh
+1863	ntrits == 0
+1864	f <= fopt + ONE_OVER_TEN * vquad
+1865	sum > distsq
+1866	knew >= 0
+1867	ntrits == -1
+1868	delta <= rho * 1.5
+1869	ntrits == -1
+1870	ratio > ZERO
+1871	Math.max(delta, dnorm) > rho
+1872	rho > stoppingTrustRegionRadius
+1873	ratio <= SIXTEEN
+1874	ratio <= TWO_HUNDRED_FIFTY
+1875	ntrits == -1
+1876	fAtInterpolationPoints.getEntry(trustRegionCenterInterpolationPointIndex) <= fsave
+1877	trustRegionCenterOffset.getEntry(i) == lowerDifference.getEntry(i)
+1878	trustRegionCenterOffset.getEntry(i) == upperDifference.getEntry(i)
+1879	k == trustRegionCenterInterpolationPointIndex
+1880	tmp > ZERO
+1881	slbd * tmp < lowerDifference.getEntry(i) - trustRegionCenterOffset.getEntry(i)
+1882	subd * tmp > upperDifference.getEntry(i) - trustRegionCenterOffset.getEntry(i)
+1883	tmp < ZERO
+1884	slbd * tmp > upperDifference.getEntry(i) - trustRegionCenterOffset.getEntry(i)
+1885	subd * tmp < lowerDifference.getEntry(i) - trustRegionCenterOffset.getEntry(i)
+1886	k == knew
+1887	Math.abs(d1) > Math.abs(vlag)
+1888	d3 * d4 < ZERO
+1889	Math.abs(d5) > Math.abs(vlag)
+1890	Math.abs(tmp) > Math.abs(vlag)
+1891	subd > HALF
+1892	Math.abs(vlag) < ONE_OVER_FOUR
+1893	predsq > presav
+1894	ibdsav < 0
+1895	ibdsav > 0
+1896	Math.min(trustRegionCenterOffset.getEntry(i) - lowerDifference.getEntry(i), glagValue) > ZERO
+1896	Math.max(trustRegionCenterOffset.getEntry(i) - upperDifference.getEntry(i), glagValue) < ZERO
+1897	ggfree == ZERO
+1898	tmp1 > ZERO
+1899	work1.getEntry(i) == bigstp
+1900	tmp2 <= lowerDifference.getEntry(i)
+1901	tmp2 >= upperDifference.getEntry(i)
+1902	work1.getEntry(i) == bigstp
+1903	work1.getEntry(i) == ZERO
+1904	glagValue > ZERO
+1905	iflag == 1
+1906	curv > -gw
+1906	curv < -gw * (ONE + Math.sqrt(TWO))
+1907	iflag == 0
+1908	csave > cauchy
+1909	nfm <= 2 * n
+1910	nfm >= 1
+1910	nfm <= n
+1911	upperDifference.getEntry(nfmm) == ZERO
+1912	nfm > n
+1913	lowerDifference.getEntry(nfxm) == ZERO
+1914	upperDifference.getEntry(nfxm) == ZERO
+1915	ipt > n
+1916	interpolationPoints.getEntry(nfm, j) == lowerDifference.getEntry(j)
+1917	interpolationPoints.getEntry(nfm, j) == upperDifference.getEntry(j)
+1918	numEval == 1
+1919	f < fAtInterpolationPoints.getEntry(trustRegionCenterInterpolationPointIndex)
+1920	numEval <= 2 * n + 1
+1921	numEval <= n + 1
+1921	numEval >= 2
+1922	npt < numEval + n
+1923	numEval >= n + 2
+1924	stepa * stepb < ZERO
+1925	f < fAtInterpolationPoints.getEntry(nfm - n)
+1926	trustRegionCenterInterpolationPointIndex == nfm
+1927	trustRegionCenterOffset.getEntry(i) <= lowerDifference.getEntry(i)
+1928	gradientAtTrustRegionCenter.getEntry(i) >= ZERO
+1929	trustRegionCenterOffset.getEntry(i) >= upperDifference.getEntry(i)
+1930	gradientAtTrustRegionCenter.getEntry(i) <= ZERO
+1931	xbdi.getEntry(i) != ZERO
+1932	xbdi.getEntry(i) != ZERO
+1933	beta == ZERO
+1934	stepsq == ZERO
+1935	beta == ZERO
+1936	gredsq * delsq <= qred * 1e-4 * qred
+1937	xbdi.getEntry(i) == ZERO
+1938	resid <= ZERO
+1939	ds < ZERO
+1940	shs > ZERO
+1941	s.getEntry(i) != ZERO
+1942	s.getEntry(i) > ZERO
+1943	temp < stplen
+1944	stplen > ZERO
+1945	temp > ZERO
+1945	iact == -1
+1946	crvmin == MINUS_ONE
+1947	xbdi.getEntry(i) == ZERO
+1948	iact >= 0
+1949	s.getEntry(iact) < ZERO
+1950	delsq <= ZERO
+1951	stplen < blen
+1952	iterc == itermax
+1953	sdec <= qred * .01
+1954	nact >= n - 1
+1955	xbdi.getEntry(i) == ZERO
+1956	temp <= qred * 1e-4 * qred
+1957	xbdi.getEntry(i) == ZERO
+1958	xbdi.getEntry(i) == ZERO
+1959	tempa <= ZERO
+1960	tempb <= ZERO
+1961	temp > ZERO
+1962	angbd * temp > tempa
+1963	temp > ZERO
+1964	angbd * temp > tempb
+1965	xbdi.getEntry(i) == ZERO
+1966	rednew > redmax
+1967	i == isav + 1
+1968	isav < 0
+1969	isav < iu
+1970	sdec <= ZERO
+1971	xbdi.getEntry(i) == ZERO
+1972	isav == iu
+1972	iact >= 0
+1973	sdec > qred * .01
+1974	xbdi.getEntry(i) == MINUS_ONE
+1975	xbdi.getEntry(i) == ONE
+1976	i < j
+1977	modelSecondDerivativesParameters.getEntry(k) != ZERO
+1978	crvmin != ZERO
+1979	iterc > itcsav
+1980	Math.abs(d1) > ztest
+1981	i >= npt
+1982	dimension < MINIMUM_PROBLEM_DIMENSION
+1983	numberOfInterpolationPoints < nPointsInterval[0]
+1983	numberOfInterpolationPoints > nPointsInterval[1]
+1984	minDiff < requiredMinDiff
+591	cut != null
+592	chopped.isEmpty()
+593	cut == null
+594	cut == null
+595	tree == tree.parent.plus
+596	cut == null
+597	FastMath.abs(offset) < 1.0e-10
+598	offset <= 0
+599	plus.attribute == null
+599	plus.attribute.equals(minus.attribute)
+599	cut != null
+599	minus.cut == null
+599	minus.attribute == null
+599	plus.attribute != null
+599	plus.cut == null
+600	cut == null
+601	tree.cut == null
+602	parentTree != null
+603	isPlusChild
+604	merged.cut != null
+605	cut == null
+606	cut.side(sHyperplane) == Side.PLUS
+607	cut.side(sHyperplane) == Side.PLUS
+608	parentTree != null
+609	isPlusChild
+610	cut != null
+611	tree == tree.parent.plus
+612	cut != null
+613	cut != null
+2000	f == null
+2001	goalType == null
+2002	startPoint == null
+1760	lower != null
+1761	lower.length != dim
+1762	v < lo
+1763	upper != null
+1764	upper.length != dim
+1765	v > hi
+1766	lower == null
+1767	upper == null
+1768	f == null
+1769	t == null
+1770	w == null
+1771	startPoint == null
+1772	t.length != w.length
+3396	minimalIterationCount <= 0
+3397	maximalIterationCount <= minimalIterationCount
+1611	f == null
+1612	goalType == null
+1603	optimizer == null
+1603	generator == null
+1604	starts < 1
+1605	optima == null
+1606	optima[0] == null
+1607	generator == null
+1607	optimizer == null
+1608	starts < 1
+1609	optima == null
+1610	optima[0] == null
+3387	cached == null
+3388	rule == null
+3389	rule.getFirst().length != rule.getSecond().length
+3238	f0 == 0.0
+3239	f1 == 0.0
+3240	fx == 0.0
+3241	f1 * fx < 0
+3242	x == x1
+3243	FastMath.abs(f1) <= ftol
+3244	inverted
+3245	inverted
+3246	f1 <= 0
+3247	f1 >= 0
+3248	FastMath.abs(x1 - x0) < FastMath.max(rtol * FastMath.abs(x1), atol)
+2568	Double.isNaN(b)
+2568	b <= 0.0
+2568	Double.isNaN(x)
+2568	x > 1
+2568	Double.isNaN(a)
+2568	a <= 0.0
+2568	x < 0
+2569	x > (a + 1.0) / (a + b + 2.0)
+2570	Double.isNaN(b)
+2570	a <= 0.0
+2570	b <= 0.0
+2570	Double.isNaN(a)
+971	Double.isNaN(z)
+972	x < 0
+972	x > 1
+973	x == 0
+974	alpha < 1
+975	x == 1
+976	beta < 1
+977	x <= 0
+978	x >= 1
+1356	m >= n
+1357	cachedU == null
+1358	hK[k - diagOffset] != 0.0
+1359	diagOffset > 0
+1360	cachedB == null
+1361	m < n
+1362	i > 0
+1363	i < main.length - 1
+1364	cachedV == null
+1365	hK[k] != 0.0
+1366	diagOffset > 0
+1367	a != 0.0
+1368	k < n - 1
+1369	b != 0.0
+1370	a != 0.0
+1371	k < m - 1
+1372	b != 0.0
+3179	f[0].length == 0
+3179	f.length == 0
+3179	yLen == 0
+3179	xLen == 0
+3180	xLen != f.length
+3181	xLen != dFdX.length
+3182	xLen != dFdY.length
+3183	xLen != d2FdXdY.length
+3184	f[i].length != yLen
+3185	dFdX[i].length != yLen
+3186	dFdY[i].length != yLen
+3187	d2FdXdY[i].length != yLen
+3188	i == -1
+3189	j == -1
+3190	partialDerivatives == null
+3191	i == -1
+3192	j == -1
+3193	c < val[0]
+3194	c <= val[i]
+3195	x < 0
+3195	x > 1
+3196	y > 1
+3196	y < 0
+3197	partialDerivativeX == null
+3198	partialDerivativeY == null
+3199	partialDerivativeXX == null
+3200	partialDerivativeYY == null
+3201	partialDerivativeXY == null
+3176	yval.length == 0
+3176	xval.length == 0
+3176	fval.length == 0
+3177	xval.length != fval.length
+3178	fval[i].length != yLen
+831	BigInteger.ZERO.equals(den)
+832	BigInteger.ZERO.equals(num)
+833	BigInteger.ONE.compareTo(gcd) < 0
+834	BigInteger.ZERO.compareTo(den) > 0
+835	Double.isNaN(value)
+836	Double.isInfinite(value)
+837	exponent != 0
+838	sign != 0
+839	k < 0
+840	a0 > overflow
+841	FastMath.abs(a0 - value) < epsilon
+842	q2 > overflow
+842	p2 > overflow
+843	FastMath.abs(convergent - value) > epsilon
+843	n < maxIterations
+843	q2 < maxDenominator
+844	n >= maxIterations
+845	q2 < maxDenominator
+846	numerator == 0
+847	fraction == null
+848	ZERO.equals(fraction)
+849	denominator.equals(fraction.denominator)
+850	bg == null
+851	BigInteger.ZERO.equals(bg)
+852	fraction == null
+853	BigInteger.ZERO.equals(fraction.numerator)
+854	Double.isNaN(result)
+855	this == other
+856	other instanceof BigFraction
+857	Double.isNaN(result)
+858	bg == null
+859	fraction == null
+860	fraction.numerator.equals(BigInteger.ZERO)
+860	numerator.equals(BigInteger.ZERO)
+861	exponent < 0
+862	exponent < 0
+863	exponent.compareTo(BigInteger.ZERO) < 0
+864	bg == null
+865	fraction == null
+866	ZERO.equals(fraction)
+867	denominator.equals(fraction.denominator)
+868	BigInteger.ONE.equals(denominator)
+869	BigInteger.ZERO.equals(numerator)
+870	obj instanceof BigFraction
+871	obj instanceof BigInteger
+872	obj instanceof Number
+873	parsePosition.getIndex() == 0
+874	num == null
+875	den == null
+193	this == other
+194	other instanceof BigReal
+2548	i < 0
+2548	i >1
+2549	another instanceof BinaryChromosome
+2550	getLength() != anotherBc.getLength()
+2551	getRepresentation().get(i).equals(anotherBc.getRepresentation().get(i))
+2562	original instanceof BinaryChromosome
+1029	trials < 0
+1030	p < 0
+1030	p > 1
+1031	x < 0
+1031	x > numberOfTrials
+1032	x < 0
+1033	x >= numberOfTrials
+3312	fm * fmin > 0
+3313	FastMath.abs(max - min) <= absoluteAccuracy
+2507	Double.isNaN(nextGaussian)
+2508	n > 0
+2509	(n & -n) == n
+1110	copyArray
+1111	blockData[index].length != iHeight * blockWidth(jBlock)
+1112	copyArray
+1113	length != columns
+1114	heightExcess > 0
+1115	widthExcess > 0
+1116	widthExcess > 0
+1117	refLength == 0
+1118	subRow.length != refLength
+1119	jWidth > available
+1120	matrix.getRowDimension() != 1
+1120	matrix.getColumnDimension() != nCols
+1121	jWidth > available
+1122	outIndex >= outBlock.length
+1123	matrix.getRowDimension() != nRows
+1123	matrix.getColumnDimension() != 1
+1124	mIndex >= mBlock.length
+1125	array.length != nCols
+1126	array.length != nRows
+1127	v.length != columns
+1128	v.length != rows
+1446	copyArray
+1447	blockData[index].length != iHeight * blockWidth(jBlock)
+1448	copyArray
+1449	length != columns
+1450	heightExcess > 0
+1451	widthExcess > 0
+1452	widthExcess > 0
+1453	refLength == 0
+1454	subRow.length != refLength
+1455	jWidth > available
+1456	matrix.getRowDimension() != 1
+1456	matrix.getColumnDimension() != nCols
+1457	jWidth > available
+1458	outIndex >= outBlock.length
+1459	matrix.getRowDimension() != nRows
+1459	matrix.getColumnDimension() != 1
+1460	mIndex >= mBlock.length
+1461	array.length != nCols
+1462	array.length != nRows
+1463	v.length != columns
+1464	v.length != rows
+589	attribute.getPlusOutside() != null
+590	attribute.getPlusInside() != null
+1613	growLimit <= 0
+1614	maxEvaluations <= 0
+1615	isMinim ? fA < fB : fA > fB
+1616	(w - xC) * (xB - w) > 0
+1617	isMinim ? fW < fC : fW > fC
+1618	isMinim ? fW > fB : fW < fB
+1619	(w - wLim) * (wLim - xC) >= 0
+1620	(w - wLim) * (xC - w) > 0
+1621	isMinim ? fW < fC : fW > fC
+1622	lo > hi
+3267	maximalOrder < 2
+3268	maximalOrder < 2
+3269	maximalOrder < 2
+3270	Precision.equals(y[1], 0.0, 1)
+3271	Precision.equals(y[0], 0.0, 1)
+3272	y[0] * y[1] < 0
+3273	Precision.equals(y[2], 0.0, 1)
+3274	y[1] * y[2] < 0
+3275	FastMath.max(absYA, absYB) < getFunctionValueAccuracy()
+3275	(xB - xA) <= xTol
+3276	agingA >= MAXIMAL_AGING
+3277	agingB >= MAXIMAL_AGING
+3278	nextX < xB
+3278	nextX > xA
+3279	signChangeIndex - start >= end - signChangeIndex
+3280	Double.isNaN(nextX)
+3281	Precision.equals(nextY, 0.0, 1)
+3282	end - start != nbPoints
+3282	nbPoints > 2
+3283	nbPoints == x.length
+3284	signChangeIndex >= (x.length + 1) / 2
+3285	nextY * yA <= 0
+3045	maximalOrder < 2
+3046	y[1].isZero()
+3047	y[0].isZero()
+3048	y[0].multiply(y[1]).negativeOrNull()
+3049	y[2].isZero()
+3050	y[1].multiply(y[2]).negativeOrNull()
+3051	xB.subtract(xA).subtract(xTol).negativeOrNull()
+3051	maxY.lessThan(functionValueAccuracy)
+3052	agingA >= MAXIMAL_AGING
+3053	agingB >= MAXIMAL_AGING
+3054	nextX.greaterThan(xA)
+3054	nextX.lessThan(xB)
+3055	signChangeIndex - start >= end - signChangeIndex
+3056	nextX.isNaN()
+3057	nextY.isZero()
+3058	nbPoints > 2
+3058	end - start != nbPoints
+3059	nbPoints == x.length
+3060	signChangeIndex >= (x.length + 1) / 2
+3061	nextY.multiply(yA).negativeOrNull()
+1623	rel < MIN_RELATIVE_TOLERANCE
+1624	abs <= 0
+1625	lo < hi
+1626	isMinim
+1627	stop
+1628	FastMath.abs(e) > tol1
+1629	q > 0
+1630	p > q * (a - x)
+1630	p < q * (b - x)
+1630	FastMath.abs(p) < FastMath.abs(0.5 * q * r)
+1631	b - u < tol2
+1631	u - a < tol2
+1632	x <= m
+1633	x < m
+1634	x < m
+1635	FastMath.abs(d) < tol1
+1636	d >= 0
+1637	isMinim
+1638	checker != null
+1639	checker.converged(iter, previous, current)
+1640	fu <= fx
+1641	u < x
+1642	u < x
+1643	fu <= fw
+1643	Precision.equals(w, x)
+1644	Precision.equals(v, x)
+1644	Precision.equals(v, w)
+1644	fu <= fv
+3321	FastMath.abs(yInitial) <= functionValueAccuracy
+3322	FastMath.abs(yMin) <= functionValueAccuracy
+3323	yInitial * yMin < 0
+3324	FastMath.abs(yMax) <= functionValueAccuracy
+3325	yInitial * yMax < 0
+3326	FastMath.abs(fc) < FastMath.abs(fb)
+3327	FastMath.abs(m) <= tol
+3327	Precision.equals(fb, 0)
+3328	FastMath.abs(e) < tol
+3328	FastMath.abs(fa) <= FastMath.abs(fb)
+3329	a == c
+3330	p > 0
+3331	p >= 1.5 * m * q - FastMath.abs(tol * q)
+3331	p >= FastMath.abs(0.5 * s * q)
+3332	FastMath.abs(d) > tol
+3333	m > 0
+3334	fc > 0
+3334	fb <= 0
+3334	fc <= 0
+3334	fb > 0
+1775	diagonalOnly <= 0
+1776	i >= checkFeasableCount
+1776	fitfun.isFeasible(arxk.getColumn(0))
+1777	diagonalOnly <= 0
+1778	bestValue > bestFitness
+1779	lastResult != null
+1779	getConvergenceChecker() != null
+1780	getConvergenceChecker().converged(iterations, optimum, lastResult)
+1781	stopFitness != 0
+1782	bestFitness < (isMinimize ? stopFitness : -stopFitness)
+1783	sigma*(Math.max(Math.abs(pcCol[i]), sqrtDiagC[i])) > stopTolX
+1784	i >= dimension-1
+1785	sigma*sqrtDiagC[i] > stopTolUpX
+1786	iterations > 2
+1786	Math.max(historyWorst, worstFitness) - Math.min(historyBest, bestFitness) < stopTolFun
+1787	historyWorst-historyBest < stopTolHistFun
+1787	iterations > fitnessHistory.length
+1788	max(diagD)/min(diagD) > 1e7
+1789	getConvergenceChecker() != null
+1790	lastResult != null
+1790	getConvergenceChecker().converged(iterations, current, lastResult)
+1791	bestValue == fitness[arindex[(int)(0.1+lambda/4.)]]
+1792	iterations > 2
+1792	Math.max(historyWorst, bestFitness) - Math.min(historyBest, bestFitness) == 0
+1793	generateStatistics
+1794	Double.isInfinite(uB[i])
+1794	Double.isInfinite(lB[i])
+1795	hasFiniteBounds
+1796	Double.isInfinite(lB[i])
+1796	Double.isInfinite(uB[i])
+1797	hasInfiniteBounds
+1798	inputSigma != null
+1799	inputSigma.length != init.length
+1800	inputSigma[i] < 0
+1801	boundaries != null
+1802	inputSigma[i] > boundaries[1][i] - boundaries[0][i]
+1803	lambda <= 0
+1804	hsig
+1805	iterations > diagonalOnly
+1805	diagonalOnly > 1
+1806	ccov1 + ccovmu > 0
+1807	isActiveCMA
+1808	negccov > negcovMax
+1809	ccov1 + ccovmu + negccov > 0
+1809	(iterations % 1. / (ccov1 + ccovmu + negccov) / dimension / 10.) < 1.
+1810	min(diagD) <= 0
+1811	diagD.getEntry(i, 0) < 0
+1812	max(diagD) > 1e14 * min(diagD)
+1813	m.getColumnDimension() == 1
+1814	r < m
+1815	max < e
+1816	min > e
+1817	max < m[r]
+1818	min > m[r]
+1019	scale <= 0
+1020	p < 0
+1020	p > 1
+1021	p == 0
+1022	p == 1
+2190	expected.length < 2
+2191	expected.length != observed.length
+2192	FastMath.abs(sumExpected - sumObserved) > 10E-6
+2193	rescale
+2194	alpha > 0.5
+2194	alpha <= 0
+2195	alpha > 0.5
+2195	alpha <= 0
+2196	observed1.length < 2
+2197	observed1.length != observed2.length
+2198	countSum1 == 0
+2198	countSum2 == 0
+2199	unequalCounts
+2200	observed2[i] == 0
+2200	observed1[i] == 0
+2201	unequalCounts
+2202	alpha <= 0
+2202	alpha > 0.5
+2203	in.length < 2
+2204	in[0].length < 2
+2205	in[i].length != in[0].length
+2206	in[i] <= 0
+2207	in[i] < 0
+2208	in[i][j] < 0
+1307	matrix.isSquare()
+1308	FastMath.abs(lIJ - lJI) > maxDelta
+1309	ltI[i] <= absolutePositivityThreshold
+1310	cachedL == null
+1311	cachedLT == null
+2528	this.fitness == NO_FITNESS
+2529	this.isSame(anotherChr)
+2530	sameChromosome != null
+2735	previousState != null
+2735	theta <= 0.5
+776	isNaN
+777	isInfinite()
+778	FastMath.abs(real) < FastMath.abs(imaginary)
+779	imaginary == 0.0
+780	real == 0.0
+781	addend.isNaN
+781	isNaN
+782	isNaN
+782	Double.isNaN(addend)
+783	isNaN
+784	isNaN
+784	divisor.isNaN
+785	c == 0.0
+785	d == 0.0
+786	divisor.isInfinite()
+786	isInfinite()
+787	FastMath.abs(c) < FastMath.abs(d)
+788	isNaN
+788	Double.isNaN(divisor)
+789	divisor == 0d
+790	Double.isInfinite(divisor)
+791	isNaN
+792	real == 0.0
+792	imaginary == 0.0
+793	isInfinite
+794	FastMath.abs(real) < FastMath.abs(imaginary)
+795	this == other
+796	other instanceof Complex
+797	c.isNaN
+798	isNaN
+799	factor.isNaN
+799	isNaN
+800	Double.isInfinite(real)
+800	Double.isInfinite(factor.real)
+800	Double.isInfinite(factor.imaginary)
+800	Double.isInfinite(imaginary)
+801	isNaN
+802	Double.isInfinite(imaginary)
+802	Double.isInfinite(real)
+803	Double.isNaN(factor)
+803	isNaN
+804	Double.isInfinite(factor)
+804	Double.isInfinite(imaginary)
+804	Double.isInfinite(real)
+805	isNaN
+806	subtrahend.isNaN
+806	isNaN
+807	Double.isNaN(subtrahend)
+807	isNaN
+808	isNaN
+809	isNaN
+810	isNaN
+811	isNaN
+812	isNaN
+813	isNaN
+814	isNaN
+815	isNaN
+816	isNaN
+817	isNaN
+818	real == 0.0
+818	imaginary == 0.0
+819	real >= 0.0
+820	Double.isInfinite(real)
+820	isNaN
+821	imaginary > 20.0
+822	imaginary < -20.0
+823	isNaN
+823	Double.isInfinite(imaginary)
+824	real > 20.0
+825	real < -20.0
+826	n <= 0
+827	isNaN
+828	isInfinite()
+829	Double.isNaN(imaginaryPart)
+829	Double.isNaN(realPart)
+830	Double.isNaN(realPart)
+762	imaginaryCharacter == null
+763	imaginaryCharacter.length() == 0
+764	imaginaryFormat == null
+765	realFormat == null
+766	im < 0.0
+767	im > 0.0
+767	Double.isNaN(im)
+768	absIm < 0
+769	toAppendTo.toString().equals("1")
+770	obj instanceof Complex
+771	obj instanceof Number
+772	parsePosition.getIndex() == 0
+773	re == null
+774	im == null
+775	CompositeFormat.parseFixedstring(source, getImaginaryCharacter(), pos)
+754	r < 0
+473	index < n
+474	index < n
+475	endIndex < source.length()
+476	source.substring(startIndex, endIndex).compareTo(sb.toString()) == 0
+477	startIndex == endIndex
+478	number != null
+479	endIndex > source.length()
+479	source.substring(startIndex, endIndex).compareTo(expected) != 0
+479	startIndex >= source.length()
+480	Double.isInfinite(value)
+480	Double.isNaN(value)
+1552	m == null
+1553	rnorm <= rmax
+1554	m != null
+1555	check
+1555	rhoNext <= 0.
+1556	manager.getIterations() == 2
+1557	pq <= 0.
+1557	check
+1558	rnorm <= rmax
+80	Precision.equals(hPrev, 0.0, small)
+81	Precision.equals(dN, 0.0, small)
+82	Precision.equals(cN, 0.0, small)
+83	Double.isInfinite(hN)
+84	Double.isNaN(hN)
+85	FastMath.abs(deltaN - 1.0) < epsilon
+86	n >= maxIterations
+2781	model.steps.size() == 0
+2782	steps.size() == 0
+2783	getInterpolatedState().length != model.getInterpolatedState().length
+2784	forward ^ model.forward
+2785	FastMath.abs(gap) > 1.0e-3 * FastMath.abs(step)
+2786	steps.size() == 0
+2787	isLast
+2788	locatePoint(time, sMin) <= 0
+2789	locatePoint(time, sMax) >= 0
+2790	location < 0
+2791	location > 0
+2792	FastMath.abs(tMed - tMin) < 1e-6
+2792	FastMath.abs(tMax - tMed) < 1e-6
+2793	index < low
+2794	index > high
+2795	forward
+2796	time < interval.getPreviousTime()
+2797	time > interval.getCurrentTime()
+2798	time > interval.getPreviousTime()
+2799	time < interval.getCurrentTime()
+2430	mean.length != order
+2245	length != yArray.length
+2246	length < 2
+2247	nCols < 2
+2247	nRows < 2
+519	obj instanceof Decimal64
+1572	r != null
+493	o == null
+494	o instanceof Number
+495	this == other
+2093	initialDoubleArray != null
+2094	windowSize != INFINITE_WINDOW
+2095	getN() == windowSize
+2096	getN() < windowSize
+2097	getN() > 0
+2098	getN() > 1
+2099	windowSize < 1
+2100	windowSize != INFINITE_WINDOW
+2101	windowSize < eDA.getNumElements()
+2101	windowSize != INFINITE_WINDOW
+2102	percentileImpl instanceof Percentile
+2829	x == Long.MIN_VALUE
+2830	x < 0
+2831	isLongMin
+2832	mant[i] != 0
+2833	exponent == -1023
+2834	x == 0
+2835	(bits & 0x8000000000000000L) != 0
+2836	exponent == 1024
+2837	x != x
+2838	x < 0
+2839	(bits & 0x8000000000000000L) != 0
+2840	s.equals(POS_INFINITY_STRING)
+2841	s.equals(NEG_INFINITY_STRING)
+2842	s.equals(NAN_STRING)
+2843	p == -1
+2844	p != -1
+2845	fpexp.charAt(i) == '-'
+2846	fpexp.charAt(i) >= '0'
+2846	fpexp.charAt(i) <= '9'
+2847	negative
+2848	fpdecimal.indexOf("-") != -1
+2849	fpdecimal.charAt(p) <= '9'
+2849	fpdecimal.charAt(p) >= '1'
+2850	decimalFound
+2850	fpdecimal.charAt(p) == '0'
+2851	fpdecimal.charAt(p) == '.'
+2852	p == fpdecimal.length()
+2853	p == (fpdecimal.length())
+2854	q == mant.length*rsize+offset+1
+2855	fpdecimal.charAt(p) == '.'
+2856	fpdecimal.charAt(p) > '9'
+2856	fpdecimal.charAt(p) < '0'
+2857	decimalFound
+2857	q != offset
+2858	q == offset
+2859	striped[q] == '0'
+2860	significantDigits == 0
+2860	decimalFound
+2861	decimalFound
+2862	striped[p] != '0'
+2863	q < striped.length
+2864	field.getRadixDigits() != d.field.getRadixDigits()
+2865	adiff < 0
+2866	diff == 0
+2867	adiff > (mant.length + 1)
+2868	diff < 0
+2869	lostdigit != 0
+2870	inexact
+2871	field.getRadixDigits() != x.field.getRadixDigits()
+2872	x.isNaN()
+2872	isNaN()
+2873	field.getRadixDigits() != x.field.getRadixDigits()
+2874	x.isNaN()
+2874	isNaN()
+2875	isNaN()
+2876	isNaN()
+2877	isNaN()
+2878	isNaN()
+2879	isNaN()
+2880	other instanceof Dfp
+2881	x.isNaN()
+2881	isNaN()
+2881	field.getRadixDigits() != x.field.getRadixDigits()
+2882	field.getRadixDigits() != x.field.getRadixDigits()
+2882	x.isNaN()
+2882	isNaN()
+2883	a.nans == FINITE
+2883	b.mant[b.mant.length - 1] == 0
+2883	a.mant[a.mant.length - 1] == 0
+2883	b.nans == FINITE
+2884	a.sign != b.sign
+2885	a.sign == -1
+2886	a.nans == INFINITE
+2886	b.nans == FINITE
+2887	b.nans == INFINITE
+2887	a.nans == FINITE
+2888	b.nans == INFINITE
+2888	a.nans == INFINITE
+2889	b.mant[b.mant.length-1] != 0
+2889	a.mant[b.mant.length-1] != 0
+2890	a.exp < b.exp
+2891	a.exp > b.exp
+2892	a.mant[i] > b.mant[i]
+2893	a.mant[i] < b.mant[i]
+2894	result.mant[mant.length-1] == 0
+2895	isNaN()
+2896	nans == INFINITE
+2897	mant[mant.length-1] == 0
+2898	exp < 0
+2899	exp >= mant.length
+2900	changed
+2901	result.sign == -1
+2902	result.sign == 1
+2903	a.greaterThan(half)
+2904	a.equals(half)
+2904	(result.mant[mant.length-result.exp]&1) != 0
+2904	result.exp > 0
+2905	rounded.greaterThan(newInstance(2147483647))
+2906	rounded.lessThan(newInstance(-2147483648))
+2907	rounded.sign == -1
+2908	mant[mant.length-1] > 1000
+2909	mant[mant.length-1] > 100
+2910	mant[mant.length-1] > 10
+2911	e >= 0
+2912	field.getRadixDigits() != x.field.getRadixDigits()
+2913	nans != FINITE
+2913	x.nans != FINITE
+2914	isNaN()
+2915	x.isNaN()
+2916	nans == INFINITE
+2916	x.nans == FINITE
+2917	nans == FINITE
+2917	x.nans == INFINITE
+2918	x.nans == INFINITE
+2918	nans == INFINITE
+2918	sign == x.sign
+2919	sign != x.sign
+2919	x.nans == INFINITE
+2919	nans == INFINITE
+2920	compare(a, b) > 0
+2921	b.mant[mant.length-1] == 0
+2922	a.mant[mant.length-1] == 0
+2923	a.exp < b.exp
+2924	asign != bsign
+2925	asign == rsign
+2926	rh != 0
+2926	asign == bsign
+2927	excp != 0
+2928	result.mant[mant.length-1] != 0
+2929	i == 0
+2930	result.mant[mant.length-1] == 0
+2931	asign != bsign
+2932	excp != 0
+2933	inc
+2934	rh != 0
+2935	exp < MIN_EXP
+2936	exp > MAX_EXP
+2937	n != 0
+2938	field.getRadixDigits() != x.field.getRadixDigits()
+2939	nans != FINITE
+2939	x.nans != FINITE
+2940	isNaN()
+2941	x.isNaN()
+2942	x.nans == FINITE
+2942	nans == INFINITE
+2942	x.mant[mant.length-1] != 0
+2943	mant[mant.length-1] != 0
+2943	nans == FINITE
+2943	x.nans == INFINITE
+2944	nans == INFINITE
+2944	x.nans == INFINITE
+2945	x.nans == FINITE
+2945	nans == FINITE
+2945	x.mant[mant.length-1] == 0
+2945	nans == INFINITE
+2945	x.nans == INFINITE
+2945	mant[mant.length-1] == 0
+2946	product[i] != 0
+2947	result.mant[mant.length-1] == 0
+2948	md > (mant.length-1)
+2949	excp != 0
+2950	nans != FINITE
+2951	isNaN()
+2952	x != 0
+2952	nans == INFINITE
+2953	x == 0
+2953	nans == INFINITE
+2954	x < 0
+2954	x >= RADIX
+2955	rh != 0
+2956	result.mant[mant.length-1] == 0
+2957	excp != 0
+2958	field.getRadixDigits() != divisor.field.getRadixDigits()
+2959	divisor.nans != FINITE
+2959	nans != FINITE
+2960	isNaN()
+2961	divisor.isNaN()
+2962	nans == INFINITE
+2962	divisor.nans == FINITE
+2963	divisor.nans == INFINITE
+2963	nans == FINITE
+2964	divisor.nans == INFINITE
+2964	nans == INFINITE
+2965	divisor.mant[mant.length-1] == 0
+2966	rh == 0
+2967	minadj >= 2
+2968	divisor.mant[i] > remainder[i]
+2969	divisor.mant[i] < remainder[i]
+2970	remainder[mant.length] != 0
+2971	trialgood == false
+2972	trial != 0
+2972	nsqd != 0
+2973	nsqd == mant.length
+2973	field.getRoundingMode() == DfpField.RoundingMode.ROUND_DOWN
+2974	nsqd > mant.length
+2975	quotient[i] != 0
+2976	result.mant[mant.length-1] == 0
+2977	md > (mant.length-1)
+2978	excp != 0
+2979	nans != FINITE
+2980	isNaN()
+2981	nans == INFINITE
+2982	divisor == 0
+2983	divisor < 0
+2983	divisor >= RADIX
+2984	result.mant[mant.length-1] == 0
+2985	excp != 0
+2986	mant[mant.length-1] == 0
+2986	nans == FINITE
+2987	nans != FINITE
+2988	sign == 1
+2988	nans == INFINITE
+2989	nans == QNAN
+2990	nans == SNAN
+2991	sign == -1
+2992	x.exp < -1
+2992	x.exp > 1
+2993	x.equals(ppx)
+2994	dx.mant[mant.length-1] == 0
+2995	nans != FINITE
+2996	nans == INFINITE
+2997	exp > mant.length
+2997	exp < -1
+2998	rawdigits[p] != '0'
+2999	sign == -1
+3000	p != rawdigits.length
+3001	e < 0
+3002	e < 0
+3003	e <= 0
+3004	--e == 0
+3005	pointInserted
+3006	buffer[q] == '.'
+3007	sign < 0
+3008	nans == FINITE
+3008	mant[mant.length-1] != 0
+3009	nans == FINITE
+3009	mant[mant.length-1] == 0
+3010	nans == QNAN
+3010	nans == INFINITE
+3011	nans == INFINITE
+3011	nans == SNAN
+3012	(result.exp+mant.length) < MIN_EXP
+3013	field.getRadixDigits() != x.field.getRadixDigits()
+3014	this.lessThan(x)
+3015	compare(this, x) == 0
+3016	lessThan(getZero())
+3017	up
+3018	this.equals(getZero())
+3019	this.equals(inc)
+3020	this.equals(getZero())
+3021	result.classify() == INFINITE
+3021	this.classify() != INFINITE
+3022	this.equals(getZero()) == false
+3022	result.equals(getZero())
+3023	isInfinite()
+3024	lessThan(getZero())
+3025	isNaN()
+3026	cmp0 == 0
+3027	cmp0 < 0
+3028	exponent < 0
+3029	exponent > -1023
+3030	exponent < -1074
+3031	exponent > 1023
+3032	mantissa == 4503599627370496L
+3033	exponent <= -1023
+3034	negate
+2808	getField().getRadixDigits() != d.getField().getRadixDigits()
+2809	msb == 0
+2810	digits == 4 * mant.length - 3
+2810	lsbthreshold <= 1
+2811	lsbthreshold == 1
+2812	inc
+2813	rh != 0
+2814	exp < MIN_EXP
+2815	exp > MAX_EXP
+2816	discarded != 0
+2816	n != 0
+2817	getField().getRadixDigits() != x.getField().getRadixDigits()
+2818	this.lessThan(x)
+2819	equals(x)
+2820	lessThan(getZero())
+2821	up
+2822	this.equals(getZero())
+2823	inc.equals(getZero())
+2824	this.equals(inc)
+2825	this.equals(getZero())
+2826	inc.equals(getZero())
+2827	this.classify() != INFINITE
+2827	result.classify() == INFINITE
+2828	result.equals(getZero())
+2828	this.equals(getZero()) == false
+3035	computeConstants
+3036	buf[i] <= '9'
+3036	buf[i] >= '1'
+3037	buf[i] == '.'
+3038	sig == (radixDigits / 2) * 4
+3039	buf[i] >= '0'
+3039	leading
+3039	buf[i] <= '9'
+3040	buf[i] >= '0'
+3040	buf[i] <= '9'
+3040	i < sp
+3041	sqr2String == null
+3041	sqr2String.length() < highPrecisionDecimalDigits - 3
+3042	yk.equals(ykM1)
+3043	y.equals(py)
+3044	y.equals(py)
+3062	buf[i] <= '9'
+3062	buf[i] >= '1'
+3063	buf[i] == '.'
+3064	sig == (field.getRadixDigits() / 2) * 4
+3065	buf[i] >= '0'
+3065	buf[i] <= '9'
+3065	leading
+3066	buf[i] <= '9'
+3066	buf[i] >= '0'
+3066	i < sp
+3067	result[0].equals(result[1])
+3067	result[0].classify() == Dfp.INFINITE
+3068	a == 0
+3069	a < 0
+3070	trial > a
+3071	invert
+3072	a == 0
+3073	a < 0
+3074	invert
+3075	ia > 2147483646
+3076	ia < -2147483646
+3077	y.equals(py)
+3078	a.lessThan(a.getZero())
+3078	a.equals(a.getZero())
+3078	a.isNaN()
+3079	a.classify() == Dfp.INFINITE
+3080	y.equals(py)
+3081	x.getField().getRadixDigits() != y.getField().getRadixDigits()
+3082	y.equals(zero)
+3083	y.equals(one)
+3084	x.isNaN()
+3085	x.isNaN()
+3085	y.isNaN()
+3086	x.equals(zero)
+3087	Dfp.copysign(one, x).greaterThan(zero)
+3088	y.greaterThan(zero)
+3089	y.rint().equals(y)
+3089	y.remainder(two).equals(zero)
+3089	y.classify() == Dfp.FINITE
+3090	y.greaterThan(zero)
+3091	y.greaterThan(zero)
+3092	x.lessThan(zero)
+3093	y.classify() == Dfp.INFINITE
+3093	x.greaterThan(one)
+3094	y.greaterThan(zero)
+3095	x.lessThan(one)
+3095	y.classify() == Dfp.INFINITE
+3096	y.greaterThan(zero)
+3097	x.equals(one)
+3097	y.classify() == Dfp.INFINITE
+3098	x.classify() == Dfp.INFINITE
+3099	invert
+3100	y.classify() == Dfp.FINITE
+3100	y.remainder(two).equals(zero)
+3100	y.rint().equals(y)
+3101	y.greaterThan(zero)
+3102	y.greaterThan(zero)
+3103	y.greaterThan(zero)
+3104	invert
+3104	y.rint().equals(y)
+3105	y.greaterThan(x.newInstance(-100000000))
+3105	y.lessThan(x.newInstance(100000000))
+3106	v.unequal(zero)
+3107	invert
+3108	y.remainder(two).equals(zero)
+3108	y.rint().equals(y)
+3109	y.equals(py)
+3110	y.equals(py)
+3111	x.lessThan(zero)
+3112	x.greaterThan(pi.divide(2))
+3113	x.lessThan(pi.divide(4))
+3114	neg
+3115	x.lessThan(zero)
+3116	x.greaterThan(pi.divide(2))
+3117	x.lessThan(pi.divide(4))
+3118	neg
+3119	y.equals(py)
+3120	x.lessThan(zero)
+3121	x.greaterThan(one)
+3122	x.greaterThan(ty)
+3123	sub
+3124	recp
+3125	neg
+3126	a.lessThan(a.getZero())
+3127	negative
+2642	interpolator.v1 == null
+2643	vectorsInitialized
+2644	v1 == null
+2645	previousState != null
+2645	theta <= 0.5
+2696	den <= 0.0
+2716	interpolator.currentState == null
+2717	vectorsInitialized
+2718	v == null
+2719	previousState != null
+2719	theta <= 0.5
+2720	currentState == null
+1225	isSymmetric(matrix, false)
+1226	FastMath.abs(mij - mji) > (FastMath.max(FastMath.abs(mij), FastMath.abs(mji)) * eps)
+1227	raiseException
+1228	cachedV == null
+1229	cachedD == null
+1230	Precision.compareTo(imagEigenvalues[i], 0.0, epsilon) > 0
+1231	Precision.compareTo(imagEigenvalues[i], 0.0, epsilon) < 0
+1232	cachedVt == null
+1233	Precision.equals(imagEigenvalues[i], 0.0, epsilon)
+1234	hasComplexEigenvalues()
+1235	FastMath.abs(realEigenvalues[i]) > maxAbsoluteValue
+1236	FastMath.abs(e[i]) > maxAbsoluteValue
+1237	maxAbsoluteValue != 0
+1238	FastMath.abs(realEigenvalues[i]) <= Precision.EPSILON * maxAbsoluteValue
+1239	FastMath.abs(e[i]) <= Precision.EPSILON * maxAbsoluteValue
+1240	FastMath.abs(e[m]) + delta == delta
+1241	m != j
+1242	its == maxIter
+1243	q < 0.0
+1244	FastMath.abs(p) >= FastMath.abs(q)
+1245	e[i + 1] == 0.0
+1246	i >= j
+1246	t == 0.0
+1247	realEigenvalues[j] > p
+1248	k != i
+1249	FastMath.abs(realEigenvalues[i]) > maxAbsoluteValue
+1250	maxAbsoluteValue != 0.0
+1251	FastMath.abs(realEigenvalues[i]) < Precision.EPSILON * maxAbsoluteValue
+1252	i == (realEigenvalues.length - 1)
+1252	Precision.equals(matT[i + 1][i], 0.0, epsilon)
+1253	Precision.equals(norm, 0.0, epsilon)
+1254	Precision.equals(q, 0.0)
+1255	Precision.compareTo(imagEigenvalues[i], 0.0, epsilon) < 0.0
+1256	Precision.equals(imagEigenvalues[i], 0.0)
+1257	w != 0.0
+1258	FastMath.abs(x) > FastMath.abs(z)
+1259	(Precision.EPSILON * t) * t > 1
+1260	q < 0.0
+1261	FastMath.abs(matrixT[idx][idx - 1]) > FastMath.abs(matrixT[idx - 1][idx])
+1262	Precision.compareTo(imagEigenvalues[i], 0.0, epsilon) < 0.0
+1263	Precision.equals(imagEigenvalues[i], 0.0)
+1264	Precision.equals(vr, 0.0)
+1264	Precision.equals(vi, 0.0)
+1265	FastMath.abs(x) > (FastMath.abs(z) + FastMath.abs(q))
+1266	(Precision.EPSILON * t) * t > 1
+1267	i < 0 | i > n - 1
+2517	elitismRate < 0
+2517	elitismRate > 1
+2706	firstTime
+2706	fsal
+2707	firstTime
+2708	vecAbsoluteTolerance == null
+2709	forward
+2710	stepStart + stepSize >= t
+2711	stepStart + stepSize <= t
+2712	error >= 1.0
+2713	isLastStep
+2714	fsal
+2715	filteredNextIsLast
+2436	sampleStats.getN() == 0
+2437	binStats.isEmpty()
+2438	loaded
+2439	x <= upperBounds[i]
+2440	stats.getN() > 0
+2441	stats.getStandardDeviation() > 0
+2762	equationData.length != dimension
+2763	equationData.length != dimension
+2565	FastMath.abs(x) > 40
+2566	FastMath.abs(x) > 40
+2567	x1 > x2
+2233	other instanceof EuclideanIntegerPoint
+2234	point.length != otherPoint.length
+2235	point[i] != otherPoint[i]
+2236	i < coordinates.length - 1
+2748	previousState != null
+2748	theta <= 0.5
+2764	g0 == 0
+2765	FastMath.abs(dt) < convergence
+2766	g0Positive ^ (gb >= 0)
+2767	solver instanceof BracketedUnivariateSolver<?>
+2768	FastMath.abs(root - ta) <= convergence
+2768	FastMath.abs(root - previousEventTime) <= convergence
+2768	Double.isNaN(previousEventTime)
+2769	FastMath.abs(previousEventTime - root) > convergence
+2769	Double.isNaN(previousEventTime)
+2770	FastMath.abs(pendingEventTime - t) <= convergence
+2770	pendingEvent
+2771	pendingEvent
+2771	FastMath.abs(pendingEventTime - t) <= convergence
+2772	nextAction == EventHandler.Action.RESET_STATE
+2586	++count < len
+2587	args[j] instanceof Serializable
+2588	value instanceof Serializable
+2803	components.isEmpty()
+2804	components.isEmpty()
+2805	primaryState.length != this.primaryState.length
+2806	secondaryState.length != localArray.length
+2807	completeState.length != getTotalDimension()
+979	mean <= 0
+980	x < 0
+981	x <= 0.0
+982	p > 1.0
+982	p < 0.0
+983	p == 1.0
+984	u <= EXPONENTIAL_SA_QI[0]
+985	u2 < umin
+1023	numeratorDegreesOfFreedom <= 0
+1024	denominatorDegreesOfFreedom <= 0
+1025	x <= 0
+1026	denominatorDF > 2
+1027	numericalVarianceIsCalculated
+1028	denominatorDF > 4
+2589	type == TransformType.FORWARD
+2590	normalization == DctNormalization.ORTHOGONAL_DCT_I
+2591	normalization == DctNormalization.ORTHOGONAL_DCT_I
+2592	ArithmeticUtils.isPowerOfTwo(n)
+2593	n == 1
+2605	i < j
+2606	type == TransformType.INVERSE
+2607	dataRI.length != 2
+2608	dataR.length != dataI.length
+2609	ArithmeticUtils.isPowerOfTwo(n)
+2610	n == 1
+2611	n == 2
+2612	type == TransformType.INVERSE
+2613	type == TransformType.INVERSE
+2614	subVector.length == dimensionSize.length
+2615	subVector.length == d
+2597	type == TransformType.FORWARD
+2598	ArithmeticUtils.isPowerOfTwo(n)
+2599	ArithmeticUtils.isPowerOfTwo(n)
+235	d > -Precision.SAFE_MIN
+235	d < Precision.SAFE_MIN
+236	x != x
+237	x > 20.0
+238	x < -20
+239	x < 0.0
+240	x != x
+241	x > 20.0
+242	x < -20
+243	x == 0
+244	x < 0.0
+245	x > 0.25
+246	negate
+247	x != x
+248	x > 20.0
+249	x < -20
+250	x == 0
+251	x < 0.0
+252	x >= 0.5
+253	negate
+254	a < 0
+255	a > 0.167
+256	a > 0.097
+257	a > 0.036
+258	a > 0.0036
+259	a < 0
+260	a > 0.15
+261	a > 0.087
+262	a > 0.031
+263	a > 0.003
+264	x < 0.0
+265	intVal > 746
+266	hiPrec != null
+267	intVal > 709
+268	hiPrec != null
+269	intVal == 709
+270	hiPrec != null
+271	intVal > 709
+272	hiPrec != null
+273	extra != 0.0
+274	hiPrec != null
+275	x == 0.0
+275	x != x
+276	x >= 1.0
+276	x <= -1.0
+277	x > 0.0
+278	x < 0.0
+279	negative
+280	hiPrecOut != null
+281	x==0
+282	x != x
+282	(bits & 0x8000000000000000L) != 0
+283	x != 0.0
+284	hiPrec != null
+285	x == Double.POSITIVE_INFINITY
+286	hiPrec != null
+287	(bits & 0x7ff0000000000000L) == 0
+288	x == 0
+289	hiPrec != null
+290	exp == -1
+290	exp == 0
+291	hiPrec == null
+291	x > 0.99
+291	x < 1.01
+292	hiPrec != null
+293	hiPrec != null
+294	x == -1
+295	1/x == 0
+295	x > 0
+296	x>1e-6
+296	x<-1e-6
+297	Double.isInfinite(lores)
+298	Double.isInfinite(lores)
+299	y == 0.0
+300	x != x
+301	x == 0
+302	(bits & 0x8000000000000000L) != 0
+303	(yi & 1) == 1
+303	y == yi
+303	y < 0
+304	(yi & 1) == 1
+304	y > 0
+304	y == yi
+305	y < 0
+306	y > 0
+307	x == Double.POSITIVE_INFINITY
+308	y != y
+309	y < 0.0
+310	y == Double.POSITIVE_INFINITY
+311	x * x == 1.0
+312	x * x > 1.0
+313	x == Double.NEGATIVE_INFINITY
+314	y != y
+315	y < 0
+316	(yi & 1) == 1
+316	y == yi
+317	y > 0
+318	y == yi
+318	(yi & 1) == 1
+319	y == Double.NEGATIVE_INFINITY
+320	x * x == 1.0
+321	x * x < 1.0
+322	x < 0
+323	y <= -TWO_POWER_52
+323	y >= TWO_POWER_52
+324	y == (long) y
+325	y > -8e298
+325	y < 8e298
+326	Double.isInfinite(lores)
+327	xb != 0.0
+328	cotanFlag
+329	xb != 0.0
+330	cotanFlag
+331	shift != 0
+332	bita
+332	bitb
+332	bitb
+332	bita
+332	bitsum
+333	bita
+333	bitb
+333	bitb
+333	bitsum
+333	bita
+334	bita
+334	bitb
+334	bita
+334	bitb
+334	bitsum
+335	bita
+335	bita
+335	bitb
+335	bitsum
+335	bitb
+336	bita
+336	bitsum
+336	bitb
+336	bitb
+336	bita
+337	bitb
+337	bita
+337	bita
+337	bitsum
+337	bitb
+338	bitsum
+338	bita
+338	bitb
+338	bita
+338	bitb
+339	x < 0
+340	xa == 0.0
+341	bits < 0
+342	xa != xa
+342	xa == Double.POSITIVE_INFINITY
+343	xa > 3294198.0
+344	xa > 1.5707963267948966
+345	negative
+346	x < 0
+347	xa != xa
+347	xa == Double.POSITIVE_INFINITY
+348	xa > 3294198.0
+349	xa > 1.5707963267948966
+350	x < 0
+351	xa == 0.0
+352	bits < 0
+353	xa != xa
+353	xa == Double.POSITIVE_INFINITY
+354	xa > 3294198.0
+355	xa > 1.5707963267948966
+356	xa > 1.5
+357	(quadrant & 1) == 0
+358	negative
+359	xa == 0.0
+360	xa < 0
+361	xa > 1.633123935319537E16
+362	xa < 1
+363	idx == 0
+364	leftPlane
+365	negate ^ leftPlane
+366	y != y
+366	x != x
+367	y == 0
+368	invx == 0
+369	x > 0
+370	x < 0
+370	invx < 0
+371	y < 0
+371	invy < 0
+372	y == Double.POSITIVE_INFINITY
+373	x == Double.POSITIVE_INFINITY
+374	x == Double.NEGATIVE_INFINITY
+375	y == Double.NEGATIVE_INFINITY
+376	x == Double.POSITIVE_INFINITY
+377	x == Double.NEGATIVE_INFINITY
+378	x == Double.POSITIVE_INFINITY
+379	1 / y > 0
+379	y > 0
+380	1 / y < 0
+380	y < 0
+381	x == Double.NEGATIVE_INFINITY
+382	1 / y > 0.0
+382	y > 0.0
+383	y < 0
+383	1 / y < 0
+384	x == 0
+385	y > 0
+385	1 / y > 0
+386	1 / y < 0
+386	y < 0
+387	Double.isInfinite(r)
+388	ra == 0
+389	x != x
+390	x < -1.0
+390	x > 1.0
+391	x == 1.0
+392	x == -1.0
+393	x == 0.0
+394	x != x
+395	x < -1.0
+395	x > 1.0
+396	x == -1.0
+397	x == 1.0
+398	x == 0
+399	Double.isInfinite(r)
+400	exponent == -1023
+401	x == 0
+402	exponent == 1024
+403	subnormal
+404	Double.isInfinite(x)
+404	x == 0.0
+405	result == 0
+406	Double.isInfinite(x)
+406	x == 0.0
+407	Double.isInfinite(x)
+408	Float.isInfinite(x)
+409	n < 1024
+409	n > -1023
+410	Double.isInfinite(d)
+410	d == 0
+410	Double.isNaN(d)
+411	n < -2098
+412	n > 2097
+413	n < 0
+414	scaledExponent > 0
+415	scaledExponent > -53
+416	mostSignificantLostBit != 0
+417	exponent == 0
+418	scaledExponent < 2047
+419	scaledExponent < 2047
+420	n > -127
+420	n < 128
+421	Float.isNaN(f)
+421	Float.isInfinite(f)
+421	f == 0f
+422	n < -277
+423	n > 276
+424	n < 0
+425	scaledExponent > 0
+426	scaledExponent > -24
+427	mostSignificantLostBit != 0
+428	exponent == 0
+429	scaledExponent < 255
+430	scaledExponent < 255
+431	Double.isNaN(d)
+431	Double.isNaN(direction)
+432	d == direction
+433	Double.isInfinite(d)
+434	d == 0
+435	(direction < d) ^ (sign == 0L)
+436	Double.isNaN(f)
+436	Double.isNaN(direction)
+437	f == direction
+438	Float.isInfinite(f)
+439	f == 0f
+440	(direction < f) ^ (sign == 0)
+441	x != x
+442	x <= -TWO_POWER_52
+442	x >= TWO_POWER_52
+443	y != x
+443	x < 0
+444	y == 0
+445	x != x
+446	y == x
+447	y == 0
+448	d > 0.5
+449	y == -1.0
+450	d < 0.5
+451	a > b
+452	a < b
+453	a != b
+454	bits == 0x80000000
+455	a > b
+456	a < b
+457	a != b
+458	bits == 0x8000000000000000L
+459	a > b
+460	a < b
+461	a != b
+462	bits == 0x80000000
+463	a > b
+464	a < b
+465	a != b
+466	bits == 0x8000000000000000L
+467	Double.isInfinite(x)
+467	Double.isInfinite(y)
+468	Double.isNaN(y)
+468	Double.isNaN(x)
+469	expX > expY + 27
+470	expY > expX + 27
+471	m < 0
+471	s >= 0
+471	s < 0
+471	m >= 0
+472	m < 0
+472	m >= 0
+472	s < 0
+472	s >= 0
+148	(i & 1) == 0
+149	(i & 1) != 0
+150	(i & 2) != 0
+151	result != null
+152	(i & 1) == 0
+153	(i & 2) != 0
+154	result != null
+155	result != null
+156	d > -8e298
+156	d < 8e298
+157	c < 8e298
+157	c > -8e298
+158	in[0] == 0.0
+159	result[1] != result[1]
+160	(p & 1) != 0
+161	result != null
+162	d != d
+163	expectedLen != actual
+2600	normalization == DstNormalization.ORTHOGONAL_DST_I
+2601	type == TransformType.FORWARD
+2602	ArithmeticUtils.isPowerOfTwo(f.length)
+2603	f[0] != 0.0
+2604	n == 1
+1409	matrix.isSquare()
+1410	lu[nonZero][col].equals(field.getZero())
+1411	nonZero >= m
+1412	nonZero != col
+1413	cachedL == null
+1413	singular
+1414	cachedU == null
+1414	singular
+1415	cachedP == null
+1415	singular
+1416	singular
+2082	n == 0
+2560	maxTime < 0
+2561	endTime < 0
+2546	maxGenerations <= 0
+2547	this.numGenerations < this.maxGenerations
+2060	n < 1
+904	a0 > overflow
+905	FastMath.abs(a0 - value) < epsilon
+906	p2 > overflow
+906	q2 > overflow
+907	n < maxIterations
+907	FastMath.abs(convergent - value) > epsilon
+907	q2 < maxDenominator
+908	n >= maxIterations
+909	q2 < maxDenominator
+910	den == 0
+911	den < 0
+912	den == Integer.MIN_VALUE
+912	num == Integer.MIN_VALUE
+913	d > 1
+914	den < 0
+915	numerator >= 0
+916	this == other
+917	other instanceof Fraction
+918	numerator==Integer.MIN_VALUE
+919	fraction == null
+920	numerator == 0
+921	fraction.numerator == 0
+922	d1==1
+923	w.bitLength() > 31
+924	fraction == null
+925	numerator == 0
+925	fraction.numerator == 0
+926	fraction == null
+927	fraction.numerator == 0
+928	denominator == 0
+929	numerator==0
+930	denominator==Integer.MIN_VALUE
+930	(numerator&1)==0
+931	denominator < 0
+932	numerator==Integer.MIN_VALUE
+932	denominator==Integer.MIN_VALUE
+933	denominator == 1
+934	numerator == 0
+888	obj instanceof Fraction
+889	obj instanceof Number
+890	parsePosition.getIndex() == 0
+891	num == null
+892	den == null
+2260	v instanceof Integer
+2261	count == null
+2262	v instanceof Integer
+2263	count != null
+2264	sumFreq == 0
+2265	getSumFreq() == 0
+2266	v instanceof Integer
+2267	c == null
+2268	value != null
+2269	c.compare(v, freqTable.firstKey()) < 0
+2270	c.compare(v, freqTable.lastKey()) >= 0
+2271	c.compare(v, nextValue) > 0
+2272	sumFreq == 0
+2273	this == obj
+2274	obj instanceof Frequency
+2275	freqTable == null
+2276	other.freqTable != null
+2277	freqTable.equals(other.freqTable)
+3335	n <= 0
+3336	min >= max
+2282	OmegaInverse == null
+2571	Double.isNaN(x)
+2571	x <= 0.0
+2572	Double.isNaN(a)
+2572	Double.isNaN(x)
+2572	a <= 0.0
+2572	x < 0.0
+2573	x == 0.0
+2574	x >= a + 1
+2575	n >= maxIterations
+2576	Double.isInfinite(sum)
+2577	Double.isNaN(a)
+2577	Double.isNaN(x)
+2577	a <= 0.0
+2577	x < 0.0
+2578	x == 0.0
+2579	x < a + 1.0
+2580	x <= S_LIMIT
+2580	x > 0
+2581	x >= C_LIMIT
+2582	x > 0
+2582	x <= S_LIMIT
+2583	x >= C_LIMIT
+1055	shape <= 0
+1056	scale <= 0
+1057	x < 0
+1058	y <= minY
+1058	FastMath.log(y) >= maxLogY
+1059	x <= 0
+1060	shape < 1
+1061	p <= 1
+1062	u2 > FastMath.exp(-x)
+1063	u2 > FastMath.pow(x, shape - 1)
+1064	v <= 0
+1065	u < 1 - 0.0331 * x2 * x2
+1066	FastMath.log(u) < 0.5 * x2 + d * (1 - v + FastMath.log(v))
+3382	points.length != weights.length
+1744	checker != null
+1745	previous != null
+3229	sigma <= 0
+2541	crossoverRate < 0
+2541	crossoverRate > 1
+2542	mutationRate > 1
+2542	mutationRate < 0
+2543	randGen.nextDouble() < getCrossoverRate()
+2544	randGen.nextDouble() < getMutationRate()
+2545	nextGeneration.getPopulationSize() < nextGeneration.getPopulationLimit()
+2080	sumOfLogs.getN() > 0
+2081	getN() > 0
+2705	previousState != null
+2705	theta <= 0.5
+2646	stepsizeReductionFactor > 0.9999
+2646	stepsizeReductionFactor < 0.0001
+2647	control1 > 0.9999
+2647	control1 < 0.0001
+2648	control2 < 0.0001
+2648	control2 > 0.9999
+2649	control3 > 0.9999
+2649	control3 < 0.0001
+2650	control4 > 999.9
+2650	control4 < 1.0001
+2651	maximalOrder % 2 != 0
+2651	maximalOrder <= 6
+2652	control1 < 0.0001
+2652	control1 > 0.9999
+2653	control2 < 0.0001
+2653	control2 > 0.9999
+2654	sequence.length != size
+2654	sequence == null
+2655	mudifControlParameter >= 7
+2655	mudifControlParameter <= 0
+2656	vecAbsoluteTolerance == null
+2657	2 * j == n
+2658	k < maxIter
+2658	j <= maxChecks
+2658	performTest
+2659	deltaNorm > 4 * FastMath.max(1.0e-15, initialNorm)
+2660	y != y0
+2661	newStep
+2662	firstStepAlreadyComputed
+2663	firstTime
+2664	stepStart + stepSize > t
+2664	forward
+2664	stepStart + stepSize < t
+2664	forward
+2665	tryStep(stepStart, y, stepSize, k, scale, fk[k], (k == 0) ? yMidDots[0] : diagonal[k-1], (k == 0) ? y1 : y1Diag[k-1], yTmp)
+2666	k > 0
+2667	error > maxError
+2667	k > 1
+2667	error > 1.0e15
+2668	previousRejected
+2668	targetIter > 1
+2669	error <= 1.0
+2670	error > ratio * ratio
+2671	costPerTimeUnit[targetIter-1] < orderControl1 * costPerTimeUnit[targetIter]
+2671	targetIter > 1
+2672	error <= 1.0
+2673	error > ratio * ratio
+2674	targetIter > 1
+2674	costPerTimeUnit[targetIter-1] < orderControl1 * costPerTimeUnit[targetIter]
+2675	error > 1.0
+2676	targetIter > 1
+2676	costPerTimeUnit[targetIter-1] < orderControl1 * costPerTimeUnit[targetIter]
+2677	error <= 1.0
+2677	isLastStep
+2677	firstTime
+2678	reject
+2679	reject
+2680	mu >= 0
+2681	useInterpolationError
+2682	interpError > 10.0
+2683	reject
+2684	k == 1
+2685	previousRejected
+2686	k <= targetIter
+2687	costPerTimeUnit[k-1] < orderControl1 * costPerTimeUnit[k]
+2688	costPerTimeUnit[k] < orderControl2 * costPerTimeUnit[k-1]
+2689	k > 2
+2689	costPerTimeUnit[k-2] < orderControl1 * costPerTimeUnit[k-1]
+2690	costPerTimeUnit[k] < orderControl2 * costPerTimeUnit[optimalIter]
+2691	previousRejected
+2692	optimalIter <= k
+2693	k < targetIter
+2693	costPerTimeUnit[k] < orderControl2 * costPerTimeUnit[k-1]
+2694	forward
+2695	reject
+2721	interpolator.polynomials == null
+2722	maxDegree < 0
+2723	polynomials != null
+2724	maxDegree <= 4
+2725	polynomials == null
+2725	polynomials.length <= (mu + 4)
+2726	mu < 0
+2727	mu > 0
+2728	mu > 1
+2729	mu > 2
+2730	currentDegree >= 5
+2731	currentDegree > 3
+2732	h == 0
+3165	i > 1
+3166	Double.isInfinite(inv)
+3167	abscissae.isEmpty()
+1187	matrix.isSquare()
+1188	cachedP == null
+1189	householderVectors[m][m - 1] != 0.0
+1190	cachedPt == null
+1191	cachedH == null
+1192	i > 0
+1193	Precision.equals(scale, 0)
+2752	previousState != null
+2752	theta <= 0.5
+960	populationSize <= 0
+961	numberOfSuccesses < 0
+962	sampleSize < 0
+963	numberOfSuccesses > populationSize
+964	sampleSize > populationSize
+965	x < domain[0]
+966	x >= domain[1]
+967	x < domain[0]
+967	x > domain[1]
+968	x <= domain[0]
+969	x > domain[1]
+970	numericalVarianceIsCalculated
+2431	seed == null
+2432	seedLen < rslLen
+2433	count < 0
+164	cb == null
+165	++count > maximalCount
+709	lower < 0
+709	Double.isInfinite(lower)
+710	upper > 0
+710	Double.isInfinite(upper)
+711	Double.isInfinite(upper)
+711	upper > 0
+712	getTree(false).getCut() == null
+713	Double.isInfinite(size)
+714	size >= Precision.SAFE_MIN
+715	node.getCut() == null
+716	(Boolean) node.getAttribute()
+717	checkPoint(low, loc) == Location.INSIDE
+717	checkPoint(high, loc) == Location.INSIDE
+3390	iterations.getCount() + 1 >= getMinimalIterationCount()
+3390	delta <= limit
+1156	a.getRowDimension() != a.getColumnDimension()
+1157	b.getDimension() != a.getRowDimension()
+1158	x0.getDimension() != a.getColumnDimension()
+1129	a.getRowDimension() != n
+1130	a instanceof AbstractRealMatrix
+2773	parameters == null
+2774	expandable.getPrimary() != ode
+2775	parameter.equals(param.getParameterName())
+2776	efode != null
+2777	pName.equals(param.getParameterName())
+2778	efode != null
+2779	param.getParameterName().equals(pName)
+2780	arrayDimension != expected
+2209	cluster.getPoints().isEmpty()
+2210	varianceSum <= bestVarianceSum
+2211	points.size() < k
+2212	cluster.getPoints().isEmpty()
+2213	changes == 0
+2213	emptyCluster
+2214	clusterIndex != assignments[pointIndex]
+2215	i != firstPointIndex
+2216	taken[i]
+2217	taken[i]
+2218	sum >= r
+2219	nextPointIndex == -1
+2220	taken[i]
+2221	nextPointIndex >= 0
+2222	resultSet.size() < k
+2223	taken[j]
+2224	d2 < minDistSquared[j]
+2225	cluster.getPoints().isEmpty()
+2226	variance > maxVariance
+2227	selected == null
+2228	number > maxNumber
+2229	selected == null
+2230	distance > maxDistance
+2231	selectedCluster == null
+2232	distance < minDistance
+0	processModel.getControlMatrix() == null
+1	processModel.getInitialStateEstimate() == null
+2	transitionMatrix.getColumnDimension() != stateEstimation.getDimension()
+3	processModel.getInitialErrorCovariance() == null
+4	transitionMatrix.isSquare()
+5	controlMatrix != null
+5	controlMatrix.getColumnDimension() > 0
+5	controlMatrix.getRowDimension() != transitionMatrix.getRowDimension()
+5	controlMatrix.getRowDimension() > 0
+5	controlMatrix.getColumnDimension() != 1
+6	measurementMatrix.getColumnDimension() != transitionMatrix.getRowDimension()
+7	measNoise.getRowDimension() != measurementMatrix.getRowDimension()
+7	measNoise.getColumnDimension() != 1
+8	u != null
+8	u.getDimension() != controlMatrix.getColumnDimension()
+9	u != null
+10	z.getDimension() != measurementMatrix.getRowDimension()
+1067	n <= 0
+1068	d <= ninvhalf
+1069	ninvhalf < d
+1069	d <= ninv
+1070	1 - ninv <= d
+1070	d < 1
+1071	1 <= d
+1072	hDouble >= 1
+1073	i - j + 1 < 0
+1074	h.compareTo(BigFraction.ONE_HALF) == 1
+1075	i - j + 1 > 0
+2075	incMoment
+2076	moment.getN() > 3
+2077	moment.n <= 3
+2077	variance < 10E-20
+2078	incMoment
+2079	test(values, begin, length)
+2079	length > 3
+1102	matrix.isSquare()
+1103	FastMath.abs(sum) > largest
+1104	FastMath.abs(lu[max][col]) < singularityThreshold
+1105	max != col
+1106	cachedL == null
+1106	singular
+1107	cachedU == null
+1107	singular
+1108	singular
+1108	cachedP == null
+1109	singular
+3314	FastMath.abs(yInitial) <= functionValueAccuracy
+3315	FastMath.abs(yMin) <= functionValueAccuracy
+3316	yInitial * yMin < 0
+3317	FastMath.abs(yMax) <= functionValueAccuracy
+3318	yInitial * yMax < 0
+3319	complexSolver.isRoot(lo, hi, z)
+3320	complexSolver.isRoot(lo, hi, root[i])
+1694	observations.length != weights.length
+1695	observations.length != scale.getColumnDimension()
+1696	residuals.length != observations.length
+1697	weights != null
+1698	scale != null
+3398	iterations.getCount() + 1 >= getMinimalIterationCount()
+3398	delta <= limit
+3378	numberOfPoints == 1
+3379	done
+3380	pa.signum() * pc.signum() <= 0
+3381	numberOfPoints % 2 == 1
+3383	numberOfPoints == 1
+3384	done
+3385	pa * pc <= 0
+3386	numberOfPoints % 2 == 1
+1699	firstIteration
+1700	dk == 0
+1701	cost != 0
+1702	s != 0
+1703	maxCosine <= orthoTolerance
+1704	firstIteration
+1705	0.1 * cost < previousCost
+1706	ratio <= 0.25
+1707	0.1 * cost >= previousCost
+1707	tmp < 0.1
+1708	ratio >= 0.75
+1708	lmPar == 0
+1709	ratio >= 1.0e-4
+1710	checker != null
+1711	checker.converged(iter, previous, current)
+1712	preRed <= costRelativeTolerance
+1712	delta <= parRelativeTolerance * xNorm
+1712	FastMath.abs(actRed) <= costRelativeTolerance
+1712	ratio <= 2.0
+1713	ratio <= 2.0
+1713	preRed <= 2.2204e-16
+1713	FastMath.abs(actRed) <= 2.2204e-16
+1714	delta <= 2.2204e-16 * xNorm
+1715	maxCosine <= 2.2204e-16
+1716	fp <= 0.1 * delta
+1717	rank == solvedCols
+1718	paru == 0
+1719	lmPar == 0
+1720	lmPar == 0
+1721	previousFP < 0
+1721	parl == 0
+1721	fp <= previousFP
+1721	FastMath.abs(fp) <= 0.1 * delta
+1722	fp > 0
+1723	fp < 0
+1724	dpj != 0
+1725	lmDiag[k] != 0
+1726	FastMath.abs(rkk) < FastMath.abs(lmDiag[k])
+1727	lmDiag[j] == 0
+1727	nSing == solvedCols
+1728	nSing < solvedCols
+1729	nSing > 0
+1730	Double.isInfinite(norm2)
+1730	Double.isNaN(norm2)
+1731	norm2 > ak2
+1732	ak2 <= qrRankingThreshold
+636	norm2 == 0.0
+637	n < Precision.SAFE_MIN
+638	n < Precision.EPSILON
+720	d == 0.0
+721	angle < FastMath.PI
+722	FastMath.abs(d) < 1.0e-10
+1649	this == other
+1650	other instanceof LinearConstraint
+3130	x.length != y.length
+3131	x.length < 2
+1667	this == other
+1668	other instanceof LinearObjectiveFunction
+2531	chromosomes == null
+2532	populationLimit <= 0
+2533	chromosomes.size() > populationLimit
+2534	chromosomes == null
+2535	chromosomes.size() > populationLimit
+2536	chromosomes.size() + chromosomeColl.size() > populationLimit
+2537	chromosomes.size() >= populationLimit
+2538	chromosome.compareTo(bestChromosome) > 0
+2539	populationLimit <= 0
+2540	populationLimit < chromosomes.size()
+3209	bandwidth > 1
+3209	bandwidth < 0
+3210	robustnessIters < 0
+3211	xval.length != yval.length
+3212	n == 0
+3213	n == 1
+3214	n == 2
+3215	bandwidthInPoints < 2
+3216	i > 0
+3217	xval[i] - xval[ileft] > xval[iright] - xval[i]
+3218	FastMath.sqrt(FastMath.abs(meanXSquared - meanX * meanX)) < accuracy
+3219	iter == robustnessIters
+3220	FastMath.abs(medianResidual) < accuracy
+3221	arg >= 1
+3222	xval.length != yval.length
+3223	xval[nextRight] - xval[i] < xval[i] - xval[left]
+3223	nextRight < xval.length
+3224	absX >= 1.0
+1089	shape <= 0
+1090	x <= 0
+1091	x <= 0
+1092	FastMath.abs(dev) > 40 * shape
+1093	x0 > x1
+1094	x0 <= 0
+1094	x1 <= 0
+3232	n <= 0
+3228	x > hi
+3228	x < lo
+2179	y == null
+2179	x == null
+2180	x.length == 0
+2180	y.length == 0
+98	strict
+99	comp >= 0
+100	comp > 0
+101	strict
+102	comp >= 0
+103	comp > 0
+104	strict
+105	val[index] <= previous
+106	val[index] < previous
+107	strict
+108	val[index] >= previous
+109	val[index] > previous
+110	index == max
+111	abort
+112	xabs > agiant
+112	xabs < rdwarf
+113	xabs > rdwarf
+114	xabs > x1max
+115	xabs > x3max
+116	xabs != 0
+117	s1 != 0
+118	s2 == 0
+119	s2 >= x3max
+120	x == null
+121	y == null
+122	y.length != len
+123	len != b.length
+124	Double.isNaN(result)
+125	Double.isNaN(result)
+126	Double.isNaN(result)
+127	Double.isNaN(result)
+128	y == null
+128	x == null
+129	x.length != y.length
+130	Precision.equals(x[i], y[i])
+131	y == null
+131	x == null
+132	x.length != y.length
+133	Precision.equalsIncludingNaN(x[i], y[i])
+134	y == null
+134	x == null
+135	x.length != y.length
+136	Precision.equals(x[i], y[i])
+137	y == null
+137	x == null
+138	x.length != y.length
+139	Precision.equalsIncludingNaN(x[i], y[i])
+140	Double.isInfinite(normalizedSum)
+141	Double.isNaN(normalizedSum)
+142	Double.isInfinite(values[i])
+143	Double.isNaN(values[i])
+144	sum == 0
+145	Double.isNaN(values[i])
+481	magnitude < 0
+481	sign < 0
+481	magnitude >= 0
+481	sign >= 0
+482	sign >= 0
+482	magnitude == Byte.MIN_VALUE
+483	magnitude >= 0
+483	magnitude < 0
+483	sign >= 0
+483	sign < 0
+484	magnitude == Short.MIN_VALUE
+484	sign >= 0
+485	magnitude >= 0
+485	sign >= 0
+485	sign < 0
+485	magnitude < 0
+486	magnitude == Integer.MIN_VALUE
+486	sign >= 0
+487	sign < 0
+487	sign >= 0
+487	magnitude >= 0
+487	magnitude < 0
+488	magnitude == Long.MIN_VALUE
+488	sign >= 0
+489	Double.isNaN(x)
+489	Double.isInfinite(x)
+490	Double.isInfinite(x)
+490	Double.isNaN(x)
+491	o == null
+492	o == null
+1373	data[0] == null
+1373	data == null
+1374	data[0] == null
+1374	data == null
+1375	data == null
+1376	data == null
+1377	data.length == 0
+1378	rowData == null
+1379	rowData == null
+1380	nCols == 0
+1381	columnData == null
+1382	columnData == null
+1383	nRows == 0
+1384	row < 0
+1384	row >= m.getRowDimension()
+1385	column < 0
+1385	column >= m.getColumnDimension()
+1386	endRow < startRow
+1387	endColumn < startColumn
+1388	selectedRows == null
+1389	selectedColumns == null
+1390	selectedRows.length == 0
+1391	selectedColumns.length == 0
+1392	left.getColumnDimension() != right.getColumnDimension()
+1392	left.getRowDimension() != right.getRowDimension()
+1393	left.getColumnDimension() != right.getColumnDimension()
+1393	left.getRowDimension() != right.getRowDimension()
+1394	left.getColumnDimension() != right.getRowDimension()
+1395	b == null
+1395	rm == null
+1395	rm.getRowDimension() != b.getDimension()
+1396	rm.getColumnDimension() != rm.getRowDimension()
+1397	FastMath.abs(diag) < Precision.SAFE_MIN
+1398	rm == null
+1398	rm.getRowDimension() != b.getDimension()
+1398	b == null
+1399	rm.getColumnDimension() != rm.getRowDimension()
+1400	FastMath.abs(diag) < Precision.SAFE_MIN
+2127	Double.isNaN(value)
+2127	d > value
+2128	test(values, begin, length)
+2129	Double.isNaN(values[i])
+2056	incMoment
+2057	incMoment
+2058	test(values, begin, length)
+2059	test(values, weights, begin, length)
+2502	seed == null
+2503	i >= N
+2504	j >= seed.length
+2505	i >= N
+2506	mti >= N
+3168	xval == null
+3168	yval == null
+3169	xval.length == 0
+3170	xval.length != yval.length
+3171	xval[0] == null
+3172	xvalI == null
+3173	xvalI.length != dimension
+3174	FastMath.abs(diffNorm) < FastMath.ulp(1d)
+3175	sd != null
+3202	exponent < 0
+3203	elements <= 0
+2733	theta <= 0.5
+2733	previousState != null
+2283	numberOfVariables < 1
+2284	includeConstant
+2285	errorTolerance > 0
+2286	this.hasIntercept
+2286	this.hasIntercept
+2286	x.length != nvars
+2286	x.length + 1 != nvars
+2287	this.hasIntercept
+2288	x.length != y.length
+2288	x == null
+2288	y == null
+2289	x.length == 0
+2290	x[0].length + 1 > x.length
+2291	w == 0.0
+2292	xi == 0.0
+2293	di != 0.0
+2294	FastMath.abs(tmp) > Precision.EPSILON
+2295	di != 0.0
+2296	di != 0.0
+2297	_a > _b
+2298	_b > eps
+2299	_a > eps
+2300	nreq < 1
+2301	nreq > this.nvars
+2302	this.tol_set
+2303	Math.sqrt(d[i]) < tol[i]
+2304	rankProblem
+2305	this.lindep[i]
+2306	Math.abs(r[pos]) * work_sing[row] < temp
+2307	work_sing[col] < temp
+2308	col < nvars - 1
+2309	this.nobs <= nreq
+2310	this.lindep[i]
+2311	this.lindep[row]
+2312	this.lindep[col]
+2313	row == col
+2314	this.lindep[k]
+2315	this.lindep[row]
+2316	this.lindep[k]
+2317	in >= nvars
+2317	in < -1
+2318	d[in] > 0.0
+2319	sumxx > 0.0
+2320	sumyy > 0.0
+2321	from == to
+2322	this.rss_set
+2323	from < to
+2324	d1 > this.epsilon
+2324	d2 > this.epsilon
+2325	Math.abs(X) * Math.sqrt(d1) < tol[mp1]
+2326	d1 < this.epsilon
+2326	Math.abs(X) < this.epsilon
+2327	d2 < this.epsilon
+2328	bSkipTo40
+2329	m > 0
+2330	list.length > nvars + 1 - pos1
+2330	list.length < 1
+2331	i > next
+2331	l == list[j]
+2332	next >= list.length + pos1
+2333	row_data.length > nvars
+2334	this.hasIntercept
+2335	Math.sqrt(d[col]) < tol[col]
+2336	this.nobs <= numberOfRegressors
+2337	numberOfRegressors > this.nvars
+2338	this.lindep[i]
+2339	this.vorder[i] != i
+2340	needsReorder
+2341	this.vorder[j] == i
+2342	_i > _j
+2343	variablesToInclude.length > this.nvars
+2344	this.nobs <= this.nvars
+2345	i >= this.nvars
+2346	variablesToInclude[i] == variablesToInclude[i - 1]
+2346	i > 0
+2347	iExclude > 0
+2348	variablesToInclude[i] > -1
+2349	this.lindep[i]
+2350	this.vorder[i] != series[i]
+2351	needsReorder
+2352	this.vorder[j] == series[i]
+2353	_i > _j
+2124	d < value
+2124	Double.isNaN(value)
+2125	test(values, begin, length)
+2126	Double.isNaN(values[i])
+3300	FastMath.abs(fMin) < functionValueAccuracy
+3301	FastMath.abs(fMax) < functionValueAccuracy
+3302	FastMath.abs(fInitial) < functionValueAccuracy
+3303	isBracketing(min, initial)
+3304	FastMath.abs(y) <= functionValueAccuracy
+3304	FastMath.abs(x - oldx) <= tolerance
+3305	bisect
+3306	FastMath.signum(y0) + FastMath.signum(ym) == 0.0
+3294	FastMath.abs(y0) < functionValueAccuracy
+3295	FastMath.abs(y1) < functionValueAccuracy
+3296	y0 * y1 > 0
+3297	delta >= 0.0
+3298	denominator != 0
+3299	FastMath.abs(x - oldx) <= tolerance
+3299	FastMath.abs(y) <= functionValueAccuracy
+1773	comparator.compare(reflected, best) < 0
+1774	comparator.compare(reflected, expanded) <= 0
+94	tS <= 0
+95	index < 0
+95	index >= totalSize
+96	c.length != dimension
+97	index < 0
+97	index >= size[i]
+2802	nSteps <= 1
+2012	lower.length != upper.length
+2013	upper[i] >= lower[i]
+2014	Double.isInfinite(lower[i])
+2015	Double.isInfinite(upper[i])
+2016	Double.isInfinite(upper[i])
+2006	lower.length != upper.length
+2007	lower.length != scale.length
+2008	upper[i] >= lower[i]
+2009	point[i] > upper[i]
+2009	point[i] < lower[i]
+2010	point[j] < lower[j]
+2011	point[j] > upper[j]
+2017	getN() < 1
+2018	getN() < 2
+2019	i > 0
+2020	object == this
+2021	object instanceof MultivariateSummaryStatistics == false
+2022	n > 0
+2023	dimension != k
+2518	crossoverPoints <= 0
+2519	first instanceof AbstractListChromosome<?>
+2519	second instanceof AbstractListChromosome<?>
+2520	length != second.getLength()
+2521	crossoverPoints >= length
+2250	Double.compare(ranks[i].getValue(), ranks[i - 1].getValue()) > 0
+2251	tiesTrace.size() > 1
+2252	tiesTrace.size() > 1
+2253	nanStrategy == NaNStrategy.FIXED
+2254	containsNaNs(ranks)
+2255	Double.isNaN(ranks[i].getValue())
+2256	Double.isNaN(ranks[i].getValue())
+2257	Double.isNaN(ranks[i].getValue())
+2258	nanPositions.size() == 0
+2259	Double.isNaN(ranks[i].getValue())
+1994	comparator.compare(reflected, secondBest) < 0
+1994	comparator.compare(best, reflected) <= 0
+1995	comparator.compare(reflected, best) < 0
+1996	comparator.compare(expanded, reflected) < 0
+1997	comparator.compare(reflected, worst) < 0
+1998	comparator.compare(outContracted, reflected) <= 0
+1999	comparator.compare(inContracted, worst) < 0
+742	loop[0] == null
+743	Double.isInfinite(polygon.getSize())
+744	child.polygon.contains(node.polygon)
+745	node.polygon.contains(child.polygon)
+746	factory.intersection(node.polygon, child.polygon).isEmpty()
+747	originalIsClockwise ^ clockwise
+3266	FastMath.abs(x1 - x0) <= absoluteAccuracy
+1736	initialStep <= 0
+1737	goal == GoalType.MINIMIZE
+1738	previous != null
+1739	checker.converged(iter, previous, current)
+1740	goal == GoalType.MINIMIZE
+1741	updateFormula == ConjugateGradientFormula.FLETCHER_REEVES
+1742	beta < 0
+1742	iter % n == 0
+1743	yA * yB <= 0
+2631	interpolator.scaled != null
+2632	interpolator.nordsieck != null
+2633	interpolator.stateVariation != null
+2634	scaled == null
+2635	nordsieck == null
+2636	hasScaled
+2637	hasNordsieck
+2638	hasScaled
+2638	hasNordsieck
+948	sd <= 0
+949	FastMath.abs(dev) > 40 * standardDeviation
+950	x0 > x1
+2354	i < p
+2354	i == j
+2355	isNoIntercept()
+2356	isNoIntercept()
+2563	first instanceof AbstractListChromosome<?>
+2563	second instanceof AbstractListChromosome<?>
+2564	length != second.getLength()
+2181	alpha <= 0
+2181	alpha > 0.5
+2182	categoryData == null
+2183	categoryData.size() < 2
+2184	array.length <= 1
+212	expectedSize == 0
+213	powerOfTwo == capacity
+214	containsKey(key, index)
+215	states[index] == FREE
+216	containsKey(key, index)
+217	containsKey(key, index)
+218	states[index] == FREE
+219	containsKey(key, index)
+220	states[index] == FREE
+221	keys[index] == key
+221	states[index] == FULL
+222	states[index] == FULL
+223	keys[index] == key
+223	states[index] != FULL
+224	states[index] == FREE
+225	states[index] == FULL
+226	states[index] == FREE
+227	keys[index] == key
+227	states[index] == FULL
+228	containsKey(key, index)
+229	states[index] == FREE
+230	containsKey(key, index)
+231	index < 0
+232	newMapping
+233	shouldGrowTable()
+234	oldStates[i] == FULL
+496	expectedSize == 0
+497	powerOfTwo == capacity
+498	containsKey(key, index)
+499	states[index] == FREE
+500	containsKey(key, index)
+501	containsKey(key, index)
+502	states[index] == FREE
+503	containsKey(key, index)
+504	states[index] == FREE
+505	states[index] == FULL
+505	keys[index] == key
+506	states[index] == FULL
+507	keys[index] == key
+507	states[index] != FULL
+508	states[index] == FREE
+509	states[index] == FULL
+510	states[index] == FREE
+511	states[index] == FULL
+511	keys[index] == key
+512	containsKey(key, index)
+513	states[index] == FREE
+514	containsKey(key, index)
+515	index < 0
+516	newMapping
+517	shouldGrowTable()
+518	oldStates[i] == FULL
+1597	lRow * lCol >= Integer.MAX_VALUE
+1598	m.entries.containsKey(rightKey)
+1599	outValue == 0.0
+1600	value == 0.0
+1601	value == 0.0
+1602	value == 0.0
+1519	isDefaultValue(value)
+1520	isDefaultValue(value)
+1521	isDefaultValue(value)
+1522	v instanceof OpenMapRealVector
+1523	randomAccess.containsKey(key)
+1524	v instanceof OpenMapRealVector
+1525	v.isNaN()
+1525	v.isInfinite()
+1526	Double.isNaN(y)
+1527	Double.isInfinite(y)
+1528	n < 0
+1529	key >= index
+1529	key < end
+1530	entries.containsKey(key)
+1531	v instanceof OpenMapRealVector
+1532	entries.containsKey(key)
+1533	v instanceof OpenMapRealVector
+1534	delta > max
+1535	entries.containsKey(key)
+1536	iter.value() > max
+1537	v instanceof OpenMapRealVector
+1538	Double.isNaN(value)
+1539	Double.isInfinite(value)
+1540	Double.isNaN(iter.value())
+1541	isDefaultValue(value)
+1542	entries.containsKey(index)
+1543	entries.containsKey(key)
+1544	v instanceof OpenMapRealVector
+1545	isDefaultValue(norm)
+1546	this == obj
+1547	obj instanceof OpenMapRealVector
+1548	virtualSize != other.virtualSize
+1549	Double.doubleToLongBits(epsilon) != Double.doubleToLongBits(other.epsilon)
+1550	Double.doubleToLongBits(test) != Double.doubleToLongBits(iter.value())
+1551	Double.doubleToLongBits(test) != Double.doubleToLongBits(getEntry(iter.key()))
+531	Double.isInfinite(components[i])
+532	components[i] < 0
+533	Double.isNaN(components[i])
+534	m != 0
+535	negInf
+535	posInf
+536	lsb <= msb
+537	encoding != null
+537	encoding[0] == 0x0L
+537	encoding.length == 1
+538	getBit(vIndex, k) != 0
+539	shift-- == 0
+540	components.length == ot.components.length
+541	nan
+542	ot.nan
+543	ot.posInf
+543	negInf
+544	posInf
+544	ot.negInf
+545	offset < ot.offset
+546	offset > ot.offset
+547	encoding[i] < ot.encoding[i]
+548	encoding[i] > ot.encoding[i]
+549	encoding.length < ot.encoding.length
+550	encoding.length > ot.encoding.length
+551	this == other
+552	other instanceof OrderedTuple
+553	(ll & mask) != ll
+554	(ll & mask) == ll
+555	k > offset
+555	k < e
+556	k == offset
+557	k > (e + 52)
+689	pointIsBetween(rawLoop, end, j)
+690	end != rawLoop.length
+146	this == o
+147	o instanceof Pair
+2616	pode.isSupported(name)
+2761	isSupported(name)
+992	r <= 0
+993	p < 0
+993	p > 1
+994	x < 0
+995	x < 0
+2240	covarianceMatrix == null
+2241	i == j
+2242	xArray.length != yArray.length
+2243	xArray.length < 2
+2244	nRows < 2
+2244	nCols < 2
+2130	values == null
+2131	values == null
+2132	p > 100
+2132	p <= 0
+2133	length == 0
+2134	length == 1
+2135	values == getDataRef()
+2136	pos < 1
+2137	pos >= n
+2138	node < pivotsHeap.length
+2138	pivotsHeap[node] >= 0
+2139	node < pivotsHeap.length
+2140	k == pivot
+2141	k < pivot
+2142	wBegin < wMiddle
+2143	wMiddle < wEnd
+2144	wBegin < wEnd
+2145	i < j
+2146	work[i] > value
+2146	i >= end
+2147	p <= 0
+2147	p > 100
+2148	source.cachedPivots != null
+632	norm < 1.0e-10
+633	FastMath.abs(dot) < 1.0e-10
+634	direction.getNorm() < 1.0e-10
+635	FastMath.abs(determinant) < 1.0e-10
+1034	p <= 0
+1035	x == Integer.MAX_VALUE
+1035	x < 0
+1036	x == 0
+1037	x < 0
+1038	x == Integer.MAX_VALUE
+1039	meanPoisson < pivot
+1040	r >= p
+1041	u <= p1
+1042	x > delta
+1042	x < -lambda
+1043	u > p1 + p2
+1044	v < -t
+1044	a == 0
+1045	v < qa
+1046	v > qr
+1047	v < y * logLambda - ArithmeticUtils.factorialLog((int) (y + lambda)) + logLambdaFactorial
+726	v.length == 0
+727	tree.getCut() == null
+727	(Boolean) tree.getAttribute()
+728	v[0][0] == null
+729	sum < 0
+730	vertices == null
+731	getTree(false).getCut() == null
+732	loop != null
+733	loop.size() < 2
+734	loop.get(0).getStart() == null
+735	j == 0
+736	j < (array.length - 1)
+737	j == (array.length - 1)
+738	distance < selectedDistance
+739	selectedDistance > 1.0e-10
+740	loop.size() == 2
+740	open
+741	end == null
+741	open
+691	getSize() < 0
+692	cut == null
+693	offset < 0
+694	in
+695	facet != null
+696	crossed != null
+697	in
+698	hit3D != null
+699	facet != null
+700	((SubPlane) attribute.getPlusOutside()).getRemainingRegion().checkPoint(point2D) == Location.INSIDE
+700	attribute.getPlusOutside() != null
+701	((SubPlane) attribute.getPlusInside()).getRemainingRegion().checkPoint(point2D) == Location.INSIDE
+701	attribute.getPlusInside() != null
+3351	n == 0
+3352	n == 0
+3353	coefficients.length < p.coefficients.length
+3354	n == 0
+3355	n == 1
+3356	coefficients[0] == 0.0
+3357	coefficients.length == 1
+3358	coefficients[i] != 0
+3359	s.length() > 0
+3360	coefficients[i] < 0
+3361	coefficients[i] < 0
+3362	(absAi - 1) != 0
+3363	i > 1
+3364	c.endsWith(".0")
+3365	this == obj
+3366	obj instanceof PolynomialFunction
+3367	Arrays.equals(coefficients, other.coefficients)
+3343	verifyInterpolationArray(x, y, false)
+3344	coefficientsComputed
+3345	verifyInterpolationArray(x, y, false)
+3346	dist < min_dist
+3347	nearest < 0.5*(n-i+1)
+3348	i != j
+3349	x.length != y.length
+3350	x.length < 2
+3370	coefficientsComputed
+3371	a.length == 0
+3371	c.length == 0
+3372	a.length != c.length + 1
+3337	polynomials == null
+3337	knots == null
+3338	knots.length < 2
+3339	knots.length - 1 != polynomials.length
+3340	v < knots[0]
+3340	v > knots[n]
+3341	i < 0
+3342	i >= polynomials.length
+3368	JACOBI_COEFFICIENTS.containsKey(key)
+3369	degree > maxDegree
+1985	rel < MIN_RELATIVE_TOLERANCE
+1986	abs <= 0
+1987	(fX2 - fVal) > delta
+1988	stop
+1989	checker != null
+1990	stop
+1991	goal == GoalType.MINIMIZE
+1992	fX > fX2
+1993	t < 0.0
+195	equals(x, y, eps)
+196	x < y
+197	equals(x, y, maxUlps)
+198	x < y
+199	xInt < 0
+200	yInt < 0
+201	xInt < 0
+202	yInt < 0
+203	Double.isInfinite(x)
+204	sign == -1
+205	sign == -1
+206	fraction > 0.5
+207	fraction > 0.5
+208	fraction < 0.5
+209	FastMath.floor(unscaled) / 2.0 == FastMath.floor(Math .floor(unscaled) / 2.0)
+210	fraction >= 0.5
+211	unscaled != FastMath.floor(unscaled)
+1268	m != null
+1269	m.getColumnDimension() != m.getRowDimension()
+1270	m.getRowDimension() != a.getRowDimension()
+2034	test(values, begin, length, true)
+2035	test(values, weights, begin, length, true)
+893	BigInteger.ZERO.equals(whole)
+894	num.compareTo(BigInteger.ZERO) < 0
+895	ret != null
+896	whole == null
+897	num == null
+898	num.compareTo(BigInteger.ZERO) < 0
+899	den == null
+900	den.compareTo(BigInteger.ZERO) < 0
+901	wholeIsNeg
+902	wholeIsNeg
+903	format == null
+876	whole != 0
+877	ret != null
+878	whole == null
+879	num == null
+880	num.intValue() < 0
+881	den == null
+882	den.intValue() < 0
+883	format == null
+1289	a != 0.0
+1290	cachedR == null
+1291	cachedQ == null
+1292	cachedQT == null
+1293	qrtMinor[minor] != 0.0
+1294	cachedH == null
+2456	randomGenerator != null
+2457	randomGenerator != null
+2458	randomGenerator != null
+2459	len <= 0
+2460	hex.length() == 1
+2461	lower >= upper
+2462	lower >= upper
+2463	len <= 0
+2464	hex.length() == 1
+2465	lower >= upper
+2466	lower >= upper
+2467	mean <= 0
+2468	mean < pivot
+2469	r >= p
+2470	u <= p1
+2471	x < -lambda
+2471	x > delta
+2472	u > p1 + p2
+2473	a == 0
+2473	v < -t
+2474	v < qa
+2475	v > qr
+2476	v < y * logLambda - ArithmeticUtils.factorialLog((int) (y + lambda)) + logLambdaFactorial
+2477	sigma <= 0
+2478	mean <= 0.0
+2479	u <= EXPONENTIAL_SA_QI[0]
+2480	u2 < umin
+2481	lower >= upper
+2482	Double.isInfinite(upper)
+2482	Double.isInfinite(lower)
+2483	Double.isNaN(lower)
+2483	Double.isNaN(upper)
+2484	shape < 1
+2485	p <= 1
+2486	u2 > FastMath.exp(-x)
+2487	u2 > FastMath.pow(x, shape - 1)
+2488	v <= 0
+2489	u < 1 - 0.0331*xx*xx
+2490	FastMath.log(u) < 0.5*xx + d*(1 - v + FastMath.log(v))
+2491	rand == null
+2492	secRand == null
+2493	rand == null
+2494	secRand == null
+2495	secRand == null
+2496	rand == null
+2497	k > n
+2498	k <= 0
+2499	k > len
+2500	k <= 0
+2501	i == 0
+2552	representation.size() != l
+2553	sortedRepr.size() != l
+2554	another instanceof RandomKey<?>
+2555	getLength() != anotherRk.getLength()
+2556	thisPerm.get(i) != anotherPerm.get(i)
+2557	val < 0
+2557	val > 1
+2558	originalData.size() != permutedData.size()
+2559	index == -1
+2527	original instanceof RandomKey<?>
+1131	j > 0
+1132	i < rows - 1
+1133	parsePosition.getIndex() == 0
+1134	CompositeFormat.parseFixedstring(source, trimmedPrefix, pos)
+1135	rowComponents.isEmpty()
+1136	CompositeFormat.parseFixedstring(source, trimmedColumnSeparator, pos)
+1137	trimmedRowSuffix.length() != 0
+1137	CompositeFormat.parseFixedstring(source, trimmedRowSuffix, pos)
+1138	CompositeFormat.parseFixedstring(source, trimmedRowSeparator, pos)
+1139	trimmedRowPrefix.length() != 0
+1139	CompositeFormat.parseFixedstring(source, trimmedRowPrefix, pos)
+1140	loop
+1141	component != null
+1142	rowComponents.isEmpty()
+1143	rowComponents.isEmpty()
+1144	CompositeFormat.parseFixedstring(source, trimmedSuffix, pos)
+1145	matrix.isEmpty()
+1559	d != n
+1560	index >= getDimension()
+1560	index < 0
+1561	start < 0
+1561	start >= dim
+1562	end < 0
+1562	end >= dim
+1563	end < start
+1564	d != 0
+1565	vNorm == 0
+1565	norm == 0
+1566	entry.getValue() <= minValue
+1567	entry.getValue() >= maxValue
+1568	this instanceof SparseRealVector
+1568	v instanceof SparseRealVector
+1569	norm2 == 0.0
+1570	norm == 0
+1571	norm == 0
+1401	i > 0
+1402	parsePosition.getIndex() == 0
+1403	CompositeFormat.parseFixedstring(source, trimmedPrefix, pos)
+1404	components.isEmpty()
+1405	CompositeFormat.parseFixedstring(source, trimmedSeparator, pos)
+1406	loop
+1407	component != null
+1408	CompositeFormat.parseFixedstring(source, trimmedSuffix, pos)
+1465	c[ii][ii] > c[isi][isi]
+1466	swap[r] != r
+1467	c[ir][ir] < small
+1468	r == 0
+1469	c[index[i]][index[i]] < -small
+616	hyperplanes.length == 0
+616	hyperplanes == null
+617	node.insertCut(hyperplane)
+618	node.getCut() == null
+619	attribute != null
+2373	copyData
+2374	rank > 0
+2375	containsConstant
+2376	parameters == null
+2377	index >= this.parameters.length
+2377	index < 0
+2378	this.parameters == null
+2379	parameters == null
+2380	index < 0
+2380	index >= this.parameters.length
+2381	var > Double.MIN_VALUE
+2381	Double.isNaN(var)
+2382	parameters == null
+2383	var > Double.MIN_VALUE
+2383	Double.isNaN(var)
+2384	parameters == null
+2385	i < 0
+2385	i >= this.parameters.length
+2386	j >= this.parameters.length
+2386	j < 0
+2387	this.parameters == null
+2388	this.isSymmetricVCD
+2389	this.varCovData.length > 1
+2390	i == j
+2391	i >= varCovData[j].length
+2392	i > j
+166	initialArray == null
+167	(startIndex + numElements) > internalArray.length
+168	shouldContract()
+169	(startIndex + (numElements + 1)) > internalArray.length
+170	shouldContract()
+171	numElements < 1
+172	contraction < expansion
+173	contraction <= 1.0
+174	expansion <= 1.0
+175	i > numElements
+176	i < 0
+177	front
+178	shouldContract()
+179	expansionMode == MULTIPLICATIVE_MODE
+180	index >= numElements
+181	index >= 0
+182	index < 0
+183	index + 1 > numElements
+184	(startIndex + index) >= internalArray.length
+185	expansionMode != ADDITIVE_MODE
+185	expansionMode != MULTIPLICATIVE_MODE
+186	initialCapacity > 0
+187	i < 0
+188	(startIndex + i) > internalArray.length
+189	expansionMode == MULTIPLICATIVE_MODE
+190	object == this
+191	object instanceof ResizableDoubleArray == false
+192	result
+3286	y1 == 0
+3287	y2 == 0
+3288	FastMath.abs(y3) <= functionValueAccuracy
+3289	FastMath.abs(x - oldx) <= tolerance
+3290	FastMath.abs(y) <= functionValueAccuracy
+3291	correction > 0.0
+3292	FastMath.signum(y1) + FastMath.signum(y) == 0.0
+3293	FastMath.signum(y2) + FastMath.signum(y) == 0.0
+3399	maximalIterationCount > ROMBERG_MAX_ITERATIONS_COUNT
+3400	maximalIterationCount > ROMBERG_MAX_ITERATIONS_COUNT
+3401	i >= getMinimalIterationCount()
+3402	delta <= getAbsoluteAccuracy()
+3402	delta <= rLimit
+755	omegaCount == 0
+756	n == 0
+757	absN == omegaCount
+758	omegaCount == 0
+759	k < 0
+759	k >= omegaCount
+760	omegaCount == 0
+761	k < 0
+761	k >= omegaCount
+639	needsNormalization
+640	norm == 0
+641	m[2].length != 3
+641	m[1].length != 3
+641	m.length != 3
+641	m[0].length != 3
+642	det < 0.0
+643	normProduct == 0
+644	dot < ((2.0e-15 - 1.0) * normProduct)
+645	s > -0.19
+646	s > -0.19
+647	s > -0.19
+648	squaredSine == 0
+649	q0 < 0
+650	q0 < -0.1
+650	q0 > 0.1
+651	q0 < 0
+652	order == RotationOrder.XYZ
+653	v2.getZ() < -0.9999999999
+653	v2.getZ() > 0.9999999999
+654	order == RotationOrder.XZY
+655	v2.getY() > 0.9999999999
+655	v2.getY() < -0.9999999999
+656	order == RotationOrder.YXZ
+657	v2.getZ() < -0.9999999999
+657	v2.getZ() > 0.9999999999
+658	order == RotationOrder.YZX
+659	v2.getX() < -0.9999999999
+659	v2.getX() > 0.9999999999
+660	order == RotationOrder.ZXY
+661	v2.getY() > 0.9999999999
+661	v2.getY() < -0.9999999999
+662	order == RotationOrder.ZYX
+663	v2.getX() < -0.9999999999
+663	v2.getX() > 0.9999999999
+664	order == RotationOrder.XYX
+665	v2.getX() > 0.9999999999
+665	v2.getX() < -0.9999999999
+666	order == RotationOrder.XZX
+667	v2.getX() > 0.9999999999
+667	v2.getX() < -0.9999999999
+668	order == RotationOrder.YXY
+669	v2.getY() > 0.9999999999
+669	v2.getY() < -0.9999999999
+670	order == RotationOrder.YZY
+671	v2.getY() > 0.9999999999
+671	v2.getY() < -0.9999999999
+672	order == RotationOrder.ZXZ
+673	v2.getZ() < -0.9999999999
+673	v2.getZ() > 0.9999999999
+674	v2.getZ() > 0.9999999999
+674	v2.getZ() < -0.9999999999
+675	FastMath.abs(fn1 - fn) <= threshold
+2749	isLastStep
+2750	nextIsLast
+2639	interpolator.currentState != null
+2640	n < 0
+2641	currentState != null
+1048	z < 15.0
+1049	FastMath.floor(z2) == z2
+1050	FastMath.abs(x - mu) < 0.1 * (x + mu)
+1051	x == 0
+1052	p < 0.1
+1053	x == n
+1054	q < 0.1
+1417	matrix.isSquare()
+1418	cachedP == null
+1419	cachedPt == null
+1420	cachedT == null
+1421	l == idx
+1422	l == idx - 1
+1423	q >= 0
+1424	p >= 0
+1425	++iteration > maxIterations
+1426	m == l
+1427	lhs < epsilon * rhs
+1428	Precision.equals(s, 0.0, epsilon)
+1429	FastMath.abs(matrixT[l][l - 1]) < epsilon * s
+1430	l < idx
+1431	iteration == 10
+1432	iteration == 30
+1433	Precision.compareTo(s, 0.0d, epsilon) > 0
+1434	shift.y < shift.x
+1435	k != m
+1436	Precision.equals(shift.x, 0.0, epsilon)
+1437	Precision.equals(shift.x, 0.0, epsilon)
+1438	Precision.compareTo(p, 0.0, epsilon) < 0
+1439	Precision.equals(s, 0.0, epsilon)
+1440	k != m
+1441	l != m
+1442	notlast
+1443	notlast
+1444	notlast
+1445	i > m+2
+3307	f0 == 0.0
+3308	f1 == 0.0
+3309	fx == 0.0
+3310	FastMath.abs(f1) <= ftol
+3311	FastMath.abs(x1 - x0) < FastMath.max(rtol * FastMath.abs(x1), atol)
+2074	n < 1
+2084	values == null
+2085	values.length == 0
+2086	values.length == 1
+2087	(values[i] > cutoff) == booleanDirection
+2088	corrected
+1692	difference > getAbsoluteThreshold()
+1692	difference > size * getRelativeThreshold()
+2393	n == 0
+2394	hasIntercept
+2395	hasIntercept
+2396	n > 0
+2397	hasIntercept
+2398	data[i].length < 2
+2399	x == null
+2399	x.length == 0
+2400	x == null
+2400	y == null
+2400	x.length != y.length
+2401	x[i] == null
+2401	x[i].length == 0
+2402	obsOk
+2403	hasIntercept
+2404	n < 2
+2405	FastMath.abs(sumXX) < 10 * Double.MIN_VALUE
+2406	n < 2
+2407	n < 2
+2408	n < 3
+2409	b1 < 0
+2410	hasIntercept
+2411	alpha <= 0
+2411	alpha >= 1
+2412	hasIntercept
+2413	hasIntercept
+2414	n < 3
+2415	FastMath.abs( sumXX ) > Precision.SAFE_MIN
+2416	n < 2
+2417	Double.isNaN(sumXX)
+2418	variablesToInclude.length == 0
+2418	variablesToInclude == null
+2419	variablesToInclude.length > 1
+2419	variablesToInclude.length > 2
+2419	hasIntercept
+2420	hasIntercept
+2421	variablesToInclude.length == 2
+2422	variablesToInclude[0] == 1
+2423	variablesToInclude[0] != 0
+2424	variablesToInclude[1] != 1
+2425	variablesToInclude[0] != 0
+2425	variablesToInclude[0] != 1
+2426	variablesToInclude[0] == 0
+2427	variablesToInclude[0] == 1
+2428	Double.isNaN(_sxx)
+2429	variablesToInclude[0] != 0
+1693	difference > getAbsoluteThreshold()
+1693	difference > size * getRelativeThreshold()
+2003	simplex == null
+2004	iteration > 0
+2005	converged
+1651	entry < minValue
+1652	Precision.compareTo(entry, 0d, maxUlps) > 0
+1653	cmp == 0
+1654	cmp < 0
+1655	minRatioPositions.size() == 0
+1656	minRatioPositions.size() > 1
+1657	tableau.getNumArtificialVariables() > 0
+1658	Precision.equals(entry, 1d, maxUlps)
+1658	row.equals(tableau.getBasicRow(column))
+1659	getIterations() < getMaxIterations() / 2
+1660	row == tableau.getBasicRow(i)
+1661	i < minIndex
+1662	pivotRow == null
+1663	i != pivotRow
+1664	tableau.getNumArtificialVariables() == 0
+1665	Precision.equals(tableau.getEntry(0, tableau.getRhsOffset()), 0d, epsilon)
+1669	getNumObjectiveFunctions() == 2
+1670	restrictToNonNegative
+1671	getNumObjectiveFunctions() == 2
+1672	restrictToNonNegative
+1673	restrictToNonNegative
+1674	constraint.getRelationship() == Relationship.LEQ
+1675	constraint.getRelationship() == Relationship.GEQ
+1676	constraint.getRelationship() == Relationship.GEQ
+1676	constraint.getRelationship() == Relationship.EQ
+1677	constraint.getValue() < 0
+1678	constraint.getRelationship() == relationship
+1679	row == null
+1679	Precision.equals(entry, 1d, maxUlps)
+1680	Precision.equals(entry, 0d, maxUlps)
+1681	getNumObjectiveFunctions() == 1
+1682	Precision.compareTo(entry, 0d, epsilon) > 0
+1683	getBasicRow(col) == null
+1684	columnsToDrop.contains(j)
+1685	Precision.compareTo(entry, 0d, epsilon) < 0
+1686	colIndex < 0
+1687	basicRow != null
+1687	basicRow == 0
+1688	basicRows.contains(basicRow)
+1689	FastMath.abs(result) < CUTOFF_THRESHOLD
+1690	this == other
+1691	other instanceof SimplexTableau
+3373	maximalIterationCount > SIMPSON_MAX_ITERATIONS_COUNT
+3374	maximalIterationCount > SIMPSON_MAX_ITERATIONS_COUNT
+3375	getMinimalIterationCount() == 1
+3376	iterations.getCount() >= getMinimalIterationCount()
+3377	delta <= rLimit
+3377	delta <= getAbsoluteAccuracy()
+3230	normalized
+3231	normalized
+1483	matrix.getRowDimension() < matrix.getColumnDimension()
+1484	k < nct
+1485	singularValues[k] != 0
+1486	A[k][k] < 0
+1487	singularValues[k] != 0
+1487	k < nct
+1488	k < nct
+1489	k < nrt
+1490	e[k] != 0
+1491	e[k + 1] < 0
+1492	k + 1 < m
+1492	e[k] != 0
+1493	nct < n
+1494	m < p
+1495	nrt + 1 < p
+1496	singularValues[k] != 0
+1497	k < nrt
+1497	e[k] != 0
+1498	FastMath.abs(e[k]) <= threshold
+1499	k == p - 2
+1500	ks == k
+1501	FastMath.abs(singularValues[ks]) <= TINY + EPS * t
+1502	ks == k
+1503	ks == p - 1
+1504	j != k
+1505	c != 0
+1505	b != 0
+1506	b < 0
+1507	j != k
+1508	j < m - 1
+1509	singularValues[k] <= 0
+1510	singularValues[k] >= singularValues[k + 1]
+1511	k < n - 1
+1512	k < m - 1
+1513	transposed
+1514	cachedUt == null
+1515	cachedS == null
+1516	cachedVt == null
+1517	dimension == 0
+1518	singularValues[i] > tol
+2061	incMoment
+2062	moment.n < 3
+2063	variance < 10E-20
+2064	incMoment
+2065	test(values, begin, length)
+2065	length > 2
+3225	yval.length == 0
+3225	fval.length == 0
+3225	xval.length == 0
+3226	xval.length != fval.length
+3227	fval[i].length != yLen
+1194	getField().getZero().equals(value)
+1195	getField().getZero().equals(value)
+1196	getField().getZero().equals(value)
+1271	entries.containsKey(key)
+1272	v instanceof SparseFieldVector<?>
+1273	key >= index
+1273	key < end
+1274	v instanceof SparseFieldVector<?>
+1275	entries.containsKey(key)
+1276	v instanceof SparseFieldVector<?>
+1277	entries.containsKey(i)
+1278	index < 0
+1278	index >= getDimension()
+1279	getDimension() != n
+1280	v instanceof SparseFieldVector<?>
+1281	this == obj
+1282	obj instanceof SparseFieldVector<?>
+1283	field == null
+1284	other.field != null
+1285	field.equals(other.field)
+1286	virtualSize != other.virtualSize
+1287	test.equals(iter.value())
+1288	test.equals(getEntry(iter.key()))
+2248	xArray.length != yArray.length
+2249	xArray.length < 2
+3128	x.length != y.length
+3129	x.length < 3
+2447	generator == null
+2448	alpha <= 2d
+2448	alpha > 0d
+2449	beta >= -1d
+2449	beta <= 1d
+2450	beta != 0d
+2450	alpha < 2d
+2451	alpha == 2d
+2452	beta == 0d
+2453	alpha == 1d
+2454	FastMath.abs(alpha - 1d) > 1e-8
+2455	alpha != 1d
+2278	n != sample2.length
+2279	n <= 0
+2280	n != sample2.length
+2281	n < 2
+2161	object == this
+2162	object instanceof StatisticalSummaryValues == false
+3233	x == null
+3233	y == null
+3234	x.length == 0
+3234	y.length == 0
+3235	y.length != x.length
+3236	index < -1
+3237	index >= 0
+2625	lastState == null
+2626	forward
+2627	mode == StepNormalizerMode.MULTIPLES
+2627	Precision.equals(nextTime, lastTime, 1)
+2628	isLast
+2629	addLast
+2630	bounds.firstIncluded()
+2630	firstTime == lastTime
+2238	n < 2
+2239	biasCorrected
+2237	length != dimension
+676	includeEndPoints
+723	includeEndPoints
+724	crossing == null
+725	crossing == null
+626	inter == null
+627	crossP.dotProduct(otherPlane.getNormal()) < 0
+628	inter == null
+629	crossP.dotProduct(otherPlane.getNormal()) < 0
+2031	test(values, begin, length, true)
+2032	test(values, weights, begin, length, true)
+2033	test(values, begin, length, true)
+2030	test(values, begin, length, true)
+2103	meanImpl != mean
+2104	varianceImpl != variance
+2105	geoMeanImpl != geoMean
+2106	getN() > 0
+2107	getN() > 1
+2108	meanImpl != mean
+2109	varianceImpl != variance
+2110	object == this
+2111	object instanceof SummaryStatistics == false
+2112	n > 0
+2113	source.getVarianceImpl() instanceof Variance
+2114	source.meanImpl instanceof Mean
+2115	source.getGeoMeanImpl() instanceof GeometricMean
+2116	source.geoMean == source.geoMeanImpl
+2117	source.max == source.maxImpl
+2118	source.mean == source.meanImpl
+2119	source.min == source.minImpl
+2120	source.sum == source.sumImpl
+2121	source.variance == source.varianceImpl
+2122	source.sumLog == source.sumLogImpl
+2123	source.sumsq == source.sumsqImpl
+1154	state.bEqualsNullVector()
+1155	earlyStop
+986	degreesOfFreedom <= 0
+987	x == 0
+988	x < 0.0
+989	df > 1
+990	df > 2
+991	df > 1
+991	df <= 2
+2185	alpha > 0.5
+2185	alpha <= 0
+2186	data == null
+2187	data.length < 2
+2188	stat == null
+2189	stat.getN() < 2
+2083	n < 1
+2734	theta <= 0.5
+2734	previousState != null
+2522	population.getPopulationSize() < this.arity
+2594	dataRI.length != 2
+2595	dataR.length != dataI.length
+2596	index < 0
+87	o instanceof String
+87	o instanceof Number
+88	trans != null
+89	this == other
+90	other instanceof TransformerMap
+91	defaultTransformer.equals(rhs.defaultTransformer)
+92	map.size() != rhs.map.size()
+93	entry.getValue().equals(rhs.map.get(entry.getKey()))
+3391	maximalIterationCount > TRAPEZOID_MAX_ITERATIONS_COUNT
+3392	maximalIterationCount > TRAPEZOID_MAX_ITERATIONS_COUNT
+3393	n == 0
+3394	i >= getMinimalIterationCount()
+3395	delta <= getAbsoluteAccuracy()
+3395	delta <= rLimit
+1146	matrix.isSquare()
+1147	cachedQ == null
+1148	cachedQt == null
+1149	hK[k] != 0.0
+1150	cachedT == null
+1151	i > 0
+1152	i < main.length - 1
+1153	a != 0.0
+996	a >= b
+997	c < a
+998	c > b
+999	x < a
+1000	a <= x
+1000	x < c
+1001	x == c
+1002	x <= b
+1002	c < x
+1003	x < a
+1004	a <= x
+1004	x < c
+1005	x == c
+1006	c < x
+1006	x <= b
+1007	p > 1
+1007	p < 0
+1008	p == 0
+1009	p == 1
+1010	p < (c - a) / (b - a)
+3132	yLen == 0
+3132	f[0].length == 0
+3132	xLen == 0
+3132	z.length == 0
+3132	f.length == 0
+3133	xLen != f.length
+3134	xLen != dFdX.length
+3135	xLen != dFdY.length
+3136	xLen != dFdZ.length
+3137	xLen != d2FdXdY.length
+3138	xLen != d2FdXdZ.length
+3139	xLen != d2FdYdZ.length
+3140	xLen != d3FdXdYdZ.length
+3141	f[i].length != yLen
+3142	dFdX[i].length != yLen
+3143	dFdY[i].length != yLen
+3144	dFdZ[i].length != yLen
+3145	d2FdXdY[i].length != yLen
+3146	d2FdXdZ[i].length != yLen
+3147	d2FdYdZ[i].length != yLen
+3148	d3FdXdYdZ[i].length != yLen
+3149	f[i][j].length != zLen
+3150	dFdX[i][j].length != zLen
+3151	dFdY[i][j].length != zLen
+3152	dFdZ[i][j].length != zLen
+3153	d2FdXdY[i][j].length != zLen
+3154	d2FdXdZ[i][j].length != zLen
+3155	d2FdYdZ[i][j].length != zLen
+3156	d3FdXdYdZ[i][j].length != zLen
+3157	i == -1
+3158	j == -1
+3159	k == -1
+3160	c < val[0]
+3161	c <= val[i]
+3162	x > 1
+3162	x < 0
+3163	y < 0
+3163	y > 1
+3164	z < 0
+3164	z > 1
+3205	fval.length == 0
+3205	zval.length == 0
+3205	yval.length == 0
+3205	xval.length == 0
+3206	xval.length != fval.length
+3207	fval[i].length != yLen
+3208	fval[i][j].length != zLen
+2510	mean.length != standardDeviation.length
+2523	ratio > 1.0d
+2523	ratio < 0.0d
+2524	second instanceof AbstractListChromosome<?>
+2524	first instanceof AbstractListChromosome<?>
+2525	length != second.getLength()
+2526	random.nextDouble() < ratio
+1011	lower >= upper
+1012	x > upper
+1012	x < lower
+1013	x < lower
+1014	x > upper
+1015	lower >= upper
+1016	x > upper
+1016	x < lower
+1017	x <= lower
+1018	x >= upper
+1645	optimizer == null
+1645	generator == null
+1646	starts < 1
+1647	optima == null
+1648	optima[0] == null
+3204	xval.length < extend
+3249	function == null
+3250	function == null
+3251	allowedSolution == AllowedSolution.ANY_SIDE
+3252	fLo >= 0
+3252	fHi <= 0
+3252	fLo <= 0
+3252	fHi >= 0
+3253	fLo < fHi
+3254	fLo >= 0
+3255	fLo > fHi
+3256	fLo <= 0
+3257	changeLo
+3258	changeHi
+3259	function == null
+3260	maximumIterations <= 0
+3261	fa * fb > 0.0
+3262	function == null
+3263	lower >= upper
+3264	function == null
+3265	isBracketing(function, lower, upper)
+2511	filePointer != null
+2512	filePointer != null
+2513	empiricalDistribution.getBinStats().size() == 0
+2513	empiricalDistribution == null
+2514	filePointer == null
+2515	(str = filePointer.readLine()) == null
+2516	(str = filePointer.readLine()) == null
+2036	incMoment
+2037	moment.n == 0
+2038	moment.n == 1
+2039	isBiasCorrected
+2040	incMoment
+2041	values == null
+2042	test(values, begin, length)
+2043	length == 1
+2044	length > 1
+2045	test(values, weights,begin, length)
+2046	length == 1
+2047	length > 1
+2048	test(values, begin, length)
+2049	length == 1
+2050	length > 1
+2051	isBiasCorrected
+2052	test(values, weights, begin, length)
+2053	length == 1
+2054	length > 1
+2055	isBiasCorrected
+704	s == 0
+705	this == other
+706	other instanceof Vector1D
+707	rhs.isNaN()
+708	isNaN()
+702	parsePosition.getIndex() == 0
+703	coordinates == null
+748	v.length != 2
+749	s == 0
+750	this == other
+751	other instanceof Vector2D
+752	rhs.isNaN()
+753	isNaN()
+718	parsePosition.getIndex() == 0
+719	coordinates == null
+677	v.length != 3
+678	s == 0
+679	threshold == 0
+680	x >= -threshold
+680	x <= threshold
+681	y >= -threshold
+681	y <= threshold
+682	normProduct == 0
+683	dot < -threshold
+683	dot > threshold
+684	dot >= 0
+685	this == other
+686	other instanceof Vector3D
+687	rhs.isNaN()
+688	isNaN()
+630	parsePosition.getIndex() == 0
+631	coordinates == null
+620	i > 0
+621	CompositeFormat.parseFixedstring(source, trimmedPrefix, pos)
+622	i > 0
+623	CompositeFormat.parseFixedstring(source, trimmedSeparator, pos)
+624	c == null
+625	CompositeFormat.parseFixedstring(source, trimmedSuffix, pos)
+2066	v.length != sums.length
+2067	n > 1
+2068	this == obj
+2069	obj instanceof VectorialCovariance
+2070	isBiasCorrected != other.isBiasCorrected
+2071	n != other.n
+2072	Arrays.equals(productsSums, other.productsSums)
+2073	Arrays.equals(sums, other.sums)
+2089	v.length != means.length
+2090	this == obj
+2091	obj instanceof VectorialMean
+2092	Arrays.equals(means, other.means)
+951	alpha <= 0
+952	beta <= 0
+953	x < 0
+954	x <= 0.0
+955	p < 0.0
+955	p > 1.0
+956	p == 0
+957	p == 1
+958	numericalMeanIsCalculated
+959	numericalVarianceIsCalculated
+2169	x == null
+2169	y == null
+2170	x.length == 0
+2170	y.length == 0
+2171	y.length != x.length
+2172	z == null
+2173	z.length == 0
+2174	z[i] > 0
+2175	((i >> j) & 1) == 1
+2176	rankSum >= Wmax
+2177	N > 30
+2177	exactPValue
+2178	exactPValue
+1095	numberOfElements <= 0
+1096	exponent <= 0
+1097	x <= 0
+1097	x > numberOfElements
+1098	x <= 0
+1099	x >= numberOfElements
+1100	numericalMeanIsCalculated
+1101	numericalVarianceIsCalculated

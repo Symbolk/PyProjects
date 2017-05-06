@@ -1,0 +1,206 @@
+id	line	column	filename	methodname	varname	vartype	else	return	right
+107	29	4	BuiltInConverters.java	responseBodyConverter	type	Type	0	RET	$ == ResponseBody.class
+108	34	4	BuiltInConverters.java	responseBodyConverter	type	Type	0	RET	$ == Void.class
+109	43	4	BuiltInConverters.java	requestBodyConverter	type	Type	0	RET	RequestBody.class.isAssignableFrom(Utils.getRawType($))
+62	31	4	DefaultCallAdapterFactory.java	get	THIS	DefaultCallAdapterFactory	0	RET	$.getRawType(returnType) != Call.class
+62	31	4	DefaultCallAdapterFactory.java	get	returnType	Type	0	RET	getRawType($) != Call.class
+110	35	4	ExecutorCallAdapterFactory.java	get	THIS	ExecutorCallAdapterFactory	0	RET	$.getRawType(returnType) != Call.class
+110	35	4	ExecutorCallAdapterFactory.java	get	returnType	Type	0	RET	getRawType($) != Call.class
+66	52	4	OkHttpCall.java	request	call	Call	0	RET	$ != null
+67	55	4	OkHttpCall.java	request	THIS	OkHttpCall	0	RuntimeException	$.creationFailure != null
+68	56	6	OkHttpCall.java	request	THIS	OkHttpCall	1	RuntimeException	$.creationFailure instanceof IOException
+69	80	6	OkHttpCall.java	enqueue	THIS	OkHttpCall	0	IllegalStateException	$.executed
+70	85	6	OkHttpCall.java	enqueue	call	Call	0	DEF	$ == null
+70	85	6	OkHttpCall.java	enqueue	failure	Throwable	0	DEF	$ == null
+71	94	4	OkHttpCall.java	enqueue	failure	Throwable	0	RET	$ != null
+72	99	4	OkHttpCall.java	enqueue	THIS	OkHttpCall	0	DEF	$.canceled
+73	150	6	OkHttpCall.java	execute	THIS	OkHttpCall	0	IllegalStateException	$.executed
+74	153	6	OkHttpCall.java	execute	THIS	OkHttpCall	0	DEF	$.creationFailure != null
+75	154	8	OkHttpCall.java	execute	THIS	OkHttpCall	1	DEF	$.creationFailure instanceof IOException
+76	162	6	OkHttpCall.java	execute	call	Call	0	DEF	$ == null
+77	172	4	OkHttpCall.java	execute	THIS	OkHttpCall	0	DEF	$.canceled
+78	182	4	OkHttpCall.java	createRawCall	call	Call	0	NullPointerException	$ == null
+79	197	4	OkHttpCall.java	parseResponse	code	int	0	RET	$ >= 300
+79	197	4	OkHttpCall.java	parseResponse	code	int	0	RET	$ < 200
+80	207	4	OkHttpCall.java	parseResponse	code	int	0	RET	$ == 205
+80	207	4	OkHttpCall.java	parseResponse	code	int	0	RET	$ == 204
+81	231	4	OkHttpCall.java	cancel	call	Call	0	DEF	$ != null
+82	237	4	OkHttpCall.java	isCanceled	THIS	OkHttpCall	0	RET	$.canceled
+83	37	6	Platform.java	findPlatform	THIS	Platform	0	RET	$.Build.VERSION.SDK_INT != 0
+84	55	4	Platform.java	defaultCallAdapterFactory	callbackExecutor	Executor	0	RET	$ != null
+85	59	4	RequestBuilder.java	RequestBuilder	headers	Headers	0	DEF	$ != null
+86	63	4	RequestBuilder.java	RequestBuilder	isFormEncoded	boolean	1	DEF	$
+87	66	11	RequestBuilder.java	RequestBuilder	isMultipart	boolean	0	DEF	$
+88	79	4	RequestBuilder.java	addHeader	name	String	1	IllegalArgumentException	"Content-Type".equalsIgnoreCase($)
+89	81	6	RequestBuilder.java	addHeader	type	MediaType	0	IllegalArgumentException	$ == null
+90	91	4	RequestBuilder.java	addPathParam	THIS	RequestBuilder	0	AssertionError	$.relativeUrl == null
+57810	100	4	RequestBuilder.java	canonicalizeForPath	i	int	0	NIL-FOR	$ < limit
+57810	100	4	RequestBuilder.java	canonicalizeForPath	limit	int	0	NIL-FOR	i < $
+91	102	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	0	RET	PATH_SEGMENT_ALWAYS_ENCODE_SET.indexOf($) != -1
+91	102	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	0	RET	$ == '%'
+91	102	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	0	RET	$ < 0x20
+91	102	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	0	RET	$ == '/'
+91	102	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	0	RET	$ >= 0x7f
+91	102	6	RequestBuilder.java	canonicalizeForPath	alreadyEncoded	boolean	0	RET	$
+57811	121	4	RequestBuilder.java	canonicalizeForPath	i	int	0	NIL-FOR	$ < limit
+57811	121	4	RequestBuilder.java	canonicalizeForPath	limit	int	0	NIL-FOR	i < $
+92	123	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ == '\f'
+92	123	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ == '\n'
+92	123	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ == '\r'
+92	123	6	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ == '\t'
+92	123	6	RequestBuilder.java	canonicalizeForPath	alreadyEncoded	boolean	1	DEF	$
+93	126	13	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ == '%'
+93	126	13	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ < 0x20
+93	126	13	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ == '/'
+93	126	13	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	$ >= 0x7f
+93	126	13	RequestBuilder.java	canonicalizeForPath	codePoint	int	1	DEF	PATH_SEGMENT_ALWAYS_ENCODE_SET.indexOf($) != -1
+93	126	13	RequestBuilder.java	canonicalizeForPath	alreadyEncoded	boolean	1	DEF	$
+94	130	8	RequestBuilder.java	canonicalizeForPath	utf8Buffer	Buffer	0	DEF	$ == null
+57812	134	8	RequestBuilder.java	canonicalizeForPath	utf8Buffer	Buffer	0	NIL-WHILE	$.exhausted()
+95	148	4	RequestBuilder.java	addQueryParam	THIS	RequestBuilder	0	IllegalArgumentException	$.relativeUrl != null
+96	151	6	RequestBuilder.java	addQueryParam	THIS	RequestBuilder	0	IllegalArgumentException	$.urlBuilder == null
+97	158	4	RequestBuilder.java	addQueryParam	encoded	boolean	1	DEF	$
+98	166	4	RequestBuilder.java	addFormField	encoded	boolean	1	DEF	$
+99	188	4	RequestBuilder.java	build	urlBuilder	Builder	1	DEF	$ != null
+100	193	6	RequestBuilder.java	build	url	HttpUrl	0	IllegalArgumentException	$ == null
+101	200	4	RequestBuilder.java	build	body	RequestBody	0	DEF	$ == null
+102	202	6	RequestBuilder.java	build	THIS	RequestBuilder	1	DEF	$.formBuilder != null
+103	204	13	RequestBuilder.java	build	THIS	RequestBuilder	1	DEF	$.multipartBuilder != null
+104	206	13	RequestBuilder.java	build	THIS	RequestBuilder	0	DEF	$.hasBody
+105	213	4	RequestBuilder.java	build	contentType	MediaType	0	DEF	$ != null
+106	214	6	RequestBuilder.java	build	body	RequestBody	1	DEF	$ != null
+63	58	4	Response.java	success	rawResponse	okhttp3.Response	0	IllegalArgumentException	$.isSuccessful()
+64	69	4	Response.java	error	code	int	0	IllegalArgumentException	$ < 400
+65	81	4	Response.java	error	rawResponse	okhttp3.Response	0	IllegalArgumentException	$.isSuccessful()
+111	129	4	Retrofit.java	create	THIS	Retrofit	0	DEF	$.validateEagerly
+112	156	6	Retrofit.java	eagerlyValidateMethods	THIS	Retrofit	0	DEF	platform.isDefaultMethod($.method)
+112	156	6	Retrofit.java	eagerlyValidateMethods	platform	Platform	0	DEF	$.isDefaultMethod(method)
+113	164	4	Retrofit.java	loadServiceMethod	result	ServiceMethod<?,?>	0	RET	$ != null
+114	168	6	Retrofit.java	loadServiceMethod	result	ServiceMethod<?,?>	0	DEF	$ == null
+57813	219	4	Retrofit.java	nextCallAdapter	i	int	0	NIL-FOR	$ < count
+57813	219	4	Retrofit.java	nextCallAdapter	count	int	0	NIL-FOR	i < $
+115	221	6	Retrofit.java	nextCallAdapter	adapter	CallAdapter<?,?>	0	RET	$ != null
+116	229	4	Retrofit.java	nextCallAdapter	skipPast	CallAdapter.Factory	0	DEF	$ != null
+57814	231	6	Retrofit.java	nextCallAdapter	i	int	0	NIL-FOR	$ < start
+57814	231	6	Retrofit.java	nextCallAdapter	start	int	0	NIL-FOR	i < $
+57815	237	4	Retrofit.java	nextCallAdapter	i	int	0	NIL-FOR	$ < count
+57815	237	4	Retrofit.java	nextCallAdapter	count	int	0	NIL-FOR	i < $
+57816	277	4	Retrofit.java	nextRequestBodyConverter	i	int	0	NIL-FOR	$ < count
+57816	277	4	Retrofit.java	nextRequestBodyConverter	count	int	0	NIL-FOR	i < $
+117	281	6	Retrofit.java	nextRequestBodyConverter	converter	Converter<?,RequestBody>	0	RET	$ != null
+118	290	4	Retrofit.java	nextRequestBodyConverter	skipPast	Converter.Factory	0	DEF	$ != null
+57817	292	6	Retrofit.java	nextRequestBodyConverter	i	int	0	NIL-FOR	$ < start
+57817	292	6	Retrofit.java	nextRequestBodyConverter	start	int	0	NIL-FOR	i < $
+57818	298	4	Retrofit.java	nextRequestBodyConverter	i	int	0	NIL-FOR	$ < count
+57818	298	4	Retrofit.java	nextRequestBodyConverter	count	int	0	NIL-FOR	i < $
+57819	326	4	Retrofit.java	nextResponseBodyConverter	i	int	0	NIL-FOR	$ < count
+57819	326	4	Retrofit.java	nextResponseBodyConverter	count	int	0	NIL-FOR	i < $
+119	329	6	Retrofit.java	nextResponseBodyConverter	converter	Converter<ResponseBody,?>	0	RET	$ != null
+120	338	4	Retrofit.java	nextResponseBodyConverter	skipPast	Converter.Factory	0	DEF	$ != null
+57820	340	6	Retrofit.java	nextResponseBodyConverter	i	int	0	NIL-FOR	$ < start
+57820	340	6	Retrofit.java	nextResponseBodyConverter	start	int	0	NIL-FOR	i < $
+57821	346	4	Retrofit.java	nextResponseBodyConverter	i	int	0	NIL-FOR	$ < count
+57821	346	4	Retrofit.java	nextResponseBodyConverter	count	int	0	NIL-FOR	i < $
+57822	360	4	Retrofit.java	stringConverter	i	int	0	NIL-FOR	$ < count
+57822	360	4	Retrofit.java	stringConverter	count	int	0	NIL-FOR	i < $
+121	363	6	Retrofit.java	stringConverter	converter	Converter<?,String>	0	RET	$ != null
+0	104	4	ServiceMethod.java	toRequest	THIS	ServiceMethod	0	IllegalArgumentException	argumentCount != handlers.$.length
+0	104	4	ServiceMethod.java	toRequest	handlers	ParameterHandler<Object>[]	0	IllegalArgumentException	argumentCount != $.length
+0	104	4	ServiceMethod.java	toRequest	argumentCount	int	0	IllegalArgumentException	$ != handlers.length
+57804	109	4	ServiceMethod.java	toRequest	p	int	0	NIL-FOR	$ < argumentCount
+57804	109	4	ServiceMethod.java	toRequest	argumentCount	int	0	NIL-FOR	p < $
+57805	771	4	ServiceMethod.java	parsePathParameters	m	Matcher	0	NIL-WHILE	$.find()
+1	778	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	boolean.class == $
+2	779	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	byte.class == $
+3	780	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	char.class == $
+4	781	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	double.class == $
+5	782	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	float.class == $
+6	783	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	int.class == $
+7	784	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	long.class == $
+8	785	4	ServiceMethod.java	boxIfPrimitive	type	Class<?>	0	RET	short.class == $
+9	42	4	Utils.java	getRawType	type	Type	0	RET	$ instanceof Class<?>
+10	46	4	Utils.java	getRawType	type	Type	0	IllegalArgumentException:RET	$ instanceof ParameterizedType
+11	52	6	Utils.java	getRawType	rawType	Type	0	IllegalArgumentException	$ instanceof Class
+12	55	4	Utils.java	getRawType	type	Type	0	RET	$ instanceof GenericArrayType
+13	59	4	Utils.java	getRawType	type	Type	0	RET	$ instanceof TypeVariable
+14	64	4	Utils.java	getRawType	type	Type	0	RET	$ instanceof WildcardType
+15	74	4	Utils.java	equals	a	Type	1	RET	$ == b
+15	74	4	Utils.java	equals	b	Type	1	RET	a == $
+16	77	11	Utils.java	equals	a	Type	1	RET	$ instanceof Class
+17	80	11	Utils.java	equals	a	Type	1	RET	$ instanceof ParameterizedType
+18	81	6	Utils.java	equals	b	Type	0	RET	$ instanceof ParameterizedType
+19	88	11	Utils.java	equals	a	Type	1	RET	$ instanceof GenericArrayType
+20	89	6	Utils.java	equals	b	Type	0	RET	$ instanceof GenericArrayType
+21	94	11	Utils.java	equals	a	Type	1	RET	$ instanceof WildcardType
+22	95	6	Utils.java	equals	b	Type	0	RET	$ instanceof WildcardType
+23	101	11	Utils.java	equals	a	Type	1	RET	$ instanceof TypeVariable
+24	102	6	Utils.java	equals	b	Type	0	RET	$ instanceof TypeVariable
+25	119	4	Utils.java	getGenericSupertype	rawType	Class<?>	0	RET	toResolve == $
+25	119	4	Utils.java	getGenericSupertype	toResolve	Class<?>	0	RET	$ == rawType
+26	122	4	Utils.java	getGenericSupertype	toResolve	Class<?>	0	RET	$.isInterface()
+57806	124	6	Utils.java	getGenericSupertype	i	int	0	NIL-FOR	$ < length
+57806	124	6	Utils.java	getGenericSupertype	length	int	0	NIL-FOR	i < $
+27	125	8	Utils.java	getGenericSupertype	i	int	1	RET	interfaces[$] == toResolve
+27	125	8	Utils.java	getGenericSupertype	interfaces	Class<?>[]	1	RET	$[i] == toResolve
+27	125	8	Utils.java	getGenericSupertype	toResolve	Class<?>	1	RET	interfaces[i] == $
+28	127	15	Utils.java	getGenericSupertype	i	int	0	RET	toResolve.isAssignableFrom(interfaces[$])
+28	127	15	Utils.java	getGenericSupertype	interfaces	Class<?>[]	0	RET	toResolve.isAssignableFrom($[i])
+28	127	15	Utils.java	getGenericSupertype	toResolve	Class<?>	0	RET	$.isAssignableFrom(interfaces[i])
+29	134	4	Utils.java	getGenericSupertype	rawType	Class<?>	0	RET	$.isInterface()
+57807	135	6	Utils.java	getGenericSupertype	rawType	Class<?>	0	NIL-WHILE	$ != Object.class
+30	137	8	Utils.java	getGenericSupertype	rawSupertype	Class<?>	1	RET	$ == toResolve
+30	137	8	Utils.java	getGenericSupertype	toResolve	Class<?>	1	RET	rawSupertype == $
+31	139	15	Utils.java	getGenericSupertype	rawSupertype	Class<?>	0	RET	toResolve.isAssignableFrom($)
+31	139	15	Utils.java	getGenericSupertype	toResolve	Class<?>	0	RET	$.isAssignableFrom(rawSupertype)
+57808	151	4	Utils.java	indexOf	THIS	Utils	0	NIL-FOR	i < array.$.length
+57808	151	4	Utils.java	indexOf	i	int	0	NIL-FOR	$ < array.length
+57808	151	4	Utils.java	indexOf	array	Object[]	0	NIL-FOR	i < $.length
+32	152	6	Utils.java	indexOf	i	int	0	RET	toFind.equals(array[$])
+32	152	6	Utils.java	indexOf	array	Object[]	0	RET	toFind.equals($[i])
+32	152	6	Utils.java	indexOf	toFind	Object	0	RET	$.equals(array[i])
+33	177	4	Utils.java	getSupertype	contextRawType	Class<?>	0	IllegalArgumentException	supertype.isAssignableFrom($)
+33	177	4	Utils.java	getSupertype	supertype	Class<?>	0	IllegalArgumentException	$.isAssignableFrom(contextRawType)
+34	185	6	Utils.java	resolve	toResolve	Type	1	RET	$ instanceof TypeVariable
+35	188	8	Utils.java	resolve	typeVariable	TypeVariable<?>	0	RET	toResolve == $
+35	188	8	Utils.java	resolve	toResolve	Type	0	RET	$ == typeVariable
+36	192	13	Utils.java	resolve	toResolve	Type	1	RET	$ instanceof Class
+36	192	13	Utils.java	resolve	toResolve	Type	1	RET	((Class<?>) $).isArray()
+37	199	13	Utils.java	resolve	toResolve	Type	1	RET	$ instanceof GenericArrayType
+38	206	13	Utils.java	resolve	toResolve	Type	1	RET	$ instanceof ParameterizedType
+57809	213	8	Utils.java	resolve	t	int	0	NIL-FOR	$ < length
+57809	213	8	Utils.java	resolve	length	int	0	NIL-FOR	t < $
+39	215	10	Utils.java	resolve	resolvedTypeArgument	Type	0	DEF	$ != args[t]
+39	215	10	Utils.java	resolve	t	int	0	DEF	resolvedTypeArgument != args[$]
+39	215	10	Utils.java	resolve	args	Type[]	0	DEF	resolvedTypeArgument != $[t]
+40	216	12	Utils.java	resolve	changed	boolean	0	DEF	$
+41	228	13	Utils.java	resolve	toResolve	Type	1	RET	$ instanceof WildcardType
+42	233	8	Utils.java	resolve	THIS	Utils	1	RET	originalLowerBound.$.length == 1
+42	233	8	Utils.java	resolve	originalLowerBound	Type[]	1	RET	$.length == 1
+43	235	10	Utils.java	resolve	lowerBound	Type	0	RET	$ != originalLowerBound[0]
+43	235	10	Utils.java	resolve	originalLowerBound	Type[]	0	RET	lowerBound != $[0]
+44	238	15	Utils.java	resolve	THIS	Utils	0	RET	originalUpperBound.$.length == 1
+44	238	15	Utils.java	resolve	originalUpperBound	Type[]	0	RET	$.length == 1
+45	240	10	Utils.java	resolve	upperBound	Type	0	RET	$ != originalUpperBound[0]
+45	240	10	Utils.java	resolve	originalUpperBound	Type[]	0	RET	upperBound != $[0]
+46	257	4	Utils.java	resolveTypeVariable	declaredByRaw	Class<?>	0	RET	$ == null
+47	260	4	Utils.java	resolveTypeVariable	declaredBy	Type	0	RET	$ instanceof ParameterizedType
+48	278	4	Utils.java	checkNotPrimitive	type	Type	0	IllegalArgumentException	((Class<?>) $).isPrimitive()
+48	278	4	Utils.java	checkNotPrimitive	type	Type	0	IllegalArgumentException	$ instanceof Class<?>
+49	284	4	Utils.java	checkNotNull	object	T	0	NullPointerException	$ == null
+50	294	6	Utils.java	isAnnotationPresent	THIS	Utils	0	RET	cls.isInstance($.annotation)
+50	294	6	Utils.java	isAnnotationPresent	cls	Class<? extends Annotation>	0	RET	$.isInstance(annotation)
+51	308	4	Utils.java	validateServiceInterface	service	Class<T>	0	IllegalArgumentException	$.isInterface()
+52	314	4	Utils.java	validateServiceInterface	THIS	Utils	0	IllegalArgumentException	service.getInterfaces().length > 0
+52	314	4	Utils.java	validateServiceInterface	service	Class<T>	0	IllegalArgumentException	$.getInterfaces().length > 0
+53	321	4	Utils.java	getParameterUpperBound	THIS	Utils	0	IllegalArgumentException	index >= types.$.length
+53	321	4	Utils.java	getParameterUpperBound	types	Type[]	0	IllegalArgumentException	index >= $.length
+53	321	4	Utils.java	getParameterUpperBound	index	int	0	IllegalArgumentException	$ < 0
+53	321	4	Utils.java	getParameterUpperBound	index	int	0	IllegalArgumentException	$ >= types.length
+54	326	4	Utils.java	getParameterUpperBound	paramType	Type	0	RET	$ instanceof WildcardType
+55	333	4	Utils.java	hasUnresolvableType	type	Type	0	RET	$ instanceof Class<?>
+56	336	4	Utils.java	hasUnresolvableType	type	Type	0	RET	$ instanceof ParameterizedType
+57	339	8	Utils.java	hasUnresolvableType	THIS	Utils	0	RET	$.hasUnresolvableType($.typeArgument)
+58	345	4	Utils.java	hasUnresolvableType	type	Type	0	RET	$ instanceof GenericArrayType
+59	348	4	Utils.java	hasUnresolvableType	type	Type	0	RET	$ instanceof TypeVariable
+60	351	4	Utils.java	hasUnresolvableType	type	Type	0	RET	$ instanceof WildcardType
+61	360	4	Utils.java	getCallResponseType	returnType	Type	0	IllegalArgumentException	$ instanceof ParameterizedType

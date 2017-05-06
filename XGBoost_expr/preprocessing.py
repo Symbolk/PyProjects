@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
-def preprocess(data_file_path, feature_num, frequency):
+def preprocess(summary_file, data_file_path, feature_num, frequency):
     start_time = datetime.datetime.now()
     training_file = data_file_path[0:-4]+'_train.csv'
     validating_file = data_file_path[0:-4]+'_valid.csv'
@@ -57,12 +57,14 @@ def preprocess(data_file_path, feature_num, frequency):
     for c in counter.items():
         if c[1]> frequency :
             frequent_y.append(c[0])
-    print('Frequent class(>{}) num: {}'.format(frequency, len(frequent_y)))
+    frequent_class_num = len(frequent_y)
+    print('Frequent class(>{}) num: {}'.format(frequency, frequent_class_num))
     frequent_indices = list()
     for i in range(0, Y.shape[0]):
         if Y[i] in frequent_y:
             frequent_indices.append(i)
-    print('Frequent rows num: {}'.format(len(frequent_indices)))
+    frequent_samples = len(frequent_indices)
+    print('Frequent rows num: {}'.format(frequent_samples))
 
     if not os.path.exists(frequent_encoded_data_file):
         with open(frequent_encoded_data_file, 'a+') as f:
@@ -96,6 +98,12 @@ def preprocess(data_file_path, feature_num, frequency):
                 f.write('%s' % y_valid[i])
                 f.write('\n')
 
+    with open(summary_file, 'a+') as f:
+        f.write('%s,' % class_num)
+        f.write('{},'.format(X.shape[0]))
+        f.write('{},'.format(frequency))
+        f.write('{},'.format(frequent_class_num))
+        f.write('{},'.format(frequent_samples))
 
     end_time = datetime.datetime.now()
     run_time = end_time - start_time

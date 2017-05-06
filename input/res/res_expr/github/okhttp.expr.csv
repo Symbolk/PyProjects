@@ -1,0 +1,1596 @@
+id	line	column	filename	methodname	varname	vartype	else	return	right
+20	60	4	Address.java	Address	dns	Dns	0	NullPointerException	$ == null
+21	63	4	Address.java	Address	socketFactory	SocketFactory	0	NullPointerException	$ == null
+22	66	4	Address.java	Address	proxyAuthenticator	Authenticator	0	NullPointerException	$ == null
+23	71	4	Address.java	Address	protocols	List<Protocol>	0	NullPointerException	$ == null
+24	74	4	Address.java	Address	connectionSpecs	List<ConnectionSpec>	0	NullPointerException	$ == null
+25	77	4	Address.java	Address	proxySelector	ProxySelector	0	NullPointerException	$ == null
+26	191	4	Address.java	toString	THIS	Address	1	DEF	$.proxy != null
+260	65	6	AndroidPlatform.java	connectSocket	THIS	AndroidPlatform	0	IOException	Util.isAndroidGetsocknameError($.e)
+261	78	4	AndroidPlatform.java	trustManager	context	Object	0	RET	$ == null
+262	93	4	AndroidPlatform.java	trustManager	x509TrustManager	X509TrustManager	0	RET	$ != null
+263	101	4	AndroidPlatform.java	configureTlsExtensions	hostname	String	0	DEF	$ != null
+264	107	4	AndroidPlatform.java	configureTlsExtensions	THIS	AndroidPlatform	0	DEF	$.setAlpnProtocols.isSupported(sslSocket)
+264	107	4	AndroidPlatform.java	configureTlsExtensions	THIS	AndroidPlatform	0	DEF	$.setAlpnProtocols != null
+264	107	4	AndroidPlatform.java	configureTlsExtensions	sslSocket	SSLSocket	0	DEF	setAlpnProtocols.isSupported($)
+265	114	4	AndroidPlatform.java	getSelectedProtocol	THIS	AndroidPlatform	0	RET	$.getAlpnSelectedProtocol == null
+266	115	4	AndroidPlatform.java	getSelectedProtocol	THIS	AndroidPlatform	0	RET	$.getAlpnSelectedProtocol.isSupported(socket)
+266	115	4	AndroidPlatform.java	getSelectedProtocol	socket	SSLSocket	0	RET	getAlpnSelectedProtocol.isSupported($)
+267	123	4	AndroidPlatform.java	log	t	Throwable	0	DEF	$ != null
+57385	126	4	AndroidPlatform.java	log	i	int	0	NIL-FOR	$ < length
+57385	126	4	AndroidPlatform.java	log	length	int	0	NIL-FOR	i < $
+57386	129	6	AndroidPlatform.java	log	newline	int	0	NIL-DOWHILE	i < $
+57386	129	6	AndroidPlatform.java	log	i	int	0	NIL-DOWHILE	$ < newline
+268	143	4	AndroidPlatform.java	logCloseableLeak	reported	boolean	0	DEF	$
+57456	62	4	BasicCertificateChainCleaner.java	clean	c	int	0	NIL-FOR	$ < MAX_SIGNERS
+686	69	6	BasicCertificateChainCleaner.java	clean	trustedCert	X509Certificate	0	RET	$ != null
+687	70	8	BasicCertificateChainCleaner.java	clean	toVerify	X509Certificate	0	DEF	$.equals(trustedCert)
+687	70	8	BasicCertificateChainCleaner.java	clean	trustedCert	X509Certificate	0	DEF	toVerify.equals($)
+687	70	8	BasicCertificateChainCleaner.java	clean	result	List<Certificate>	0	DEF	$.size() > 1
+688	73	8	BasicCertificateChainCleaner.java	clean	THIS	BasicCertificateChainCleaner	0	RET	$.verifySignature(trustedCert, trustedCert)
+688	73	8	BasicCertificateChainCleaner.java	clean	trustedCert	X509Certificate	0	RET	verifySignature($, $)
+57457	82	6	BasicCertificateChainCleaner.java	clean	i	Iterator<Certificate>	0	NIL-FOR	$.hasNext()
+689	84	8	BasicCertificateChainCleaner.java	clean	THIS	BasicCertificateChainCleaner	0	DEF	$.verifySignature(toVerify, signingCert)
+689	84	8	BasicCertificateChainCleaner.java	clean	signingCert	X509Certificate	0	DEF	verifySignature(toVerify, $)
+689	84	8	BasicCertificateChainCleaner.java	clean	toVerify	X509Certificate	0	DEF	verifySignature($, signingCert)
+690	92	6	BasicCertificateChainCleaner.java	clean	foundTrustedCertificate	boolean	0	RET	$
+691	106	4	BasicCertificateChainCleaner.java	verifySignature	toVerify	X509Certificate	0	RET	$.getIssuerDN().equals(signingCert.getSubjectDN())
+691	106	4	BasicCertificateChainCleaner.java	verifySignature	signingCert	X509Certificate	0	RET	toVerify.getIssuerDN().equals($.getSubjectDN())
+692	120	4	BasicCertificateChainCleaner.java	equals	THIS	BasicCertificateChainCleaner	0	RET	other == $
+692	120	4	BasicCertificateChainCleaner.java	equals	other	Object	0	RET	$ == this
+184	52	4	BridgeInterceptor.java	intercept	body	RequestBody	0	DEF	$ != null
+185	54	6	BridgeInterceptor.java	intercept	contentType	MediaType	0	DEF	$ != null
+186	59	6	BridgeInterceptor.java	intercept	contentLength	long	1	DEF	$ != -1
+187	68	4	BridgeInterceptor.java	intercept	userRequest	Request	0	DEF	$.header("Host") == null
+188	72	4	BridgeInterceptor.java	intercept	userRequest	Request	0	DEF	$.header("Connection") == null
+189	79	4	BridgeInterceptor.java	intercept	userRequest	Request	0	DEF	$.header("Range") == null
+189	79	4	BridgeInterceptor.java	intercept	userRequest	Request	0	DEF	$.header("Accept-Encoding") == null
+190	85	4	BridgeInterceptor.java	intercept	cookies	List<Cookie>	0	DEF	$.isEmpty()
+191	89	4	BridgeInterceptor.java	intercept	userRequest	Request	0	DEF	$.header("User-Agent") == null
+192	100	4	BridgeInterceptor.java	intercept	transparentGzip	boolean	0	DEF	$
+192	100	4	BridgeInterceptor.java	intercept	networkResponse	Response	0	DEF	HttpHeaders.hasBody($)
+192	100	4	BridgeInterceptor.java	intercept	networkResponse	Response	0	DEF	"gzip".equalsIgnoreCase($.header("Content-Encoding"))
+57380	118	4	BridgeInterceptor.java	cookieHeader	i	int	0	NIL-FOR	$ < size
+57380	118	4	BridgeInterceptor.java	cookieHeader	size	int	0	NIL-FOR	i < $
+193	119	6	BridgeInterceptor.java	cookieHeader	i	int	0	DEF	$ > 0
+798	195	6	Cache.java	get	snapshot	Snapshot	0	RET	$ == null
+799	212	4	Cache.java	get	entry	Entry	0	RET	$.matches(request, response)
+799	212	4	Cache.java	get	response	Response	0	RET	entry.matches(request, $)
+799	212	4	Cache.java	get	request	Request	0	RET	entry.matches($, response)
+800	223	4	Cache.java	put	response	Response	0	RET	HttpMethod.invalidatesCache($.request().method())
+801	231	4	Cache.java	put	requestMethod	String	0	RET	$.equals("GET")
+802	238	4	Cache.java	put	response	Response	0	RET	HttpHeaders.hasVaryAll($)
+803	246	6	Cache.java	put	editor	Editor	0	RET	$ == null
+804	267	6	Cache.java	update	editor	Editor	0	DEF	$ != null
+805	279	6	Cache.java	abortQuietly	editor	DiskLruCache.Editor	0	DEF	$ != null
+806	404	4	Cache.java	trackResponse	THIS	Cache	1	DEF	cacheStrategy.$.networkRequest != null
+806	404	4	Cache.java	trackResponse	cacheStrategy	CacheStrategy	1	DEF	$.networkRequest != null
+807	407	11	Cache.java	trackResponse	THIS	Cache	0	DEF	cacheStrategy.$.cacheResponse != null
+807	407	11	Cache.java	trackResponse	cacheStrategy	CacheStrategy	0	DEF	$.cacheResponse != null
+808	727	6	Cache.java	readInt	result	long	0	IOException	$ > Integer.MAX_VALUE
+808	727	6	Cache.java	readInt	result	long	0	IOException	$ < 0
+808	727	6	Cache.java	readInt	line	String	0	IOException	$.isEmpty()
+57477	160	4	CacheControl.java	parse	i	int	0	NIL-FOR	$ < size
+57477	160	4	CacheControl.java	parse	size	int	0	NIL-FOR	i < $
+824	164	6	CacheControl.java	parse	name	String	1	DEF	$.equalsIgnoreCase("Cache-Control")
+825	165	8	CacheControl.java	parse	headerValue	String	1	DEF	$ != null
+826	171	13	CacheControl.java	parse	name	String	1	DEF	$.equalsIgnoreCase("Pragma")
+57478	179	6	CacheControl.java	parse	value	String	0	NIL-WHILE	pos < $.length()
+57478	179	6	CacheControl.java	parse	pos	int	0	NIL-WHILE	$ < value.length()
+827	185	8	CacheControl.java	parse	value	String	1	DEF	$.charAt(pos) == ','
+827	185	8	CacheControl.java	parse	value	String	1	DEF	$.charAt(pos) == ';'
+827	185	8	CacheControl.java	parse	value	String	1	DEF	pos == $.length()
+827	185	8	CacheControl.java	parse	pos	int	1	DEF	value.charAt($) == ','
+827	185	8	CacheControl.java	parse	pos	int	1	DEF	value.charAt($) == ';'
+827	185	8	CacheControl.java	parse	pos	int	1	DEF	$ == value.length()
+828	193	10	CacheControl.java	parse	value	String	1	DEF	$.charAt(pos) == '\"'
+828	193	10	CacheControl.java	parse	value	String	1	DEF	pos < $.length()
+828	193	10	CacheControl.java	parse	pos	int	1	DEF	value.charAt($) == '\"'
+828	193	10	CacheControl.java	parse	pos	int	1	DEF	$ < value.length()
+829	208	8	CacheControl.java	parse	directive	String	1	DEF	"no-cache".equalsIgnoreCase($)
+830	210	15	CacheControl.java	parse	directive	String	1	DEF	"no-store".equalsIgnoreCase($)
+831	212	15	CacheControl.java	parse	directive	String	1	DEF	"max-age".equalsIgnoreCase($)
+832	214	15	CacheControl.java	parse	directive	String	1	DEF	"s-maxage".equalsIgnoreCase($)
+833	216	15	CacheControl.java	parse	directive	String	1	DEF	"private".equalsIgnoreCase($)
+834	218	15	CacheControl.java	parse	directive	String	1	DEF	"public".equalsIgnoreCase($)
+835	220	15	CacheControl.java	parse	directive	String	1	DEF	"must-revalidate".equalsIgnoreCase($)
+836	222	15	CacheControl.java	parse	directive	String	1	DEF	"max-stale".equalsIgnoreCase($)
+837	224	15	CacheControl.java	parse	directive	String	1	DEF	"min-fresh".equalsIgnoreCase($)
+838	226	15	CacheControl.java	parse	directive	String	1	DEF	"only-if-cached".equalsIgnoreCase($)
+839	228	15	CacheControl.java	parse	directive	String	0	DEF	"no-transform".equalsIgnoreCase($)
+840	234	4	CacheControl.java	parse	canUseHeaderValue	boolean	0	DEF	$
+841	248	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.noCache
+842	249	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.noStore
+843	250	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.maxAgeSeconds != -1
+844	251	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.sMaxAgeSeconds != -1
+845	252	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.isPrivate
+846	253	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.isPublic
+847	254	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.mustRevalidate
+848	255	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.maxStaleSeconds != -1
+849	256	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.minFreshSeconds != -1
+850	257	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.onlyIfCached
+851	258	4	CacheControl.java	headerValue	THIS	CacheControl	0	DEF	$.noTransform
+852	259	4	CacheControl.java	headerValue	result	StringBuilder	0	RET	$.length() == 0
+565	63	4	CacheInterceptor.java	intercept	THIS	CacheInterceptor	0	DEF	$.cache != null
+566	67	4	CacheInterceptor.java	intercept	cacheCandidate	Response	0	DEF	$ != null
+566	67	4	CacheInterceptor.java	intercept	cacheResponse	Response	0	DEF	$ == null
+567	72	4	CacheInterceptor.java	intercept	networkRequest	Request	0	RET	$ == null
+567	72	4	CacheInterceptor.java	intercept	cacheResponse	Response	0	RET	$ == null
+568	85	4	CacheInterceptor.java	intercept	networkRequest	Request	0	RET	$ == null
+569	96	6	CacheInterceptor.java	intercept	cacheCandidate	Response	0	DEF	$ != null
+569	96	6	CacheInterceptor.java	intercept	networkResponse	Response	0	DEF	$ == null
+570	102	4	CacheInterceptor.java	intercept	cacheResponse	Response	0	RET	$ != null
+571	103	6	CacheInterceptor.java	intercept	networkResponse	Response	1	RET	$.code() == HTTP_NOT_MODIFIED
+572	128	4	CacheInterceptor.java	intercept	response	Response	0	DEF	HttpHeaders.hasBody($)
+573	144	4	CacheInterceptor.java	maybeCache	responseCache	InternalCache	0	RET	$ == null
+574	147	4	CacheInterceptor.java	maybeCache	userResponse	Response	0	RET	CacheStrategy.isCacheable($, networkRequest)
+574	147	4	CacheInterceptor.java	maybeCache	networkRequest	Request	0	RET	CacheStrategy.isCacheable(userResponse, $)
+575	148	6	CacheInterceptor.java	maybeCache	networkRequest	Request	0	DEF	HttpMethod.invalidatesCache($.method())
+576	170	4	CacheInterceptor.java	cacheWritingResponse	cacheRequest	CacheRequest	0	RET	$ == null
+577	172	4	CacheInterceptor.java	cacheWritingResponse	cacheBodyUnbuffered	Sink	0	RET	$ == null
+57424	228	4	CacheInterceptor.java	combine	i	int	0	NIL-FOR	$ < size
+57424	228	4	CacheInterceptor.java	combine	size	int	0	NIL-FOR	i < $
+578	231	6	CacheInterceptor.java	combine	fieldName	String	0	DEF	"Warning".equalsIgnoreCase($)
+578	231	6	CacheInterceptor.java	combine	value	String	0	DEF	$.startsWith("1")
+579	234	6	CacheInterceptor.java	combine	THIS	CacheInterceptor	0	DEF	$.isEndToEnd(fieldName)
+579	234	6	CacheInterceptor.java	combine	fieldName	String	0	DEF	isEndToEnd($)
+579	234	6	CacheInterceptor.java	combine	fieldName	String	0	DEF	networkHeaders.get($) == null
+579	234	6	CacheInterceptor.java	combine	networkHeaders	Headers	0	DEF	$.get(fieldName) == null
+57425	239	4	CacheInterceptor.java	combine	i	int	0	NIL-FOR	$ < size
+57425	239	4	CacheInterceptor.java	combine	size	int	0	NIL-FOR	i < $
+580	241	6	CacheInterceptor.java	combine	fieldName	String	0	DEF	"Content-Length".equalsIgnoreCase($)
+581	244	6	CacheInterceptor.java	combine	THIS	CacheInterceptor	0	DEF	$.isEndToEnd(fieldName)
+581	244	6	CacheInterceptor.java	combine	fieldName	String	0	DEF	isEndToEnd($)
+582	85	8	CacheStrategy.java	isCacheable	response	Response	0	DEF	$.cacheControl().isPublic()
+582	85	8	CacheStrategy.java	isCacheable	response	Response	0	DEF	$.cacheControl().maxAgeSeconds() != -1
+582	85	8	CacheStrategy.java	isCacheable	response	Response	0	DEF	$.cacheControl().isPrivate()
+582	85	8	CacheStrategy.java	isCacheable	response	Response	0	DEF	$.header("Expires") != null
+176	49	4	CallServerInterceptor.java	intercept	request	Request	0	DEF	HttpMethod.permitsRequestBody($.method())
+176	49	4	CallServerInterceptor.java	intercept	request	Request	0	DEF	$.body() != null
+177	53	6	CallServerInterceptor.java	intercept	request	Request	0	DEF	"100-continue".equalsIgnoreCase($.header("Expect"))
+178	58	6	CallServerInterceptor.java	intercept	responseBuilder	Builder	1	DEF	$ == null
+179	64	13	CallServerInterceptor.java	intercept	connection	RealConnection	0	DEF	$.isMultiplexed()
+180	74	4	CallServerInterceptor.java	intercept	responseBuilder	Builder	0	DEF	$ == null
+181	86	4	CallServerInterceptor.java	intercept	THIS	CallServerInterceptor	1	DEF	$.forWebSocket
+181	86	4	CallServerInterceptor.java	intercept	code	int	1	DEF	$ == 101
+182	97	4	CallServerInterceptor.java	intercept	response	Response	0	DEF	"close".equalsIgnoreCase($.request().header("Connection"))
+182	97	4	CallServerInterceptor.java	intercept	response	Response	0	DEF	"close".equalsIgnoreCase($.header("Connection"))
+183	102	4	CallServerInterceptor.java	intercept	response	Response	0	ProtocolException	$.body().contentLength() > 0
+183	102	4	CallServerInterceptor.java	intercept	code	int	0	ProtocolException	$ == 204
+183	102	4	CallServerInterceptor.java	intercept	code	int	0	ProtocolException	$ == 205
+764	139	4	CertificatePinner.java	equals	THIS	CertificatePinner	0	RET	other == $
+764	139	4	CertificatePinner.java	equals	other	Object	0	RET	$ == this
+765	162	4	CertificatePinner.java	check	pins	List<Pin>	0	RET	$.isEmpty()
+766	164	4	CertificatePinner.java	check	THIS	CertificatePinner	0	DEF	$.certificateChainCleaner != null
+57469	168	4	CertificatePinner.java	check	c	int	0	NIL-FOR	$ < certsSize
+57469	168	4	CertificatePinner.java	check	certsSize	int	0	NIL-FOR	c < $
+57470	175	6	CertificatePinner.java	check	p	int	0	NIL-FOR	$ < pinsSize
+57470	175	6	CertificatePinner.java	check	pinsSize	int	0	NIL-FOR	p < $
+767	177	8	CertificatePinner.java	check	THIS	CertificatePinner	1	RET	pin.$.hashAlgorithm.equals("sha256/")
+767	177	8	CertificatePinner.java	check	pin	Pin	1	RET	$.hashAlgorithm.equals("sha256/")
+768	178	10	CertificatePinner.java	check	sha256	ByteString	0	DEF	$ == null
+769	179	10	CertificatePinner.java	check	THIS	CertificatePinner	0	RET	pin.$.hash.equals(sha256)
+769	179	10	CertificatePinner.java	check	pin	Pin	0	RET	$.hash.equals(sha256)
+769	179	10	CertificatePinner.java	check	sha256	ByteString	0	RET	pin.hash.equals($)
+770	180	15	CertificatePinner.java	check	THIS	CertificatePinner	1	RET	pin.$.hashAlgorithm.equals("sha1/")
+770	180	15	CertificatePinner.java	check	pin	Pin	1	RET	$.hashAlgorithm.equals("sha1/")
+771	181	10	CertificatePinner.java	check	sha1	ByteString	0	DEF	$ == null
+772	182	10	CertificatePinner.java	check	THIS	CertificatePinner	0	RET	pin.$.hash.equals(sha1)
+772	182	10	CertificatePinner.java	check	pin	Pin	0	RET	$.hash.equals(sha1)
+772	182	10	CertificatePinner.java	check	sha1	ByteString	0	RET	pin.hash.equals($)
+57471	193	4	CertificatePinner.java	check	c	int	0	NIL-FOR	$ < certsSize
+57471	193	4	CertificatePinner.java	check	certsSize	int	0	NIL-FOR	c < $
+57472	199	4	CertificatePinner.java	check	p	int	0	NIL-FOR	$ < pinsSize
+57472	199	4	CertificatePinner.java	check	pinsSize	int	0	NIL-FOR	p < $
+773	219	6	CertificatePinner.java	findMatchingPins	THIS	CertificatePinner	0	DEF	$.pin.matches(hostname)
+773	219	6	CertificatePinner.java	findMatchingPins	hostname	String	0	DEF	pin.matches($)
+774	220	8	CertificatePinner.java	findMatchingPins	result	List<Pin>	0	DEF	$.isEmpty()
+775	241	4	CertificatePinner.java	pin	certificate	Certificate	0	IllegalArgumentException	$ instanceof X509Certificate
+18	400	4	CipherSuite.java	forJavaName	result	CipherSuite	0	DEF	$ == null
+19	416	4	CipherSuite.java	CipherSuite	javaName	String	0	NullPointerException	$ == null
+0	93	4	ConnectionPool.java	ConnectionPool	keepAliveDuration	long	0	IllegalArgumentException	$ <= 0
+1	102	6	ConnectionPool.java	idleConnectionCount	THIS	ConnectionPool	0	DEF	$.connection.$.allocations.isEmpty()
+2	124	6	ConnectionPool.java	get	THIS	ConnectionPool	0	RET	$.connection.isEligible(address, route)
+2	124	6	ConnectionPool.java	get	address	Address	0	RET	connection.isEligible($, route)
+2	124	6	ConnectionPool.java	get	route	Route	0	RET	connection.isEligible(address, $)
+3	139	6	ConnectionPool.java	deduplicate	THIS	ConnectionPool	0	RET	$.connection.isEligible(address, null)
+3	139	6	ConnectionPool.java	deduplicate	THIS	ConnectionPool	0	RET	$.connection.isMultiplexed()
+3	139	6	ConnectionPool.java	deduplicate	THIS	ConnectionPool	0	RET	$.connection != streamAllocation.connection()
+3	139	6	ConnectionPool.java	deduplicate	address	Address	0	RET	connection.isEligible($, null)
+3	139	6	ConnectionPool.java	deduplicate	streamAllocation	StreamAllocation	0	RET	connection != $.connection()
+4	150	4	ConnectionPool.java	put	THIS	ConnectionPool	0	DEF	$.cleanupRunning
+5	163	4	ConnectionPool.java	connectionBecameIdle	THIS	ConnectionPool	1	RET	connection.$.noNewStreams
+5	163	4	ConnectionPool.java	connectionBecameIdle	THIS	ConnectionPool	1	RET	$.maxIdleConnections == 0
+5	163	4	ConnectionPool.java	connectionBecameIdle	connection	RealConnection	1	RET	$.noNewStreams
+57355	176	6	ConnectionPool.java	evictAll	i	Iterator<RealConnection>	0	NIL-FOR	$.hasNext()
+6	178	8	ConnectionPool.java	evictAll	THIS	ConnectionPool	0	DEF	connection.$.allocations.isEmpty()
+6	178	8	ConnectionPool.java	evictAll	connection	RealConnection	0	DEF	$.allocations.isEmpty()
+57356	206	6	ConnectionPool.java	cleanup	i	Iterator<RealConnection>	0	NIL-FOR	$.hasNext()
+7	210	8	ConnectionPool.java	cleanup	THIS	ConnectionPool	0	DEF	$.pruneAndGetAllocationCount(connection, now) > 0
+7	210	8	ConnectionPool.java	cleanup	connection	RealConnection	0	DEF	pruneAndGetAllocationCount($, now) > 0
+7	210	8	ConnectionPool.java	cleanup	now	long	0	DEF	pruneAndGetAllocationCount(connection, $) > 0
+8	219	8	ConnectionPool.java	cleanup	idleDurationNs	long	0	DEF	$ > longestIdleDurationNs
+8	219	8	ConnectionPool.java	cleanup	longestIdleDurationNs	long	0	DEF	idleDurationNs > $
+9	225	6	ConnectionPool.java	cleanup	THIS	ConnectionPool	1	DEF	idleConnectionCount > $.maxIdleConnections
+9	225	6	ConnectionPool.java	cleanup	THIS	ConnectionPool	1	DEF	longestIdleDurationNs >= $.keepAliveDurationNs
+9	225	6	ConnectionPool.java	cleanup	idleConnectionCount	int	1	DEF	$ > this.maxIdleConnections
+9	225	6	ConnectionPool.java	cleanup	longestIdleDurationNs	long	1	DEF	$ >= this.keepAliveDurationNs
+10	230	13	ConnectionPool.java	cleanup	idleConnectionCount	int	1	RET	$ > 0
+11	233	13	ConnectionPool.java	cleanup	inUseConnectionCount	int	1	RET	$ > 0
+57357	257	4	ConnectionPool.java	pruneAndGetAllocationCount	i	int	0	NIL-FOR	$ < references.size()
+57357	257	4	ConnectionPool.java	pruneAndGetAllocationCount	references	List<Reference<StreamAllocation>>	0	NIL-FOR	i < $.size()
+12	260	6	ConnectionPool.java	pruneAndGetAllocationCount	reference	Reference<StreamAllocation>	0	DEF	$.get() != null
+13	276	6	ConnectionPool.java	pruneAndGetAllocationCount	references	List<Reference<StreamAllocation>>	0	RET	$.isEmpty()
+809	123	4	ConnectionSpec.java	apply	THIS	ConnectionSpec	0	DEF	specToApply.$.tlsVersions != null
+809	123	4	ConnectionSpec.java	apply	specToApply	ConnectionSpec	0	DEF	$.tlsVersions != null
+810	126	4	ConnectionSpec.java	apply	THIS	ConnectionSpec	0	DEF	specToApply.$.cipherSuites != null
+810	126	4	ConnectionSpec.java	apply	specToApply	ConnectionSpec	0	DEF	$.cipherSuites != null
+811	148	4	ConnectionSpec.java	supportedSpec	indexOfFallbackScsv	int	0	DEF	$ != -1
+811	148	4	ConnectionSpec.java	supportedSpec	isFallback	boolean	0	DEF	$
+812	171	4	ConnectionSpec.java	isCompatible	THIS	ConnectionSpec	0	RET	$.tls
+813	175	4	ConnectionSpec.java	isCompatible	THIS	ConnectionSpec	0	RET	$.nonEmptyIntersection( Util.NATURAL_ORDER, $.tlsVersions, socket.getEnabledProtocols())
+813	175	4	ConnectionSpec.java	isCompatible	THIS	ConnectionSpec	0	RET	$.tlsVersions != null
+813	175	4	ConnectionSpec.java	isCompatible	socket	SSLSocket	0	RET	nonEmptyIntersection( Util.NATURAL_ORDER, tlsVersions, $.getEnabledProtocols())
+814	180	4	ConnectionSpec.java	isCompatible	THIS	ConnectionSpec	0	RET	$.cipherSuites != null
+814	180	4	ConnectionSpec.java	isCompatible	THIS	ConnectionSpec	0	RET	$.nonEmptyIntersection( CipherSuite.ORDER_BY_NAME, $.cipherSuites, socket.getEnabledCipherSuites())
+814	180	4	ConnectionSpec.java	isCompatible	socket	SSLSocket	0	RET	nonEmptyIntersection( CipherSuite.ORDER_BY_NAME, cipherSuites, $.getEnabledCipherSuites())
+815	189	4	ConnectionSpec.java	equals	other	Object	0	RET	$ instanceof ConnectionSpec
+816	190	4	ConnectionSpec.java	equals	THIS	ConnectionSpec	0	RET	other == $
+816	190	4	ConnectionSpec.java	equals	other	Object	0	RET	$ == this
+817	193	4	ConnectionSpec.java	equals	THIS	ConnectionSpec	0	RET	$.tls != that.$.tls
+817	193	4	ConnectionSpec.java	equals	that	ConnectionSpec	0	RET	this.tls != $.tls
+818	195	4	ConnectionSpec.java	equals	THIS	ConnectionSpec	0	RET	$.tls
+819	196	6	ConnectionSpec.java	equals	THIS	ConnectionSpec	0	RET	Arrays.equals($.cipherSuites, that.$.cipherSuites)
+819	196	6	ConnectionSpec.java	equals	that	ConnectionSpec	0	RET	Arrays.equals(this.cipherSuites, $.cipherSuites)
+820	197	6	ConnectionSpec.java	equals	THIS	ConnectionSpec	0	RET	Arrays.equals($.tlsVersions, that.$.tlsVersions)
+820	197	6	ConnectionSpec.java	equals	that	ConnectionSpec	0	RET	Arrays.equals(this.tlsVersions, $.tlsVersions)
+821	198	6	ConnectionSpec.java	equals	THIS	ConnectionSpec	0	RET	$.supportsTlsExtensions != that.$.supportsTlsExtensions
+821	198	6	ConnectionSpec.java	equals	that	ConnectionSpec	0	RET	this.supportsTlsExtensions != $.supportsTlsExtensions
+822	206	4	ConnectionSpec.java	hashCode	THIS	ConnectionSpec	0	DEF	$.tls
+823	215	4	ConnectionSpec.java	toString	THIS	ConnectionSpec	0	RET	$.tls
+57372	57	4	ConnectionSpecSelector.java	configureSecureSocket	i	int	0	NIL-FOR	$ < size
+57372	57	4	ConnectionSpecSelector.java	configureSecureSocket	size	int	0	NIL-FOR	i < $
+130	59	6	ConnectionSpecSelector.java	configureSecureSocket	connectionSpec	ConnectionSpec	0	DEF	$.isCompatible(sslSocket)
+130	59	6	ConnectionSpecSelector.java	configureSecureSocket	sslSocket	SSLSocket	0	DEF	connectionSpec.isCompatible($)
+131	66	4	ConnectionSpecSelector.java	configureSecureSocket	tlsConfiguration	ConnectionSpec	0	UnknownServiceException	$ == null
+132	94	4	ConnectionSpecSelector.java	connectionFailed	THIS	ConnectionSpecSelector	0	RET	$.isFallbackPossible
+133	99	4	ConnectionSpecSelector.java	connectionFailed	e	IOException	0	RET	$ instanceof ProtocolException
+134	106	4	ConnectionSpecSelector.java	connectionFailed	e	IOException	0	RET	$ instanceof InterruptedIOException
+135	112	4	ConnectionSpecSelector.java	connectionFailed	e	IOException	0	RET	$ instanceof SSLHandshakeException
+136	115	6	ConnectionSpecSelector.java	connectionFailed	e	IOException	0	RET	$.getCause() instanceof CertificateException
+137	119	4	ConnectionSpecSelector.java	connectionFailed	e	IOException	0	RET	$ instanceof SSLPeerUnverifiedException
+57373	135	4	ConnectionSpecSelector.java	isFallbackPossible	THIS	ConnectionSpecSelector	0	NIL-FOR	i < $.connectionSpecs.size()
+57373	135	4	ConnectionSpecSelector.java	isFallbackPossible	i	int	0	NIL-FOR	$ < connectionSpecs.size()
+138	136	6	ConnectionSpecSelector.java	isFallbackPossible	THIS	ConnectionSpecSelector	0	RET	$.connectionSpecs.get(i).isCompatible(socket)
+138	136	6	ConnectionSpecSelector.java	isFallbackPossible	i	int	0	RET	connectionSpecs.get($).isCompatible(socket)
+138	136	6	ConnectionSpecSelector.java	isFallbackPossible	socket	SSLSocket	0	RET	connectionSpecs.get(i).isCompatible($)
+695	80	4	Cookie.java	Cookie	THIS	Cookie	0	NullPointerException	builder.$.name == null
+695	80	4	Cookie.java	Cookie	builder	Builder	0	NullPointerException	$.name == null
+696	81	4	Cookie.java	Cookie	THIS	Cookie	0	NullPointerException	builder.$.value == null
+696	81	4	Cookie.java	Cookie	builder	Builder	0	NullPointerException	$.value == null
+697	82	4	Cookie.java	Cookie	THIS	Cookie	0	NullPointerException	builder.$.domain == null
+697	82	4	Cookie.java	Cookie	builder	Builder	0	NullPointerException	$.domain == null
+698	175	4	Cookie.java	matches	domainMatch	boolean	0	RET	$
+699	177	4	Cookie.java	matches	THIS	Cookie	0	RET	$.pathMatch(url, $.path)
+699	177	4	Cookie.java	matches	url	HttpUrl	0	RET	pathMatch($, path)
+700	179	4	Cookie.java	matches	THIS	Cookie	0	RET	$.secure
+700	179	4	Cookie.java	matches	url	HttpUrl	0	RET	$.isHttps()
+701	185	4	Cookie.java	domainMatch	urlHost	String	0	RET	$.equals(domain)
+701	185	4	Cookie.java	domainMatch	domain	String	0	RET	urlHost.equals($)
+702	189	4	Cookie.java	domainMatch	THIS	Cookie	0	RET	$.verifyAsIpAddress(urlHost)
+702	189	4	Cookie.java	domainMatch	urlHost	String	0	RET	$.charAt($.length() - domain.length() - 1) == '.'
+702	189	4	Cookie.java	domainMatch	urlHost	String	0	RET	verifyAsIpAddress($)
+702	189	4	Cookie.java	domainMatch	urlHost	String	0	RET	$.endsWith(domain)
+702	189	4	Cookie.java	domainMatch	domain	String	0	RET	urlHost.charAt(urlHost.length() - $.length() - 1) == '.'
+702	189	4	Cookie.java	domainMatch	domain	String	0	RET	urlHost.endsWith($)
+703	201	4	Cookie.java	pathMatch	urlPath	String	0	RET	$.equals(path)
+703	201	4	Cookie.java	pathMatch	path	String	0	RET	urlPath.equals($)
+704	205	4	Cookie.java	pathMatch	urlPath	String	0	RET	$.startsWith(path)
+704	205	4	Cookie.java	pathMatch	path	String	0	RET	urlPath.startsWith($)
+705	206	6	Cookie.java	pathMatch	path	String	0	RET	$.endsWith("/")
+706	207	6	Cookie.java	pathMatch	urlPath	String	0	RET	$.charAt(path.length()) == '/'
+706	207	6	Cookie.java	pathMatch	path	String	0	RET	urlPath.charAt($.length()) == '/'
+707	227	4	Cookie.java	parse	cookiePairEnd	int	0	RET	pairEqualsSign == $
+707	227	4	Cookie.java	parse	pairEqualsSign	int	0	RET	$ == cookiePairEnd
+708	230	4	Cookie.java	parse	THIS	Cookie	0	RET	$.indexOfControlOrNonAscii(cookieName) != -1
+708	230	4	Cookie.java	parse	cookieName	String	0	RET	$.isEmpty()
+708	230	4	Cookie.java	parse	cookieName	String	0	RET	indexOfControlOrNonAscii($) != -1
+709	233	4	Cookie.java	parse	THIS	Cookie	0	RET	$.indexOfControlOrNonAscii(cookieValue) != -1
+709	233	4	Cookie.java	parse	cookieValue	String	0	RET	indexOfControlOrNonAscii($) != -1
+57458	245	4	Cookie.java	parse	pos	int	0	NIL-WHILE	$ < limit
+57458	245	4	Cookie.java	parse	limit	int	0	NIL-WHILE	pos < $
+710	254	6	Cookie.java	parse	attributeName	String	1	DEF	$.equalsIgnoreCase("expires")
+711	261	13	Cookie.java	parse	attributeName	String	1	DEF	$.equalsIgnoreCase("max-age")
+712	268	13	Cookie.java	parse	attributeName	String	1	DEF	$.equalsIgnoreCase("domain")
+713	275	13	Cookie.java	parse	attributeName	String	1	DEF	$.equalsIgnoreCase("path")
+714	277	13	Cookie.java	parse	attributeName	String	1	DEF	$.equalsIgnoreCase("secure")
+715	279	13	Cookie.java	parse	attributeName	String	0	DEF	$.equalsIgnoreCase("httponly")
+716	288	4	Cookie.java	parse	deltaSeconds	long	1	DEF	$ == Long.MIN_VALUE
+717	290	11	Cookie.java	parse	deltaSeconds	long	0	DEF	$ != -1L
+718	295	6	Cookie.java	parse	expiresAt	long	0	DEF	$ < currentTimeMillis
+718	295	6	Cookie.java	parse	expiresAt	long	0	DEF	$ > HttpDate.MAX_DATE
+718	295	6	Cookie.java	parse	currentTimeMillis	long	0	DEF	expiresAt < $
+719	302	4	Cookie.java	parse	domain	String	1	DEF	$ == null
+720	304	11	Cookie.java	parse	THIS	Cookie	0	RET	$.domainMatch(urlHost, domain)
+720	304	11	Cookie.java	parse	domain	String	0	RET	domainMatch(urlHost, $)
+720	304	11	Cookie.java	parse	urlHost	String	0	RET	domainMatch($, domain)
+721	309	4	Cookie.java	parse	domain	String	0	RET	urlHost.length() != $.length()
+721	309	4	Cookie.java	parse	domain	String	0	RET	PublicSuffixDatabase.get().getEffectiveTldPlusOne($) == null
+721	309	4	Cookie.java	parse	urlHost	String	0	RET	$.length() != domain.length()
+722	316	4	Cookie.java	parse	path	String	0	DEF	$.startsWith("/")
+722	316	4	Cookie.java	parse	path	String	0	DEF	$ == null
+57459	338	4	Cookie.java	parseExpires	pos	int	0	NIL-WHILE	$ < limit
+57459	338	4	Cookie.java	parseExpires	limit	int	0	NIL-WHILE	pos < $
+723	342	6	Cookie.java	parseExpires	hour	int	1	DEF	$ == -1
+723	342	6	Cookie.java	parseExpires	matcher	Matcher	1	DEF	$.usePattern(TIME_PATTERN).matches()
+724	346	13	Cookie.java	parseExpires	dayOfMonth	int	1	DEF	$ == -1
+724	346	13	Cookie.java	parseExpires	matcher	Matcher	1	DEF	$.usePattern(DAY_OF_MONTH_PATTERN).matches()
+725	348	13	Cookie.java	parseExpires	month	int	1	DEF	$ == -1
+725	348	13	Cookie.java	parseExpires	matcher	Matcher	1	DEF	$.usePattern(MONTH_PATTERN).matches()
+726	351	13	Cookie.java	parseExpires	year	int	0	DEF	$ == -1
+726	351	13	Cookie.java	parseExpires	matcher	Matcher	0	DEF	$.usePattern(YEAR_PATTERN).matches()
+727	359	4	Cookie.java	parseExpires	year	int	0	DEF	$ >= 70
+727	359	4	Cookie.java	parseExpires	year	int	0	DEF	$ <= 99
+728	360	4	Cookie.java	parseExpires	year	int	0	DEF	$ >= 0
+728	360	4	Cookie.java	parseExpires	year	int	0	DEF	$ <= 69
+729	364	4	Cookie.java	parseExpires	year	int	0	IllegalArgumentException	$ < 1601
+730	365	4	Cookie.java	parseExpires	month	int	0	IllegalArgumentException	$ == -1
+731	366	4	Cookie.java	parseExpires	dayOfMonth	int	0	IllegalArgumentException	$ > 31
+731	366	4	Cookie.java	parseExpires	dayOfMonth	int	0	IllegalArgumentException	$ < 1
+732	367	4	Cookie.java	parseExpires	hour	int	0	IllegalArgumentException	$ > 23
+732	367	4	Cookie.java	parseExpires	hour	int	0	IllegalArgumentException	$ < 0
+733	368	4	Cookie.java	parseExpires	minute	int	0	IllegalArgumentException	$ > 59
+733	368	4	Cookie.java	parseExpires	minute	int	0	IllegalArgumentException	$ < 0
+734	369	4	Cookie.java	parseExpires	second	int	0	IllegalArgumentException	$ < 0
+734	369	4	Cookie.java	parseExpires	second	int	0	IllegalArgumentException	$ > 59
+57460	388	4	Cookie.java	dateCharacterOffset	i	int	0	NIL-FOR	$ < limit
+57460	388	4	Cookie.java	dateCharacterOffset	limit	int	0	NIL-FOR	i < $
+735	395	6	Cookie.java	dateCharacterOffset	dateCharacter	boolean	0	RET	$ == !invert
+735	395	6	Cookie.java	dateCharacterOffset	invert	boolean	0	RET	dateCharacter == !$
+735	395	6	Cookie.java	dateCharacterOffset	invert	boolean	0	RET	$
+736	413	6	Cookie.java	parseMaxAge	s	String	0	RET	$.matches("-?\\d+")
+737	425	4	Cookie.java	parseDomain	s	String	0	IllegalArgumentException	$.endsWith(".")
+738	428	4	Cookie.java	parseDomain	s	String	0	DEF	$.startsWith(".")
+739	432	4	Cookie.java	parseDomain	canonicalDomain	String	0	IllegalArgumentException	$ == null
+57461	443	4	Cookie.java	parseAll	i	int	0	NIL-FOR	$ < size
+57461	443	4	Cookie.java	parseAll	size	int	0	NIL-FOR	i < $
+740	445	6	Cookie.java	parseAll	cookie	Cookie	0	DEF	$ == null
+741	446	6	Cookie.java	parseAll	cookies	List<Cookie>	0	DEF	$ == null
+742	555	4	Cookie.java	toString	THIS	Cookie	0	DEF	$.persistent
+743	556	6	Cookie.java	toString	THIS	Cookie	1	DEF	$.expiresAt == Long.MIN_VALUE
+744	563	4	Cookie.java	toString	THIS	Cookie	0	DEF	$.hostOnly
+745	565	6	Cookie.java	toString	forObsoleteRfc2965	boolean	0	DEF	$
+746	573	4	Cookie.java	toString	THIS	Cookie	0	DEF	$.secure
+747	577	4	Cookie.java	toString	THIS	Cookie	0	DEF	$.httpOnly
+748	585	4	Cookie.java	equals	other	Object	0	RET	$ instanceof Cookie
+519	210	4	DiskLruCache.java	initialize	THIS	DiskLruCache	0	RET	$.initialized
+520	215	4	DiskLruCache.java	initialize	THIS	DiskLruCache	0	DEF	$.fileSystem.exists($.journalFileBackup)
+521	217	6	DiskLruCache.java	initialize	THIS	DiskLruCache	1	DEF	$.fileSystem.exists($.journalFile)
+522	225	4	DiskLruCache.java	initialize	THIS	DiskLruCache	0	RET	$.fileSystem.exists($.journalFile)
+523	260	4	DiskLruCache.java	create	maxSize	long	0	IllegalArgumentException	$ <= 0
+524	263	4	DiskLruCache.java	create	valueCount	int	0	IllegalArgumentException	$ <= 0
+525	282	6	DiskLruCache.java	readJournal	THIS	DiskLruCache	0	IOException	Integer.toString($.appVersion).equals(appVersionString)
+525	282	6	DiskLruCache.java	readJournal	THIS	DiskLruCache	0	IOException	Integer.toString($.valueCount).equals(valueCountString)
+525	282	6	DiskLruCache.java	readJournal	THIS	DiskLruCache	0	IOException	$.VERSION_1.equals(version)
+525	282	6	DiskLruCache.java	readJournal	magic	String	0	IOException	MAGIC.equals($)
+525	282	6	DiskLruCache.java	readJournal	version	String	0	IOException	VERSION_1.equals($)
+525	282	6	DiskLruCache.java	readJournal	appVersionString	String	0	IOException	Integer.toString(appVersion).equals($)
+525	282	6	DiskLruCache.java	readJournal	valueCountString	String	0	IOException	Integer.toString(valueCount).equals($)
+525	282	6	DiskLruCache.java	readJournal	blank	String	0	IOException	"".equals($)
+526	303	6	DiskLruCache.java	readJournal	source	BufferedSource	1	DEF	$.exhausted()
+527	326	4	DiskLruCache.java	readJournalLine	firstSpace	int	0	IOException	$ == -1
+528	333	4	DiskLruCache.java	readJournalLine	secondSpace	int	1	RET	$ == -1
+529	335	6	DiskLruCache.java	readJournalLine	firstSpace	int	0	RET	$ == REMOVE.length()
+529	335	6	DiskLruCache.java	readJournalLine	line	String	0	RET	$.startsWith(REMOVE)
+530	344	4	DiskLruCache.java	readJournalLine	entry	Entry	0	DEF	$ == null
+531	349	4	DiskLruCache.java	readJournalLine	firstSpace	int	1	DEF	$ == CLEAN.length()
+531	349	4	DiskLruCache.java	readJournalLine	secondSpace	int	1	DEF	$ != -1
+531	349	4	DiskLruCache.java	readJournalLine	line	String	1	DEF	$.startsWith(CLEAN)
+532	354	11	DiskLruCache.java	readJournalLine	firstSpace	int	1	DEF	$ == DIRTY.length()
+532	354	11	DiskLruCache.java	readJournalLine	secondSpace	int	1	DEF	$ == -1
+532	354	11	DiskLruCache.java	readJournalLine	line	String	1	DEF	$.startsWith(DIRTY)
+533	356	11	DiskLruCache.java	readJournalLine	firstSpace	int	1	DEF	$ == READ.length()
+533	356	11	DiskLruCache.java	readJournalLine	secondSpace	int	1	DEF	$ == -1
+533	356	11	DiskLruCache.java	readJournalLine	line	String	1	DEF	$.startsWith(READ)
+57417	369	4	DiskLruCache.java	processJournal	i	Iterator<Entry>	0	NIL-FOR	$.hasNext()
+534	371	6	DiskLruCache.java	processJournal	THIS	DiskLruCache	1	DEF	entry.$.currentEditor == null
+534	371	6	DiskLruCache.java	processJournal	entry	Entry	1	DEF	$.currentEditor == null
+57418	372	8	DiskLruCache.java	processJournal	THIS	DiskLruCache	0	NIL-FOR	t < $.valueCount
+57418	372	8	DiskLruCache.java	processJournal	t	int	0	NIL-FOR	$ < valueCount
+57419	377	8	DiskLruCache.java	processJournal	THIS	DiskLruCache	0	NIL-FOR	t < $.valueCount
+57419	377	8	DiskLruCache.java	processJournal	t	int	0	NIL-FOR	$ < valueCount
+535	391	4	DiskLruCache.java	rebuildJournal	THIS	DiskLruCache	0	DEF	$.journalWriter != null
+536	404	8	DiskLruCache.java	rebuildJournal	THIS	DiskLruCache	1	DEF	$.entry.$.currentEditor != null
+537	419	4	DiskLruCache.java	rebuildJournal	THIS	DiskLruCache	0	DEF	$.fileSystem.exists($.journalFile)
+538	440	4	DiskLruCache.java	get	THIS	DiskLruCache	0	RET	entry.$.readable
+538	440	4	DiskLruCache.java	get	entry	Entry	0	RET	$ == null
+538	440	4	DiskLruCache.java	get	entry	Entry	0	RET	$.readable
+539	443	4	DiskLruCache.java	get	snapshot	Snapshot	0	RET	$ == null
+540	447	4	DiskLruCache.java	get	THIS	DiskLruCache	0	DEF	$.journalRebuildRequired()
+541	467	4	DiskLruCache.java	edit	THIS	DiskLruCache	0	RET	entry.$.sequenceNumber != expectedSequenceNumber
+541	467	4	DiskLruCache.java	edit	entry	Entry	0	RET	$.sequenceNumber != expectedSequenceNumber
+541	467	4	DiskLruCache.java	edit	entry	Entry	0	RET	$ == null
+541	467	4	DiskLruCache.java	edit	expectedSequenceNumber	long	0	RET	entry.sequenceNumber != $
+541	467	4	DiskLruCache.java	edit	expectedSequenceNumber	long	0	RET	$ != ANY_SEQUENCE_NUMBER
+542	471	4	DiskLruCache.java	edit	THIS	DiskLruCache	0	RET	entry.$.currentEditor != null
+542	471	4	DiskLruCache.java	edit	entry	Entry	0	RET	$ != null
+542	471	4	DiskLruCache.java	edit	entry	Entry	0	RET	$.currentEditor != null
+543	474	4	DiskLruCache.java	edit	THIS	DiskLruCache	0	RET	$.mostRecentRebuildFailed
+543	474	4	DiskLruCache.java	edit	THIS	DiskLruCache	0	RET	$.mostRecentTrimFailed
+544	488	4	DiskLruCache.java	edit	THIS	DiskLruCache	0	RET	$.hasJournalErrors
+545	492	4	DiskLruCache.java	edit	entry	Entry	0	DEF	$ == null
+546	519	4	DiskLruCache.java	setMaxSize	THIS	DiskLruCache	0	DEF	$.initialized
+547	535	4	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	IllegalStateException	entry.$.currentEditor != editor
+547	535	4	DiskLruCache.java	completeEdit	entry	Entry	0	IllegalStateException	$.currentEditor != editor
+547	535	4	DiskLruCache.java	completeEdit	editor	Editor	0	IllegalStateException	entry.currentEditor != $
+548	540	4	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	IllegalStateException:RET	entry.$.readable
+548	540	4	DiskLruCache.java	completeEdit	entry	Entry	0	IllegalStateException:RET	$.readable
+548	540	4	DiskLruCache.java	completeEdit	success	boolean	0	IllegalStateException:RET	$
+57420	541	6	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	NIL-FOR	i < $.valueCount
+57420	541	6	DiskLruCache.java	completeEdit	i	int	0	NIL-FOR	$ < valueCount
+549	542	8	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	IllegalStateException	editor.$.written[i]
+549	542	8	DiskLruCache.java	completeEdit	i	int	0	IllegalStateException	editor.written[$]
+549	542	8	DiskLruCache.java	completeEdit	editor	Editor	0	IllegalStateException	$.written[i]
+550	546	8	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	RET	$.fileSystem.exists(entry.$.dirtyFiles[i])
+550	546	8	DiskLruCache.java	completeEdit	i	int	0	RET	fileSystem.exists(entry.dirtyFiles[$])
+550	546	8	DiskLruCache.java	completeEdit	entry	Entry	0	RET	fileSystem.exists($.dirtyFiles[i])
+57421	553	4	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	NIL-FOR	i < $.valueCount
+57421	553	4	DiskLruCache.java	completeEdit	i	int	0	NIL-FOR	$ < valueCount
+551	555	6	DiskLruCache.java	completeEdit	success	boolean	1	DEF	$
+552	556	8	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	DEF	$.fileSystem.exists(dirty)
+552	556	8	DiskLruCache.java	completeEdit	dirty	File	0	DEF	fileSystem.exists($)
+553	571	4	DiskLruCache.java	completeEdit	THIS	DiskLruCache	1	DEF	entry.$.readable | success
+553	571	4	DiskLruCache.java	completeEdit	entry	Entry	1	DEF	$.readable | success
+553	571	4	DiskLruCache.java	completeEdit	success	boolean	1	DEF	entry.readable | $
+554	577	6	DiskLruCache.java	completeEdit	success	boolean	0	DEF	$
+555	588	4	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	DEF	$.size > $.maxSize
+555	588	4	DiskLruCache.java	completeEdit	THIS	DiskLruCache	0	DEF	$.journalRebuildRequired()
+556	615	4	DiskLruCache.java	remove	entry	Entry	0	RET	$ == null
+557	617	4	DiskLruCache.java	remove	THIS	DiskLruCache	0	DEF	$.size <= $.maxSize
+557	617	4	DiskLruCache.java	remove	removed	boolean	0	DEF	$
+558	622	4	DiskLruCache.java	removeEntry	THIS	DiskLruCache	0	DEF	entry.$.currentEditor != null
+558	622	4	DiskLruCache.java	removeEntry	entry	Entry	0	DEF	$.currentEditor != null
+57422	626	4	DiskLruCache.java	removeEntry	THIS	DiskLruCache	0	NIL-FOR	i < $.valueCount
+57422	626	4	DiskLruCache.java	removeEntry	i	int	0	NIL-FOR	$ < valueCount
+559	636	4	DiskLruCache.java	removeEntry	THIS	DiskLruCache	0	DEF	$.journalRebuildRequired()
+560	649	4	DiskLruCache.java	checkNotClosed	THIS	DiskLruCache	0	IllegalStateException	$.isClosed()
+561	656	4	DiskLruCache.java	flush	THIS	DiskLruCache	0	RET	$.initialized
+562	665	4	DiskLruCache.java	close	THIS	DiskLruCache	0	RET	$.initialized
+562	665	4	DiskLruCache.java	close	THIS	DiskLruCache	0	RET	$.closed
+563	671	6	DiskLruCache.java	close	THIS	DiskLruCache	0	DEF	$.entry.$.currentEditor != null
+57423	682	4	DiskLruCache.java	trimToSize	THIS	DiskLruCache	0	NIL-WHILE	$.size > $.maxSize
+564	713	4	DiskLruCache.java	validateKey	matcher	Matcher	0	IllegalArgumentException	$.matches()
+857	63	4	Dispatcher.java	executorService	THIS	Dispatcher	0	DEF	$.executorService == null
+858	78	4	Dispatcher.java	setMaxRequests	maxRequests	int	0	IllegalArgumentException	$ < 1
+859	99	4	Dispatcher.java	setMaxRequestsPerHost	maxRequestsPerHost	int	0	IllegalArgumentException	$ < 1
+860	127	4	Dispatcher.java	enqueue	THIS	Dispatcher	1	DEF	$.runningAsyncCalls.size() < $.maxRequests
+860	127	4	Dispatcher.java	enqueue	THIS	Dispatcher	1	DEF	$.runningCallsForHost(call) < $.maxRequestsPerHost
+860	127	4	Dispatcher.java	enqueue	call	AsyncCall	1	DEF	runningCallsForHost($) < maxRequestsPerHost
+861	154	4	Dispatcher.java	promoteCalls	THIS	Dispatcher	0	RET	$.runningAsyncCalls.size() >= $.maxRequests
+862	155	4	Dispatcher.java	promoteCalls	THIS	Dispatcher	0	RET	$.readyAsyncCalls.isEmpty()
+57479	157	4	Dispatcher.java	promoteCalls	i	Iterator<AsyncCall>	0	NIL-FOR	$.hasNext()
+863	160	6	Dispatcher.java	promoteCalls	THIS	Dispatcher	0	DEF	$.runningCallsForHost(call) < $.maxRequestsPerHost
+863	160	6	Dispatcher.java	promoteCalls	call	AsyncCall	0	DEF	runningCallsForHost($) < maxRequestsPerHost
+864	166	6	Dispatcher.java	promoteCalls	THIS	Dispatcher	0	RET	$.runningAsyncCalls.size() >= $.maxRequests
+865	174	6	Dispatcher.java	runningCallsForHost	THIS	Dispatcher	0	DEF	$.c.host().equals(call.host())
+865	174	6	Dispatcher.java	runningCallsForHost	call	AsyncCall	0	DEF	c.host().equals($.host())
+866	198	6	Dispatcher.java	finished	calls	Deque<T>	0	AssertionError	$.remove(call)
+866	198	6	Dispatcher.java	finished	call	T	0	AssertionError	calls.remove($)
+867	199	6	Dispatcher.java	finished	promoteCalls	boolean	0	DEF	$
+868	204	4	Dispatcher.java	finished	runningCallsCount	int	0	DEF	$ == 0
+868	204	4	Dispatcher.java	finished	idleCallback	Runnable	0	DEF	$ != null
+57447	50	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.pos < $.length
+57447	50	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] == ' '
+650	52	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	RET	$.pos == $.length
+57448	61	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.pos < $.length
+57448	61	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] != '='
+57448	61	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] != ' '
+651	65	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	IllegalStateException	$.pos >= $.length
+652	74	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	IllegalStateException	$.chars[$.pos] == ' '
+57449	75	6	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] == ' '
+57449	75	6	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.pos < $.length
+57449	75	6	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] != '='
+653	78	6	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	IllegalStateException	$.chars[$.pos] != '='
+653	78	6	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	IllegalStateException	$.pos == $.length
+57450	87	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] == ' '
+57450	87	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	NIL-FOR	$.pos < $.length
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.chars[$.beg + 1] == 'i'
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.chars[$.beg + 1] == 'I'
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.end - $.beg > 4
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.chars[$.beg + 3] == '.'
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.chars[$.beg] == 'O'
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.chars[$.beg] == 'o'
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.chars[$.beg + 2] == 'd'
+654	92	4	DistinguishedNameParser.java	nextAT	THIS	DistinguishedNameParser	0	DEF	$.chars[$.beg + 2] == 'D'
+655	109	6	DistinguishedNameParser.java	quotedAV	THIS	DistinguishedNameParser	0	IllegalStateException	$.pos == $.length
+656	113	6	DistinguishedNameParser.java	quotedAV	THIS	DistinguishedNameParser	1	DEF	$.chars[$.pos] == '"'
+657	117	13	DistinguishedNameParser.java	quotedAV	THIS	DistinguishedNameParser	1	DEF	$.chars[$.pos] == '\\'
+57451	129	4	DistinguishedNameParser.java	quotedAV	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] == ' '
+57451	129	4	DistinguishedNameParser.java	quotedAV	THIS	DistinguishedNameParser	0	NIL-FOR	$.pos < $.length
+658	137	4	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	IllegalStateException	$.pos + 4 >= $.length
+659	148	6	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	DEF	$.chars[$.pos] == ','
+659	148	6	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	DEF	$.pos == $.length
+659	148	6	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	DEF	$.chars[$.pos] == '+'
+659	148	6	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	DEF	$.chars[$.pos] == ';'
+660	154	6	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	1	DEF	$.chars[$.pos] == ' '
+57452	159	8	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] == ' '
+57452	159	8	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	NIL-FOR	$.pos < $.length
+661	162	13	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	DEF	$.chars[$.pos] >= 'A'
+661	162	13	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	DEF	$.chars[$.pos] <= 'F'
+662	172	4	DistinguishedNameParser.java	hexAV	hexLen	int	0	IllegalStateException	$ < 5
+662	172	4	DistinguishedNameParser.java	hexAV	hexLen	int	0	IllegalStateException	($ & 1) == 0
+57453	178	4	DistinguishedNameParser.java	hexAV	THIS	DistinguishedNameParser	0	NIL-FOR	i < encoded.$.length
+57453	178	4	DistinguishedNameParser.java	hexAV	i	int	0	NIL-FOR	$ < encoded.length
+57453	178	4	DistinguishedNameParser.java	hexAV	encoded	byte[]	0	NIL-FOR	i < $.length
+663	190	6	DistinguishedNameParser.java	escapedAV	THIS	DistinguishedNameParser	0	RET	$.pos >= $.length
+57454	214	10	DistinguishedNameParser.java	escapedAV	THIS	DistinguishedNameParser	0	NIL-FOR	$.pos < $.length
+57454	214	10	DistinguishedNameParser.java	escapedAV	THIS	DistinguishedNameParser	0	NIL-FOR	$.chars[$.pos] == ' '
+664	217	10	DistinguishedNameParser.java	escapedAV	THIS	DistinguishedNameParser	0	RET	$.chars[$.pos] == ';'
+664	217	10	DistinguishedNameParser.java	escapedAV	THIS	DistinguishedNameParser	0	RET	$.pos == $.length
+664	217	10	DistinguishedNameParser.java	escapedAV	THIS	DistinguishedNameParser	0	RET	$.chars[$.pos] == ','
+664	217	10	DistinguishedNameParser.java	escapedAV	THIS	DistinguishedNameParser	0	RET	$.chars[$.pos] == '+'
+665	233	4	DistinguishedNameParser.java	getEscaped	THIS	DistinguishedNameParser	0	IllegalStateException	$.pos == $.length
+666	266	4	DistinguishedNameParser.java	getUTF8	res	int	1	RET	$ < 128
+667	268	11	DistinguishedNameParser.java	getUTF8	res	int	1	RET	$ <= 247
+667	268	11	DistinguishedNameParser.java	getUTF8	res	int	1	RET	$ >= 192
+668	271	6	DistinguishedNameParser.java	getUTF8	res	int	1	DEF	$ <= 223
+669	274	13	DistinguishedNameParser.java	getUTF8	res	int	1	DEF	$ <= 239
+57455	283	6	DistinguishedNameParser.java	getUTF8	i	int	0	NIL-FOR	$ < count
+57455	283	6	DistinguishedNameParser.java	getUTF8	count	int	0	NIL-FOR	i < $
+670	285	8	DistinguishedNameParser.java	getUTF8	THIS	DistinguishedNameParser	0	RET	$.chars[$.pos] != '\\'
+670	285	8	DistinguishedNameParser.java	getUTF8	THIS	DistinguishedNameParser	0	RET	$.pos == $.length
+671	292	8	DistinguishedNameParser.java	getUTF8	b	int	0	RET	($ & 0xC0) != 0x80
+672	311	4	DistinguishedNameParser.java	getByte	THIS	DistinguishedNameParser	0	IllegalStateException	position + 1 >= $.length
+672	311	4	DistinguishedNameParser.java	getByte	position	int	0	IllegalStateException	$ + 1 >= length
+673	318	4	DistinguishedNameParser.java	getByte	b1	int	1	DEF	$ <= '9'
+673	318	4	DistinguishedNameParser.java	getByte	b1	int	1	DEF	$ >= '0'
+674	320	11	DistinguishedNameParser.java	getByte	b1	int	1	DEF	$ >= 'a'
+674	320	11	DistinguishedNameParser.java	getByte	b1	int	1	DEF	$ <= 'f'
+675	322	11	DistinguishedNameParser.java	getByte	b1	int	1	DEF	$ <= 'F'
+675	322	11	DistinguishedNameParser.java	getByte	b1	int	1	DEF	$ >= 'A'
+676	329	4	DistinguishedNameParser.java	getByte	b2	int	1	DEF	$ <= '9'
+676	329	4	DistinguishedNameParser.java	getByte	b2	int	1	DEF	$ >= '0'
+677	331	11	DistinguishedNameParser.java	getByte	b2	int	1	DEF	$ <= 'f'
+677	331	11	DistinguishedNameParser.java	getByte	b2	int	1	DEF	$ >= 'a'
+678	333	11	DistinguishedNameParser.java	getByte	b2	int	1	DEF	$ <= 'F'
+678	333	11	DistinguishedNameParser.java	getByte	b2	int	1	DEF	$ >= 'A'
+679	357	4	DistinguishedNameParser.java	findMostSpecific	attType	String	0	RET	$ == null
+680	363	6	DistinguishedNameParser.java	findMostSpecific	THIS	DistinguishedNameParser	0	RET	$.pos == $.length
+681	386	6	DistinguishedNameParser.java	findMostSpecific	attType	String	0	RET	attributeType.equalsIgnoreCase($)
+681	386	6	DistinguishedNameParser.java	findMostSpecific	attributeType	String	0	RET	$.equalsIgnoreCase(attType)
+682	390	6	DistinguishedNameParser.java	findMostSpecific	THIS	DistinguishedNameParser	0	RET	$.pos >= $.length
+683	394	6	DistinguishedNameParser.java	findMostSpecific	THIS	DistinguishedNameParser	1	DEF	$.chars[$.pos] == ';'
+683	394	6	DistinguishedNameParser.java	findMostSpecific	THIS	DistinguishedNameParser	1	DEF	$.chars[$.pos] == ','
+684	395	13	DistinguishedNameParser.java	findMostSpecific	THIS	DistinguishedNameParser	0	IllegalStateException	$.chars[$.pos] != '+'
+685	401	6	DistinguishedNameParser.java	findMostSpecific	attType	String	0	IllegalStateException	$ == null
+583	32	4	FaultHidingSink.java	write	THIS	FaultHidingSink	0	RET	$.hasErrors
+584	45	4	FaultHidingSink.java	flush	THIS	FaultHidingSink	0	RET	$.hasErrors
+585	55	4	FaultHidingSink.java	close	THIS	FaultHidingSink	0	RET	$.hasErrors
+270	50	4	FileOperator.java	write	source	Buffer	0	IndexOutOfBoundsException	byteCount > $.size()
+270	50	4	FileOperator.java	write	byteCount	long	0	IndexOutOfBoundsException	$ < 0
+270	50	4	FileOperator.java	write	byteCount	long	0	IndexOutOfBoundsException	$ > source.size()
+57387	52	4	FileOperator.java	write	byteCount	long	0	NIL-WHILE	$ > 0L
+57388	60	8	FileOperator.java	write	THIS	FileOperator	0	NIL-DOWHILE	$.byteBuffer.hasRemaining()
+271	78	4	FileOperator.java	read	byteCount	long	0	IndexOutOfBoundsException	$ < 0
+57389	80	4	FileOperator.java	read	byteCount	long	0	NIL-WHILE	$ > 0L
+272	84	8	FileOperator.java	read	THIS	FileOperator	0	EOFException	$.fileChannel.read($.byteBuffer, pos) == -1
+272	84	8	FileOperator.java	read	pos	long	0	EOFException	fileChannel.read(byteBuffer, $) == -1
+869	83	4	FormBody.java	writeOrCountBytes	countBytes	boolean	1	DEF	$
+57480	89	4	FormBody.java	writeOrCountBytes	i	int	0	NIL-FOR	$ < size
+57480	89	4	FormBody.java	writeOrCountBytes	size	int	0	NIL-FOR	i < $
+870	90	6	FormBody.java	writeOrCountBytes	i	int	0	DEF	$ > 0
+871	96	4	FormBody.java	writeOrCountBytes	countBytes	boolean	0	DEF	$
+760	50	4	Handshake.java	get	cipherSuiteString	String	0	IllegalStateException	$ == null
+761	54	4	Handshake.java	get	tlsVersionString	String	0	IllegalStateException	$ == null
+762	77	4	Handshake.java	get	cipherSuite	CipherSuite	0	NullPointerException	$ == null
+763	120	4	Handshake.java	equals	other	Object	0	RET	$ instanceof Handshake
+516	53	4	Header.java	equals	other	Object	0	RET	$ instanceof Header
+57462	92	4	Headers.java	names	i	int	0	NIL-FOR	$ < size
+57462	92	4	Headers.java	names	size	int	0	NIL-FOR	i < $
+57463	101	4	Headers.java	values	i	int	0	NIL-FOR	$ < size
+57463	101	4	Headers.java	values	size	int	0	NIL-FOR	i < $
+749	102	6	Headers.java	values	THIS	Headers	0	DEF	name.equalsIgnoreCase($.name(i))
+749	102	6	Headers.java	values	i	int	0	DEF	name.equalsIgnoreCase(name($))
+749	102	6	Headers.java	values	name	String	0	DEF	$.equalsIgnoreCase(name(i))
+750	103	8	Headers.java	values	result	List<String>	0	DEF	$ == null
+57464	155	4	Headers.java	toString	i	int	0	NIL-FOR	$ < size
+57464	155	4	Headers.java	toString	size	int	0	NIL-FOR	i < $
+57465	163	4	Headers.java	toMultimap	i	int	0	NIL-FOR	$ < size
+57465	163	4	Headers.java	toMultimap	size	int	0	NIL-FOR	i < $
+751	166	6	Headers.java	toMultimap	values	List<String>	0	DEF	$ == null
+57466	176	4	Headers.java	get	i	int	0	NIL-FOR	$ >= 0
+752	177	6	Headers.java	get	i	int	0	RET	name.equalsIgnoreCase(namesAndValues[$])
+752	177	6	Headers.java	get	namesAndValues	String[]	0	RET	name.equalsIgnoreCase($[i])
+752	177	6	Headers.java	get	name	String	0	RET	$.equalsIgnoreCase(namesAndValues[i])
+753	189	4	Headers.java	of	namesAndValues	String	0	NullPointerException	$ == null
+754	190	4	Headers.java	of	THIS	Headers	0	IllegalArgumentException	namesAndValues.$.length % 2 != 0
+754	190	4	Headers.java	of	namesAndValues	String	0	IllegalArgumentException	$.length % 2 != 0
+57467	196	4	Headers.java	of	THIS	Headers	0	NIL-FOR	i < namesAndValues.$.length
+57467	196	4	Headers.java	of	i	int	0	NIL-FOR	$ < namesAndValues.length
+57467	196	4	Headers.java	of	namesAndValues	String	0	NIL-FOR	i < $.length
+755	197	6	Headers.java	of	i	int	0	IllegalArgumentException	namesAndValues[$] == null
+755	197	6	Headers.java	of	namesAndValues	String	0	IllegalArgumentException	$[i] == null
+57468	202	4	Headers.java	of	THIS	Headers	0	NIL-FOR	i < namesAndValues.$.length
+57468	202	4	Headers.java	of	i	int	0	NIL-FOR	$ < namesAndValues.length
+57468	202	4	Headers.java	of	namesAndValues	String	0	NIL-FOR	i < $.length
+756	205	6	Headers.java	of	name	String	0	IllegalArgumentException	$.length() == 0
+756	205	6	Headers.java	of	name	String	0	IllegalArgumentException	$.indexOf('\0') != -1
+756	205	6	Headers.java	of	value	String	0	IllegalArgumentException	$.indexOf('\0') != -1
+757	217	4	Headers.java	of	headers	Map<String,String>	0	NullPointerException	$ == null
+758	223	6	Headers.java	of	THIS	Headers	0	IllegalArgumentException	$.header.getValue() == null
+758	223	6	Headers.java	of	THIS	Headers	0	IllegalArgumentException	$.header.getKey() == null
+759	228	6	Headers.java	of	name	String	0	IllegalArgumentException	$.length() == 0
+759	228	6	Headers.java	of	name	String	0	IllegalArgumentException	$.indexOf('\0') != -1
+759	228	6	Headers.java	of	value	String	0	IllegalArgumentException	$.indexOf('\0') != -1
+57415	353	4	Hpack.java	nameToFirstIndex	THIS	Hpack	0	NIL-FOR	i < STATIC_HEADER_TABLE.$.length
+57415	353	4	Hpack.java	nameToFirstIndex	i	int	0	NIL-FOR	$ < STATIC_HEADER_TABLE.length
+517	354	6	Hpack.java	nameToFirstIndex	THIS	Hpack	0	DEF	result.containsKey(STATIC_HEADER_TABLE[i].name)
+517	354	6	Hpack.java	nameToFirstIndex	i	int	0	DEF	result.containsKey(STATIC_HEADER_TABLE[$].name)
+517	354	6	Hpack.java	nameToFirstIndex	result	Map<ByteString,Integer>	0	DEF	$.containsKey(STATIC_HEADER_TABLE[i].name)
+57416	591	4	Hpack.java	checkLowercase	i	int	0	NIL-FOR	$ < length
+57416	591	4	Hpack.java	checkLowercase	length	int	0	NIL-FOR	i < $
+518	593	6	Hpack.java	checkLowercase	c	byte	0	IOException	$ <= 'Z'
+518	593	6	Hpack.java	checkLowercase	c	byte	0	IOException	$ >= 'A'
+276	96	4	Http1Codec.java	createRequestBody	request	Request	0	RET	"chunked".equalsIgnoreCase($.header("Transfer-Encoding"))
+277	101	4	Http1Codec.java	createRequestBody	contentLength	long	0	RET	$ != -1
+278	112	4	Http1Codec.java	cancel	connection	RealConnection	0	DEF	$ != null
+279	137	4	Http1Codec.java	getTransferStream	response	Response	0	RET	HttpHeaders.hasBody($)
+280	141	4	Http1Codec.java	getTransferStream	response	Response	0	RET	"chunked".equalsIgnoreCase($.header("Transfer-Encoding"))
+281	146	4	Http1Codec.java	getTransferStream	contentLength	long	0	RET	$ != -1
+282	171	4	Http1Codec.java	writeRequest	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_IDLE
+57390	173	4	Http1Codec.java	writeRequest	i	int	0	NIL-FOR	$ < size
+57390	173	4	Http1Codec.java	writeRequest	size	int	0	NIL-FOR	i < $
+283	184	4	Http1Codec.java	readResponseHeaders	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_READ_RESPONSE_HEADERS
+283	184	4	Http1Codec.java	readResponseHeaders	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_OPEN_REQUEST_BODY
+284	197	6	Http1Codec.java	readResponseHeaders	THIS	Http1Codec	0	RET	statusLine.$.code == HTTP_CONTINUE
+284	197	6	Http1Codec.java	readResponseHeaders	statusLine	StatusLine	0	RET	$.code == HTTP_CONTINUE
+284	197	6	Http1Codec.java	readResponseHeaders	expectContinue	boolean	0	RET	$
+57391	215	4	Http1Codec.java	readHeaders	THIS	Http1Codec	0	NIL-FOR	(line = $.source.readUtf8LineStrict()).length() != 0
+57391	215	4	Http1Codec.java	readHeaders	line	String	0	NIL-FOR	($ = source.readUtf8LineStrict()).length() != 0
+285	222	4	Http1Codec.java	newChunkedSink	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_OPEN_REQUEST_BODY
+286	228	4	Http1Codec.java	newFixedLengthSink	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_OPEN_REQUEST_BODY
+287	234	4	Http1Codec.java	newFixedLengthSource	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_OPEN_RESPONSE_BODY
+288	240	4	Http1Codec.java	newChunkedSource	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_OPEN_RESPONSE_BODY
+289	246	4	Http1Codec.java	newUnknownLengthSource	THIS	Http1Codec	0	IllegalStateException	$.state != STATE_OPEN_RESPONSE_BODY
+290	247	4	Http1Codec.java	newUnknownLengthSource	THIS	Http1Codec	0	IllegalStateException	$.streamAllocation == null
+511	147	4	Http2.java	formatFlags	flags	byte	0	RET	$ == 0
+512	160	4	Http2.java	formatFlags	type	byte	1	RET	$ == TYPE_PUSH_PROMISE
+512	160	4	Http2.java	formatFlags	flags	byte	1	RET	($ & FLAG_END_PUSH_PROMISE) != 0
+513	162	11	Http2.java	formatFlags	type	byte	0	RET	$ == TYPE_DATA
+513	162	11	Http2.java	formatFlags	flags	byte	0	RET	($ & FLAG_COMPRESSED) != 0
+501	102	4	Http2Codec.java	writeRequestHeaders	THIS	Http2Codec	0	RET	$.stream != null
+502	122	4	Http2Codec.java	readResponseHeaders	THIS	Http2Codec	0	RET	Internal.$.instance.code(responseBuilder) == HTTP_CONTINUE
+502	122	4	Http2Codec.java	readResponseHeaders	responseBuilder	Builder	0	RET	Internal.instance.code($) == HTTP_CONTINUE
+502	122	4	Http2Codec.java	readResponseHeaders	expectContinue	boolean	0	RET	$
+503	134	4	Http2Codec.java	http2HeadersList	host	String	0	DEF	$ != null
+57412	139	4	Http2Codec.java	http2HeadersList	i	int	0	NIL-FOR	$ < size
+57412	139	4	Http2Codec.java	http2HeadersList	size	int	0	NIL-FOR	i < $
+504	142	6	Http2Codec.java	http2HeadersList	THIS	Http2Codec	0	DEF	$.HTTP_2_SKIPPED_REQUEST_HEADERS.contains(name)
+504	142	6	Http2Codec.java	http2HeadersList	name	ByteString	0	DEF	HTTP_2_SKIPPED_REQUEST_HEADERS.contains($)
+57413	153	4	Http2Codec.java	readHttp2HeadersList	i	int	0	NIL-FOR	$ < size
+57413	153	4	Http2Codec.java	readHttp2HeadersList	size	int	0	NIL-FOR	i < $
+505	158	6	Http2Codec.java	readHttp2HeadersList	header	Header	0	DEF	$ == null
+506	159	8	Http2Codec.java	readHttp2HeadersList	THIS	Http2Codec	0	DEF	statusLine.$.code == HTTP_CONTINUE
+506	159	8	Http2Codec.java	readHttp2HeadersList	statusLine	StatusLine	0	DEF	$ != null
+506	159	8	Http2Codec.java	readHttp2HeadersList	statusLine	StatusLine	0	DEF	$.code == HTTP_CONTINUE
+507	168	6	Http2Codec.java	readHttp2HeadersList	name	ByteString	1	DEF	$.equals(RESPONSE_STATUS)
+508	170	13	Http2Codec.java	readHttp2HeadersList	THIS	Http2Codec	0	DEF	$.HTTP_2_SKIPPED_RESPONSE_HEADERS.contains(name)
+508	170	13	Http2Codec.java	readHttp2HeadersList	name	ByteString	0	DEF	HTTP_2_SKIPPED_RESPONSE_HEADERS.contains($)
+509	174	4	Http2Codec.java	readHttp2HeadersList	statusLine	StatusLine	0	ProtocolException	$ == null
+510	189	4	Http2Codec.java	cancel	THIS	Http2Codec	0	DEF	$.stream != null
+450	131	4	Http2Connection.java	Http2Connection	THIS	Http2Connection	0	DEF	builder.$.client
+450	131	4	Http2Connection.java	Http2Connection	builder	Builder	0	DEF	$.client
+451	141	4	Http2Connection.java	Http2Connection	THIS	Http2Connection	0	DEF	builder.$.client
+451	141	4	Http2Connection.java	Http2Connection	builder	Builder	0	DEF	$.client
+452	195	4	Http2Connection.java	pushStream	THIS	Http2Connection	0	IllegalStateException	$.client
+453	218	8	Http2Connection.java	newStream	THIS	Http2Connection	0	ConnectionShutdownException	$.shutdown
+454	225	8	Http2Connection.java	newStream	stream	Http2Stream	0	DEF	$.isOpen()
+455	229	6	Http2Connection.java	newStream	associatedStreamId	int	1	DEF	$ == 0
+456	231	13	Http2Connection.java	newStream	THIS	Http2Connection	1	IllegalArgumentException	$.client
+457	238	4	Http2Connection.java	newStream	flushHeaders	boolean	0	DEF	$
+458	264	4	Http2Connection.java	writeData	byteCount	long	0	RET	$ == 0
+57409	269	4	Http2Connection.java	writeData	byteCount	long	0	NIL-WHILE	$ > 0
+57410	273	10	Http2Connection.java	writeData	THIS	Http2Connection	0	NIL-WHILE	$.bytesLeftInWriteWindow <= 0
+459	276	12	Http2Connection.java	writeData	THIS	Http2Connection	0	IOException	$.streams.containsKey(streamId)
+459	276	12	Http2Connection.java	writeData	streamId	int	0	IOException	streams.containsKey($)
+460	300	4	Http2Connection.java	addBytesToWriteWindow	delta	long	0	DEF	$ > 0
+461	337	6	Http2Connection.java	ping	THIS	Http2Connection	0	ConnectionShutdownException	$.shutdown
+462	342	6	Http2Connection.java	ping	THIS	Http2Connection	0	DEF	$.pings == null
+463	365	6	Http2Connection.java	writePing	ping	Ping	0	DEF	$ != null
+464	387	8	Http2Connection.java	shutdown	THIS	Http2Connection	0	RET	$.shutdown
+465	419	6	Http2Connection.java	close	THIS	Http2Connection	0	DEF	$.streams.isEmpty()
+466	423	6	Http2Connection.java	close	THIS	Http2Connection	0	DEF	$.pings != null
+467	429	4	Http2Connection.java	close	streamsToClose	Http2Stream[]	0	DEF	$ != null
+468	434	10	Http2Connection.java	close	thrown	IOException	0	DEF	$ != null
+469	439	4	Http2Connection.java	close	pingsToCancel	Ping[]	0	DEF	$ != null
+470	449	6	Http2Connection.java	close	thrown	IOException	0	DEF	$ == null
+471	459	4	Http2Connection.java	close	thrown	IOException	0	DEF	$ != null
+472	475	4	Http2Connection.java	start	sendConnectionPreface	boolean	0	DEF	$
+473	479	6	Http2Connection.java	start	windowSize	int	0	DEF	$ != Settings.DEFAULT_INITIAL_WINDOW_SIZE
+474	490	8	Http2Connection.java	setSettings	THIS	Http2Connection	0	ConnectionShutdownException	$.shutdown
+475	781	6	Http2Connection.java	pushRequestLater	THIS	Http2Connection	0	RET	$.currentPushRequests.contains(streamId)
+475	781	6	Http2Connection.java	pushRequestLater	streamId	int	0	RET	currentPushRequests.contains($)
+476	830	4	Http2Connection.java	pushDataLater	buffer	Buffer	0	IOException	$.size() != byteCount
+476	830	4	Http2Connection.java	pushDataLater	byteCount	int	0	IOException	buffer.size() != $
+416	78	4	Http2Reader.java	readConnectionPreface	THIS	Http2Reader	1	DEF	$.client
+417	80	6	Http2Reader.java	readConnectionPreface	THIS	Http2Reader	0	DEF	$.nextFrame(true, handler)
+417	80	6	Http2Reader.java	readConnectionPreface	handler	Handler	0	DEF	nextFrame(true, $)
+418	86	6	Http2Reader.java	readConnectionPreface	THIS	Http2Reader	0	DEF	$.logger.isLoggable(FINE)
+419	87	6	Http2Reader.java	readConnectionPreface	connectionPreface	ByteString	0	DEF	CONNECTION_PREFACE.equals($)
+420	112	4	Http2Reader.java	nextFrame	length	int	0	DEF	$ < 0
+420	112	4	Http2Reader.java	nextFrame	length	int	0	DEF	$ > INITIAL_MAX_FRAME_SIZE
+421	116	4	Http2Reader.java	nextFrame	type	byte	0	DEF	$ != TYPE_SETTINGS
+421	116	4	Http2Reader.java	nextFrame	requireSettings	boolean	0	DEF	$
+422	121	4	Http2Reader.java	nextFrame	THIS	Http2Reader	0	DEF	$.logger.isLoggable(FINE)
+423	169	4	Http2Reader.java	readHeaders	streamId	int	0	DEF	$ == 0
+424	175	4	Http2Reader.java	readHeaders	flags	byte	0	DEF	($ & FLAG_PRIORITY) != 0
+425	202	4	Http2Reader.java	readData	streamId	int	0	DEF	$ == 0
+426	207	4	Http2Reader.java	readData	gzipped	boolean	0	DEF	$
+427	220	4	Http2Reader.java	readPriority	length	int	0	DEF	$ != 5
+428	221	4	Http2Reader.java	readPriority	streamId	int	0	DEF	$ == 0
+429	235	4	Http2Reader.java	readRstStream	length	int	0	DEF	$ != 4
+430	236	4	Http2Reader.java	readRstStream	streamId	int	0	DEF	$ == 0
+431	239	4	Http2Reader.java	readRstStream	errorCode	ErrorCode	0	DEF	$ == null
+432	247	4	Http2Reader.java	readSettings	streamId	int	0	DEF	$ != 0
+433	248	4	Http2Reader.java	readSettings	flags	byte	0	RET	($ & FLAG_ACK) != 0
+434	249	6	Http2Reader.java	readSettings	length	int	0	DEF	$ != 0
+435	254	4	Http2Reader.java	readSettings	length	int	0	DEF	$ % 6 != 0
+57408	256	4	Http2Reader.java	readSettings	i	int	0	NIL-FOR	$ < length
+57408	256	4	Http2Reader.java	readSettings	length	int	0	NIL-FOR	i < $
+436	264	10	Http2Reader.java	readSettings	value	int	0	DEF	$ != 0
+436	264	10	Http2Reader.java	readSettings	value	int	0	DEF	$ != 1
+437	273	10	Http2Reader.java	readSettings	value	int	0	DEF	$ < 0
+438	278	10	Http2Reader.java	readSettings	value	int	0	DEF	$ < INITIAL_MAX_FRAME_SIZE
+438	278	10	Http2Reader.java	readSettings	value	int	0	DEF	$ > 16777215
+439	294	4	Http2Reader.java	readPushPromise	streamId	int	0	DEF	$ == 0
+440	307	4	Http2Reader.java	readPing	length	int	0	DEF	$ != 8
+441	308	4	Http2Reader.java	readPing	streamId	int	0	DEF	$ != 0
+442	317	4	Http2Reader.java	readGoAway	length	int	0	DEF	$ < 8
+443	318	4	Http2Reader.java	readGoAway	streamId	int	0	DEF	$ != 0
+444	323	4	Http2Reader.java	readGoAway	errorCode	ErrorCode	0	DEF	$ == null
+445	327	4	Http2Reader.java	readGoAway	opaqueDataLength	int	0	DEF	$ > 0
+446	335	4	Http2Reader.java	readWindowUpdate	length	int	0	DEF	$ != 4
+447	337	4	Http2Reader.java	readWindowUpdate	increment	long	0	DEF	$ == 0
+448	406	4	Http2Reader.java	lengthWithoutPadding	flags	byte	0	DEF	($ & FLAG_PADDED) != 0
+449	407	4	Http2Reader.java	lengthWithoutPadding	length	int	0	DEF	padding > $
+449	407	4	Http2Reader.java	lengthWithoutPadding	padding	short	0	DEF	$ > length
+477	77	4	Http2Stream.java	Http2Stream	connection	Http2Connection	0	NullPointerException	$ == null
+478	78	4	Http2Stream.java	Http2Stream	requestHeaders	List<Header>	0	NullPointerException	$ == null
+479	106	4	Http2Stream.java	isOpen	THIS	Http2Stream	0	RET	$.errorCode != null
+480	109	4	Http2Stream.java	isOpen	THIS	Http2Stream	0	RET	$.sink.$.closed
+480	109	4	Http2Stream.java	isOpen	THIS	Http2Stream	0	RET	$.sink.$.finished
+480	109	4	Http2Stream.java	isOpen	THIS	Http2Stream	0	RET	$.source.$.finished
+480	109	4	Http2Stream.java	isOpen	THIS	Http2Stream	0	RET	$.source.$.closed
+480	109	4	Http2Stream.java	isOpen	THIS	Http2Stream	0	RET	$.hasResponseHeaders
+481	137	4	Http2Stream.java	takeResponseHeaders	THIS	Http2Stream	0	IllegalStateException	$.isLocallyInitiated()
+57411	142	6	Http2Stream.java	takeResponseHeaders	THIS	Http2Stream	0	NIL-WHILE	$.responseHeaders == null
+57411	142	6	Http2Stream.java	takeResponseHeaders	THIS	Http2Stream	0	NIL-WHILE	$.errorCode == null
+482	149	4	Http2Stream.java	takeResponseHeaders	result	List<Header>	0	RET	$ != null
+483	172	4	Http2Stream.java	sendResponseHeaders	responseHeaders	List<Header>	0	NullPointerException	$ == null
+484	178	6	Http2Stream.java	sendResponseHeaders	out	boolean	0	DEF	$
+485	185	4	Http2Stream.java	sendResponseHeaders	outFinished	boolean	0	DEF	$
+486	211	6	Http2Stream.java	getSink	THIS	Http2Stream	0	IllegalStateException	$.hasResponseHeaders
+486	211	6	Http2Stream.java	getSink	THIS	Http2Stream	0	IllegalStateException	$.isLocallyInitiated()
+487	223	4	Http2Stream.java	close	THIS	Http2Stream	0	RET	$.closeInternal(rstStatusCode)
+487	223	4	Http2Stream.java	close	rstStatusCode	ErrorCode	0	RET	closeInternal($)
+488	234	4	Http2Stream.java	closeLater	THIS	Http2Stream	0	RET	$.closeInternal(errorCode)
+488	234	4	Http2Stream.java	closeLater	errorCode	ErrorCode	0	RET	closeInternal($)
+489	244	6	Http2Stream.java	closeInternal	THIS	Http2Stream	0	RET	$.errorCode != null
+490	247	6	Http2Stream.java	closeInternal	THIS	Http2Stream	0	RET	$.sink.$.finished
+490	247	6	Http2Stream.java	closeInternal	THIS	Http2Stream	0	RET	$.source.$.finished
+491	262	6	Http2Stream.java	receiveHeaders	THIS	Http2Stream	1	DEF	$.responseHeaders == null
+492	274	4	Http2Stream.java	receiveHeaders	open	boolean	0	DEF	$
+493	292	4	Http2Stream.java	receiveFin	open	boolean	0	DEF	$
+494	298	4	Http2Stream.java	receiveRstStream	THIS	Http2Stream	0	DEF	$.errorCode == null
+495	449	4	Http2Stream.java	cancelStreamIfNecessary	cancel	boolean	1	DEF	$
+496	455	11	Http2Stream.java	cancelStreamIfNecessary	open	boolean	0	DEF	$
+497	558	4	Http2Stream.java	addBytesToWriteWindow	delta	long	0	DEF	$ > 0
+498	562	4	Http2Stream.java	checkOutNotClosed	THIS	Http2Stream	1	IOException	$.sink.$.closed
+499	564	11	Http2Stream.java	checkOutNotClosed	THIS	Http2Stream	1	IOException	$.sink.$.finished
+500	566	11	Http2Stream.java	checkOutNotClosed	THIS	Http2Stream	0	StreamResetException	$.errorCode != null
+379	66	4	Http2Writer.java	connectionPreface	THIS	Http2Writer	0	IOException	$.closed
+380	67	4	Http2Writer.java	connectionPreface	THIS	Http2Writer	0	RET	$.client
+381	68	4	Http2Writer.java	connectionPreface	THIS	Http2Writer	0	DEF	$.logger.isLoggable(FINE)
+382	77	4	Http2Writer.java	applyAndAckSettings	THIS	Http2Writer	0	IOException	$.closed
+383	79	4	Http2Writer.java	applyAndAckSettings	peerSettings	Settings	0	DEF	$.getHeaderTableSize() != -1
+384	105	4	Http2Writer.java	pushPromise	THIS	Http2Writer	0	IOException	$.closed
+385	116	4	Http2Writer.java	pushPromise	byteCount	long	0	DEF	$ > length
+385	116	4	Http2Writer.java	pushPromise	length	int	0	DEF	byteCount > $
+386	120	4	Http2Writer.java	flush	THIS	Http2Writer	0	IOException	$.closed
+387	126	4	Http2Writer.java	synStream	THIS	Http2Writer	0	IOException	$.closed
+388	132	4	Http2Writer.java	synReply	THIS	Http2Writer	0	IOException	$.closed
+389	138	4	Http2Writer.java	headers	THIS	Http2Writer	0	IOException	$.closed
+390	144	4	Http2Writer.java	rstStream	THIS	Http2Writer	0	IOException	$.closed
+391	145	4	Http2Writer.java	rstStream	THIS	Http2Writer	0	IllegalArgumentException	errorCode.$.httpCode == -1
+391	145	4	Http2Writer.java	rstStream	errorCode	ErrorCode	0	IllegalArgumentException	$.httpCode == -1
+392	170	4	Http2Writer.java	data	THIS	Http2Writer	0	IOException	$.closed
+393	172	4	Http2Writer.java	data	outFinished	boolean	0	DEF	$
+394	179	4	Http2Writer.java	dataFrame	byteCount	int	0	DEF	$ > 0
+395	186	4	Http2Writer.java	settings	THIS	Http2Writer	0	IOException	$.closed
+57397	192	4	Http2Writer.java	settings	i	int	0	NIL-FOR	$ < Settings.COUNT
+396	193	6	Http2Writer.java	settings	i	int	0	DEF	settings.isSet($)
+396	193	6	Http2Writer.java	settings	settings	Settings	0	DEF	$.isSet(i)
+397	195	6	Http2Writer.java	settings	id	int	1	DEF	$ == 4
+398	197	13	Http2Writer.java	settings	id	int	0	DEF	$ == 7
+399	211	4	Http2Writer.java	ping	THIS	Http2Writer	0	IOException	$.closed
+400	232	4	Http2Writer.java	goAway	THIS	Http2Writer	0	IOException	$.closed
+401	233	4	Http2Writer.java	goAway	THIS	Http2Writer	0	DEF	errorCode.$.httpCode == -1
+401	233	4	Http2Writer.java	goAway	errorCode	ErrorCode	0	DEF	$.httpCode == -1
+402	241	4	Http2Writer.java	goAway	THIS	Http2Writer	0	DEF	debugData.$.length > 0
+402	241	4	Http2Writer.java	goAway	debugData	byte[]	0	DEF	$.length > 0
+403	252	4	Http2Writer.java	windowUpdate	THIS	Http2Writer	0	IOException	$.closed
+404	253	4	Http2Writer.java	windowUpdate	windowSizeIncrement	long	0	DEF	$ == 0
+404	253	4	Http2Writer.java	windowUpdate	windowSizeIncrement	long	0	DEF	$ > 0x7fffffffL
+405	266	4	Http2Writer.java	frameHeader	THIS	Http2Writer	0	DEF	$.logger.isLoggable(FINE)
+406	267	4	Http2Writer.java	frameHeader	THIS	Http2Writer	0	DEF	length > $.maxFrameSize
+406	267	4	Http2Writer.java	frameHeader	length	int	0	DEF	$ > maxFrameSize
+407	270	4	Http2Writer.java	frameHeader	streamId	int	0	DEF	($ & 0x80000000) != 0
+57398	289	4	Http2Writer.java	writeContinuationFrames	byteCount	long	0	NIL-WHILE	$ > 0
+408	298	4	Http2Writer.java	headers	THIS	Http2Writer	0	IOException	$.closed
+409	305	4	Http2Writer.java	headers	outFinished	boolean	0	DEF	$
+410	309	4	Http2Writer.java	headers	byteCount	long	0	DEF	$ > length
+410	309	4	Http2Writer.java	headers	length	int	0	DEF	byteCount > $
+194	76	4	HttpDate.java	parse	value	String	0	RET	$.length() == 0
+195	82	4	HttpDate.java	parse	position	ParsePosition	0	RET	$.getIndex() == value.length()
+195	82	4	HttpDate.java	parse	value	String	0	RET	position.getIndex() == $.length()
+57381	88	6	HttpDate.java	parse	i	int	0	NIL-FOR	$ < count
+57381	88	6	HttpDate.java	parse	count	int	0	NIL-FOR	i < $
+196	90	8	HttpDate.java	parse	format	DateFormat	0	DEF	$ == null
+197	99	8	HttpDate.java	parse	position	ParsePosition	0	RET	$.getIndex() != 0
+158	57	4	HttpHeaders.java	stringToLong	s	String	0	RET	$ == null
+159	72	6	HttpHeaders.java	varyMatches	THIS	HttpHeaders	0	RET	$.equal(cachedRequest.values($.field), newRequest.headers($.field))
+159	72	6	HttpHeaders.java	varyMatches	cachedRequest	Headers	0	RET	equal($.values(field), newRequest.headers(field))
+159	72	6	HttpHeaders.java	varyMatches	newRequest	Request	0	RET	equal(cachedRequest.values(field), $.headers(field))
+57375	100	4	HttpHeaders.java	varyFields	i	int	0	NIL-FOR	$ < size
+57375	100	4	HttpHeaders.java	varyFields	size	int	0	NIL-FOR	i < $
+160	101	6	HttpHeaders.java	varyFields	i	int	0	DEF	"Vary".equalsIgnoreCase(responseHeaders.name($))
+160	101	6	HttpHeaders.java	varyFields	responseHeaders	Headers	0	DEF	"Vary".equalsIgnoreCase($.name(i))
+161	104	6	HttpHeaders.java	varyFields	result	Set<String>	0	DEF	$.isEmpty()
+162	133	4	HttpHeaders.java	varyHeaders	varyFields	Set<String>	0	RET	$.isEmpty()
+57376	136	4	HttpHeaders.java	varyHeaders	i	int	0	NIL-FOR	$ < size
+57376	136	4	HttpHeaders.java	varyHeaders	size	int	0	NIL-FOR	i < $
+163	138	6	HttpHeaders.java	varyHeaders	fieldName	String	0	DEF	varyFields.contains($)
+163	138	6	HttpHeaders.java	varyHeaders	varyFields	Set<String>	0	DEF	$.contains(fieldName)
+164	159	6	HttpHeaders.java	parseChallenges	index	int	0	DEF	$ == -1
+57377	162	6	HttpHeaders.java	parseChallenges	i	int	0	NIL-FOR	matcher.find($)
+57377	162	6	HttpHeaders.java	parseChallenges	matcher	Matcher	0	NIL-FOR	$.find(i)
+165	163	8	HttpHeaders.java	parseChallenges	THIS	HttpHeaders	0	DEF	$.header.regionMatches(true, matcher.start(1), "realm", 0, 5)
+165	163	8	HttpHeaders.java	parseChallenges	matcher	Matcher	0	DEF	header.regionMatches(true, $.start(1), "realm", 0, 5)
+166	166	10	HttpHeaders.java	parseChallenges	realm	String	0	DEF	$ != null
+167	177	4	HttpHeaders.java	receiveHeaders	cookieJar	CookieJar	0	RET	$ == CookieJar.NO_COOKIES
+168	180	4	HttpHeaders.java	receiveHeaders	cookies	List<Cookie>	0	RET	$.isEmpty()
+169	188	4	HttpHeaders.java	hasBody	response	Response	0	RET	$.request().method().equals("HEAD")
+170	193	4	HttpHeaders.java	hasBody	responseCode	int	0	RET	$ != HTTP_NOT_MODIFIED
+170	193	4	HttpHeaders.java	hasBody	responseCode	int	0	RET	$ != HTTP_NO_CONTENT
+170	193	4	HttpHeaders.java	hasBody	responseCode	int	0	RET	$ < HTTP_CONTINUE
+170	193	4	HttpHeaders.java	hasBody	responseCode	int	0	RET	$ >= 200
+171	201	4	HttpHeaders.java	hasBody	THIS	HttpHeaders	0	RET	$.contentLength(response) != -1
+171	201	4	HttpHeaders.java	hasBody	response	Response	0	RET	"chunked".equalsIgnoreCase($.header("Transfer-Encoding"))
+171	201	4	HttpHeaders.java	hasBody	response	Response	0	RET	contentLength($) != -1
+57378	214	4	HttpHeaders.java	skipUntil	input	String	0	NIL-FOR	pos < $.length()
+57378	214	4	HttpHeaders.java	skipUntil	pos	int	0	NIL-FOR	$ < input.length()
+172	215	6	HttpHeaders.java	skipUntil	input	String	0	DEF	characters.indexOf($.charAt(pos)) != -1
+172	215	6	HttpHeaders.java	skipUntil	pos	int	0	DEF	characters.indexOf(input.charAt($)) != -1
+172	215	6	HttpHeaders.java	skipUntil	characters	String	0	DEF	$.indexOf(input.charAt(pos)) != -1
+57379	227	4	HttpHeaders.java	skipWhitespace	input	String	0	NIL-FOR	pos < $.length()
+57379	227	4	HttpHeaders.java	skipWhitespace	pos	int	0	NIL-FOR	$ < input.length()
+173	229	6	HttpHeaders.java	skipWhitespace	c	char	0	DEF	$ != ' '
+173	229	6	HttpHeaders.java	skipWhitespace	c	char	0	DEF	$ != '\t'
+174	243	6	HttpHeaders.java	parseSeconds	seconds	long	1	RET	$ > Integer.MAX_VALUE
+175	245	13	HttpHeaders.java	parseSeconds	seconds	long	1	RET	$ < 0
+30	407	4	HttpUrl.java	encodedUsername	THIS	HttpUrl	0	RET	$.username.isEmpty()
+31	440	4	HttpUrl.java	encodedPassword	THIS	HttpUrl	0	RET	$.password.isEmpty()
+32	505	4	HttpUrl.java	defaultPort	scheme	String	1	RET	$.equals("http")
+33	507	11	HttpUrl.java	defaultPort	scheme	String	1	RET	$.equals("https")
+57358	547	4	HttpUrl.java	pathSegmentsToString	i	int	0	NIL-FOR	$ < size
+57358	547	4	HttpUrl.java	pathSegmentsToString	size	int	0	NIL-FOR	i < $
+57359	568	4	HttpUrl.java	encodedPathSegments	i	int	0	NIL-FOR	$ < pathEnd
+57359	568	4	HttpUrl.java	encodedPathSegments	pathEnd	int	0	NIL-FOR	i < $
+34	608	4	HttpUrl.java	encodedQuery	THIS	HttpUrl	0	RET	$.queryNamesAndValues == null
+57360	615	4	HttpUrl.java	namesAndValuesToQueryString	i	int	0	NIL-FOR	$ < size
+57360	615	4	HttpUrl.java	namesAndValuesToQueryString	size	int	0	NIL-FOR	i < $
+35	618	6	HttpUrl.java	namesAndValuesToQueryString	i	int	0	DEF	$ > 0
+36	620	6	HttpUrl.java	namesAndValuesToQueryString	value	String	0	DEF	$ != null
+57361	635	4	HttpUrl.java	queryStringToNamesAndValues	pos	int	0	NIL-FOR	$ <= encodedQuery.length()
+57361	635	4	HttpUrl.java	queryStringToNamesAndValues	encodedQuery	String	0	NIL-FOR	pos <= $.length()
+37	637	6	HttpUrl.java	queryStringToNamesAndValues	ampersandOffset	int	0	DEF	$ == -1
+38	640	6	HttpUrl.java	queryStringToNamesAndValues	ampersandOffset	int	1	DEF	equalsOffset > $
+38	640	6	HttpUrl.java	queryStringToNamesAndValues	equalsOffset	int	1	DEF	$ == -1
+38	640	6	HttpUrl.java	queryStringToNamesAndValues	equalsOffset	int	1	DEF	$ > ampersandOffset
+39	668	4	HttpUrl.java	query	THIS	HttpUrl	0	RET	$.queryNamesAndValues == null
+40	706	4	HttpUrl.java	queryParameter	THIS	HttpUrl	0	RET	$.queryNamesAndValues == null
+57362	707	4	HttpUrl.java	queryParameter	i	int	0	NIL-FOR	$ < size
+57362	707	4	HttpUrl.java	queryParameter	size	int	0	NIL-FOR	i < $
+41	708	6	HttpUrl.java	queryParameter	THIS	HttpUrl	0	RET	name.equals($.queryNamesAndValues.get(i))
+41	708	6	HttpUrl.java	queryParameter	i	int	0	RET	name.equals(queryNamesAndValues.get($))
+41	708	6	HttpUrl.java	queryParameter	name	String	0	RET	$.equals(queryNamesAndValues.get(i))
+42	729	4	HttpUrl.java	queryParameterNames	THIS	HttpUrl	0	RET	$.queryNamesAndValues == null
+57363	731	4	HttpUrl.java	queryParameterNames	i	int	0	NIL-FOR	$ < size
+57363	731	4	HttpUrl.java	queryParameterNames	size	int	0	NIL-FOR	i < $
+43	756	4	HttpUrl.java	queryParameterValues	THIS	HttpUrl	0	RET	$.queryNamesAndValues == null
+57364	758	4	HttpUrl.java	queryParameterValues	i	int	0	NIL-FOR	$ < size
+57364	758	4	HttpUrl.java	queryParameterValues	size	int	0	NIL-FOR	i < $
+44	759	6	HttpUrl.java	queryParameterValues	THIS	HttpUrl	0	DEF	name.equals($.queryNamesAndValues.get(i))
+44	759	6	HttpUrl.java	queryParameterValues	i	int	0	DEF	name.equals(queryNamesAndValues.get($))
+44	759	6	HttpUrl.java	queryParameterValues	name	String	0	DEF	$.equals(queryNamesAndValues.get(i))
+45	784	4	HttpUrl.java	queryParameterName	THIS	HttpUrl	0	IndexOutOfBoundsException	$.queryNamesAndValues == null
+46	806	4	HttpUrl.java	queryParameterValue	THIS	HttpUrl	0	IndexOutOfBoundsException	$.queryNamesAndValues == null
+47	823	4	HttpUrl.java	encodedFragment	THIS	HttpUrl	0	RET	$.fragment == null
+57365	1736	4	HttpUrl.java	percentDecode	i	int	0	NIL-FOR	$ < size
+57365	1736	4	HttpUrl.java	percentDecode	size	int	0	NIL-FOR	i < $
+57366	1744	4	HttpUrl.java	percentDecode	i	int	0	NIL-FOR	$ < limit
+57366	1744	4	HttpUrl.java	percentDecode	limit	int	0	NIL-FOR	i < $
+48	1746	6	HttpUrl.java	percentDecode	c	char	0	RET	$ == '+'
+48	1746	6	HttpUrl.java	percentDecode	c	char	0	RET	$ == '%'
+48	1746	6	HttpUrl.java	percentDecode	plusIsSpace	boolean	0	RET	$
+57367	1761	4	HttpUrl.java	percentDecode	i	int	0	NIL-FOR	$ < limit
+57367	1761	4	HttpUrl.java	percentDecode	limit	int	0	NIL-FOR	i < $
+49	1763	6	HttpUrl.java	percentDecode	i	int	1	DEF	$ + 2 < limit
+49	1763	6	HttpUrl.java	percentDecode	codePoint	int	1	DEF	$ == '%'
+49	1763	6	HttpUrl.java	percentDecode	limit	int	1	DEF	i + 2 < $
+50	1766	8	HttpUrl.java	percentDecode	d1	int	0	DEF	$ != -1
+50	1766	8	HttpUrl.java	percentDecode	d2	int	0	DEF	$ != -1
+51	1771	13	HttpUrl.java	percentDecode	codePoint	int	0	DEF	$ == '+'
+51	1771	13	HttpUrl.java	percentDecode	plusIsSpace	boolean	0	DEF	$
+52	1787	4	HttpUrl.java	decodeHexDigit	c	char	0	RET	$ >= '0'
+52	1787	4	HttpUrl.java	decodeHexDigit	c	char	0	RET	$ <= '9'
+53	1788	4	HttpUrl.java	decodeHexDigit	c	char	0	RET	$ <= 'f'
+53	1788	4	HttpUrl.java	decodeHexDigit	c	char	0	RET	$ >= 'a'
+54	1789	4	HttpUrl.java	decodeHexDigit	c	char	0	RET	$ >= 'A'
+54	1789	4	HttpUrl.java	decodeHexDigit	c	char	0	RET	$ <= 'F'
+57368	1812	4	HttpUrl.java	canonicalize	i	int	0	NIL-FOR	$ < limit
+57368	1812	4	HttpUrl.java	canonicalize	limit	int	0	NIL-FOR	i < $
+55	1814	6	HttpUrl.java	canonicalize	THIS	HttpUrl	0	RET	$.percentEncoded(input, i, limit)
+55	1814	6	HttpUrl.java	canonicalize	i	int	0	RET	percentEncoded(input, $, limit)
+55	1814	6	HttpUrl.java	canonicalize	codePoint	int	0	RET	$ < 0x20
+55	1814	6	HttpUrl.java	canonicalize	codePoint	int	0	RET	$ >= 0x80
+55	1814	6	HttpUrl.java	canonicalize	codePoint	int	0	RET	encodeSet.indexOf($) != -1
+55	1814	6	HttpUrl.java	canonicalize	codePoint	int	0	RET	$ == '+'
+55	1814	6	HttpUrl.java	canonicalize	codePoint	int	0	RET	$ == 0x7f
+55	1814	6	HttpUrl.java	canonicalize	codePoint	int	0	RET	$ == '%'
+55	1814	6	HttpUrl.java	canonicalize	input	String	0	RET	percentEncoded($, i, limit)
+55	1814	6	HttpUrl.java	canonicalize	limit	int	0	RET	percentEncoded(input, i, $)
+55	1814	6	HttpUrl.java	canonicalize	encodeSet	String	0	RET	$.indexOf(codePoint) != -1
+55	1814	6	HttpUrl.java	canonicalize	alreadyEncoded	boolean	0	RET	$
+55	1814	6	HttpUrl.java	canonicalize	strict	boolean	0	RET	$
+55	1814	6	HttpUrl.java	canonicalize	plusIsSpace	boolean	0	RET	$
+55	1814	6	HttpUrl.java	canonicalize	asciiOnly	boolean	0	RET	$
+57369	1837	4	HttpUrl.java	canonicalize	i	int	0	NIL-FOR	$ < limit
+57369	1837	4	HttpUrl.java	canonicalize	limit	int	0	NIL-FOR	i < $
+56	1839	6	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ == '\f'
+56	1839	6	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ == '\t'
+56	1839	6	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ == '\r'
+56	1839	6	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ == '\n'
+56	1839	6	HttpUrl.java	canonicalize	alreadyEncoded	boolean	1	DEF	$
+57	1842	13	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ == '+'
+57	1842	13	HttpUrl.java	canonicalize	plusIsSpace	boolean	1	DEF	$
+58	1845	13	HttpUrl.java	canonicalize	THIS	HttpUrl	1	DEF	$.percentEncoded(input, i, limit)
+58	1845	13	HttpUrl.java	canonicalize	i	int	1	DEF	percentEncoded(input, $, limit)
+58	1845	13	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ == 0x7f
+58	1845	13	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ >= 0x80
+58	1845	13	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ == '%'
+58	1845	13	HttpUrl.java	canonicalize	codePoint	int	1	DEF	$ < 0x20
+58	1845	13	HttpUrl.java	canonicalize	codePoint	int	1	DEF	encodeSet.indexOf($) != -1
+58	1845	13	HttpUrl.java	canonicalize	input	String	1	DEF	percentEncoded($, i, limit)
+58	1845	13	HttpUrl.java	canonicalize	limit	int	1	DEF	percentEncoded(input, i, $)
+58	1845	13	HttpUrl.java	canonicalize	encodeSet	String	1	DEF	$.indexOf(codePoint) != -1
+58	1845	13	HttpUrl.java	canonicalize	alreadyEncoded	boolean	1	DEF	$
+58	1845	13	HttpUrl.java	canonicalize	strict	boolean	1	DEF	$
+58	1845	13	HttpUrl.java	canonicalize	asciiOnly	boolean	1	DEF	$
+59	1851	8	HttpUrl.java	canonicalize	utf8Buffer	Buffer	0	DEF	$ == null
+57370	1855	8	HttpUrl.java	canonicalize	utf8Buffer	Buffer	0	NIL-WHILE	$.exhausted()
+57399	95	4	Huffman.java	encode	i	int	0	NIL-FOR	$ < data.size()
+57399	95	4	Huffman.java	encode	data	ByteString	0	NIL-FOR	i < $.size()
+57400	104	6	Huffman.java	encode	n	int	0	NIL-WHILE	$ >= 8
+411	110	4	Huffman.java	encode	n	int	0	DEF	$ > 0
+57401	120	4	Huffman.java	encodedLength	i	int	0	NIL-FOR	$ < bytes.size()
+57401	120	4	Huffman.java	encodedLength	bytes	ByteString	0	NIL-FOR	i < $.size()
+57402	133	4	Huffman.java	decode	THIS	Huffman	0	NIL-FOR	i < buf.$.length
+57402	133	4	Huffman.java	decode	i	int	0	NIL-FOR	$ < buf.length
+57402	133	4	Huffman.java	decode	buf	byte[]	0	NIL-FOR	i < $.length
+57403	137	6	Huffman.java	decode	nbits	int	0	NIL-WHILE	$ >= 8
+412	140	8	Huffman.java	decode	THIS	Huffman	1	DEF	node.$.children == null
+412	140	8	Huffman.java	decode	node	Node	1	DEF	$.children == null
+57404	152	4	Huffman.java	decode	nbits	int	0	NIL-WHILE	$ > 0
+413	155	6	Huffman.java	decode	THIS	Huffman	0	DEF	node.$.terminalBits > nbits
+413	155	6	Huffman.java	decode	THIS	Huffman	0	DEF	node.$.children != null
+413	155	6	Huffman.java	decode	node	Node	0	DEF	$.terminalBits > nbits
+413	155	6	Huffman.java	decode	node	Node	0	DEF	$.children != null
+413	155	6	Huffman.java	decode	nbits	int	0	DEF	node.terminalBits > $
+57405	167	4	Huffman.java	buildTree	THIS	Huffman	0	NIL-FOR	i < CODE_LENGTHS.$.length
+57405	167	4	Huffman.java	buildTree	i	int	0	NIL-FOR	$ < CODE_LENGTHS.length
+57406	176	4	Huffman.java	addCode	len	byte	0	NIL-WHILE	$ > 8
+414	179	6	Huffman.java	addCode	THIS	Huffman	0	IllegalStateException	current.$.children == null
+414	179	6	Huffman.java	addCode	current	Node	0	IllegalStateException	$.children == null
+415	182	6	Huffman.java	addCode	THIS	Huffman	0	DEF	current.$.children[i] == null
+415	182	6	Huffman.java	addCode	i	int	0	DEF	current.children[$] == null
+415	182	6	Huffman.java	addCode	current	Node	0	DEF	$.children[i] == null
+57407	191	4	Huffman.java	addCode	i	int	0	NIL-FOR	$ < start + end
+57407	191	4	Huffman.java	addCode	start	int	0	NIL-FOR	i < $ + end
+57407	191	4	Huffman.java	addCode	end	int	0	NIL-FOR	i < start + $
+259	63	6	Jdk9Platform.java	getSelectedProtocol	protocol	String	0	RET	$.equals("")
+259	63	6	Jdk9Platform.java	getSelectedProtocol	protocol	String	0	RET	$ == null
+269	71	6	JdkWithJettyBootPlatform.java	getSelectedProtocol	THIS	JdkWithJettyBootPlatform	0	RET	provider.$.unsupported
+269	71	6	JdkWithJettyBootPlatform.java	getSelectedProtocol	THIS	JdkWithJettyBootPlatform	0	RET	provider.$.selected == null
+269	71	6	JdkWithJettyBootPlatform.java	getSelectedProtocol	provider	JettyNegoProvider	0	RET	$.unsupported
+269	71	6	JdkWithJettyBootPlatform.java	getSelectedProtocol	provider	JettyNegoProvider	0	RET	$.selected == null
+789	52	4	MediaType.java	parse	typeSubtype	Matcher	0	RET	$.lookingAt()
+57476	58	4	MediaType.java	parse	s	int	0	NIL-FOR	$ < string.length()
+57476	58	4	MediaType.java	parse	string	String	0	NIL-FOR	s < $.length()
+790	60	6	MediaType.java	parse	parameter	Matcher	0	RET	$.lookingAt()
+791	63	6	MediaType.java	parse	name	String	0	DEF	$.equalsIgnoreCase("charset")
+791	63	6	MediaType.java	parse	name	String	0	DEF	$ == null
+792	66	6	MediaType.java	parse	token	String	1	DEF	$ != null
+793	75	6	MediaType.java	parse	charsetParameter	String	0	RET	$.equalsIgnoreCase(charset)
+793	75	6	MediaType.java	parse	charset	String	0	RET	charsetParameter.equalsIgnoreCase($)
+793	75	6	MediaType.java	parse	charset	String	0	RET	$ != null
+776	108	4	MultipartBody.java	contentLength	result	long	0	RET	$ != -1L
+777	126	4	MultipartBody.java	writeOrCountBytes	countBytes	boolean	0	DEF	$
+57473	130	4	MultipartBody.java	writeOrCountBytes	p	int	0	NIL-FOR	$ < partCount
+57473	130	4	MultipartBody.java	writeOrCountBytes	partCount	int	0	NIL-FOR	p < $
+778	139	6	MultipartBody.java	writeOrCountBytes	headers	Headers	0	DEF	$ != null
+57474	140	8	MultipartBody.java	writeOrCountBytes	h	int	0	NIL-FOR	$ < headerCount
+57474	140	8	MultipartBody.java	writeOrCountBytes	headerCount	int	0	NIL-FOR	h < $
+779	149	6	MultipartBody.java	writeOrCountBytes	contentType	MediaType	0	DEF	$ != null
+780	156	6	MultipartBody.java	writeOrCountBytes	contentLength	long	1	DEF	$ != -1
+781	160	13	MultipartBody.java	writeOrCountBytes	countBytes	boolean	0	RET	$
+782	168	6	MultipartBody.java	writeOrCountBytes	countBytes	boolean	1	DEF	$
+783	182	4	MultipartBody.java	writeOrCountBytes	countBytes	boolean	0	DEF	$
+57475	202	4	MultipartBody.java	appendQuotedString	i	int	0	NIL-FOR	$ < len
+57475	202	4	MultipartBody.java	appendQuotedString	len	int	0	NIL-FOR	i < $
+57445	65	4	OkHostnameVerifier.java	verifyIpAddress	i	int	0	NIL-FOR	$ < size
+57445	65	4	OkHostnameVerifier.java	verifyIpAddress	size	int	0	NIL-FOR	i < $
+631	66	6	OkHostnameVerifier.java	verifyIpAddress	i	int	0	RET	ipAddress.equalsIgnoreCase(altNames.get($))
+631	66	6	OkHostnameVerifier.java	verifyIpAddress	altNames	List<String>	0	RET	ipAddress.equalsIgnoreCase($.get(i))
+631	66	6	OkHostnameVerifier.java	verifyIpAddress	ipAddress	String	0	RET	$.equalsIgnoreCase(altNames.get(i))
+57446	78	4	OkHostnameVerifier.java	verifyHostname	i	int	0	NIL-FOR	$ < size
+57446	78	4	OkHostnameVerifier.java	verifyHostname	size	int	0	NIL-FOR	i < $
+632	80	6	OkHostnameVerifier.java	verifyHostname	THIS	OkHostnameVerifier	0	RET	$.verifyHostname(hostname, altNames.get(i))
+632	80	6	OkHostnameVerifier.java	verifyHostname	i	int	0	RET	verifyHostname(hostname, altNames.get($))
+632	80	6	OkHostnameVerifier.java	verifyHostname	altNames	List<String>	0	RET	verifyHostname(hostname, $.get(i))
+632	80	6	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	verifyHostname($, altNames.get(i))
+633	85	4	OkHostnameVerifier.java	verifyHostname	hasDns	boolean	0	RET	$
+634	89	6	OkHostnameVerifier.java	verifyHostname	cn	String	0	RET	$ != null
+635	110	6	OkHostnameVerifier.java	getSubjectAltNames	subjectAltNames	Collection<?>	0	RET	$ == null
+636	115	8	OkHostnameVerifier.java	getSubjectAltNames	entry	List<?>	0	DEF	$.size() < 2
+636	115	8	OkHostnameVerifier.java	getSubjectAltNames	entry	List<?>	0	DEF	$ == null
+637	119	8	OkHostnameVerifier.java	getSubjectAltNames	altNameType	Integer	0	DEF	$ == null
+638	122	8	OkHostnameVerifier.java	getSubjectAltNames	altNameType	Integer	0	DEF	$ == type
+638	122	8	OkHostnameVerifier.java	getSubjectAltNames	type	int	0	DEF	altNameType == $
+639	124	10	OkHostnameVerifier.java	getSubjectAltNames	altName	String	0	DEF	$ != null
+640	145	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	$.startsWith(".")
+640	145	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	$.endsWith("..")
+640	145	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	$.length() == 0
+640	145	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	$ == null
+641	150	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	$.length() == 0
+641	150	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	$.endsWith("..")
+641	150	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	$ == null
+641	150	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	$.startsWith(".")
+642	165	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	DEF	$.endsWith(".")
+643	168	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	DEF	$.endsWith(".")
+644	176	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	$.contains("*")
+645	192	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	$.indexOf('*', 1) != -1
+645	192	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	$.startsWith("*.")
+646	201	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	$.length() < pattern.length()
+646	201	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	hostname.length() < $.length()
+647	206	4	OkHostnameVerifier.java	verifyHostname	pattern	String	0	RET	"*.".equals($)
+648	213	4	OkHostnameVerifier.java	verifyHostname	suffix	String	0	RET	hostname.endsWith($)
+648	213	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	$.endsWith(suffix)
+649	220	4	OkHostnameVerifier.java	verifyHostname	suffixStartIndexInHostname	int	0	RET	hostname.lastIndexOf('.', $ - 1) != -1
+649	220	4	OkHostnameVerifier.java	verifyHostname	suffixStartIndexInHostname	int	0	RET	$ > 0
+649	220	4	OkHostnameVerifier.java	verifyHostname	hostname	String	0	RET	$.lastIndexOf('.', suffixStartIndexInHostname - 1) != -1
+693	244	4	OkHttpClient.java	OkHttpClient	THIS	OkHttpClient	1	DEF	builder.$.sslSocketFactory != null
+693	244	4	OkHttpClient.java	OkHttpClient	isTLS	boolean	1	DEF	$
+693	244	4	OkHttpClient.java	OkHttpClient	builder	Builder	1	DEF	$.sslSocketFactory != null
+694	275	6	OkHttpClient.java	systemDefaultTrustManager	THIS	OkHttpClient	0	IllegalStateException	trustManagers.$.length != 1
+694	275	6	OkHttpClient.java	systemDefaultTrustManager	trustManagers	TrustManager[]	0	IllegalStateException	$.length != 1
+694	275	6	OkHttpClient.java	systemDefaultTrustManager	trustManagers	TrustManager[]	0	IllegalStateException	$[0] instanceof X509TrustManager
+252	67	4	OptionalMethod.java	invokeOptional	m	Method	0	RET	$ == null
+253	89	6	OptionalMethod.java	invokeOptionalWithoutCheckedException	targetException	Throwable	0	DEF	$ instanceof RuntimeException
+254	107	4	OptionalMethod.java	invoke	m	Method	0	AssertionError	$ == null
+255	132	6	OptionalMethod.java	invokeWithoutCheckedException	targetException	Throwable	0	DEF	$ instanceof RuntimeException
+256	148	4	OptionalMethod.java	getMethod	THIS	OptionalMethod	0	DEF	$.methodName != null
+257	150	6	OptionalMethod.java	getMethod	THIS	OptionalMethod	0	DEF	$.returnType != null
+257	150	6	OptionalMethod.java	getMethod	THIS	OptionalMethod	0	DEF	$.returnType.isAssignableFrom(method.getReturnType())
+257	150	6	OptionalMethod.java	getMethod	method	Method	0	DEF	$ != null
+257	150	6	OptionalMethod.java	getMethod	method	Method	0	DEF	returnType.isAssignableFrom($.getReturnType())
+258	165	6	OptionalMethod.java	getPublicMethod	method	Method	0	DEF	($.getModifiers() & Modifier.PUBLIC) == 0
+375	33	4	Ping.java	send	THIS	Ping	0	IllegalStateException	$.sent != -1
+376	38	4	Ping.java	receive	THIS	Ping	0	IllegalStateException	$.sent == -1
+376	38	4	Ping.java	receive	THIS	Ping	0	IllegalStateException	$.received != -1
+377	44	4	Ping.java	cancel	THIS	Ping	0	IllegalStateException	$.sent == -1
+377	44	4	Ping.java	cancel	THIS	Ping	0	IllegalStateException	$.received != -1
+378	63	4	Ping.java	roundTripTime	THIS	Ping	1	RET	$.latch.await(timeout, unit)
+378	63	4	Ping.java	roundTripTime	timeout	long	1	RET	latch.await($, unit)
+378	63	4	Ping.java	roundTripTime	unit	TimeUnit	1	RET	latch.await(timeout, $)
+241	94	6	Platform.java	trustManager	context	Object	0	RET	$ == null
+242	142	4	Platform.java	getStackTraceForCloseable	THIS	Platform	0	RET	$.logger.isLoggable(Level.FINE)
+243	149	4	Platform.java	logCloseableLeak	stackTrace	Object	0	DEF	$ == null
+57382	158	4	Platform.java	alpnProtocolNames	i	int	0	NIL-FOR	$ < size
+57382	158	4	Platform.java	alpnProtocolNames	size	int	0	NIL-FOR	i < $
+244	160	6	Platform.java	alpnProtocolNames	THIS	Platform	0	DEF	protocol == $.Protocol.$.HTTP_1_0
+244	160	6	Platform.java	alpnProtocolNames	protocol	Protocol	0	DEF	$ == Protocol.HTTP_1_0
+245	174	4	Platform.java	findPlatform	android	Platform	0	RET	$ != null
+246	180	4	Platform.java	findPlatform	jdk9	Platform	0	RET	$ != null
+247	186	4	Platform.java	findPlatform	jdkWithJettyBoot	Platform	0	RET	$ != null
+57383	200	4	Platform.java	concatLengthPrefixed	i	int	0	NIL-FOR	$ < size
+57383	200	4	Platform.java	concatLengthPrefixed	size	int	0	NIL-FOR	i < $
+248	202	6	Platform.java	concatLengthPrefixed	THIS	Platform	0	DEF	protocol == $.Protocol.$.HTTP_1_0
+248	202	6	Platform.java	concatLengthPrefixed	protocol	Protocol	0	DEF	$ == Protocol.HTTP_1_0
+57384	210	4	Platform.java	readFieldOrNull	c	Class<?>	0	NIL-FOR	$ != Object.class
+249	215	8	Platform.java	readFieldOrNull	value	Object	0	RET	fieldType.isInstance($)
+249	215	8	Platform.java	readFieldOrNull	value	Object	0	RET	$ == null
+249	215	8	Platform.java	readFieldOrNull	fieldType	Class<T>	0	RET	$.isInstance(value)
+250	224	4	Platform.java	readFieldOrNull	fieldName	String	0	RET	$.equals("delegate")
+251	226	6	Platform.java	readFieldOrNull	delegate	Object	0	RET	$ != null
+586	77	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	domain	String	0	NullPointerException	$ == null
+587	83	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	THIS	PublicSuffixDatabase	0	RET	domainLabels.$.length == rule.$.length
+587	83	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	domainLabels	String[]	0	RET	$.length == rule.length
+587	83	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	rule	String[]	0	RET	domainLabels.length == $.length
+587	83	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	rule	String[]	0	RET	$[0].charAt(0) != EXCEPTION_MARKER
+588	89	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	rule	String[]	1	DEF	$[0].charAt(0) == EXCEPTION_MARKER
+57426	99	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	THIS	PublicSuffixDatabase	0	NIL-FOR	i < punycodeLabels.$.length
+57426	99	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	i	int	0	NIL-FOR	$ < punycodeLabels.length
+57426	99	4	PublicSuffixDatabase.java	getEffectiveTldPlusOne	punycodeLabels	String[]	0	NIL-FOR	i < $.length
+589	108	4	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	1	DEF	$.listRead.get()
+589	108	4	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	1	DEF	$.listRead.compareAndSet(false, true)
+590	118	6	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	0	IllegalStateException	$.publicSuffixListBytes == null
+57427	126	4	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	0	NIL-FOR	i < domainLabels.$.length
+57427	126	4	PublicSuffixDatabase.java	findMatchingRule	i	int	0	NIL-FOR	$ < domainLabels.length
+57427	126	4	PublicSuffixDatabase.java	findMatchingRule	domainLabels	String[]	0	NIL-FOR	i < $.length
+57428	133	4	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	0	NIL-FOR	i < domainLabelsUtf8Bytes.$.length
+57428	133	4	PublicSuffixDatabase.java	findMatchingRule	i	int	0	NIL-FOR	$ < domainLabelsUtf8Bytes.length
+57428	133	4	PublicSuffixDatabase.java	findMatchingRule	domainLabelsUtf8Bytes	byte[][]	0	NIL-FOR	i < $.length
+591	135	6	PublicSuffixDatabase.java	findMatchingRule	rule	String	0	DEF	$ != null
+592	147	4	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	0	DEF	domainLabelsUtf8Bytes.$.length > 1
+592	147	4	PublicSuffixDatabase.java	findMatchingRule	domainLabelsUtf8Bytes	byte[][]	0	DEF	$.length > 1
+57429	149	6	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	0	NIL-FOR	labelIndex < labelsWithWildcard.$.length - 1
+57429	149	6	PublicSuffixDatabase.java	findMatchingRule	labelIndex	int	0	NIL-FOR	$ < labelsWithWildcard.length - 1
+57429	149	6	PublicSuffixDatabase.java	findMatchingRule	labelsWithWildcard	byte[][]	0	NIL-FOR	labelIndex < $.length - 1
+593	152	8	PublicSuffixDatabase.java	findMatchingRule	rule	String	0	DEF	$ != null
+594	161	4	PublicSuffixDatabase.java	findMatchingRule	wildcardMatch	String	0	DEF	$ != null
+57430	162	6	PublicSuffixDatabase.java	findMatchingRule	THIS	PublicSuffixDatabase	0	NIL-FOR	labelIndex < domainLabelsUtf8Bytes.$.length - 1
+57430	162	6	PublicSuffixDatabase.java	findMatchingRule	labelIndex	int	0	NIL-FOR	$ < domainLabelsUtf8Bytes.length - 1
+57430	162	6	PublicSuffixDatabase.java	findMatchingRule	domainLabelsUtf8Bytes	byte[][]	0	NIL-FOR	labelIndex < $.length - 1
+595	165	8	PublicSuffixDatabase.java	findMatchingRule	rule	String	0	DEF	$ != null
+596	172	4	PublicSuffixDatabase.java	findMatchingRule	exception	String	1	RET	$ != null
+597	176	11	PublicSuffixDatabase.java	findMatchingRule	exactMatch	String	0	RET	$ == null
+597	176	11	PublicSuffixDatabase.java	findMatchingRule	wildcardMatch	String	0	RET	$ == null
+57431	197	4	PublicSuffixDatabase.java	binarySearchBytes	low	int	0	NIL-WHILE	$ < high
+57431	197	4	PublicSuffixDatabase.java	binarySearchBytes	high	int	0	NIL-WHILE	low < $
+57432	201	6	PublicSuffixDatabase.java	binarySearchBytes	mid	int	0	NIL-WHILE	bytesToSearch[$] != '\n'
+57432	201	6	PublicSuffixDatabase.java	binarySearchBytes	mid	int	0	NIL-WHILE	$ > -1
+57432	201	6	PublicSuffixDatabase.java	binarySearchBytes	bytesToSearch	byte[]	0	NIL-WHILE	$[mid] != '\n'
+57433	208	6	PublicSuffixDatabase.java	binarySearchBytes	mid	int	0	NIL-WHILE	bytesToSearch[$ + end] != '\n'
+57433	208	6	PublicSuffixDatabase.java	binarySearchBytes	end	int	0	NIL-WHILE	bytesToSearch[mid + $] != '\n'
+57433	208	6	PublicSuffixDatabase.java	binarySearchBytes	bytesToSearch	byte[]	0	NIL-WHILE	$[mid + end] != '\n'
+598	223	8	PublicSuffixDatabase.java	binarySearchBytes	expectDot	boolean	1	DEF	$
+599	233	8	PublicSuffixDatabase.java	binarySearchBytes	compareResult	int	0	DEF	$ != 0
+600	237	8	PublicSuffixDatabase.java	binarySearchBytes	publicSuffixLength	int	0	DEF	publicSuffixByteIndex == $
+600	237	8	PublicSuffixDatabase.java	binarySearchBytes	publicSuffixByteIndex	int	0	DEF	$ == publicSuffixLength
+601	239	8	PublicSuffixDatabase.java	binarySearchBytes	THIS	PublicSuffixDatabase	0	DEF	labels[currentLabelIndex].length == currentLabelByteIndex
+601	239	8	PublicSuffixDatabase.java	binarySearchBytes	currentLabelIndex	int	0	DEF	labels[$].length == currentLabelByteIndex
+601	239	8	PublicSuffixDatabase.java	binarySearchBytes	currentLabelByteIndex	int	0	DEF	labels[currentLabelIndex].length == $
+601	239	8	PublicSuffixDatabase.java	binarySearchBytes	labels	byte[][]	0	DEF	$[currentLabelIndex].length == currentLabelByteIndex
+602	242	10	PublicSuffixDatabase.java	binarySearchBytes	THIS	PublicSuffixDatabase	1	DEF	currentLabelIndex == labels.$.length - 1
+602	242	10	PublicSuffixDatabase.java	binarySearchBytes	currentLabelIndex	int	1	DEF	$ == labels.length - 1
+602	242	10	PublicSuffixDatabase.java	binarySearchBytes	labels	byte[][]	1	DEF	currentLabelIndex == $.length - 1
+603	252	6	PublicSuffixDatabase.java	binarySearchBytes	compareResult	int	1	DEF	$ < 0
+604	254	13	PublicSuffixDatabase.java	binarySearchBytes	compareResult	int	1	DEF	$ > 0
+57434	260	8	PublicSuffixDatabase.java	binarySearchBytes	THIS	PublicSuffixDatabase	0	NIL-FOR	i < labels.$.length
+57434	260	8	PublicSuffixDatabase.java	binarySearchBytes	i	int	0	NIL-FOR	$ < labels.length
+57434	260	8	PublicSuffixDatabase.java	binarySearchBytes	labels	byte[][]	0	NIL-FOR	i < $.length
+605	264	8	PublicSuffixDatabase.java	binarySearchBytes	publicSuffixBytesLeft	int	1	DEF	labelBytesLeft < $
+605	264	8	PublicSuffixDatabase.java	binarySearchBytes	labelBytesLeft	int	1	DEF	$ < publicSuffixBytesLeft
+606	266	15	PublicSuffixDatabase.java	binarySearchBytes	publicSuffixBytesLeft	int	1	DEF	labelBytesLeft > $
+606	266	15	PublicSuffixDatabase.java	binarySearchBytes	labelBytesLeft	int	1	DEF	$ > publicSuffixBytesLeft
+607	285	4	PublicSuffixDatabase.java	readTheList	is	InputStream	0	DEF	$ != null
+14	61	6	RealCall.java	execute	THIS	RealCall	0	IllegalStateException	$.executed
+15	68	6	RealCall.java	execute	result	Response	0	IOException	$ == null
+16	82	6	RealCall.java	enqueue	THIS	RealCall	0	IllegalStateException	$.executed
+17	176	4	RealCall.java	getResponseWithInterceptorChain	THIS	RealCall	0	DEF	$.forWebSocket
+92	124	4	RealConnection.java	connect	THIS	RealConnection	0	IllegalStateException	$.protocol != null
+93	130	4	RealConnection.java	connect	THIS	RealConnection	0	UnknownServiceException	$.route.address().sslSocketFactory() == null
+94	131	6	RealConnection.java	connect	connectionSpecs	List<ConnectionSpec>	0	UnknownServiceException	$.contains(ConnectionSpec.CLEARTEXT)
+95	136	6	RealConnection.java	connect	host	String	0	UnknownServiceException	Platform.get().isCleartextTrafficPermitted($)
+96	144	8	RealConnection.java	connect	THIS	RealConnection	1	DEF	$.route.requiresTunnel()
+97	162	8	RealConnection.java	connect	routeException	RouteException	1	DEF	$ == null
+98	168	8	RealConnection.java	connect	THIS	RealConnection	0	DEF	connectionSpecSelector.connectionFailed($.e)
+98	168	8	RealConnection.java	connect	connectionSpecSelector	ConnectionSpecSelector	0	DEF	$.connectionFailed(e)
+98	168	8	RealConnection.java	connect	connectionRetryEnabled	boolean	0	DEF	$
+99	174	4	RealConnection.java	connect	THIS	RealConnection	0	DEF	$.http2Connection != null
+100	192	6	RealConnection.java	connectTunnel	attemptedConnections	int	0	ProtocolException	++$ > maxAttempts
+100	192	6	RealConnection.java	connectTunnel	maxAttempts	int	0	ProtocolException	++attemptedConnections > $
+101	199	6	RealConnection.java	connectTunnel	tunnelRequest	Request	0	DEF	$ == null
+102	232	4	RealConnection.java	establishProtocol	THIS	RealConnection	0	RET	$.route.address().sslSocketFactory() == null
+103	240	4	RealConnection.java	establishProtocol	THIS	RealConnection	0	DEF	$.protocol == $.Protocol.$.HTTP_2
+104	262	6	RealConnection.java	connectTls	connectionSpec	ConnectionSpec	0	DEF	$.supportsTlsExtensions()
+105	272	6	RealConnection.java	connectTls	address	Address	0	SSLPeerUnverifiedException	$.hostnameVerifier().verify($.url().host(), sslSocket.getSession())
+105	272	6	RealConnection.java	connectTls	sslSocket	SSLSocket	0	SSLPeerUnverifiedException	address.hostnameVerifier().verify(address.url().host(), $.getSession())
+106	297	6	RealConnection.java	connectTls	THIS	RealConnection	0	IOException	Util.isAndroidGetsocknameError($.e)
+107	300	6	RealConnection.java	connectTls	sslSocket	SSLSocket	0	DEF	$ != null
+108	303	6	RealConnection.java	connectTls	success	boolean	0	DEF	$
+109	329	6	RealConnection.java	createTunnel	contentLength	long	0	DEF	$ == -1L
+110	342	10	RealConnection.java	createTunnel	THIS	RealConnection	0	IOException	$.sink.buffer().exhausted()
+110	342	10	RealConnection.java	createTunnel	THIS	RealConnection	0	IOException	$.source.buffer().exhausted()
+111	349	10	RealConnection.java	createTunnel	tunnelRequest	Request	0	IOException	$ == null
+112	351	10	RealConnection.java	createTunnel	response	Response	0	RET	"close".equalsIgnoreCase($.header("Connection"))
+113	383	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	$.noNewStreams
+113	383	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	$.allocations.size() >= $.allocationLimit
+114	386	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	Internal.$.instance.equalsNonHost($.route.address(), address)
+114	386	4	RealConnection.java	isEligible	address	Address	0	RET	Internal.instance.equalsNonHost(this.route.address(), $)
+115	389	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	address.url().host().equals($.route().address().url().host())
+115	389	4	RealConnection.java	isEligible	address	Address	0	RET	$.url().host().equals(this.route().address().url().host())
+116	399	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	$.http2Connection == null
+117	404	4	RealConnection.java	isEligible	route	Route	0	RET	$ == null
+118	405	4	RealConnection.java	isEligible	route	Route	0	RET	$.proxy().type() != Proxy.Type.DIRECT
+119	406	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	$.route.proxy().type() != Proxy.Type.DIRECT
+120	407	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	$.route.socketAddress().equals(route.socketAddress())
+120	407	4	RealConnection.java	isEligible	route	Route	0	RET	this.route.socketAddress().equals($.socketAddress())
+121	410	4	RealConnection.java	isEligible	route	Route	0	RET	$.address().hostnameVerifier() != OkHostnameVerifier.INSTANCE
+122	411	4	RealConnection.java	isEligible	THIS	RealConnection	0	RET	$.supportsUrl(address.url())
+122	411	4	RealConnection.java	isEligible	address	Address	0	RET	supportsUrl($.url())
+123	424	4	RealConnection.java	supportsUrl	THIS	RealConnection	0	RET	url.port() != $.route.address().url().port()
+123	424	4	RealConnection.java	supportsUrl	url	HttpUrl	0	RET	$.port() != route.address().url().port()
+124	428	4	RealConnection.java	supportsUrl	THIS	RealConnection	0	RET	url.host().equals($.route.address().url().host())
+124	428	4	RealConnection.java	supportsUrl	url	HttpUrl	0	RET	$.host().equals(route.address().url().host())
+125	439	4	RealConnection.java	newCodec	THIS	RealConnection	1	RET	$.http2Connection != null
+126	472	4	RealConnection.java	isHealthy	THIS	RealConnection	0	RET	$.socket.isOutputShutdown()
+126	472	4	RealConnection.java	isHealthy	THIS	RealConnection	0	RET	$.socket.isInputShutdown()
+126	472	4	RealConnection.java	isHealthy	THIS	RealConnection	0	RET	$.socket.isClosed()
+127	476	4	RealConnection.java	isHealthy	THIS	RealConnection	0	RET	$.http2Connection != null
+128	480	4	RealConnection.java	isHealthy	doExtensiveChecks	boolean	0	RET	$
+129	485	10	RealConnection.java	isHealthy	THIS	RealConnection	0	RET	$.source.exhausted()
+153	72	4	RealInterceptorChain.java	proceed	THIS	RealInterceptorChain	0	AssertionError	$.index >= $.interceptors.size()
+154	77	4	RealInterceptorChain.java	proceed	THIS	RealInterceptorChain	0	IllegalStateException	$.httpCodec != null
+154	77	4	RealInterceptorChain.java	proceed	THIS	RealInterceptorChain	0	IllegalStateException	$.connection.supportsUrl(request.url())
+154	77	4	RealInterceptorChain.java	proceed	request	Request	0	IllegalStateException	this.connection.supportsUrl($.url())
+155	83	4	RealInterceptorChain.java	proceed	THIS	RealInterceptorChain	0	IllegalStateException	$.httpCodec != null
+155	83	4	RealInterceptorChain.java	proceed	THIS	RealInterceptorChain	0	IllegalStateException	$.calls > 1
+156	95	4	RealInterceptorChain.java	proceed	THIS	RealInterceptorChain	0	IllegalStateException	next.$.calls != 1
+156	95	4	RealInterceptorChain.java	proceed	THIS	RealInterceptorChain	0	IllegalStateException	$.index + 1 < $.interceptors.size()
+156	95	4	RealInterceptorChain.java	proceed	next	RealInterceptorChain	0	IllegalStateException	$.calls != 1
+156	95	4	RealInterceptorChain.java	proceed	httpCodec	HttpCodec	0	IllegalStateException	$ != null
+157	101	4	RealInterceptorChain.java	proceed	response	Response	0	NullPointerException	$ == null
+339	133	4	RealWebSocket.java	RealWebSocket	request	Request	0	IllegalArgumentException	"GET".equals($.method())
+340	214	4	RealWebSocket.java	checkResponse	response	Response	0	ProtocolException	$.code() != 101
+341	220	4	RealWebSocket.java	checkResponse	headerConnection	String	0	ProtocolException	"Upgrade".equalsIgnoreCase($)
+342	226	4	RealWebSocket.java	checkResponse	headerUpgrade	String	0	ProtocolException	"websocket".equalsIgnoreCase($)
+343	234	4	RealWebSocket.java	checkResponse	headerAccept	String	0	ProtocolException	acceptExpected.equals($)
+343	234	4	RealWebSocket.java	checkResponse	acceptExpected	String	0	ProtocolException	$.equals(headerAccept)
+344	246	6	RealWebSocket.java	initReaderAndWriter	pingIntervalMillis	long	0	DEF	$ != 0
+345	250	6	RealWebSocket.java	initReaderAndWriter	THIS	RealWebSocket	0	DEF	$.messageAndCloseQueue.isEmpty()
+57396	260	4	RealWebSocket.java	loopReader	THIS	RealWebSocket	0	NIL-WHILE	$.receivedCloseCode == -1
+346	291	4	RealWebSocket.java	tearDown	THIS	RealWebSocket	0	DEF	$.cancelFuture != null
+347	316	4	RealWebSocket.java	onReadPing	THIS	RealWebSocket	0	RET	$.failed
+347	316	4	RealWebSocket.java	onReadPing	THIS	RealWebSocket	0	RET	$.enqueuedClose
+347	316	4	RealWebSocket.java	onReadPing	THIS	RealWebSocket	0	RET	$.messageAndCloseQueue.isEmpty()
+348	329	4	RealWebSocket.java	onReadClose	code	int	0	IllegalArgumentException	$ == -1
+349	333	6	RealWebSocket.java	onReadClose	THIS	RealWebSocket	0	IllegalStateException	$.receivedCloseCode != -1
+350	336	6	RealWebSocket.java	onReadClose	THIS	RealWebSocket	0	DEF	$.messageAndCloseQueue.isEmpty()
+350	336	6	RealWebSocket.java	onReadClose	THIS	RealWebSocket	0	DEF	$.enqueuedClose
+351	339	8	RealWebSocket.java	onReadClose	THIS	RealWebSocket	0	DEF	$.cancelFuture != null
+352	347	6	RealWebSocket.java	onReadClose	toClose	Streams	0	DEF	$ != null
+353	358	4	RealWebSocket.java	send	text	String	0	NullPointerException	$ == null
+354	363	4	RealWebSocket.java	send	bytes	ByteString	0	NullPointerException	$ == null
+355	369	4	RealWebSocket.java	send	THIS	RealWebSocket	0	RET	$.enqueuedClose
+355	369	4	RealWebSocket.java	send	THIS	RealWebSocket	0	RET	$.failed
+356	372	4	RealWebSocket.java	send	THIS	RealWebSocket	0	RET	$.queueSize + data.size() > MAX_QUEUE_SIZE
+356	372	4	RealWebSocket.java	send	data	ByteString	0	RET	queueSize + $.size() > MAX_QUEUE_SIZE
+357	386	4	RealWebSocket.java	pong	THIS	RealWebSocket	0	RET	$.enqueuedClose
+357	386	4	RealWebSocket.java	pong	THIS	RealWebSocket	0	RET	$.failed
+357	386	4	RealWebSocket.java	pong	THIS	RealWebSocket	0	RET	$.messageAndCloseQueue.isEmpty()
+358	401	4	RealWebSocket.java	close	reason	String	0	IllegalArgumentException	$ != null
+359	403	6	RealWebSocket.java	close	reasonBytes	ByteString	0	IllegalArgumentException	$.size() > CLOSE_MESSAGE_MAX
+360	408	4	RealWebSocket.java	close	THIS	RealWebSocket	0	RET	$.failed
+360	408	4	RealWebSocket.java	close	THIS	RealWebSocket	0	RET	$.enqueuedClose
+361	422	4	RealWebSocket.java	runWriter	THIS	RealWebSocket	0	DEF	$.executor != null
+362	449	6	RealWebSocket.java	writeOneFrame	THIS	RealWebSocket	0	RET	$.failed
+363	455	6	RealWebSocket.java	writeOneFrame	pong	ByteString	0	RET	$ == null
+364	457	8	RealWebSocket.java	writeOneFrame	messageOrClose	Object	1	DEF	$ instanceof Close
+365	460	10	RealWebSocket.java	writeOneFrame	receivedCloseCode	int	1	DEF	$ != -1
+366	469	15	RealWebSocket.java	writeOneFrame	messageOrClose	Object	0	RET	$ == null
+367	476	6	RealWebSocket.java	writeOneFrame	pong	ByteString	1	DEF	$ != null
+368	479	13	RealWebSocket.java	writeOneFrame	messageOrClose	Object	1	DEF	$ instanceof Message
+369	489	13	RealWebSocket.java	writeOneFrame	messageOrClose	Object	1	DEF	$ instanceof Close
+370	494	8	RealWebSocket.java	writeOneFrame	streamsToClose	Streams	0	DEF	$ != null
+371	520	6	RealWebSocket.java	writePingFrame	THIS	RealWebSocket	0	RET	$.failed
+372	534	6	RealWebSocket.java	failWebSocket	THIS	RealWebSocket	0	RET	$.failed
+373	538	6	RealWebSocket.java	failWebSocket	THIS	RealWebSocket	0	DEF	$.cancelFuture != null
+374	539	6	RealWebSocket.java	failWebSocket	THIS	RealWebSocket	0	DEF	$.executor != null
+273	151	4	Relay.java	read	prefix	ByteString	0	IOException	$.equals(PREFIX_CLEAN)
+274	170	4	Relay.java	writeHeader	header	Buffer	0	IllegalArgumentException	$.size() != FILE_HEADER_SIZE
+275	217	6	Relay.java	newSource	THIS	Relay	0	RET	$.file == null
+794	48	4	RequestBody.java	create	contentType	MediaType	0	DEF	$ != null
+795	50	6	RequestBody.java	create	charset	Charset	0	DEF	$ == null
+796	84	4	RequestBody.java	create	content	byte[]	0	NullPointerException	$ == null
+797	103	4	RequestBody.java	create	file	File	0	NullPointerException	$ == null
+152	37	4	RequestLine.java	get	THIS	RequestLine	1	DEF	$.includeAuthorityInRequestLine(request, proxyType)
+152	37	4	RequestLine.java	get	request	Request	1	DEF	includeAuthorityInRequestLine($, proxyType)
+152	37	4	RequestLine.java	get	proxyType	Proxy.Type	1	DEF	includeAuthorityInRequestLine(request, $)
+27	156	4	Response.java	peekBody	copy	Buffer	1	DEF	$.size() > byteCount
+27	156	4	Response.java	peekBody	byteCount	long	1	DEF	copy.size() > $
+28	234	4	Response.java	challenges	THIS	Response	1	DEF	$.code == HTTP_UNAUTHORIZED
+29	236	11	Response.java	challenges	THIS	Response	1	DEF	$.code == HTTP_PROXY_AUTH
+784	128	4	ResponseBody.java	bytes	contentLength	long	0	IOException	$ > Integer.MAX_VALUE
+785	139	4	ResponseBody.java	bytes	THIS	ResponseBody	0	IOException	contentLength != bytes.$.length
+785	139	4	ResponseBody.java	bytes	contentLength	long	0	IOException	$ != -1
+785	139	4	ResponseBody.java	bytes	contentLength	long	0	IOException	$ != bytes.length
+785	139	4	ResponseBody.java	bytes	bytes	byte[]	0	IOException	contentLength != $.length
+786	195	4	ResponseBody.java	create	contentType	MediaType	0	DEF	$ != null
+787	197	6	ResponseBody.java	create	charset	Charset	0	DEF	$ == null
+788	215	4	ResponseBody.java	create	content	BufferedSource	0	NullPointerException	$ == null
+207	88	4	RetryAndFollowUpInterceptor.java	cancel	streamAllocation	StreamAllocation	0	DEF	$ != null
+208	112	6	RetryAndFollowUpInterceptor.java	intercept	THIS	RetryAndFollowUpInterceptor	0	IOException	$.canceled
+209	124	8	RetryAndFollowUpInterceptor.java	intercept	THIS	RetryAndFollowUpInterceptor	0	DEF	$.recover($.e.getLastConnectException(), false, request)
+209	124	8	RetryAndFollowUpInterceptor.java	intercept	request	Request	0	DEF	recover(e.getLastConnectException(), false, $)
+210	132	8	RetryAndFollowUpInterceptor.java	intercept	THIS	RetryAndFollowUpInterceptor	0	DEF	$.recover($.e, requestSendStarted, request)
+210	132	8	RetryAndFollowUpInterceptor.java	intercept	requestSendStarted	boolean	0	DEF	recover(e, $, request)
+210	132	8	RetryAndFollowUpInterceptor.java	intercept	request	Request	0	DEF	recover(e, requestSendStarted, $)
+211	137	8	RetryAndFollowUpInterceptor.java	intercept	releaseConnection	boolean	0	DEF	$
+212	144	6	RetryAndFollowUpInterceptor.java	intercept	priorResponse	Response	0	DEF	$ != null
+213	154	6	RetryAndFollowUpInterceptor.java	intercept	followUp	Request	0	RET	$ == null
+214	155	8	RetryAndFollowUpInterceptor.java	intercept	THIS	RetryAndFollowUpInterceptor	0	DEF	$.forWebSocket
+215	163	6	RetryAndFollowUpInterceptor.java	intercept	followUpCount	int	0	ProtocolException	++$ > MAX_FOLLOW_UPS
+216	168	6	RetryAndFollowUpInterceptor.java	intercept	followUp	Request	0	HttpRetryException	$.body() instanceof UnrepeatableRequestBody
+217	173	6	RetryAndFollowUpInterceptor.java	intercept	THIS	RetryAndFollowUpInterceptor	1	DEF	$.sameConnection(response, followUp.url())
+217	173	6	RetryAndFollowUpInterceptor.java	intercept	response	Response	1	DEF	sameConnection($, followUp.url())
+217	173	6	RetryAndFollowUpInterceptor.java	intercept	followUp	Request	1	DEF	sameConnection(response, $.url())
+218	177	13	RetryAndFollowUpInterceptor.java	intercept	THIS	RetryAndFollowUpInterceptor	0	IllegalStateException	$.streamAllocation.codec() != null
+219	191	4	RetryAndFollowUpInterceptor.java	createAddress	url	HttpUrl	0	DEF	$.isHttps()
+220	212	4	RetryAndFollowUpInterceptor.java	recover	THIS	RetryAndFollowUpInterceptor	0	RET	$.client.retryOnConnectionFailure()
+221	215	4	RetryAndFollowUpInterceptor.java	recover	requestSendStarted	boolean	0	RET	$
+221	215	4	RetryAndFollowUpInterceptor.java	recover	userRequest	Request	0	RET	$.body() instanceof UnrepeatableRequestBody
+222	218	4	RetryAndFollowUpInterceptor.java	recover	THIS	RetryAndFollowUpInterceptor	0	RET	$.isRecoverable(e, requestSendStarted)
+222	218	4	RetryAndFollowUpInterceptor.java	recover	e	IOException	0	RET	isRecoverable($, requestSendStarted)
+222	218	4	RetryAndFollowUpInterceptor.java	recover	requestSendStarted	boolean	0	RET	isRecoverable(e, $)
+223	221	4	RetryAndFollowUpInterceptor.java	recover	THIS	RetryAndFollowUpInterceptor	0	RET	$.streamAllocation.hasMoreRoutes()
+224	229	4	RetryAndFollowUpInterceptor.java	isRecoverable	e	IOException	0	RET	$ instanceof ProtocolException
+225	235	4	RetryAndFollowUpInterceptor.java	isRecoverable	e	IOException	0	RET	$ instanceof InterruptedIOException
+226	241	4	RetryAndFollowUpInterceptor.java	isRecoverable	e	IOException	0	RET	$ instanceof SSLHandshakeException
+227	244	6	RetryAndFollowUpInterceptor.java	isRecoverable	e	IOException	0	RET	$.getCause() instanceof CertificateException
+228	248	4	RetryAndFollowUpInterceptor.java	isRecoverable	e	IOException	0	RET	$ instanceof SSLPeerUnverifiedException
+229	265	4	RetryAndFollowUpInterceptor.java	followUpRequest	userResponse	Response	0	IllegalStateException	$ == null
+230	278	8	RetryAndFollowUpInterceptor.java	followUpRequest	selectedProxy	Proxy	0	ProtocolException	$.type() != Proxy.Type.HTTP
+231	290	8	RetryAndFollowUpInterceptor.java	followUpRequest	method	String	0	RET	$.equals("GET")
+231	290	8	RetryAndFollowUpInterceptor.java	followUpRequest	method	String	0	RET	$.equals("HEAD")
+232	299	8	RetryAndFollowUpInterceptor.java	followUpRequest	THIS	RetryAndFollowUpInterceptor	0	RET	$.client.followRedirects()
+233	302	8	RetryAndFollowUpInterceptor.java	followUpRequest	location	String	0	RET	$ == null
+234	306	8	RetryAndFollowUpInterceptor.java	followUpRequest	url	HttpUrl	0	RET	$ == null
+235	310	8	RetryAndFollowUpInterceptor.java	followUpRequest	THIS	RetryAndFollowUpInterceptor	0	RET	$.client.followSslRedirects()
+235	310	8	RetryAndFollowUpInterceptor.java	followUpRequest	sameScheme	boolean	0	RET	$
+236	314	8	RetryAndFollowUpInterceptor.java	followUpRequest	method	String	0	DEF	HttpMethod.permitsRequestBody($)
+237	316	10	RetryAndFollowUpInterceptor.java	followUpRequest	method	String	1	DEF	HttpMethod.redirectsToGet($)
+238	322	10	RetryAndFollowUpInterceptor.java	followUpRequest	maintainBody	boolean	0	DEF	$
+239	332	8	RetryAndFollowUpInterceptor.java	followUpRequest	THIS	RetryAndFollowUpInterceptor	0	DEF	$.sameConnection(userResponse, url)
+239	332	8	RetryAndFollowUpInterceptor.java	followUpRequest	url	HttpUrl	0	DEF	sameConnection(userResponse, $)
+239	332	8	RetryAndFollowUpInterceptor.java	followUpRequest	userResponse	Response	0	DEF	sameConnection($, url)
+240	342	8	RetryAndFollowUpInterceptor.java	followUpRequest	userResponse	Response	0	RET	$.request().body() instanceof UnrepeatableRequestBody
+853	42	4	Route.java	Route	address	Address	0	NullPointerException	$ == null
+854	45	4	Route.java	Route	proxy	Proxy	0	NullPointerException	$ == null
+855	48	4	Route.java	Route	inetSocketAddress	InetSocketAddress	0	NullPointerException	$ == null
+856	83	4	Route.java	equals	obj	Object	0	RET	$ instanceof Route
+60	56	4	RouteException.java	addSuppressedIfPossible	THIS	RouteException	0	DEF	$.addSuppressedExceptionMethod != null
+139	74	4	RouteSelector.java	next	THIS	RouteSelector	0	NoSuchElementException:RET	$.hasNextInetSocketAddress()
+140	75	6	RouteSelector.java	next	THIS	RouteSelector	0	NoSuchElementException:RET	$.hasNextProxy()
+141	76	8	RouteSelector.java	next	THIS	RouteSelector	0	NoSuchElementException	$.hasNextPostponed()
+142	86	4	RouteSelector.java	next	THIS	RouteSelector	0	RET	$.routeDatabase.shouldPostpone(route)
+142	86	4	RouteSelector.java	next	route	Route	0	RET	routeDatabase.shouldPostpone($)
+143	100	4	RouteSelector.java	connectFailed	THIS	RouteSelector	0	DEF	$.address.proxySelector() != null
+143	100	4	RouteSelector.java	connectFailed	failedRoute	Route	0	DEF	$.proxy().type() != Proxy.Type.DIRECT
+144	111	4	RouteSelector.java	resetNextProxy	proxy	Proxy	1	DEF	$ != null
+145	131	4	RouteSelector.java	nextProxy	THIS	RouteSelector	0	SocketException	$.hasNextProxy()
+146	147	4	RouteSelector.java	resetNextInetSocketAddress	proxy	Proxy	1	DEF	$.type() == Proxy.Type.DIRECT
+146	147	4	RouteSelector.java	resetNextInetSocketAddress	proxy	Proxy	1	DEF	$.type() == Proxy.Type.SOCKS
+147	152	6	RouteSelector.java	resetNextInetSocketAddress	proxyAddress	SocketAddress	0	IllegalArgumentException	$ instanceof InetSocketAddress
+148	161	4	RouteSelector.java	resetNextInetSocketAddress	socketPort	int	0	SocketException	$ < 1
+148	161	4	RouteSelector.java	resetNextInetSocketAddress	socketPort	int	0	SocketException	$ > 65535
+149	166	4	RouteSelector.java	resetNextInetSocketAddress	proxy	Proxy	1	DEF	$.type() == Proxy.Type.SOCKS
+57374	171	6	RouteSelector.java	resetNextInetSocketAddress	i	int	0	NIL-FOR	$ < size
+57374	171	6	RouteSelector.java	resetNextInetSocketAddress	size	int	0	NIL-FOR	i < $
+150	187	4	RouteSelector.java	getHostString	address	InetAddress	0	RET	$ == null
+151	205	4	RouteSelector.java	nextInetSocketAddress	THIS	RouteSelector	0	SocketException	$.hasNextInetSocketAddress()
+514	59	4	Settings.java	set	THIS	Settings	0	RET	id >= $.values.$.length
+514	59	4	Settings.java	set	id	int	0	RET	$ >= values.length
+57414	123	4	Settings.java	merge	i	int	0	NIL-FOR	$ < COUNT
+515	124	6	Settings.java	merge	i	int	0	DEF	other.isSet($)
+515	124	6	Settings.java	merge	other	Settings	0	DEF	$.isSet(i)
+198	51	4	StatusLine.java	parse	statusLine	String	1	ProtocolException	$.startsWith("HTTP/1.")
+199	52	6	StatusLine.java	parse	statusLine	String	0	ProtocolException	$.length() < 9
+199	52	6	StatusLine.java	parse	statusLine	String	0	ProtocolException	$.charAt(8) != ' '
+200	57	6	StatusLine.java	parse	httpMinorVersion	int	1	DEF	$ == 0
+201	59	13	StatusLine.java	parse	httpMinorVersion	int	1	DEF	$ == 1
+202	64	11	StatusLine.java	parse	statusLine	String	1	DEF	$.startsWith("ICY ")
+203	73	4	StatusLine.java	parse	codeStart	int	0	ProtocolException	statusLine.length() < $ + 3
+203	73	4	StatusLine.java	parse	statusLine	String	0	ProtocolException	$.length() < codeStart + 3
+204	86	4	StatusLine.java	parse	codeStart	int	0	ProtocolException	statusLine.length() > $ + 3
+204	86	4	StatusLine.java	parse	statusLine	String	0	ProtocolException	$.length() > codeStart + 3
+205	87	6	StatusLine.java	parse	codeStart	int	0	ProtocolException	statusLine.charAt($ + 3) != ' '
+205	87	6	StatusLine.java	parse	statusLine	String	0	ProtocolException	$.charAt(codeStart + 3) != ' '
+206	100	4	StatusLine.java	toString	THIS	StatusLine	0	DEF	$.message != null
+61	126	8	StreamAllocation.java	findHealthyConnection	THIS	StreamAllocation	0	RET	candidate.$.successCount == 0
+61	126	8	StreamAllocation.java	findHealthyConnection	candidate	RealConnection	0	RET	$.successCount == 0
+62	133	6	StreamAllocation.java	findHealthyConnection	candidate	RealConnection	0	DEF	$.isHealthy(doExtensiveHealthChecks)
+62	133	6	StreamAllocation.java	findHealthyConnection	doExtensiveHealthChecks	boolean	0	DEF	candidate.isHealthy($)
+63	150	6	StreamAllocation.java	findConnection	THIS	StreamAllocation	0	IllegalStateException	$.released
+64	151	6	StreamAllocation.java	findConnection	THIS	StreamAllocation	0	IllegalStateException	$.codec != null
+65	152	6	StreamAllocation.java	findConnection	THIS	StreamAllocation	0	IOException	$.canceled
+66	156	6	StreamAllocation.java	findConnection	THIS	StreamAllocation	0	RET	allocatedConnection.$.noNewStreams
+66	156	6	StreamAllocation.java	findConnection	allocatedConnection	RealConnection	0	RET	$.noNewStreams
+66	156	6	StreamAllocation.java	findConnection	allocatedConnection	RealConnection	0	RET	$ != null
+67	162	6	StreamAllocation.java	findConnection	THIS	StreamAllocation	0	RET	$.connection != null
+68	170	4	StreamAllocation.java	findConnection	selectedRoute	Route	0	DEF	$ == null
+69	176	6	StreamAllocation.java	findConnection	THIS	StreamAllocation	0	IOException	$.canceled
+70	181	6	StreamAllocation.java	findConnection	THIS	StreamAllocation	0	RET	$.connection != null
+71	202	6	StreamAllocation.java	findConnection	result	RealConnection	0	DEF	$.isMultiplexed()
+72	215	6	StreamAllocation.java	streamFinished	THIS	StreamAllocation	0	IllegalStateException	codec != $.codec
+72	215	6	StreamAllocation.java	streamFinished	codec	HttpCodec	0	IllegalStateException	$ != this.codec
+72	215	6	StreamAllocation.java	streamFinished	codec	HttpCodec	0	IllegalStateException	$ == null
+73	218	6	StreamAllocation.java	streamFinished	noNewStreams	boolean	0	DEF	$
+74	267	4	StreamAllocation.java	deallocate	streamFinished	boolean	0	DEF	$
+75	270	4	StreamAllocation.java	deallocate	released	boolean	0	DEF	$
+76	274	4	StreamAllocation.java	deallocate	THIS	StreamAllocation	0	DEF	$.connection != null
+77	275	6	StreamAllocation.java	deallocate	noNewStreams	boolean	0	DEF	$
+78	278	6	StreamAllocation.java	deallocate	THIS	StreamAllocation	0	DEF	$.connection.$.noNewStreams
+78	278	6	StreamAllocation.java	deallocate	THIS	StreamAllocation	0	DEF	$.codec == null
+78	278	6	StreamAllocation.java	deallocate	THIS	StreamAllocation	0	DEF	$.released
+79	280	8	StreamAllocation.java	deallocate	THIS	StreamAllocation	0	DEF	$.connection.$.allocations.isEmpty()
+80	282	10	StreamAllocation.java	deallocate	THIS	StreamAllocation	0	DEF	Internal.$.instance.connectionBecameIdle($.connectionPool, $.connection)
+81	300	4	StreamAllocation.java	cancel	codecToCancel	HttpCodec	1	DEF	$ != null
+82	302	11	StreamAllocation.java	cancel	connectionToCancel	RealConnection	0	DEF	$ != null
+83	312	6	StreamAllocation.java	streamFailed	e	IOException	1	DEF	$ instanceof StreamResetException
+84	314	8	StreamAllocation.java	streamFailed	THIS	StreamAllocation	0	DEF	streamResetException.$.errorCode == $.ErrorCode.REFUSED_STREAM
+84	314	8	StreamAllocation.java	streamFailed	streamResetException	StreamResetException	0	DEF	$.errorCode == ErrorCode.REFUSED_STREAM
+85	319	8	StreamAllocation.java	streamFailed	THIS	StreamAllocation	0	DEF	$.refusedStreamCount > 1
+85	319	8	StreamAllocation.java	streamFailed	THIS	StreamAllocation	0	DEF	streamResetException.$.errorCode != $.ErrorCode.REFUSED_STREAM
+85	319	8	StreamAllocation.java	streamFailed	streamResetException	StreamResetException	0	DEF	$.errorCode != ErrorCode.REFUSED_STREAM
+86	323	13	StreamAllocation.java	streamFailed	THIS	StreamAllocation	0	DEF	$.connection != null
+86	323	13	StreamAllocation.java	streamFailed	THIS	StreamAllocation	0	DEF	$.connection.isMultiplexed()
+86	323	13	StreamAllocation.java	streamFailed	e	IOException	0	DEF	$ instanceof ConnectionShutdownException
+87	328	8	StreamAllocation.java	streamFailed	THIS	StreamAllocation	0	DEF	$.connection.$.successCount == 0
+88	329	10	StreamAllocation.java	streamFailed	THIS	StreamAllocation	0	DEF	$.route != null
+88	329	10	StreamAllocation.java	streamFailed	e	IOException	0	DEF	$ != null
+89	347	4	StreamAllocation.java	acquire	THIS	StreamAllocation	0	IllegalStateException	$.connection != null
+57371	355	4	StreamAllocation.java	release	i	int	0	NIL-FOR	$ < size
+57371	355	4	StreamAllocation.java	release	size	int	0	NIL-FOR	i < $
+90	357	6	StreamAllocation.java	release	THIS	StreamAllocation	0	RET	reference.get() == $
+90	357	6	StreamAllocation.java	release	reference	Reference<StreamAllocation>	0	RET	$.get() == this
+91	375	4	StreamAllocation.java	releaseAndAcquire	THIS	StreamAllocation	0	IllegalStateException	$.connection.$.allocations.size() != 1
+91	375	4	StreamAllocation.java	releaseAndAcquire	THIS	StreamAllocation	0	IllegalStateException	$.codec != null
+608	89	4	Util.java	checkOffsetAndCount	arrayLength	long	0	ArrayIndexOutOfBoundsException	$ - offset < count
+608	89	4	Util.java	checkOffsetAndCount	arrayLength	long	0	ArrayIndexOutOfBoundsException	offset > $
+608	89	4	Util.java	checkOffsetAndCount	offset	long	0	ArrayIndexOutOfBoundsException	arrayLength - $ < count
+608	89	4	Util.java	checkOffsetAndCount	offset	long	0	ArrayIndexOutOfBoundsException	($ | count) < 0
+608	89	4	Util.java	checkOffsetAndCount	offset	long	0	ArrayIndexOutOfBoundsException	$ > arrayLength
+608	89	4	Util.java	checkOffsetAndCount	count	long	0	ArrayIndexOutOfBoundsException	arrayLength - offset < $
+608	89	4	Util.java	checkOffsetAndCount	count	long	0	ArrayIndexOutOfBoundsException	(offset | $) < 0
+609	104	4	Util.java	closeQuietly	closeable	Closeable	0	DEF	$ != null
+610	119	4	Util.java	closeQuietly	socket	Socket	0	DEF	$ != null
+611	123	8	Util.java	closeQuietly	THIS	Util	0	DEF	$.isAndroidGetsocknameError($.e)
+612	136	4	Util.java	closeQuietly	serverSocket	ServerSocket	0	DEF	$ != null
+57435	171	6	Util.java	skipAll	skipBuffer	Buffer	0	NIL-WHILE	source.read($, 8192) != -1
+57435	171	6	Util.java	skipAll	source	Source	0	NIL-WHILE	$.read(skipBuffer, 8192) != -1
+613	178	6	Util.java	skipAll	originalDuration	long	1	DEF	$ == Long.MAX_VALUE
+614	216	8	Util.java	intersect	THIS	Util	0	DEF	comparator.compare($.a, $.b) == 0
+614	216	8	Util.java	intersect	comparator	Comparator<? super String>	0	DEF	$.compare(a, b) == 0
+615	233	4	Util.java	nonEmptyIntersection	THIS	Util	0	RET	first.$.length == 0
+615	233	4	Util.java	nonEmptyIntersection	THIS	Util	0	RET	second.$.length == 0
+615	233	4	Util.java	nonEmptyIntersection	first	String[]	0	RET	$ == null
+615	233	4	Util.java	nonEmptyIntersection	first	String[]	0	RET	$.length == 0
+615	233	4	Util.java	nonEmptyIntersection	second	String[]	0	RET	$ == null
+615	233	4	Util.java	nonEmptyIntersection	second	String[]	0	RET	$.length == 0
+616	238	8	Util.java	nonEmptyIntersection	THIS	Util	0	RET	comparator.compare($.a, $.b) == 0
+616	238	8	Util.java	nonEmptyIntersection	comparator	Comparator<String>	0	RET	$.compare(a, b) == 0
+57436	257	4	Util.java	toHumanReadableAscii	i	int	0	NIL-FOR	$ < length
+57436	257	4	Util.java	toHumanReadableAscii	length	int	0	NIL-FOR	i < $
+617	259	6	Util.java	toHumanReadableAscii	c	int	0	DEF	$ > '\u001f'
+617	259	6	Util.java	toHumanReadableAscii	c	int	0	DEF	$ < '\u007f'
+57437	263	6	Util.java	toHumanReadableAscii	j	int	0	NIL-FOR	$ < length
+57437	263	6	Util.java	toHumanReadableAscii	length	int	0	NIL-FOR	j < $
+57438	282	4	Util.java	indexOf	i	int	0	NIL-FOR	$ < size
+57438	282	4	Util.java	indexOf	size	int	0	NIL-FOR	i < $
+618	283	6	Util.java	indexOf	i	int	0	RET	comparator.compare(array[$], value) == 0
+618	283	6	Util.java	indexOf	comparator	Comparator<String>	0	RET	$.compare(array[i], value) == 0
+618	283	6	Util.java	indexOf	array	String[]	0	RET	comparator.compare($[i], value) == 0
+618	283	6	Util.java	indexOf	value	String	0	RET	comparator.compare(array[i], $) == 0
+57439	300	4	Util.java	skipLeadingAsciiWhitespace	i	int	0	NIL-FOR	$ < limit
+57439	300	4	Util.java	skipLeadingAsciiWhitespace	limit	int	0	NIL-FOR	i < $
+57440	320	4	Util.java	skipTrailingAsciiWhitespace	i	int	0	NIL-FOR	$ >= pos
+57440	320	4	Util.java	skipTrailingAsciiWhitespace	pos	int	0	NIL-FOR	i >= $
+57441	347	4	Util.java	delimiterOffset	i	int	0	NIL-FOR	$ < limit
+57441	347	4	Util.java	delimiterOffset	limit	int	0	NIL-FOR	i < $
+619	348	6	Util.java	delimiterOffset	i	int	0	RET	delimiters.indexOf(input.charAt($)) != -1
+619	348	6	Util.java	delimiterOffset	input	String	0	RET	delimiters.indexOf($.charAt(i)) != -1
+619	348	6	Util.java	delimiterOffset	delimiters	String	0	RET	$.indexOf(input.charAt(i)) != -1
+57442	358	4	Util.java	delimiterOffset	i	int	0	NIL-FOR	$ < limit
+57442	358	4	Util.java	delimiterOffset	limit	int	0	NIL-FOR	i < $
+620	359	6	Util.java	delimiterOffset	i	int	0	RET	input.charAt($) == delimiter
+620	359	6	Util.java	delimiterOffset	input	String	0	RET	$.charAt(i) == delimiter
+620	359	6	Util.java	delimiterOffset	delimiter	char	0	RET	input.charAt(i) == $
+621	373	6	Util.java	domainToAscii	result	String	0	RET	$.isEmpty()
+622	376	6	Util.java	domainToAscii	THIS	Util	0	RET	$.containsInvalidHostnameAsciiCodes(result)
+622	376	6	Util.java	domainToAscii	result	String	0	RET	containsInvalidHostnameAsciiCodes($)
+57443	387	4	Util.java	containsInvalidHostnameAsciiCodes	i	int	0	NIL-FOR	$ < hostnameAscii.length()
+57443	387	4	Util.java	containsInvalidHostnameAsciiCodes	hostnameAscii	String	0	NIL-FOR	i < $.length()
+623	392	6	Util.java	containsInvalidHostnameAsciiCodes	c	char	0	RET	$ >= '\u007f'
+623	392	6	Util.java	containsInvalidHostnameAsciiCodes	c	char	0	RET	$ <= '\u001f'
+624	398	6	Util.java	containsInvalidHostnameAsciiCodes	c	char	0	RET	" #%/:?@[\\]".indexOf($) != -1
+57444	411	4	Util.java	indexOfControlOrNonAscii	i	int	0	NIL-FOR	$ < length
+57444	411	4	Util.java	indexOfControlOrNonAscii	length	int	0	NIL-FOR	i < $
+625	413	6	Util.java	indexOfControlOrNonAscii	c	char	0	RET	$ >= '\u007f'
+625	413	6	Util.java	indexOfControlOrNonAscii	c	char	0	RET	$ <= '\u001f'
+626	431	4	Util.java	bomAwareCharset	THIS	Util	0	RET	source.rangeEquals(0, $.UTF_8_BOM)
+626	431	4	Util.java	bomAwareCharset	source	BufferedSource	0	RET	$.rangeEquals(0, UTF_8_BOM)
+627	435	4	Util.java	bomAwareCharset	THIS	Util	0	RET	source.rangeEquals(0, $.UTF_16_BE_BOM)
+627	435	4	Util.java	bomAwareCharset	source	BufferedSource	0	RET	$.rangeEquals(0, UTF_16_BE_BOM)
+628	439	4	Util.java	bomAwareCharset	THIS	Util	0	RET	source.rangeEquals(0, $.UTF_16_LE_BOM)
+628	439	4	Util.java	bomAwareCharset	source	BufferedSource	0	RET	$.rangeEquals(0, UTF_16_LE_BOM)
+629	443	4	Util.java	bomAwareCharset	THIS	Util	0	RET	source.rangeEquals(0, $.UTF_32_BE_BOM)
+629	443	4	Util.java	bomAwareCharset	source	BufferedSource	0	RET	$.rangeEquals(0, UTF_32_BE_BOM)
+630	447	4	Util.java	bomAwareCharset	THIS	Util	0	RET	source.rangeEquals(0, $.UTF_32_LE_BOM)
+630	447	4	Util.java	bomAwareCharset	source	BufferedSource	0	RET	$.rangeEquals(0, UTF_32_LE_BOM)
+57392	102	4	WebSocketProtocol.java	toggleMask	i	int	0	NIL-FOR	$ < byteCount
+57392	102	4	WebSocketProtocol.java	toggleMask	byteCount	long	0	NIL-FOR	i < $
+291	109	4	WebSocketProtocol.java	closeCodeExceptionMessage	code	int	1	RET	$ < 1000
+291	109	4	WebSocketProtocol.java	closeCodeExceptionMessage	code	int	1	RET	$ >= 5000
+292	111	11	WebSocketProtocol.java	closeCodeExceptionMessage	code	int	1	RET	$ >= 1012
+292	111	11	WebSocketProtocol.java	closeCodeExceptionMessage	code	int	1	RET	$ >= 1004
+292	111	11	WebSocketProtocol.java	closeCodeExceptionMessage	code	int	1	RET	$ <= 2999
+292	111	11	WebSocketProtocol.java	closeCodeExceptionMessage	code	int	1	RET	$ <= 1006
+293	120	4	WebSocketProtocol.java	validateCloseCode	message	String	0	IllegalArgumentException	$ != null
+310	79	4	WebSocketReader.java	WebSocketReader	source	BufferedSource	0	NullPointerException	$ == null
+311	80	4	WebSocketReader.java	WebSocketReader	frameCallback	FrameCallback	0	NullPointerException	$ == null
+312	98	4	WebSocketReader.java	processNextFrame	THIS	WebSocketReader	1	DEF	$.isControlFrame
+313	106	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	IOException	$.closed
+314	123	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	ProtocolException	$.isControlFrame
+314	123	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	ProtocolException	$.isFinalFrame
+315	130	4	WebSocketReader.java	readHeader	reservedFlag1	boolean	0	ProtocolException	$
+315	130	4	WebSocketReader.java	readHeader	reservedFlag2	boolean	0	ProtocolException	$
+315	130	4	WebSocketReader.java	readHeader	reservedFlag3	boolean	0	ProtocolException	$
+316	138	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	ProtocolException	$.isMasked == $.isClient
+317	147	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	1	DEF	$.frameLength == PAYLOAD_SHORT
+318	149	11	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	ProtocolException	$.frameLength == PAYLOAD_LONG
+319	151	6	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	ProtocolException	$.frameLength < 0
+320	158	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	ProtocolException	$.frameLength > PAYLOAD_BYTE_MAX
+320	158	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	ProtocolException	$.isControlFrame
+321	162	4	WebSocketReader.java	readHeader	THIS	WebSocketReader	0	DEF	$.isMasked
+322	170	4	WebSocketReader.java	readControlFrame	THIS	WebSocketReader	0	EOFException	$.frameBytesRead < $.frameLength
+323	171	6	WebSocketReader.java	readControlFrame	THIS	WebSocketReader	1	DEF	$.isClient
+57394	174	8	WebSocketReader.java	readControlFrame	THIS	WebSocketReader	0	NIL-WHILE	$.frameBytesRead < $.frameLength
+324	177	10	WebSocketReader.java	readControlFrame	read	int	0	EOFException	$ == -1
+325	196	8	WebSocketReader.java	readControlFrame	bufferSize	long	1	ProtocolException	$ == 1
+326	198	15	WebSocketReader.java	readControlFrame	bufferSize	long	0	ProtocolException	$ != 0
+327	202	10	WebSocketReader.java	readControlFrame	codeExceptionMessage	String	0	ProtocolException	$ != null
+328	214	4	WebSocketReader.java	readMessageFrame	opcode	int	0	ProtocolException	$ != OPCODE_TEXT
+328	214	4	WebSocketReader.java	readMessageFrame	opcode	int	0	ProtocolException	$ != OPCODE_BINARY
+329	221	4	WebSocketReader.java	readMessageFrame	opcode	int	1	DEF	$ == OPCODE_TEXT
+57395	230	4	WebSocketReader.java	readUntilNonControlFrame	THIS	WebSocketReader	0	NIL-WHILE	$.closed
+330	232	6	WebSocketReader.java	readUntilNonControlFrame	THIS	WebSocketReader	0	DEF	$.isControlFrame
+331	246	6	WebSocketReader.java	readMessage	THIS	WebSocketReader	0	IOException	$.closed
+332	248	6	WebSocketReader.java	readMessage	THIS	WebSocketReader	0	ProtocolException:RET	$.frameBytesRead == $.frameLength
+333	249	8	WebSocketReader.java	readMessage	THIS	WebSocketReader	0	RET	$.isFinalFrame
+334	252	8	WebSocketReader.java	readMessage	THIS	WebSocketReader	0	ProtocolException	$.opcode != OPCODE_CONTINUATION
+335	255	8	WebSocketReader.java	readMessage	THIS	WebSocketReader	0	RET	$.frameLength == 0
+335	255	8	WebSocketReader.java	readMessage	THIS	WebSocketReader	0	RET	$.isFinalFrame
+336	263	6	WebSocketReader.java	readMessage	THIS	WebSocketReader	1	EOFException	$.isMasked
+337	266	8	WebSocketReader.java	readMessage	read	long	0	EOFException	$ == -1
+338	271	8	WebSocketReader.java	readMessage	read	long	0	EOFException	$ == -1
+294	65	4	WebSocketWriter.java	WebSocketWriter	sink	BufferedSink	0	NullPointerException	$ == null
+295	66	4	WebSocketWriter.java	WebSocketWriter	random	Random	0	NullPointerException	$ == null
+296	99	4	WebSocketWriter.java	writeClose	code	int	0	DEF	$ != 0
+296	99	4	WebSocketWriter.java	writeClose	reason	ByteString	0	DEF	$ != null
+297	100	6	WebSocketWriter.java	writeClose	code	int	0	DEF	$ != 0
+298	105	6	WebSocketWriter.java	writeClose	reason	ByteString	0	DEF	$ != null
+299	123	4	WebSocketWriter.java	writeControlFrameSynchronized	THIS	WebSocketWriter	0	IOException	$.writerClosed
+300	126	4	WebSocketWriter.java	writeControlFrameSynchronized	length	int	0	IllegalArgumentException	$ > PAYLOAD_BYTE_MAX
+301	135	4	WebSocketWriter.java	writeControlFrameSynchronized	THIS	WebSocketWriter	1	DEF	$.isClient
+302	158	4	WebSocketWriter.java	newMessageSink	THIS	WebSocketWriter	0	IllegalStateException	$.activeWriter
+303	176	4	WebSocketWriter.java	writeMessageFrameSynchronized	THIS	WebSocketWriter	0	IOException	$.writerClosed
+304	179	4	WebSocketWriter.java	writeMessageFrameSynchronized	isFinal	boolean	0	DEF	$
+305	185	4	WebSocketWriter.java	writeMessageFrameSynchronized	THIS	WebSocketWriter	0	DEF	$.isClient
+306	188	4	WebSocketWriter.java	writeMessageFrameSynchronized	byteCount	long	1	DEF	$ <= PAYLOAD_BYTE_MAX
+307	191	11	WebSocketWriter.java	writeMessageFrameSynchronized	byteCount	long	1	DEF	$ <= PAYLOAD_SHORT_MAX
+308	201	4	WebSocketWriter.java	writeMessageFrameSynchronized	THIS	WebSocketWriter	1	AssertionError	$.isClient
+57393	205	6	WebSocketWriter.java	writeMessageFrameSynchronized	written	long	0	NIL-FOR	$ < byteCount
+57393	205	6	WebSocketWriter.java	writeMessageFrameSynchronized	byteCount	long	0	NIL-FOR	written < $
+309	208	8	WebSocketWriter.java	writeMessageFrameSynchronized	read	int	0	AssertionError	$ == -1

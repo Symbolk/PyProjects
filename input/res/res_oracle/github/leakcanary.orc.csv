@@ -1,0 +1,91 @@
+id	oracle
+41	nameField == null
+42	clazz.getClassName().equals(Thread.class.getName())
+43	count == 0
+44	isCharArray(value)
+45	hasField(values, "offset")
+46	isByteArray(value)
+47	value instanceof ClassInstance
+48	value instanceof ArrayInstance
+49	arrayInstance.getArrayType() != Type.OBJECT
+50	fieldValue.getField().getName().equals(fieldName)
+51	fieldValue.getField().getName().equals(fieldName)
+0	instance instanceof RootObj
+52	heapDumpFile.exists()
+53	instance != null
+54	heapDumpFile.exists()
+55	leakingRef == null
+56	uniqueRootMap.containsKey(key)
+57	keyCandidate.equals(key)
+58	result.leakingNode == null
+59	isIgnoredDominator(leakingInstance, bitmapInstance)
+60	mBufferInstance == null
+61	bitmapSize < bufferSize
+62	((RootObj) immediateDominator).getRootType() == RootType.UNKNOWN
+62	immediateDominator instanceof RootObj
+63	instance == null
+64	instance == dominator
+65	element != null
+66	node.parent == null
+67	holder instanceof RootObj
+68	holder instanceof ClassObj
+69	holder instanceof ArrayInstance
+70	extendsThread(classObj)
+71	className.matches(ANONYMOUS_CLASS_NAME_PATTERN)
+72	Object.class.getName().equals(parentClassName)
+73	interfaces.length > 0
+74	instance instanceof ClassObj
+75	instance instanceof ArrayInstance
+76	arrayInstance.getArrayType() == Type.OBJECT
+77	instance instanceof ClassObj
+78	instance instanceof ArrayInstance
+1	i == 0
+2	i == elements.size() - 1
+3	type == STATIC_FIELD
+4	holder == THREAD
+4	holder == ARRAY
+5	referenceName != null
+6	extra != null
+7	exclusion != null
+8	holder == ARRAY
+9	holder == CLASS
+10	toVisitQueue.isEmpty()
+11	node.exclusion == null
+12	node.instance == leakingRef
+13	checkSeen(node)
+14	node.instance instanceof RootObj
+15	node.instance instanceof ClassObj
+16	node.instance instanceof ClassInstance
+17	node.instance instanceof ArrayInstance
+18	params == null
+18	params.alwaysExclude
+19	rootObj.getRootType() == RootType.JAVA_LOCAL
+20	node.exclusion != null
+21	field.getType() != Type.OBJECT
+22	fieldName.equals("$staticOverhead")
+23	ignoredStaticFields != null
+24	params != null
+25	params.alwaysExclude
+26	visit
+27	params != null
+28	classExclusion == null
+28	classExclusion.alwaysExclude
+29	classIgnoredFields != null
+30	classExclusion != null
+30	classExclusion.alwaysExclude
+31	field.getType() != Type.OBJECT
+32	params != null
+32	params.alwaysExclude
+32	fieldExclusion == null
+32	fieldExclusion.alwaysExclude
+33	arrayType == Type.OBJECT
+34	child == null
+35	isPrimitiveOrWrapperArray(child)
+35	isPrimitiveWrapper(child)
+36	toVisitSet.contains(child)
+37	visitNow
+37	toVisitIfNoPathSet.contains(child)
+38	isString(child)
+38	canIgnoreStrings
+39	visitedSet.contains(child)
+40	visitNow

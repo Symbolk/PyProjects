@@ -1,0 +1,2271 @@
+id	oracle
+1425	isDirected()
+608	Objects.equal(value, get(key))
+608	containedKey
+609	force
+610	containedKey
+611	conflict != null
+612	broken != null
+1618	result.containsKey(key)
+1619	value != null
+97	localInputFuture == null | localExceptionType == null | localFallback == null | isCancelled()
+98	throwable == null
+99	isInstanceOfThrowableClass(throwable, localExceptionType)
+1333	isSelfLoop
+1334	isSelfLoop
+131	curr == Waiter.TOMBSTONE
+132	curr.thread != null
+133	pred != null
+134	pred.thread == null
+135	ATOMIC_HELPER.casWaiters(this, curr, succ)
+136	Thread.interrupted()
+137	localValue instanceof SetFuture
+137	localValue != null & !(localValue instanceof SetFuture)
+138	remainingNanos >= SPIN_THRESHOLD_NANOS
+139	oldHead != Waiter.TOMBSTONE
+140	ATOMIC_HELPER.casWaiters(this, oldHead, node)
+141	Thread.interrupted()
+142	localValue instanceof SetFuture
+142	localValue != null & !(localValue instanceof SetFuture)
+143	remainingNanos < SPIN_THRESHOLD_NANOS
+144	localValue instanceof SetFuture
+144	localValue != null & !(localValue instanceof SetFuture)
+145	Thread.interrupted()
+146	Thread.interrupted()
+147	localValue instanceof SetFuture
+147	localValue != null & !(localValue instanceof SetFuture)
+148	oldHead != Waiter.TOMBSTONE
+149	ATOMIC_HELPER.casWaiters(this, oldHead, node)
+150	Thread.interrupted()
+151	localValue != null & !(localValue instanceof SetFuture)
+151	localValue instanceof SetFuture
+152	obj instanceof Cancellation
+153	obj instanceof Failure
+154	obj == NULL
+155	localValue == null | localValue instanceof SetFuture
+156	ATOMIC_HELPER.casValue(abstractFuture, localValue, valueToSet)
+157	mayInterruptIfRunning
+158	localValue instanceof SetFuture
+159	futureToPropagateTo instanceof TrustedFuture
+160	localValue == null | localValue instanceof SetFuture
+161	localValue instanceof SetFuture
+162	oldHead != Listener.TOMBSTONE
+163	ATOMIC_HELPER.casListeners(this, oldHead, newNode)
+164	ATOMIC_HELPER.casValue(this, null, valueToSet)
+165	ATOMIC_HELPER.casValue(this, null, valueToSet)
+166	localValue == null
+167	future.isDone()
+168	ATOMIC_HELPER.casValue(this, null, value)
+169	ATOMIC_HELPER.casValue(this, null, valueToSet)
+170	localValue instanceof Cancellation
+171	future instanceof TrustedFuture
+172	task instanceof SetFuture
+173	future.value == setFuture
+174	ATOMIC_HELPER.casValue(future, setFuture, valueToSet)
+175	related != null & isCancelled()
+1401	obj == this
+1402	obj instanceof Graph
+721	hasNext()
+722	hasPrevious()
+432	args == null
+433	method.getName().equals("hashCode")
+433	args.length == 0
+434	args.length == 1
+434	method.getParameterTypes()[0] == Object.class
+434	method.getName().equals("equals")
+435	arg == null
+436	proxy == arg
+437	method.getName().equals("toString")
+437	args.length == 0
+293	state != State.DONE
+294	hasNext()
+594	state != State.DONE
+595	hasNext()
+596	hasNext()
+1617	result.containsKey(key)
+534	collection == null
+535	collection.add(value)
+536	collection.add(value)
+537	collection == null
+538	iterator.hasNext()
+539	collection.add(iterator.next())
+540	collection == null
+541	collection instanceof NavigableSet
+542	collection instanceof SortedSet
+543	collection instanceof Set
+544	collection instanceof List
+545	collection == null
+546	collection instanceof NavigableSet
+547	collection instanceof SortedSet
+548	collection instanceof Set
+549	collection instanceof List
+550	map instanceof NavigableMap
+551	map instanceof SortedMap
+552	collection != null
+553	map instanceof NavigableMap
+554	map instanceof SortedMap
+963	occurrences == 0
+964	frequency == null
+965	occurrences == 0
+966	frequency == null
+967	oldCount > occurrences
+968	count == 0
+969	existingCounter == null
+970	i == null
+1186	object instanceof Entry
+1147	collection.contains(value)
+1148	values instanceof Collection
+1149	this instanceof SetMultimap
+801	Objects.equal(entry.getElement(), element)
+802	result == null
+803	result == null
+1172	entry == null
+1173	entry == null
+1336	isDirected()
+1337	obj == this
+1338	obj instanceof Network
+779	obj == this
+780	obj instanceof RangeSet
+940	hasNext()
+119	monitor.enterIf(isStartable)
+120	monitor.enterIf(isStoppable)
+121	monitor.enterWhenUninterruptibly(hasReachedRunning, timeout, unit)
+122	monitor.enterWhenUninterruptibly(isStopped, timeout, unit)
+123	actual != expected
+124	actual == FAILED
+125	snapshot.state != STARTING
+126	snapshot.shutdownWhenStartupFinishes
+127	previous != STOPPING
+127	previous != RUNNING
+128	monitor.isOccupiedByCurrentThread()
+129	from == State.STARTING
+130	from == State.RUNNING
+597	entryIterator.hasNext()
+598	entryIterator.hasNext()
+781	comparator == null
+1167	row.containsValue(value)
+90	isCancelled() | localInputFuture == null | localFunction == null
+1352	isSelfLoop
+1353	isSelfLoop
+1426	value == null
+1427	obj == this
+1428	obj instanceof ValueGraph
+93	localRunningState != null
+94	wasInterrupted()
+95	isCancelled() & futures != null
+96	firstTimeSeen
+194	seenExceptionsLocal == null
+1302	target instanceof Flushable
+1303	target instanceof Closeable
+1304	closed
+1527	safeMax < safeMin
+1528	c > safeMax
+1528	c < replacementsLength
+1528	c < safeMin
+1528	replacements[c] != null
+1529	c < replacementsLength
+1530	chars != null
+1531	c <= safeMax
+1531	c >= safeMin
+1557	map.isEmpty()
+1550	safeMax < safeMin
+1551	safeMin >= Character.MIN_HIGH_SURROGATE
+1552	c < replacementsLength
+1552	c < safeMinChar
+1552	replacements[c] != null
+1552	c > safeMaxChar
+1553	replacements[c] != null
+1553	c < replacementsLength
+1553	c > safeMaxChar
+1553	c < safeMinChar
+1554	cp < replacementsLength
+1555	chars != null
+1556	cp <= safeMax
+1556	cp >= safeMin
+798	Objects.equal(value, element)
+799	columnIndex == null
+799	rowIndex == null
+354	isUpperCase(string.charAt(i))
+355	isUpperCase(c)
+356	chars instanceof String
+357	isLowerCase(string.charAt(i))
+358	isLowerCase(c)
+359	chars instanceof String
+360	seq.length() <= maxLength
+361	string.length() <= maxLength
+362	s1 == s2
+363	length != s2.length()
+364	c1 == c2
+365	alphaIndex == getAlphaIndex(c2)
+365	alphaIndex < 26
+91	updater.compareAndSet(this, current, next)
+92	updater.compareAndSet(this, current, next)
+0	longs.compareAndSet(i, current, next)
+1	longs.compareAndSet(i, current, next)
+2	iMax == -1
+3	i == iMax
+179	expectedOldValue == 0L
+1251	length == result.length
+1848	logFloor < SQRT2_PRECOMPUTE_THRESHOLD
+1849	x.compareTo(halfPower) <= 0
+1850	fitsInLong(x)
+1851	approxCmp > 0
+1852	fitsInLong(x)
+1853	log2 < Double.MAX_EXPONENT
+1854	sqrt0.equals(sqrt1)
+1855	n < LongMath.factorials.length
+1856	(num & nextPowerOfTwo) != 0
+1857	normalizedBits + productBits >= Long.SIZE
+1858	product > 1
+1859	k > (n >> 1)
+1860	k < LongMath.biggestBinomials.length
+1860	n <= LongMath.biggestBinomials[k]
+1861	numeratorBits + bits >= Long.SIZE - 1
+563	node.isPresent()
+564	node.isPresent()
+417	object == this
+418	object instanceof BloomFilter
+419	expectedInsertions == 0
+420	p == 0
+404	get(index)
+405	o instanceof BitArray
+1660	value == target
+1661	array[i] == target
+1662	target.length == 0
+1663	array[i + j] != target[j]
+1664	array[i] == target
+1665	array.length == 0
+1666	result != 0
+1667	collection instanceof BooleanArrayAsList
+1668	backingArray.length == 0
+1669	value
+1065	object == this
+1066	object instanceof ByFunctionOrdering
+1270	sizeIfKnown.isPresent()
+1270	sizeIfKnown.get() == 0L
+1271	sizeIfKnown.isPresent()
+1272	read1 != read2
+1272	Arrays.equals(buf1, buf2)
+1273	read1 != buf1.length
+1239	r == -1
+1240	from instanceof FileChannel
+1241	read == -1
+1242	b == -1
+1243	size < 0
+1244	read != len
+1245	skipped < n
+1246	skipped == 0
+1247	(skipped = in.read(buf, 0, skip)) == -1
+1248	len < 0
+1249	result == -1
+1680	value == target
+1681	array[i] == target
+1682	target.length == 0
+1683	array[i + j] != target[j]
+1684	array[i] == target
+1685	collection instanceof ByteArrayAsList
+1686	backingArray.length == 0
+1600	strictParsing
+1601	expireAfterWriteNanos == 0
+1601	expireAfterAccessNanos == 0
+1602	ticker != null
+1603	weigher == null
+1604	strictParsing
+1605	maximumWeight == UNSET_INT
+1606	initialCapacity != UNSET_INT
+1607	concurrencyLevel != UNSET_INT
+1608	maximumSize != UNSET_INT
+1609	maximumWeight != UNSET_INT
+1610	expireAfterWriteNanos != UNSET_INT
+1611	expireAfterAccessNanos != UNSET_INT
+1612	keyStrength != null
+1613	valueStrength != null
+1614	keyEquivalence != null
+1615	valueEquivalence != null
+1616	removalListener != null
+1568	cacheBuilderSpecification.isEmpty()
+1569	initialCapacity != null
+1570	maximumSize != null
+1571	maximumWeight != null
+1572	concurrencyLevel != null
+1573	keyStrength != null
+1574	valueStrength != null
+1575	recordStats != null
+1575	recordStats
+1576	writeExpirationTimeUnit != null
+1577	accessExpirationTimeUnit != null
+1578	refreshTimeUnit != null
+1579	this == obj
+1580	obj instanceof CacheBuilderSpec
+1567	object instanceof CacheStats
+1108	copy.isEmpty()
+1109	o instanceof List
+1110	list.size() != axes.size()
+1111	axes.get(index).contains(itr.next())
+310	object instanceof StringConverter
+1558	escape(string.charAt(index)) != null
+1559	r == null
+1560	destSize < sizeNeeded
+1561	charsSkipped > 0
+1562	rlen > 0
+1563	charsLeft > 0
+1564	destSize < sizeNeeded
+1565	size < 0
+1566	index > 0
+1532	c > max
+366	totalCharacters * 2 <= DISTINCT_CHARS
+367	matches((char) c)
+368	matches(sequence.charAt(i))
+369	matches(sequence.charAt(i))
+370	matches(sequence.charAt(i))
+371	matches(sequence.charAt(i))
+372	pos == -1
+373	pos == chars.length
+374	matches(chars[pos])
+375	pos == -1
+376	matches(chars[i])
+377	replacementLen == 0
+378	replacementLen == 1
+379	pos == -1
+380	matches(sequence.charAt(first))
+381	matches(sequence.charAt(last))
+382	matches(sequence.charAt(first))
+383	matches(sequence.charAt(last))
+384	matches(c)
+385	c == replacement
+385	i == len - 1
+385	matches(sequence.charAt(i + 1))
+386	matches(c)
+387	inMatchingGroup
+1208	seq == null
+1209	hasRemaining()
+1210	hasRemaining()
+1277	lengthIfKnown.isPresent()
+1278	lengthIfKnown.get() == 0L
+1278	lengthIfKnown.isPresent()
+1305	processor.processLine(line)
+1306	amt == 0
+1307	target instanceof Writer
+1778	value > Character.MAX_VALUE
+1779	value < Character.MIN_VALUE
+1780	value == target
+1781	array[i] == target
+1782	target.length == 0
+1783	array[i + j] != target[j]
+1784	array[i] == target
+1785	array[i] < min
+1786	array[i] > max
+1787	len == 0
+1788	result != 0
+1789	collection instanceof CharArrayAsList
+1790	backingArray.length == 0
+438	classInfo.getPackageName().equals(packageName)
+439	classInfo.getName().startsWith(packagePrefix)
+1321	closeable == null
+1322	swallowIOException
+1211	closeable != null
+1212	throwable == null
+1213	throwable != null
+1213	thrown == null
+974	key == null
+975	value == null
+976	value < 0
+977	value < 0
+978	value <= 0
+941	comparator != null
+1137	unfiltered instanceof FilteredCollection
+1138	first
+1139	o == collection
+1140	first.size() != second.size()
+971	object == this
+972	object instanceof ComparatorOrdering
+1174	it.hasNext()
+1175	comparator.compare(prev, next) > 0
+1176	it.hasNext()
+1177	comparator.compare(prev, next) >= 0
+569	result != 0
+570	object == this
+571	object instanceof CompoundOrdering
+501	occurrences == 0
+502	existingCounter == null
+503	existingCounter == null
+504	oldValue != 0
+505	existingCounter.compareAndSet(oldValue, newValue)
+506	countMap.putIfAbsent(element, newCounter) == null
+506	countMap.replace(element, existingCounter, newCounter)
+507	occurrences == 0
+508	existingCounter == null
+509	oldValue != 0
+510	existingCounter.compareAndSet(oldValue, newValue)
+511	newValue == 0
+512	occurrences == 0
+513	existingCounter == null
+514	oldValue < occurrences
+515	existingCounter.compareAndSet(oldValue, newValue)
+516	newValue == 0
+517	existingCounter == null
+518	count == 0
+519	existingCounter == null
+520	oldValue == 0
+521	count == 0
+522	countMap.putIfAbsent(element, newCounter) == null
+522	countMap.replace(element, existingCounter, newCounter)
+523	existingCounter.compareAndSet(oldValue, count)
+524	count == 0
+525	existingCounter == null
+526	expectedOldCount != 0
+527	newCount == 0
+528	oldValue == expectedOldCount
+529	oldValue == 0
+530	newCount == 0
+531	existingCounter.compareAndSet(oldValue, newCount)
+532	newCount == 0
+1354	containsNode(node)
+1355	containsEdge(edge)
+1356	allowsParallelEdges()
+1357	allowsSelfLoops()
+1358	connectionsU == null
+1359	connectionsV == null
+1360	connections == null
+1361	nodeU == null
+1365	containsNode(node)
+1366	allowsSelfLoops()
+1367	connectionsU == null
+1368	connectionsV == null
+1369	previousValue == null
+1370	connections == null
+1371	allowsSelfLoops()
+1372	connections.removeSuccessor(node) != null
+1373	isDirected()
+1374	connectionsV == null
+1374	connectionsU == null
+1375	previousValue != null
+1362	nodeU == nodeV
+1362	allowsSelfLoops
+1363	connections == null
+1364	referenceNode == null
+1421	connectionsU == null
+1422	value == null
+1423	connections == null
+913	range.hasLowerBound()
+914	range.hasUpperBound()
+320	handleNullAutomatically
+321	handleNullAutomatically
+1293	result != -1
+1294	result != -1
+1295	in.markSupported()
+1296	mark == -1
+1104	that == belowAll()
+1105	that == aboveAll()
+1106	result != 0
+1107	obj instanceof Cut
+74	existing != null
+75	lock.isAcquiredByCurrentThread()
+76	lock.isAcquiredByCurrentThread()
+77	acquiredLockList.get(i) == node
+822	index == -1
+954	result == null
+955	result == null
+1339	value != null
+1340	value == PRED
+1341	value instanceof PredAndSucc
+1342	previousValue == PRED
+1343	previousValue instanceof PredAndSucc
+1344	previousValue == null
+1344	previousValue == PRED
+1345	previousValue instanceof PredAndSucc
+1346	previousValue == null
+1347	previousValue instanceof PredAndSucc
+1348	previousValue != PRED
+1349	previousValue == null
+1350	previousValue instanceof PredAndSucc
+1351	previousValue == PRED
+1411	predecessors == null
+1412	successors == null
+1413	predecessors != null
+1414	successors != null
+1415	predecessors != null
+1416	successors != null
+1971	isFinite(x)
+1972	isMathematicalInteger(x)
+1972	x >= 0.0
+1973	isMathematicalInteger(x)
+1973	x <= 0.0
+1974	isMathematicalInteger(x)
+1975	abs(x - z) == 0.5
+1976	abs(x - z) == 0.5
+1977	MIN_LONG_AS_DOUBLE - x < 1.0 & x < MAX_LONG_AS_DOUBLE_PLUS_ONE
+1978	isNormal(x)
+1979	n > MAX_FACTORIAL
+1980	fuzzyEquals(a, b, tolerance)
+1981	a < b
+1982	a > b
+1946	exponent < Long.SIZE - 1
+1947	exponent > MAX_EXPONENT
+1948	value > 0.0
+1756	value == target
+1757	array[i] == target
+1758	target.length == 0
+1759	array[i + j] != target[j]
+1760	array[i] == target
+1761	array.length == 0
+1762	result != 0
+1763	collection instanceof DoubleArrayAsList
+1764	backingArray.length == 0
+1765	FLOATING_POINT_PATTERN.matcher(string).matches()
+488	obj instanceof Element
+1417	comparator != null
+1418	obj == this
+1419	obj instanceof ElementOrder
+1420	comparator != null
+747	object instanceof Set
+1409	node.equals(nodeU)
+1410	node.equals(nodeV)
+1335	nodeIterator.hasNext()
+560	map instanceof EnumBiMap
+561	map instanceof EnumHashBiMap
+562	map instanceof EnumBiMap
+351	constants == null
+322	a == b
+323	a == null
+323	b == null
+324	t == null
+1548	escaper instanceof UnicodeEscaper
+1549	escaper instanceof CharEscaper
+1817	eventSubscribers.hasNext()
+1818	event instanceof DeadEvent
+951	maxSize == 0
+952	size() == maxSize
+953	size >= maxSize
+180	executed
+181	executed
+555	rank == null
+556	object instanceof ExplicitOrdering
+411	length <= 32
+412	length <= 16
+413	length <= 64
+414	length >= 8
+415	length >= 4
+416	length > 0
+1314	resetOnFinalize
+1315	file != null
+1316	memory == null
+1317	file != null
+1318	deleteMe.delete()
+1319	memory.getCount() + len > fileThreshold
+1319	file == null
+1320	resetOnFinalize
+1252	expectedSize > Integer.MAX_VALUE
+1253	file1 == file2
+1253	file1.equals(file2)
+1254	len1 != 0
+1254	len2 != 0
+1254	len1 != len2
+1255	tempDir.mkdir()
+1256	file.createNewFile()
+1256	file.setLastModified(System.currentTimeMillis())
+1257	parent == null
+1258	parent.isDirectory()
+1259	from.renameTo(to)
+1260	from.delete()
+1261	to.delete()
+1262	file.exists()
+1263	pathname.length() == 0
+1264	component.equals(".")
+1265	component.equals("..")
+1266	path.get(path.size() - 1).equals("..")
+1266	path.size() > 0
+1267	pathname.charAt(0) == '/'
+1268	result.equals("/..")
+1269	"".equals(result)
+1153	collection instanceof Set
+1154	collection.isEmpty()
+1154	predicate.apply(Maps.immutableEntry(key, collection))
+1155	collection.size() == entry.getValue().size()
+782	unfiltered.containsKey(key)
+783	unfiltered instanceof SetMultimap
+784	keyPredicate.apply(key)
+785	unfiltered instanceof SetMultimap
+617	entryPredicate.apply(entry)
+617	Objects.equal(entry.getValue(), o)
+352	threadStarted
+353	finalizer != null
+304	finalizableReferenceClass.getName().equals(FINALIZABLE_REFERENCE)
+305	inheritableThreadLocals != null
+306	cleanUp(queue.remove())
+307	finalizeReferentMethod == null
+308	reference == frqReference
+309	finalizableReferenceClass == null
+1670	value == target
+1671	array[i] == target
+1672	target.length == 0
+1673	array[i + j] != target[j]
+1674	array[i] == target
+1675	array.length == 0
+1676	result != 0
+1677	collection instanceof FloatArrayAsList
+1678	backingArray.length == 0
+1679	Doubles.FLOATING_POINT_PATTERN.matcher(string).matches()
+1141	iterable instanceof List
+1142	list.isEmpty()
+1143	iterator.hasNext()
+1144	iterable instanceof SortedSet
+1145	iterator.hasNext()
+1146	iterable instanceof Collection
+1276	swallowIOException
+944	Objects.equal(iterator.next(), object)
+973	Objects.equal(entry.getKey(), key)
+559	object instanceof Entry
+655	Objects.equal(entry.getElement(), object)
+699	entry == null
+700	entry == null
+599	comparator == null
+613	entryIterator.hasNext()
+614	entryIterator.hasNext()
+615	entryIterator.hasNext()
+616	entryIterator.hasNext()
+937	iterator.hasNext()
+938	unsafeCompare(ceiling, object) == 0
+291	obj == this
+292	obj instanceof FunctionalEquivalence
+176	value == null
+177	future.isDone()
+178	cause instanceof Error
+183	exceptionClass.equals(knownGood.get())
+184	validClasses.size() > 1000
+185	cause instanceof Error
+186	cause instanceof RuntimeException
+187	instance != null
+188	instance.getCause() == null
+189	paramType.equals(String.class)
+190	paramType.equals(Throwable.class)
+1067	hasLowerBound
+1068	hasUpperBound
+1069	hasUpperBound
+1069	hasLowerBound
+1070	cmp == 0
+1071	hasLowerBound()
+1072	hasUpperBound()
+1073	hasLowerBound()
+1074	other.hasLowerBound()
+1075	other.getLowerBoundType() == OPEN
+1075	cmp == 0
+1075	cmp < 0
+1076	hasUpperBound()
+1077	other.hasUpperBound()
+1078	cmp == 0
+1078	other.getUpperBoundType() == OPEN
+1078	cmp > 0
+1079	hasUpBound
+1079	hasLowBound
+1080	upType == OPEN
+1080	cmp > 0
+1080	cmp == 0
+1080	lowType == OPEN
+1081	obj instanceof GeneralRange
+1082	result == null
+1376	numEdges == 0
+1377	numEdges >= graph.nodes().size()
+1377	graph.isDirected()
+1378	subgraphHasCycle(graph, visitedNodes, node, null)
+1379	network.isDirected()
+1379	network.allowsParallelEdges()
+1379	network.edges().size() > network.asGraph().edges().size()
+1380	state == NodeVisitState.COMPLETE
+1381	state == NodeVisitState.PENDING
+1382	subgraphHasCycle(graph, visitedNodes, nextNode, node)
+1382	canTraverseWithoutReusingEdge(graph, nextNode, previousNode)
+1383	graph.isDirected()
+1383	Objects.equal(previousNode, nextNode)
+1384	graph.isDirected()
+1385	visitedNodes.contains(node)
+1386	visitedNodes.add(successor)
+1387	graph.isDirected()
+1388	graph instanceof TransposedGraph
+1389	graph.isDirected()
+1390	graph instanceof TransposedValueGraph
+1391	network.isDirected()
+1392	network instanceof TransposedNetwork
+1393	subgraph.nodes().contains(successorNode)
+1394	subgraph.nodes().contains(successorNode)
+1395	subgraph.nodes().contains(successorNode)
+724	bucketEntry == entry
+725	prevBucketEntry == null
+726	bucketEntry == entry
+727	prevBucketEntry == null
+728	entry.prevInKeyInsertionOrder == null
+729	entry.nextInKeyInsertionOrder == null
+730	oldEntryForKey == null
+731	lastInKeyInsertionOrder == null
+732	entry.prevInKeyInsertionOrder == null
+733	entry.nextInKeyInsertionOrder == null
+734	Objects.equal(key, entry.key)
+734	keyHash == entry.keyHash
+735	valueHash == entry.valueHash
+735	Objects.equal(value, entry.value)
+736	oldEntryForKey != null
+736	valueHash == oldEntryForKey.valueHash
+736	Objects.equal(value, oldEntryForKey.value)
+737	oldEntryForValue != null
+738	force
+739	oldEntryForKey != null
+740	Objects.equal(key, oldEntryForValue.key)
+740	oldEntryForValue != null
+740	keyHash == oldEntryForValue.keyHash
+741	oldEntryForKey != null
+742	force
+743	oldEntryForValue != null
+744	oldEntryForKey != null
+745	Hashing.needsResizing(size, oldKToV.length, LOAD_FACTOR)
+746	entry == null
+407	ch >= '0'
+407	ch <= '9'
+408	ch >= 'a'
+408	ch <= 'f'
+409	object instanceof HashCode
+410	bits() >= 32
+533	expectedEntries > (int) (loadFactor * tableSize)
+394	bits == 32
+395	bits <= 128
+396	next >= 0
+396	next < buckets
+401	b != -1
+402	numOfBytesRead != -1
+1488	hostPortString.startsWith("[")
+1489	colonPos >= 0
+1489	hostPortString.indexOf(':', colonPos + 1) == -1
+1490	Strings.isNullOrEmpty(portString)
+1491	closeBracketIndex + 1 == hostPortString.length()
+1492	port == defaultPort
+1492	hasPort()
+1493	this == other
+1494	other instanceof HostAndPort
+1495	host.indexOf(':') >= 0
+1496	hasPort()
+1497	addr != null
+1498	domain.hasPublicSuffix()
+1499	this == other
+1500	other instanceof HostSpecifier
+557	map instanceof ImmutableBiMap
+558	bimap.isPartialView()
+1112	map instanceof ImmutableClassToInstanceMap
+1035	size == 0
+1036	other.length < size
+1037	other.length > size
+942	object == this
+943	object instanceof ImmutableEnumMap
+823	collection instanceof ImmutableEnumSet<?>
+824	object == this
+825	object instanceof ImmutableEnumSet
+1687	values instanceof Collection
+1688	array[i] == target
+1689	array[i] == target
+1690	object == this
+1691	object instanceof ImmutableIntArray
+1692	this.length() != that.length()
+1693	this.get(i) != that.get(i)
+1694	isEmpty()
+1178	elements instanceof ImmutableCollection
+1179	elements.hasNext()
+1180	elements.hasNext()
+1181	length == 0
+1182	length < elements.length
+1183	length == size()
+1184	length == 0
+945	multimap.isEmpty()
+946	multimap instanceof ImmutableListMultimap
+947	kvMultimap.isPartialView()
+948	list.isEmpty()
+949	keyCount < 0
+950	valueCount <= 0
+623	safe
+624	map instanceof ImmutableMap
+624	map instanceof SortedMap
+625	kvMap.isPartialView()
+626	map instanceof EnumMap
+627	isEmpty()
+723	object instanceof Entry
+804	multimap instanceof ImmutableMultimap
+805	kvMultimap.isPartialView()
+1187	elements instanceof ImmutableMultiset
+1188	result.isPartialView()
+1189	entries.isEmpty()
+1424	network.isDirected()
+1157	rangeMap instanceof ImmutableRangeMap
+1158	index == -1
+1159	index == -1
+1160	ranges.isEmpty()
+1161	ranges.isEmpty()
+1162	ranges.isEmpty()
+1163	checkNotNull(range).isEmpty()
+1164	range.encloses(span())
+1164	ranges.isEmpty()
+1165	lowerIndex >= upperIndex
+1166	o instanceof RangeMap
+1010	range.isEmpty()
+1011	range.equals(Range.all())
+1012	rangeSet.isEmpty()
+1013	rangeSet.encloses(Range.<C>all())
+1014	rangeSet instanceof ImmutableRangeSet
+1015	immutableRangeSet.isPartialView()
+1016	ceilingIndex < ranges.size()
+1016	ranges.get(ceilingIndex).intersection(otherRange).isEmpty()
+1016	ranges.get(ceilingIndex).isConnected(otherRange)
+1017	index != -1
+1018	ranges.isEmpty()
+1019	ranges.isEmpty()
+1020	ranges.isEmpty()
+1021	result != null
+1022	ranges.isEmpty()
+1023	ranges.size() == 1
+1023	ranges.get(0).equals(Range.all())
+1024	range.isEmpty()
+1024	ranges.isEmpty()
+1025	range.encloses(span())
+1026	range.hasLowerBound()
+1027	range.hasUpperBound()
+1028	length == 0
+1029	isEmpty()
+1030	range.encloses(span)
+1031	range.isConnected(span)
+1032	isEmpty()
+1033	span.hasLowerBound()
+1034	span.hasUpperBound()
+998	value == null
+999	value.equals(element)
+1000	uniques == 1
+1001	tableSize != chooseTableSize(uniques)
+1002	setSize < CUTOFF
+1003	elements instanceof ImmutableSet
+1003	elements instanceof SortedSet
+1004	set.isPartialView()
+1005	elements instanceof EnumSet
+1006	elements.hasNext()
+1007	elements.hasNext()
+1008	object == this
+1009	object instanceof ImmutableSet
+1009	isHashCodeFast()
+1009	((ImmutableSet<?>) object).isHashCodeFast()
+1009	hashCode() != object.hashCode()
+772	multimap.isEmpty()
+772	valueComparator == null
+773	multimap instanceof ImmutableSetMultimap
+774	kvMultimap.isPartialView()
+775	set.isEmpty()
+776	keyCount < 0
+777	valueCount <= 0
+778	valueSet.size() != valueCount
+582	Ordering.natural().equals(comparator)
+583	comparator == null
+584	map instanceof ImmutableSortedMap
+585	kvMap.isPartialView()
+586	map instanceof SortedMap
+587	sameComparator
+587	map instanceof ImmutableSortedMap
+588	kvMap.isPartialView()
+589	sameComparator
+590	fromIndex == 0
+590	toIndex == size()
+591	fromIndex == toIndex
+592	result == null
+593	isEmpty()
+1202	elements instanceof ImmutableSortedMultiset
+1203	comparator.equals(multiset.comparator())
+1204	multiset.isPartialView()
+1205	entries.isEmpty()
+1206	Ordering.natural().equals(comparator)
+1207	result == null
+956	Ordering.natural().equals(comparator)
+957	elements instanceof ImmutableSortedSet
+957	hasSameComparator
+958	original.isPartialView()
+959	list.isEmpty()
+960	n == 0
+961	comparator.compare(cur, prev) != 0
+962	result == null
+939	table instanceof ImmutableTable
+1429	addr == null
+1430	c == '.'
+1431	c == ':'
+1432	hasDot
+1433	Character.digit(c, 16) == -1
+1434	hasColon
+1435	hasDot
+1436	ipString == null
+1437	hasDot
+1438	parts.length < 3
+1438	parts.length > IPV6_PART_COUNT + 1
+1439	parts[i].length() == 0
+1440	skipIndex >= 0
+1441	skipIndex >= 0
+1442	--partsHi != 0
+1442	parts[0].length() == 0
+1443	--partsLo != 0
+1443	parts[parts.length - 1].length() == 0
+1444	skipIndex >= 0 ? partsSkipped >= 1 : partsSkipped == 0
+1445	quad == null
+1446	ipPart.length() > 1
+1446	ipPart.startsWith("0")
+1446	octet > 255
+1447	hextet > 0xffff
+1448	ip instanceof Inet4Address
+1449	i < hextets.length
+1449	hextets[i] == 0
+1450	runStart < 0
+1451	runStart >= 0
+1452	runLength > bestRunLength
+1453	bestRunLength >= 2
+1454	thisIsNumber
+1455	lastWasNumber
+1456	i == 0
+1456	lastWasNumber
+1457	ip instanceof Inet6Address
+1458	addr == null
+1459	hostAddr.endsWith("]")
+1459	hostAddr.startsWith("[")
+1460	addr.length != expectBytes
+1460	addr == null
+1461	ip.isIPv4CompatibleAddress()
+1462	bytes[14] == 0
+1462	bytes[13] == 0
+1462	bytes[15] == 0
+1462	bytes[15] == 1
+1462	bytes[12] == 0
+1463	isTeredoAddress(ip)
+1464	(bytes[8] | (byte) 0x03) != (byte) 0x03
+1465	isCompatIPv4Address(ip)
+1466	is6to4Address(ip)
+1467	isTeredoAddress(ip)
+1468	bytes != null
+1468	bytes.length == 16
+1469	bytes[i] != 0
+1470	bytes[i] != (byte) 0xff
+1471	ip instanceof Inet4Address
+1472	bytes[i] != 0
+1473	bytes[15] == 1
+1473	leadingBytesOfZero
+1474	leadingBytesOfZero
+1474	bytes[15] == 0
+1475	hasEmbeddedIPv4ClientAddress(ip6)
+1476	coercedHash == 0xffffffff
+1477	addr[i] != (byte) 0xff
+1821	x > MAX_SIGNED_POWER_OF_TWO
+1822	k < Integer.SIZE
+1823	q == 0
+1824	rem == 0
+1825	cmpRemToHalfDivisor == 0
+1826	m <= 0
+1827	a == 0
+1828	b == 0
+1829	(k & 1) != 0
+1830	k > 0
+1831	k >= Integer.SIZE - 1
+1832	k >= Integer.SIZE
+1833	(k & 1) != 0
+1834	k > 0
+1835	-FLOOR_SQRT_MAX_INT > b | b > FLOOR_SQRT_MAX_INT
+1836	k > (n >> 1)
+1837	k >= biggestBinomials.length
+1837	n > biggestBinomials[k]
+1501	name.endsWith(".")
+1502	PublicSuffixPatterns.EXACT.containsKey(ancestorName)
+1503	PublicSuffixPatterns.EXCLUDED.containsKey(ancestorName)
+1504	matchesWildcardPublicSuffix(ancestorName)
+1505	validatePart(parts.get(lastIndex), true)
+1506	validatePart(part, false)
+1507	part.length() < 1
+1507	part.length() > MAX_DOMAIN_PART_LENGTH
+1508	PART_CHAR_MATCHER.matchesAllOf(asciiChars)
+1509	DASH_MATCHER.matches(part.charAt(0))
+1509	DASH_MATCHER.matches(part.charAt(part.length() - 1))
+1510	CharMatcher.digit().matches(part.charAt(0))
+1510	isFinalPart
+1511	isTopPrivateDomain()
+1512	object == this
+1513	object instanceof InternetDomainName
+114	ATOMIC_HELPER.compareAndSetRunner(this, null, Thread.currentThread())
+115	wasInterrupted()
+116	currentRunner != null
+1723	value > Integer.MAX_VALUE
+1724	value < Integer.MIN_VALUE
+1725	value == target
+1726	array[i] == target
+1727	target.length == 0
+1728	array[i + j] != target[j]
+1729	array[i] == target
+1730	array[i] < min
+1731	array[i] > max
+1732	array.length == 0
+1733	result != 0
+1734	collection instanceof IntArrayAsList
+1735	backingArray.length == 0
+1736	result.longValue() != result.intValue()
+1736	result == null
+423	returnType.isSupertypeOf(getReturnType())
+979	iterable instanceof ImmutableCollection
+979	iterable instanceof UnmodifiableIterable
+980	iterable instanceof Collection
+981	removeFrom instanceof Collection
+982	predicate.apply(next)
+983	iterable1 instanceof Collection
+983	iterable2 instanceof Collection
+984	collection1.size() != collection2.size()
+985	elementsToAdd instanceof Collection
+986	iterable instanceof Multiset
+987	iterable instanceof Set
+988	iterable instanceof List
+989	iterable instanceof List
+990	list.isEmpty()
+991	iterable instanceof Collection
+992	c.isEmpty()
+993	iterable instanceof List
+994	iterable instanceof List
+995	iterable instanceof Queue
+996	iterable instanceof Collection
+701	iterator instanceof UnmodifiableIterator
+702	element == null
+703	iterator.next() == null
+704	element.equals(iterator.next())
+705	elementsToRemove.contains(removeFrom.next())
+706	predicate.apply(removeFrom.next())
+707	elementsToRetain.contains(removeFrom.next())
+708	iterator2.hasNext()
+709	Objects.equal(o1, o2)
+710	first
+711	iterator.hasNext()
+712	iterator.hasNext()
+713	predicate.apply(element)
+714	predicate.apply(current)
+715	iterator.hasNext()
+716	position < 0
+717	iterator.hasNext()
+718	iterator.hasNext()
+719	length == 0
+720	iterator instanceof PeekingImpl
+69	future instanceof ListenableFuture
+70	future instanceof ListenableFuture
+333	o instanceof JdkPattern
+319	parts.hasNext()
+767	right.hasNext()
+768	result != 0
+769	right.hasNext()
+770	object == this
+771	object instanceof LexicographicalOrdering
+1297	sawReturn
+1297	len > 0
+1298	finishLine(cbuf[pos] == '\n')
+1299	pos + 1 < end
+1300	finishLine(cbuf[pos + 1] == '\n')
+1301	sawReturn
+1301	line.length() > 0
+1250	read == -1
+1126	head == null
+1127	nextSibling == null
+1128	keyList == null
+1129	nextSibling.previousSibling == null
+1130	nextSibling.previous == null
+1131	node.previous != null
+1132	node.next != null
+1133	node.nextSibling == null
+1133	node.previousSibling == null
+1134	node.previousSibling == null
+1135	node.nextSibling == null
+1136	node == null
+826	list instanceof ImmutableList
+827	list instanceof ReverseList
+828	list instanceof RandomAccess
+829	other == checkNotNull(thisList)
+830	other instanceof List
+831	size != otherList.size()
+832	thisList instanceof RandomAccess
+832	otherList instanceof RandomAccess
+833	Objects.equal(thisList.get(i), otherList.get(i))
+834	list instanceof RandomAccess
+835	Objects.equal(element, listIterator.next())
+836	element == null
+837	list.get(i) == null
+838	element.equals(list.get(i))
+839	list instanceof RandomAccess
+840	Objects.equal(element, listIterator.previous())
+841	element == null
+842	list.get(i) == null
+843	element.equals(list.get(i))
+844	list instanceof RandomAccess
+1274	0 > b1
+1275	-1 == b1
+1620	customWeigher()
+1620	evictsBySize()
+1621	segmentCapacity * segmentCount < initialCapacity
+1622	evictsBySize()
+1623	i == remainder
+1624	entry.getKey() == null
+1625	value == null
+1626	isExpired(entry, now)
+1627	expiresAfterAccess()
+1627	now - entry.getAccessTime() >= expireAfterAccessNanos
+1628	now - entry.getWriteTime() >= expireAfterWriteNanos
+1628	expiresAfterWrite()
+1629	segments[i].count != 0
+1630	sum != 0L
+1631	segments[i].count != 0
+1632	sum != 0L
+1633	key == null
+1634	value == null
+1635	value == null
+1636	result.containsKey(key)
+1637	value == null
+1638	keysToLoad.isEmpty()
+1639	value == null
+1640	success
+1641	result == null
+1642	key == null
+1642	value == null
+1643	nullsPresent
+1644	key == null
+1645	key == null
+1646	value == null
+1647	valueEquivalence.equivalent(value, v)
+1647	v != null
+1648	sum == last
+1649	key == null
+1650	value == null
+1650	key == null
+1651	oldValue == null
+1652	value == null
+1652	filter.test(key, value)
+1653	LocalCache.this.remove(key, value)
+1654	(as = cells) != null
+1654	casBase(b = base, b + x)
+1655	(hc = threadHashCode.get()) == null
+1655	as == null
+1655	uncontended = a.cas(v = a.value, v + x)
+1655	(n = as.length) < 1
+1655	(a = as[(n - 1) & hc[0]]) == null
+1656	as != null
+1657	a != null
+1658	as != null
+1659	a != null
+1881	x > MAX_SIGNED_POWER_OF_TWO
+1882	b <= 2
+1882	-2 <= b
+1883	k < Long.SIZE
+1884	fitsInInt(x)
+1885	x < guessSquared
+1886	x > guessSquared
+1887	rem == 0
+1888	cmpRemToHalfDivisor == 0
+1889	m <= 0
+1890	a == 0
+1891	b == 0
+1892	leadingZeros > Long.SIZE + 1
+1893	b >= -2 & b <= 2
+1894	(k & 1) != 0
+1895	k > 0
+1896	(a ^ b) < 0 | (a ^ naiveSum) >= 0
+1897	(a ^ b) >= 0 | (a ^ naiveDifference) >= 0
+1898	leadingZeros > Long.SIZE + 1
+1899	leadingZeros < Long.SIZE | (a < 0 & b == Long.MIN_VALUE)
+1900	a == 0
+1900	result / a == b
+1901	b >= -2 & b <= 2
+1902	k >= Long.SIZE - 1
+1903	k >= Long.SIZE
+1904	(k & 1) != 0
+1905	k > 0
+1906	-FLOOR_SQRT_MAX_LONG > b | b > FLOOR_SQRT_MAX_LONG
+1907	k > (n >> 1)
+1908	n < factorials.length
+1909	k >= biggestBinomials.length
+1909	n > biggestBinomials[k]
+1910	n <= biggestSimpleBinomials[k]
+1910	k < biggestSimpleBinomials.length
+1911	numeratorBits + nBits < Long.SIZE - 1
+1912	x == 1
+1913	n < 2
+1914	n == 2
+1914	n == 3
+1914	n == 7
+1914	n == 5
+1914	n == 13
+1914	n == 11
+1915	(SIEVE_30 & (1 << (n % 30))) != 0
+1916	n % 13 == 0
+1916	n % 7 == 0
+1916	n % 11 == 0
+1917	n < 17 * 17
+1918	n <= baseSet[0]
+1919	MillerRabinTester.test(baseSet[i], n)
+1920	result < 0
+1921	hiLo < 0
+1922	(p & 1) != 0
+1923	base == 0
+1924	a == 1
+1925	++j == r
+1702	value == target
+1703	array[i] == target
+1704	target.length == 0
+1705	array[i + j] != target[j]
+1706	array[i] == target
+1707	array[i] < min
+1708	array[i] > max
+1709	checkNotNull(string).isEmpty()
+1710	radix > Character.MAX_RADIX
+1710	radix < Character.MIN_RADIX
+1711	index == string.length()
+1712	digit < 0
+1712	digit >= radix
+1713	digit < 0
+1713	accum < cap
+1713	digit >= radix
+1714	accum < Long.MIN_VALUE + digit
+1715	negative
+1716	accum == Long.MIN_VALUE
+1717	array.length == 0
+1718	result != 0
+1719	collection instanceof LongArrayAsList
+1720	backingArray.length == 0
+400	supportsClone
+1408	entry.getKey() == key
+1408	entry != null
+656	strength != Strength.STRONG
+657	strength != Strength.STRONG
+658	useCustomMap
+659	initialCapacity != UNSET_INT
+660	concurrencyLevel != UNSET_INT
+661	keyStrength != null
+662	valueStrength != null
+663	keyEquivalence != null
+793	segmentCapacity * segmentCount < initialCapacity
+794	builder.getKeyStrength() == Strength.STRONG
+794	builder.getValueStrength() == Strength.STRONG
+795	builder.getKeyStrength() == Strength.STRONG
+795	builder.getValueStrength() == Strength.WEAK
+796	builder.getKeyStrength() == Strength.WEAK
+796	builder.getValueStrength() == Strength.STRONG
+797	builder.getKeyStrength() == Strength.WEAK
+797	builder.getValueStrength() == Strength.WEAK
+1396	value != null
+1397	value != null
+1398	value != null
+1399	entry.key == key
+1399	entry != null
+1400	entry != null
+1400	entry.key == key
+673	map instanceof ImmutableEnumMap
+674	map.isEmpty()
+675	expectedSize < 3
+676	expectedSize < Ints.MAX_POWER_OF_TWO
+677	left instanceof SortedMap
+678	right.containsKey(leftKey)
+679	valueEquivalence.equivalent(leftValue, rightValue)
+680	map instanceof SortedMap
+681	comparator != null
+682	map instanceof UnmodifiableNavigableMap
+683	o instanceof Entry
+684	o instanceof Entry
+685	map == object
+686	object instanceof Map
+687	first
+688	map.comparator() != Ordering.natural()
+688	range.hasLowerBound()
+688	map.comparator() != null
+688	range.hasUpperBound()
+689	range.hasLowerBound()
+689	range.hasUpperBound()
+690	range.hasLowerBound()
+691	range.hasUpperBound()
+1926	x <= 0
+1927	x <= 0
+1928	x.signum() <= 0
+1929	x < 0
+1930	x < 0
+1931	x.signum() < 0
+1932	x >= 0
+1933	condition
+1934	condition
+1935	condition
+1514	local == null
+1515	value == null
+1516	value.equals(currentValue)
+1517	normalizedAttribute.equals(key)
+1518	normalizedAttribute.equals(CHARSET_ATTRIBUTE)
+1519	'"' == tokenizer.previewChar()
+1520	'\\' == tokenizer.previewChar()
+1521	obj == this
+1522	obj instanceof MediaType
+1523	h == 0
+1524	result == null
+1525	parameters.isEmpty()
+1526	ch == '\\'
+1526	ch == '"'
+1526	ch == '\r'
+406	supportsClone
+1113	isEmpty()
+1114	size == index
+1115	lastElementAt == index
+1116	lastElementAt < index
+1117	changes == null
+1118	bubbledTo == vacated
+1119	heapForIndex(i).verifyIndex(i)
+1120	initialContents instanceof Collection
+1121	size > queue.length
+5	lock.tryLock()
+5	fair
+6	interrupted
+7	guard.monitor != this
+8	guard.isSatisfied()
+9	satisfied
+10	guard.monitor != this
+11	guard.isSatisfied()
+12	satisfied
+13	guard.monitor != this
+14	fair
+15	Thread.interrupted()
+16	lock.tryLock()
+17	lock.tryLock(time, unit)
+18	satisfied
+19	threw
+19	reentrant
+20	guard.monitor != this
+21	fair
+21	lock.tryLock()
+22	lock.tryLock(remainingNanos, TimeUnit.NANOSECONDS)
+23	guard.isSatisfied()
+24	startTime == 0L
+25	satisfied
+26	interrupted
+27	guard.monitor != this
+28	satisfied
+29	guard.monitor != this
+30	satisfied
+31	guard.monitor != this
+32	enter(time, unit)
+33	satisfied
+34	guard.monitor != this
+35	lock.tryLock(time, unit)
+36	satisfied
+37	guard.monitor != this
+38	lock.tryLock()
+39	satisfied
+40	(guard.monitor == this) & lock.isHeldByCurrentThread()
+41	guard.isSatisfied()
+42	(guard.monitor == this) & lock.isHeldByCurrentThread()
+43	guard.isSatisfied()
+44	(guard.monitor == this) & lock.isHeldByCurrentThread()
+45	guard.isSatisfied()
+46	Thread.interrupted()
+47	(guard.monitor == this) & lock.isHeldByCurrentThread()
+48	guard.isSatisfied()
+49	guard.isSatisfied()
+50	interrupted
+51	lock.getHoldCount() == 1
+52	guard.monitor != this
+53	timeoutNanos <= 0L
+54	isSatisfied(guard)
+55	waiters == 0
+56	waiters == 0
+57	p == guard
+58	pred == null
+59	signalBeforeWaiting
+60	signalBeforeWaiting
+61	nanos <= 0L
+62	firstTime
+63	signalBeforeWaiting
+64	firstTime
+100	f == null
+101	ntasks > 0
+102	active == 0
+103	timed
+104	f == null
+105	f != null
+106	ee == null
+107	isAppEngine()
+108	System.getProperty("com.google.appengine.runtime.environment") == null
+109	isAppEngine()
+110	isAppEngine()
+111	isAppEngine()
+112	service.awaitTermination(halfTimeoutNanos, TimeUnit.NANOSECONDS)
+113	delegate == directExecutor()
+1214	Files.isSameFile(path1, path2)
+1215	len1 != 0
+1215	len1 != len2
+1215	len2 != 0
+1216	parent == null
+1217	Files.isDirectory(parent)
+1218	Files.isDirectory(parent)
+1219	name == null
+1220	name == null
+1221	parentPath == null
+1222	parent instanceof SecureDirectoryStream
+1223	sdsSupported
+1224	exceptions == null
+1225	exceptions != null
+1226	stream instanceof SecureDirectoryStream
+1227	exceptions == null
+1228	exceptions != null
+1229	isDirectory(dir, path, NOFOLLOW_LINKS)
+1230	exceptions == null
+1231	Files.isDirectory(path, NOFOLLOW_LINKS)
+1232	exceptions == null
+1233	parent != null
+1234	path.getNameCount() == 0
+1235	Arrays.asList(options).contains(RecursiveDeleteOption.ALLOW_INSECURE)
+1236	exceptions == null
+1237	exceptions == null
+1238	other != null
+1323	in != null
+1324	it.hasNext()
+1325	in == null
+1326	in == null
+1327	result == -1
+1328	in == null
+1329	result == -1
+1330	n <= 0
+1330	in == null
+1331	result != 0
+1332	read() == -1
+1308	it.hasNext()
+1309	current == null
+1310	result == -1
+1311	n > 0
+1312	result > 0
+1313	current != null
+895	delegate instanceof ImmutableMultimap
+895	delegate instanceof UnmodifiableMultimap
+896	delegate instanceof ImmutableSetMultimap
+896	delegate instanceof UnmodifiableSetMultimap
+897	delegate instanceof UnmodifiableSortedSetMultimap
+898	delegate instanceof UnmodifiableListMultimap
+898	delegate instanceof ImmutableListMultimap
+899	collection instanceof SortedSet
+900	collection instanceof Set
+901	collection instanceof List
+902	entries instanceof Set
+903	unfiltered instanceof SetMultimap
+904	unfiltered instanceof ListMultimap
+905	unfiltered instanceof FilteredKeyMultimap
+906	unfiltered instanceof FilteredMultimap
+907	unfiltered instanceof FilteredKeySetMultimap
+908	unfiltered instanceof FilteredSetMultimap
+909	unfiltered instanceof FilteredKeyListMultimap
+910	unfiltered instanceof SetMultimap
+911	object == multimap
+912	object instanceof Multimap
+1083	multiset instanceof ImmutableMultiset
+1083	multiset instanceof UnmodifiableMultiset
+1084	unfiltered instanceof FilteredMultiset
+1085	elements instanceof Multiset
+1086	superCount < entry.getCount()
+1087	retainCount == 0
+1088	retainCount < entry.getCount()
+1089	occurrencesToRemove instanceof Multiset
+1090	removeCount >= entry.getCount()
+1091	removeCount > 0
+1092	object == multiset
+1093	object instanceof Multiset
+1094	multiset.entrySet().size() != that.entrySet().size()
+1094	multiset.size() != that.size()
+1095	multiset.count(entry.getElement()) != entry.getCount()
+1096	elements.isEmpty()
+1097	elements instanceof Multiset
+1098	delta > 0
+1099	delta < 0
+1100	self.count(element) == oldCount
+1101	current.hasNext()
+1102	current.hasNext()
+1103	hasNext()
+397	object instanceof Murmur3_128HashFunction
+398	object instanceof Murmur3_32HashFunction
+399	(input.length() & 1) == 1
+1151	result == null
+1152	result == null
+603	left == right
+604	left == null
+605	right == null
+606	object == this
+607	object instanceof NullsFirstOrdering
+864	left == right
+865	left == null
+866	right == null
+867	object == this
+868	object instanceof NullsLastOrdering
+761	array.length < size
+762	array.length > size
+763	dst.length < len
+764	dst.length > len
+765	length == 0
+766	element == null
+572	iterable instanceof Collection
+573	collection.size() <= 2L * k
+574	array.length > k
+575	k == 0
+575	iterator.hasNext()
+576	k >= Integer.MAX_VALUE / 2
+577	list.size() > k
+578	it.hasNext()
+579	compare(prev, next) > 0
+580	it.hasNext()
+581	compare(prev, next) >= 0
+1936	isNaN(sumOfProductsOfDeltas)
+1937	isNaN(sumOfProductsOfDeltas)
+1938	xSumOfSquaresOfDeltas > 0.0
+1939	yStats.sumOfSquaresOfDeltas() > 0.0
+1940	obj == null
+1941	getClass() != obj.getClass()
+1942	count() > 0
+1943	value > 0.0
+1944	value >= 1.0
+1945	value <= -1.0
+1960	isFinite(x)
+1960	isFinite(y)
+1961	xStats.count() > 1
+1962	values.count() == 0
+1963	yStats.count() == 0
+1964	isNaN(sumOfProductsOfDeltas)
+1965	isNaN(sumOfProductsOfDeltas)
+1966	xSumOfSquaresOfDeltas > 0.0
+1967	yStats.sumOfSquaresOfDeltas() > 0.0
+1968	value > 0.0
+1969	value >= 1.0
+1970	value <= -1.0
+302	elementEquivalence.equivalent(iteratorA.next(), iteratorB.next())
+303	object instanceof PairwiseEquivalence
+421	annotationType.isInstance(annotation)
+422	obj instanceof Parameter
+1773	stringValue.length() == 0
+1774	stringValue.startsWith("0x")
+1774	stringValue.startsWith("0X")
+1775	firstChar == '#'
+1776	stringValue.length() > 1
+1776	firstChar == '0'
+1478	safeChars.matches(".*[0-9A-Za-z].*")
+1479	safeChars.contains(" ")
+1479	plusForSpace
+1480	safeOctets[c]
+1480	c >= safeOctets.length
+1481	safeOctets[c]
+1481	c >= safeOctets.length
+1482	cp < safeOctets.length
+1482	safeOctets[cp]
+1483	plusForSpace
+1483	cp == ' '
+1484	cp <= 0x7F
+1485	cp <= 0x7ff
+1486	cp <= 0xffff
+1487	cp <= 0x10ffff
+205	expression
+206	expression
+207	expression
+208	b
+209	b
+210	b
+211	b
+212	b
+213	b
+214	b
+215	b
+216	b
+217	b
+218	b
+219	b
+220	b
+221	b
+222	b
+223	b
+224	b
+225	b
+226	b
+227	b
+228	b
+229	b
+230	expression
+231	expression
+232	expression
+233	b
+234	b
+235	b
+236	b
+237	b
+238	b
+239	b
+240	b
+241	b
+242	b
+243	b
+244	b
+245	b
+246	b
+247	b
+248	b
+249	b
+250	b
+251	b
+252	b
+253	b
+254	b
+255	reference == null
+256	reference == null
+257	reference == null
+258	obj == null
+259	obj == null
+260	obj == null
+261	obj == null
+262	obj == null
+263	obj == null
+264	obj == null
+265	obj == null
+266	obj == null
+267	obj == null
+268	obj == null
+269	obj == null
+270	obj == null
+271	obj == null
+272	obj == null
+273	obj == null
+274	obj == null
+275	obj == null
+276	obj == null
+277	obj == null
+278	obj == null
+279	obj == null
+280	index < 0
+280	index >= size
+281	index < 0
+282	size < 0
+283	index < 0
+283	index > size
+284	index < 0
+285	size < 0
+286	end < start
+286	end > size
+286	start < 0
+287	start < 0
+287	start > size
+288	end < 0
+288	end > size
+289	placeholderStart == -1
+290	i < args.length
+334	obj instanceof NotPredicate
+335	object instanceof Present
+1862	Double.isNaN(value)
+1863	lower == NEGATIVE_INFINITY
+1864	upper == POSITIVE_INFINITY
+1865	upper == POSITIVE_INFINITY
+1866	index < 0
+1866	index > scale
+1867	required == from
+1868	array[min] > array[index]
+1869	min != from
+1870	partitionPoint >= required
+1871	partitionPoint <= required
+1872	array[i] > pivot
+1873	toLessThanMid == midLessThanFrom
+1874	toLessThanMid != toLessThanFrom
+1875	requiredBelow >= requiredFrom
+1876	requiredAbove <= requiredTo
+1877	requiredFrom == requiredTo
+1878	allRequired[mid] > centerFloor
+1879	allRequired[mid] < centerFloor
+1880	from + to - allRequired[low] - allRequired[high] > 0
+869	elements instanceof Collection
+870	elements instanceof Collection
+871	elements instanceof Collection
+872	elements instanceof Collection
+873	elements instanceof Collection
+874	elements instanceof Collection
+875	added < numElements
+876	e == null
+877	added < numElements
+878	e == null
+879	interrupted
+881	values instanceof ContiguousSet
+882	upperBound == Cut.<C>belowAll()
+882	lowerBound == Cut.<C>aboveAll()
+882	lowerBound.compareTo(upperBound) > 0
+883	Iterables.isEmpty(values)
+884	values instanceof SortedSet
+885	Ordering.natural().equals(comparator)
+885	comparator == null
+886	contains(value)
+887	upperCmp <= 0
+887	lowerCmp >= 0
+888	lowerCmp <= 0
+888	upperCmp >= 0
+889	upperCmp >= 0
+889	lowerCmp <= 0
+890	upperCmp <= 0
+890	lowerCmp >= 0
+891	object instanceof Range
+892	this.equals(ALL)
+1150	encloses(range)
+71	mutex == null
+72	mutex == null
+73	canAcquire(nowMicros, timeoutMicros)
+1279	len == 0
+1280	draining
+1281	totalBytesRead == len
+1281	doneFlushing
+1282	doneFlushing
+1283	doneEncoding
+1284	result.isOverflow()
+1285	result.isUnderflow()
+1286	doneEncoding
+1287	endOfInput
+1288	result.isError()
+1289	availableCapacity(charBuffer) == 0
+1290	charBuffer.position() > 0
+1291	numChars == -1
+1292	overflow
+1292	byteBuffer.remaining() == 0
+786	fromElement.compareTo(toElement) == 0
+786	toInclusive
+786	fromInclusive
+787	domain.supportsFastOffset
+788	object == null
+789	other.isEmpty()
+790	object == this
+791	object instanceof RegularContiguousSet
+792	this.domain.equals(that.domain)
+600	n == entryArray.length
+601	nextInKeyBucket == null
+601	nextInValueBucket == null
+602	isEmpty()
+817	n == 0
+818	n == entryArray.length
+819	existing == null
+820	key == null
+820	keyTable == null
+821	key.equals(candidateKey)
+1168	distinct == 0
+1169	bucketHead == null
+1170	hashTable == null
+1170	element == null
+1171	Objects.equal(element, entry.getElement())
+565	table == null
+565	target == null
+566	candidate == null
+567	candidate.equals(target)
+893	from == to
+894	from == 0
+894	to == length
+916	targets instanceof Multiset
+917	SortedIterables.hasSameComparator(comparator(), targets)
+917	targets.size() <= 1
+918	thisIterator.hasNext()
+919	cmp < 0
+920	thisIterator.hasNext()
+921	cmp == 0
+922	thatIterator.hasNext()
+923	cmp > 0
+924	object == this
+925	object instanceof Set
+926	size() != that.size()
+927	isEmpty()
+928	SortedIterables.hasSameComparator(comparator, that)
+929	otherElement == null
+929	unsafeCompare(element, otherElement) != 0
+930	isEmpty()
+931	isEmpty()
+932	index >= 0
+933	index >= 0
+934	newFromIndex == 0
+934	newToIndex == size()
+935	newFromIndex < newToIndex
+936	target == null
+568	rowComparator != null
+568	columnComparator != null
+800	left == right
+693	object == this
+694	object instanceof ReverseOrdering
+65	suspensions > 0
+65	isWorkerRunning
+66	suspensions > 0
+66	isWorkerRunning
+67	isWorkerRunning
+67	suspensions > 0
+67	queue.isEmpty()
+68	executionRejected
+78	copy.isEmpty()
+79	service.isRunning()
+845	elements instanceof ImmutableEnumSet
+846	elements instanceof Collection
+847	collection.isEmpty()
+848	itr.hasNext()
+849	elements instanceof Collection
+850	collection instanceof EnumSet
+851	unfiltered instanceof SortedSet
+852	unfiltered instanceof FilteredSet
+853	unfiltered instanceof FilteredSet
+854	unfiltered instanceof FilteredSet
+855	s == object
+856	object instanceof Set
+857	set instanceof UnmodifiableNavigableSet
+857	set instanceof ImmutableSortedSet
+858	collection instanceof Multiset
+859	collection instanceof Set
+859	collection.size() > set.size()
+860	set.comparator() != null
+860	range.hasLowerBound()
+860	range.hasUpperBound()
+860	set.comparator() != Ordering.natural()
+861	range.hasLowerBound()
+861	range.hasUpperBound()
+862	range.hasLowerBound()
+863	range.hasUpperBound()
+1743	value > Short.MAX_VALUE
+1744	value < Short.MIN_VALUE
+1745	value == target
+1746	array[i] == target
+1747	target.length == 0
+1748	array[i + j] != target[j]
+1749	array[i] == target
+1750	array[i] < min
+1751	array[i] > max
+1752	array.length == 0
+1753	result != 0
+1754	collection instanceof ShortArrayAsList
+1755	backingArray.length == 0
+1737	value > Byte.MAX_VALUE
+1738	value < Byte.MIN_VALUE
+1739	array[i] < min
+1740	array[i] > max
+1741	array.length == 0
+1742	result != 0
+195	amInterruptible
+196	cause == null
+197	combineStackTraces
+198	cause instanceof Exception
+199	cause instanceof Error
+200	declaresInterruptedEx(m)
+201	exType == InterruptedException.class
+202	cause instanceof Error
+203	cause instanceof RuntimeException
+204	cause instanceof Error
+695	result == null
+692	code == 0
+403	object instanceof SipHashFunction
+325	setSize == 1
+326	table[index] == 0
+327	c == 0
+328	checkFilter(c)
+329	table[index] == 0
+330	table[index] == c
+331	containsZero
+332	c != 0
+182	nowMicros > nextFreeTicketMicros
+696	elements instanceof SortedSet
+697	elements instanceof SortedIterable
+698	result == null
+618	c > 0
+619	c < 0
+620	list instanceof RandomAccess
+621	c < 0
+622	c > 0
+880	entry == null
+997	oldValue != null
+301	separator.length() == 1
+664	columnKey == null
+665	safeContainsKey(map, columnKey)
+666	map == null
+667	columnKey == null
+667	rowKey == null
+668	map == null
+669	map.isEmpty()
+670	value != null
+671	entry.getValue().isEmpty()
+672	containsMapping(rowKey, columnKey, value)
+1838	isNaN(sumOfSquaresOfDeltas)
+1839	count == 1
+1840	isNaN(sumOfSquaresOfDeltas)
+1841	obj == null
+1842	getClass() != obj.getClass()
+1843	count() > 0
+1844	isFinite(value)
+1844	isFinite(mean)
+1845	isFinite(mean)
+1845	isFinite(value)
+1846	isFinite(mean)
+1846	isFinite(value)
+1847	isFinite(mean)
+1847	isFinite(value)
+1949	count == 0
+1950	isFinite(value)
+1951	isFinite(mean)
+1951	isFinite(value)
+1952	values.count() == 0
+1953	count == 0
+1954	isFinite(mean)
+1954	isFinite(values.mean())
+1955	isNaN(sumOfSquaresOfDeltas)
+1956	count == 1
+1957	isNaN(sumOfSquaresOfDeltas)
+1958	isFinite(previousMean)
+1959	previousMean == value
+1959	isFinite(value)
+311	DAYS.convert(nanos, NANOSECONDS) > 0
+312	HOURS.convert(nanos, NANOSECONDS) > 0
+313	MINUTES.convert(nanos, NANOSECONDS) > 0
+314	SECONDS.convert(nanos, NANOSECONDS) > 0
+315	MILLISECONDS.convert(nanos, NANOSECONDS) > 0
+316	MICROSECONDS.convert(nanos, NANOSECONDS) > 0
+628	streamB.isParallel()
+628	streamA.isParallel()
+629	fromSpliterator.hasCharacteristics(Spliterator.SUBSIZED)
+630	fromSpliterator.hasCharacteristics(Spliterator.SUBSIZED)
+631	fromSpliterator.hasCharacteristics(Spliterator.SUBSIZED)
+632	fromSpliterator.hasCharacteristics(Spliterator.SUBSIZED)
+633	spliterator.getExactSizeIfKnown() == 0
+634	spliterator.hasCharacteristics(Spliterator.SUBSIZED)
+635	prefix.getExactSizeIfKnown() == 0
+635	prefix == null
+636	spliterator.getExactSizeIfKnown() == 0
+637	prefix == null
+637	prefix.getExactSizeIfKnown() == 0
+638	state.set
+388	string.length() >= minLength
+389	string.length() >= minLength
+390	count <= 1
+391	size != longSize
+392	validSurrogatePairAt(b, p - 1)
+392	validSurrogatePairAt(a, p - 1)
+393	validSurrogatePairAt(b, b.length() - s - 1)
+393	validSurrogatePairAt(a, a.length() - s - 1)
+117	array.length == 0
+118	currentStripe == previousStripe
+1581	hc == null
+1582	(n = as.length) > 0
+1582	(as = cells) != null
+1583	(a = as[(n - 1) & h]) == null
+1584	busy == 0
+1585	busy == 0
+1585	casBusy()
+1586	rs[j = (m - 1) & h] == null
+1586	(rs = cells) != null
+1586	(m = rs.length) > 0
+1587	created
+1588	wasUncontended
+1589	a.cas(v = a.value, fn(v, x))
+1590	n >= NCPU
+1590	cells != as
+1591	collide
+1592	busy == 0
+1592	casBusy()
+1593	cells == as
+1594	cells == as
+1594	busy == 0
+1594	casBusy()
+1595	cells == as
+1596	init
+1597	casBase(v = base, fn(v, x))
+1598	as != null
+1599	a != null
+1819	e.getCause() instanceof Error
+1820	obj instanceof Subscriber
+1812	eventSubscribers == null
+1813	currentSubscribers == null
+1813	currentSubscribers.removeAll(listenerMethodsForType)
+1814	eventSubscribers != null
+1815	method.isAnnotationPresent(Subscribe.class)
+1815	method.isSynthetic()
+1816	identifiers.containsKey(ident)
+295	delegate instanceof NonSerializableMemoizingSupplier
+295	delegate instanceof MemoizingSupplier
+806	multiset instanceof ImmutableMultiset
+806	multiset instanceof SynchronizedMultiset
+807	multimap instanceof SynchronizedMultimap
+807	multimap instanceof ImmutableMultimap
+808	multimap instanceof SynchronizedListMultimap
+808	multimap instanceof ImmutableListMultimap
+809	multimap instanceof SynchronizedSetMultimap
+809	multimap instanceof ImmutableSetMultimap
+810	multimap instanceof SynchronizedSortedSetMultimap
+811	collection instanceof SortedSet
+812	collection instanceof Set
+813	collection instanceof List
+814	set instanceof SortedSet
+815	bimap instanceof SynchronizedBiMap
+815	bimap instanceof ImmutableBiMap
+816	entry == null
+1122	oldValue == null
+1123	newValue == null
+1124	obj == table
+1125	obj instanceof Table
+296	declaredType.isInstance(throwable)
+297	throwable != null
+298	throwable instanceof RuntimeException
+299	throwable instanceof Error
+300	throwable != null
+4	localTimer != null
+1190	k == 0
+1191	bufferSize == 0
+1192	bufferSize < k
+1193	comparator.compare(elem, threshold) > 0
+1194	comparator.compare(elem, threshold) < 0
+1195	bufferSize == 2 * k
+1196	pivotNewIndex > k
+1197	pivotNewIndex < k
+1198	iterations >= maxIterations
+1199	comparator.compare(buffer[i], threshold) > 0
+1200	comparator.compare(buffer[i], pivotValue) < 0
+1201	bufferSize > k
+1185	key == null
+1038	range.hasLowerBound()
+1039	range.hasUpperBound()
+1040	node == null
+1041	cmp < 0
+1042	cmp == 0
+1043	node == null
+1044	cmp > 0
+1045	cmp == 0
+1046	root == null
+1046	range.contains(e)
+1047	occurrences == 0
+1048	root == null
+1049	occurrences == 0
+1050	range.contains(e)
+1050	root == null
+1051	range.contains(element)
+1052	root == null
+1053	count > 0
+1054	root == null
+1055	oldCount == 0
+1056	newCount > 0
+1057	root == null
+1058	range.hasLowerBound()
+1059	node == null
+1060	comparator().compare(endpoint, node.getElement()) == 0
+1060	range.getLowerBoundType() == BoundType.OPEN
+1061	root == null
+1062	range.hasUpperBound()
+1063	node == null
+1064	comparator().compare(endpoint, node.getElement()) == 0
+1064	range.getUpperBoundType() == BoundType.OPEN
+748	mapEntry != null
+748	mapEntry.getValue().contains(key)
+749	range.isEmpty()
+750	entriesByLowerBound.isEmpty()
+751	entry.getValue().getValue().equals(value)
+751	entry != null
+751	entry.getValue().getKey().isConnected(range)
+752	firstEntry == null
+753	rangeToRemove.isEmpty()
+754	mapEntryBelowToTruncate != null
+755	rangeMapEntry.getUpperBound().compareTo(rangeToRemove.lowerBound) > 0
+756	rangeMapEntry.getUpperBound().compareTo(rangeToRemove.upperBound) > 0
+757	mapEntryAboveToTruncate != null
+758	rangeMapEntry.getUpperBound().compareTo(rangeToRemove.upperBound) > 0
+759	subRange.equals(Range.all())
+760	o instanceof RangeMap
+639	floorEntry != null
+639	floorEntry.getValue().contains(value)
+640	ceilingEntry.getValue().isConnected(range)
+640	ceilingEntry != null
+640	ceilingEntry.getValue().intersection(range).isEmpty()
+641	firstEntry == null
+642	rangeToAdd.isEmpty()
+643	entryBelowLB != null
+644	rangeBelowLB.upperBound.compareTo(lbToAdd) >= 0
+645	rangeBelowLB.upperBound.compareTo(ubToAdd) >= 0
+646	entryBelowUB != null
+647	rangeBelowUB.upperBound.compareTo(ubToAdd) >= 0
+648	rangeToRemove.isEmpty()
+649	entryBelowLB != null
+650	rangeBelowLB.upperBound.compareTo(rangeToRemove.lowerBound) >= 0
+651	rangeBelowLB.upperBound.compareTo(rangeToRemove.upperBound) >= 0
+651	rangeToRemove.hasUpperBound()
+652	entryBelowUB != null
+653	rangeToRemove.hasUpperBound()
+653	rangeBelowUB.upperBound.compareTo(rangeToRemove.upperBound) >= 0
+654	range.isEmpty()
+1983	c == ':'
+1983	c == ','
+1983	c == '&'
+1983	c == '?'
+1983	c == '!'
+1984	c == '?'
+1984	c == ','
+1984	c == '!'
+1984	c == ':'
+1985	domain.length() > 0
+1986	c != ','
+1986	c != '?'
+1987	encoded.charAt(idx) == ','
+1987	encoded.charAt(idx) == '?'
+191	localTask != null
+192	wasInterrupted()
+193	localTask != null
+424	o instanceof TypeParameter
+483	from.equals(to)
+484	type instanceof TypeVariable
+485	type instanceof ParameterizedType
+486	type instanceof GenericArrayType
+487	type instanceof WildcardType
+440	captured instanceof Class
+441	resolver == null
+442	runtimeType instanceof TypeVariable
+443	runtimeType instanceof WildcardType
+444	superclass == null
+445	token.getRawType().isInterface()
+446	runtimeType instanceof TypeVariable
+447	runtimeType instanceof WildcardType
+448	boundType.getRawType().isInterface()
+449	runtimeType instanceof TypeVariable
+450	runtimeType instanceof WildcardType
+451	superclass.isArray()
+452	runtimeType instanceof WildcardType
+453	isArray()
+454	supertype instanceof WildcardType
+455	runtimeType instanceof WildcardType
+456	runtimeType instanceof TypeVariable
+457	runtimeType instanceof GenericArrayType
+458	supertype instanceof Class
+459	supertype instanceof ParameterizedType
+460	supertype instanceof GenericArrayType
+461	isPrimitive()
+462	isWrapper()
+463	componentType == null
+464	o instanceof TypeToken
+465	superclass.isAssignableFrom(rawType)
+466	someRawTypeIsSubclassOf(matchedClass)
+467	resolveType(typeParams[i]).is(toTypeArgs[i])
+468	runtimeType instanceof Class
+469	fromClass.isArray()
+470	runtimeType instanceof GenericArrayType
+471	runtimeType instanceof Class
+472	thisClass.isArray()
+473	runtimeType instanceof GenericArrayType
+474	runtimeType.equals(formalType)
+475	formalType instanceof WildcardType
+476	ownerType != null
+476	of(ownerType).isSubtypeOf(supertype)
+477	runtimeType instanceof ParameterizedType
+478	runtimeType instanceof Class<?>
+479	cls.isArray()
+480	ownerType != null
+480	typeParams.length > 0
+480	ownerType != cls.getEnclosingClass()
+481	bound.isSubtypeOf(supertype)
+482	subclass.getTypeParameters().length == 0
+482	getRawType().getTypeParameters().length != 0
+482	runtimeType instanceof Class
+425	visited.add(type)
+425	type == null
+426	type instanceof TypeVariable
+427	type instanceof WildcardType
+428	type instanceof ParameterizedType
+429	type instanceof Class
+430	type instanceof GenericArrayType
+431	succeeded
+489	componentType instanceof WildcardType
+490	lowerBounds.length == 1
+491	ownerType == null
+492	rawType.isLocalClass()
+493	behavior.getOwnerType(LocalClass.class) == parameterizedType.getOwnerType()
+494	componentType != null
+495	componentType instanceof Class
+496	componentClass.isPrimitive()
+497	type instanceof Class
+498	type instanceof Class
+499	cls.isArray()
+500	componentType instanceof Class
+1403	adjacentNodes == null
+1404	isSelfLoop
+1405	adjacentNodes != null
+1406	isSelfLoop
+1407	adjacentNodes != null
+1533	cp < 0
+1533	escape(cp) != null
+1534	cp < 0
+1535	escaped != null
+1536	dest.length < sizeNeeded
+1537	charsSkipped > 0
+1538	escaped.length > 0
+1539	charsSkipped > 0
+1540	dest.length < endIndex
+1541	index < end
+1542	c1 < Character.MIN_HIGH_SURROGATE
+1542	c1 > Character.MAX_LOW_SURROGATE
+1543	c1 <= Character.MAX_HIGH_SURROGATE
+1544	index == end
+1545	Character.isLowSurrogate(c2)
+1546	size < 0
+1547	index > 0
+80	interrupted
+81	interrupted
+82	interrupted
+83	interrupted
+84	interrupted
+85	interrupted
+86	interrupted
+87	interrupted
+88	interrupted
+89	interrupted
+1156	result == null
+1695	value > toInt(MAX_VALUE)
+1696	value < 0
+1697	next < min
+1698	next > max
+1699	parse >> Byte.SIZE == 0
+1700	array.length == 0
+1701	result != 0
+1777	obj instanceof UnsignedInteger
+1766	value <= 0
+1767	value >= (1L << 32)
+1768	next < min
+1769	next > max
+1770	array.length == 0
+1771	left[i] != right[i]
+1772	(result & INT_MASK) != result
+1721	value < 0
+1722	obj instanceof UnsignedLong
+1791	next < min
+1792	next > max
+1793	array.length == 0
+1794	left[i] != right[i]
+1795	divisor < 0
+1796	compare(dividend, divisor) < 0
+1797	dividend >= 0
+1798	divisor < 0
+1799	compare(dividend, divisor) < 0
+1800	dividend >= 0
+1801	string.length() == 0
+1802	radix > Character.MAX_RADIX
+1802	radix < Character.MIN_RADIX
+1803	digit == -1
+1804	pos > maxSafePos
+1804	overflowInParse(value, digit, radix)
+1805	current >= 0
+1806	current < maxValueDivs[radix]
+1807	current > maxValueDivs[radix]
+1808	x == 0
+1809	x > 0
+1810	(radix & (radix - 1)) == 0
+1811	(radix & 1) == 0
+336	c < 0x800
+337	utf8Length < utf16Length
+338	c < 0x800
+339	MIN_SURROGATE <= c
+339	c <= MAX_SURROGATE
+340	Character.codePointAt(sequence, i) == c
+341	bytes[i] < 0
+342	index >= end
+343	byte1 < (byte) 0xE0
+344	index == end
+345	byte1 < (byte) 0xC2
+345	bytes[index++] > (byte) 0xBF
+346	byte1 < (byte) 0xF0
+347	index + 1 >= end
+348	byte2 > (byte) 0xBF
+348	byte1 == (byte) 0xE0
+348	byte1 == (byte) 0xED
+348	byte2 < (byte) 0xA0
+348	(byte) 0xA0 <= byte2
+348	bytes[index++] > (byte) 0xBF
+349	index + 2 >= end
+350	bytes[index++] > (byte) 0xBF
+350	bytes[index++] > (byte) 0xBF
+350	byte2 > (byte) 0xBF
+350	(((byte1 << 28) + (byte2 - (byte) 0x90)) >> 30) != 0
+317	expression
+318	expression
+915	es != null

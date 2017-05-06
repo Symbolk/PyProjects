@@ -1,0 +1,6 @@
+167	98	16	GJLocaleSymbols.java	maxLength	len	int	length()	0	1	OTHER_USE	1
+167	98	16	GJLocaleSymbols.java	maxLength	s	String	ARRAY_ACCESS	0	1	NO_USE	0
+167	98	16	GJLocaleSymbols.java	maxLength	i	int	NAME	0	0	NO_USE	0
+167	98	16	GJLocaleSymbols.java	maxLength	max	int	0	0	1	NO_USE	1
+167	98	16	GJLocaleSymbols.java	maxLength	a	String[]	PARAM_AS	1	0	NO_USE	0
+167	98	16	GJLocaleSymbols.java	maxLength	THIS	GJLocaleSymbols	UNKNOWN_AS	0	0	NO_USE	0

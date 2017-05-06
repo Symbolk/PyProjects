@@ -1,0 +1,1643 @@
+id	oracle
+25	type == null
+26	locale == null
+27	pattern == null
+28	pattern == null
+0	thisMillis < otherMillis
+1	thisMillis > otherMillis
+2	duration == null
+3	duration == null
+4	duration == null
+5	this == duration
+6	duration instanceof ReadableDuration == false
+7	(millis / 1000) * 1000 == millis
+55	type == null
+56	type == null
+57	field == null
+58	this == readableInstant
+59	readableInstant instanceof ReadableInstant == false
+60	this == other
+61	thisMillis == otherMillis
+62	thisMillis < otherMillis
+63	formatter == null
+86	end < start
+87	instant == null
+88	interval == null
+89	interval == null
+90	instant == null
+91	interval == null
+92	instant == null
+93	interval == null
+94	durMillis == 0
+95	this == readableInterval
+96	readableInterval instanceof ReadableInterval == false
+8	getFieldType(i) == type
+9	index == -1
+10	getFieldType(i).getDurationType() == type
+11	index == -1
+12	this == partial
+13	partial instanceof ReadablePartial == false
+14	size() != other.size()
+15	getValue(i) != other.getValue(i)
+15	getFieldType(i) != other.getFieldType(i)
+16	this == other
+17	size() != other.size()
+18	getFieldType(i) != other.getFieldType(i)
+19	getValue(i) > other.getValue(i)
+20	getValue(i) < other.getValue(i)
+21	partial == null
+22	partial == null
+23	partial == null
+24	formatter == null
+948	instant == null
+949	thisValue < otherValue
+950	thisValue > otherValue
+951	partial == null
+952	thisValue < otherValue
+953	thisValue > otherValue
+954	this == object
+955	object instanceof AbstractPartialFieldProperty == false
+64	index == -1
+65	this == period
+66	period instanceof ReadablePeriod == false
+67	size() != other.size()
+68	getValue(i) != other.getValue(i)
+68	getFieldType(i) != other.getFieldType(i)
+69	formatter == null
+938	instant == null
+939	instant == null
+940	instant == null
+941	thisValue < otherValue
+942	thisValue > otherValue
+943	partial == null
+944	thisValue < otherValue
+945	thisValue > otherValue
+946	this == object
+947	object instanceof AbstractReadableInstantFieldProperty == false
+332	(base = iBase) != null
+333	(base = iBase) != null
+333	(iBaseFlags & 6) == 6
+334	(base = iBase) != null
+334	(iBaseFlags & 5) == 5
+335	(base = iBase) != null
+335	(iBaseFlags & 1) == 1
+336	iBase != null
+337	iBase == null
+215	value < field.getMinimumValue()
+216	value > field.getMaximumValue()
+217	value < field.getMinimumValue(partial, values)
+218	value > field.getMaximumValue(partial, values)
+219	startInstant != endInstant
+220	duration != 0
+221	field.isPrecise()
+222	scalar != 0
+222	period != null
+223	value != 0
+224	scalar == 0
+224	duration == 0
+891	type == null
+892	valueToAdd == 0
+893	proposed <= max
+894	nextField == null
+895	fieldIndex == 0
+896	getRangeDurationField().getType() != nextField.getDurationField().getType()
+897	proposed >= min
+898	nextField == null
+899	fieldIndex == 0
+900	getRangeDurationField().getType() != nextField.getDurationField().getType()
+901	valueToAdd == 0
+902	proposed <= max
+903	nextField == null
+904	fieldIndex == 0
+905	getRangeDurationField().getType() != nextField.getDurationField().getType()
+906	proposed >= min
+907	nextField == null
+908	fieldIndex == 0
+909	getRangeDurationField().getType() != nextField.getDurationField().getType()
+910	values[i] > field.getMaximumValue(partial, values)
+911	values[i] < field.getMinimumValue(partial, values)
+912	max >= 0
+913	max < 10
+914	max < 100
+915	max < 1000
+916	newInstant != instant
+917	diffFromFloor <= diffToCeiling
+918	diffToCeiling <= diffFromFloor
+919	diffFromFloor < diffToCeiling
+920	diffToCeiling < diffFromFloor
+921	(get(ceiling) & 1) == 0
+49	start == end
+927	type == null
+928	thisMillis == otherMillis
+929	thisMillis < otherMillis
+50	end == null
+50	start == null
+51	period == null
+52	period == null
+53	converter.isReadableInterval(interval, chrono)
+54	this instanceof ReadWritableInterval
+29	pattern == null
+30	pattern == null
+31	endInstant == null
+31	startInstant == null
+32	start == null
+32	end == null
+33	start instanceof BaseLocal
+33	end instanceof BaseLocal
+33	start.getClass() == end.getClass()
+34	start.size() != end.size()
+35	start.getFieldType(i) != end.getFieldType(i)
+36	DateTimeUtils.isContiguous(start) == false
+37	this instanceof ReadWritablePeriod
+38	index == -1
+39	newValue != 0
+40	period == null
+41	index == -1
+42	value != 0
+42	field == null
+43	index == -1
+44	field == null
+44	value != 0
+45	period != null
+46	period != null
+47	value != 0
+48	index == -1
+70	start == null
+70	end == null
+71	end == null
+71	start == null
+72	start.size() != end.size()
+73	start.getFieldType(i) != end.getFieldType(i)
+74	DateTimeUtils.isContiguous(start) == false
+75	period == null
+76	value != 0
+77	field.isPrecise() == false
+78	index != 0
+79	index != 0
+80	type == getFieldType()
+81	this == period
+82	period instanceof ReadablePeriod == false
+83	other.getClass() != getClass()
+84	thisValue > otherValue
+85	thisValue < otherValue
+115	minDaysInFirstWeek < 1
+115	minDaysInFirstWeek > 7
+116	(base = getBase()) != null
+117	(base = getBase()) != null
+118	(base = getBase()) != null
+119	index >= 0
+120	zone != null
+121	getMinimumDaysInFirstWeek() != 4
+122	jan1dayOfWeek > (8 - iMinDaysInFirstWeek)
+123	i2 < 0
+124	diff < 0
+125	diff >= DateTimeConstants.MILLIS_PER_DAY * 365L
+126	isLeapYear(year)
+127	yearStart <= instant
+128	week == 1
+129	week > 51
+130	instant < firstWeekMillis1
+131	instant >= firstWeekMillis2
+132	instant >= 0
+133	daysSince19700101 < -3
+134	instant >= 0
+135	info.iYear != year
+135	info == null
+298	partial.isSupported(DateTimeFieldType.monthOfYear())
+299	partial.isSupported(DateTimeFieldType.year())
+300	partial.getFieldType(i) == DateTimeFieldType.monthOfYear()
+301	partial.getFieldType(j) == DateTimeFieldType.year()
+296	partial.isSupported(DateTimeFieldType.year())
+297	partial.getFieldType(i) == DateTimeFieldType.year()
+156	dayOfYear > 365
+157	isLeapYear(year)
+158	minuendRem < subtrahendRem
+338	isLeapYear(year)
+339	isLeapYear(year)
+340	subtrahendRem >= FEB_29
+341	isLeapYear(subtrahendYear)
+342	isLeapYear(minuendYear)
+343	minuendRem >= FEB_29
+343	isLeapYear(minuendYear)
+344	minuendRem < subtrahendRem
+345	dayOfYear > (31 + 28)
+346	isLeapYear(thisYear)
+347	isLeapYear(year)
+348	isLeapYear(year)
+192	months == 0
+193	monthToUse >= 0
+194	remMonthToUse == 0
+195	monthToUse == 1
+196	dayToUse > maxDay
+197	i_months == months
+198	monthToUse >= 0
+199	remMonthToUse == 0
+200	monthToUse == 1
+201	yearToUse < iChronology.getMinYear()
+201	yearToUse > iChronology.getMaxYear()
+202	dayToUse > maxDay
+203	valueToAdd == 0
+204	DateTimeUtils.isContiguous(partial)
+205	minuendInstant < subtrahendInstant
+206	minuendDom == iChronology.getDaysInYearMonth(minuendYear, minuendMonth)
+207	subtrahendDom > minuendDom
+208	minuendRem < subtrahendRem
+209	thisDom > maxDom
+210	iChronology.isLeapYear(thisYear)
+302	"1".equals(text) == false
+302	iEraText.equals(text) == false
+349	partial.isSupported(DateTimeFieldType.weekyear())
+350	partial.getFieldType(i) == DateTimeFieldType.weekyear()
+145	years == 0
+146	minuendInstant < subtrahendInstant
+147	iChronology.getWeeksInYear(minuendWeekyear) <= 52
+147	subtrahendRem >= WEEK_53
+148	minuendRem < subtrahendRem
+149	thisWeekyear == year
+150	setToWeek > maxOutWeeks
+151	workWoyYear < year
+152	workWoyYear > year
+153	wow > 1
+187	years == 0
+188	years == 0
+189	minuendInstant < subtrahendInstant
+190	iChronology.isLeapYear(get(instant))
+191	instant != yearStartMillis
+170	zone == null
+171	chrono == null
+172	zone == null
+173	zone == getZone()
+174	zone != null
+175	getParam() == null
+527	zone instanceof CachedDateTimeZone
+528	this == obj
+529	obj instanceof CachedDateTimeZone
+530	(int)((info.iPeriodStart >> 32)) != period
+530	info == null
+531	next > end
+531	next == periodStart
+697	chrono != null
+698	object.getClass().getName().endsWith(".BuddhistCalendar")
+699	object instanceof GregorianCalendar
+700	cutover == Long.MIN_VALUE
+701	cutover == Long.MAX_VALUE
+743	INSTANCE == null
+744	converter != null
+745	converter == null
+746	converter == null
+747	sm != null
+748	converter != null
+749	converter == null
+750	converter == null
+751	sm != null
+752	converter != null
+753	converter == null
+754	converter == null
+755	sm != null
+756	converter != null
+757	converter == null
+758	converter == null
+759	sm != null
+760	converter != null
+761	converter == null
+762	converter == null
+763	sm != null
+702	e.iType == type
+703	++index >= length
+704	entries[i] == null
+705	++index >= newLength
+706	converter.equals(existing)
+707	removed != null
+708	converter.getSupportedType() == existing.getSupportedType()
+709	j != i
+710	removed != null
+711	removed != null
+712	converter.equals(converters[i])
+713	removed != null
+714	index >= length
+715	removed != null
+716	i != index
+717	supportedType == type
+718	supportedType == null
+718	type != null
+718	supportedType.isAssignableFrom(type)
+719	length == 0
+719	type == null
+720	length == 1
+721	j != i
+721	converters[j].getSupportedType().isAssignableFrom(supportedType)
+722	length == 1
+287	zone == null
+288	chronos == null
+289	chrono == null
+290	zone == DateTimeZone.UTC
+291	zone == null
+292	zone == getZone()
+293	relativeYear <= 0
+294	isLeapYear(year)
+295	getBase() == null
+360	newZone == originalZone
+361	partial == null
+362	fieldType == null
+363	fieldType == null
+364	amount == 0
+365	durationToAdd == 0
+365	scalar == 0
+366	durationToAdd == null
+366	scalar == 0
+367	period == null
+367	scalar == 0
+368	years == 0
+369	months == 0
+370	weeks == 0
+371	days == 0
+372	years == 0
+373	months == 0
+374	weeks == 0
+375	days == 0
+376	type == null
+377	field.isSupported() == false
+1000	getChronology() == ISOChronology.getInstance()
+1001	getZone() == zone
+1002	getChronology() == chronology
+1003	newZone == originalZone
+1004	partial == null
+1005	fieldType == null
+1006	fieldType == null
+1007	amount == 0
+1008	scalar == 0
+1008	durationToAdd == 0
+1009	durationToAdd == null
+1009	scalar == 0
+1010	period == null
+1010	scalar == 0
+1011	years == 0
+1012	months == 0
+1013	weeks == 0
+1014	days == 0
+1015	hours == 0
+1016	minutes == 0
+1017	seconds == 0
+1018	millis == 0
+1019	years == 0
+1020	months == 0
+1021	weeks == 0
+1022	days == 0
+1023	hours == 0
+1024	minutes == 0
+1025	seconds == 0
+1026	millis == 0
+1027	type == null
+1028	field.isSupported() == false
+515	lowerLimit == null
+515	upperLimit == null
+516	upperLimit == null
+516	lowerLimit == DateTimeFieldType.dayOfYear()
+517	upperLimit == DateTimeFieldType.dayOfYear()
+517	lowerLimit == null
+518	iLowerLimit != null
+519	iUpperLimit != null
+520	lhsMillis < rhsMillis
+521	lhsMillis > rhsMillis
+522	object instanceof DateTimeComparator
+523	iLowerLimit == iUpperLimit
+1185	locale == null
+1186	tokenLen == 0
+1187	tokenLen == 2
+1188	i + 1 < length
+1189	isNumericToken(parseToken(pattern, indexRef))
+1190	i + 1 < length
+1191	isNumericToken(parseToken(pattern, indexRef))
+1192	tokenLen >= 3
+1193	tokenLen >= 4
+1194	tokenLen >= 4
+1195	tokenLen >= 4
+1196	tokenLen == 1
+1197	tokenLen == 2
+1198	sub.length() == 1
+1199	c >= 'A'
+1199	c >= 'a'
+1199	c <= 'Z'
+1199	c <= 'z'
+1200	peek == c
+1201	c == '\''
+1202	i + 1 < length
+1202	pattern.charAt(i + 1) == '\''
+1203	c <= 'Z'
+1203	c >= 'A'
+1203	c <= 'z'
+1203	c >= 'a'
+1203	inLiteral
+1204	tokenLen > 0
+1205	tokenLen <= 2
+1206	pattern == null
+1206	pattern.length() == 0
+1207	formatter == null
+1208	style.length() != 2
+1208	style == null
+1209	dateStyle == NONE
+1209	timeStyle == NONE
+1210	f == null
+1211	dateStyle == NONE
+1212	timeStyle == NONE
+1159	locale.equals(getLocale())
+1159	locale != null
+1159	locale == getLocale()
+1160	iOffsetParsed == true
+1161	iChrono == chrono
+1162	iZone == zone
+1163	iPivotYear == pivotYear
+1163	iPivotYear != null
+1163	iPivotYear.equals(pivotYear)
+1164	partial == null
+1165	partial == null
+1166	(instant ^ offset) >= 0
+1166	(instant ^ adjustedInstant) < 0
+1167	(instant ^ offset) >= 0
+1167	(instant ^ adjustedInstant) < 0
+1168	printer == null
+1169	instant == null
+1170	iOffsetParsed
+1170	bucket.getZone() == null
+1171	newPos >= 0
+1172	newPos >= text.length()
+1173	newPos >= 0
+1174	newPos >= text.length()
+1175	bucket.getZone() == null
+1176	newPos >= 0
+1177	newPos >= text.length()
+1178	iOffsetParsed
+1178	bucket.getZone() == null
+1179	newPos >= 0
+1180	newPos >= text.length()
+1181	iOffsetParsed
+1181	bucket.getZone() == null
+1182	parser == null
+1183	iChrono != null
+1184	iZone != null
+1392	isPrinter(f)
+1393	isParser(f)
+1394	parser != null
+1394	printer != null
+1395	isPrinter(f)
+1396	isParser(f)
+1397	formatter == null
+1398	printer != null
+1399	parsers == null
+1400	length == 1
+1401	parsers[0] == null
+1402	(copyOfParsers[i] = parsers[i]) == null
+1403	parser == null
+1404	printer == null
+1405	text == null
+1406	fieldType == null
+1407	maxDigits < minDigits
+1408	minDigits < 0
+1408	maxDigits <= 0
+1409	minDigits <= 1
+1410	fieldType == null
+1411	numDigits <= 0
+1412	fieldType == null
+1413	maxDigits < minDigits
+1414	minDigits < 0
+1414	maxDigits <= 0
+1415	minDigits <= 1
+1416	fieldType == null
+1417	numDigits <= 0
+1418	fieldType == null
+1419	fieldType == null
+1420	fieldType == null
+1421	maxDigits < minDigits
+1422	minDigits < 0
+1422	maxDigits <= 0
+1423	f == null
+1424	iElementPairs.size() == 2
+1425	printer != null
+1426	parser == null
+1426	printer == parser
+1427	f == null
+1428	f instanceof DateTimePrinter
+1429	f instanceof Composite
+1430	f instanceof DateTimeParser
+1431	f instanceof Composite
+1382	iSavedFieldsShared
+1382	savedFieldsCount == savedFields.length
+1383	iSavedState == null
+1384	savedState instanceof SavedState
+1385	((SavedState) savedState).restoreState(this)
+1386	iSavedFieldsShared
+1387	text != null
+1388	iZone == null
+1389	offset != iZone.getOffset(millis)
+1390	text != null
+1391	high > 10
+1133	offsetMillis == 0
+1134	millisProvider == null
+1135	sm != null
+1136	instant == null
+1137	instant == null
+1138	chrono == null
+1139	start != null
+1140	end != null
+1141	chrono == null
+1142	interval == null
+1143	chrono == null
+1144	interval == null
+1145	chrono == null
+1146	zone == null
+1147	type == null
+1148	duration == null
+1149	partial == null
+1150	i > 0
+1151	loopField.getRangeDurationField().getType() != lastType
+449	zone == null
+450	zone == null
+451	id != null
+452	temp == null
+453	temp == null
+454	sm != null
+455	zone == null
+456	id == null
+457	id.equals("UTC")
+458	zone != null
+459	id.startsWith("+")
+459	id.startsWith("-")
+460	offset == 0L
+461	minutesOffset == 0
+461	hoursOffset == 0
+462	minutesOffset < 0
+462	minutesOffset > 59
+463	hoursInMinutes < 0
+464	zone == null
+465	id.equals("UTC")
+466	convId != null
+467	dtz == null
+468	dtz != null
+469	convId == null
+470	convId.startsWith("GMT+")
+470	convId.startsWith("GMT-")
+471	offset == 0L
+472	offset == 0
+473	iFixedOffsetCache == null
+474	ref != null
+475	zone != null
+476	sm != null
+477	provider == null
+478	ids.size() == 0
+478	ids == null
+479	ids.contains("UTC")
+480	UTC.equals(provider.getZone("UTC"))
+481	providerClass != null
+482	provider == null
+483	provider == null
+484	sm != null
+485	nameProvider == null
+486	providerClass != null
+487	nameProvider == null
+488	map == null
+489	offset >= 0
+490	offset == 0
+491	offset == 0
+492	cOffsetFormatter == null
+493	id == null
+494	locale == null
+495	nameKey == null
+496	name != null
+497	locale == null
+498	nameKey == null
+499	name != null
+500	instant == null
+501	offsetLocal != offsetAdjusted
+502	(offsetLocal - offsetAdjusted) < 0
+503	nextLocal != nextAdjusted
+504	(instantUTC ^ offset) >= 0
+504	(instantUTC ^ instantLocal) < 0
+505	offsetLocal != offset
+506	strict
+506	offsetLocal < 0
+507	nextLocal == (instantLocal - offsetLocal)
+508	nextAdjusted == (instantLocal - offset)
+509	nextLocal != nextAdjusted
+510	strict
+511	(instantLocal ^ offset) < 0
+511	(instantLocal ^ instantUTC) < 0
+512	newZone == null
+513	newZone == this
+514	isFixed()
+532	in instanceof DataInput
+533	fixed.equals(DateTimeZone.UTC)
+534	millis % (30 * 60000L) == 0
+535	((units << (64 - 6)) >> (64 - 6)) == units
+536	millis % 60000L == 0
+537	((minutes << (64 - 30)) >> (64 - 30)) == minutes
+538	millis % 1000L == 0
+539	((seconds << (64 - 38)) >> (64 - 38)) == seconds
+540	wallOffset == 0
+540	"UTC".equals(id)
+540	standardOffset == 0
+540	id.equals(nameKey)
+541	iRuleSets.size() > 0
+542	fromYear <= toYear
+543	iRuleSets.size() == 0
+544	id == null
+545	next == null
+546	addTransition(transitions, next)
+547	tailZone != null
+548	tailZone == null
+548	i == ruleSetCount - 1
+549	transitions.size() == 0
+550	tailZone != null
+551	transitions.size() == 1
+551	tailZone == null
+552	zone.isCachable()
+553	size == 0
+554	tr.isTransitionFrom(last)
+555	size >= 2
+556	newLocal != lastLocal
+557	out instanceof DataOutput
+558	zone instanceof FixedDateTimeZone
+559	zone instanceof CachedDateTimeZone
+430	end instanceof LocalDate
+430	start instanceof LocalDate
+431	interval == null
+432	periodStr == null
+433	days == 0
+434	days == null
+435	days == null
+436	divisor == 1
+437	other == null
+438	other == null
+886	field == null
+887	field.isSupported()
+884	field == null
+885	field.isSupported()
+561	id == null
+561	nameKey == null
+561	locale == null
+562	byIdCache == null
+563	byNameKeyCache == null
+564	set.length == 5
+564	set != null
+564	id.equals(set[0])
+565	set[2].equals(set[4])
+956	field == null
+837	field == null
+825	divisor < 2
+826	unitField == null
+827	value >= 0
+828	value >= 0
+439	days == 0
+440	hours == 0
+441	minutes == 0
+442	seconds == 0
+443	millis == 0
+444	duration == getMillis()
+445	durationToAdd == 0
+445	scalar == 0
+446	durationToAdd == null
+446	scalar == 0
+447	amount == null
+448	amount == null
+1107	value == Integer.MIN_VALUE
+1108	value == Long.MIN_VALUE
+136	zone == null
+137	chronos == null
+138	chrono == null
+139	zone == DateTimeZone.UTC
+140	zone == null
+141	zone == getZone()
+142	relativeYear <= 0
+143	isLeapYear(year)
+144	getBase() == null
+846	value == Integer.MIN_VALUE
+847	(val1 ^ val2) >= 0
+847	(val1 ^ sum) < 0
+848	(val1 ^ val2) >= 0
+848	(val1 ^ sum) < 0
+849	(val1 ^ diff) < 0
+849	(val1 ^ val2) < 0
+850	total < Integer.MIN_VALUE
+850	total > Integer.MAX_VALUE
+851	total / scalar != val1
+852	val2 == 1
+853	val2 == 0
+854	total / val2 != val1
+855	Integer.MIN_VALUE <= value
+855	value <= Integer.MAX_VALUE
+856	value < lowerBound
+856	value > upperBound
+857	value > upperBound
+857	value < lowerBound
+858	value > upperBound
+858	value < lowerBound
+859	minValue >= maxValue
+860	value >= 0
+861	remByRange == 0
+862	object1 == object2
+863	object1 == null
+863	object2 == null
+524	id.length() == 6
+524	id.startsWith("-")
+524	id.startsWith("+")
+525	this == obj
+526	obj instanceof FixedDateTimeZone
+1346	value < 0
+1347	value != Integer.MIN_VALUE
+1348	value < 10
+1349	value < 100
+1350	value < 1000
+1351	value < 10000
+1352	intValue == value
+1353	size <= 19
+1354	value < 0
+1355	value != Long.MIN_VALUE
+1356	value < 0
+1357	value != Integer.MIN_VALUE
+1358	value < 10
+1359	value < 100
+1360	value < 1000
+1361	value < 10000
+1362	intValue == value
+1363	size <= 19
+1364	value < 0
+1365	value != Long.MIN_VALUE
+1366	value < 0
+1367	value != Integer.MIN_VALUE
+1368	value < 10
+1369	value < 100
+1370	intValue == value
+1371	value < 0
+1372	value != Integer.MIN_VALUE
+1373	value < 10
+1374	value < 100
+1375	intValue == value
+1376	value < 0
+1377	value != Long.MIN_VALUE
+1378	text.length() <= sampleLen + 3
+1379	errorPos <= 0
+1380	errorPos >= text.length()
+304	gregorianCutover == null
+305	chronos == null
+306	cutoverInstant.equals(chrono.getGregorianCutover())
+306	minDaysInFirstWeek == chrono.getMinimumDaysInFirstWeek()
+307	zone == DateTimeZone.UTC
+308	gregorianCutover == DEFAULT_CUTOVER.getMillis()
+309	(base = getBase()) != null
+310	zone == null
+311	zone == getZone()
+312	(base = getBase()) != null
+313	instant < iCutoverMillis
+314	instant >= iCutoverMillis
+315	(base = getBase()) != null
+316	instant < iCutoverMillis
+317	instant >= iCutoverMillis
+318	iCutoverMillis != DEFAULT_CUTOVER.getMillis()
+319	withUTC().dayOfYear().remainder(iCutoverMillis) == 0
+320	getMinimumDaysInFirstWeek() != 4
+321	getBase() != null
+322	julian.getMinimumDaysInFirstWeek() != gregorian.getMinimumDaysInFirstWeek()
+323	gregorian.millisOfDay().get(iCutoverMillis) == 0
+211	iChronology.getYear(instant) <= 0
+212	oldEra != era
+213	get(instant) == DateTimeConstants.CE
+214	get(instant) == DateTimeConstants.BCE
+159	locale == null
+160	symbols.iLocale.get() == locale
+160	symbols != null
+161	symbols == null
+162	symbol != null
+163	s != null
+164	len > max
+165	"en".equals(locale.getLanguage())
+166	era != null
+167	month != null
+168	day != null
+169	halfday[i].equalsIgnoreCase(text)
+154	year <= 0
+155	iChronology.getYear(instant) <= 0
+351	zone == null
+352	chronos == null
+353	chrono == null
+354	zone == DateTimeZone.UTC
+355	zone == null
+356	zone == getZone()
+357	getBase() == null
+358	year < 0
+359	isLeapYear(year)
+1432	end instanceof LocalTime
+1432	start instanceof LocalTime
+1433	interval == null
+1434	periodStr == null
+1435	hours == 0
+1436	hours == null
+1437	hours == null
+1438	divisor == 1
+1439	other == null
+1440	other == null
+280	zone == null
+281	chrono != null
+281	chrono.getZone() == zone
+282	chrono == null
+283	zone == null
+284	zone == getZone()
+285	zone != null
+286	getBase().getZone() == DateTimeZone.UTC
+1242	fields.size() == 0
+1242	fields == null
+1243	workingFields.contains(DateTimeFieldType.monthOfYear())
+1244	workingFields.contains(DateTimeFieldType.dayOfYear())
+1245	workingFields.contains(DateTimeFieldType.weekOfWeekyear())
+1246	workingFields.contains(DateTimeFieldType.dayOfMonth())
+1247	workingFields.contains(DateTimeFieldType.dayOfWeek())
+1248	workingFields.remove(DateTimeFieldType.year())
+1249	workingFields.remove(DateTimeFieldType.weekyear())
+1250	bld.canBuildFormatter() == false
+1251	fields.remove(DateTimeFieldType.year())
+1252	fields.remove(DateTimeFieldType.monthOfYear())
+1253	fields.remove(DateTimeFieldType.dayOfMonth())
+1254	fields.remove(DateTimeFieldType.dayOfMonth())
+1255	fields.remove(DateTimeFieldType.monthOfYear())
+1256	fields.remove(DateTimeFieldType.dayOfMonth())
+1257	fields.remove(DateTimeFieldType.dayOfMonth())
+1258	fields.remove(DateTimeFieldType.year())
+1259	fields.remove(DateTimeFieldType.dayOfYear())
+1260	fields.remove(DateTimeFieldType.dayOfYear())
+1261	fields.remove(DateTimeFieldType.weekyear())
+1262	fields.remove(DateTimeFieldType.weekOfWeekyear())
+1263	fields.remove(DateTimeFieldType.dayOfWeek())
+1264	fields.remove(DateTimeFieldType.dayOfWeek())
+1265	fields.remove(DateTimeFieldType.weekOfWeekyear())
+1266	fields.remove(DateTimeFieldType.dayOfWeek())
+1267	fields.remove(DateTimeFieldType.dayOfWeek())
+1268	second
+1268	minute
+1268	milli
+1268	hour
+1269	milli
+1269	minute
+1269	hour
+1269	second
+1270	reducedPrec
+1270	strictISO
+1271	datePresent
+1272	hour
+1272	milli
+1272	hour
+1272	minute
+1272	second
+1272	second
+1273	datePresent
+1273	strictISO
+1274	hour
+1274	milli
+1274	second
+1274	minute
+1274	second
+1274	minute
+1275	strictISO
+1276	hour
+1277	second
+1277	minute
+1277	milli
+1278	hour
+1278	extended
+1278	minute
+1279	minute
+1280	second
+1280	milli
+1281	second
+1281	extended
+1281	minute
+1282	second
+1283	milli
+1284	milli
+1285	strictISO
+1286	extended
+1287	dp == null
+1288	ldp == null
+1289	dpe == null
+1290	tp == null
+1291	ltp == null
+1292	tpe == null
+1293	dtp == null
+1294	dotp == null
+1295	ldotp == null
+1296	t == null
+1297	tx == null
+1298	tt == null
+1299	ttx == null
+1300	dt == null
+1301	dtx == null
+1302	od == null
+1303	odt == null
+1304	odtx == null
+1305	wdt == null
+1306	wdtx == null
+1307	bd == null
+1308	bt == null
+1309	btx == null
+1310	btt == null
+1311	bttx == null
+1312	bdt == null
+1313	bdtx == null
+1314	bod == null
+1315	bodt == null
+1316	bodtx == null
+1317	bwd == null
+1318	bwdt == null
+1319	bwdtx == null
+1320	ym == null
+1321	ymd == null
+1322	ww == null
+1323	wwd == null
+1324	hm == null
+1325	hms == null
+1326	hmsl == null
+1327	hmsf == null
+1328	dh == null
+1329	dhm == null
+1330	dhms == null
+1331	dhmsl == null
+1332	dhmsf == null
+1333	ye == null
+1334	mye == null
+1335	dme == null
+1336	we == null
+1337	wwe == null
+1338	dwe == null
+1339	dye == null
+1340	lte == null
+1341	hde == null
+1342	mhe == null
+1343	sme == null
+1344	fse == null
+1345	ze == null
+1213	cStandard == null
+1214	cAlternate == null
+1215	cAlternateExtended == null
+1216	cAlternateWithWeeks == null
+1217	cAlternateExtendedWihWeeks == null
+303	getWrappedField().get(instant) < 0
+1029	lowerBound == null
+1030	upperBound == null
+1031	upperBound == null
+1032	explain != null
+1033	value == null
+1034	value == null
+1035	iMessage == null
+1036	message != null
+834	minuendInstant < subtrahendInstant
+835	add(subtrahendInstant, difference) < minuendInstant
+836	add(subtrahendInstant, difference) > minuendInstant
+378	scalar == 0
+378	durationToAdd == 0
+379	scalar == 0
+379	durationToAdd == null
+774	overlaps(interval) == false
+775	thisStart > otherEnd
+776	otherStart > thisEnd
+777	interval == null
+778	getChronology() == chronology
+779	startInstant == getStartMillis()
+780	endInstant == getEndMillis()
+781	durationMillis == toDurationMillis()
+782	durationMillis == toDurationMillis()
+783	period == null
+784	period == null
+225	zone == null
+226	chronos == null
+227	chrono == null
+228	zone == DateTimeZone.UTC
+229	zone == null
+230	zone == getZone()
+231	dayOfYear > 354
+232	isLeapYear(year)
+233	minuendRem < subtrahendRem
+234	--month % 2 == 1
+235	doy == 354
+236	month == 12
+236	isLeapYear(year)
+237	month == 12
+238	doyZeroBased == 354
+239	year > MAX_YEAR
+240	year < MIN_YEAR
+241	getBase() == null
+176	year <= 0
+177	year == 0
+178	zone == null
+179	chronos == null
+180	chrono == null
+181	zone == DateTimeZone.UTC
+182	zone == null
+183	zone == getZone()
+184	relativeYear <= 0
+185	isLeapYear(year)
+186	getBase() == null
+259	base == null
+260	iWithUTC == null
+261	getZone() == DateTimeZone.UTC
+262	zone == null
+263	zone == DateTimeZone.UTC
+264	zone == getZone()
+265	this == obj
+266	obj instanceof LenientChronology == false
+881	field == null
+882	field instanceof StrictDateTimeField
+883	field.isLenient()
+242	base == null
+243	lowerLimit != null
+243	upperLimit != null
+244	lowerLimit.isBefore(upperLimit)
+245	zone == null
+246	zone == getZone()
+247	zone == DateTimeZone.UTC
+247	iWithUTC != null
+248	lowerLimit != null
+249	upperLimit != null
+250	zone == DateTimeZone.UTC
+251	field.isSupported()
+251	field == null
+252	converted.containsKey(field)
+253	field.isSupported()
+253	field == null
+254	converted.containsKey(field)
+255	(limit = iLowerLimit) != null
+255	instant < limit.getMillis()
+256	(limit = iUpperLimit) != null
+256	instant >= limit.getMillis()
+257	this == obj
+258	obj instanceof LimitChronology == false
+380	calendar == null
+381	date == null
+382	fieldType == null
+383	isSupported(fieldType) == false
+384	type == null
+385	DATE_DURATION_TYPES.contains(durType)
+385	durType.getField(getChronology()).getUnitMillis() >= getChronology().days().getUnitMillis()
+386	type == null
+387	DATE_DURATION_TYPES.contains(type)
+387	field.getUnitMillis() >= getChronology().days().getUnitMillis()
+388	this == partial
+389	partial instanceof LocalDate
+390	iChronology.equals(other.iChronology)
+391	hash == 0
+392	this == partial
+393	partial instanceof LocalDate
+394	iChronology.equals(other.iChronology)
+395	time == null
+396	getChronology() != time.getChronology()
+397	time != null
+397	getChronology() != time.getChronology()
+398	time != null
+399	check.isBefore(this)
+400	check.equals(this)
+401	earlier.getDate() == dom
+402	partial == null
+403	fieldType == null
+404	isSupported(fieldType) == false
+405	fieldType == null
+406	isSupported(fieldType) == false
+407	amount == 0
+408	period == null
+408	scalar == 0
+409	isSupported(type)
+410	years == 0
+411	months == 0
+412	weeks == 0
+413	days == 0
+414	years == 0
+415	months == 0
+416	weeks == 0
+417	days == 0
+418	fieldType == null
+419	isSupported(fieldType) == false
+420	pattern == null
+421	pattern == null
+785	calendar == null
+786	date == null
+787	type == null
+788	type == null
+789	type == null
+790	this == partial
+791	partial instanceof LocalDateTime
+792	iChronology.equals(other.iChronology)
+793	this == partial
+794	partial instanceof LocalDateTime
+795	iChronology.equals(other.iChronology)
+796	check.isBefore(this)
+797	check.equals(this)
+798	check.equals(this)
+799	partial == null
+800	fieldType == null
+801	fieldType == null
+802	amount == 0
+803	durationToAdd == null
+803	scalar == 0
+804	scalar == 0
+804	period == null
+805	years == 0
+806	months == 0
+807	weeks == 0
+808	days == 0
+809	hours == 0
+810	minutes == 0
+811	seconds == 0
+812	millis == 0
+813	years == 0
+814	months == 0
+815	weeks == 0
+816	days == 0
+817	hours == 0
+818	minutes == 0
+819	seconds == 0
+820	millis == 0
+821	fieldType == null
+822	isSupported(fieldType) == false
+823	pattern == null
+824	pattern == null
+1074	calendar == null
+1075	date == null
+1076	fieldType == null
+1077	isSupported(fieldType) == false
+1078	type == null
+1079	isSupported(type.getDurationType()) == false
+1080	type == null
+1081	TIME_DURATION_TYPES.contains(type)
+1081	field.getUnitMillis() < getChronology().days().getUnitMillis()
+1082	this == partial
+1083	partial instanceof LocalTime
+1084	iChronology.equals(other.iChronology)
+1085	this == partial
+1086	partial instanceof LocalTime
+1087	iChronology.equals(other.iChronology)
+1088	partial == null
+1089	fieldType == null
+1090	isSupported(fieldType) == false
+1091	fieldType == null
+1092	isSupported(fieldType) == false
+1093	amount == 0
+1094	scalar == 0
+1094	period == null
+1095	hours == 0
+1096	minutes == 0
+1097	seconds == 0
+1098	millis == 0
+1099	hours == 0
+1100	minutes == 0
+1101	seconds == 0
+1102	millis == 0
+1103	fieldType == null
+1104	isSupported(fieldType) == false
+1105	pattern == null
+1106	pattern == null
+829	thisMillis == otherMillis
+830	thisMillis < otherMillis
+678	end instanceof LocalTime
+678	start instanceof LocalTime
+679	interval == null
+680	periodStr == null
+681	minutes == 0
+682	minutes == null
+683	minutes == null
+684	divisor == 1
+685	other == null
+686	other == null
+97	calendar == null
+98	date == null
+99	newChronology == getChronology()
+100	value == getValue(index)
+101	amount == 0
+102	scalar == 0
+102	period == null
+103	index >= 0
+104	pattern == null
+105	pattern == null
+1065	start instanceof LocalDate
+1065	end instanceof LocalDate
+1066	interval == null
+1067	periodStr == null
+1068	months == 0
+1069	months == null
+1070	months == null
+1071	divisor == 1
+1072	other == null
+1073	other == null
+1113	mode < ROUND_NONE
+1113	mode > ROUND_HALF_EVEN
+1113	field != null
+1114	duration != null
+1115	period != null
+1116	chrono.getZone() != newZone
+1117	newZone == originalZone
+1118	type == null
+1119	type == null
+1120	zone != null
+1121	zone != null
+1122	type == null
+1123	field.isSupported() == false
+1061	interval == null
+1062	end == null
+1062	start == null
+1063	period == null
+1064	period == null
+1109	interval == null
+1110	start == end
+1111	interval != null
+1112	duration != null
+930	offset == 0
+931	minValue < (field.getMinimumValue() + offset)
+932	maxValue > (field.getMaximumValue() + offset)
+636	type == null
+637	types == null
+638	values == null
+639	values.length != types.length
+640	types.length == 0
+641	types[i] == null
+642	i > 0
+643	compare != 0
+643	loopUnitField.isSupported() == false
+643	compare < 0
+644	compare == 0
+645	types[i - 1].getRangeDurationType() == null
+646	loopType.getRangeDurationType() == null
+647	loopType.getRangeDurationType() == null
+648	lastRangeField.compareTo(loopRangeField) < 0
+649	lastRangeField.compareTo(loopRangeField) == 0
+650	partial == null
+651	newChronology == getChronology()
+652	fieldType == null
+653	index == -1
+654	unitField.isSupported()
+655	loopUnitField.isSupported()
+656	compare > 0
+657	compare == 0
+658	rangeField.compareTo(loopRangeField) > 0
+659	value == getValue(index)
+660	index != -1
+661	value == getValue(index)
+662	amount == 0
+663	amount == 0
+664	scalar == 0
+664	period == null
+665	index >= 0
+666	value != iValues[i]
+667	partial == null
+668	value != iValues[i]
+669	f == null
+670	size() == 0
+671	list.size() == 0
+672	f == null
+673	f == null
+674	f1 == null
+675	i > 0
+676	pattern == null
+677	pattern == null
+1037	start == null
+1037	end == null
+1038	start.size() != end.size()
+1039	start.getFieldType(i) != end.getFieldType(i)
+1040	types[i - 1] == types[i]
+1040	i > 0
+1041	type.equals(getPeriodType())
+1042	period == null
+1043	field == null
+1044	field == null
+1045	value == 0
+1046	period == null
+1047	years == 0
+1048	months == 0
+1049	weeks == 0
+1050	days == 0
+1051	hours == 0
+1052	minutes == 0
+1053	seconds == 0
+1054	millis == 0
+1055	period == null
+1056	getMonths() != 0
+1057	getYears() != 0
+1058	months != 0
+1058	years != 0
+1059	years != 0
+1060	months != 0
+1381	pf == null
+1152	locale.equals(getLocale())
+1152	locale == getLocale()
+1152	locale != null
+1153	type == iParseType
+1154	iPrinter == null
+1155	period == null
+1156	newPos >= 0
+1157	newPos >= text.length()
+1158	iParser == null
+1218	iNotPrinter
+1219	iNotParser
+1220	iElementPairs == null
+1221	formatter == null
+1222	printer == null
+1222	parser == null
+1223	text == null
+1224	text == null
+1225	pluralText == null
+1225	singularText == null
+1226	prefix == null
+1227	iPrefix != null
+1228	text == null
+1229	singularText == null
+1229	pluralText == null
+1230	iElementPairs.size() > 0
+1231	originalPrinter == null
+1231	originalPrinter instanceof FieldFormatter
+1231	originalParser == null
+1231	originalPrinter != originalParser
+1232	finalText == null
+1232	text == null
+1233	pairs.size() == 0
+1234	useBefore == false
+1234	useAfter
+1235	pairs.get(i) instanceof Separator
+1236	pairs.size() == 0
+1236	lastSeparator != null
+1237	iPrefix != null
+1238	notParser
+1238	notPrinter
+1239	elementPairs.get(0) instanceof Separator
+1239	size >= 2
+1240	notPrinter
+1241	notParser
+957	type == null
+958	type == null
+959	type == null
+960	type == null
+961	type == null
+962	type == null
+963	type == null
+964	type == null
+965	type == null
+966	type == null
+967	type == null
+968	type == null
+969	type == null
+970	type == null
+971	type == null
+972	type == null
+973	type == null
+974	types.length == 0
+974	types == null
+975	types[i] == null
+976	cache.isEmpty()
+977	cached instanceof PeriodType
+978	cached != null
+979	list.remove(DurationFieldType.years()) == false
+980	list.remove(DurationFieldType.months()) == false
+981	list.remove(DurationFieldType.weeks()) == false
+982	list.remove(DurationFieldType.days()) == false
+983	list.remove(DurationFieldType.hours()) == false
+984	list.remove(DurationFieldType.minutes()) == false
+985	list.remove(DurationFieldType.seconds()) == false
+986	list.remove(DurationFieldType.millis()) == false
+987	list.size() > 0
+988	checkedType != null
+989	iTypes[i] == type
+990	realIndex == -1
+991	valueToAdd == 0
+992	realIndex == -1
+993	fieldIndex == -1
+994	i < fieldIndex
+995	i > fieldIndex
+996	i < indicesIndex
+997	i > indicesIndex
+998	this == obj
+999	obj instanceof PeriodType == false
+831	range.isPrecise()
+832	iRange < 2
+833	instant >= 0
+933	unit.isPrecise()
+934	iUnitMillis < 1
+935	instant >= 0
+936	instant > 0
+937	instant >= 0
+864	this == obj
+865	obj instanceof PreciseDurationField
+723	chrono == null
+724	chronoZone != zone
+725	chrono == null
+726	chrono == null
+764	chrono != null
+696	chrono == null
+877	divisor < 2
+878	rangeField == null
+879	value >= 0
+880	value >= 0
+838	scalar == 0
+838	scalar == 1
+839	this == obj
+840	obj instanceof ScaledDurationField
+106	end instanceof LocalTime
+106	start instanceof LocalTime
+107	interval == null
+108	periodStr == null
+109	seconds == 0
+110	seconds == null
+111	seconds == null
+112	divisor == 1
+113	other == null
+114	other == null
+922	min < skip
+923	min == skip
+924	value <= iSkip
+925	value <= iSkip
+926	value == iSkip
+866	min < skip
+867	min == skip + 1
+868	value < iSkip
+869	value <= iSkip
+324	base == null
+325	iWithUTC == null
+326	getZone() == DateTimeZone.UTC
+327	zone == null
+328	zone == DateTimeZone.UTC
+329	zone == getZone()
+330	this == obj
+331	obj instanceof StrictChronology == false
+888	field == null
+889	field instanceof LenientDateTimeField
+890	field.isLenient()
+727	parser.getZone() != null
+728	len >= 4
+728	str.charAt(1) == 'T'
+728	str.charAt(0) == 'P'
+728	str.charAt(len - 1) == 's'
+728	str.charAt(len - 1) == 'S'
+728	str.charAt(0) == 'p'
+728	str.charAt(1) == 't'
+729	str.charAt(0) == '-'
+729	str.charAt(i) >= '0'
+729	str.charAt(i) <= '9'
+729	i == 0
+730	str.charAt(i) == '.'
+730	dot == -1
+730	i > 0
+731	dot > 0
+732	str.length() != 3
+733	seconds < 0
+734	pos < str.length()
+735	pos < 0
+736	separator < 0
+737	leftStr.length() <= 0
+738	rightStr.length() <= 0
+739	c == 'P'
+739	c == 'p'
+740	c == 'p'
+740	c == 'P'
+741	period != null
+742	period != null
+629	calendar == null
+630	date == null
+631	newChronology == getChronology()
+632	value == getValue(index)
+633	amount == 0
+634	period == null
+634	scalar == 0
+635	index >= 0
+560	"UTC".equalsIgnoreCase(id)
+870	cCache == null
+871	field.getDurationField() != durationField
+871	field != null
+872	field == null
+873	type == null
+873	durationField == null
+841	cCache == null
+842	field == null
+843	this == obj
+844	obj instanceof UnsupportedDurationField
+845	other.getName() == null
+765	end instanceof LocalDate
+765	start instanceof LocalDate
+766	interval == null
+767	periodStr == null
+768	weeks == 0
+769	weeks == null
+770	weeks == null
+771	divisor == 1
+772	other == null
+773	other == null
+687	calendar == null
+688	date == null
+689	newChronology == getChronology()
+690	value == getValue(index)
+691	amount == 0
+692	period == null
+692	scalar == 0
+693	index >= 0
+694	pattern == null
+695	pattern == null
+422	calendar == null
+423	date == null
+424	newChronology == getChronology()
+425	value == getValue(index)
+426	amount == 0
+427	scalar == 0
+427	period == null
+428	index >= 0
+429	time != null
+1124	start instanceof LocalDate
+1124	end instanceof LocalDate
+1125	interval == null
+1126	periodStr == null
+1127	years == 0
+1128	years == null
+1129	years == null
+1130	divisor == 1
+1131	other == null
+1132	other == null
+874	field.getMinimumValue() != 0
+875	value == 0
+876	value == max
+581	args.length == 0
+582	"-src".equals(args[i])
+583	"-dst".equals(args[i])
+584	"-verbose".equals(args[i])
+585	"-?".equals(args[i])
+586	i >= args.length
+587	cStartOfYear == null
+588	cLenientISO == null
+589	idToIndex.containsKey(id)
+590	++count == 0
+591	idToIndex.containsKey(id)
+592	++count == 0
+593	str.equals("min")
+593	str.equals("minimum")
+594	str.equals("maximum")
+594	str.equals("max")
+595	str.equals("only")
+596	str.startsWith("-")
+597	newPos == ~pos
+598	pos == 1
+599	id.equals(tz.getID())
+600	next > end
+600	next == millis
+601	key.equals(nextKey)
+601	offset == nextOffset
+602	nextKey == null
+602	"??".equals(nextKey)
+602	nextKey.length() < 3
+603	prev == millis
+603	prev < end
+604	trans - 1 != millis
+605	sources != null
+606	outputDir != null
+607	outputDir.exists()
+608	outputDir.isDirectory()
+609	test(tz.getID(), tz)
+610	outputDir != null
+611	ZoneInfoCompiler.verbose()
+612	file.getParentFile().exists()
+613	original.equals(tz2)
+614	tz == null
+615	pass > 0
+616	outputDir != null
+617	file.getParentFile().exists()
+618	trimmed.charAt(0) == '#'
+618	trimmed.length() == 0
+619	index >= 0
+620	Character.isWhitespace(line.charAt(0))
+620	st.hasMoreTokens()
+621	zone != null
+622	zone != null
+623	st.hasMoreTokens()
+624	token.equalsIgnoreCase("Rule")
+625	rs == null
+626	token.equalsIgnoreCase("Zone")
+627	token.equalsIgnoreCase("Link")
+628	zone != null
+566	fileDir == null
+567	fileDir.exists()
+568	fileDir.isDirectory()
+569	resourcePath == null
+570	resourcePath.endsWith("/")
+571	favorSystemLoader
+571	loader == null
+572	id == null
+573	obj == null
+574	id.equals(obj)
+575	obj instanceof SoftReference<?>
+576	tz != null
+577	iFileDir != null
+578	iLoader != null
+579	in == null
+580	in != null
+267	base == null
+268	base == null
+269	zone == null
+270	zone == null
+271	zone == getParam()
+272	zone == DateTimeZone.UTC
+273	offset != zone.getOffset(instant)
+274	field == null
+274	field.isSupported()
+275	converted.containsKey(field)
+276	field.isSupported()
+276	field == null
+277	converted.containsKey(field)
+278	this == obj
+279	obj instanceof ZonedChronology == false

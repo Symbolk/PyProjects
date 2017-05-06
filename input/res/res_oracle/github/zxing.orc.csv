@@ -1,0 +1,2358 @@
+id	oracle
+760	weight < 10000
+761	weight < 10000
+833	this.getInformation().getSize() < HEADER_SIZE + GTIN_SIZE
+762	this.getInformation().getSize() < HEADER_SIZE + GTIN_SIZE
+763	firstThreeDigits / 100 == 0
+764	firstThreeDigits / 10 == 0
+828	this.getInformation().getSize() != HEADER_SIZE + GTIN_SIZE + WEIGHT_SIZE + DATE_SIZE
+829	numericDate == 38400
+830	year / 10 == 0
+831	month / 10 == 0
+832	day / 10 == 0
+759	this.getInformation().getSize() != HEADER_SIZE + GTIN_SIZE + WEIGHT_SIZE
+754	currentBlock / 100 == 0
+755	currentBlock / 10 == 0
+756	checkDigit == 10
+753	weightNumeric / currentDivisor == 0
+398	n >= 2
+399	newMode != getEncodingMode()
+400	HighLevelEncoder.isExtendedASCII(c)
+401	HighLevelEncoder.isDigit(digit2)
+401	HighLevelEncoder.isDigit(digit1)
+757	information.get(1)
+758	information.get(2)
+971	patternMatchVariance(counters, finderPatterns[value], MAX_INDIVIDUAL_VARIANCE) < MAX_AVG_VARIANCE
+972	errors[i] > biggestError
+973	errors[i] < biggestError
+974	ratio <= MAX_FINDER_PATTERN_RATIO
+974	ratio >= MIN_FINDER_PATTERN_RATIO
+975	counter > maxCounter
+976	counter < minCounter
+1196	rawText.contains("MEMORY")
+1196	rawText.contains("\r\n")
+1197	value == null
+1198	values == null
+1199	values == null
+1168	rawText.startsWith("MECARD:")
+1169	rawName == null
+1170	isStringOfDigits(birthday, 8)
+1171	comma >= 0
+1186	phoneTypes != null
+1186	phoneNumbers.length != phoneTypes.length
+1186	phoneNumbers != null
+1187	emailTypes != null
+1187	emails != null
+1187	emails.length != emailTypes.length
+1188	addressTypes != null
+1188	addresses != null
+1188	addresses.length != addressTypes.length
+1850	Math.abs(j - getX()) <= moduleSize
+1850	Math.abs(i - getY()) <= moduleSize
+1832	image.get(j, i)
+1833	currentState == 1
+1834	currentState == 2
+1835	foundPatternCross(stateCount)
+1836	confirmed != null
+1837	currentState == 1
+1838	foundPatternCross(stateCount)
+1839	confirmed != null
+1840	possibleCenters.isEmpty()
+1841	Math.abs(moduleSize - stateCount[i]) >= maxVariance
+1842	i < 0
+1842	stateCount[1] > maxCount
+1843	stateCount[0] > maxCount
+1844	i == maxI
+1844	stateCount[1] > maxCount
+1845	stateCount[2] > maxCount
+1846	5 * Math.abs(stateCountTotal - originalStateCountTotal) >= 2 * originalStateCountTotal
+1847	Float.isNaN(centerI)
+1848	center.aboutEquals(estimatedModuleSize, centerI, centerJ)
+1849	resultPointCallback != null
+102	decoderResult == null
+103	notFoundException != null
+104	formatException != null
+105	hints != null
+106	rpcb != null
+107	byteSegments != null
+108	ecLevel != null
+109	hints != null
+110	hints.containsKey(EncodeHintType.CHARACTER_SET)
+111	hints.containsKey(EncodeHintType.ERROR_CORRECTION)
+112	hints.containsKey(EncodeHintType.AZTEC_LAYERS)
+113	format != BarcodeFormat.AZTEC
+114	input == null
+115	input.get(inputX, inputY)
+1476	confidence == null
+1477	entry.getValue() > maxConfidence
+1478	entry.getValue() == maxConfidence
+402	newMode != getEncodingMode()
+403	context.hasMoreCharacters()
+403	mustPad
+404	dataCount <= 249
+405	dataCount <= 1555
+406	tempVariable <= 255
+165	binarizer == null
+166	matrix == null
+19	binaryShiftByteCount <= 62
+19	i == 0
+19	i == 31
+20	binaryShiftByteCount > 62
+21	i == 0
+171	size > bits.length * 32
+172	from >= size
+173	++bitsOffset == bits.length
+174	from >= size
+175	++bitsOffset == bits.length
+176	end < start
+176	start < 0
+176	end > size
+177	end == start
+178	start < 0
+178	end < start
+178	end > size
+179	end == start
+180	(bits[i] & mask) != (value ? mask : 0)
+181	bit
+182	numBits > 32
+182	numBits < 0
+183	size != other.size
+184	get(bitOffset)
+185	size != oldBitsLen * 32
+186	o instanceof BitArray
+187	(i & 0x07) == 0
+835	pairs.get(pairs.size() - 1).getRightChar() == null
+836	(firstValue & (1 << i)) != 0
+837	(leftValue & (1 << j)) != 0
+838	currentPair.getRightChar() != null
+839	(rightValue & (1 << j)) != 0
+296	width < 1
+296	height < 1
+297	imageI[j]
+298	stringRepresentation == null
+299	stringRepresentation.charAt(pos) == '\n'
+299	stringRepresentation.charAt(pos) == '\r'
+300	bitsPos > rowStartPos
+301	rowLength == -1
+302	bitsPos - rowStartPos != rowLength
+303	stringRepresentation.substring(pos, pos + setString.length()).equals(setString)
+304	stringRepresentation.substring(pos, pos + unsetString.length()).equals(unsetString)
+305	bitsPos > rowStartPos
+306	rowLength == -1
+307	bitsPos - rowStartPos != rowLength
+308	bits[i]
+309	height != mask.getHeight()
+309	rowSize != mask.getRowSize()
+309	width != mask.getWidth()
+310	left < 0
+310	top < 0
+311	width < 1
+311	height < 1
+312	right > this.width
+312	bottom > this.height
+313	row == null
+313	row.getSize() < width
+314	theBits != 0
+315	y < top
+316	y > bottom
+317	x32 * 32 < left
+318	(x32 * 32 + bit) < left
+319	x32 * 32 + 31 > right
+320	(x32 * 32 + bit) > right
+321	bottom < top
+321	right < left
+322	bitsOffset == bits.length
+323	bitsOffset < 0
+324	o instanceof BitMatrix
+505	dimension > 144
+505	(dimension & 0x01) != 0
+505	dimension < 8
+506	column == 0
+506	row == numRows
+506	corner1Read
+507	(numColumns & 0x03) != 0
+507	corner2Read
+507	row == numRows - 2
+507	column == 0
+508	(numColumns & 0x07) == 0
+508	row == numRows + 4
+508	corner3Read
+508	column == 2
+509	row == numRows - 2
+509	(numColumns & 0x07) == 4
+509	column == 0
+509	corner4Read
+510	column >= 0
+510	row < numRows
+510	readMappingMatrix.get(column, row)
+511	column < numColumns
+511	row >= 0
+511	readMappingMatrix.get(column, row)
+512	resultOffset != version.getTotalCodewords()
+513	row < 0
+514	column < 0
+515	readModule(row - 2, column - 2, numRows, numColumns)
+516	readModule(row - 2, column - 1, numRows, numColumns)
+517	readModule(row - 1, column - 2, numRows, numColumns)
+518	readModule(row - 1, column - 1, numRows, numColumns)
+519	readModule(row - 1, column, numRows, numColumns)
+520	readModule(row, column - 2, numRows, numColumns)
+521	readModule(row, column - 1, numRows, numColumns)
+522	readModule(row, column, numRows, numColumns)
+523	readModule(numRows - 1, 0, numRows, numColumns)
+524	readModule(numRows - 1, 1, numRows, numColumns)
+525	readModule(numRows - 1, 2, numRows, numColumns)
+526	readModule(0, numColumns - 2, numRows, numColumns)
+527	readModule(0, numColumns - 1, numRows, numColumns)
+528	readModule(1, numColumns - 1, numRows, numColumns)
+529	readModule(2, numColumns - 1, numRows, numColumns)
+530	readModule(3, numColumns - 1, numRows, numColumns)
+531	readModule(numRows - 3, 0, numRows, numColumns)
+532	readModule(numRows - 2, 0, numRows, numColumns)
+533	readModule(numRows - 1, 0, numRows, numColumns)
+534	readModule(0, numColumns - 4, numRows, numColumns)
+535	readModule(0, numColumns - 3, numRows, numColumns)
+536	readModule(0, numColumns - 2, numRows, numColumns)
+537	readModule(0, numColumns - 1, numRows, numColumns)
+538	readModule(1, numColumns - 1, numRows, numColumns)
+539	readModule(numRows - 1, 0, numRows, numColumns)
+540	readModule(numRows - 1, numColumns - 1, numRows, numColumns)
+541	readModule(0, numColumns - 3, numRows, numColumns)
+542	readModule(0, numColumns - 2, numRows, numColumns)
+543	readModule(0, numColumns - 1, numRows, numColumns)
+544	readModule(1, numColumns - 3, numRows, numColumns)
+545	readModule(1, numColumns - 2, numRows, numColumns)
+546	readModule(1, numColumns - 1, numRows, numColumns)
+547	readModule(numRows - 3, 0, numRows, numColumns)
+548	readModule(numRows - 2, 0, numRows, numColumns)
+549	readModule(numRows - 1, 0, numRows, numColumns)
+550	readModule(0, numColumns - 2, numRows, numColumns)
+551	readModule(0, numColumns - 1, numRows, numColumns)
+552	readModule(1, numColumns - 1, numRows, numColumns)
+553	readModule(2, numColumns - 1, numRows, numColumns)
+554	readModule(3, numColumns - 1, numRows, numColumns)
+555	bitMatrix.getHeight() != symbolSizeRows
+556	bitMatrix.get(readColumnOffset, readRowOffset)
+637	bit >= 0
+637	bitMatrix.get(x, y)
+1713	(dimension & 0x03) != 1
+1713	dimension < 21
+1714	parsedFormatInfo != null
+1715	parsedFormatInfo != null
+1716	parsedVersion != null
+1717	provisionalVersion <= 6
+1718	theParsedVersion.getDimensionForVersion() == dimension
+1718	theParsedVersion != null
+1719	theParsedVersion != null
+1719	theParsedVersion.getDimensionForVersion() == dimension
+1720	j == 6
+1721	functionPattern.get(j - col, i)
+1722	bitMatrix.get(j - col, i)
+1723	bitsRead == 8
+1724	resultOffset != version.getTotalCodewords()
+1725	parsedFormatInfo == null
+1726	bitMatrix.get(x, y) != bitMatrix.get(y, x)
+244	numBits < 1
+244	numBits > 32
+244	numBits > available()
+245	bitOffset > 0
+246	bitOffset == 8
+247	numBits > 0
+248	numBits > 0
+1146	rawText.startsWith("BIZCARD:")
+1147	number1 != null
+1148	number2 != null
+1149	number3 != null
+1150	size == 0
+1151	firstName == null
+1193	rawText.startsWith("MEBKM:")
+1194	rawUri == null
+1539	topLeft == null
+1539	bottomLeft == null
+1539	bottomRight == null
+1539	topRight == null
+1539	bottomLeft == null
+1539	bottomRight == null
+1539	topRight != null
+1539	topLeft != null
+1540	leftBox == null
+1541	rightBox == null
+1542	missingStartRows > 0
+1543	newMinY < 0
+1544	isLeft
+1545	missingEndRows > 0
+1546	newMaxY >= image.getHeight()
+1547	isLeft
+1548	topLeft == null
+1549	topRight == null
+132	points != null
+407	context.hasMoreCharacters()
+408	(buffer.length() % 3) == 2
+409	available > 2
+409	available < 2
+410	(count % 3) == 0
+411	newMode != getEncodingMode()
+412	rest == 2
+413	context.hasMoreCharacters()
+414	rest == 1
+414	available == 1
+415	context.hasMoreCharacters()
+416	rest == 0
+417	context.hasMoreCharacters()
+417	available > 0
+418	c == ' '
+419	c >= '0'
+419	c <= '9'
+420	c <= 'Z'
+420	c >= 'A'
+421	c <= '\u001f'
+421	c >= '\0'
+422	c <= '/'
+422	c >= '!'
+423	c >= ':'
+423	c <= '@'
+424	c <= '_'
+424	c >= '['
+425	c >= '\u0060'
+425	c <= '\u007f'
+426	c >= '\u0080'
+1225	endString == null
+1226	DATE_TIME.matcher(when).matches()
+1227	when.length() == 8
+1228	when.length() == 16
+1228	when.charAt(15) == 'Z'
+1229	date < 0L
+1230	durationString == null
+1231	m.matches()
+1232	fieldValue != null
+1092	charOffset == -1
+1093	arrayContains(STARTEND_ENCODING, ALPHABET[charOffset])
+1093	decodeRowResult.length() > 1
+1094	nextStart < counterLength
+1094	trailingWhitespace < lastPatternSize / 2
+1095	arrayContains(STARTEND_ENCODING, startchar)
+1096	arrayContains(STARTEND_ENCODING, endchar)
+1097	decodeRowResult.length() <= MIN_CHARACTER_LENGTH
+1098	hints == null
+1098	hints.containsKey(DecodeHintType.RETURN_CODABAR_START_END)
+1099	i >= end
+1100	size < mins[category]
+1100	size > maxes[category]
+1101	i >= end
+1102	i >= end
+1103	row.get(i) != isWhite
+1104	counterLength >= counters.length
+1105	charOffset != -1
+1105	arrayContains(STARTEND_ENCODING, ALPHABET[charOffset])
+1106	i == 1
+1106	counters[i - 1] >= patternSize / 2
+1107	array != null
+1108	c == key
+1109	end >= counterLength
+1110	currentCounter < minBar
+1111	currentCounter > maxBar
+1112	currentCounter < minSpace
+1113	currentCounter > maxSpace
+1114	theCounters[position + i] > threshold
+1115	CHARACTER_ENCODINGS[i] == pattern
+1000	contents.length() < 2
+1001	startsNormal
+1002	endsNormal
+1003	startsAlt
+1004	endsAlt
+1005	endsNormal
+1005	endsAlt
+1006	Character.isDigit(contents.charAt(i))
+1006	contents.charAt(i) == '$'
+1006	contents.charAt(i) == '-'
+1007	CodaBarReader.arrayContains(CHARS_WHICH_ARE_TEN_LENGTH_EACH_AFTER_DECODED, contents.charAt(i))
+1008	index == contents.length() - 1
+1008	index == 0
+1009	c == CodaBarReader.ALPHABET[i]
+1010	counter == 1
+1010	((code >> (6 - bit)) & 1) == 0
+1011	index < contents.length() - 1
+695	row.get(i) != isWhite
+696	counterPosition == patternLength - 1
+697	variance < bestVariance
+698	bestMatch >= 0
+698	row.isRange(Math.max(0, patternStart - (i - patternStart) / 2), patternStart, false)
+699	variance < bestVariance
+700	bestMatch >= 0
+701	code != CODE_STOP
+702	code != CODE_STOP
+703	code < 64
+704	shiftUpperMode == upperMode
+705	code < 96
+706	shiftUpperMode == upperMode
+707	code != CODE_STOP
+708	convertFNC1
+709	result.length() == 0
+710	shiftUpperMode
+710	upperMode
+711	upperMode
+711	shiftUpperMode
+712	code < 96
+713	shiftUpperMode == upperMode
+714	code != CODE_STOP
+715	convertFNC1
+716	result.length() == 0
+717	shiftUpperMode
+717	upperMode
+718	shiftUpperMode
+718	upperMode
+719	code < 100
+720	code < 10
+721	code != CODE_STOP
+722	convertFNC1
+723	result.length() == 0
+724	unshift
+725	row.isRange(nextStart, Math.min(row.getSize(), nextStart + (nextStart - lastStart) / 2), false)
+726	checksumTotal % 103 != lastCode
+727	resultLength == 0
+728	lastCharacterWasPrintable
+728	resultLength > 0
+729	codeSet == CODE_CODE_C
+1026	format != BarcodeFormat.CODE_128
+1027	length < 1
+1027	length > 80
+1028	c > '~'
+1028	c < ' '
+1029	newCodeSet == codeSet
+1030	codeSet == CODE_CODE_B
+1031	codeSet == 0
+1032	newCodeSet == CODE_CODE_B
+1033	position != 0
+1034	start >= last
+1035	c == ESCAPE_FNC_1
+1036	c < '0'
+1036	c > '9'
+1037	start + 1 >= last
+1038	c < '0'
+1038	c > '9'
+1039	lookahead == CType.ONE_DIGIT
+1039	lookahead == CType.UNCODABLE
+1040	oldCode == CODE_CODE_C
+1041	oldCode == CODE_CODE_B
+1042	lookahead == CType.FNC_1
+1043	lookahead == CType.UNCODABLE
+1043	lookahead == CType.ONE_DIGIT
+1044	lookahead == CType.FNC_1
+1045	lookahead == CType.TWO_DIGITS
+1046	lookahead == CType.ONE_DIGIT
+1047	lookahead == CType.FNC_1
+1048	lookahead == CType.TWO_DIGITS
+646	pattern < 0
+647	(whiteSpaceAfterEnd * 2) < lastPatternSize
+647	nextStart != end
+648	usingCheckDigit
+649	result.charAt(max) != CHECK_DIGIT_STRING.charAt(total % 43)
+650	result.length() == 0
+651	extendedMode
+652	row.get(i) != isWhite
+653	counterPosition == patternLength - 1
+654	toNarrowWidePattern(counters) == ASTERISK_ENCODING
+654	row.isRange(Math.max(0, patternStart - ((i - patternStart) / 2)), patternStart, false)
+655	counter < minCounter
+655	counter > maxNarrowCounter
+656	counter > maxNarrowCounter
+657	wideCounters == 3
+658	counter > maxNarrowCounter
+659	(counter * 2) >= totalWideCountersWidth
+660	CHARACTER_ENCODINGS[i] == pattern
+661	c == '/'
+661	c == '+'
+661	c == '%'
+661	c == '$'
+662	next >= 'A'
+662	next <= 'Z'
+663	next >= 'A'
+663	next <= 'Z'
+664	next >= 'A'
+664	next <= 'E'
+665	next <= 'W'
+665	next >= 'F'
+666	next >= 'A'
+666	next <= 'O'
+667	next == 'Z'
+1119	format != BarcodeFormat.CODE_39
+1120	length > 80
+1121	indexInString < 0
+730	pattern < 0
+731	row.get(nextStart)
+731	nextStart == end
+732	result.length() < 2
+733	row.get(i) != isWhite
+734	counterPosition == patternLength - 1
+735	toPattern(theCounters) == ASTERISK_ENCODING
+736	scaled < 1
+736	scaled > 4
+737	(i & 0x01) == 0
+738	CHARACTER_ENCODINGS[i] == pattern
+739	c <= 'd'
+739	c >= 'a'
+740	i >= length - 1
+741	next >= 'A'
+741	next <= 'Z'
+742	next <= 'Z'
+742	next >= 'A'
+743	next >= 'A'
+743	next <= 'E'
+744	next >= 'F'
+744	next <= 'J'
+745	next <= 'O'
+745	next >= 'K'
+746	next >= 'P'
+746	next <= 'S'
+747	next >= 'T'
+747	next <= 'Z'
+748	next >= 'A'
+748	next <= 'O'
+749	next == 'Z'
+750	++weight > weightMax
+751	result.charAt(checkPosition) != ALPHABET[total % 47]
+996	format != BarcodeFormat.CODE_93
+997	length > 80
+998	++weight > maxWeight
+557	rawCodewordsOffset != rawCodewords.length
+1727	rawCodewords.length != version.getTotalCodewords()
+1728	numCodewords == shorterBlocksTotalCodewords
+970	o instanceof DataCharacter
+371	hints != null
+371	hints.containsKey(DecodeHintType.PURE_BARCODE)
+372	byteSegments != null
+373	ecLevel != null
+374	rightBottomBlack == null
+374	leftTopBlack == null
+375	matrixHeight <= 0
+375	matrixWidth <= 0
+376	image.get(left + x * moduleSize, iOffset)
+377	x == width
+378	moduleSize == 0
+598	contents.isEmpty()
+599	format != BarcodeFormat.DATA_MATRIX
+600	height < 0
+600	width < 0
+601	hints != null
+602	requestedShape != null
+603	requestedMinSize != null
+604	requestedMaxSize != null
+605	(y % symbolInfo.matrixHeight) == 0
+606	(x % symbolInfo.matrixWidth) == 0
+607	(x % symbolInfo.matrixWidth) == symbolInfo.matrixWidth - 1
+608	(y % symbolInfo.matrixHeight) == symbolInfo.matrixHeight - 1
+609	matrix.get(i, j) == 1
+558	mode == Mode.ASCII_ENCODE
+559	resultTrailer.length() > 0
+560	oneByte == 0
+561	oneByte <= 128
+562	upperShift
+563	oneByte == 129
+564	oneByte <= 229
+565	value < 10
+566	bits.available() != 0
+566	oneByte != 254
+566	oneByte >= 242
+567	bits.available() == 8
+568	firstByte == 254
+569	cValue < 3
+570	cValue < C40_BASIC_SET_CHARS.length
+571	upperShift
+572	upperShift
+573	cValue < C40_SHIFT2_SET_CHARS.length
+574	upperShift
+575	upperShift
+576	bits.available() == 8
+577	firstByte == 254
+578	cValue < 3
+579	cValue < TEXT_BASIC_SET_CHARS.length
+580	upperShift
+581	upperShift
+582	cValue < TEXT_SHIFT2_SET_CHARS.length
+583	upperShift
+584	cValue < TEXT_SHIFT3_SET_CHARS.length
+585	upperShift
+586	bits.available() == 8
+587	firstByte == 254
+588	cValue < 14
+589	cValue < 40
+590	bits.available() <= 16
+591	edifactValue == 0x1F
+592	bitsLeft != 8
+593	(edifactValue & 0x20) == 0
+594	d1 == 0
+595	d1 < 250
+596	count < 0
+597	bits.available() < 8
+638	mode == 2
+639	result.toString().startsWith("[)>" + RS + "01" + GS)
+640	x.length == 0
+641	shift-- == 0
+1550	codeIndex < codewords.length
+1551	result.length() == 0
+1552	codeIndex + NUMBER_OF_SEQUENCE_CODEWORDS > codewords[0]
+1553	code < TEXT_COMPACTION_MODE_LATCH
+1554	code < TEXT_COMPACTION_MODE_LATCH
+1555	subModeCh < 26
+1556	subModeCh < 26
+1557	subModeCh < PL
+1558	subModeCh < PAL
+1559	subModeCh < 26
+1560	subModeCh < PAL
+1561	ch != 0
+1562	count % 5 == 0
+1562	count > 0
+1563	codeIndex == codewords[0]
+1563	nextCode < TEXT_COMPACTION_MODE_LATCH
+1564	code < TEXT_COMPACTION_MODE_LATCH
+1565	count % 5 == 0
+1565	count > 0
+1566	codeIndex == codewords[0]
+1567	code < TEXT_COMPACTION_MODE_LATCH
+1568	code == NUMERIC_COMPACTION_MODE_LATCH
+1568	end
+1568	count % MAX_NUMERIC_CODEWORDS == 0
+1569	count > 0
+1570	resultString.charAt(0) != '1'
+1730	bits.available() < 4
+1731	bits.available() < 16
+1732	currentCharacterSetECI == null
+1733	subset == GB2312_SUBSET
+1734	count * 13 > bits.available()
+1735	assembledTwoBytes < 0x003BF
+1736	count * 13 > bits.available()
+1737	assembledTwoBytes < 0x01F00
+1738	8 * count > bits.available()
+1739	currentCharacterSetECI == null
+1740	value >= ALPHANUMERIC_CHARS.length
+1741	bits.available() < 11
+1742	count == 1
+1743	bits.available() < 6
+1744	fc1InEffect
+1745	result.charAt(i) == '%'
+1746	i < result.length() - 1
+1746	result.charAt(i + 1) == '%'
+1747	bits.available() < 10
+1748	threeDigitsBits >= 1000
+1749	count == 2
+1750	bits.available() < 7
+1751	twoDigitsBits >= 100
+1752	count == 1
+1753	bits.available() < 4
+1754	digitBits >= 10
+1755	(firstByte & 0x80) == 0
+1756	(firstByte & 0xC0) == 0x80
+1757	(firstByte & 0xE0) == 0xC0
+834	secondDigit < 0
+834	firstDigit > 10
+834	firstDigit < 0
+834	secondDigit > 10
+67	shiftTable == Table.BINARY
+68	endIndex - index < 5
+69	length == 0
+70	endIndex - index < 11
+71	endIndex - index < 8
+72	endIndex - index < size
+73	str.startsWith("CTRL_")
+74	str.charAt(6) == 'L'
+75	ddata.getNbLayers() <= 2
+76	ddata.getNbLayers() <= 8
+77	ddata.getNbLayers() <= 22
+78	numCodewords < numDataCodewords
+79	dataWord == 0
+79	dataWord == mask
+80	dataWord == mask - 1
+80	dataWord == 1
+81	dataWord == 1
+81	dataWord == mask - 1
+82	compact
+83	rawbits[i]
+84	n >= 8
+635	i % 2 == (mode - 1)
+635	mode == ALL
+636	mode == ALL
+636	i % 2 == (mode - 1)
+1711	fe != null
+1712	ce != null
+169	dimensionX <= 0
+169	dimensionY <= 0
+170	image.get((int) points[x], (int) points[x + 1])
+480	col == 0
+480	row == numrows
+481	row == numrows - 2
+481	(numcols % 4) != 0
+481	col == 0
+482	row == numrows - 2
+482	col == 0
+482	numcols % 8 == 4
+483	col == 2
+483	(numcols % 8) == 0
+483	row == numrows + 4
+484	col >= 0
+484	row < numrows
+484	hasBit(col, row)
+485	col < numcols
+485	hasBit(col, row)
+485	row >= 0
+486	hasBit(numcols - 1, numrows - 1)
+487	row < 0
+488	col < 0
+1446	detectionResultColumn != null
+1447	unadjustedCount == 0
+1448	codewords[codewordsRow] == null
+1449	codewords[codewordsRow].hasValidRowNumber()
+1450	detectionResultColumns[barcodeColumnCount + 1] == null
+1450	detectionResultColumns[0] == null
+1451	LRIcodewords[codewordsRow] != null
+1451	RRIcodewords[codewordsRow] != null
+1451	LRIcodewords[codewordsRow].getRowNumber() == RRIcodewords[codewordsRow].getRowNumber()
+1452	codeword == null
+1453	codeword.hasValidRowNumber()
+1454	detectionResultColumns[barcodeColumnCount + 1] == null
+1455	codewords[codewordsRow] == null
+1456	codeword != null
+1457	codeword.hasValidRowNumber()
+1458	detectionResultColumns[0] == null
+1459	codewords[codewordsRow] == null
+1460	codeword != null
+1461	codeword.hasValidRowNumber()
+1462	codeword == null
+1463	codeword.hasValidRowNumber()
+1464	codeword.isValidRowNumber(rowIndicatorRowNumber)
+1465	detectionResultColumns[barcodeColumn + 1] != null
+1466	codewordsRow > 0
+1467	codewordsRow > 1
+1468	codewordsRow < codewords.length - 1
+1469	codewordsRow < codewords.length - 2
+1470	adjustRowNumber(codeword, otherCodeword)
+1471	otherCodeword == null
+1472	otherCodeword.getBucket() == codeword.getBucket()
+1472	otherCodeword.hasValidRowNumber()
+1473	rowIndicatorColumn == null
+1474	detectionResultColumns[barcodeColumn] == null
+1475	codeword == null
+1533	codeword != null
+1534	nearImageRow >= 0
+1535	codeword != null
+1536	nearImageRow < codewords.length
+1537	codeword != null
+1538	codeword == null
+1423	codeword != null
+1424	codewords[codewordsRow] == null
+1425	rowDifference == 0
+1426	rowDifference == 1
+1427	rowDifference < 0
+1427	codeword.getRowNumber() >= barcodeMetadata.getRowCount()
+1427	rowDifference > codewordsRow
+1428	maxRowHeight > 2
+1429	closePreviousCodewordFound
+1430	barcodeMetadata == null
+1431	codeword != null
+1432	rowNumber >= result.length
+1433	codewords[codewordsRow] == null
+1434	rowDifference == 0
+1435	rowDifference == 1
+1436	codeword.getRowNumber() >= barcodeMetadata.getRowCount()
+1437	codeword == null
+1438	isLeft
+1439	barcodeRowCountLowerPart.getValue().length == 0
+1439	barcodeECLevel.getValue().length == 0
+1439	barcodeRowCountUpperPart.getValue()[0] + barcodeRowCountLowerPart.getValue()[0] > PDF417Common.MAX_ROWS_IN_BARCODE
+1439	barcodeRowCountUpperPart.getValue().length == 0
+1439	barcodeColumnCount.getValue()[0] < 1
+1439	barcodeColumnCount.getValue().length == 0
+1439	barcodeRowCountUpperPart.getValue()[0] + barcodeRowCountLowerPart.getValue()[0] < PDF417Common.MIN_ROWS_IN_BARCODE
+1440	codewords[codewordRow] == null
+1441	codewordRowNumber > barcodeMetadata.getRowCount()
+1442	isLeft
+1443	rowIndicatorValue * 3 + 1 != barcodeMetadata.getRowCountUpperPart()
+1444	rowIndicatorValue / 3 != barcodeMetadata.getErrorCorrectionLevel()
+1444	rowIndicatorValue % 3 != barcodeMetadata.getRowCountLowerPart()
+1445	rowIndicatorValue + 1 != barcodeMetadata.getColumnCount()
+85	isMirror
+86	isValid(bullsEyeCorners[0])
+86	isValid(bullsEyeCorners[3])
+86	isValid(bullsEyeCorners[2])
+86	isValid(bullsEyeCorners[1])
+87	compact
+88	compact
+89	Integer.bitCount(cornerBits ^ EXPECTED_CORNER_BITS[shift]) <= 2
+90	compact
+91	nbCenterLayers > 2
+92	isWhiteOrBlackRectangle(pouta, poutb, poutc, poutd)
+92	q < 0.75
+92	q > 1.25
+93	nbCenterLayers != 7
+93	nbCenterLayers != 5
+94	image.get(MathUtils.round(px + i * dx), MathUtils.round(py + i * dy))
+95	cInit == 0
+96	c != cInit
+97	c != cInit
+98	image.get(MathUtils.round(px), MathUtils.round(py)) != colorModel
+99	errRatio > 0.1f
+99	errRatio < 0.9f
+100	compact
+101	nbLayers <= 4
+610	value == 2
+611	maybeTopLeft == null
+612	maybeBottomRight == null
+612	maybeTopLeft == null
+612	bottomLeft == null
+613	pointCount.containsKey(pointA)
+614	pointCount.containsKey(pointB)
+615	pointCount.containsKey(pointC)
+616	(dimensionTop & 0x01) == 1
+617	(dimensionRight & 0x01) == 1
+618	4 * dimensionRight >= 7 * dimensionTop
+618	4 * dimensionTop >= 7 * dimensionRight
+619	correctedTopRight == null
+620	(dimensionTop & 0x01) == 1
+621	(dimensionRight & 0x01) == 1
+622	correctedTopRight == null
+623	(dimensionCorrected & 0x01) == 1
+624	isValid(c1)
+625	isValid(c2)
+626	isValid(c2)
+627	l1 <= l2
+628	isValid(c1)
+629	isValid(c2)
+630	isValid(c2)
+631	steep
+632	isBlack != inBlack
+633	error > 0
+634	y == toY
+1591	barcodeCoordinates.isEmpty()
+1592	vertices[3] == null
+1592	vertices[0] == null
+1593	foundBarcodeInRow
+1594	barcodeCoordinate[1] != null
+1595	barcodeCoordinate[3] != null
+1596	multiple
+1597	vertices[2] != null
+1598	result[4] != null
+1599	loc != null
+1600	previousRowLoc != null
+1601	found
+1602	Math.abs(previousRowLoc[1] - loc[1]) < MAX_PATTERN_DRIFT
+1602	Math.abs(previousRowLoc[0] - loc[0]) < MAX_PATTERN_DRIFT
+1602	loc != null
+1603	skippedRowCount > SKIPPED_ROW_COUNT_MAX
+1604	stopRow - startRow < BARCODE_MIN_HEIGHT
+1605	pixel != isWhite
+1606	counterPosition == patternLength - 1
+1607	patternMatchVariance(counters, pattern, MAX_INDIVIDUAL_VARIANCE) < MAX_AVG_VARIANCE
+1608	patternMatchVariance(counters, pattern, MAX_INDIVIDUAL_VARIANCE) < MAX_AVG_VARIANCE
+1608	counterPosition == patternLength - 1
+1609	total < patternLength
+1610	variance > maxIndividualVariance
+1765	moduleSize < 1.0f
+1766	provisionalVersion.getAlignmentPatternCenters().length > 0
+1767	alignmentPattern == null
+1768	alignmentPattern != null
+1769	Float.isNaN(moduleSizeEst1)
+1770	Float.isNaN(moduleSizeEst2)
+1771	otherToX < 0
+1772	otherToX >= image.getWidth()
+1773	otherToY < 0
+1774	otherToY >= image.getHeight()
+1775	steep
+1776	(state == 1) == image.get(realX, realY)
+1777	state == 2
+1778	error > 0
+1779	y == toY
+1780	state == 2
+1781	alignmentAreaRightX - alignmentAreaLeftX < overallEstModuleSize * 3
+1782	alignmentAreaBottomY - alignmentAreaTopY < overallEstModuleSize * 3
+167	width < 0
+167	height < 0
+168	other instanceof Dimension
+994	bestMatch >= 10
+995	lgPatternFound == FIRST_DIGIT_ENCODINGS[d]
+977	format != BarcodeFormat.EAN_13
+978	UPCEANReader.checkStandardUPCEANChecksum(contents)
+979	(parities >> (6 - i) & 1) == 1
+1090	format != BarcodeFormat.EAN_8
+1091	UPCEANReader.checkStandardUPCEANChecksum(contents)
+675	prefix < start
+676	prefix <= end
+677	ranges.isEmpty()
+489	count >= 4
+490	newMode != getEncodingMode()
+491	count == 0
+492	count == 1
+493	remaining == 0
+493	available <= 2
+494	count > 4
+495	restChars <= 2
+496	available >= 3
+497	restInAscii
+498	c >= ' '
+498	c <= '?'
+499	c <= '^'
+499	c >= '@'
+500	len == 0
+501	len >= 2
+502	len >= 3
+1152	rawText.startsWith("mailto:")
+1152	rawText.startsWith("MAILTO:")
+1153	queryStart >= 0
+1154	hostEmail.isEmpty()
+1155	nameValues != null
+1156	tos == null
+1157	tosString != null
+1158	ccString != null
+1159	bccString != null
+1160	EmailDoCoMoResultParser.isBasicallyValidEmailAddress(rawText)
+1303	rawText.startsWith("MATMSG:")
+1304	tos == null
+1305	isBasicallyValidEmailAddress(to)
+22	userSpecifiedLayers != DEFAULT_AZTEC_LAYERS
+23	layers > (compact ? MAX_NB_BITS_COMPACT : MAX_NB_BITS)
+24	stuffedBits.getSize() + eccBits > usableBitsInLayers
+25	stuffedBits.getSize() > wordSize * 64
+25	compact
+26	i > MAX_NB_BITS
+27	totalSizeBits > totalBitsInLayer
+28	wordSize != WORD_SIZE[layers]
+29	stuffedBits.getSize() > wordSize * 64
+29	compact
+30	stuffedBits.getSize() + eccBits <= usableBitsInLayers
+31	compact
+32	messageBits.get(rowOffset + columnOffset + k)
+33	messageBits.get(rowOffset + rowSize * 2 + columnOffset + k)
+34	messageBits.get(rowOffset + rowSize * 4 + columnOffset + k)
+35	messageBits.get(rowOffset + rowSize * 6 + columnOffset + k)
+36	compact
+37	compact
+38	compact
+39	modeMessage.get(i)
+40	modeMessage.get(i + 7)
+41	modeMessage.get(20 - i)
+42	modeMessage.get(27 - i)
+43	modeMessage.get(i)
+44	modeMessage.get(i + 10)
+45	modeMessage.get(29 - i)
+46	modeMessage.get(39 - i)
+47	i + j >= n
+47	bits.get(i + j)
+48	(word & mask) == mask
+49	(word & mask) == 0
+1638	hasEncodingHint
+1639	hasEncodingHint
+1639	mode == Mode.BYTE
+1639	DEFAULT_BYTE_MODE_ENCODING.equals(encoding)
+1640	eci != null
+1641	hints.containsKey(EncodeHintType.QR_VERSION)
+1641	hints != null
+1642	willFit(bitsNeeded, version, ecLevel)
+1643	code < ALPHANUMERIC_TABLE.length
+1644	isOnlyDoubleByteKanji(content)
+1644	"Shift_JIS".equals(encoding)
+1645	c >= '0'
+1645	c <= '9'
+1646	getAlphanumericCode(c) != -1
+1647	hasAlphanumeric
+1648	hasNumeric
+1649	length % 2 != 0
+1650	byte1 < 0xE0
+1650	byte1 > 0x9F
+1650	byte1 > 0xEB
+1650	byte1 < 0x81
+1651	penalty < minPenalty
+1652	willFit(numInputBits, version, ecLevel)
+1653	bits.getSize() > capacity
+1654	numBitsInLastByte > 0
+1655	bits.getSize() != capacity
+1656	blockID >= numRSBlocks
+1657	numEcBytesInGroup1 != numEcBytesInGroup2
+1658	numRSBlocks != numRsBlocksInGroup1 + numRsBlocksInGroup2
+1659	numTotalBytes != ((numDataBytesInGroup1 + numEcBytesInGroup1) * numRsBlocksInGroup1) + ((numDataBytesInGroup2 + numEcBytesInGroup2) * numRsBlocksInGroup2)
+1660	blockID < numRsBlocksInGroup1
+1661	bits.getSizeInBytes() != numDataBytes
+1662	numDataBytes != dataBytesOffset
+1663	i < dataBytes.length
+1664	i < ecBytes.length
+1665	numTotalBytes != result.getSizeInBytes()
+1666	numLetters >= (1 << numBits)
+1667	i + 2 < length
+1668	i + 1 < length
+1669	code1 == -1
+1670	i + 1 < length
+1671	code2 == -1
+1672	code >= 0x8140
+1672	code <= 0x9ffc
+1673	code >= 0xe040
+1673	code <= 0xebbf
+1674	subtracted == -1
+390	msg.charAt(i) != '?'
+390	ch == '?'
+391	this.symbolInfo == null
+391	len > this.symbolInfo.getDataCapacity()
+467	codewords.length() != symbolInfo.getDataCapacity()
+468	blockCount == 1
+469	i > 0
+470	FACTOR_SETS[i] == numECWords
+471	table < 0
+472	m != 0
+472	poly[k] != 0
+473	poly[0] != 0
+473	m != 0
+1414	eval != 0
+1415	error
+1416	erasures != null
+1417	position < 0
+1418	a.getDegree() < b.getDegree()
+1419	rLast.isZero()
+1420	sigmaTildeAtZero == 0
+1421	errorLocator.evaluateAt(i) == 0
+1422	e != numErrors
+912	o instanceof ExpandedPair
+1179	o instanceof ExpandedProductParsedResult
+1135	format != BarcodeFormat.RSS_EXPANDED
+1136	ai == null
+1137	value.length() < 4
+1138	c != '('
+1139	currentChar == ')'
+1140	currentChar > '9'
+1140	currentChar < '0'
+1141	c == '('
+1142	findAIvalue(index, rawTextAux) != null
+752	o instanceof ExpandedRow
+813	rawInformation.isEmpty()
+814	rawInformation.length() < 2
+815	dataLength[0].equals(firstTwoDigits)
+816	dataLength[1] == VARIABLE_LENGTH
+817	rawInformation.length() < 3
+818	dataLength[0].equals(firstThreeDigits)
+819	dataLength[1] == VARIABLE_LENGTH
+820	dataLength[0].equals(firstThreeDigits)
+821	dataLength[1] == VARIABLE_LENGTH
+822	rawInformation.length() < 4
+823	dataLength[0].equals(firstFourDigits)
+824	dataLength[1] == VARIABLE_LENGTH
+825	rawInformation.length() < aiSize
+826	rawInformation.length() < aiSize + fieldSize
+827	rawInformation.length() < aiSize + variableFieldSize
+964	o instanceof FinderPattern
+1783	Math.abs(i - getY()) <= moduleSize
+1783	Math.abs(j - getX()) <= moduleSize
+1784	tryHarder
+1784	iSkip < MIN_SKIP
+1785	image.get(j, i)
+1786	(currentState & 1) == 1
+1787	(currentState & 1) == 0
+1788	currentState == 4
+1789	foundPatternCross(stateCount)
+1790	confirmed
+1791	hasSkipped
+1792	rowSkip > stateCount[2]
+1793	foundPatternCross(stateCount)
+1794	confirmed
+1795	hasSkipped
+1796	count == 0
+1797	totalModuleSize < 7
+1798	centerJ < i
+1798	startI < i
+1799	stateCount[1] > maxCount
+1799	startI < i
+1799	centerJ < i
+1800	stateCount[0] > maxCount
+1801	startI + i >= maxI
+1801	centerJ + i >= maxJ
+1802	startI + i >= maxI
+1802	centerJ + i >= maxJ
+1802	stateCount[3] >= maxCount
+1803	stateCount[4] >= maxCount
+1804	i < 0
+1805	stateCount[1] > maxCount
+1805	i < 0
+1806	stateCount[0] > maxCount
+1807	i == maxI
+1808	stateCount[3] >= maxCount
+1808	i == maxI
+1809	stateCount[4] >= maxCount
+1810	5 * Math.abs(stateCountTotal - originalStateCountTotal) >= 2 * originalStateCountTotal
+1811	j < 0
+1812	stateCount[1] > maxCount
+1812	j < 0
+1813	stateCount[0] > maxCount
+1814	j == maxJ
+1815	j == maxJ
+1815	stateCount[3] >= maxCount
+1816	stateCount[4] >= maxCount
+1817	5 * Math.abs(stateCountTotal - originalStateCountTotal) >= originalStateCountTotal
+1818	Float.isNaN(centerI)
+1819	crossCheckDiagonal((int) centerI, (int) centerJ, stateCount[2], stateCountTotal)
+1819	Float.isNaN(centerJ)
+1819	pureBarcode
+1820	center.aboutEquals(estimatedModuleSize, centerI, centerJ)
+1821	found
+1822	resultPointCallback != null
+1823	max <= 1
+1824	center.getCount() >= CENTER_QUORUM
+1825	firstConfirmedCenter == null
+1826	pattern.getCount() >= CENTER_QUORUM
+1827	confirmedCount < 3
+1828	startSize < 3
+1829	startSize > 3
+1830	Math.abs(pattern.getEstimatedModuleSize() - average) > limit
+1831	possibleCenters.size() > 3
+1758	formatInfo != null
+1759	targetInfo == maskedFormatInfo2
+1759	targetInfo == maskedFormatInfo1
+1760	bitsDifference < bestDifference
+1761	maskedFormatInfo1 != maskedFormatInfo2
+1762	bitsDifference < bestDifference
+1763	bestDifference <= 3
+1764	o instanceof FormatInformation
+765	parsedFields != null
+766	info.isRemaining()
+767	currentPosition == info.getNewPosition()
+768	pos + 7 > this.information.getSize()
+769	this.information.get(i)
+770	pos + 7 > this.information.getSize()
+771	numeric == 0
+772	information.get(pos + i)
+773	remaining != null
+774	lastDecoded != null
+774	lastDecoded.isRemaining()
+775	current.isAlpha()
+776	current.isIsoIec646()
+777	positionChanged
+777	isFinished
+778	numeric.isFirstDigitFNC1()
+779	numeric.isSecondDigitFNC1()
+780	numeric.isSecondDigitFNC1()
+781	isNumericToAlphaNumericLatch(current.getPosition())
+782	iso.isFNC1()
+783	isAlphaOr646ToNumericLatch(current.getPosition())
+784	isAlphaTo646ToAlphaLatch(current.getPosition())
+785	current.getPosition() + 5 < this.information.getSize()
+786	alpha.isFNC1()
+787	isAlphaOr646ToNumericLatch(current.getPosition())
+788	isAlphaTo646ToAlphaLatch(current.getPosition())
+789	current.getPosition() + 5 < this.information.getSize()
+790	pos + 5 > this.information.getSize()
+791	fiveBitValue < 16
+791	fiveBitValue >= 5
+792	pos + 7 > this.information.getSize()
+793	sevenBitValue < 116
+793	sevenBitValue >= 64
+794	pos + 8 > this.information.getSize()
+795	fiveBitValue == 15
+796	fiveBitValue >= 5
+796	fiveBitValue < 15
+797	sevenBitValue < 90
+797	sevenBitValue >= 64
+798	sevenBitValue < 116
+798	sevenBitValue >= 90
+799	pos + 5 > this.information.getSize()
+800	fiveBitValue < 16
+800	fiveBitValue >= 5
+801	pos + 6 > this.information.getSize()
+802	fiveBitValue == 15
+803	fiveBitValue >= 5
+803	fiveBitValue < 15
+804	sixBitValue >= 32
+804	sixBitValue < 58
+805	pos + 1 > this.information.getSize()
+806	i == 2
+807	this.information.get(pos + 2)
+808	this.information.get(pos + i)
+809	pos + 3 > this.information.getSize()
+810	this.information.get(i)
+811	pos + 1 > this.information.getSize()
+812	this.information.get(pos + i)
+325	x >= size
+326	degree < 0
+327	coefficient == 0
+328	a == 0
+329	a == 0
+330	a == 0
+330	b == 0
+331	coefficients.length == 0
+332	coefficientsLength > 1
+332	coefficients[0] == 0
+333	firstNonZero == coefficientsLength
+334	a == 0
+335	a == 1
+336	field.equals(other.field)
+337	isZero()
+338	other.isZero()
+339	smallerCoefficients.length > largerCoefficients.length
+340	field.equals(other.field)
+341	isZero()
+341	other.isZero()
+342	scalar == 0
+343	scalar == 1
+344	degree < 0
+345	coefficient == 0
+346	field.equals(other.field)
+347	other.isZero()
+348	coefficient != 0
+349	coefficient < 0
+350	result.length() > 0
+351	coefficient != 1
+351	degree == 0
+352	alphaPower == 0
+353	alphaPower == 1
+354	degree != 0
+355	degree == 1
+116	results.isEmpty()
+117	currentDepth > MAX_DEPTH
+118	existingResult.getText().equals(result.getText())
+119	alreadyFound
+120	resultPoints == null
+120	resultPoints.length == 0
+121	point == null
+122	x < minX
+123	y < minY
+124	x > maxX
+125	y > maxY
+126	minX > MIN_DIMENSION_TO_RECUR
+127	minY > MIN_DIMENSION_TO_RECUR
+128	maxX < width - MIN_DIMENSION_TO_RECUR
+129	maxY < height - MIN_DIMENSION_TO_RECUR
+130	oldResultPoints == null
+131	oldPoint != null
+1172	altitude > 0
+1173	query != null
+1174	altitude > 0.0
+1175	query != null
+1318	matcher.matches()
+1319	latitude < -90.0
+1319	latitude > 90.0
+1320	longitude < -180.0
+1320	longitude > 180.0
+1321	matcher.group(3) == null
+1322	altitude < 0.0
+232	row.getSize() < width
+232	row == null
+233	width < 3
+234	(localLuminances[x] & 0xff) < blackPoint
+235	((center * 4) - left - right) / 2 < blackPoint
+236	pixel < blackPoint
+237	luminances.length < luminanceSize
+238	buckets[x] > firstPeakSize
+239	buckets[x] > maxBucketCount
+240	score > secondPeakScore
+241	firstPeak > secondPeak
+242	secondPeak - firstPeak <= numBuckets / 16
+243	score > bestValleyScore
+286	y > height
+286	x > width
+286	y < -1
+286	x < -1
+287	x == -1
+288	x == width
+289	y == -1
+290	y == height
+291	x > width
+291	y < -1
+291	x < -1
+291	y > height
+292	x == -1
+293	x == width
+294	y == -1
+295	y == height
+55	pairCode > 0
+56	charInMode > 0
+57	stateNoBinary == null
+58	mode == state.getMode()
+58	charInCurrentTable
+58	mode == MODE_DIGIT
+59	SHIFT_TABLE[state.getMode()][mode] >= 0
+59	charInCurrentTable
+60	state.getBinaryShiftByteCount() > 0
+60	CHAR_MAP[state.getMode()][ch] == 0
+61	state.getMode() != MODE_PUNCT
+62	pairCode == 3
+62	pairCode == 4
+63	state.getBinaryShiftByteCount() > 0
+64	oldState.isBetterThanOrEqualTo(newState)
+65	newState.isBetterThanOrEqualTo(oldState)
+66	add
+427	msg.endsWith(MACRO_TRAILER)
+427	msg.startsWith(MACRO_05_HEADER)
+428	msg.endsWith(MACRO_TRAILER)
+428	msg.startsWith(MACRO_06_HEADER)
+429	context.getNewEncoding() >= 0
+430	len < capacity
+431	encodingMode != BASE256_ENCODATION
+431	encodingMode != ASCII_ENCODATION
+432	codewords.length() < capacity
+433	startpos >= msg.length()
+434	currentMode == ASCII_ENCODATION
+435	(startpos + charsProcessed) == msg.length()
+436	intCharCounts[ASCII_ENCODATION] == min
+437	mins[BASE256_ENCODATION] > 0
+437	minCount == 1
+438	minCount == 1
+438	mins[EDIFACT_ENCODATION] > 0
+439	minCount == 1
+439	mins[TEXT_ENCODATION] > 0
+440	mins[X12_ENCODATION] > 0
+440	minCount == 1
+441	isDigit(c)
+442	isExtendedASCII(c)
+443	isNativeC40(c)
+444	isExtendedASCII(c)
+445	isNativeText(c)
+446	isExtendedASCII(c)
+447	isNativeX12(c)
+448	isExtendedASCII(c)
+449	isNativeEDIFACT(c)
+450	isExtendedASCII(c)
+451	isSpecialB256(c)
+452	charsProcessed >= 4
+453	intCharCounts[ASCII_ENCODATION] < intCharCounts[BASE256_ENCODATION]
+453	intCharCounts[ASCII_ENCODATION] < intCharCounts[X12_ENCODATION]
+453	intCharCounts[ASCII_ENCODATION] < intCharCounts[EDIFACT_ENCODATION]
+453	intCharCounts[ASCII_ENCODATION] < intCharCounts[C40_ENCODATION]
+453	intCharCounts[ASCII_ENCODATION] < intCharCounts[TEXT_ENCODATION]
+454	(mins[C40_ENCODATION] + mins[TEXT_ENCODATION] + mins[X12_ENCODATION] + mins[EDIFACT_ENCODATION]) == 0
+454	intCharCounts[BASE256_ENCODATION] < intCharCounts[ASCII_ENCODATION]
+455	minCount == 1
+455	mins[EDIFACT_ENCODATION] > 0
+456	mins[TEXT_ENCODATION] > 0
+456	minCount == 1
+457	minCount == 1
+457	mins[X12_ENCODATION] > 0
+458	intCharCounts[C40_ENCODATION] + 1 < intCharCounts[EDIFACT_ENCODATION]
+458	intCharCounts[C40_ENCODATION] + 1 < intCharCounts[TEXT_ENCODATION]
+458	intCharCounts[C40_ENCODATION] + 1 < intCharCounts[ASCII_ENCODATION]
+458	intCharCounts[C40_ENCODATION] + 1 < intCharCounts[BASE256_ENCODATION]
+459	intCharCounts[C40_ENCODATION] < intCharCounts[X12_ENCODATION]
+460	intCharCounts[C40_ENCODATION] == intCharCounts[X12_ENCODATION]
+461	isX12TermSep(tc)
+462	isNativeX12(tc)
+463	min > current
+464	min == current
+465	idx < len
+466	idx < len
+217	matrix != null
+218	height >= MINIMUM_DIMENSION
+218	width >= MINIMUM_DIMENSION
+219	(width & BLOCK_SIZE_MASK) != 0
+220	(height & BLOCK_SIZE_MASK) != 0
+221	yoffset > maxYOffset
+222	xoffset > maxXOffset
+223	(luminances[offset + x] & 0xFF) <= threshold
+224	yoffset > maxYOffset
+225	xoffset > maxXOffset
+226	pixel < min
+227	pixel > max
+228	max - min > MIN_DYNAMIC_RANGE
+229	max - min <= MIN_DYNAMIC_RANGE
+230	y > 0
+230	x > 0
+231	min < averageNeighborBlackPoint
+1161	format != BarcodeFormat.EAN_13
+1162	length != 13
+1163	rawText.startsWith("979")
+1163	rawText.startsWith("978")
+980	hints != null
+981	allowedLengths == null
+982	length == allowedLength
+983	allowedLength > maxAllowedLength
+984	length > maxAllowedLength
+984	lengthOK
+985	lengthOK
+986	row.get(i)
+987	quietCount != 0
+988	endStart == width
+989	row.get(x) != isWhite
+990	counterPosition == patternLength - 1
+991	patternMatchVariance(counters, pattern, MAX_INDIVIDUAL_VARIANCE) < MAX_AVG_VARIANCE
+992	variance < bestVariance
+993	bestMatch >= 0
+1023	format != BarcodeFormat.ITF
+1024	length % 2 != 0
+1025	length > 80
+1126	luminance < 0x40
+1127	luminance < 0x80
+1128	luminance < 0xC0
+1695	value == array[y + 1][x]
+1695	value == arrayY[x + 1]
+1695	value == array[y + 1][x + 1]
+1696	arrayY[x] == 1
+1696	arrayY[x + 4] == 1
+1696	arrayY[x + 5] == 0
+1696	arrayY[x + 6] == 1
+1696	arrayY[x + 2] == 1
+1696	isWhiteHorizontal(arrayY, x + 7, x + 11)
+1696	isWhiteHorizontal(arrayY, x - 4, x)
+1696	x + 6 < width
+1696	arrayY[x + 1] == 0
+1696	arrayY[x + 3] == 1
+1697	array[y + 2][x] == 1
+1697	isWhiteVertical(array, x, y - 4, y)
+1697	array[y + 5][x] == 0
+1697	array[y + 1][x] == 0
+1697	y + 6 < height
+1697	array[y + 4][x] == 1
+1697	array[y][x] == 1
+1697	array[y + 3][x] == 1
+1697	array[y + 6][x] == 1
+1697	isWhiteVertical(array, x, y + 7, y + 11)
+1698	rowArray[i] == 1
+1699	array[i][col] == 1
+1700	arrayY[x] == 1
+1701	bit == prevBit
+1702	numSameBitCells >= 5
+1703	numSameBitCells >= 5
+1676	i < 8
+1677	version.getVersionNumber() < 7
+1678	x == 6
+1679	isEmpty(matrix.get(xx, y))
+1680	bitIndex < dataBits.getSize()
+1681	MaskUtil.getDataMaskBit(maskPattern, xx, y)
+1681	maskPattern != -1
+1682	bitIndex != dataBits.getSize()
+1683	poly == 0
+1684	QRCode.isValidMaskPattern(maskPattern)
+1685	bits.getSize() != 15
+1686	bits.getSize() != 18
+1687	isEmpty(matrix.get(i, 6))
+1688	isEmpty(matrix.get(6, i))
+1689	matrix.get(8, matrix.getHeight() - 8) == 0
+1690	isEmpty(matrix.get(xStart + x, yStart))
+1691	isEmpty(matrix.get(xStart, yStart + y))
+1692	version.getVersionNumber() < 2
+1693	y >= 0
+1694	isEmpty(matrix.get(x, y))
+1694	x >= 0
+642	hints != null
+642	hints.containsKey(DecodeHintType.PURE_BARCODE)
+643	ecLevel != null
+644	enclosingRectangle == null
+645	image.get(ix, iy)
+1409	degree < 0
+1410	coefficient == 0
+1411	a == 0
+1412	a == 0
+1413	b == 0
+1413	a == 0
+1386	coefficients.length == 0
+1387	coefficientsLength > 1
+1387	coefficients[0] == 0
+1388	firstNonZero == coefficientsLength
+1389	a == 0
+1390	a == 1
+1391	field.equals(other.field)
+1392	isZero()
+1393	other.isZero()
+1394	smallerCoefficients.length > largerCoefficients.length
+1395	field.equals(other.field)
+1396	other.isZero()
+1397	field.equals(other.field)
+1398	isZero()
+1398	other.isZero()
+1399	scalar == 0
+1400	scalar == 1
+1401	degree < 0
+1402	coefficient == 0
+1403	coefficient != 0
+1404	coefficient < 0
+1405	result.length() > 0
+1406	coefficient != 1
+1406	degree == 0
+1407	degree != 0
+1408	degree == 1
+273	deltaX == 0
+274	range == null
+275	lastRange == null
+276	deltaX == 0
+277	lastRange[0] < centerX
+278	lastRange[1] > centerX
+279	lastRange[0] < centerY
+280	lastRange[1] > centerY
+281	horizontal ? image.get(start, fixedDimension) : image.get(fixedDimension, start)
+282	start < minDim
+282	whiteRunSize > maxWhiteRun
+283	horizontal ? image.get(end, fixedDimension) : image.get(fixedDimension, end)
+284	end >= maxDim
+284	whiteRunSize > maxWhiteRun
+144	infos.length == 0
+145	result.isEmpty()
+146	size < 3
+147	size == 3
+148	p1 == null
+149	p2 == null
+150	vModSize12A > DIFF_MODSIZE_CUTOFF
+150	vModSize12 >= DIFF_MODSIZE_CUTOFF_PERCENT
+151	p3 == null
+152	vModSize23A > DIFF_MODSIZE_CUTOFF
+152	vModSize23 >= DIFF_MODSIZE_CUTOFF_PERCENT
+153	estimatedModuleCount < MIN_MODULE_COUNT_PER_EDGE
+153	estimatedModuleCount > MAX_MODULE_COUNT_PER_EDGE
+154	vABBC >= 0.1f
+155	vPyC >= 0.1f
+156	results.isEmpty()
+157	iSkip < MIN_SKIP
+157	tryHarder
+158	image.get(j, i)
+159	(currentState & 1) == 1
+160	(currentState & 1) == 0
+161	currentState == 4
+162	foundPatternCross(stateCount)
+162	handlePossibleCenter(stateCount, i, j, pureBarcode)
+163	foundPatternCross(stateCount)
+164	result.isEmpty()
+1013	possibleFormats != null
+1014	possibleFormats.contains(BarcodeFormat.EAN_13)
+1014	possibleFormats.contains(BarcodeFormat.UPC_E)
+1014	possibleFormats.contains(BarcodeFormat.EAN_8)
+1014	possibleFormats.contains(BarcodeFormat.UPC_A)
+1015	possibleFormats.contains(BarcodeFormat.CODE_39)
+1016	possibleFormats.contains(BarcodeFormat.CODE_93)
+1017	possibleFormats.contains(BarcodeFormat.CODE_128)
+1018	possibleFormats.contains(BarcodeFormat.ITF)
+1019	possibleFormats.contains(BarcodeFormat.CODABAR)
+1020	possibleFormats.contains(BarcodeFormat.RSS_14)
+1021	possibleFormats.contains(BarcodeFormat.RSS_EXPANDED)
+1022	readers.isEmpty()
+5	readers == null
+6	formats != null
+7	addOneDReader
+7	tryHarder
+8	formats.contains(BarcodeFormat.QR_CODE)
+9	formats.contains(BarcodeFormat.DATA_MATRIX)
+10	formats.contains(BarcodeFormat.AZTEC)
+11	formats.contains(BarcodeFormat.PDF_417)
+12	formats.contains(BarcodeFormat.MAXICODE)
+13	tryHarder
+13	addOneDReader
+14	readers.isEmpty()
+15	tryHarder
+16	tryHarder
+17	readers != null
+18	readers != null
+668	possibleFormats != null
+669	possibleFormats.contains(BarcodeFormat.EAN_13)
+670	possibleFormats.contains(BarcodeFormat.UPC_A)
+671	possibleFormats.contains(BarcodeFormat.EAN_8)
+672	possibleFormats.contains(BarcodeFormat.UPC_E)
+673	readers.isEmpty()
+674	canReturnUPCA
+674	ean13MayBeUPCA
+678	image.isRotateSupported()
+678	tryHarder
+679	metadata.containsKey(ResultMetadataType.ORIENTATION)
+679	metadata != null
+680	points != null
+681	tryHarder
+682	rowNumber < 0
+682	rowNumber >= height
+683	attempt == 1
+684	hints != null
+684	hints.containsKey(DecodeHintType.NEED_RESULT_POINT_CALLBACK)
+685	attempt == 1
+686	points != null
+687	start >= end
+688	row.get(i) != isWhite
+689	++counterPosition == numCounters
+690	i == end
+690	counterPosition == numCounters
+690	counterPosition == numCounters - 1
+691	row.get(--start) != last
+692	numTransitionsLeft >= 0
+693	total < patternLength
+694	variance > maxIndividualVariance
+1055	contents.isEmpty()
+1056	height < 0
+1056	width < 0
+1057	hints != null
+1057	hints.containsKey(EncodeHintType.MARGIN)
+1058	code[inputX]
+1367	c * r >= (m + 1 + k + c)
+1368	last == black
+1369	cluster == 0
+1370	cluster == 1
+1371	compact
+1372	sourceCodeWords + errorCorrectionCodeWords + 1 > 929
+1373	rows < minRows
+1374	rows > maxRows
+1375	dimension != null
+1375	Math.abs(newRatio - PREFERRED_RATIO) > Math.abs(ratio - PREFERRED_RATIO)
+1376	dimension == null
+1377	rows < minRows
+1378	dimension == null
+1571	decodedValue != -1
+1572	sumPreviousBits + moduleBitCount[bitCountIndex] <= sampleIndex
+1573	bitCountSum > 1
+1574	error >= bestMatchError
+1575	error < bestMatchError
+1576	list == null
+1576	list.isEmpty()
+1577	i < 0
+1379	errorCorrectionLevel > 8
+1379	errorCorrectionLevel < 0
+1380	n <= 0
+1381	n <= 40
+1382	n <= 160
+1383	n <= 320
+1384	n <= 863
+1385	e[j] != 0
+1327	encoding == null
+1328	DEFAULT_ENCODING.equals(encoding)
+1329	eci != null
+1330	n >= 13
+1331	n == len
+1331	t >= 5
+1332	encodingMode != TEXT_COMPACTION
+1333	b == 0
+1334	encodingMode == TEXT_COMPACTION
+1334	bytes.length == 1
+1335	isAlphaUpper(ch)
+1336	ch == ' '
+1337	isAlphaLower(ch)
+1338	isMixed(ch)
+1339	isAlphaLower(ch)
+1340	ch == ' '
+1341	isAlphaUpper(ch)
+1342	isMixed(ch)
+1343	isMixed(ch)
+1344	isAlphaUpper(ch)
+1345	isAlphaLower(ch)
+1346	startpos + idx + 1 < count
+1347	isPunctuation(next)
+1348	isPunctuation(ch)
+1349	idx >= count
+1350	odd
+1351	(len % 2) != 0
+1352	startmode == TEXT_COMPACTION
+1352	count == 1
+1353	(count % 6) == 0
+1354	count >= 6
+1355	idx < len
+1356	idx < len
+1357	idx < len
+1358	numericCount >= 13
+1359	numericCount > 0
+1360	isText(ch)
+1361	i >= len
+1362	numericCount >= 13
+1363	encoder.canEncode(ch)
+1364	eci >= 0
+1364	eci < 900
+1365	eci < 810900
+1366	eci < 811800
+1323	result[0] == null
+1323	result.length == 0
+1323	result == null
+1324	pdf417ResultMetadata != null
+1325	p1 == null
+1325	p2 == null
+1326	p2 == null
+1326	p1 == null
+1479	imageTopLeft != null
+1480	imageTopRight != null
+1481	detectionResult == null
+1482	i == 0
+1482	detectionResult.getBoundingBox() .getMaxY() > boundingBox.getMaxY()
+1482	detectionResult.getBoundingBox() != null
+1482	detectionResult.getBoundingBox().getMinY() < boundingBox.getMinY()
+1483	detectionResult.getDetectionResultColumn(barcodeColumn) != null
+1484	barcodeColumn == 0
+1484	barcodeColumn == maxBarcodeColumn
+1485	startColumn > boundingBox.getMaxX()
+1485	startColumn < 0
+1486	previousStartColumn == -1
+1487	codeword != null
+1488	leftRowIndicatorColumn == null
+1488	rightRowIndicatorColumn == null
+1489	barcodeMetadata == null
+1490	rowIndicatorColumn == null
+1491	rowHeights == null
+1492	rowHeight > 0
+1493	rowHeights[row] > 0
+1494	leftRowIndicatorColumn == null
+1494	(leftBarcodeMetadata = leftRowIndicatorColumn.getBarcodeMetadata()) == null
+1495	(rightBarcodeMetadata = rightRowIndicatorColumn.getBarcodeMetadata()) == null
+1495	rightRowIndicatorColumn == null
+1496	leftBarcodeMetadata.getRowCount() != rightBarcodeMetadata.getRowCount()
+1496	leftBarcodeMetadata.getErrorCorrectionLevel() != rightBarcodeMetadata.getErrorCorrectionLevel()
+1496	leftBarcodeMetadata.getColumnCount() != rightBarcodeMetadata.getColumnCount()
+1497	codeword != null
+1498	leftToRight
+1499	numberOfCodewords.length == 0
+1500	calculatedNumberOfCodewords > PDF417Common.MAX_CODEWORDS_IN_BARCODE
+1500	calculatedNumberOfCodewords < 1
+1501	numberOfCodewords[0] != calculatedNumberOfCodewords
+1502	values.length == 0
+1503	values.length == 1
+1504	ambiguousIndexCount.length == 0
+1505	ambiguousIndexCount[i] < ambiguousIndexValues[i].length - 1
+1506	i == ambiguousIndexCount.length - 1
+1507	detectionResultColumn != null
+1508	codeword != null
+1509	rowNumber >= 0
+1510	rowNumber >= barcodeMatrix.length
+1511	isValidBarcodeColumn(detectionResult, barcodeColumn - offset)
+1512	codeword != null
+1513	codeword != null
+1514	isValidBarcodeColumn(detectionResult, barcodeColumn - offset)
+1515	codeword != null
+1516	previousRowCodeword != null
+1517	moduleBitCount == null
+1518	leftToRight
+1519	checkCodewordSkew(codewordBitCount, minCodewordWidth, maxCodewordWidth)
+1520	codeword == -1
+1521	image.get(imageColumn, imageRow) == previousPixelValue
+1522	imageColumn == (leftToRight ? maxColumn : minColumn)
+1522	moduleNumber == moduleBitCount.length
+1522	moduleNumber == moduleBitCount.length - 1
+1523	Math.abs(codewordStartColumn - correctedStartColumn) > CODEWORD_SKEW_SIZE
+1524	codewords.length == 0
+1525	erasures != null
+1525	erasures.length > numECCodewords / 2 + MAX_ERRORS
+1525	numECCodewords < 0
+1525	numECCodewords > MAX_EC_CODEWORDS
+1526	codewords.length < 4
+1527	numberOfCodewords > codewords.length
+1528	numberOfCodewords == 0
+1529	numECCodewords < codewords.length
+1530	(codeword & 0x1) != previousValue
+1531	i < 0
+1532	barcodeValue.getValue().length == 0
+1578	format != BarcodeFormat.PDF_417
+1579	hints != null
+1580	hints.containsKey(EncodeHintType.PDF417_COMPACT)
+1581	hints.containsKey(EncodeHintType.PDF417_COMPACTION)
+1582	hints.containsKey(EncodeHintType.PDF417_DIMENSIONS)
+1583	hints.containsKey(EncodeHintType.MARGIN)
+1584	hints.containsKey(EncodeHintType.ERROR_CORRECTION)
+1585	hints.containsKey(EncodeHintType.CHARACTER_SET)
+1586	(height > width) != (originalScale[0].length < originalScale.length)
+1587	scaleX < scaleY
+1588	scale > 1
+1589	rotated
+1590	inputY[x] == 1
+1143	value != null
+1143	value.isEmpty()
+1144	result.length() > 0
+1145	values != null
+285	dx3 == 0.0f
+285	dy3 == 0.0f
+1129	left + width > dataWidth
+1129	top + height > dataHeight
+1130	reverseHorizontal
+1131	y >= getHeight()
+1131	y < 0
+1132	row.length < width
+1132	row == null
+1133	height == dataHeight
+1133	width == dataWidth
+1134	width == dataWidth
+1189	format == BarcodeFormat.UPC_A
+1189	format == BarcodeFormat.EAN_13
+1189	format == BarcodeFormat.UPC_E
+1189	format == BarcodeFormat.EAN_8
+1190	isStringOfDigits(rawText, rawText.length())
+1191	format == BarcodeFormat.UPC_E
+1191	rawText.length() == 8
+1675	matrix == null
+1729	mirrored
+1729	points == null
+1729	points.length < 3
+133	decoderResult.getOther() instanceof QRCodeDecoderMetaData
+134	byteSegments != null
+135	ecLevel != null
+136	decoderResult.hasStructuredAppend()
+137	results.isEmpty()
+138	result.getResultMetadata().containsKey(ResultMetadataType.STRUCTURED_APPEND_SEQUENCE)
+139	hasSA
+140	result.getResultMetadata().containsKey(ResultMetadataType.STRUCTURED_APPEND_SEQUENCE)
+141	saResult.getResultMetadata().containsKey(ResultMetadataType.BYTE_SEGMENTS)
+142	saResult.getResultMetadata().containsKey(ResultMetadataType.BYTE_SEGMENTS)
+143	byteSegmentLength > 0
+1619	hints.containsKey(DecodeHintType.PURE_BARCODE)
+1619	hints != null
+1620	decoderResult.getOther() instanceof QRCodeDecoderMetaData
+1621	byteSegments != null
+1622	ecLevel != null
+1623	decoderResult.hasStructuredAppend()
+1624	rightBottomBlack == null
+1624	leftTopBlack == null
+1625	top >= bottom
+1625	left >= right
+1626	bottom - top != right - left
+1627	right >= image.getWidth()
+1628	matrixWidth <= 0
+1628	matrixHeight <= 0
+1629	matrixHeight != matrixWidth
+1630	nudgedTooFarRight > 0
+1631	nudgedTooFarRight > nudge
+1632	nudgedTooFarDown > 0
+1633	nudgedTooFarDown > nudge
+1634	image.get(left + (int) (x * moduleSize), iOffset)
+1635	inBlack != image.get(x, y)
+1636	++transitions == 5
+1637	y == height
+1637	x == width
+1611	contents.isEmpty()
+1612	format != BarcodeFormat.QR_CODE
+1613	height < 0
+1613	width < 0
+1614	hints != null
+1615	hints.containsKey(EncodeHintType.ERROR_CORRECTION)
+1616	hints.containsKey(EncodeHintType.MARGIN)
+1617	input == null
+1618	input.get(inputX, inputY) == 1
+0	top + height > dataHeight
+0	left + width > dataWidth
+1	y < 0
+1	y >= getHeight()
+2	row == null
+2	row.length < width
+3	width == dataWidth
+3	height == dataHeight
+4	width == dataWidth
+913	left.getCount() > 1
+914	right.getCount() > 1
+915	checkChecksum(left, right)
+916	pair == null
+917	other.getValue() == pair.getValue()
+918	found
+919	checkDigit == 10
+920	targetCheckValue > 72
+921	targetCheckValue > 8
+922	resultPointCallback != null
+923	right
+924	outsideChar
+925	count < 1
+926	count > 8
+927	(i & 0x01) == 0
+928	outsideChar
+929	(oddSum & 0x01) != 0
+929	oddSum < 4
+929	oddSum > 12
+930	evenSum > 10
+930	(evenSum & 0x01) != 0
+930	evenSum < 4
+931	rightFinderPattern == isWhite
+932	row.get(x) != isWhite
+933	counterPosition == 3
+934	isFinderPattern(counters)
+935	right
+936	outsideChar
+937	oddSum > 12
+938	oddSum < 4
+939	evenSum > 12
+940	evenSum < 4
+941	oddSum > 11
+942	oddSum < 5
+943	evenSum > 10
+944	evenSum < 4
+945	mismatch == 1
+946	oddParityBad
+947	evenParityBad
+948	evenParityBad
+949	mismatch == -1
+950	oddParityBad
+951	evenParityBad
+952	evenParityBad
+953	mismatch == 0
+954	oddParityBad
+955	evenParityBad
+956	oddSum < evenSum
+957	evenParityBad
+958	incrementOdd
+959	decrementOdd
+960	decrementOdd
+961	incrementEven
+962	decrementEven
+963	decrementEven
+840	this.pairs.isEmpty()
+841	checkChecksum()
+842	tryStackedDecode
+843	ps != null
+844	ps != null
+845	this.rows.size() > 25
+846	reverse
+847	reverse
+848	isValidSequence(this.pairs)
+849	checkChecksum()
+850	pairs.size() > sequence.length
+851	pairs.get(j).getFinderPattern().getValue() != sequence[j]
+852	stop
+853	erow.getRowNumber() > rowNumber
+854	nextIsSame
+854	prevIsSame
+855	isPartialRow(this.pairs, this.rows)
+856	r.getPairs().size() == pairs.size()
+857	p.equals(pp)
+858	found
+859	allFound
+860	p.equals(pp)
+861	found
+862	allFound
+863	firstCharacter == null
+864	currentRightChar != null
+865	row.get(initialPos)
+866	startFromEven
+867	pattern == null
+868	previousPairs.get(previousPairs.size() - 1).mustBeLast()
+868	previousPairs.isEmpty()
+869	forcedOffset >= 0
+870	previousPairs.isEmpty()
+871	startFromEven
+872	isWhite
+873	row.get(x) != isWhite
+874	counterPosition == 3
+875	searchingEvenPair
+876	isFinderPattern(counters)
+877	searchingEvenPair
+878	oddPattern
+879	leftChar
+880	Math.abs(elementWidth - expectedElementWidth) / expectedElementWidth > 0.3f
+881	count < 1
+882	value < 0.3f
+883	count > 8
+884	value > 8.7f
+885	(i & 0x01) == 0
+886	isNotA1left(pattern, isOddPattern, leftChar)
+887	isNotA1left(pattern, isOddPattern, leftChar)
+888	(oddSum & 0x01) != 0
+888	oddSum < 4
+888	oddSum > 13
+889	oddSum > 13
+890	oddSum < 4
+891	evenSum > 13
+892	evenSum < 4
+893	mismatch == 1
+894	oddParityBad
+895	evenParityBad
+896	evenParityBad
+897	mismatch == -1
+898	oddParityBad
+899	evenParityBad
+900	evenParityBad
+901	mismatch == 0
+902	oddParityBad
+903	evenParityBad
+904	oddSum < evenSum
+905	evenParityBad
+906	incrementOdd
+907	decrementOdd
+908	decrementOdd
+909	incrementEven
+910	decrementEven
+911	decrementEven
+965	narrowMask == 0
+965	noNarrow
+965	n - elmWidth - (elements - bar - 1) >= elements - bar - 1
+966	elements - bar - 1 > 1
+967	n - elmWidth > maxWidth
+968	n - r > r
+969	j <= minDenom
+356	eval != 0
+357	noError
+358	position < 0
+359	a.getDegree() < b.getDegree()
+360	rLast.isZero()
+361	r.getDegree() >= rLast.getDegree()
+362	sigmaTildeAtZero == 0
+363	numErrors == 1
+364	errorLocator.evaluateAt(i) == 0
+365	e != numErrors
+366	i != j
+367	field.getGeneratorBase() != 0
+368	degree >= cachedGenerators.size()
+369	ecBytes == 0
+370	dataBytes <= 0
+1851	resultMetadata == null
+1852	metadata != null
+1853	resultMetadata == null
+1854	oldPoints == null
+1855	newPoints.length > 0
+1855	newPoints != null
+1203	text.startsWith(BYTE_ORDER_MARK)
+1204	result != null
+1205	value != null
+1206	value != null
+1207	backslash < 0
+1208	c != '\\'
+1208	nextIsEscaped
+1209	c >= '0'
+1209	c <= '9'
+1210	c >= 'a'
+1210	c <= 'f'
+1211	c >= 'A'
+1211	c <= 'F'
+1212	value == null
+1212	length <= 0
+1213	paramStart < 0
+1214	keyValueTokens.length == 2
+1215	i < 0
+1216	i < 0
+1217	countPrecedingBackslashes(rawText, i) % 2 != 0
+1218	matches == null
+1219	trim
+1220	element.isEmpty()
+1221	matches == null
+1221	matches.isEmpty()
+1222	s.charAt(i) == '\\'
+1856	other instanceof ResultPoint
+1857	oneTwoDistance >= zeroOneDistance
+1857	oneTwoDistance >= zeroTwoDistance
+1858	zeroTwoDistance >= zeroOneDistance
+1858	zeroTwoDistance >= oneTwoDistance
+1859	crossProductZ(pointA, pointB, pointC) < 0.0f
+1313	rawText.startsWith("mms:")
+1313	rawText.startsWith("SMS:")
+1313	rawText.startsWith("sms:")
+1313	rawText.startsWith("MMS:")
+1314	nameValuePairs != null
+1314	nameValuePairs.isEmpty()
+1315	queryStart < 0
+1315	querySyntax
+1316	numberEnd < 0
+1317	maybeVia.startsWith("via=")
+1180	first
+1181	vias[i] != null
+1181	vias != null
+1182	hasBody
+1182	hasSubject
+1183	hasBody
+1184	hasSubject
+1185	hasBody
+1223	rawText.startsWith("SMSTO:")
+1223	rawText.startsWith("smsto:")
+1223	rawText.startsWith("MMSTO:")
+1223	rawText.startsWith("mmsto:")
+1224	bodyStart >= 0
+1200	rawText.startsWith("SMTP:")
+1200	rawText.startsWith("smtp:")
+1201	colon >= 0
+1202	colon >= 0
+50	mode != this.mode
+51	this.mode == HighLevelEncoder.MODE_PUNCT
+51	this.mode == HighLevelEncoder.MODE_DIGIT
+52	result.binaryShiftByteCount == 2047 + 31
+53	binaryShiftByteCount == 0
+54	this.binaryShiftByteCount > other.binaryShiftByteCount
+54	this.binaryShiftByteCount == 0
+54	other.binaryShiftByteCount > 0
+188	hints != null
+188	hints.containsKey(DecodeHintType.CHARACTER_SET)
+189	canBeUTF8
+190	utf8BytesLeft > 0
+191	(value & 0x80) == 0
+192	(value & 0x80) != 0
+193	(value & 0x40) == 0
+194	(value & 0x20) == 0
+195	(value & 0x10) == 0
+196	(value & 0x08) == 0
+197	canBeISO88591
+198	value < 0xA0
+198	value > 0x7F
+199	value > 0x9F
+200	value < 0xC0
+200	value == 0xD7
+200	value == 0xF7
+201	canBeShiftJIS
+202	sjisBytesLeft > 0
+203	value < 0x40
+203	value > 0xFC
+203	value == 0x7F
+204	value > 0xEF
+204	value == 0xA0
+204	value == 0x80
+205	value > 0xA0
+205	value < 0xE0
+206	sjisCurKatakanaWordLength > sjisMaxKatakanaWordLength
+207	value > 0x7F
+208	sjisCurDoubleBytesWordLength > sjisMaxDoubleBytesWordLength
+209	canBeUTF8
+209	utf8BytesLeft > 0
+210	canBeShiftJIS
+210	sjisBytesLeft > 0
+211	utf2BytesChars + utf3BytesChars + utf4BytesChars > 0
+211	canBeUTF8
+211	utf8bom
+212	sjisMaxDoubleBytesWordLength >= 3
+212	ASSUME_SHIFT_JIS
+212	canBeShiftJIS
+212	sjisMaxKatakanaWordLength >= 3
+213	canBeISO88591
+213	canBeShiftJIS
+214	canBeISO88591
+215	canBeShiftJIS
+216	canBeUTF8
+392	shape == SymbolShapeHint.FORCE_SQUARE
+392	symbol.rectangular
+393	shape == SymbolShapeHint.FORCE_RECTANGLE
+393	symbol.rectangular
+394	symbol.getSymbolWidth() < minSize.getWidth()
+394	symbol.getSymbolHeight() < minSize.getHeight()
+394	minSize != null
+395	symbol.getSymbolWidth() > maxSize.getWidth()
+395	symbol.getSymbolHeight() > maxSize.getHeight()
+395	maxSize != null
+396	dataCodewords <= symbol.dataCapacity
+397	fail
+1195	rawText.startsWith("tel:")
+1195	rawText.startsWith("TEL:")
+379	c == ' '
+380	c <= '9'
+380	c >= '0'
+381	c <= 'z'
+381	c >= 'a'
+382	c >= '\0'
+382	c <= '\u001f'
+383	c >= '!'
+383	c <= '/'
+384	c <= '@'
+384	c >= ':'
+385	c <= '_'
+385	c >= '['
+386	c == '\u0060'
+387	c >= 'A'
+387	c <= 'Z'
+388	c <= '\u007f'
+388	c >= '{'
+389	c >= '\u0080'
+1012	text.charAt(0) == '0'
+999	format != BarcodeFormat.UPC_A
+1049	extensionData != null
+1050	bestMatch >= 10
+1051	x != 1
+1052	resultString.length() != 2
+1053	Integer.parseInt(resultString.toString()) % 4 != checkParity
+1054	raw.length() != 2
+1079	extensionData != null
+1080	bestMatch >= 10
+1081	x != 4
+1082	resultString.length() != 5
+1083	extensionChecksum(resultString.toString()) != checkDigit
+1084	lgPatternFound == CHECK_DIGIT_ENCODINGS[d]
+1085	raw.length() != 5
+1086	value == null
+1087	"90000".equals(raw)
+1088	"99991".equals(raw)
+1089	"99990".equals(raw)
+1059	quietStart >= 0
+1060	resultPointCallback != null
+1061	resultPointCallback != null
+1062	resultPointCallback != null
+1063	quietEnd >= row.getSize()
+1063	row.isRange(end, quietEnd, false)
+1064	resultString.length() < 8
+1065	checkChecksum(resultString)
+1066	allowedExtensions != null
+1067	extensionLength == length
+1068	valid
+1069	format == BarcodeFormat.UPC_A
+1069	format == BarcodeFormat.EAN_13
+1070	countryID != null
+1071	length == 0
+1072	digit > 9
+1072	digit < 0
+1073	digit > 9
+1073	digit < 0
+1074	row.get(x) != isWhite
+1075	counterPosition == patternLength - 1
+1076	patternMatchVariance(counters, pattern, MAX_INDIVIDUAL_VARIANCE) < MAX_AVG_VARIANCE
+1077	variance < bestVariance
+1078	bestMatch >= 0
+1116	bestMatch >= 10
+1117	lgPatternFound == NUMSYS_AND_CHECK_DIGIT_PATTERNS[numSys][d]
+1118	upce.length() >= 8
+1122	format != BarcodeFormat.UPC_E
+1123	UPCEANReader.checkStandardUPCEANChecksum(contents)
+1124	firstDigit != 1
+1124	firstDigit != 0
+1125	(parities >> (6 - i) & 1) == 1
+1166	protocolEnd < 0
+1166	isColonFollowedByPortNumber(uri, protocolEnd)
+1167	nextSlash < 0
+1233	rawText.startsWith("URL:")
+1233	rawText.startsWith("URI:")
+1234	uri.contains(" ")
+1235	m.find()
+1235	m.start() == 0
+1164	rawText.startsWith("urlto:")
+1164	rawText.startsWith("URLTO:")
+1165	titleEnd < 0
+1267	m.find()
+1267	m.start() != 0
+1268	names == null
+1269	isLikeVCardDate(birthday.get(0))
+1269	birthday != null
+1270	geo.length != 2
+1270	geo != null
+1271	i > 0
+1272	matcher.find(i)
+1273	metadataString != null
+1274	metadata == null
+1275	metadatumTokens.length > 1
+1276	"QUOTED-PRINTABLE".equalsIgnoreCase(value)
+1276	"ENCODING".equalsIgnoreCase(key)
+1277	"CHARSET".equalsIgnoreCase(key)
+1278	i < rawText.length() - 1
+1278	rawText.charAt(i + 1) == ' '
+1278	rawText.charAt(i + 1) == '\t'
+1279	rawText.charAt(i - 2) == '='
+1279	rawText.charAt(i - 1) == '='
+1279	quotedPrintable
+1279	i >= 2
+1279	i >= 1
+1280	i < 0
+1281	i > matchStart
+1282	matches == null
+1283	i >= 1
+1283	rawText.charAt(i - 1) == '\r'
+1284	trim
+1285	quotedPrintable
+1286	parseFieldDivider
+1287	parseFieldDivider
+1288	metadata == null
+1289	i < length - 2
+1290	nextChar != '\n'
+1290	nextChar != '\r'
+1291	secondDigit >= 0
+1291	firstDigit >= 0
+1292	fragmentBuffer.size() > 0
+1293	charset == null
+1294	lists == null
+1294	lists.isEmpty()
+1295	value.isEmpty()
+1295	value != null
+1296	lists == null
+1296	lists.isEmpty()
+1297	value != null
+1297	value.isEmpty()
+1298	equals < 0
+1299	"TYPE".equalsIgnoreCase(metadatum.substring(0, equals))
+1300	names != null
+1301	components[i] != null
+1301	components[i].isEmpty()
+1302	newName.length() > 0
+1306	vEventStart < 0
+1307	start == null
+1308	attendees != null
+1309	geoString == null
+1310	semicolon < 0
+1311	values == null
+1311	values.isEmpty()
+1312	s.startsWith("mailto:")
+1312	s.startsWith("MAILTO:")
+1312	s != null
+1192	countryCode != null
+1236	result.getBarcodeFormat() != BarcodeFormat.CODE_39
+1237	AZ09.matcher(rawText).matches()
+1238	checkChecksum(rawText)
+1239	c <= 'I'
+1239	c >= 'A'
+1240	c >= 'J'
+1240	c <= 'R'
+1241	c <= 'Z'
+1241	c >= 'S'
+1242	c >= '0'
+1242	c <= '9'
+1243	position >= 1
+1243	position <= 7
+1244	position == 8
+1245	position == 9
+1246	position >= 10
+1246	position <= 17
+1247	remainder < 10
+1248	remainder == 10
+1249	c <= 'H'
+1249	c >= 'E'
+1250	c <= 'N'
+1250	c >= 'J'
+1251	c == 'P'
+1252	c <= 'T'
+1252	c >= 'R'
+1253	c <= 'Y'
+1253	c >= 'V'
+1254	c <= '9'
+1254	c >= '1'
+1255	c <= 'D'
+1255	c >= 'A'
+1256	c2 <= 'W'
+1256	c2 >= 'A'
+1257	c2 >= 'A'
+1257	c2 <= '9'
+1257	c2 >= '3'
+1257	c2 <= 'E'
+1258	c2 <= 'T'
+1258	c2 >= 'A'
+1259	c2 <= 'R'
+1259	c2 >= 'L'
+1260	c2 >= 'A'
+1260	c2 <= 'E'
+1261	c2 <= 'M'
+1261	c2 >= 'A'
+1262	c2 >= 'N'
+1262	c2 <= 'T'
+1263	c2 <= 'R'
+1263	c2 >= 'F'
+1264	c2 >= 'S'
+1264	c2 <= 'W'
+1265	c2 == '0'
+1265	c2 <= '9'
+1265	c2 >= '3'
+1266	c2 >= 'A'
+1266	c2 <= 'R'
+503	(numColumns & 0x01) != 0
+503	(numRows & 0x01) != 0
+504	version.symbolSizeRows == numRows
+504	version.symbolSizeColumns == numColumns
+1704	dimension % 4 != 1
+1705	versionNumber < 1
+1705	versionNumber > 40
+1706	targetVersion == versionBits
+1707	bitsDifference < bestDifference
+1708	bestDifference <= 3
+1709	x == max - 1
+1709	x == 0
+1709	y == max - 1
+1709	y == 0
+1709	y == 0
+1710	versionNumber > 6
+249	downInit >= height
+249	rightInit >= width
+249	leftInit < 0
+249	upInit < 0
+250	rightBorderNotWhite
+251	atLeastOneBlackPointFoundOnRight
+252	right >= width
+253	bottomBorderNotWhite
+254	atLeastOneBlackPointFoundOnBottom
+255	down >= height
+256	leftBorderNotWhite
+257	atLeastOneBlackPointFoundOnLeft
+258	left < 0
+259	topBorderNotWhite
+260	atLeastOneBlackPointFoundOnTop
+261	up < 0
+262	aBlackPointFoundOnBorder
+263	atLeastOneBlackPointFoundOnBorder
+263	sizeExceeded
+264	z == null
+265	t == null
+266	x == null
+267	y == null
+268	image.get(x, y)
+269	yi < width / 2.0f
+270	horizontal
+271	image.get(x, fixed)
+272	image.get(fixed, y)
+1176	rawText.startsWith("WIFI:")
+1177	ssid.isEmpty()
+1177	ssid == null
+1178	type == null
+474	(count % 3) == 0
+475	newMode != getEncodingMode()
+476	c >= '0'
+476	c <= '9'
+477	c <= 'Z'
+477	c >= 'A'
+478	context.getRemainingCharacters() > 1
+478	context.getRemainingCharacters() != available
+478	available > 1
+479	context.getNewEncoding() < 0

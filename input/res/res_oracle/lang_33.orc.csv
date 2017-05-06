@@ -1,0 +1,2347 @@
+id	oracle
+1048	consumed != 0
+1384	array == null
+1385	array == null
+1386	object instanceof Map.Entry<?, ?>
+1387	object instanceof Object[]
+1388	entry.length < 2
+1389	array == null
+1390	array == null
+1391	array == null
+1392	array == null
+1393	array == null
+1394	array == null
+1395	array == null
+1396	array == null
+1397	array == null
+1398	array == null
+1399	array.length == 0
+1400	array == null
+1401	array.length == 0
+1402	array == null
+1403	array.length == 0
+1404	array == null
+1405	array.length == 0
+1406	array == null
+1407	array.length == 0
+1408	array == null
+1409	array.length == 0
+1410	array == null
+1411	array.length == 0
+1412	array == null
+1413	array.length == 0
+1414	array == null
+1415	array.length == 0
+1416	array == null
+1417	array.length == 0
+1418	array == null
+1419	array.length == 0
+1420	array == null
+1421	array.length == 0
+1422	array == null
+1423	array.length == 0
+1424	array == null
+1425	array.length == 0
+1426	array == null
+1427	array.length == 0
+1428	array == null
+1429	array.length == 0
+1430	array == null
+1431	array.length == 0
+1432	array == null
+1433	array.length == 0
+1434	array == null
+1435	startIndexInclusive < 0
+1436	endIndexExclusive > array.length
+1437	newSize <= 0
+1438	array == null
+1439	startIndexInclusive < 0
+1440	endIndexExclusive > array.length
+1441	newSize <= 0
+1442	array == null
+1443	startIndexInclusive < 0
+1444	endIndexExclusive > array.length
+1445	newSize <= 0
+1446	array == null
+1447	startIndexInclusive < 0
+1448	endIndexExclusive > array.length
+1449	newSize <= 0
+1450	array == null
+1451	startIndexInclusive < 0
+1452	endIndexExclusive > array.length
+1453	newSize <= 0
+1454	array == null
+1455	startIndexInclusive < 0
+1456	endIndexExclusive > array.length
+1457	newSize <= 0
+1458	array == null
+1459	startIndexInclusive < 0
+1460	endIndexExclusive > array.length
+1461	newSize <= 0
+1462	array == null
+1463	startIndexInclusive < 0
+1464	endIndexExclusive > array.length
+1465	newSize <= 0
+1466	array == null
+1467	startIndexInclusive < 0
+1468	endIndexExclusive > array.length
+1469	newSize <= 0
+1470	array1.length != array2.length
+1470	array1.length > 0
+1470	array2 == null
+1470	array1 != null
+1470	array1 == null
+1470	array2 != null
+1470	array2 != null
+1470	array1 != null
+1470	array2.length > 0
+1471	array2.length > 0
+1471	array2 != null
+1471	array2 != null
+1471	array2 == null
+1471	array1.length > 0
+1471	array1 != null
+1471	array1 != null
+1471	array1.length != array2.length
+1471	array1 == null
+1472	array1 != null
+1472	array1 != null
+1472	array1.length > 0
+1472	array1.length != array2.length
+1472	array1 == null
+1472	array2 == null
+1472	array2.length > 0
+1472	array2 != null
+1472	array2 != null
+1473	array1 != null
+1473	array1 != null
+1473	array2.length > 0
+1473	array1.length > 0
+1473	array1.length != array2.length
+1473	array1 == null
+1473	array2 != null
+1473	array2 != null
+1473	array2 == null
+1474	array2 != null
+1474	array1.length > 0
+1474	array1 != null
+1474	array2 != null
+1474	array1.length != array2.length
+1474	array2 == null
+1474	array1 != null
+1474	array1 == null
+1474	array2.length > 0
+1475	array1 != null
+1475	array2 != null
+1475	array1 == null
+1475	array2 == null
+1475	array2 != null
+1475	array1.length > 0
+1475	array2.length > 0
+1475	array1 != null
+1475	array1.length != array2.length
+1476	array1 == null
+1476	array2.length > 0
+1476	array2 != null
+1476	array1.length > 0
+1476	array1 != null
+1476	array1.length != array2.length
+1476	array2 == null
+1476	array1 != null
+1476	array2 != null
+1477	array1 == null
+1477	array2.length > 0
+1477	array1.length != array2.length
+1477	array1 != null
+1477	array2 == null
+1477	array2 != null
+1477	array1 != null
+1477	array1.length > 0
+1477	array2 != null
+1478	array2 != null
+1478	array2 != null
+1478	array1 == null
+1478	array1.length > 0
+1478	array1 != null
+1478	array1 != null
+1478	array2.length > 0
+1478	array1.length != array2.length
+1478	array2 == null
+1479	array == null
+1480	array1 == null
+1480	array2 == null
+1481	array == null
+1482	array == null
+1483	array == null
+1484	array == null
+1485	array == null
+1486	array == null
+1487	array == null
+1488	array == null
+1489	array == null
+1490	array == null
+1491	startIndex < 0
+1492	objectToFind == null
+1493	array[i] == null
+1494	array.getClass().getComponentType().isInstance(objectToFind)
+1495	objectToFind.equals(array[i])
+1496	array == null
+1497	startIndex < 0
+1498	startIndex >= array.length
+1499	objectToFind == null
+1500	array[i] == null
+1501	array.getClass().getComponentType().isInstance(objectToFind)
+1502	objectToFind.equals(array[i])
+1503	array == null
+1504	startIndex < 0
+1505	valueToFind == array[i]
+1506	array == null
+1507	startIndex < 0
+1508	startIndex >= array.length
+1509	valueToFind == array[i]
+1510	array == null
+1511	startIndex < 0
+1512	valueToFind == array[i]
+1513	array == null
+1514	startIndex < 0
+1515	startIndex >= array.length
+1516	valueToFind == array[i]
+1517	array == null
+1518	startIndex < 0
+1519	valueToFind == array[i]
+1520	array == null
+1521	startIndex < 0
+1522	startIndex >= array.length
+1523	valueToFind == array[i]
+1524	array == null
+1525	startIndex < 0
+1526	valueToFind == array[i]
+1527	array == null
+1528	startIndex < 0
+1529	startIndex >= array.length
+1530	valueToFind == array[i]
+1531	array == null
+1532	startIndex < 0
+1533	valueToFind == array[i]
+1534	array == null
+1535	startIndex < 0
+1536	startIndex >= array.length
+1537	valueToFind == array[i]
+1538	ArrayUtils.isEmpty(array)
+1539	startIndex < 0
+1540	valueToFind == array[i]
+1541	ArrayUtils.isEmpty(array)
+1542	startIndex < 0
+1543	array[i] >= min
+1543	array[i] <= max
+1544	ArrayUtils.isEmpty(array)
+1545	startIndex < 0
+1546	startIndex >= array.length
+1547	valueToFind == array[i]
+1548	ArrayUtils.isEmpty(array)
+1549	startIndex < 0
+1550	startIndex >= array.length
+1551	array[i] <= max
+1551	array[i] >= min
+1552	ArrayUtils.isEmpty(array)
+1553	startIndex < 0
+1554	valueToFind == array[i]
+1555	ArrayUtils.isEmpty(array)
+1556	startIndex < 0
+1557	startIndex >= array.length
+1558	valueToFind == array[i]
+1559	ArrayUtils.isEmpty(array)
+1560	startIndex < 0
+1561	valueToFind == array[i]
+1562	ArrayUtils.isEmpty(array)
+1563	startIndex < 0
+1564	startIndex >= array.length
+1565	valueToFind == array[i]
+1566	array == null
+1567	array.length == 0
+1568	array == null
+1569	array.length == 0
+1570	array == null
+1571	array.length == 0
+1572	array == null
+1573	array.length == 0
+1574	array == null
+1575	array.length == 0
+1576	array == null
+1577	array.length == 0
+1578	array == null
+1579	array.length == 0
+1580	array == null
+1581	array.length == 0
+1582	array == null
+1583	array.length == 0
+1584	array == null
+1585	array.length == 0
+1586	array == null
+1587	array.length == 0
+1588	array == null
+1589	array.length == 0
+1590	array == null
+1591	array.length == 0
+1592	array == null
+1593	array.length == 0
+1594	array == null
+1595	array.length == 0
+1596	array == null
+1597	array.length == 0
+1598	array == null
+1599	array.length == 0
+1600	array == null
+1601	array.length == 0
+1602	array == null
+1603	array.length == 0
+1604	array == null
+1605	array.length == 0
+1606	array == null
+1607	array.length == 0
+1608	array == null
+1609	array.length == 0
+1610	array == null
+1611	array.length == 0
+1612	array == null
+1613	array.length == 0
+1614	array.length == 0
+1614	array == null
+1615	array == null
+1615	array.length == 0
+1616	array == null
+1616	array.length == 0
+1617	array == null
+1617	array.length == 0
+1618	array == null
+1618	array.length == 0
+1619	array == null
+1619	array.length == 0
+1620	array.length == 0
+1620	array == null
+1621	array.length == 0
+1621	array == null
+1622	array.length == 0
+1622	array == null
+1623	array1 == null
+1624	array2 == null
+1625	type1.isAssignableFrom(type2)
+1626	array1 == null
+1627	array2 == null
+1628	array1 == null
+1629	array2 == null
+1630	array1 == null
+1631	array2 == null
+1632	array1 == null
+1633	array2 == null
+1634	array1 == null
+1635	array2 == null
+1636	array1 == null
+1637	array2 == null
+1638	array1 == null
+1639	array2 == null
+1640	array1 == null
+1641	array2 == null
+1642	array != null
+1643	element != null
+1644	array != null
+1645	array != null
+1646	element != null
+1647	array == null
+1648	index != 0
+1649	index < 0
+1649	index > length
+1650	index < length
+1651	index == INDEX_NOT_FOUND
+1652	index == INDEX_NOT_FOUND
+1653	index == INDEX_NOT_FOUND
+1654	index == INDEX_NOT_FOUND
+1655	index == INDEX_NOT_FOUND
+1656	index == INDEX_NOT_FOUND
+1657	index == INDEX_NOT_FOUND
+1658	index == INDEX_NOT_FOUND
+1659	index == INDEX_NOT_FOUND
+1660	index < 0
+1660	index >= length
+1661	index < length - 1
+858	isStarted()
+859	isStarted()
+860	executor == null
+861	future == null
+727	bit_pattern != 0
+1321	bool == null
+1322	bool == null
+1323	bool == null
+1324	bool == null
+1325	bool == null
+1326	value == null
+1327	value == trueValue
+1328	value == falseValue
+1329	value == null
+1330	trueValue == null
+1331	falseValue == null
+1332	value.equals(trueValue)
+1333	value.equals(falseValue)
+1334	value == trueValue
+1335	value == falseValue
+1336	value == nullValue
+1337	value == null
+1338	trueValue == null
+1339	falseValue == null
+1340	nullValue == null
+1341	value.equals(trueValue)
+1342	value.equals(falseValue)
+1343	value.equals(nullValue)
+1344	bool == null
+1345	bool == null
+1346	bool == null
+1347	"true".equalsIgnoreCase(str)
+1348	"false".equalsIgnoreCase(str)
+1349	"on".equalsIgnoreCase(str)
+1350	"off".equalsIgnoreCase(str)
+1351	"yes".equalsIgnoreCase(str)
+1352	"no".equalsIgnoreCase(str)
+1353	str == null
+1354	trueString == null
+1355	falseString == null
+1356	nullString == null
+1357	str.equals(trueString)
+1358	str.equals(falseString)
+1359	str.equals(nullString)
+1360	str == "true"
+1361	str == null
+1362	ch == 'y'
+1363	ch == 'Y'
+1364	ch == 't'
+1365	ch == 'T'
+1366	str == null
+1367	trueString == null
+1368	falseString == null
+1369	str.equals(trueString)
+1370	str.equals(falseString)
+1371	bool == null
+1372	array == null
+1373	array.length == 0
+1374	element
+1375	trueCount < 1
+1376	array == null
+1377	array.length == 0
+857	call == null
+841	name == null
+728	start > end
+729	range == null
+730	negated
+731	range.negated
+732	range.negated
+733	obj == this
+734	obj instanceof CharRange == false
+735	iToString == null
+736	isNegated()
+737	start != end
+1043	input == null
+1044	out == null
+1045	input == null
+1046	consumed == 0
+1047	i < sz - 2
+0	set != null
+1	setStrs == null
+2	str == null
+3	str.charAt(pos + 2) == '-'
+3	str.charAt(pos) == '^'
+3	remainder >= 4
+4	str.charAt(pos + 1) == '-'
+4	remainder >= 3
+5	str.charAt(pos) == '^'
+5	remainder >= 2
+6	range.contains(ch)
+7	obj == this
+8	obj instanceof CharSet == false
+1662	StringUtils.isEmpty(str)
+1662	StringUtils.isEmpty(set)
+1663	StringUtils.isEmpty(str)
+1663	ArrayUtils.isEmpty(set)
+1664	chars.contains(ch)
+1665	i != 0
+1665	ch == lastChar
+1666	StringUtils.isEmpty(set)
+1666	StringUtils.isEmpty(str)
+1667	ArrayUtils.isEmpty(set)
+1667	StringUtils.isEmpty(str)
+1668	chars.contains(chrs[i])
+1669	str == null
+1670	StringUtils.isEmpty(set)
+1670	str.length() == 0
+1671	str == null
+1672	str.length() == 0
+1672	ArrayUtils.isEmpty(set)
+1673	StringUtils.isEmpty(str)
+1673	StringUtils.isEmpty(set)
+1674	ArrayUtils.isEmpty(set)
+1674	StringUtils.isEmpty(str)
+1675	chars.contains(chrs[i]) == expect
+1706	ch < CHAR_ARRAY.length
+1707	StringUtils.isEmpty(str)
+1708	ch == null
+1709	ch == null
+1710	StringUtils.isEmpty(str)
+1711	StringUtils.isEmpty(str)
+1712	isAsciiNumeric(ch) == false
+1713	isAsciiNumeric(ch) == false
+1714	ch == null
+1715	ch == null
+1716	ch < 128
+1717	ch == null
+1718	ch < 0x10
+1719	ch < 0x100
+1720	ch < 0x1000
+1721	ch == null
+663	object == null
+664	cls == null
+665	className == null
+666	className.length() == 0
+667	className.startsWith("[")
+668	className.charAt(className.length() - 1) == ';'
+668	className.charAt(0) == 'L'
+669	reverseAbbreviationMap.containsKey(className)
+670	innerIdx != -1
+671	object == null
+672	cls == null
+673	className == null
+673	className.length() == 0
+674	className.charAt(0) == 'L'
+674	className.charAt(className.length() - 1) == ';'
+675	i == -1
+676	cls == null
+677	cls == null
+678	interfacesFound.add(i)
+679	classNames == null
+680	classes == null
+681	cls == null
+682	ArrayUtils.isSameLength(classArray, toClassArray) == false
+683	classArray == null
+684	toClassArray == null
+685	isAssignable(classArray[i], toClassArray[i], autoboxing) == false
+686	toClass == null
+687	cls == null
+688	autoboxing
+689	cls.isPrimitive()
+689	toClass.isPrimitive()
+690	cls == null
+691	toClass.isPrimitive()
+691	cls.isPrimitive()
+692	cls == null
+693	cls.equals(toClass)
+694	cls.isPrimitive()
+695	toClass.isPrimitive() == false
+696	Integer.TYPE.equals(cls)
+697	Long.TYPE.equals(cls)
+698	Boolean.TYPE.equals(cls)
+699	Double.TYPE.equals(cls)
+700	Float.TYPE.equals(cls)
+701	Character.TYPE.equals(cls)
+702	Short.TYPE.equals(cls)
+703	Byte.TYPE.equals(cls)
+704	cls != null
+704	cls.isPrimitive()
+705	classes == null
+706	classes.length == 0
+707	classes == null
+708	classes.length == 0
+709	cls == null
+710	abbreviationMap.containsKey(className)
+711	Modifier.isPublic(declaredMethod.getDeclaringClass().getModifiers())
+712	Modifier.isPublic(candidateClass.getModifiers())
+713	Modifier.isPublic(candidateMethod.getDeclaringClass().getModifiers())
+714	className == null
+715	className.endsWith("[]")
+716	abbreviation != null
+717	array == null
+718	array.length == 0
+719	object == null
+720	cls == null
+721	object == null
+722	cls == null
+723	className == null
+724	dim < 1
+725	className.startsWith("L")
+726	className.length() > 0
+1049	consumed
+241	lhs == rhs
+242	lhs == null
+242	rhs == null
+243	lhsClazz.isInstance(rhs)
+244	useTransients
+244	Modifier.isStatic(f.getModifiers())
+244	Modifier.isTransient(f.getModifiers())
+244	ArrayUtils.contains(excludeFields, f.getName())
+244	f.getName().indexOf('$') == -1
+245	comparison != 0
+246	comparison != 0
+247	lhs == rhs
+248	lhs == null
+249	rhs == null
+250	lhs.getClass().isArray()
+251	lhs instanceof long[]
+252	lhs instanceof int[]
+253	lhs instanceof short[]
+254	lhs instanceof char[]
+255	lhs instanceof byte[]
+256	lhs instanceof double[]
+257	lhs instanceof float[]
+258	lhs instanceof boolean[]
+259	comparator == null
+260	comparison != 0
+261	comparison != 0
+262	comparison != 0
+263	comparison != 0
+264	comparison != 0
+265	comparison != 0
+266	comparison != 0
+267	comparison != 0
+268	lhs == rhs
+269	lhs == false
+270	comparison != 0
+271	lhs == rhs
+272	lhs == null
+273	rhs == null
+274	lhs.length != rhs.length
+275	comparison != 0
+276	lhs == rhs
+277	lhs == null
+278	rhs == null
+279	lhs.length != rhs.length
+280	comparison != 0
+281	lhs == rhs
+282	lhs == null
+283	rhs == null
+284	lhs.length != rhs.length
+285	comparison != 0
+286	lhs == rhs
+287	lhs == null
+288	rhs == null
+289	lhs.length != rhs.length
+290	comparison != 0
+291	lhs == rhs
+292	lhs == null
+293	rhs == null
+294	lhs.length != rhs.length
+295	comparison != 0
+296	lhs == rhs
+297	lhs == null
+298	rhs == null
+299	lhs.length != rhs.length
+300	comparison != 0
+301	lhs == rhs
+302	lhs == null
+303	rhs == null
+304	lhs.length != rhs.length
+305	comparison != 0
+306	lhs == rhs
+307	lhs == null
+308	rhs == null
+309	lhs.length != rhs.length
+310	comparison != 0
+311	lhs == rhs
+312	lhs == null
+313	rhs == null
+314	lhs.length != rhs.length
+850	ex == null
+850	ex.getCause() == null
+851	cex != null
+852	ex != null
+852	ex instanceof Error
+852	ex instanceof RuntimeException
+853	ex.getCause() instanceof RuntimeException
+854	ex.getCause() instanceof Error
+753	null == args
+754	parameterTypes == null
+755	args == null
+756	null == ctor
+757	null == args
+758	args == null
+759	parameterTypes == null
+760	null == ctor
+761	ClassUtils.isAssignable(parameterTypes, ctors[i] .getParameterTypes(), true)
+762	ctor != null
+763	result == null
+763	MemberUtils.compareParameterTypes(ctor .getParameterTypes(), result .getParameterTypes(), parameterTypes) < 0
+1700	context == null
+1705	context == null
+904	date1 == null
+904	date2 == null
+905	cal1 == null
+905	cal2 == null
+906	date1 == null
+906	date2 == null
+907	cal2 == null
+907	cal1 == null
+908	cal1 == null
+908	cal2 == null
+909	parsePatterns == null
+909	str == null
+910	parsePatterns[i].endsWith("ZZ")
+911	parsePatterns[i].endsWith("ZZ")
+912	pos.getIndex() == str2.length()
+912	date != null
+913	date == null
+914	date == null
+915	date == null
+916	date == null
+917	date == null
+918	date instanceof Date
+919	date instanceof Calendar
+920	date == null
+921	date == null
+922	date == null
+923	date instanceof Date
+924	date instanceof Calendar
+925	date == null
+926	date == null
+927	date == null
+928	date instanceof Date
+929	date instanceof Calendar
+930	val.get(Calendar.YEAR) > 280000000
+931	field == Calendar.MILLISECOND
+932	MODIFY_TRUNCATE == modType
+932	millisecs < 500
+933	field == Calendar.SECOND
+934	seconds < 30
+934	MODIFY_TRUNCATE == modType
+934	done
+935	field == Calendar.MINUTE
+936	MODIFY_TRUNCATE == modType
+936	done
+936	minutes < 30
+937	date.getTime() != time
+938	fields[i][j] == field
+939	modType == MODIFY_ROUND
+939	roundUp
+939	modType == MODIFY_CEILING
+940	field == DateUtils.SEMI_MONTH
+941	val.get(Calendar.DATE) == 1
+942	field == Calendar.AM_PM
+943	val.get(Calendar.HOUR_OF_DAY) == 0
+944	fields[i][0] == Calendar.DATE
+945	offset >= 15
+946	fields[i][0] == Calendar.HOUR_OF_DAY
+947	offset >= 12
+948	offsetSet
+949	offset != 0
+950	focus == null
+951	focus == null
+952	rangeStyle == RANGE_MONTH_MONDAY
+953	startCutoff < Calendar.SUNDAY
+954	startCutoff > Calendar.SATURDAY
+955	endCutoff < Calendar.SUNDAY
+956	endCutoff > Calendar.SATURDAY
+957	focus == null
+958	focus instanceof Date
+959	focus instanceof Calendar
+960	date == null
+961	calendar == null
+1701	baseMessage != null
+1702	contextValueMap.size() > 0
+1703	buffer.length() > 0l
+1704	value == null
+866	Token.containsTokenWithValue(tokens, d)
+867	Token.containsTokenWithValue(tokens, H)
+868	Token.containsTokenWithValue(tokens, m)
+869	Token.containsTokenWithValue(tokens, s)
+870	Token.containsTokenWithValue(tokens, S)
+871	suppressLeadingZeroElements
+872	tmp.length() != duration.length()
+873	tmp.length() != duration.length()
+874	tmp.length() != duration.length()
+875	duration.length() != 0
+876	suppressTrailingZeroElements
+877	tmp.length() != duration.length()
+878	tmp.length() != duration.length()
+879	tmp.length() != duration.length()
+880	Token.containsTokenWithValue(tokens, M)
+881	Token.containsTokenWithValue(tokens, y)
+881	years != 0
+882	Token.containsTokenWithValue(tokens, y)
+883	months < 0
+884	start instanceof GregorianCalendar
+885	start.get(Calendar.DAY_OF_MONTH) == 29
+885	start.get(Calendar.MONTH) == Calendar.FEBRUARY
+886	Token.containsTokenWithValue(tokens, d)
+887	Token.containsTokenWithValue(tokens, H)
+888	Token.containsTokenWithValue(tokens, m)
+889	Token.containsTokenWithValue(tokens, s)
+890	value instanceof StringBuffer
+891	value == y
+892	value == M
+893	value == d
+894	value == H
+895	value == m
+896	value == s
+897	value == S
+898	lastOutputSeconds
+899	inLiteral
+899	ch != '\''
+900	inLiteral
+901	buffer == null
+902	value != null
+903	previous.getValue() == value
+903	previous != null
+44	lhs == rhs
+45	lhs == null
+45	rhs == null
+46	lhsClass.isInstance(rhs)
+47	rhsClass.isInstance(lhs)
+48	rhsClass.isInstance(lhs)
+49	lhsClass.isInstance(rhs)
+50	Modifier.isStatic(f.getModifiers())
+50	Modifier.isTransient(f.getModifiers())
+50	f.getName().indexOf('$') == -1
+50	useTransients
+50	ArrayUtils.contains(excludeFields, f.getName())
+51	isEquals == false
+52	isEquals == false
+53	lhs == rhs
+54	lhs == null
+54	rhs == null
+55	lhsClass.isArray()
+56	lhs.getClass() != rhs.getClass()
+57	lhs instanceof long[]
+58	lhs instanceof int[]
+59	lhs instanceof short[]
+60	lhs instanceof char[]
+61	lhs instanceof byte[]
+62	lhs instanceof double[]
+63	lhs instanceof float[]
+64	lhs instanceof boolean[]
+65	isEquals == false
+66	isEquals == false
+67	isEquals == false
+68	isEquals == false
+69	isEquals == false
+70	isEquals == false
+71	isEquals == false
+72	isEquals == false
+73	isEquals == false
+74	lhs == rhs
+75	lhs == null
+75	rhs == null
+76	lhs.length != rhs.length
+77	isEquals == false
+78	lhs == rhs
+79	lhs == null
+79	rhs == null
+80	lhs.length != rhs.length
+81	isEquals == false
+82	lhs == rhs
+83	rhs == null
+83	lhs == null
+84	lhs.length != rhs.length
+85	isEquals == false
+86	lhs == rhs
+87	lhs == null
+87	rhs == null
+88	lhs.length != rhs.length
+89	isEquals == false
+90	lhs == rhs
+91	rhs == null
+91	lhs == null
+92	lhs.length != rhs.length
+93	isEquals == false
+94	lhs == rhs
+95	lhs == null
+95	rhs == null
+96	lhs.length != rhs.length
+97	isEquals == false
+98	lhs == rhs
+99	rhs == null
+99	lhs == null
+100	lhs.length != rhs.length
+101	isEquals == false
+102	lhs == rhs
+103	rhs == null
+103	lhs == null
+104	lhs.length != rhs.length
+105	isEquals == false
+106	lhs == rhs
+107	lhs == null
+107	rhs == null
+108	lhs.length != rhs.length
+1676	throwable == null
+1677	methodNames == null
+1678	methodName != null
+1679	cause != null
+1680	method != null
+1680	Throwable.class.isAssignableFrom(method.getReturnType())
+1681	throwable == null
+1681	type == null
+1682	fromIndex < 0
+1683	fromIndex >= throwables.length
+1684	subclass
+1685	type.isAssignableFrom(throwables[i].getClass())
+1686	type.equals(throwables[i].getClass())
+1687	throwable == null
+1688	stream == null
+1689	throwable == null
+1690	writer == null
+1691	throwable == null
+1692	i != 0
+1693	i == count - 1
+1694	wrapperFrames == null
+1694	causeFrames == null
+1695	causeFrame.equals(wrapperFrame)
+1696	throwable == null
+1697	at != -1
+1697	token.substring(0, at).trim().length() == 0
+1698	traceStarted
+1699	th == null
+1295	registry == null
+1296	c[pos.getIndex()] == START_FMT
+1297	format == null
+1298	c[pos.getIndex()] != END_FE
+1299	containsElements(foundFormats)
+1300	f != null
+1301	registry != null
+1302	i > 0
+1303	factory != null
+1304	Character.isWhitespace(c)
+1305	c != START_FMT
+1305	c != END_FE
+1306	c == START_FMT
+1306	result.length() > 0
+1306	c == END_FE
+1307	error
+1308	depth == 0
+1309	containsElements(customPatterns)
+1310	depth == 1
+1311	customPattern != null
+1312	escapingOn
+1312	c[start] == QUOTE
+1313	escapingOn
+1313	pattern.substring(i).startsWith(ESCAPED_QUOTE)
+1314	coll.size() == 0
+1314	coll == null
+1315	iter.next() != null
+962	format == null
+963	timeZone != null
+964	locale == null
+965	format == null
+966	timeZone != null
+967	locale != null
+968	format == null
+969	locale == null
+970	timeZone != null
+971	locale == null
+972	format == null
+973	value == null
+974	cDefaultPattern == null
+975	pattern == null
+976	timeZone == null
+977	locale == null
+978	tokenLen == 0
+979	tokenLen >= 4
+980	tokenLen >= 4
+981	tokenLen == 3
+982	tokenLen == 2
+983	tokenLen >= 4
+984	tokenLen == 1
+985	sub.length() == 1
+986	c <= 'z'
+986	c >= 'A'
+986	c >= 'a'
+986	c <= 'Z'
+987	peek == c
+988	c == '\''
+989	pattern.charAt(i + 1) == '\''
+989	i + 1 < length
+990	inLiteral
+990	c <= 'Z'
+990	c <= 'z'
+990	c >= 'A'
+990	c >= 'a'
+991	obj instanceof Date
+992	obj instanceof Calendar
+993	obj instanceof Long
+994	mTimeZoneForced
+995	obj instanceof FastDateFormat == false
+996	mTimeZone == other.mTimeZone
+996	mTimeZoneForced == other.mTimeZoneForced
+996	mLocale.equals(other.mLocale)
+996	mLocale == other.mLocale
+996	mLocaleForced == other.mLocaleForced
+996	mTimeZone.equals(other.mTimeZone)
+996	mPattern == other.mPattern
+996	mPattern.equals(other.mPattern)
+764	cls == null
+765	fieldName == null
+766	Modifier.isPublic(field.getModifiers())
+767	forceAccess
+768	match != null
+769	cls == null
+770	fieldName == null
+771	MemberUtils.isAccessible(field)
+772	forceAccess
+773	field == null
+774	Modifier.isStatic(field.getModifiers())
+775	field == null
+776	field == null
+777	field == null
+778	forceAccess
+778	field.isAccessible()
+779	target == null
+780	field == null
+781	target == null
+782	field == null
+783	field == null
+784	Modifier.isStatic(field.getModifiers())
+785	field == null
+786	field == null
+787	field == null
+788	field.isAccessible()
+788	forceAccess
+789	target == null
+790	field == null
+791	target == null
+792	field == null
+1848	denominator == 0
+1849	denominator < 0
+1850	denominator==Integer.MIN_VALUE
+1850	numerator==Integer.MIN_VALUE
+1851	denominator == 0
+1852	denominator < 0
+1853	numerator < 0
+1854	whole < 0
+1855	numeratorValue < Integer.MIN_VALUE
+1855	numeratorValue > Integer.MAX_VALUE
+1856	denominator == 0
+1857	numerator==0
+1858	denominator==Integer.MIN_VALUE
+1858	(numerator&1)==0
+1859	denominator < 0
+1860	denominator==Integer.MIN_VALUE
+1860	numerator==Integer.MIN_VALUE
+1861	value > Integer.MAX_VALUE
+1861	Double.isNaN(value)
+1862	i == 25
+1863	str == null
+1864	pos >= 0
+1865	pos > 0
+1866	pos < 0
+1867	pos < 0
+1868	numerator == 0
+1869	gcd == 1
+1870	numerator == 0
+1871	numerator==Integer.MIN_VALUE
+1872	numerator<0
+1873	numerator==Integer.MIN_VALUE
+1874	numerator >= 0
+1875	power == 1
+1876	power == 0
+1877	power < 0
+1878	power==Integer.MIN_VALUE
+1879	(power % 2) == 0
+1880	Math.abs(v) <= 1
+1880	Math.abs(u) <= 1
+1881	u>0
+1882	v>0
+1883	k==31
+1884	t>0
+1885	m > Integer.MAX_VALUE
+1885	m < Integer.MIN_VALUE
+1886	m > Integer.MAX_VALUE
+1887	s < Integer.MIN_VALUE
+1887	s > Integer.MAX_VALUE
+1888	s > Integer.MAX_VALUE
+1888	s < Integer.MIN_VALUE
+1889	fraction == null
+1890	numerator == 0
+1891	fraction.numerator == 0
+1892	d1==1
+1893	w.bitLength() > 31
+1894	fraction == null
+1895	numerator == 0
+1895	fraction.numerator == 0
+1896	fraction == null
+1897	fraction.numerator == 0
+1898	obj == this
+1899	obj instanceof Fraction == false
+1900	hashCode == 0
+1901	this==other
+1902	numerator == other.numerator
+1902	denominator == other.denominator
+1903	first == second
+1904	first < second
+1905	toString == null
+1906	toProperString == null
+1907	numerator == 0
+1908	numerator == denominator
+1909	numerator == -1 * denominator
+1910	(numerator>0?-numerator:numerator) < -denominator
+1911	properNumerator == 0
+201	isRegistered(object)
+202	Modifier.isTransient(field.getModifiers())
+202	Modifier.isStatic(field.getModifiers())
+202	ArrayUtils.contains(excludeFields, field.getName())
+202	field.getName().indexOf('$') == -1
+202	useTransients
+203	object == null
+204	initialNonZeroOddNumber == 0
+205	initialNonZeroOddNumber % 2 == 0
+206	multiplierNonZeroOddNumber == 0
+207	multiplierNonZeroOddNumber % 2 == 0
+208	array == null
+209	array == null
+210	array == null
+211	array == null
+212	array == null
+213	array == null
+214	array == null
+215	object == null
+216	object.getClass().isArray()
+217	object instanceof long[]
+218	object instanceof int[]
+219	object instanceof short[]
+220	object instanceof char[]
+221	object instanceof byte[]
+222	object instanceof double[]
+223	object instanceof float[]
+224	object instanceof boolean[]
+225	array == null
+226	array == null
+239	other instanceof IDKey
+240	id != idKey.id
+1832	array == null
+1833	array.length == 0
+1834	array == null
+1835	array.length == 0
+1836	Double.isNaN(a)
+1837	Double.isNaN(b)
+1838	Float.isNaN(a)
+1839	Float.isNaN(b)
+1840	array== null
+1841	array.length == 0
+1842	array == null
+1843	array.length == 0
+1844	Double.isNaN(a)
+1845	Double.isNaN(b)
+1846	Float.isNaN(a)
+1847	Float.isNaN(b)
+855	result == null
+856	result == null
+640	str == null
+641	len != 5
+641	len < 7
+641	len != 2
+642	ch0 > 'z'
+642	ch1 < 'a'
+642	ch1 > 'z'
+642	ch0 < 'a'
+643	len == 2
+644	str.charAt(2) != '_'
+645	ch3 == '_'
+646	ch3 > 'Z'
+646	ch4 > 'Z'
+646	ch3 < 'A'
+646	ch4 < 'A'
+647	len == 5
+648	str.charAt(5) != '_'
+649	locale != null
+650	locale.getVariant().length() > 0
+651	locale.getCountry().length() > 0
+652	list.contains(defaultLocale) == false
+653	cAvailableLocaleList == null
+654	cAvailableLocaleList == null
+655	cAvailableLocaleSet == null
+656	cAvailableLocaleSet == null
+657	langs == null
+658	countryCode != null
+659	countryCode.equals(locale.getCountry())
+659	locale.getVariant().length() == 0
+660	countries == null
+661	languageCode != null
+662	locale.getVariant().length() == 0
+662	languageCode.equals(locale.getLanguage())
+662	locale.getCountry().length() != 0
+1029	sz < _shortest
+1030	sz > _longest
+1031	index + longest > input.length()
+1032	result != null
+793	o == null
+793	o.isAccessible()
+794	isPackageAccess(m.getDeclaringClass().getModifiers())
+794	Modifier.isPublic(m.getModifiers())
+795	destClass.isPrimitive()
+796	destClass.isInterface()
+796	ClassUtils.isAssignable(srcClass, destClass)
+797	destClass == null
+798	cls.isPrimitive()
+799	cls == ORDERED_PRIMITIVE_TYPES[i]
+800	i < ORDERED_PRIMITIVE_TYPES.length - 1
+801	args == null
+802	parameterTypes == null
+803	args == null
+804	method == null
+805	args == null
+806	args == null
+807	parameterTypes == null
+808	method == null
+809	args == null
+810	parameterTypes == null
+811	method == null
+812	args == null
+813	parameterTypes == null
+814	args == null
+815	method == null
+816	args == null
+817	MemberUtils.isAccessible(method)
+818	Modifier.isPublic(cls.getModifiers())
+819	method == null
+820	Modifier.isPublic(parentClass.getModifiers())
+821	Modifier.isPublic(interfaces[i].getModifiers())
+822	method != null
+823	method != null
+824	methods[i].getName().equals(methodName)
+825	ClassUtils.isAssignable(parameterTypes, methods[i] .getParameterTypes(), true)
+826	accessibleMethod != null
+827	MemberUtils.compareParameterTypes( accessibleMethod.getParameterTypes(), bestMatch.getParameterTypes(), parameterTypes) < 0
+827	bestMatch == null
+828	bestMatch != null
+862	name == null
+863	init == null
+864	isStarted()
+865	bi.getExternalExecutor() == null
+1381	obj instanceof MutableBoolean
+1379	obj instanceof MutableByte
+1378	obj instanceof MutableInt
+1383	obj instanceof MutableLong
+1380	obj == null
+1382	obj instanceof MutableShort
+1722	str == null
+1723	str == null
+1724	str == null
+1725	str == null
+1726	str == null
+1727	str == null
+1728	str == null
+1729	StringUtils.isBlank(str)
+1730	str.startsWith("--")
+1731	str.startsWith("-0x")
+1731	str.startsWith("0x")
+1732	decPos > -1
+1733	expPos > -1
+1734	expPos < decPos
+1735	expPos > -1
+1736	Character.isDigit(lastChar)
+1736	lastChar != '.'
+1737	expPos > -1
+1737	expPos < str.length() - 1
+1738	exp == null
+1738	isDigits(numeric)
+1738	dec == null
+1738	numeric.charAt(0) == '-'
+1738	isDigits(numeric.substring(1))
+1739	f.isInfinite()
+1739	f.floatValue() == 0.0F
+1739	allZeros
+1740	d.isInfinite()
+1740	allZeros
+1740	d.floatValue() == 0.0D
+1741	expPos < str.length() - 1
+1741	expPos > -1
+1742	dec == null
+1742	exp == null
+1743	allZeros
+1743	f.floatValue() == 0.0F
+1743	f.isInfinite()
+1744	d.isInfinite()
+1744	allZeros
+1744	d.doubleValue() == 0.0D
+1745	str == null
+1746	str.charAt(i) != '0'
+1747	str == null
+1748	str == null
+1749	str == null
+1750	str == null
+1751	str == null
+1752	str == null
+1753	StringUtils.isBlank(str)
+1754	array == null
+1755	array.length == 0
+1756	array[i] < min
+1757	array == null
+1758	array.length == 0
+1759	array[j] < min
+1760	array == null
+1761	array.length == 0
+1762	array[i] < min
+1763	array == null
+1764	array.length == 0
+1765	array[i] < min
+1766	array == null
+1767	array.length == 0
+1768	Double.isNaN(array[i])
+1769	array[i] < min
+1770	array == null
+1771	array.length == 0
+1772	Float.isNaN(array[i])
+1773	array[i] < min
+1774	array == null
+1775	array.length == 0
+1776	array[j] > max
+1777	array == null
+1778	array.length == 0
+1779	array[j] > max
+1780	array == null
+1781	array.length == 0
+1782	array[i] > max
+1783	array == null
+1784	array.length == 0
+1785	array[i] > max
+1786	array== null
+1787	array.length == 0
+1788	Double.isNaN(array[j])
+1789	array[j] > max
+1790	array == null
+1791	array.length == 0
+1792	Float.isNaN(array[j])
+1793	array[j] > max
+1794	b < a
+1795	c < a
+1796	b < a
+1797	c < a
+1798	b < a
+1799	c < a
+1800	b < a
+1801	c < a
+1802	b > a
+1803	c > a
+1804	b > a
+1805	c > a
+1806	b > a
+1807	c > a
+1808	b > a
+1809	c > a
+1810	StringUtils.isEmpty(str)
+1811	Character.isDigit(str.charAt(i))
+1812	StringUtils.isEmpty(str)
+1813	sz > start + 1
+1814	chars[start] == '0'
+1814	chars[start + 1] == 'x'
+1815	i == sz
+1816	chars[i] < '0'
+1816	chars[i] > '9'
+1816	chars[i] < 'a'
+1816	chars[i] > 'f'
+1816	chars[i] < 'A'
+1816	chars[i] > 'F'
+1817	chars[i] <= '9'
+1817	chars[i] >= '0'
+1818	chars[i] == '.'
+1819	hasDecPoint
+1819	hasExp
+1820	chars[i] == 'e'
+1820	chars[i] == 'E'
+1821	hasExp
+1822	foundDigit
+1823	chars[i] == '-'
+1823	chars[i] == '+'
+1824	allowSigns
+1825	i < chars.length
+1826	chars[i] >= '0'
+1826	chars[i] <= '9'
+1827	chars[i] == 'E'
+1827	chars[i] == 'e'
+1828	chars[i] == '.'
+1829	hasDecPoint
+1829	hasExp
+1830	allowSigns
+1830	chars[i] == 'd'
+1830	chars[i] == 'f'
+1830	chars[i] == 'F'
+1830	chars[i] == 'D'
+1831	chars[i] == 'L'
+1831	chars[i] == 'l'
+1050	between
+1051	codepoint > above
+1051	codepoint < below
+1052	codepoint <= above
+1052	codepoint >= below
+1040	input.charAt(index + 1) == '#'
+1040	input.charAt(index) == '&'
+1041	firstChar == 'X'
+1041	firstChar == 'x'
+1042	isHex
+14	values != null
+15	val != null
+16	object1 == object2
+17	object1 == null
+17	object2 == null
+18	object == null
+19	object == null
+20	c1 != null
+20	c2 != null
+21	c2 != null
+21	c1 != null
+1010	count == 0
+1011	count < 0
+1012	end == 0
+1012	start == 0
+1013	numbers
+1013	letters
+1014	chars == null
+1015	Character.isDigit(ch)
+1015	letters
+1015	Character.isLetter(ch)
+1015	letters
+1015	numbers
+1015	numbers
+1016	ch >= 56320
+1016	ch <= 57343
+1017	count == 0
+1018	ch <= 56191
+1018	ch >= 55296
+1019	count == 0
+1020	ch >= 56192
+1020	ch <= 56319
+1021	chars == null
+1022	chars == null
+738	element1 == null
+738	element2 == null
+739	c == null
+740	c.compare(element1, element2) < 1
+741	element == null
+742	element == null
+743	element == null
+744	element == null
+745	elementBefore(element)
+746	elementAfter(element)
+747	range == null
+748	range == null
+749	obj == this
+750	obj == null
+750	obj.getClass() != getClass()
+751	hashCode == 0
+752	result == null
+227	collection == null
+228	e != null
+229	field.getName().indexOf(ClassUtils.INNER_CLASS_SEPARATOR_CHAR) != -1
+230	Modifier.isTransient(field.getModifiers())
+230	this.isAppendTransients()
+231	this.isAppendStatics()
+231	Modifier.isStatic(field.getModifiers())
+232	this.excludeFieldNames != null
+232	Arrays.binarySearch(this.excludeFieldNames, field.getName()) >= 0
+233	clazz.isArray()
+234	this.accept(field)
+235	excludeFieldNamesParam == null
+236	clazz != null
+237	clazz.isInstance(object) == false
+237	object != null
+238	this.getObject() == null
+9	outputStream == null
+10	out != null
+11	inputStream == null
+12	in != null
+13	objectData == null
+997	this.runningState == STATE_STOPPED
+998	this.runningState != STATE_UNSTARTED
+999	this.runningState != STATE_RUNNING
+999	this.runningState != STATE_SUSPENDED
+1000	this.runningState == STATE_RUNNING
+1001	this.runningState != STATE_RUNNING
+1002	this.splitState != STATE_SPLIT
+1003	this.runningState != STATE_RUNNING
+1004	this.runningState != STATE_SUSPENDED
+1005	this.runningState == STATE_SUSPENDED
+1005	this.runningState == STATE_STOPPED
+1006	this.runningState == STATE_UNSTARTED
+1007	this.runningState == STATE_RUNNING
+1008	this.splitState != STATE_SPLIT
+1009	this.runningState == STATE_UNSTARTED
+1114	initialCapacity <= 0
+1115	str == null
+1116	nullText.length() == 0
+1116	nullText != null
+1117	length < 0
+1118	length < size
+1119	length > size
+1120	capacity > buffer.length
+1121	buffer.length > length()
+1122	index >= length()
+1122	index < 0
+1123	index >= length()
+1123	index < 0
+1124	index < 0
+1124	index >= size
+1125	size == 0
+1126	len == 0
+1127	destination == null
+1127	destination.length < len
+1128	startIndex < 0
+1129	endIndex > length()
+1129	endIndex < 0
+1130	startIndex > endIndex
+1131	newLine == null
+1132	nullText == null
+1133	obj == null
+1134	seq == null
+1135	seq == null
+1136	str == null
+1137	strLen > 0
+1138	str == null
+1139	startIndex > str.length()
+1139	startIndex < 0
+1140	length < 0
+1140	(startIndex + length) > str.length()
+1141	length > 0
+1142	str == null
+1143	strLen > 0
+1144	str == null
+1145	startIndex < 0
+1145	startIndex > str.length()
+1146	length < 0
+1146	(startIndex + length) > str.length()
+1147	length > 0
+1148	str == null
+1149	strLen > 0
+1150	str == null
+1151	startIndex < 0
+1151	startIndex > str.length()
+1152	length < 0
+1152	(startIndex + length) > str.length()
+1153	length > 0
+1154	chars == null
+1155	strLen > 0
+1156	chars == null
+1157	startIndex < 0
+1157	startIndex > chars.length
+1158	length < 0
+1158	(startIndex + length) > chars.length
+1159	length > 0
+1160	value
+1161	array != null
+1161	array.length > 0
+1162	iterable != null
+1163	it != null
+1164	array != null
+1164	array.length > 0
+1165	iterable != null
+1166	it.hasNext()
+1167	it != null
+1168	it.hasNext()
+1169	str != null
+1170	size() > 0
+1171	size() > 0
+1172	separator != null
+1172	loopIndex > 0
+1173	loopIndex > 0
+1174	length >= 0
+1175	width > 0
+1176	str == null
+1177	strLen >= width
+1178	width > 0
+1179	str == null
+1180	strLen >= width
+1181	obj == null
+1182	str == null
+1183	strLen > 0
+1184	chars == null
+1185	len > 0
+1186	chars == null
+1187	offset > chars.length
+1187	offset < 0
+1188	length < 0
+1188	offset + length > chars.length
+1189	length > 0
+1190	value
+1191	len > 0
+1192	buffer[i] == ch
+1193	buffer[i] != ch
+1194	buffer[i] == ch
+1195	len > 0
+1196	len > 0
+1197	index >= 0
+1198	insertLen != removeLen
+1199	insertLen > 0
+1200	search != replace
+1201	buffer[i] == search
+1202	search != replace
+1203	buffer[i] == search
+1204	searchLen > 0
+1205	searchLen > 0
+1206	index >= 0
+1207	matcher == null
+1207	size == 0
+1208	removeLen > 0
+1209	replaceCount > 0
+1210	size == 0
+1211	size == 0
+1212	len < size
+1213	pos > 0
+1214	str == null
+1215	len == 0
+1216	len > size
+1217	buffer[i] != str.charAt(i)
+1218	str == null
+1219	len == 0
+1220	len > size
+1221	buffer[pos] != str.charAt(i)
+1222	startIndex < 0
+1223	endIndex > size
+1224	startIndex > endIndex
+1225	length <= 0
+1226	length >= size
+1227	length <= 0
+1228	length >= size
+1229	index < 0
+1230	index >= size
+1230	length <= 0
+1231	size <= index + length
+1232	thisBuf[i] == ch
+1233	startIndex >= size
+1234	thisBuf[i] == ch
+1235	startIndex >= size
+1235	str == null
+1236	strLen == 1
+1237	strLen == 0
+1238	strLen > size
+1239	str.charAt(j) != thisBuf[i + j]
+1240	startIndex >= size
+1240	matcher == null
+1241	matcher.isMatch(buf, i, startIndex, len) > 0
+1242	startIndex < 0
+1243	buffer[i] == ch
+1244	str == null
+1244	startIndex < 0
+1245	strLen <= size
+1245	strLen > 0
+1246	strLen == 1
+1247	str.charAt(j) != buffer[i + j]
+1248	strLen == 0
+1249	startIndex < 0
+1249	matcher == null
+1250	matcher.isMatch(buf, i, 0, endIndex) > 0
+1251	this == other
+1252	this.size != other.size
+1253	c1 != c2
+1253	Character.toUpperCase(c1) != Character.toUpperCase(c2)
+1254	this == other
+1255	this.size != other.size
+1256	thisBuf[i] != otherBuf[i]
+1257	obj instanceof StrBuilder
+1258	startIndex < 0
+1259	endIndex > size
+1260	startIndex > endIndex
+1261	index > size
+1261	index < 0
+1316	chars == null
+1316	chars.length == 0
+1317	chars.length == 1
+1318	chars.length() == 0
+1318	chars == null
+1319	chars.length() == 1
+1320	str.length() == 0
+1320	str == null
+1086	source == null
+1087	substitute(buf, 0, source.length()) == false
+1088	source == null
+1089	substitute(buf, 0, length) == false
+1090	source == null
+1091	source == null
+1092	source == null
+1093	source == null
+1094	source == null
+1095	source == null
+1096	source == null
+1097	source == null
+1098	source == null
+1099	substitute(buf, 0, length) == false
+1100	source == null
+1101	source == null
+1102	startMatchLen == 0
+1103	chars[pos - 1] == escape
+1103	pos > offset
+1104	endMatchLen == 0
+1105	priorVariables == null
+1106	varValue != null
+1107	top
+1108	priorVariables.contains(varName) == false
+1109	resolver == null
+1110	prefixMatcher == null
+1111	prefix == null
+1112	suffixMatcher == null
+1113	suffix == null
+1262	input != null
+1263	hasNext()
+1264	hasPrevious()
+1265	input != null
+1266	hasNext()
+1267	hasPrevious()
+1268	tokens == null
+1269	chars == null
+1270	chars == null
+1270	count == 0
+1271	pos >= count
+1272	tok == null
+1272	tok.length() == 0
+1273	isIgnoreEmptyTokens()
+1274	isEmptyTokenAsNull()
+1275	getDelimiterMatcher().isMatch(chars, start, start, len) > 0
+1275	removeLen == 0
+1275	getQuoteMatcher().isMatch(chars, start, start, len) > 0
+1276	start >= len
+1277	delimLen > 0
+1278	quoteLen > 0
+1279	quoting
+1280	isQuote(chars, pos, len, quoteStart, quoteLen)
+1281	isQuote(chars, pos + quoteLen, len, quoteStart, quoteLen)
+1282	delimLen > 0
+1283	quoteLen > 0
+1284	isQuote(chars, pos, len, quoteStart, quoteLen)
+1285	ignoredLen > 0
+1286	trimmedLen > 0
+1287	(pos + i) >= len
+1287	chars[pos + i] != chars[quoteStart + i]
+1288	delim == null
+1289	quote != null
+1290	ignored != null
+1291	trimmer != null
+1292	chars == null
+1293	cloned.chars != null
+1294	tokens == null
+315	(strLen = str.length()) == 0
+315	str == null
+316	Character.isWhitespace(str.charAt(i)) == false
+317	str == null
+318	isEmpty(str)
+319	str == null
+319	(strLen = str.length()) == 0
+320	stripChars == null
+321	stripChars.length() == 0
+322	(end = str.length()) == 0
+322	str == null
+323	stripChars == null
+324	stripChars.length() == 0
+325	(strsLen = strs.length) == 0
+325	strs == null
+326	input == null
+327	SystemUtils.isJavaVersionAtLeast(1.6f)
+328	isEmpty(str)
+329	isEmpty(str)
+330	str == null
+330	searchStr == null
+331	str == null
+331	searchStr == null
+331	ordinal <= 0
+332	searchStr.length() == 0
+333	lastIndex
+334	index < 0
+335	searchStr == null
+335	str == null
+336	startPos >= str.length()
+336	searchStr.length() == 0
+337	searchStr == null
+337	str == null
+338	startPos < 0
+339	startPos > endLimit
+340	searchStr.length() == 0
+341	str.regionMatches(true, i, searchStr, 0, searchStr.length())
+342	isEmpty(str)
+343	isEmpty(str)
+344	searchStr == null
+344	str == null
+345	searchStr == null
+345	str == null
+346	searchStr == null
+346	str == null
+347	searchStr == null
+347	str == null
+348	startPos > (str.length() - searchStr.length())
+349	startPos < 0
+350	searchStr.length() == 0
+351	str.regionMatches(true, i, searchStr, 0, searchStr.length())
+352	isEmpty(str)
+353	searchStr == null
+353	str == null
+354	str == null
+354	searchStr == null
+355	str.regionMatches(true, i, searchStr, 0, len)
+356	isEmpty(str)
+356	ArrayUtils.isEmpty(searchChars)
+357	searchChars[j] == ch
+358	isEmpty(searchChars)
+358	isEmpty(str)
+359	str == null
+359	searchChars == null
+359	str.length() == 0
+359	searchChars.length == 0
+360	searchChars[j] == ch
+361	searchChars == null
+362	isEmpty(str)
+362	ArrayUtils.isEmpty(searchChars)
+363	searchChars[j] == ch
+364	isEmpty(searchChars)
+364	isEmpty(str)
+365	searchChars.indexOf(str.charAt(i)) < 0
+366	valid == null
+366	str == null
+367	str.length() == 0
+368	valid.length == 0
+369	validChars == null
+369	str == null
+370	invalidChars == null
+370	str == null
+371	invalidChars[j] == ch
+372	invalidChars == null
+372	str == null
+373	searchStrs == null
+373	str == null
+374	search == null
+375	tmp == -1
+376	tmp < ret
+377	str == null
+377	searchStrs == null
+378	search == null
+379	tmp > ret
+380	str == null
+381	start < 0
+382	start < 0
+383	start > str.length()
+384	str == null
+385	end < 0
+386	start < 0
+387	end > str.length()
+388	start > end
+389	start < 0
+390	end < 0
+391	str == null
+392	len < 0
+393	str.length() <= len
+394	str == null
+395	len < 0
+396	str.length() <= len
+397	str == null
+398	pos > str.length()
+398	len < 0
+399	pos < 0
+400	str.length() <= (pos + len)
+401	isEmpty(str)
+401	separator == null
+402	separator.length() == 0
+403	pos == -1
+404	isEmpty(str)
+405	separator == null
+406	pos == -1
+407	isEmpty(separator)
+407	isEmpty(str)
+408	pos == -1
+409	isEmpty(str)
+410	isEmpty(separator)
+411	pos == -1
+411	pos == (str.length() - separator.length())
+412	open == null
+412	str == null
+412	close == null
+413	start != -1
+414	end != -1
+415	isEmpty(close)
+415	isEmpty(open)
+415	str == null
+416	strLen == 0
+417	start < 0
+418	end < 0
+419	list.isEmpty()
+420	str == null
+421	len == 0
+422	separator == null
+422	EMPTY.equals(separator)
+423	end > -1
+424	end > beg
+425	numberOfSubstrings == max
+426	preserveAllTokens
+427	numberOfSubstrings == max
+428	str == null
+429	len == 0
+430	str.charAt(i) == separatorChar
+431	preserveAllTokens
+431	match
+432	lastMatch
+432	match
+432	preserveAllTokens
+433	str == null
+434	len == 0
+435	separatorChars == null
+436	Character.isWhitespace(str.charAt(i))
+437	preserveAllTokens
+437	match
+438	sizePlus1++ == max
+439	separatorChars.length() == 1
+440	str.charAt(i) == sep
+441	match
+441	preserveAllTokens
+442	sizePlus1++ == max
+443	separatorChars.indexOf(str.charAt(i)) >= 0
+444	match
+444	preserveAllTokens
+445	sizePlus1++ == max
+446	match
+446	lastMatch
+446	preserveAllTokens
+447	str == null
+448	str.length() == 0
+449	type == currentType
+450	type == Character.LOWERCASE_LETTER
+450	currentType == Character.UPPERCASE_LETTER
+450	camelCase
+451	newTokenStart != tokenStart
+452	array == null
+453	array == null
+454	bufSize <= 0
+455	i > startIndex
+456	array[i] != null
+457	array == null
+458	array == null
+459	separator == null
+460	bufSize <= 0
+461	i > startIndex
+462	array[i] != null
+463	iterator == null
+464	iterator.hasNext()
+465	iterator.hasNext()
+466	first != null
+467	obj != null
+468	iterator == null
+469	iterator.hasNext()
+470	iterator.hasNext()
+471	first != null
+472	separator != null
+473	obj != null
+474	iterable == null
+475	iterable == null
+476	isEmpty(str)
+477	Character.isWhitespace(str.charAt(i))
+478	count == sz
+479	isEmpty(str)
+479	isEmpty(remove)
+480	str.startsWith(remove)
+481	isEmpty(str)
+481	isEmpty(remove)
+482	startsWithIgnoreCase(str, remove)
+483	isEmpty(remove)
+483	isEmpty(str)
+484	str.endsWith(remove)
+485	isEmpty(str)
+485	isEmpty(remove)
+486	endsWithIgnoreCase(str, remove)
+487	isEmpty(str)
+487	isEmpty(remove)
+488	isEmpty(str)
+488	str.indexOf(remove) == -1
+489	chars[i] != remove
+490	replacement == null
+490	max == 0
+490	isEmpty(text)
+490	isEmpty(searchString)
+491	end == -1
+492	--max == 0
+493	replacementList == null
+493	text.length() == 0
+493	searchList.length == 0
+493	searchList == null
+493	replacementList.length == 0
+493	text == null
+494	timeToLive < 0
+495	searchLength != replacementLength
+496	searchList[i] == null
+496	searchList[i].length() == 0
+496	noMoreMatchesForReplIndex[i]
+496	replacementList[i] == null
+497	tempIndex == -1
+498	textIndex == -1
+498	tempIndex < textIndex
+499	textIndex == -1
+500	replacementList[i] == null
+500	searchList[i] == null
+501	greater > 0
+502	replacementList[i] == null
+502	searchList[i].length() == 0
+502	noMoreMatchesForReplIndex[i]
+502	searchList[i] == null
+503	tempIndex == -1
+504	tempIndex < textIndex
+504	textIndex == -1
+505	repeat
+506	str == null
+507	isEmpty(searchChars)
+507	isEmpty(str)
+508	replaceChars == null
+509	index >= 0
+510	index < replaceCharsLength
+511	modified
+512	str == null
+513	overlay == null
+514	start < 0
+515	start > len
+516	end < 0
+517	end > len
+518	start > end
+519	isEmpty(str)
+520	str.length() == 1
+521	ch == CharUtils.CR
+521	ch == CharUtils.LF
+522	last == CharUtils.LF
+523	str.charAt(lastIdx - 1) == CharUtils.CR
+524	last != CharUtils.CR
+525	separator == null
+525	isEmpty(str)
+526	str.endsWith(separator)
+527	str == null
+528	strLen < 2
+529	last == CharUtils.LF
+530	ret.charAt(lastIdx - 1) == CharUtils.CR
+531	str == null
+532	repeat <= 0
+533	repeat == 1
+533	inputLength == 0
+534	inputLength == 1
+534	repeat <= PAD_LIMIT
+535	str == null
+535	separator == null
+536	repeat < 0
+537	str == null
+538	pads <= 0
+539	pads > PAD_LIMIT
+540	str == null
+541	isEmpty(padStr)
+542	pads <= 0
+543	padLen == 1
+543	pads <= PAD_LIMIT
+544	pads == padLen
+545	pads < padLen
+546	str == null
+547	pads <= 0
+548	pads > PAD_LIMIT
+549	str == null
+550	isEmpty(padStr)
+551	pads <= 0
+552	pads <= PAD_LIMIT
+552	padLen == 1
+553	pads == padLen
+554	pads < padLen
+555	size <= 0
+555	str == null
+556	pads <= 0
+557	str == null
+557	size <= 0
+558	isEmpty(padStr)
+559	pads <= 0
+560	str == null
+561	str == null
+562	str == null
+563	str == null
+564	(strLen = str.length()) == 0
+564	str == null
+565	str == null
+565	(strLen = str.length()) == 0
+566	str == null
+566	(strLen = str.length()) == 0
+567	Character.isUpperCase(ch)
+568	Character.isTitleCase(ch)
+569	Character.isLowerCase(ch)
+570	isEmpty(str)
+570	isEmpty(sub)
+571	str == null
+572	Character.isLetter(str.charAt(i)) == false
+573	str == null
+574	Character.isLetter(str.charAt(i)) == false
+574	str.charAt(i) != ' '
+575	str == null
+576	Character.isLetterOrDigit(str.charAt(i)) == false
+577	str == null
+578	Character.isLetterOrDigit(str.charAt(i)) == false
+578	str.charAt(i) != ' '
+579	str == null
+580	CharUtils.isAsciiPrintable(str.charAt(i)) == false
+581	str == null
+582	Character.isDigit(str.charAt(i)) == false
+583	str == null
+584	Character.isDigit(str.charAt(i)) == false
+584	str.charAt(i) != ' '
+585	str == null
+586	Character.isWhitespace(str.charAt(i)) == false
+587	str == null
+587	isEmpty(str)
+588	Character.isLowerCase(str.charAt(i)) == false
+589	str == null
+589	isEmpty(str)
+590	Character.isUpperCase(str.charAt(i)) == false
+591	str == null
+592	str == null
+593	str == null
+594	maxWidth < 4
+595	str.length() <= maxWidth
+596	offset > str.length()
+597	(str.length() - offset) < (maxWidth - 3)
+598	offset <= 4
+599	maxWidth < 7
+600	(offset + (maxWidth - 3)) < str.length()
+601	isEmpty(middle)
+601	isEmpty(str)
+602	length >= str.length()
+602	length < (middle.length()+2)
+603	str1 == null
+604	str2 == null
+605	at == -1
+606	str1 == str2
+607	str1 == null
+607	str2 == null
+608	str1.charAt(i) != str2.charAt(i)
+609	i < str2.length()
+609	i < str1.length()
+610	strs.length <= 1
+610	strs == null
+611	strs[i] == null
+612	longestStrLen == 0
+612	allStringsNull
+612	anyStringNull
+613	shortestStrLen == 0
+614	strs[arrayPos].charAt(stringPos) != comparisonChar
+615	firstDiff != -1
+616	shortestStrLen != longestStrLen
+616	firstDiff == -1
+617	strs.length == 0
+617	strs == null
+618	smallestIndexOfDiff == -1
+619	strs[0] == null
+620	smallestIndexOfDiff == 0
+621	t == null
+621	s == null
+622	n == 0
+623	m == 0
+624	n > m
+625	prefix == null
+625	str == null
+626	prefix.length() > str.length()
+627	ArrayUtils.isEmpty(searchStrings)
+627	isEmpty(string)
+628	StringUtils.startsWith(string, searchString)
+629	str == null
+629	suffix == null
+630	suffix.length() > str.length()
+631	JAVA_VERSION_TRIMMED == null
+632	JAVA_VERSION_TRIMMED.length() >= 5
+633	JAVA_VERSION_TRIMMED == null
+634	JAVA_VERSION_TRIMMED.length() >= 5
+635	JAVA_VERSION != null
+636	ch <= '9'
+636	ch >= '0'
+637	JAVA_VERSION_TRIMMED == null
+638	OS_NAME == null
+639	OS_NAME == null
+639	OS_VERSION == null
+842	timePeriod <= 0
+843	service != null
+844	shutdown
+845	ownExecutor
+846	task != null
+847	isShutdown()
+848	task == null
+849	canPass
+109	style == null
+110	style == null
+111	buffer == null
+112	superToString != null
+113	toString != null
+114	this.getObject() == null
+115	value != null
+116	m == null
+117	value != null
+118	m != null
+119	m.isEmpty()
+120	toString != null
+121	pos1 != pos2
+121	pos2 >= 0
+121	pos1 >= 0
+122	fieldSeparatorAtStart
+123	object != null
+124	fieldSeparatorAtStart
+125	this.fieldSeparatorAtEnd == false
+126	sepLen > 0
+126	len >= sepLen
+126	len > 0
+127	buffer.charAt(len - 1 - i) != fieldSeparator.charAt(sepLen - 1 - i)
+128	match
+129	value == null
+130	value instanceof Boolean
+130	value instanceof Number
+130	value instanceof Character
+130	isRegistered(value)
+131	value instanceof Collection<?>
+132	detail
+133	value instanceof Map<?, ?>
+134	detail
+135	value instanceof long[]
+136	detail
+137	value instanceof int[]
+138	detail
+139	value instanceof short[]
+140	detail
+141	value instanceof byte[]
+142	detail
+143	value instanceof char[]
+144	detail
+145	value instanceof double[]
+146	detail
+147	value instanceof float[]
+148	detail
+149	value instanceof boolean[]
+150	detail
+151	value.getClass().isArray()
+152	detail
+153	detail
+154	array == null
+155	isFullDetail(fullDetail)
+156	i > 0
+157	item == null
+158	i > 0
+159	item == null
+160	array == null
+161	isFullDetail(fullDetail)
+162	i > 0
+163	array == null
+164	isFullDetail(fullDetail)
+165	i > 0
+166	array == null
+167	isFullDetail(fullDetail)
+168	i > 0
+169	array == null
+170	isFullDetail(fullDetail)
+171	i > 0
+172	array == null
+173	isFullDetail(fullDetail)
+174	i > 0
+175	array == null
+176	isFullDetail(fullDetail)
+177	i > 0
+178	array == null
+179	isFullDetail(fullDetail)
+180	i > 0
+181	array == null
+182	isFullDetail(fullDetail)
+183	i > 0
+184	useClassName
+184	object != null
+185	useShortClassName
+186	object!=null
+186	this.isUseIdentityHashCode()
+187	useFieldNames
+187	fieldName != null
+188	fullDetailRequest == null
+189	arrayStart == null
+190	arrayEnd == null
+191	arraySeparator == null
+192	contentStart == null
+193	contentEnd == null
+194	fieldNameValueSeparator == null
+195	fieldSeparator == null
+196	nullText == null
+197	sizeStartText == null
+198	sizeEndText == null
+199	summaryObjectStartText == null
+200	summaryObjectEndText == null
+829	type instanceof Class<?>
+830	type instanceof ParameterizedType
+831	type instanceof TypeVariable<?>
+832	type instanceof GenericArrayType
+833	enclosingType instanceof ParameterizedType
+834	typeVariables[i].equals(typeVar)
+835	result instanceof TypeVariable<?>
+836	enclosingType instanceof Class<?>
+837	genericSuperclass != null
+837	Object.class.equals(genericSuperclass)
+838	result == null
+839	result != null
+840	result != null
+1033	between
+1034	codepoint < below
+1034	codepoint > above
+1035	codepoint >= below
+1035	codepoint <= above
+1036	codepoint > 0xffff
+1037	codepoint > 0xfff
+1038	codepoint > 0xff
+1039	codepoint > 0xf
+1023	options.length > 0
+1024	input.charAt(index) == '\\'
+1025	index + 1 < input.length()
+1025	input.charAt(index + 1) == 'u'
+1026	isSet(OPTION.escapePlus)
+1027	index + i < input.length()
+1027	input.charAt(index + i) == '+'
+1028	index + i + 4 <= input.length()
+22	expression == false
+23	expression == false
+24	expression == false
+25	expression == false
+26	object == null
+27	array == null
+28	array.length == 0
+29	collection == null
+30	collection.size() == 0
+31	map == null
+32	map.size() == 0
+33	chars == null
+34	chars.length() == 0
+35	chars == null
+36	StringUtils.isBlank(chars)
+37	array[i] == null
+38	it.next() == null
+39	index >= array.length
+39	index < 0
+40	index >= collection.size()
+40	index < 0
+41	index < 0
+41	index >= chars.length()
+42	expression == false
+43	expression == false
+1053	str == null
+1054	newLineStr == null
+1055	wrapLength < 1
+1056	str.charAt(offset) == ' '
+1057	spaceToWrapAt >= offset
+1058	wrapLongWords
+1059	spaceToWrapAt >= 0
+1060	delimLen == 0
+1060	str.length() == 0
+1060	str == null
+1061	isDelimiter(ch, delimiters)
+1062	capitalizeNext
+1063	str == null
+1063	str.length() == 0
+1063	delimLen == 0
+1064	delimLen == 0
+1064	str == null
+1064	str.length() == 0
+1065	isDelimiter(ch, delimiters)
+1066	uncapitalizeNext
+1067	str == null
+1067	(strLen = str.length()) == 0
+1068	Character.isUpperCase(ch)
+1069	Character.isTitleCase(ch)
+1070	Character.isLowerCase(ch)
+1071	whitespace
+1072	str.length() == 0
+1072	str == null
+1073	delimiters != null
+1073	delimiters.length == 0
+1074	isDelimiter(ch, delimiters)
+1075	lastWasGap
+1076	delimiters == null
+1077	ch == delimiters[i]
+1078	str == null
+1079	str.length() == 0
+1080	lower > str.length()
+1081	upper == -1
+1081	upper > str.length()
+1082	upper < lower
+1083	index == -1
+1084	upper != str.length()
+1085	index > upper

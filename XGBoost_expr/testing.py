@@ -8,14 +8,25 @@ import os
 import datetime
 from sklearn.metrics import accuracy_score
 
-def predict(data_file_path, model_file_path, result_file_path, feature_num, classes, x_encoders, y_encoder):
+def predict(data_file_path, model_file_path, result_file_path, output_path, feature_num, classes, x_encoders, y_encoder):
     start_time = datetime.datetime.now()
     data_file_name = data_file_path.split('/')[-1][0:-4]
+
     model_file = model_file_path + data_file_name + '_model.pkl'
     print(model_file)
     result_file = result_file_path + data_file_name +'_results.csv'
     answer_file = result_file_path + data_file_name +'_answers.csv'
     encoded_data_file = data_file_path[0:-4] + '_encoded.csv'
+
+    ## make the output dirs
+    project_bugid = data_file_path.split('/')[-1][0:-9]
+    project = project_bugid.split('_')[0]
+    output_dir =output_path+project+'/expr'
+    print(output_dir)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    ## save the summary results in one file
+    summary_file = output_path + 'summary.csv'
 
     # load the testing data from file
     # testing_file = data_file_path[0:-4] + '_test.csv'
@@ -53,14 +64,15 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
         a = hq.nlargest(1, range(len(line)), line.__getitem__)
         if a[0]==y_test[i]:
             right1+=1
-    print(right1)
+    print('Right at top1: {}'.format(right1))
     # y_rounded_pred = [round(v) for v in y_pred]
     # print(y_rounded_pred)
     # accuracy = accuracy_score(y_test, y_rounded_pred)
     # print('Precision(Right Top1) : %.5f%%' % (accuracy*100.0))
     # cerror = sum(int(y_pred[i]) != y_test[i] for i in range(len(y_test))) / float(len(y_test))
     # accuracy = accuracy_score(y_test, y_pred) # average on all classes
-    print('Accuracy(top1): %.3f%%' % (100*float(right1)/float(y_test.shape[0])))
+    accuracy1 = 100*float(right1)/float(y_test.shape[0])
+    print('Accuracy(top1): %.3f%%' % accuracy1)
     # predicting the probablities
     ###! original XGBoost has no predict_proba!
     # y_prob = model.predict_proba(M_pred)
@@ -101,7 +113,7 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
                     right10 += 1
                 f.write(',')
             f.write('\n')
-    print('Results saved in {}'.format(result_file))
+
     # print('X_test length: {}'.format(len(right_indices)))
     with open(answer_file, 'a+') as f:
         for i in range(len(right_indices)):
@@ -113,9 +125,23 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
             f.write('\n')
 
     print('Right in top5: %d' % right5)
-    print('Precision: %.3f%%' % (float(right5) / len(X_test) * 100.0))
+    accuracy5 = (float(right5) / len(X_test) * 100.0)
+    print('Precision: %.3f%%' % accuracy5)
     print('Right in top10: %d' % right10)
-    print('Precision: %.3f%%' % (float(right10) / len(X_test) * 100.0))
+    accuracy10 = (float(right10) / len(X_test) * 100.0)
+    print('Precision: %.3f%%' % accuracy10)
+
+
+    with open(summary_file, 'a+') as f:
+        f.write('%s,' % X_test.shape[0])
+        f.write('{},'.format(right1))
+        f.write('%.3f%%,' % accuracy1)
+        f.write('{},'.format(right5))
+        f.write('%.3f%%,' % accuracy5)
+        f.write('{},'.format(right10))
+        f.write('%.3f%%\n' % accuracy10)
+
+    print('Testing results saved in {}'.format(result_file))
 
     ### plot the feature importance
     ## with plt
@@ -124,10 +150,10 @@ def predict(data_file_path, model_file_path, result_file_path, feature_num, clas
 
     ### or with xg func
     # plot feature importance
-    # plot_importance(model)
-    # pyplot.show()
+    plot_importance(model)
+    pyplot.show()
 
-    xgb.plot_importance(model)
+    # xgb.plot_importance(model)
 
     end_time = datetime.datetime.now()
     run_time = end_time - start_time

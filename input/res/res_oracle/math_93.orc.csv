@@ -1,0 +1,1588 @@
+id	oracle
+325	p > 1.0
+325	p < 0.0
+326	Math.abs(rootFindingFunction.value(lowerBound)) < 1E-6
+327	Math.abs(rootFindingFunction.value(upperBound)) < 1E-6
+357	x0 > x1
+944	++costEvaluations > maxCostEval
+945	m <= p
+284	x0 > x1
+285	Math.floor(x0) < x0
+286	fl == x
+287	x0 > x1
+288	p < 0.0
+288	p > 1.0
+289	pm > p
+290	xm == x1
+291	xm == x0
+1136	handler.requiresDenseOutput()
+1137	equations.getDimension() != y0.length
+1138	equations.getDimension() != y.length
+1139	Math.abs(t - t0) <= 1.0e-12 * Math.max(Math.abs(t0), Math.abs(t))
+869	x == null
+870	y == null
+871	x.length != y.length
+872	covariance == null
+873	x.length != covariance.length
+874	covariance.length != covariance[0].length
+874	covariance.length > 0
+902	i > 0
+903	bytesOut == bytes.length
+904	n <= 0
+905	Double.isNaN(cachedNormalDeviate)
+906	s != 0
+476	rowDimension <= 0
+477	columnDimension <= 0
+478	destination[0].length < columnsCount
+478	destination.length < rowsCount
+479	destination.length < selectedRows.length
+479	destination[0].length < selectedColumns.length
+480	nRows == 0
+481	nCols == 0
+482	subMatrix[r].length != nCols
+483	matrix.getColumnDimension() != nCols
+483	matrix.getRowDimension() != 1
+484	matrix.getColumnDimension() != 1
+484	matrix.getRowDimension() != nRows
+485	vector.getDimension() != nCols
+486	vector.getDimension() != nRows
+487	array.length != nCols
+488	array.length != nRows
+489	lu == null
+490	lu == null
+491	nRows != nCols
+492	v.length != nCols
+493	v.getDimension() != nCols
+494	v.length != nRows
+495	v.getDimension() != nRows
+496	lu == null
+497	lu == null
+498	lu == null
+499	i > 0
+500	j > 0
+501	object == this
+502	object instanceof RealMatrix == false
+503	m.getColumnDimension() != nCols
+503	m.getRowDimension() != nRows
+504	getEntry(row, col) != m.getEntry(row, col)
+505	row < 0
+505	row >= getRowDimension()
+506	column < 0
+506	column >= getColumnDimension()
+507	startRow > endRow
+508	startColumn > endColumn
+509	selectedRows.length * selectedColumns.length == 0
+510	selectedRows.length == 0
+511	getRowDimension() != m.getRowDimension()
+511	getColumnDimension() != m.getColumnDimension()
+512	getColumnDimension() != m.getColumnDimension()
+512	getRowDimension() != m.getRowDimension()
+513	getColumnDimension() != m.getRowDimension()
+1009	interpolator.currentState != null
+1010	finalized
+708	values == null
+709	test(values, begin, length)
+710	values == null
+711	test(values, begin, length)
+712	object == this
+713	object instanceof AbstractStorelessUnivariateStatistic == false
+799	values == null
+800	begin < 0
+801	length < 0
+802	begin + length > values.length
+803	length == 0
+1084	y != y0
+1085	Double.isNaN(previousT[0])
+1086	manager.evaluateStep(interpolator)
+1087	lastStep
+1088	manager.reset(stepStart, y)
+1089	Double.isNaN(previousT[0])
+1090	truncated
+1077	y != y0
+1078	Double.isNaN(previousT[0])
+1079	manager.evaluateStep(interpolator)
+1080	lastStep
+1081	manager.reset(stepStart, y)
+1082	Double.isNaN(previousT[0])
+1083	truncated
+1117	initialStepSize < minStep
+1117	initialStepSize > maxStep
+1118	vecAbsoluteTolerance != null
+1118	vecAbsoluteTolerance.length != y0.length
+1119	vecRelativeTolerance != null
+1119	vecRelativeTolerance.length != y0.length
+1120	initialStep > 0
+1121	forward
+1122	h < getMinStep()
+1123	h > getMaxStep()
+1124	forward
+1125	Math.abs(h) < minStep
+1126	acceptSmall
+1127	filteredH > maxStep
+1128	filteredH < -maxStep
+979	a <= 0.0
+979	x > 1
+979	Double.isNaN(a)
+979	Double.isNaN(b)
+979	b <= 0.0
+979	x < 0
+979	Double.isNaN(x)
+980	x > (a + 1.0) / (a + b + 2.0)
+981	b <= 0.0
+981	Double.isNaN(b)
+981	Double.isNaN(a)
+981	a <= 0.0
+358	Double.isNaN(z)
+359	x < 0
+359	x > 1
+360	x == 0
+361	alpha < 1
+362	x == 1
+363	beta < 1
+364	p == 0
+365	p == 1
+366	x <= 0
+367	x >= 1
+527	m >= n
+528	cachedU == null
+529	hK[k - diagOffset] != 0.0
+530	diagOffset > 0
+531	cachedB == null
+532	m < n
+533	i > 0
+534	i < main.length - 1
+535	cachedV == null
+536	hK[k] != 0.0
+537	diagOffset > 0
+538	a != 0.0
+539	k < n - 1
+540	b != 0.0
+541	a != 0.0
+542	k < m - 1
+543	b != 0.0
+416	columnDimension <=0
+416	rowDimension <=0
+417	copyArray
+418	d == null
+419	nRows == 0
+420	nCols == 0
+421	d[r].length != nCols
+422	nRows == 0
+423	nCols == 0
+424	d[row].length != nCols
+425	nRows == 0
+426	nCols == 0
+427	d[row].length != nCols
+428	rowCount != m.getRowDimension()
+428	columnCount != m.getColumnDimension()
+429	rowCount != m.getRowDimension()
+429	columnCount != m.getColumnDimension()
+430	rowCount != m.getRowDimension()
+430	columnCount != m.getColumnDimension()
+431	rowCount != m.getRowDimension()
+431	columnCount != m.getColumnDimension()
+432	this.getColumnDimension() != m.getRowDimension()
+433	this.getColumnDimension() != m.getRowDimension()
+434	startRow > endRow
+435	startColumn > endColumn
+436	selectedRows.length * selectedColumns.length == 0
+437	selectedRows.length == 0
+438	nRows == 0
+439	nCols == 0
+440	subMatrix[r].length != nCols
+441	data == null
+442	row > 0
+443	column > 0
+444	isSquare()
+445	isSingular()
+446	lu == null
+447	isSquare()
+448	v.length != this.getColumnDimension()
+449	v.length != nRows
+450	b.length != nRows
+451	b.getRowDimension() != this.getRowDimension()
+452	this.isSquare()
+453	this.isSingular()
+454	nRows != nCols
+455	sum.abs().compareTo(largest) == 1
+456	lu[max][col].abs().compareTo(TOO_SMALL) <= 0
+457	max != col
+458	data != null
+459	i > 0
+460	j > 0
+461	object == this
+462	object instanceof BigMatrixImpl == false
+463	m.getColumnDimension() != nCols
+463	m.getRowDimension() != nRows
+464	dataRow[col].equals(m.getEntry(row, col))
+465	lu == null
+466	row < 0
+466	row >= getRowDimension()
+467	column >= getColumnDimension()
+467	column < 0
+318	trials < 0
+319	p > 1.0
+319	p < 0.0
+320	x < 0
+321	x >= getNumberOfTrials()
+322	x < 0
+322	x > getNumberOfTrials()
+323	p == 0
+324	p == 1
+1228	fm * fmin > 0.0
+1229	Math.abs(max - min) <= absoluteAccuracy
+1266	Math.abs(x - m) > t2 - 0.5 * (b - a)
+1267	Math.abs(e) > tol
+1268	q > 0
+1269	p < q * (b - x)
+1269	Math.abs(p) < Math.abs(0.5 * q * r)
+1269	p < q * (a - x)
+1270	(b - u) < t2
+1270	(u - a) < t2
+1271	fu <= fx
+1272	u < x
+1273	u < x
+1274	fu <= fw
+1274	w == x
+1275	v == w
+1275	fu <= fv
+1275	v == x
+1245	Math.abs(yInitial) <= functionValueAccuracy
+1246	Math.abs(yMin) <= functionValueAccuracy
+1247	yInitial * yMin < 0
+1248	Math.abs(yMax) <= functionValueAccuracy
+1249	yInitial * yMax < 0
+1250	sign > 0
+1251	Math.abs(yMin) <= functionValueAccuracy
+1252	Math.abs(yMax) <= functionValueAccuracy
+1253	sign < 0
+1254	yMin == 0.0
+1255	Math.abs(y2) < Math.abs(y1)
+1256	Math.abs(y1) <= functionValueAccuracy
+1257	Math.abs(dx) <= tolerance
+1258	Math.abs(oldDelta) < tolerance
+1258	Math.abs(y0) <= Math.abs(y1)
+1259	x0 == x2
+1260	p > 0.0
+1261	2.0 * p >= 1.5 * dx * p1 - Math.abs(tolerance * p1)
+1261	p >= Math.abs(0.5 * oldDelta * p1)
+1262	Math.abs(delta) > tolerance
+1263	dx > 0.0
+1264	dx <= 0.0
+1265	(y1 > 0) == (y2 > 0)
+349	p < 0.0
+349	p > 1.0
+350	p == 0
+351	p == 1
+352	s <= 0.0
+353	p < .5
+354	p < .5
+355	p < .5
+356	p > .5
+809	expected.length < 2
+809	expected.length != observed.length
+810	isNonNegative(observed)
+810	isPositive(expected)
+811	Math.abs(sumExpected - sumObserved) > 10E-6
+812	rescale
+813	alpha > 0.5
+813	alpha <= 0
+814	alpha <= 0
+814	alpha > 0.5
+815	observed1.length != observed2.length
+815	observed1.length < 2
+816	isNonNegative(observed1)
+816	isNonNegative(observed2)
+817	countSum1 * countSum2 == 0
+818	unequalCounts
+819	observed1[i] == 0
+819	observed2[i] == 0
+820	unequalCounts
+821	alpha > 0.5
+821	alpha <= 0
+822	in.length < 2
+823	in[0].length < 2
+824	isRectangular(in)
+825	isNonNegative(in)
+826	in[i].length != in[0].length
+827	in[i] <= 0
+828	in[i] < 0
+829	in[i][j] < 0
+345	p == 0
+346	p == 1
+347	p < .5
+348	p < .5
+1140	states.isEmpty()
+1141	initialized
+1142	state.evaluateStep(interpolator)
+1143	first == null
+1144	interpolator.isForward()
+1145	state.getEventTime() < first.getEventTime()
+1146	state.getEventTime() > first.getEventTime()
+1147	state.stop()
+1148	state.reset(t, y)
+197	isNaN()
+198	isInfinite()
+199	Math.abs(real) < Math.abs(imaginary)
+200	imaginary == 0.0
+201	real == 0.0
+202	isNaN()
+203	rhs.isNaN()
+203	isNaN()
+204	c == 0.0
+204	d == 0.0
+205	isInfinite()
+205	rhs.isInfinite()
+206	Math.abs(c) < Math.abs(d)
+207	d == 0.0
+208	c == 0.0
+209	this == other
+210	other == null
+211	rhs.isNaN()
+212	isNaN()
+213	rhs.isNaN()
+213	isNaN()
+214	Double.isInfinite(real)
+214	Double.isInfinite(imaginary)
+214	Double.isInfinite(rhs.real)
+214	Double.isInfinite(rhs.imaginary)
+215	isNaN()
+216	isNaN()
+216	rhs.isNaN()
+217	isNaN()
+218	isNaN()
+219	isNaN()
+220	isNaN()
+221	isNaN()
+222	isNaN()
+223	isNaN()
+224	x == null
+225	isNaN()
+226	isNaN()
+227	isNaN()
+228	imaginary == 0.0
+228	real == 0.0
+229	real >= 0.0
+230	isNaN()
+231	isNaN()
+232	n <= 0
+233	isNaN()
+234	isInfinite()
+186	im < 0.0
+187	Double.isNaN(im)
+187	im > 0.0
+188	obj instanceof Complex
+189	obj instanceof Number
+190	parsePosition.getIndex() == 0
+191	re == null
+192	im == null
+193	parseFixedstring(source, getImaginaryCharacter(), pos)
+194	imaginaryCharacter.length() == 0
+194	imaginaryCharacter == null
+195	imaginaryFormat == null
+196	realFormat == null
+185	r < 0
+57	index < n
+58	index < n
+59	endIndex < source.length()
+60	source.substring(startIndex, endIndex).compareTo(sb.toString()) == 0
+61	startIndex == endIndex
+62	number != null
+63	startIndex >= source.length()
+63	endIndex > source.length()
+63	source.substring(startIndex, endIndex).compareTo(expected) != 0
+64	Double.isNaN(value)
+64	Double.isInfinite(value)
+2	Double.isInfinite(p2)
+2	Double.isInfinite(q2)
+3	a != 0.0
+4	b != 0
+5	n >= maxIterations
+1158	model.steps.size() == 0
+1159	steps.size() == 0
+1160	getInterpolatedState().length != model.getInterpolatedState().length
+1161	forward ^ model.forward
+1162	Math.abs(gap) > 1.0e-3 * Math.abs(step)
+1163	steps.size() == 0
+1164	isLast
+1165	locatePoint(time, sMin) <= 0
+1166	locatePoint(time, sMax) >= 0
+1167	location < 0
+1168	location > 0
+1169	Math.abs(tMax - tMed) < 1e-6
+1169	Math.abs(tMed - tMin) < 1e-6
+1170	index < low
+1171	index > high
+1172	forward
+1173	time < interval.getPreviousTime()
+1174	time > interval.getCurrentTime()
+1175	time > interval.getPreviousTime()
+1176	time < interval.getCurrentTime()
+888	mean.length != order
+889	c[ii][ii] > c[isi][isi]
+890	swap[rank] != rank
+891	c[ir][ir] < small
+892	rank == 0
+893	c[index[i]][index[i]] < -small
+122	o == null
+123	o instanceof Number
+559	copyArray
+560	blockData[index].length != iHeight * blockWidth(jBlock)
+561	copyArray
+562	length != columns
+563	heightExcess > 0
+564	widthExcess > 0
+565	widthExcess > 0
+566	refLength < 1
+567	subRow.length != refLength
+568	jWidth > available
+569	matrix.getColumnDimension() != nCols
+569	matrix.getRowDimension() != 1
+570	jWidth > available
+571	outIndex >= outBlock.length
+572	matrix.getRowDimension() != nRows
+572	matrix.getColumnDimension() != 1
+573	mIndex >= mBlock.length
+574	array.length != nCols
+575	array.length != nRows
+576	v.length != columns
+577	v.length != rows
+757	windowSize != INFINITE_WINDOW
+758	getN() == windowSize
+759	getN() < windowSize
+760	getN() > 0
+761	getN() > 1
+762	windowSize < 1
+763	windowSize != INFINITE_WINDOW
+764	windowSize < eDA.getNumElements()
+764	windowSize != INFINITE_WINDOW
+765	percentileImpl instanceof Percentile
+692	i > 0
+693	i < n
+694	starts < 2
+695	checker.converged(simplex)
+696	evaluations >= maxEvaluations
+697	i < (starts - 1)
+698	minima[0] == null
+699	Double.isNaN(pair.getCost())
+700	simplex[i].getCost() > pointCostPair.getCost()
+1180	denominator == 0.0
+1015	interpolator.v1 == null
+1016	vectorsInitialized
+1017	v1 == null
+1076	den <= 0.0
+1101	interpolator.currentState == null
+1102	vectorsInitialized
+1103	v == null
+1104	currentState == null
+581	isSymmetric(matrix)
+582	Math.abs(mij - mji) > (Math.max(Math.abs(mij), Math.abs(mji)) * eps)
+583	cachedV == null
+584	eigenvectors == null
+585	cachedD == null
+586	cachedVt == null
+587	eigenvectors == null
+588	eigenvectors == null
+589	eigenvectors == null
+590	chooseLeft
+591	Math.abs(secondary[i]) <= max
+592	delta < 0
+593	delta >= 0
+594	z0 < z1
+595	z1 < z2
+596	z0 < z1
+597	sumOffDiag == 0
+598	work[i + 2] <= 0
+599	qMin >= 4 * eMax
+600	k >= maxIter
+601	work[4 * n0 - 1] <= TOLERANCE_2 * qMax
+601	pingPong == 0
+601	n0 - i0 > 3
+601	work[4 * n0 - 2] <= TOLERANCE_2 * sigma
+602	work[i + 2] <= TOLERANCE_2 * sigma
+602	work[i + 3] <= TOLERANCE_2 * work[i]
+603	work[i + 2] <= TOLERANCE_2 * d
+604	work[i] <= TOLERANCE_2 * d
+605	MathUtils.SAFE_MIN * work[j] < work[i + 2]
+605	MathUtils.SAFE_MIN * work[i + 2] < work[j]
+606	start >= deflatedEnd
+607	work[k - 5] <= TOLERANCE_2 * (sigma + work[k - 3])
+607	start != deflatedEnd - 2
+607	start == deflatedEnd - 1
+607	work[k - 2 * pingPong - 4] <= TOLERANCE_2 * work[k - 7]
+608	start == deflatedEnd - 2
+608	work[k - 9] <= TOLERANCE_2 * sigma
+608	work[k - 2 * pingPong - 8] <= TOLERANCE_2 * work[k - 11]
+609	work[k - 3] > work[k - 7]
+610	work[k - 5] > TOLERANCE_2 * work[k - 3]
+611	s <= t
+612	dMin <= 0
+612	deflatedEnd < end
+613	flipIfWarranted(deflatedEnd, 1)
+614	MathUtils.SAFE_MIN * qMax < Math.min(work[l - 1], Math.min(work[l - 9], dMin2 + work[l - 2 * pingPong]))
+614	dMin < 0
+615	dMin >= 0
+615	dMin1 > 0
+616	Math.abs(dN) < TOLERANCE * sigma
+616	dMin1 > 0.0
+616	dMin < 0.0
+616	work[4 * deflatedEnd - 5 - pingPong] < TOLERANCE * (sigma + dN1)
+617	dMin < 0.0
+618	tType < -22
+619	dMin1 > 0.0
+620	Double.isNaN(dMin)
+621	1.5 * work[pingPong] < work[4 * (n - 1) + pingPong]
+622	range < absoluteTolerance
+622	range < relativeTolerance * Math.max(Math.abs(left), Math.abs(right))
+623	countEigenValues(middle, index, n) >= 1
+624	range < absoluteTolerance
+624	range < relativeTolerance * Math.max(Math.abs(left), Math.abs(right))
+625	countEigenValues(middle, index, n) >= n
+626	ratio <= 0
+627	pingPong == 0
+628	pingPong == 0
+629	work[j4 - 2] == 0.0
+630	MathUtils.SAFE_MIN * work[j4 - 2] < work[j4 + 1]
+630	MathUtils.SAFE_MIN * work[j4 + 1] < work[j4 - 2]
+631	work[j4 - 3] == 0.0
+632	MathUtils.SAFE_MIN * work[j4 + 2] < work[j4 - 3]
+632	MathUtils.SAFE_MIN * work[j4 - 3] < work[j4 + 2]
+633	work[j4 - 2] == 0.0
+634	MathUtils.SAFE_MIN * work[j4 - 2] < work[j4p2 + 2]
+634	MathUtils.SAFE_MIN * work[j4p2 + 2] < work[j4 - 2]
+635	work[j4 - 2] == 0.0
+636	MathUtils.SAFE_MIN * work[j4 - 2] < work[j4p2 + 2]
+636	MathUtils.SAFE_MIN * work[j4p2 + 2] < work[j4 - 2]
+637	dMin <= 0.0
+638	dMin == dN
+638	dMin == dN1
+639	dMin == dN
+639	dMin1 == dN1
+640	gap1 > b1
+640	gap1 > 0.0
+641	dN > b1
+642	a2 > (b1 + b2)
+643	dMin == dN
+644	work[nn - 5] > work[nn - 7]
+645	work[np - 4] > work[np - 2]
+646	work[nn - 9] > work[nn - 11]
+647	b2 == 0.0
+648	work[i4] > work[i4 - 2]
+649	100 * Math.max(b2, b1) < a2
+649	cnst1 < a2
+650	a2 < cnst1
+651	dMin == dN2
+652	work[np - 8] > b2
+652	work[np - 4] > b1
+653	end - start > 2
+654	b2 == 0.0
+655	work[i4] > work[i4 - 2]
+656	cnst1 < a2
+656	100 * Math.max(b2, b1) < a2
+657	a2 < cnst1
+658	tType == -6
+659	tType == -18
+660	dMin2 == dN2
+660	dMin1 == dN1
+661	work[nn - 5] > work[nn - 7]
+662	b2 != 0.0
+663	work[i4] > work[i4 - 2]
+664	100 * Math.max(b1, oldB1) < b2
+665	gap2 > b2 * a2
+665	gap2 > 0.0
+666	dMin1 == dN1
+667	dMin2 == dN2
+667	2 * work[nn - 5] < work[nn - 7]
+668	work[nn - 5] > work[nn - 7]
+669	b2 != 0.0
+670	work[i4] > work[i4 - 2]
+671	100 * b1 < b2
+672	gap2 > 0.0
+672	gap2 > b2 * a2
+673	tau < sigma
+674	absG < minG
+1091	y != y0
+1092	requiresDenseOutput()
+1092	eventsHandlersManager.isEmpty()
+1093	firstTime
+1093	fsal
+1094	firstTime
+1095	vecAbsoluteTolerance != null
+1096	error <= 1.0
+1097	manager.evaluateStep(interpolator)
+1098	fsal
+1099	lastStep
+1099	manager.reset(stepStart, y)
+1100	lastStep
+894	sampleStats.getN() == 0
+895	in != null
+896	in != null
+897	binStats.isEmpty()
+898	loaded
+899	x <= upperBounds[i]
+900	stats.getN() > 0
+901	stats.getStandardDeviation() > 0
+978	x < 0
+1149	g0Positive ^ (gb >= 0)
+1150	Math.abs(root - ta) <= convergence
+1151	Double.isNaN(previousEventTime)
+1151	Math.abs(previousEventTime - root) > convergence
+1152	pendingEvent
+1152	Math.abs(t1 - pendingEventTime) <= convergence
+1153	cause instanceof DerivativeException
+1153	cause != null
+1154	cause != null
+1154	cause instanceof EventException
+1155	pendingEvent
+1156	pendingEvent
+1157	nextAction == EventHandler.RESET_STATE
+384	mean <= 0.0
+385	x < 0
+386	x <= 0.0
+387	p > 1.0
+387	p < 0.0
+388	p == 1.0
+389	p < .5
+390	p < .5
+339	x <= 0.0
+340	p == 0
+341	p == 1
+342	d > 2.0
+343	degreesOfFreedom <= 0.0
+344	degreesOfFreedom <= 0.0
+990	FastFourierTransformer.isPowerOf2(N)
+991	N == 1
+996	f.length == 1
+997	N == 1
+998	N == 2
+999	n == 0
+1000	n == omegaCount
+1001	n + omegaCount == 0
+1002	n <= 0
+1003	isPowerOf2(d.length)
+1004	isPowerOf2(o.length)
+1005	lower >= upper
+1006	subVector.length == dimensionSize.length
+1007	forward
+1008	subVector.length == d
+992	FastFourierTransformer.isPowerOf2(n)
+993	FastFourierTransformer.isPowerOf2(n)
+994	f[0] != 0.0
+995	N == 1
+754	n == 0
+738	n < 1
+252	a0 > overflow
+253	Math.abs(a0 - value) < epsilon
+254	q2 > overflow
+254	p2 > overflow
+255	Math.abs(convergent - value) > epsilon
+255	n < maxIterations
+255	q2 < maxDenominator
+256	n >= maxIterations
+257	q2 < maxDenominator
+258	den == 0
+259	den < 0
+260	den == Integer.MIN_VALUE
+260	num == Integer.MIN_VALUE
+261	d > 1
+262	den < 0
+263	numerator >= 0
+264	this != object
+265	first < second
+266	first > second
+267	this == other
+268	other == null
+269	numerator==Integer.MIN_VALUE
+270	fraction == null
+271	numerator == 0
+272	fraction.numerator == 0
+273	d1==1
+274	w.bitLength() > 31
+275	fraction == null
+276	numerator == 0
+276	fraction.numerator == 0
+277	fraction == null
+278	fraction.numerator == 0
+279	denominator == 0
+280	numerator==0
+281	denominator==Integer.MIN_VALUE
+281	(numerator&1)==0
+282	denominator < 0
+283	denominator==Integer.MIN_VALUE
+283	numerator==Integer.MIN_VALUE
+243	obj instanceof Fraction
+244	obj instanceof Number
+245	parsePosition.getIndex() == 0
+246	num == null
+247	den == null
+248	format == null
+249	format == null
+250	index < n
+251	index < n
+849	v instanceof Integer
+850	count == null
+851	v instanceof Integer
+852	count != null
+853	getSumFreq() == 0
+854	getSumFreq() == 0
+855	v instanceof Integer
+856	c == null
+857	value != null
+858	c.compare(v, freqTable.firstKey()) < 0
+859	c.compare(v, freqTable.lastKey()) >= 0
+860	c.compare(v, nextValue) > 0
+861	getSumFreq() == 0
+864	OmegaInverse == null
+982	x <= 0.0
+982	Double.isNaN(x)
+983	x < 0.0
+983	Double.isNaN(x)
+983	Double.isNaN(a)
+983	a <= 0.0
+984	x == 0.0
+985	x > a
+985	a >= 1.0
+986	n >= maxIterations
+987	a <= 0.0
+987	x < 0.0
+987	Double.isNaN(a)
+987	Double.isNaN(x)
+988	x == 0.0
+989	x < a
+989	a < 1.0
+297	x <= 0.0
+298	p == 0
+299	p == 1
+300	alpha <= 0.0
+301	beta <= 0.0
+302	x < 0
+303	p < .5
+304	p < .5
+942	measurements [i].isIgnored()
+939	Math.random() < getCrossoverRate()
+940	Math.random() < getMutationRate()
+941	nextGeneration.getPopulationSize() < nextGeneration .getPopulationLimit()
+752	sumOfLogs.getN() > 0
+753	getN() > 0
+1018	stabilityReduction < 0.0001
+1018	stabilityReduction > 0.9999
+1019	stepControl1 < 0.0001
+1019	stepControl1 > 0.9999
+1020	stepControl2 > 0.9999
+1020	stepControl2 < 0.0001
+1021	stepControl3 < 0.0001
+1021	stepControl3 > 0.9999
+1022	stepControl4 > 999.9
+1022	stepControl4 < 1.0001
+1023	maxOrder % 2 != 0
+1023	maxOrder <= 6
+1024	orderControl1 < 0.0001
+1024	orderControl1 > 0.9999
+1025	orderControl2 < 0.0001
+1025	orderControl2 > 0.9999
+1026	sequence.length != size
+1026	sequence == null
+1027	denseOutput
+1028	mudif <= 0
+1028	mudif >= 7
+1029	vecAbsoluteTolerance == null
+1030	2 * j == n
+1031	j <= maxChecks
+1031	performTest
+1031	k < maxIter
+1032	deltaNorm > 4 * Math.max(1.0e-15, initialNorm)
+1033	y != y0
+1034	denseOutput
+1035	denseOutput
+1035	eventsHandlersManager.isEmpty()
+1036	newStep
+1037	firstStepAlreadyComputed
+1038	firstTime
+1039	forward
+1040	stepStart + stepSize < t
+1040	stepStart + stepSize > t
+1040	forward
+1040	forward
+1041	tryStep(equations, stepStart, y, stepSize, k, scale, fk[k], (k == 0) ? yMidDots[0] : diagonal[k-1], (k == 0) ? y1 : y1Diag[k-1], yTmp)
+1042	k > 0
+1043	k > 1
+1043	error > maxError
+1043	error > 1.0e15
+1044	previousRejected
+1044	targetIter > 1
+1045	error <= 1.0
+1046	error > ratio * ratio
+1047	targetIter > 1
+1047	costPerTimeUnit[targetIter-1] < orderControl1 * costPerTimeUnit[targetIter]
+1048	error <= 1.0
+1049	error > ratio * ratio
+1050	targetIter > 1
+1050	costPerTimeUnit[targetIter-1] < orderControl1 * costPerTimeUnit[targetIter]
+1051	error > 1.0
+1052	costPerTimeUnit[targetIter-1] < orderControl1 * costPerTimeUnit[targetIter]
+1052	targetIter > 1
+1053	firstTime
+1053	lastStep
+1053	error <= 1.0
+1054	denseOutput
+1054	reject
+1055	mu >= 0
+1056	useInterpolationError
+1057	interpError > 10.0
+1058	reject
+1059	eventsHandlersManager.evaluateStep(interpolator)
+1060	reject
+1061	reject
+1062	eventsHandlersManager.stop()
+1063	eventsHandlersManager.reset(stepStart, y)
+1063	lastStep
+1064	k == 1
+1065	previousRejected
+1066	k <= targetIter
+1067	costPerTimeUnit[k-1] < orderControl1 * costPerTimeUnit[k]
+1068	costPerTimeUnit[k] < orderControl2 * costPerTimeUnit[k-1]
+1069	costPerTimeUnit[k-2] < orderControl1 * costPerTimeUnit[k-1]
+1069	k > 2
+1070	costPerTimeUnit[k] < orderControl2 * costPerTimeUnit[optimalIter]
+1071	previousRejected
+1072	optimalIter <= k
+1073	costPerTimeUnit[k] < orderControl2 * costPerTimeUnit[k-1]
+1073	k < targetIter
+1074	forward
+1075	reject
+1105	maxDegree < 0
+1106	polynoms != null
+1107	maxDegree <= 4
+1108	interpolator.polynoms == null
+1109	polynoms == null
+1109	polynoms.length <= (mu + 4)
+1110	mu < 0
+1111	mu > 0
+1112	mu > 1
+1113	mu > 2
+1114	currentDegree >= 5
+1115	currentDegree > 3
+1116	h == 0
+368	numberOfSuccesses > populationSize
+369	sampleSize > populationSize
+370	x < domain[0]
+371	x >= domain[1]
+372	x < domain[0]
+372	x > domain[1]
+373	num < 0
+374	size <= 0
+375	size < 0
+376	x < domain[0]
+377	x > domain[1]
+747	incMoment
+748	moment.getN() > 3
+749	variance < 10E-20
+749	moment.n <= 3
+750	incMoment
+751	test(values, begin, length)
+751	length > 3
+675	matrix.isSquare()
+676	Math.abs(sum) > largest
+677	Math.abs(lu[max][col]) < singularityThreshold
+678	max != col
+679	singular
+679	cachedL == null
+680	singular
+680	cachedU == null
+681	singular
+681	cachedP == null
+682	singular
+1230	f instanceof PolynomialFunction
+1231	f.value(min) == 0.0
+1232	f.value(max) == 0.0
+1233	f.value(initial) == 0.0
+1234	isBracketing(min, initial, f)
+1235	f instanceof PolynomialFunction
+1236	f.value(min) == 0.0
+1237	f.value(max) == 0.0
+1238	isRootOK(min, max, z)
+1239	isRootOK(min, max, root[i])
+1240	n < 1
+1241	n < 1
+1242	(z.subtract(oldz)).abs() <= tolerance
+1243	pv.abs() <= functionValueAccuracy
+1244	denominator.equals(new Complex(0.0, 0.0))
+946	firstIteration
+947	dk == 0
+948	cost != 0
+949	s != 0
+950	maxCosine <= orthoTolerance
+951	firstIteration
+952	0.1 * cost < previousCost
+953	ratio <= 0.25
+954	0.1 * cost >= previousCost
+954	tmp < 0.1
+955	ratio >= 0.75
+955	lmPar == 0
+956	ratio >= 1.0e-4
+957	preRed <= costRelativeTolerance
+957	ratio <= 2.0
+957	delta <= parRelativeTolerance * xNorm
+957	Math.abs(actRed) <= costRelativeTolerance
+958	ratio <= 2.0
+958	Math.abs(actRed) <= 2.2204e-16
+958	preRed <= 2.2204e-16
+959	delta <= 2.2204e-16 * xNorm
+960	maxCosine <= 2.2204e-16
+961	fp <= 0.1 * delta
+962	rank == solvedCols
+963	paru == 0
+964	lmPar == 0
+965	lmPar == 0
+966	parl == 0
+966	previousFP < 0
+966	Math.abs(fp) <= 0.1 * delta
+966	fp <= previousFP
+967	fp > 0
+968	fp < 0
+969	dpj != 0
+970	lmDiag[k] != 0
+971	Math.abs(rkk) < Math.abs(lmDiag[k])
+972	lmDiag[j] == 0
+972	nSing == solvedCols
+973	nSing < solvedCols
+974	nSing > 0
+975	Double.isInfinite(norm2)
+975	Double.isNaN(norm2)
+976	norm2 > ak2
+977	ak2 == 0
+0	cachedResources == null
+0	cachedResources.getLocale().equals(locale)
+1	cachedResources.getLocale().getLanguage().equals(locale.getLanguage())
+886	cachedResources == null
+886	cachedResources.getLocale().equals(locale)
+887	cachedResources.getLocale().getLanguage().equals(locale.getLanguage())
+65	s > Integer.MAX_VALUE
+65	s < Integer.MIN_VALUE
+66	a > b
+67	a < 0
+68	b < 0
+69	Long.MIN_VALUE - b <= a
+70	a <= Long.MAX_VALUE - b
+71	n < k
+72	n < 0
+73	n == k
+73	k == 0
+74	k == 1
+74	k == n - 1
+75	result == Long.MAX_VALUE
+76	n < k
+77	n < 0
+78	k == 0
+78	n == k
+79	k == 1
+79	k == n - 1
+80	x == null
+80	y == null
+81	x.length != y.length
+82	equals(x[i], y[i])
+83	result == Long.MAX_VALUE
+84	n < 0
+85	n < 0
+86	u == 0
+86	v == 0
+87	u > 0
+88	v > 0
+89	k == 31
+90	t > 0
+91	Double.isNaN(x)
+92	Float.isNaN(x)
+93	m < Integer.MIN_VALUE
+93	m > Integer.MAX_VALUE
+94	a > b
+95	a < 0
+96	b < 0
+97	a >= Long.MAX_VALUE / b
+98	b > 0
+99	Long.MIN_VALUE / b <= a
+100	a > 0
+101	a <= Long.MAX_VALUE / b
+102	Double.isNaN(d)
+102	Double.isInfinite(d)
+103	d == 0
+104	d * (direction - d) >= 0
+105	mantissa == 0x000fffffffffffffL
+106	mantissa == 0L
+107	Double.isNaN(d)
+107	d == 0
+107	Double.isInfinite(d)
+108	Double.isInfinite(x)
+109	sign == -1
+110	sign == -1
+111	fraction > 0.5
+112	fraction > 0.5
+113	fraction < 0.5
+114	Math.floor(unscaled) / 2.0 == Math.floor(Math .floor(unscaled) / 2.0)
+115	fraction >= 0.5
+116	unscaled != Math.floor(unscaled)
+117	Double.isNaN(x)
+118	Float.isNaN(x)
+119	s < Integer.MIN_VALUE
+119	s > Integer.MAX_VALUE
+120	b == Long.MIN_VALUE
+121	a < 0
+790	Double.isNaN(value)
+790	d > value
+791	test(values, begin, length)
+792	Double.isNaN(values[i])
+735	incMoment
+736	incMoment
+737	test(values, begin, length)
+787	Double.isNaN(value)
+787	d < value
+788	test(values, begin, length)
+789	Double.isNaN(values[i])
+1199	f.value(min) == 0.0
+1200	f.value(max) == 0.0
+1201	f.value(initial) == 0.0
+1202	isBracketing(min, initial, f)
+1203	y0 == 0.0
+1204	y2 == 0.0
+1205	Math.abs(x - oldx) <= tolerance
+1206	Math.abs(y) <= functionValueAccuracy
+1207	bisect
+1208	MathUtils.sign(y0) + MathUtils.sign(ym) == 0.0
+1209	y0 == 0.0
+1210	y1 == 0.0
+1211	delta >= 0.0
+1212	denominator != 0
+1213	Math.abs(x - oldx) <= tolerance
+1214	Math.abs(y) <= functionValueAccuracy
+689	reflectedCost < originalCost
+690	reflectedCost <= expandedCost
+691	contractedCost < originalCost
+1129	Double.isNaN(resetTime)
+1130	store.getFinalState() != null
+1135	interpolator.currentState != null
+701	getN() < 1
+702	getN() < 2
+703	i > 0
+704	object == this
+705	object instanceof MultivariateSummaryStatistics == false
+706	n > 0
+707	dimension != k
+683	smallest <= costR
+683	costR < secondLargest
+684	costR < smallest
+685	costE < costR
+686	costR < largest
+687	costC <= costR
+688	costC < largest
+1186	Math.abs(x1 - x0) <= absoluteAccuracy
+309	sd <= 0.0
+310	x < (mean - 20 * standardDeviation)
+311	x > (mean + 20 * standardDeviation)
+312	p == 0
+313	p == 1
+314	p < .5
+315	p < .5
+316	p < .5
+317	p > .5
+865	i == j
+865	i < p
+866	isUpperTriangular(coefficients, 1E-12)
+867	constants.getColumnDimension() != 1
+868	Math.abs(m.getEntry(r, c)) > epsilon
+806	alpha > 0.5
+806	alpha <= 0
+807	categoryData.size() < 2
+808	array.length <= 1
+34	expectedSize == 0
+35	powerOfTwo == capacity
+36	containsKey(key, index)
+37	states[index] == FREE
+38	containsKey(key, index)
+39	containsKey(key, index)
+40	states[index] == FREE
+41	containsKey(key, index)
+42	states[index] == FREE
+43	states[index] == FULL
+43	keys[index] == key
+44	states[index] == FULL
+45	states[index] != FULL
+45	keys[index] == key
+46	states[index] == FREE
+47	states[index] == FULL
+48	states[index] == FREE
+49	states[index] == FULL
+49	keys[index] == key
+50	containsKey(key, index)
+51	states[index] == FREE
+52	containsKey(key, index)
+53	index < 0
+54	newMapping
+55	shouldGrowTable()
+56	oldStates[i] == FULL
+378	successes < 0
+379	p > 1.0
+379	p < 0.0
+380	x < 0
+381	x < 0
+382	p == 0
+383	p == 1
+793	p <= 0
+793	p > 100
+794	length == 0
+795	length == 1
+796	pos < 1
+797	pos >= n
+798	p <= 0
+798	p > 100
+305	p <= 0
+306	x < 0
+306	x == Integer.MAX_VALUE
+307	x < 0
+308	x == Integer.MAX_VALUE
+1293	c.length < 1
+1294	n < 1
+1295	n < 1
+1296	n == 1
+1284	coefficientsComputed
+1285	dist < min_dist
+1286	divider == 0.0
+1287	nearest < 0.5*(n-i+1)
+1288	i != j
+1289	d == 0.0
+1290	i != k
+1290	x[i] == x[k]
+1291	y.length < 2
+1291	x.length < 2
+1292	x.length != y.length
+1297	coefficientsComputed
+1298	a.length < 1
+1298	c.length < 1
+1299	a.length != c.length + 1
+1277	knots.length < 2
+1278	knots.length - 1 != polynomials.length
+1279	isStrictlyIncreasing(knots)
+1280	v > knots[n]
+1280	v < knots[0]
+1281	i < 0
+1282	i >= polynomials.length
+1283	x[i - 1] >= x[i]
+720	n == 0
+721	test(values, begin, length)
+235	whole != 0
+236	ret != null
+237	whole == null
+238	num == null
+239	num.intValue() < 0
+240	den == null
+241	den.intValue() < 0
+242	format == null
+553	a != 0.0
+554	cachedR == null
+555	cachedQ == null
+556	cachedQT == null
+557	qrtMinor[minor] != 0.0
+558	cachedH == null
+907	randomGenerator != null
+908	len <= 0
+909	hex.length() == 1
+910	lower >= upper
+911	lower >= upper
+912	len <= 0
+913	hex.length() == 1
+914	lower >= upper
+915	lower >= upper
+916	mean <= 0
+917	r >= p
+918	sigma <= 0
+919	mean < 0.0
+920	lower >= upper
+921	rand == null
+922	secRand == null
+923	rand == null
+924	secRand == null
+925	secRand == null
+926	rand == null
+927	k > n
+928	k == 0
+929	k > len
+930	k == 0
+931	i == 0
+514	copyArray
+515	d == null
+516	nRows == 0
+517	nCols == 0
+518	d[r].length != nCols
+519	data == null
+520	row > 0
+521	column > 0
+522	nRows == 0
+523	nCols == 0
+524	subMatrix[i].length != nCols
+525	v.length != nCols
+526	v.length != nRows
+544	i > 0
+545	obj instanceof RealVector
+546	parsePosition.getIndex() == 0
+547	parseFixedstring(source, trimmedPrefix, pos)
+548	components.isEmpty()
+549	parseFixedstring(source, trimmedSeparator, pos)
+550	loop
+551	component != null
+552	parseFixedstring(source, trimmedSuffix, pos)
+391	d == null
+392	d.length == 0
+393	d.length < pos + size
+394	d.length < pos + size
+395	norm == 0
+396	norm == 0
+397	data.length != n
+398	Double.isNaN(v)
+399	isNaN()
+400	Double.isInfinite(v)
+401	this == other
+402	other == null
+403	data.length != rhs.getDimension()
+404	rhs.isNaN()
+405	data[i] != rhs.getEntry(i)
+406	isNaN()
+407	index >= getDimension()
+407	index < 0
+8	(startIndex + numElements) > internalArray.length
+9	shouldContract()
+10	(startIndex + (numElements + 1)) > internalArray.length
+11	shouldContract()
+12	numElements < 1
+13	contractionCritera < expansionFactor
+14	contractionCriteria <= 1.0
+15	expansionFactor <= 1.0
+16	i > numElements
+17	i < 0
+18	front
+19	shouldContract()
+20	expansionMode == MULTIPLICATIVE_MODE
+21	index >= numElements
+22	index >= 0
+23	index < 0
+24	index + 1 > numElements
+25	(startIndex + index) >= internalArray.length
+26	expansionMode != MULTIPLICATIVE_MODE
+26	expansionMode != ADDITIVE_MODE
+27	initialCapacity > 0
+28	i < 0
+29	(startIndex + i) > internalArray.length
+30	expansionMode == MULTIPLICATIVE_MODE
+31	object == this
+32	object instanceof ResizableDoubleArray == false
+33	result
+1187	f.value(min) == 0.0
+1188	f.value(max) == 0.0
+1189	f.value(initial) == 0.0
+1190	isBracketing(min, initial, f)
+1191	y1 == 0.0
+1192	y2 == 0.0
+1193	Math.abs(y3) <= functionValueAccuracy
+1194	Math.abs(x - oldx) <= tolerance
+1195	Math.abs(y) <= functionValueAccuracy
+1196	correction > 0.0
+1197	MathUtils.sign(y1) + MathUtils.sign(y) == 0.0
+1198	MathUtils.sign(y2) + MathUtils.sign(y) == 0.0
+1312	i >= minimalIterationCount
+1313	delta <= rLimit
+1313	delta <= absoluteAccuracy
+1314	maximalIterationCount > 32
+133	needsNormalization
+134	norm == 0
+135	m[2].length != 3
+135	m.length != 3
+135	m[1].length != 3
+135	m[0].length != 3
+136	det < 0.0
+137	s > -0.19
+138	s > -0.19
+139	s > -0.19
+140	v2v2 == 0
+140	u1u1 == 0
+140	u2u2 == 0
+140	v1v1 == 0
+141	c == 0
+142	c == 0
+143	c == 0
+144	normProduct == 0
+145	dot < ((2.0e-15 - 1.0) * normProduct)
+146	squaredSine == 0
+147	q0 < 0
+148	q0 < -0.1
+148	q0 > 0.1
+149	q0 < 0
+150	order == RotationOrder.XYZ
+151	v2.getZ() > 0.9999999999
+151	v2.getZ() < -0.9999999999
+152	order == RotationOrder.XZY
+153	v2.getY() < -0.9999999999
+153	v2.getY() > 0.9999999999
+154	order == RotationOrder.YXZ
+155	v2.getZ() < -0.9999999999
+155	v2.getZ() > 0.9999999999
+156	order == RotationOrder.YZX
+157	v2.getX() < -0.9999999999
+157	v2.getX() > 0.9999999999
+158	order == RotationOrder.ZXY
+159	v2.getY() > 0.9999999999
+159	v2.getY() < -0.9999999999
+160	order == RotationOrder.ZYX
+161	v2.getX() > 0.9999999999
+161	v2.getX() < -0.9999999999
+162	order == RotationOrder.XYX
+163	v2.getX() < -0.9999999999
+163	v2.getX() > 0.9999999999
+164	order == RotationOrder.XZX
+165	v2.getX() > 0.9999999999
+165	v2.getX() < -0.9999999999
+166	order == RotationOrder.YXY
+167	v2.getY() < -0.9999999999
+167	v2.getY() > 0.9999999999
+168	order == RotationOrder.YZY
+169	v2.getY() > 0.9999999999
+169	v2.getY() < -0.9999999999
+170	order == RotationOrder.ZXZ
+171	v2.getZ() > 0.9999999999
+171	v2.getZ() < -0.9999999999
+172	v2.getZ() < -0.9999999999
+172	v2.getZ() > 0.9999999999
+173	Math.abs(fn1 - fn) <= threshold
+1131	y != y0
+1132	eventsHandlersManager.isEmpty()
+1132	requiresDenseOutput()
+1133	manager.evaluateStep(interpolator)
+1134	lastStep
+1134	manager.reset(stepStart, y)
+1014	interpolator.currentState != null
+1215	y0 * y1 >= 0
+1216	Math.abs(y2) < Math.abs(y1)
+1217	Math.abs(y1) <= functionValueAccuracy
+1218	Math.abs(oldDelta) < Math.max(relativeAccuracy * Math.abs(x1), absoluteAccuracy)
+1219	Math.abs(y1) > Math.abs(y0)
+1220	delta / oldDelta > 1
+1221	(y1 > 0) == (y2 > 0)
+746	n < 1
+943	p.isBound()
+875	n == 0
+876	n > 2
+877	n > 0
+878	n > 2
+879	n < 2
+880	Math.abs(sumXX) < 10 * Double.MIN_VALUE
+881	n < 2
+882	n < 3
+883	b1 < 0
+884	alpha <= 0
+884	alpha >= 1
+885	n > 2
+1300	minimalIterationCount == 1
+1301	i >= minimalIterationCount
+1302	delta <= absoluteAccuracy
+1302	delta <= rLimit
+1303	maximalIterationCount > 64
+468	cachedU == null
+469	m >= n
+470	cachedUt == null
+471	cachedS == null
+472	cachedV == null
+473	m >= n
+474	cachedVt == null
+475	singularValues[i] > threshold
+739	incMoment
+740	moment.n < 3
+741	variance < 10E-20
+742	incMoment
+743	test(values, begin, length)
+743	length > 2
+578	value == 0.0
+579	value == 0.0
+580	value == 0.0
+1177	x.length != y.length
+1178	x.length < 3
+1179	x[i] >= x[i + 1]
+862	n != sample2.length
+862	n < 1
+863	n < 2
+863	n != sample2.length
+804	object == this
+805	object instanceof StatisticalSummaryValues == false
+1011	lastState == null
+1012	forward
+1013	isLast
+716	n == 0
+717	test(values, begin, length)
+718	n > 0
+719	test(values, begin, length)
+714	n == 0
+715	test(values, begin, length)
+766	meanImpl instanceof Mean
+767	varianceImpl instanceof Variance
+768	geoMeanImpl instanceof GeometricMean
+769	mean == meanImpl
+770	getN() > 0
+771	getN() > 1
+772	varianceImpl == variance
+773	meanImpl != mean
+774	varianceImpl != variance
+775	object == this
+776	object instanceof SummaryStatistics == false
+777	n > 0
+778	source.getGeoMeanImpl() instanceof GeometricMean
+779	source.geoMean == source.geoMeanImpl
+780	source.max == source.maxImpl
+781	source.mean == source.meanImpl
+782	source.min == source.minImpl
+783	source.sum == source.sumImpl
+784	source.variance == source.varianceImpl
+785	source.sumLog == source.sumLogImpl
+786	source.sumsq == source.sumsqImpl
+292	degreesOfFreedom <= 0.0
+293	x == 0.0
+294	x < 0.0
+295	p == 0
+296	p == 1
+830	sample1 == null
+830	sample2 == null
+830	Math.min(sample1.length, sample2.length) < 2
+831	alpha <= 0
+831	alpha > 0.5
+832	observed.length < 2
+832	observed == null
+833	sampleStats.getN() < 2
+833	sampleStats == null
+834	Math.min(sample1.length, sample2.length) < 2
+834	sample2 == null
+834	sample1 == null
+835	sample2 == null
+835	Math.min(sample1.length, sample2.length) < 2
+835	sample1 == null
+836	sampleStats2 == null
+836	sampleStats1 == null
+836	Math.min(sampleStats1.getN(), sampleStats2.getN()) < 2
+837	sampleStats1 == null
+837	sampleStats2 == null
+837	Math.min(sampleStats1.getN(), sampleStats2.getN()) < 2
+838	sample == null
+838	sample.length < 2
+839	alpha > 0.5
+839	alpha <= 0
+840	sampleStats == null
+840	sampleStats.getN() < 2
+841	alpha <= 0
+841	alpha > 0.5
+842	sample1 == null
+842	Math.min(sample1.length, sample2.length) < 2
+842	sample2 == null
+843	Math.min(sample1.length, sample2.length) < 2
+843	sample2 == null
+843	sample1 == null
+844	alpha <= 0
+844	alpha > 0.5
+845	alpha <= 0
+845	alpha > 0.5
+846	sampleStats2 == null
+846	Math.min(sampleStats1.getN(), sampleStats2.getN()) < 2
+846	sampleStats1 == null
+847	Math.min(sampleStats1.getN(), sampleStats2.getN()) < 2
+847	sampleStats1 == null
+847	sampleStats2 == null
+848	alpha > 0.5
+848	alpha <= 0
+755	n < 1
+6	o instanceof String
+6	o instanceof Number
+7	trans != null
+1308	n == 0
+1309	i >= minimalIterationCount
+1310	delta <= absoluteAccuracy
+1310	delta <= rLimit
+1311	maximalIterationCount > 64
+408	matrix.isSquare()
+409	cachedQ == null
+410	cachedQt == null
+411	hK[k] != 0.0
+412	cachedT == null
+413	i > 0
+414	i < main.length - 1
+415	a != 0.0
+932	mean.length != standardDeviation.length
+1304	f == null
+1305	resultComputed
+1306	lower >= upper
+1307	minimalIterationCount <= 0
+1307	maximalIterationCount <= minimalIterationCount
+1276	resultComputed
+1181	f == null
+1182	resultComputed
+1183	lower >= upper
+1184	isSequence(lower, initial, upper)
+1185	isBracketing(lower, upper, f)
+1222	function == null
+1223	maximumIterations <= 0
+1224	initial < lowerBound
+1224	initial > upperBound
+1224	lowerBound >= upperBound
+1225	fa * fb >= 0.0
+1226	f == null
+1227	factory == null
+933	filePointer != null
+934	filePointer != null
+935	empiricalDistribution.getBinStats().size() == 0
+935	empiricalDistribution == null
+936	filePointer == null
+937	(str = filePointer.readLine()) == null
+938	(str = filePointer.readLine()) == null
+722	incMoment
+723	moment.n == 0
+724	moment.n == 1
+725	isBiasCorrected
+726	incMoment
+727	values == null
+728	test(values, begin, length)
+729	length == 1
+730	length > 1
+731	test(values, begin, length)
+732	length == 1
+733	length > 1
+734	isBiasCorrected
+174	s == 0
+175	threshold == 0
+176	x >= -threshold
+176	x <= threshold
+177	y <= threshold
+177	y >= -threshold
+178	normProduct == 0
+179	dot > threshold
+179	dot < -threshold
+180	dot >= 0
+181	this == other
+182	other == null
+183	rhs.isNaN()
+184	isNaN()
+124	obj instanceof Vector3D
+125	parsePosition.getIndex() == 0
+126	parseFixedstring(source, trimmedPrefix, pos)
+127	x == null
+128	parseFixedstring(source, trimmedSeparator, pos)
+129	y == null
+130	parseFixedstring(source, trimmedSeparator, pos)
+131	z == null
+132	parseFixedstring(source, trimmedSuffix, pos)
+744	v.length != sums.length
+745	n > 1
+756	v.length != means.length
+328	x <= 0.0
+329	p < 0.0
+329	p > 1.0
+330	p == 0
+331	p == 1
+332	alpha <= 0.0
+333	beta <= 0.0
+334	n <= 0
+335	s <= 0.0
+336	x <= 0
+336	x > getNumberOfElements()
+337	x <= 0
+338	x >= getNumberOfElements()

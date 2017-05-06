@@ -1,0 +1,7546 @@
+id	oracle
+54	target == null
+55	actor == null
+56	pool != null
+57	dotIndex != -1
+58	name.endsWith("Action")
+169	actions.size > 0
+170	stage != null
+170	stage.getActionsRequestRendering()
+171	i < actions.size
+171	action.act(delta)
+172	actionIndex != -1
+173	event.getStage() == null
+174	event.isStopped()
+175	event.isStopped()
+176	event.getBubbles()
+177	event.isStopped()
+178	event.isStopped()
+179	event.getTarget() == null
+180	listeners.size == 0
+181	event.getStage() == null
+182	listener.handle(event)
+183	event instanceof InputEvent
+184	inputEvent.getType() == Type.touchDown
+185	touchable
+185	this.touchable != Touchable.enabled
+186	parent != null
+187	listener == null
+188	listeners.contains(listener, true)
+189	listener == null
+190	listener == null
+191	captureListeners.contains(listener, true)
+192	listener == null
+193	stage.getActionsRequestRendering()
+193	stage != null
+194	actions.removeValue(action, true)
+195	actor == null
+196	parent == null
+197	parent == actor
+198	actor == null
+199	actor == null
+200	actor == this
+201	type == null
+202	ClassReflection.isInstance(type, actor)
+203	(alignment & right) != 0
+204	(alignment & left) == 0
+205	this.x != x
+206	this.y != y
+207	(alignment & top) != 0
+208	(alignment & bottom) == 0
+209	this.x != x
+209	this.y != y
+210	(alignment & right) != 0
+211	(alignment & left) == 0
+212	(alignment & top) != 0
+213	(alignment & bottom) == 0
+214	this.y != y
+214	this.x != x
+215	x != 0
+215	y != 0
+216	this.width != width
+217	this.height != height
+218	this.width != width
+218	this.height != height
+219	size != 0
+220	height != 0
+220	width != 0
+221	this.y != y
+221	this.x != x
+222	this.height != height
+222	this.width != width
+223	(alignment & left) != 0
+224	(alignment & right) != 0
+225	(alignment & bottom) != 0
+226	(alignment & top) != 0
+227	this.rotation != degrees
+228	amountInDegrees != 0
+229	index < 0
+230	parent == null
+231	children.size == 1
+232	children.get(index) == this
+233	children.removeValue(this, true)
+234	parent == null
+235	width <= 0
+235	height <= 0
+236	ScissorStack.pushScissors(scissorBounds)
+237	stage == null
+238	parent != null
+239	rotation == 0
+240	scaleY == 1
+240	scaleX == 1
+241	actor == ascendant
+242	rotation == 0
+243	scaleX == 1
+243	scaleY == 1
+244	debug
+245	enabled
+246	name == null
+247	dotIndex != -1
+1382	e instanceof InputEvent
+1383	event.isTouchFocusCancel()
+1286	action != null
+1269	capture
+3912	degrees == 0
+3913	radians == 0
+3914	det == 0
+3915	degrees == 0
+3916	radians == 0
+3917	degrees == 0
+3918	radians == 0
+1250	target != null
+1251	currentActions.size == 1
+1252	index == -1
+1253	waitForActions.size > 0
+1284	color == null
+2567	copyFrom.length != (6 * 3)
+2568	d == 0f
+3590	currentTime <= animationInterval
+3591	intervals.length == animationIntervals.length
+3592	properties == null
+1798	playMode == PlayMode.REVERSED
+1798	looping
+1798	playMode == PlayMode.NORMAL
+1799	playMode == PlayMode.NORMAL
+1800	playMode == PlayMode.REVERSED
+1800	playMode == PlayMode.NORMAL
+1800	looping
+1801	playMode == PlayMode.LOOP_REVERSED
+1802	keyFrames.length == 1
+1803	frameNumber >= keyFrames.length
+1804	lastFrameNumber != frameNumber
+3196	anim == null
+3197	id == null
+3198	anim == null
+3199	paused
+3200	(transitionCurrentTime += delta) >= transitionTargetTime
+3200	previous != null
+3201	justChangedAnimation
+3202	current.loopCount == 0
+3202	current == null
+3202	current.animation == null
+3203	queued != null
+3203	remain != 0f
+3204	previous != null
+3205	current == null
+3206	current.animation == anim.animation
+3206	anim != null
+3206	allowSameAnimation
+3207	current == null
+3208	inAction
+3209	anim != null
+3209	current.animation == anim.animation
+3209	allowSameAnimation
+3210	previous != null
+3211	current.loopCount == 0
+3211	current == null
+3212	queued != null
+3213	current.loopCount < 0
+3214	anim.loopCount < 0
+3215	current.loopCount == 0
+3215	current == null
+3216	toQueue != null
+5642	annotation.annotationType().equals(annotationType)
+6403	size == items.length
+6404	start + count > array.size
+6405	sizeNeeded > items.length
+6406	index >= size
+6407	index >= size
+6408	index > size
+6409	size == items.length
+6410	ordered
+6411	first >= size
+6412	second >= size
+6413	identity
+6413	value == null
+6414	items[i--] == value
+6415	value.equals(items[i--])
+6416	identity
+6416	value == null
+6417	items[i] == value
+6418	value.equals(items[i])
+6419	identity
+6419	value == null
+6420	items[i] == value
+6421	value.equals(items[i])
+6422	identity
+6422	value == null
+6423	items[i] == value
+6424	value.equals(items[i])
+6425	index >= size
+6426	ordered
+6427	end >= size
+6428	start > end
+6429	ordered
+6430	identity
+6431	item == items[ii]
+6432	item.equals(items[ii])
+6433	size == 0
+6434	size == 0
+6435	size == 0
+6436	items.length != size
+6437	sizeNeeded > items.length
+6438	newSize > items.length
+6439	kthLowest < 1
+6440	kthLowest < 1
+6441	iterable == null
+6442	predicateIterable == null
+6443	size <= newSize
+6444	size == 0
+6445	ordered
+6446	item != null
+6447	object == this
+6448	ordered
+6449	object instanceof Array
+6450	array.ordered
+6451	n != array.size
+6452	o1 == null ? o2 == null : o1.equals(o2)
+6453	size == 0
+6454	size == 0
+5582	index == -1
+5583	size == keys.length
+5584	existingIndex != -1
+5585	size == keys.length
+5586	offset + length > map.size
+5587	sizeNeeded >= keys.length
+5588	key == null
+5589	keys[i] == key
+5590	key.equals(keys[i])
+5591	value == null
+5591	identity
+5592	values[i] == value
+5593	value.equals(values[i])
+5594	index >= size
+5595	index >= size
+5596	size == 0
+5597	size == 0
+5598	index >= size
+5599	index >= size
+5600	index > size
+5601	size == keys.length
+5602	ordered
+5603	key == null
+5604	keys[i--] == key
+5605	key.equals(keys[i--])
+5606	identity
+5606	value == null
+5607	values[i--] == value
+5608	value.equals(values[i--])
+5609	key == null
+5610	keys[i] == key
+5611	key.equals(keys[i])
+5612	identity
+5612	value == null
+5613	values[i] == value
+5614	value.equals(values[i])
+5615	key == null
+5616	keys[i] == key
+5617	key.equals(keys[i])
+5618	value == null
+5618	identity
+5619	values[i] == value
+5620	value.equals(values[i])
+5621	index >= size
+5622	ordered
+5623	keys.length <= maximumCapacity
+5624	keys.length == size
+5625	sizeNeeded >= keys.length
+5626	size <= newSize
+5627	key != null
+5628	value != null
+5629	obj == this
+5630	obj instanceof ArrayMap
+5631	other.size != size
+5632	value == null
+5633	other.get(key) != null
+5633	other.containsKey(key)
+5634	value.equals(other.get(key))
+5635	size == 0
+5636	entries1 == null
+5637	entries1.valid
+5638	valuesIter1 == null
+5639	valuesIter1.valid
+5640	keysIter1 == null
+5641	keysIter1.valid
+1319	item == null
+1320	isDisabled
+1321	UIUtils.shift()
+1321	rangeSelect
+1321	selected.size > 0
+1321	multiple
+1322	start > end
+1323	UIUtils.ctrl()
+1324	fireChangeEvent()
+1325	array.size == 0
+1326	array.contains(selected, false)
+1327	selected.size == 0
+1327	required
+3270	forward.isZero()
+1559	dependenciesLoaded == false
+1560	dependencies != null
+1561	loader instanceof SynchronousAssetLoader
+1562	dependenciesLoaded
+1563	dependencies == null
+1564	dependenciesLoaded
+1565	depsFuture == null
+1566	depsFuture.isDone()
+1567	asyncDone
+1568	loadFuture == null
+1568	asyncDone
+1569	asyncDone
+1570	loadFuture.isDone()
+1571	assetDesc.file == null
+1572	type == array.get(j).type
+1572	fn.equals(array.get(j).fileName)
+1448	defaultLoaders
+1449	type == null
+1450	assetsByType == null
+1451	assetContainer == null
+1452	asset == null
+1453	assetsByType == null
+1454	assetContainer == null
+1455	asset == null
+1456	assetsByType != null
+1457	tasks.size() > 0
+1458	currAsset.assetDesc.fileName.equals(fileName)
+1459	loadQueue.get(i).fileName.equals(fileName)
+1460	foundIndex != -1
+1461	type == null
+1462	assetRef.getRefCount() <= 0
+1463	assetRef.getObject(Object.class) instanceof Disposable
+1464	dependencies != null
+1465	isLoaded(dependency)
+1466	assetRef.getRefCount() <= 0
+1467	typedAssets == null
+1468	otherAsset == asset
+1468	asset.equals(otherAsset)
+1469	asset.equals(otherAsset)
+1469	otherAsset == asset
+1470	fileName == null
+1471	assetsByType == null
+1472	assetContainer == null
+1473	loaders.size < 1
+1473	loaders == null
+1474	fileName == null
+1475	entry.key.length() > l
+1475	fileName.endsWith(entry.key)
+1476	loader == null
+1477	loadQueue.size == 0
+1478	desc.type.equals(type)
+1478	desc.fileName.equals(fileName)
+1479	desc.type.equals(type)
+1479	desc.fileName.equals(fileName)
+1480	otherType.equals(type)
+1480	otherType != null
+1481	tasks.size() == 0
+1482	tasks.size() == 0
+1483	TimeUtils.millis() > endTime
+1483	done
+1484	injected.contains(desc.fileName)
+1485	dependencies == null
+1486	isLoaded(dependendAssetDesc.fileName)
+1487	isLoaded(assetDesc.fileName)
+1488	assetDesc.params.loadedCallback != null
+1488	assetDesc.params != null
+1489	loader == null
+1490	typeToAssets == null
+1491	complete
+1492	tasks.size() == 1
+1493	task.cancel
+1494	task.assetDesc.params.loadedCallback != null
+1494	task.assetDesc.params != null
+1495	dependencies == null
+1496	tasks.isEmpty()
+1497	task.dependencies != null
+1497	task.dependenciesLoaded
+1498	listener != null
+1499	type == null
+1500	loader == null
+1501	loaders == null
+1502	toLoad == 0
+1503	peakTasks > 0
+1504	dependencies == null
+1505	dependencyCount.get(asset, 0) == 0
+1506	type == null
+1507	type == null
+1508	dependencies != null
+5857	executor.isShutdown()
+3503	properties != null
+3504	name.startsWith("atlas")
+3505	parameter != null
+3506	atlasFile == null
+3507	e != null
+3508	name.equals("atlas")
+3509	value == null
+3510	value == null
+3510	value.length() == 0
+3511	parameter != null
+3512	parameter != null
+3513	mapOrientation != null
+3514	mapBackgroundColor != null
+3515	mapOrientation != null
+3516	"staggered".equals(mapOrientation)
+3517	mapHeight > 1
+3518	elementName.equals("properties")
+3519	elementName.equals("tileset")
+3520	elementName.equals("layer")
+3521	elementName.equals("objectgroup")
+3522	element.getName().equals("tileset")
+3523	source != null
+3524	offset != null
+3525	imageElement != null
+3526	offset != null
+3527	imageElement != null
+3528	atlasFilePath == null
+3529	atlasFile.exists()
+3530	atlasFilePath == null
+3531	imageSource != null
+3531	imageSource.length() > 0
+3532	region != null
+3533	tileid >= firstgid
+3533	tileid <= lastgid
+3534	tile == null
+3535	imageElement != null
+3536	region == null
+3537	tile != null
+3538	terrain != null
+3539	probability != null
+3540	properties != null
+3541	tile != null
+3542	animationElement != null
+3543	terrain != null
+3544	probability != null
+3545	properties != null
+3546	properties != null
+4093	next == read
+4094	read == write
+2579	types.get(i).compareTo(alias) == 0
+2580	result > 0
+2581	obj == null
+2582	obj == this
+2583	obj instanceof Attribute
+2584	this.type != other.type
+2544	sorted
+2545	has(type)
+2546	attributes.get(i).type == type
+2547	(attributes.get(i).type & type) != 0
+2548	idx < 0
+2549	(mask & type) == type
+2550	has(type)
+2551	attributes.get(i).type == type
+2552	other == this
+2553	other == null
+2553	mask != other.mask
+2554	compareValues
+2555	attributes.get(i).equals(other.attributes.get(i))
+2556	other instanceof Attributes
+2557	other == this
+2558	other == this
+2559	mask != other.mask
+2560	c != 0
+3947	i > 0
+3947	continuous
+3948	i < (n - 1)
+3948	continuous
+3949	continuous
+3949	i < (n - 2)
+3950	continuous
+3950	i > 0
+3951	continuous
+3951	i < (n - 1)
+3952	i < (n - 2)
+3952	continuous
+3953	tmp == null
+3954	tmp2 == null
+3955	tmp3 == null
+3956	knots == null
+3957	d < dst
+3958	dstNext2 < dstPrev2
+3959	i > 0
+6175	index < 4
+6176	index < 10
+6177	len < kNumLenToPosStates
+6082	blockLen <= 0
+6083	c != '\r'
+6083	c != ' '
+6083	c != '\t'
+6083	c != '\n'
+6084	iLen % 4 != 0
+6085	i1 > 127
+6085	i3 > 127
+6085	i0 > 127
+6085	i2 > 127
+6086	b0 < 0
+6086	b2 < 0
+6086	b3 < 0
+6086	b1 < 0
+6087	op < oLen
+6088	op < oLen
+3279	applying
+3280	applying
+3281	applying
+3282	applying
+3283	weight == 0.f
+3283	anim2 == null
+3284	anim1 == null
+3284	weight == 1.f
+3285	applying
+3286	time <= arr.get(i + 1).keytime
+3286	time >= arr.get(i).keytime
+3287	nodeAnim.translation == null
+3288	nodeAnim.translation.size == 1
+3289	++index < nodeAnim.translation.size
+3290	nodeAnim.rotation == null
+3291	nodeAnim.rotation.size == 1
+3292	++index < nodeAnim.rotation.size
+3293	nodeAnim.scaling == null
+3294	nodeAnim.scaling.size == 1
+3295	++index < nodeAnim.scaling.size
+3296	t != null
+3297	alpha > 0.999999f
+3298	alpha > 0.999999f
+3299	out == null
+3300	e.key.isAnimated
+1317	drawable instanceof BaseDrawable
+1318	name == null
+3092	locations != null
+3093	existing >= 0
+3094	uniforms.get(i).equals(alias)
+3095	locations != null
+3096	program.isCompiled()
+3097	validator != null
+3097	validator.validate(this, i, renderable)
+3098	setter != null
+3098	locations[i] >= 0
+3099	setter.isGlobal(this, i)
+3100	locations[i] < 0
+3101	renderable != null
+3102	location >= 0
+3103	setters.get(u = globalUniforms.get(i)) != null
+3104	renderable.worldTransform.det3x3() == 0
+3105	renderable.environment != null
+3106	renderable.material != null
+3107	setters.get(u = localUniforms.get(i)) != null
+3108	currentMesh != renderable.meshPart.mesh
+3109	currentMesh != null
+3110	currentMesh != null
+3111	locations[uniform] < 0
+3112	locations[uniform] < 0
+3113	locations[uniform] < 0
+3114	locations[uniform] < 0
+3115	locations[uniform] < 0
+3116	locations[uniform] < 0
+3117	locations[uniform] < 0
+3118	locations[uniform] < 0
+3119	locations[uniform] < 0
+3120	locations[uniform] < 0
+3121	locations[uniform] < 0
+3122	locations[uniform] < 0
+3123	locations[uniform] < 0
+3124	locations[uniform] < 0
+3125	locations[uniform] < 0
+3217	suggestedShader.canRender(renderable)
+3217	suggestedShader != null
+3218	shader.canRender(renderable)
+3547	element.getName().equals("layer")
+3548	tile != null
+3549	properties != null
+3550	element.getName().equals("objectgroup")
+3551	properties != null
+3552	element.getName().equals("imagelayer")
+3553	flipY
+3554	image != null
+3555	properties != null
+3556	element.getName().equals("object")
+3557	element.getChildCount() > 0
+3558	(child = element.getChildByName("polygon")) != null
+3559	(child = element.getChildByName("polyline")) != null
+3560	(child = element.getChildByName("ellipse")) != null
+3561	object == null
+3562	(gid = element.getAttribute("gid", null)) != null
+3563	rotation != null
+3564	type != null
+3565	id != 0
+3566	object instanceof TiledMapTileMapObject
+3567	properties != null
+3568	element == null
+3569	element.getName().equals("properties")
+3570	value == null
+3571	type == null
+3572	type.equals("int")
+3573	type.equals("float")
+3574	type.equals("bool")
+3575	flipDiagonally
+3576	flipHorizontally
+3576	flipVertically
+3577	flipHorizontally
+3578	flipVertically
+3579	encoding == null
+3580	encoding.equals("csv")
+3581	encoding.equals("base64")
+3582	compression == null
+3583	compression.equals("gzip")
+3584	compression.equals("zlib")
+3585	curr == -1
+3586	read != temp.length
+3587	token.equals("..")
+3461	layer.isVisible()
+3462	layer instanceof TiledMapTileLayer
+3463	layer instanceof TiledMapImageLayer
+3464	layer.isVisible()
+3465	layer instanceof TiledMapTileLayer
+3466	layer instanceof TiledMapImageLayer
+3467	region == null
+3468	viewBounds.overlaps(imageBounds)
+3468	viewBounds.contains(imageBounds)
+3469	ownsBatch
+3899	length < 2
+3899	length > 4
+3900	tmp == null
+3901	tmp2 == null
+3902	tmp3 == null
+3903	length < 2
+3903	length > 4
+3904	tmp == null
+3905	n == 2
+3906	n == 3
+3907	n == 4
+3908	n == 2
+3909	n == 3
+3910	n == 4
+3911	i > 0
+2611	this.blendingAttribute == null
+2612	this.depthTestAttribute == null
+2613	free < meshCount
+2614	useGPU
+2615	mode != this.mode
+2616	useGPU
+2617	this.useGPU != useGPU
+2618	cosRotation != 1
+2619	cosRotation != 1
+2620	useGPU
+2621	mode == AlignMode.Screen
+2622	mode == AlignMode.ViewPoint
+2623	data != null
+6294	HASH_ARRAY
+6295	++_cyclicBufferPos >= _cyclicBufferSize
+6296	_pos == kMaxValForNormalize
+6297	historySize > kMaxValForNormalize - 256
+6298	_cyclicBufferSize != cyclicBufferSize
+6299	HASH_ARRAY
+6300	hs > (1 << 24)
+6301	hs != _hashSizeSum
+6302	_pos + _matchMaxLen <= _streamPos
+6303	lenLimit < kMinMatchCheck
+6304	HASH_ARRAY
+6305	HASH_ARRAY
+6306	curMatch2 > matchMinPos
+6307	_bufferBase[_bufferOffset + curMatch2] == _bufferBase[cur]
+6308	curMatch3 > matchMinPos
+6309	_bufferBase[_bufferOffset + curMatch3] == _bufferBase[cur]
+6310	curMatch3 == curMatch2
+6311	offset != 0
+6311	curMatch2 == curMatch
+6312	kNumHashDirectBytes != 0
+6313	curMatch > matchMinPos
+6314	_bufferBase[_bufferOffset + curMatch + kNumHashDirectBytes] != _bufferBase[cur + kNumHashDirectBytes]
+6315	count-- == 0
+6315	curMatch <= matchMinPos
+6316	_bufferBase[pby1 + len] == _bufferBase[cur + len]
+6317	_bufferBase[pby1 + len] != _bufferBase[cur + len]
+6318	maxLen < len
+6319	len == lenLimit
+6320	(_bufferBase[pby1 + len] & 0xFF) < (_bufferBase[cur + len] & 0xFF)
+6321	_pos + _matchMaxLen <= _streamPos
+6322	lenLimit < kMinMatchCheck
+6323	HASH_ARRAY
+6324	count-- == 0
+6324	curMatch <= matchMinPos
+6325	_bufferBase[pby1 + len] == _bufferBase[cur + len]
+6326	_bufferBase[pby1 + len] != _bufferBase[cur + len]
+6327	len == lenLimit
+6328	(_bufferBase[pby1 + len] & 0xFF) < (_bufferBase[cur + len] & 0xFF)
+6329	value <= subValue
+6382	size == nodes.length
+6383	size == 0
+6384	size > 0
+6384	index < size
+6385	value < oldValue ^ isMaxHeap
+6386	value < parent.value ^ isMaxHeap
+6387	leftIndex >= size
+6388	rightIndex >= size
+6389	leftValue < rightValue ^ isMaxHeap
+6390	leftValue > value ^ isMaxHeap
+6390	leftValue == value
+6391	rightValue == value
+6391	rightValue > value ^ isMaxHeap
+6392	obj instanceof BinaryHeap
+6393	other.size != size
+6394	other.nodes[i].value != nodes[i].value
+6395	size == 0
+1927	pageRegions.size == 0
+1927	pageRegions == null
+1928	data.fontFile == null
+1929	page == null
+1930	glyph != null
+1931	data.missingGlyph != null
+1932	ownsTexture
+1933	g != null
+1933	g.xadvance > maxAdvance
+1934	g == null
+1935	data.fontFile != null
+1936	text.charAt(start) == ch
+1805	pageCount == 0
+1806	pageCount > 1
+1807	xAmount == 0
+1807	yAmount == 0
+1808	integer
+1809	currentTint == newTint
+1810	c == prev
+1810	i != 2
+1811	pageVertices.length == 1
+1812	glyphIndex >= end
+1813	glyphIndex >= start
+1814	idx[j] > 0
+1815	pageVertices.length == 1
+1816	glyphIndex >= end
+1817	glyphIndex >= start
+1817	offset == -1
+1818	glyphIndex >= start
+1819	count == 0
+1819	offset == -1
+1820	alphaModulation == 1
+1821	pageGlyphIndices != null
+1822	pageVertices.length == 1
+1823	pageGlyphIndices != null
+1824	glyphCount > pageGlyphIndices[page].items.length
+1825	vertices == null
+1826	vertices.length < vertexCount
+1827	pageVertices.length < pageCount
+1828	pageGlyphIndices != null
+1829	integer
+1830	pageGlyphIndices != null
+1515	parameter != null
+1515	parameter.bitmapFontData != null
+1516	parameter != null
+1516	parameter.atlasName != null
+1517	parameter != null
+1518	parameter != null
+1518	parameter.atlasName != null
+1519	region == null
+6054	word >= bits.length
+6055	word >= bits.length
+6056	len >= bits.length
+6057	word >= bits.length
+6058	bitsAtWord != 0
+6059	(bitsAtWord & (1L << (bit & 0x3F))) != 0L
+6060	bits[i] != 0L
+6061	word >= bitsLength
+6062	bitsAtWord != 0
+6063	(bitsAtWord & (1L << (i & 0x3F))) != 0L
+6064	word != 0
+6065	bitsAtWord != 0
+6066	(bitsAtWord & (1L << (i & 0x3F))) != 0L
+6067	word >= bitsLength
+6068	(bitsAtWord & (1L << (i & 0x3F))) == 0L
+6069	word == 0
+6070	(bitsAtWord & (1L << (i & 0x3F))) == 0L
+6071	bits.length > commonWords
+6072	commonWords < other.bits.length
+6073	commonWords < other.bits.length
+6074	(bits[i] & otherBits[i]) != 0
+6075	otherBits[i] != 0
+6076	(bits[i] & otherBits[i]) != otherBits[i]
+6077	this == obj
+6078	obj == null
+6079	getClass() != obj.getClass()
+6080	bits[i] != otherBits[i]
+6081	bits.length == otherBits.length
+2945	type != o.type
+2946	blended != other.blended
+2947	sourceFunction != other.sourceFunction
+2948	destFunction != other.destFunction
+6351	size == items.length
+6352	offset + length > array.size
+6353	sizeNeeded > items.length
+6354	index >= size
+6355	index >= size
+6356	index > size
+6357	size == items.length
+6358	ordered
+6359	first >= size
+6360	second >= size
+6361	index >= size
+6362	ordered
+6363	end >= size
+6364	start > end
+6365	ordered
+6366	item == items[ii]
+6367	size == 0
+6368	items.length != size
+6369	sizeNeeded > items.length
+6370	newSize > items.length
+6371	size > newSize
+6372	size == 0
+6373	ordered
+6374	object == this
+6375	ordered
+6376	object instanceof BooleanArray
+6377	array.ordered
+6378	n != array.size
+6379	items1[i] != items2[i]
+6380	size == 0
+6381	size == 0
+4008	isValid()
+3276	primitiveType == GL20.GL_LINES
+3277	primitiveType == GL20.GL_POINTS
+3278	(builder.getAttributes().getMask() & (Usage.Normal | Usage.BiNormal | Usage.Tangent | Usage.TextureCoordinates)) == 0
+3631	w < 0
+3632	w > 0
+3633	h < 0
+3634	h > 0
+3635	longest <= shortest
+3636	h < 0
+3637	h > 0
+3638	numerator > longest
+6095	dst instanceof ByteBuffer
+6096	dst instanceof FloatBuffer
+6097	dst instanceof ByteBuffer
+6098	dst instanceof ShortBuffer
+6099	dst instanceof CharBuffer
+6100	dst instanceof IntBuffer
+6101	dst instanceof LongBuffer
+6102	dst instanceof FloatBuffer
+6103	dst instanceof DoubleBuffer
+6104	dst instanceof ByteBuffer
+6105	dst instanceof ShortBuffer
+6106	dst instanceof CharBuffer
+6107	dst instanceof IntBuffer
+6108	dst instanceof LongBuffer
+6109	dst instanceof FloatBuffer
+6110	dst instanceof DoubleBuffer
+6111	dst instanceof ByteBuffer
+6112	dst instanceof ShortBuffer
+6113	dst instanceof CharBuffer
+6114	dst instanceof IntBuffer
+6115	dst instanceof LongBuffer
+6116	dst instanceof FloatBuffer
+6117	dst instanceof DoubleBuffer
+6118	unsafeBuffers.removeValue(buffer, true)
+2629	data.controller.particles.size > 0
+2630	bufferedParticlesCount > 0
+2631	currentCapacity >= capacity
+1223	this.isChecked == isChecked
+1224	buttonGroup != null
+1224	buttonGroup.canCheck(this, isChecked)
+1225	fireEvent
+1226	fire(changeEvent)
+1227	style == null
+1228	isDisabled()
+1228	isPressed()
+1229	isDisabled()
+1229	style.disabled != null
+1230	style.checked != null
+1230	isChecked
+1231	style.over != null
+1231	isOver()
+1232	style.disabled != null
+1232	isDisabled
+1233	style.down != null
+1233	isPressed
+1234	isChecked
+1234	style.checked != null
+1235	isOver
+1235	style.over != null
+1236	style.up != null
+1237	isDisabled
+1237	isPressed
+1238	isChecked
+1238	isDisabled
+1239	stage.getActionsRequestRendering()
+1239	isPressed != clickListener.isPressed()
+1239	stage != null
+1240	style.up != null
+1241	style.down != null
+1242	style.checked != null
+1243	style.up != null
+1244	style.down != null
+1245	style.checked != null
+420	button == null
+421	buttons == null
+422	button == null
+423	buttons == null
+424	text == null
+425	button instanceof TextButton
+425	text.contentEquals(((TextButton)button).getText())
+426	button.isChecked == newState
+427	newState
+428	checkedButtons.size <= minCheckCount
+429	maxCheckCount != -1
+429	checkedButtons.size >= maxCheckCount
+430	uncheckLast
+431	checkedButtons.size > 0
+432	checkedButtons.size > 0
+433	maxCheckCount == 0
+4969	size == items.length
+4970	offset + length > array.size
+4971	sizeNeeded > items.length
+4972	index >= size
+4973	index >= size
+4974	index >= size
+4975	index >= size
+4976	index > size
+4977	size == items.length
+4978	ordered
+4979	first >= size
+4980	second >= size
+4981	items[i--] == value
+4982	items[i] == value
+4983	items[i] == value
+4984	items[i] == value
+4985	index >= size
+4986	ordered
+4987	end >= size
+4988	start > end
+4989	ordered
+4990	item == items[ii]
+4991	size == 0
+4992	items.length != size
+4993	sizeNeeded > items.length
+4994	newSize > items.length
+4995	size > newSize
+4996	size == 0
+4997	ordered
+4998	object == this
+4999	ordered
+5000	object instanceof ByteArray
+5001	array.ordered
+5002	n != array.size
+5003	items1[i] != items2[i]
+5004	size == 0
+5005	size == 0
+2194	tmpVec.isZero()
+2195	Math.abs(dot - 1) < 0.000000001f
+2196	Math.abs(dot + 1) < 0.000000001f
+2606	group == GROUP_BLEND
+2607	materialGroup == null
+2608	group == GROUP_BLEND
+2609	shader.isCompiled() == false
+2610	shader != null
+3134	forwardPressed
+3134	rotateLeftPressed
+3134	backwardPressed
+3134	rotateRightPressed
+3135	rotateRightPressed
+3136	rotateLeftPressed
+3137	forwardPressed
+3138	forwardTarget
+3139	backwardPressed
+3140	forwardTarget
+3141	autoUpdate
+3142	multiTouch
+3143	activateKey == 0
+3143	this.button < 0
+3143	activatePressed
+3144	button == this.button
+3145	button == rotateButton
+3146	button == translateButton
+3147	translateTarget
+3148	button == forwardButton
+3149	forwardTarget
+3150	autoUpdate
+3151	this.button < 0
+3151	result
+3152	alwaysScroll
+3152	activateKey != 0
+3152	activatePressed
+3153	scrollTarget
+3154	autoUpdate
+3155	keycode == activateKey
+3156	keycode == forwardKey
+3157	keycode == backwardKey
+3158	keycode == rotateRightKey
+3159	keycode == rotateLeftKey
+3160	keycode == activateKey
+3161	keycode == forwardKey
+3162	keycode == backwardKey
+3163	keycode == rotateRightKey
+3164	keycode == rotateLeftKey
+3275	height < 2f * radius
+3606	continuous
+3606	i > 0
+3607	continuous
+3607	i < (n - 1)
+3608	continuous
+3608	i < (n - 2)
+3609	continuous
+3609	i > 0
+3610	continuous
+3610	i < (n - 1)
+3611	i < (n - 2)
+3611	continuous
+3612	tmp == null
+3613	tmp2 == null
+3614	tmp3 == null
+3615	d < dst
+3616	dstNext2 < dstPrev2
+3617	i>0
+335	actor != newActor
+336	actor != null
+337	newActor != null
+338	size == null
+339	width == null
+340	height == null
+341	width == null
+342	height == null
+343	size == null
+344	width == null
+345	height == null
+346	minWidth == null
+347	minHeight == null
+348	size == null
+349	width == null
+350	height == null
+351	prefWidth == null
+352	prefHeight == null
+353	size == null
+354	width == null
+355	height == null
+356	maxWidth == null
+357	maxHeight == null
+358	space == null
+359	top == null
+360	left == null
+361	bottom == null
+362	right == null
+363	spaceTop == null
+364	spaceLeft == null
+365	spaceBottom == null
+366	spaceRight == null
+367	space < 0
+368	top < 0
+369	left < 0
+370	bottom < 0
+371	right < 0
+372	spaceTop < 0
+373	spaceLeft < 0
+374	spaceBottom < 0
+375	spaceRight < 0
+376	pad == null
+377	top == null
+378	left == null
+379	bottom == null
+380	right == null
+381	padTop == null
+382	padLeft == null
+383	padBottom == null
+384	padRight == null
+385	align == null
+386	align == null
+387	align == null
+388	align == null
+389	defaults != null
+390	cell == null
+391	cell.minWidth != null
+392	cell.minHeight != null
+393	cell.prefWidth != null
+394	cell.prefHeight != null
+395	cell.maxWidth != null
+396	cell.maxHeight != null
+397	cell.spaceTop != null
+398	cell.spaceLeft != null
+399	cell.spaceBottom != null
+400	cell.spaceRight != null
+401	cell.padTop != null
+402	cell.padLeft != null
+403	cell.padBottom != null
+404	cell.padRight != null
+405	cell.fillX != null
+406	cell.fillY != null
+407	cell.align != null
+408	cell.expandX != null
+409	cell.expandY != null
+410	cell.colspan != null
+411	cell.uniformX != null
+412	cell.uniformY != null
+413	files != Gdx.files
+413	files == null
+1381	event instanceof ChangeEvent
+4775	size == items.length
+4776	offset + length > array.size
+4777	sizeNeeded > items.length
+4778	index >= size
+4779	index >= size
+4780	index >= size
+4781	index >= size
+4782	index > size
+4783	size == items.length
+4784	ordered
+4785	first >= size
+4786	second >= size
+4787	items[i--] == value
+4788	items[i] == value
+4789	items[i] == value
+4790	items[i] == value
+4791	index >= size
+4792	ordered
+4793	end >= size
+4794	start > end
+4795	ordered
+4796	item == items[ii]
+4797	size == 0
+4798	items.length != size
+4799	sizeNeeded > items.length
+4800	newSize > items.length
+4801	size > newSize
+4802	size == 0
+4803	ordered
+4804	object == this
+4805	ordered
+4806	object instanceof CharArray
+4807	array.ordered
+4808	n != array.size
+4809	items1[i] != items2[i]
+4810	size == 0
+4811	size == 0
+414	style instanceof CheckBoxStyle
+415	isDisabled()
+416	style.checkboxOnDisabled != null
+416	isChecked
+417	checkbox == null
+418	isChecked
+418	style.checkboxOn != null
+419	style.checkboxOver != null
+419	isOver()
+419	isDisabled()
+3618	radiusDiff < 0f
+3619	o == this
+3620	o.getClass() != this.getClass()
+3620	o == null
+5651	annotation != null
+5652	annotation.annotationType().equals(annotationType)
+1298	pressed
+1299	this.button != -1
+1299	button != this.button
+1299	pointer == 0
+1300	cancelled
+1300	pointer != pressedPointer
+1301	pointer == 0
+1301	pressed
+1301	button != -1
+1301	Gdx.input.isButtonPressed(button)
+1302	pressed
+1303	pointer == pressedPointer
+1304	cancelled
+1305	button != this.button
+1305	pointer == 0
+1305	this.button != -1
+1305	touchUpOver
+1306	touchUpOver
+1307	time - lastTapTime > tapCountInterval
+1308	cancelled
+1308	pointer == -1
+1309	pointer == -1
+1309	cancelled
+1310	pressedPointer == -1
+1311	hit.isDescendantOf(actor)
+1311	hit == null
+1312	touchDownY == -1
+1312	touchDownX == -1
+1313	pressed
+1314	visualPressedTime <= 0
+1315	visualPressedTime > TimeUtils.millis()
+2199	r < 0
+2200	r > 1
+2201	g < 0
+2202	g > 1
+2203	b < 0
+2204	b > 1
+2205	a < 0
+2206	a > 1
+2207	this == o
+2208	getClass() != o.getClass()
+2208	o == null
+1287	color == null
+2958	is(type)
+2959	color != null
+2960	type != o.type
+4287	nRemaining < 2
+4288	nRemaining < MIN_MERGE
+4289	runLen < minRun
+4290	DEBUG
+4291	DEBUG
+4292	nRemaining < 2
+4293	nRemaining < MIN_MERGE
+4294	runLen < minRun
+4295	DEBUG
+4296	DEBUG
+4297	DEBUG
+4298	start == lo
+4299	DEBUG
+4300	pivot.compareTo(a[mid]) < 0
+4301	DEBUG
+4302	DEBUG
+4303	runHi == hi
+4304	((Comparable)a[runHi++]).compareTo(a[lo]) < 0
+4305	DEBUG
+4306	n > 0
+4306	runLen[n - 1] <= runLen[n] + runLen[n + 1]
+4307	runLen[n - 1] < runLen[n + 1]
+4308	runLen[n] <= runLen[n + 1]
+4309	runLen[n - 1] < runLen[n + 1]
+4309	n > 0
+4310	DEBUG
+4311	DEBUG
+4312	DEBUG
+4313	DEBUG
+4314	DEBUG
+4315	i == stackSize - 3
+4316	DEBUG
+4317	len1 == 0
+4318	DEBUG
+4319	len2 == 0
+4320	len1 <= len2
+4321	DEBUG
+4322	key.compareTo(a[base + hint]) > 0
+4323	ofs <= 0
+4324	ofs > maxOfs
+4325	ofs <= 0
+4326	ofs > maxOfs
+4327	DEBUG
+4328	key.compareTo(a[base + m]) > 0
+4329	DEBUG
+4330	DEBUG
+4331	key.compareTo(a[base + hint]) < 0
+4332	ofs <= 0
+4333	ofs > maxOfs
+4334	ofs <= 0
+4335	ofs > maxOfs
+4336	DEBUG
+4337	key.compareTo(a[base + m]) < 0
+4338	DEBUG
+4339	DEBUG
+4340	--len2 == 0
+4341	len1 == 1
+4342	DEBUG
+4343	((Comparable)a[cursor2]).compareTo(tmp[cursor1]) < 0
+4344	--len2 == 0
+4345	--len1 == 1
+4346	DEBUG
+4347	count1 != 0
+4348	len1 <= 1
+4349	--len2 == 0
+4350	count2 != 0
+4351	len2 == 0
+4352	--len1 == 1
+4353	minGallop < 0
+4354	len1 == 1
+4355	DEBUG
+4356	len1 == 0
+4357	DEBUG
+4358	DEBUG
+4359	DEBUG
+4360	--len1 == 0
+4361	len2 == 1
+4362	DEBUG
+4363	((Comparable)tmp[cursor2]).compareTo(a[cursor1]) < 0
+4364	--len1 == 0
+4365	--len2 == 1
+4366	DEBUG
+4367	count1 != 0
+4368	len1 == 0
+4369	--len2 == 1
+4370	count2 != 0
+4371	len2 <= 1
+4372	--len1 == 0
+4373	minGallop < 0
+4374	len2 == 1
+4375	DEBUG
+4376	len2 == 0
+4377	DEBUG
+4378	DEBUG
+4379	tmp.length < minCapacity
+4380	newSize < 0
+4381	fromIndex > toIndex
+4382	fromIndex < 0
+4383	toIndex > arrayLen
+3252	i != 0
+3253	close
+986	isTransform()
+987	clip
+988	clipBegin(padLeft, padBottom, getWidth() - padLeft - padRight.get(this), getHeight() - padBottom - padTop.get(this))
+989	background == null
+990	this.background == background
+991	adjustPadding
+992	background == null
+993	actor == null
+994	fillX > 0
+995	width < minWidth
+996	width > maxWidth
+996	maxWidth > 0
+997	fillY > 0
+998	height < minHeight
+999	height > maxHeight
+999	maxHeight > 0
+1000	(align & Align.right) != 0
+1001	(align & Align.left) == 0
+1002	(align & Align.top) != 0
+1003	(align & Align.bottom) == 0
+1004	round
+1005	actor instanceof Layout
+1006	actor == this
+1007	actor == this.actor
+1008	this.actor != null
+1009	actor != null
+1010	actor == null
+1011	actor != this.actor
+1012	actor == null
+1013	actor != this.actor
+1014	size == null
+1015	width == null
+1016	height == null
+1017	width == null
+1018	height == null
+1019	size == null
+1020	width == null
+1021	height == null
+1022	minWidth == null
+1023	minHeight == null
+1024	size == null
+1025	width == null
+1026	height == null
+1027	prefWidth == null
+1028	prefHeight == null
+1029	size == null
+1030	width == null
+1031	height == null
+1032	maxWidth == null
+1033	maxHeight == null
+1034	pad == null
+1035	top == null
+1036	left == null
+1037	bottom == null
+1038	right == null
+1039	padTop == null
+1040	padLeft == null
+1041	padBottom == null
+1042	padRight == null
+1043	background != null
+1044	background != null
+1045	v > 0
+1046	v > 0
+1047	clip
+1048	getTouchable() == Touchable.disabled
+1048	touchable
+1049	x >= getWidth()
+1049	x < 0
+1049	y < 0
+1049	y >= getHeight()
+1050	isTransform()
+1051	clip
+1052	draw
+3968	sorted
+3969	sortedPoints == null
+3969	sortedPoints.length < count
+3970	sorted
+3971	sortedPoints.length < count
+3971	sortedPoints == null
+3972	sorted
+3973	upper <= lower
+3974	i - lower > upper - i
+3975	upper - i >= i - lower
+3976	down < up
+3977	upper <= lower
+3978	i - lower > upper - i
+3979	upper - i >= i - lower
+3980	yDown
+3981	down < up
+1578	adjustNeeded
+1579	virtualMatrix.det() == 0
+1579	haveIdentityRealMatrix
+1580	checkEqual(realMatrix, transform)
+1581	isDrawing()
+1582	haveIdentityRealMatrix
+1583	checkEqual(realMatrix, transform)
+1584	isDrawing()
+1585	haveIdentityRealMatrix
+1586	adjustNeeded
+1587	adjustNeeded
+1588	adjustNeeded
+1589	adjustNeeded
+1590	adjustNeeded
+1591	adjustNeeded
+1592	adjustNeeded
+1593	adjustNeeded
+1594	adjustNeeded
+1595	adjustNeeded
+1596	count % Sprite.SPRITE_SIZE != 0
+1597	adjustNeeded
+1598	adjustNeeded
+1599	drawing
+1600	texture != lastTexture
+1601	idx == vertices.length
+1602	scaleY != 1
+1602	scaleX != 1
+1603	rotation != 0
+1604	flipX
+1605	flipY
+1606	drawing
+1607	region.texture != lastTexture
+1608	idx == vertices.length
+1609	scaleX != 1
+1609	scaleY != 1
+1610	rotation != 0
+1611	clockwise
+1612	drawing
+1613	region.texture != lastTexture
+1614	idx == vertices.length
+1615	drawing
+1616	texture != lastTexture
+1617	count > 0
+1618	a == b
+2472	data.isPrepared()
+2473	isManaged()
+2474	glHandle == 0
+2475	data.isManaged()
+2476	managedCubemaps.get(Gdx.app) != null
+2477	managedCubemapArray == null
+2478	managedCubemapArray == null
+2479	assetManager == null
+2480	fileName == null
+2956	is(type)
+2957	type != o.type
+1549	parameter == null
+1549	parameter.cubemapData == null
+1550	parameter != null
+1551	fileName.contains(".zktx")
+1551	fileName.contains(".ktx")
+1552	info.data.isPrepared()
+1553	info == null
+1554	cubemap != null
+1555	parameter != null
+3648	probability < value.frequency
+3649	probability > value.frequency
+3650	value.value == obj
+3271	i != 0
+3272	close
+2632	edges
+2633	isRadiusXZero
+2633	isRadiusZZero
+2634	isRadiusXZero
+2635	isRadiusZZero
+4095	(b & 0x80) != 0
+4096	(b & 0x80) != 0
+4097	(b & 0x80) != 0
+4098	(b & 0x80) != 0
+4099	chars.length < charCount
+4100	b > 127
+4101	charIndex < charCount
+4102	++charIndex >= charCount
+5433	optimizePositive
+5434	value >>> 7 == 0
+5435	value >>> 14 == 0
+5436	value >>> 21 == 0
+5437	value >>> 28 == 0
+5438	value == null
+5439	charCount == 0
+5440	c > 127
+5441	charIndex < charCount
+5442	c <= 0x007F
+5443	c > 0x07FF
+2594	updated
+2595	transformationOffset != null
+2598	Gdx.gl30 != null
+2599	targetGroup == null
+2600	lastMaterial.equals(decal.getMaterial())
+2600	lastMaterial == null
+2601	idx > 0
+2602	idx == vertices.length
+2603	idx > 0
+2604	isOpaque()
+2605	o == null
+6157	dictionarySize < 0
+6158	m_DictionarySize != dictionarySize
+6159	lp > 4
+6159	lc > Base.kNumLitContextBitsMax
+6159	pb > Base.kNumPosStatesBitsMax
+6160	m_RangeDecoder.DecodeBit(m_IsMatchDecoders, (state << Base.kNumPosStatesBitsMax) + posState) == 0
+6161	Base.StateIsCharState(state)
+6162	m_RangeDecoder.DecodeBit(m_IsRepDecoders, state) == 1
+6163	m_RangeDecoder.DecodeBit(m_IsRepG0Decoders, state) == 0
+6164	m_RangeDecoder.DecodeBit(m_IsRep0LongDecoders, (state << Base.kNumPosStatesBitsMax) + posState) == 0
+6165	m_RangeDecoder.DecodeBit(m_IsRepG1Decoders, state) == 0
+6166	m_RangeDecoder.DecodeBit(m_IsRepG2Decoders, state) == 0
+6167	len == 0
+6168	posSlot >= Base.kStartPosModelIndex
+6169	posSlot < Base.kEndPosModelIndex
+6170	rep0 < 0
+6171	rep0 == -1
+6172	rep0 >= nowPos64
+6172	rep0 >= m_DictionarySizeCheck
+6173	properties.length < 5
+6174	SetLcLpPb(lc, lp, pb)
+6274	(Range & kTopMask) == 0
+6275	(Code ^ 0x80000000) < (newBound ^ 0x80000000)
+6276	(Range & kTopMask) == 0
+6277	(Range & kTopMask) == 0
+3228	center.isZero()
+3229	worldTransform.hasRotationOrScaling()
+3230	b1 != b2
+3027	defaultVertexShader == null
+3028	defaultFragmentShader == null
+3029	(implementedFlags & attributesMask) != attributesMask
+3029	config.ignoreUnimplemented
+3030	dirLightsSize < 0
+3031	pointLightsSize < 0
+3032	spotLightsSize < 0
+3033	renderable.environment != null
+3034	renderable.material != null
+3035	renderable.environment != null
+3036	renderable.material != null
+3037	and(vertexMask, Usage.Position)
+3038	or(vertexMask, Usage.ColorUnpacked | Usage.ColorPacked)
+3039	and(vertexMask, Usage.BiNormal)
+3040	and(vertexMask, Usage.Tangent)
+3041	and(vertexMask, Usage.Normal)
+3042	and(vertexMask, Usage.Normal)
+3042	and(vertexMask, Usage.Tangent | Usage.BiNormal)
+3043	renderable.environment != null
+3044	attributes.has(ColorAttribute.Fog)
+3045	renderable.environment.shadowMap != null
+3046	attributes.has(CubemapAttribute.EnvironmentMap)
+3047	attr.usage == Usage.BoneWeight
+3048	attr.usage == Usage.TextureCoordinates
+3049	(attributesMask & BlendingAttribute.Type) == BlendingAttribute.Type
+3050	(attributesMask & TextureAttribute.Diffuse) == TextureAttribute.Diffuse
+3051	(attributesMask & TextureAttribute.Specular) == TextureAttribute.Specular
+3052	(attributesMask & TextureAttribute.Normal) == TextureAttribute.Normal
+3053	(attributesMask & TextureAttribute.Emissive) == TextureAttribute.Emissive
+3054	(attributesMask & TextureAttribute.Reflection) == TextureAttribute.Reflection
+3055	(attributesMask & TextureAttribute.Ambient) == TextureAttribute.Ambient
+3056	(attributesMask & ColorAttribute.Diffuse) == ColorAttribute.Diffuse
+3057	(attributesMask & ColorAttribute.Specular) == ColorAttribute.Specular
+3058	(attributesMask & ColorAttribute.Emissive) == ColorAttribute.Emissive
+3059	(attributesMask & ColorAttribute.Reflection) == ColorAttribute.Reflection
+3060	(attributesMask & FloatAttribute.Shininess) == FloatAttribute.Shininess
+3061	(attributesMask & FloatAttribute.AlphaTest) == FloatAttribute.AlphaTest
+3062	config.numBones > 0
+3062	renderable.bones != null
+3063	other == null
+3064	other == this
+3065	has(u_time)
+3066	combinedAttributes.has(BlendingAttribute.Type)
+3067	lighting
+3068	BlendingAttribute.is(t)
+3069	(t & IntAttribute.CullFace) == IntAttribute.CullFace
+3070	(t & FloatAttribute.AlphaTest) == FloatAttribute.AlphaTest
+3071	(t & DepthTestAttribute.Type) == DepthTestAttribute.Type
+3072	config.ignoreUnimplemented
+3073	dirLightsLoc >= 0
+3074	dirs == null
+3074	i >= dirs.size
+3075	lightsSet
+3075	directionalLights[i].color.b == 0f
+3075	directionalLights[i].color.r == 0f
+3075	directionalLights[i].color.g == 0f
+3076	lightsSet
+3076	directionalLights[i].equals(dirs.get(i))
+3077	dirLightsSize <= 0
+3078	pointLightsLoc >= 0
+3079	points == null
+3079	i >= points.size
+3080	pointLights[i].intensity == 0f
+3080	lightsSet
+3081	lightsSet
+3081	pointLights[i].equals(points.get(i))
+3082	pointLightsIntensityOffset >= 0
+3083	pointLightsSize <= 0
+3084	spotLightsLoc >= 0
+3085	spots == null
+3085	i >= spots.size
+3086	spotLights[i].intensity == 0f
+3086	lightsSet
+3087	lightsSet
+3087	spotLights[i].equals(spots.get(i))
+3088	spotLightsIntensityOffset >= 0
+3089	spotLightsSize <= 0
+3090	attributes.has(ColorAttribute.Fog)
+3091	lights.shadowMap != null
+3091	lights != null
+3219	count < 0
+3220	offset < 0
+3220	(offset + count) > max
+3220	count < 0
+3220	reuseWeight < 1
+3221	weights != null
+3222	reused
+3223	rebind
+3224	textures[idx] == texture
+3225	textures[i] == texture
+3226	--weights[i] < weight
+3226	weights[i] < 0
+3227	result < 0
+3921	count < 6
+3922	sorted
+3923	sortedPoints.length < count
+3923	sortedPoints == null
+3924	value < xmin
+3925	value > xmax
+3926	value < ymin
+3927	value > ymax
+3928	completeArray[completeIndex]
+3929	p1 >= end
+3930	p2 >= end
+3931	p3 >= end
+3932	p1 == -1
+3933	p1 == edgesArray[ii + 1]
+3933	p2 == edgesArray[ii]
+3934	skip
+3935	trianglesArray[i - 1] >= end
+3935	trianglesArray[i - 2] >= end
+3935	trianglesArray[i] >= end
+3936	sorted
+3937	offset == 0
+3938	y1y2 < EPSILON
+3939	y2y3 < EPSILON
+3940	y2y3 < EPSILON
+3941	dx + dy * dy - rsqr <= EPSILON
+3942	upper <= lower
+3943	i - lower > upper - i
+3944	upper - i >= i - lower
+3945	down < up
+3946	Intersector.isPointInPolygon(hull, offset, count, centroid.x, centroid.y)
+1263	time < duration
+1264	time < duration
+1265	action == null
+5291	iterating == 0
+5292	iterating == 0
+5293	index == removeIndex
+5294	index < removeIndex
+5295	iterating > 0
+5296	index == -1
+5297	iterating > 0
+5298	iterating > 0
+5299	iterating > 0
+5300	iterating > 0
+5301	iterating > 0
+5302	iterating > 0
+5303	iterating > 0
+5304	iterating > 0
+5305	iterating > 0
+5306	iterating > 0
+5307	iterating > 0
+5308	iterating > 0
+5309	iterating > 0
+1266	action != null
+1267	action != null
+1268	action != null
+3011	defaultVertexShader == null
+3012	defaultFragmentShader == null
+3013	config.depthBufferOnly
+3014	attr.usage == Usage.BoneWeight
+3015	attributes.has(BlendingAttribute.Type)
+3016	(attributesMask & BlendingAttribute.Type) != BlendingAttribute.Type
+3017	attributes.has(TextureAttribute.Diffuse) != ((attributesMask & TextureAttribute.Diffuse) == TextureAttribute.Diffuse)
+3018	skinned != (numBones > 0)
+3019	skinned
+3020	attr.usage == Usage.BoneWeight
+3021	combinedAttributes.has(BlendingAttribute.Type)
+3022	hasAlphaTest
+3023	blending.opacity >= ((FloatAttribute)combinedAttributes.get(FloatAttribute.AlphaTest)).value
+3024	hasAlphaTest
+3025	renderable.environment != null
+3026	renderable.material != null
+2949	is(type)
+2950	type != o.type
+2951	depthFunc != other.depthFunc
+2952	depthMask != other.depthMask
+2953	MathUtils.isEqual(depthRangeNear, other.depthRangeNear)
+2954	MathUtils.isEqual(depthRangeFar, other.depthRangeFar)
+697	stage == null
+698	skin == null
+699	skin == null
+700	actor != null
+700	actor.isDescendantOf(this)
+701	actor.isDescendantOf(this)
+701	actor != null
+702	action != null
+703	stage != null
+704	previousKeyboardFocus != null
+704	previousKeyboardFocus.getStage() == null
+705	actor == null
+705	actor.isDescendantOf(this)
+706	previousScrollFocus != null
+706	previousScrollFocus.getStage() == null
+707	actor == null
+707	actor.isDescendantOf(this)
+708	action != null
+2575	color != null
+2576	direction != null
+2577	direction != null
+2578	color != null
+2961	type != o.type
+2561	fbo != null
+1926	shader.isCompiled() == false
+1288	pressedPointer != -1
+1289	this.button != -1
+1289	pointer == 0
+1289	button != this.button
+1290	pointer != pressedPointer
+1291	Math.abs(touchDownX - x) > tapSquareSize
+1291	Math.abs(touchDownY - y) > tapSquareSize
+1291	dragging
+1292	dragging
+1293	pointer == pressedPointer
+1294	dragging
+1331	x >= 0
+1331	x < scroll.getWidth()
+1332	y >= scroll.getHeight()
+1333	scrollUp.isScheduled()
+1334	y < 0
+1335	scrollDown.isScheduled()
+2734	hasAcceleration
+2735	has2dAngularVelocity
+2736	has3dAngularVelocity
+2737	hasAcceleration
+2738	has2dAngularVelocity
+2739	has3dAngularVelocity
+2740	hasAcceleration
+2741	has3dAngularVelocity
+2741	has2dAngularVelocity
+2742	hasAcceleration
+2743	has2dAngularVelocity
+2744	rotation != 0
+2745	has3dAngularVelocity
+2469	format == Format.RGB565
+2470	format == Format.RGB888
+2471	etc1Data.hasPKMHeader()
+2385	isPrepared
+2386	file == null
+2386	data == null
+2387	file != null
+2388	isPrepared
+2389	Gdx.graphics.supportsExtension("GL_OES_compressed_ETC1_RGB8_texture")
+2390	useMipMaps
+2391	useMipMaps()
+3621	areVerticesClockwise(vertices, offset, count)
+3622	vertexCount == 3
+3623	isEarTip(i)
+3624	vertexTypes[i] != CONCAVE
+3625	vertexTypes[earTipIndex] == CONCAVE
+3626	vertexTypes[i] != CONVEX
+3627	computeSpannedAreaSign(p3x, p3y, p1x, p1y, vx, vy) >= 0
+3628	computeSpannedAreaSign(p1x, p1y, p2x, p2y, vx, vy) >= 0
+3629	computeSpannedAreaSign(p2x, p2y, p3x, p3y, vx, vy) >= 0
+3630	count <= 2
+4011	b * 3 > a
+4011	a * 3 > b
+4012	o == this
+4013	o == null
+4013	o.getClass() != this.getClass()
+3243	tmpV2.len2() > tmpV1.len2()
+3244	innerWidth <= 0
+3244	innerHeight <= 0
+3245	innerHeight == height
+3245	innerWidth == width
+3246	builder.getPrimitiveType() != GL20.GL_LINES
+3247	innerWidth <= 0f
+3247	innerHeight <= 0f
+3248	i != 0
+3249	innerWidth == width
+3249	innerHeight == height
+3250	i != 0
+3251	i != 0
+2657	side == SpawnSide.top
+2658	side == SpawnSide.bottom
+2659	edges
+2660	width == 0
+2661	height == 0
+2662	depth == 0
+6178	pos < (1 << 11)
+6179	pos < (1 << 21)
+6180	pos < (1 << 17)
+6181	pos < (1 << 27)
+6182	_matchFinder == null
+6183	_matchFinderType == EMatchFinderTypeBT2
+6184	_dictionarySize == _dictionarySizePrev
+6184	_numFastBytesPrev == _numFastBytes
+6185	_numDistancePairs > 0
+6186	lenRes == _numFastBytes
+6187	num > 0
+6188	repIndex == 0
+6189	repIndex == 1
+6190	pos < Base.kNumFullDistances
+6191	_optimum[cur].Prev1IsChar
+6192	_optimum[cur].Prev2
+6193	_optimumEndIndex != _optimumCurrentIndex
+6194	_longestMatchWasFound
+6195	numAvailableBytes < 2
+6196	numAvailableBytes > Base.kMatchMaxLen
+6197	repLens[i] > repLens[repMaxIndex]
+6198	repLens[repMaxIndex] >= _numFastBytes
+6199	lenMain >= _numFastBytes
+6200	lenMain < 2
+6200	repLens[repMaxIndex] < 2
+6200	currentByte != matchByte
+6201	matchByte == currentByte
+6202	shortRepPrice < _optimum[1].Price
+6203	lenEnd < 2
+6204	repLen < 2
+6205	curAndLenPrice < optimum.Price
+6206	len <= lenMain
+6207	curAndLenPrice < optimum.Price
+6208	len == _matchDistances[offs]
+6209	offs == numDistancePairs
+6210	cur == lenEnd
+6211	newLen >= _numFastBytes
+6212	_optimum[cur].Prev1IsChar
+6213	_optimum[cur].Prev2
+6214	_optimum[cur].BackPrev2 < Base.kNumRepDistances
+6215	posPrev == cur - 1
+6216	_optimum[cur].IsShortRep()
+6217	_optimum[cur].Prev1IsChar
+6217	_optimum[cur].Prev2
+6218	pos < Base.kNumRepDistances
+6219	pos < Base.kNumRepDistances
+6220	pos == 0
+6221	pos == 1
+6222	pos == 2
+6223	curAnd1Price < nextOptimum.Price
+6224	nextOptimum.BackPrev == 0
+6224	nextOptimum.PosPrev < cur
+6224	matchByte == currentByte
+6225	shortRepPrice <= nextOptimum.Price
+6226	numAvailableBytes < 2
+6227	numAvailableBytes > _numFastBytes
+6228	matchByte != currentByte
+6228	nextIsChar
+6229	lenTest2 >= 2
+6230	curAndLenPrice < optimum.Price
+6231	lenTest < 2
+6232	curAndLenPrice < optimum.Price
+6233	repIndex == 0
+6234	lenTest < numAvailableBytesFull
+6235	lenTest2 >= 2
+6236	curAndLenPrice < optimum.Price
+6237	newLen > numAvailableBytes
+6238	newLen >= startLen
+6239	curAndLenPrice < optimum.Price
+6240	lenTest == _matchDistances[offs]
+6241	lenTest < numAvailableBytesFull
+6242	lenTest2 >= 2
+6243	curAndLenPrice < optimum.Price
+6244	offs == numDistancePairs
+6245	_writeEndMark
+6246	_inStream != null
+6247	_finished
+6248	nowPos64 == 0
+6249	_matchFinder.GetNumAvailableBytes() == 0
+6250	_matchFinder.GetNumAvailableBytes() == 0
+6251	len == 1
+6251	pos == -1
+6252	Base.StateIsCharState(_state)
+6253	pos < Base.kNumRepDistances
+6254	pos == 0
+6255	len == 1
+6256	pos == 1
+6257	len == 1
+6258	pos != 0
+6259	posSlot >= Base.kStartPosModelIndex
+6260	posSlot < Base.kEndPosModelIndex
+6261	_additionalOffset == 0
+6262	_matchPriceCount >= (1 << 7)
+6263	_alignPriceCount >= Base.kAlignTableSize
+6264	_matchFinder.GetNumAvailableBytes() == 0
+6265	nowPos64 - progressPosValuePrev >= (1 << 12)
+6266	_matchFinder != null
+6266	_needReleaseMFStream
+6267	finished[0]
+6268	progress != null
+6269	dictionarySize > (1 << kDicLogSizeMaxCompress)
+6269	dictionarySize < (1 << Base.kDicLogSizeMin)
+6270	numFastBytes > Base.kMatchMaxLen
+6270	numFastBytes < 5
+6271	matchFinderIndex < 0
+6271	matchFinderIndex > 2
+6272	matchFinderIndexPrev != _matchFinderType
+6272	_matchFinder != null
+6273	lp < 0
+6273	lp > Base.kNumLitPosStatesBitsEncodingMax
+6273	pb > Base.kNumPosStatesBitsEncodingMax
+6273	lc > Base.kNumLitContextBitsMax
+6273	lc < 0
+6273	pb < 0
+6278	LowHi != 0
+6278	Low < 0xFF000000L
+6279	((v >>> i) & 1) == 1
+6280	(Range & Encoder.kTopMask) == 0
+6281	symbol == 0
+6282	(Range & kTopMask) == 0
+2780	light instanceof DirectionalLight
+2781	light instanceof PointLight
+2782	light instanceof SpotLight
+2783	dirLights == null
+2784	pointLights == null
+2785	spotLights == null
+2786	light instanceof DirectionalLight
+2787	light instanceof PointLight
+2788	light instanceof SpotLight
+2789	has(DirectionalLightsAttribute.Type)
+2790	dirLights.lights.size == 0
+2791	has(PointLightsAttribute.Type)
+2792	pointLights.lights.size == 0
+2793	has(SpotLightsAttribute.Type)
+2794	spotLights.lights.size == 0
+1247	target != null
+1248	newTarget != null
+4438	viewportWidth < screenWidth
+4439	maxWorldWidth > 0
+4440	viewportHeight < screenHeight
+4441	maxWorldHeight > 0
+2482	TimeUtils.nanoTime() - startTime > 1000000000
+2339	data.isManaged()
+2340	data[i] == null
+2341	data[CubemapSide.PositiveZ.index] != null
+2341	(tmp = data[CubemapSide.PositiveZ.index].getWidth()) > width
+2342	(tmp = data[CubemapSide.NegativeZ.index].getWidth()) > width
+2342	data[CubemapSide.NegativeZ.index] != null
+2343	data[CubemapSide.PositiveY.index] != null
+2343	(tmp = data[CubemapSide.PositiveY.index].getWidth()) > width
+2344	data[CubemapSide.NegativeY.index] != null
+2344	(tmp = data[CubemapSide.NegativeY.index].getWidth()) > width
+2345	data[CubemapSide.PositiveZ.index] != null
+2345	(tmp = data[CubemapSide.PositiveZ.index].getHeight()) > height
+2346	(tmp = data[CubemapSide.NegativeZ.index].getHeight()) > height
+2346	data[CubemapSide.NegativeZ.index] != null
+2347	data[CubemapSide.PositiveX.index] != null
+2347	(tmp = data[CubemapSide.PositiveX.index].getHeight()) > height
+2348	(tmp = data[CubemapSide.NegativeX.index].getHeight()) > height
+2348	data[CubemapSide.NegativeX.index] != null
+2349	isComplete()
+2350	data[i].isPrepared()
+2351	data[i].getType() == TextureData.TextureDataType.Custom
+2352	data[i].getFormat() != pixmap.getFormat()
+2353	data[i].disposePixmap()
+2354	disposePixmap
+5643	genericType instanceof ParameterizedType
+5644	actualTypes.length - 1 >= index
+5645	actualType instanceof Class
+5646	actualType instanceof ParameterizedType
+5647	actualType instanceof GenericArrayType
+5648	componentType instanceof Class
+5649	annotations == null
+5650	annotation.annotationType().equals(annotationType)
+1384	dotIndex == -1
+1385	dotIndex == -1
+1386	dotIndex == -1
+1387	type == FileType.External
+1388	file().exists()
+1388	type == FileType.Classpath
+1388	type == FileType.Local
+1388	type == FileType.Internal
+1388	file().exists()
+1389	input == null
+1390	file().isDirectory()
+1391	charset == null
+1392	length == -1
+1393	count <= 0
+1394	type == FileType.Classpath
+1395	type == FileType.Internal
+1396	file().isDirectory()
+1397	type == FileType.Classpath
+1398	type == FileType.Internal
+1399	charset == null
+1400	file().isDirectory()
+1401	type == FileType.Classpath
+1402	relativePaths == null
+1403	type == FileType.Classpath
+1404	relativePaths == null
+1405	filter.accept(child.file())
+1406	count < relativePaths.length
+1407	type == FileType.Classpath
+1408	relativePaths == null
+1409	filter.accept(file, path)
+1410	count < relativePaths.length
+1411	type == FileType.Classpath
+1412	relativePaths == null
+1413	path.endsWith(suffix)
+1414	count < relativePaths.length
+1415	type == FileType.Classpath
+1416	file.getPath().length() == 0
+1417	file.getPath().length() == 0
+1418	parent == null
+1419	type == FileType.Absolute
+1420	type == FileType.Classpath
+1421	type == FileType.Internal
+1422	file().exists()
+1423	type == FileType.Classpath
+1424	type == FileType.Internal
+1425	type == FileType.Classpath
+1426	type == FileType.Internal
+1427	type == FileType.Classpath
+1428	type == FileType.Internal
+1429	sourceDir
+1430	dest.isDirectory()
+1431	dest.exists()
+1432	dest.isDirectory()
+1433	dest.isDirectory()
+1434	sourceDir
+1435	type == FileType.Classpath
+1436	type == FileType.Internal
+1437	isDirectory()
+1437	exists()
+1438	file.exists()
+1438	type == FileType.Internal
+1438	type == FileType.Classpath
+1439	obj instanceof FileHandle
+1440	file.delete()
+1441	file.mkdir()
+1442	file.exists()
+1443	files != null
+1444	files[i].isDirectory()
+1445	preserveTree
+1446	srcFile.isDirectory()
+2373	width == -1
+2374	width != data.getWidth()
+2374	height != data.getHeight()
+2375	textureDatas[i].getType() == TextureData.TextureDataType.Custom
+2376	texData.getFormat() != pixmap.getFormat()
+2377	texData.disposePixmap()
+2378	disposePixmap
+2379	data.isManaged()
+2392	pixmap != null
+2393	format == null
+2394	isPrepared
+2395	pixmap == null
+2396	file.extension().equals("cim")
+2397	format == null
+2398	Gdx.gl20 == null
+2398	copyToPOT
+2399	pixmapWidth != potWidth
+2399	pixmapHeight != potHeight
+2400	isPrepared
+3190	keys.containsKey(FORWARD)
+3191	keys.containsKey(BACKWARD)
+3192	keys.containsKey(STRAFE_LEFT)
+3193	keys.containsKey(STRAFE_RIGHT)
+3194	keys.containsKey(UP)
+3195	keys.containsKey(DOWN)
+4448	size == items.length
+4449	offset + length > array.size
+4450	sizeNeeded > items.length
+4451	index >= size
+4452	index >= size
+4453	index >= size
+4454	index >= size
+4455	index > size
+4456	size == items.length
+4457	ordered
+4458	first >= size
+4459	second >= size
+4460	items[i--] == value
+4461	items[i] == value
+4462	items[i] == value
+4463	items[i] == value
+4464	index >= size
+4465	ordered
+4466	end >= size
+4467	start > end
+4468	ordered
+4469	item == items[ii]
+4470	size == 0
+4471	items.length != size
+4472	sizeNeeded > items.length
+4473	newSize > items.length
+4474	size > newSize
+4475	size == 0
+4476	ordered
+4477	object == this
+4478	ordered
+4479	object instanceof FloatArray
+4480	array.ordered
+4481	n != array.size
+4482	items1[i] != items2[i]
+4483	object == this
+4484	object instanceof FloatArray
+4485	n != array.size
+4486	ordered
+4487	array.ordered
+4488	Math.abs(items1[i] - items2[i]) > epsilon
+4489	size == 0
+4490	size == 0
+2972	type != o.type
+3695	mean != null
+3696	mean == null
+3696	mean.hasEnoughData()
+3697	this.value < min
+3698	this.value > max
+3699	mean != null
+2401	Gdx.app.getType() == ApplicationType.Desktop
+2401	Gdx.app.getType() == ApplicationType.Applet
+2268	isPrepared
+2269	Gdx.app.getType() == ApplicationType.WebGL
+2269	Gdx.app.getType() == ApplicationType.iOS
+2269	Gdx.app.getType() == ApplicationType.Android
+2270	Gdx.graphics.supportsExtension("OES_texture_float")
+2271	Gdx.graphics.supportsExtension("GL_ARB_texture_float")
+1316	event instanceof FocusEvent
+2261	currentSide > 5
+2262	currentSide == 5
+3718	result == PlaneSide.Back
+3719	result == PlaneSide.Back
+3720	(planes[i].normal.x * center.x + planes[i].normal.y * center.y + planes[i].normal.z * center.z) < (-radius - planes[i].d)
+3721	(planes[i].normal.x * x + planes[i].normal.y * y + planes[i].normal.z * z) < (-radius - planes[i].d)
+3722	(planes[i].normal.x * center.x + planes[i].normal.y * center.y + planes[i].normal.z * center.z) < (-radius - planes[i].d)
+3723	(planes[i].normal.x * x + planes[i].normal.y * y + planes[i].normal.z * z) < (-radius - planes[i].d)
+3724	planes[i].testPoint(bounds.getCorner000(tmpV)) != PlaneSide.Back
+3725	planes[i].testPoint(bounds.getCorner001(tmpV)) != PlaneSide.Back
+3726	planes[i].testPoint(bounds.getCorner010(tmpV)) != PlaneSide.Back
+3727	planes[i].testPoint(bounds.getCorner011(tmpV)) != PlaneSide.Back
+3728	planes[i].testPoint(bounds.getCorner100(tmpV)) != PlaneSide.Back
+3729	planes[i].testPoint(bounds.getCorner101(tmpV)) != PlaneSide.Back
+3730	planes[i].testPoint(bounds.getCorner110(tmpV)) != PlaneSide.Back
+3731	planes[i].testPoint(bounds.getCorner111(tmpV)) != PlaneSide.Back
+3732	planes[i].testPoint(x + halfWidth, y + halfHeight, z + halfDepth) != PlaneSide.Back
+3733	planes[i].testPoint(x + halfWidth, y + halfHeight, z - halfDepth) != PlaneSide.Back
+3734	planes[i].testPoint(x + halfWidth, y - halfHeight, z + halfDepth) != PlaneSide.Back
+3735	planes[i].testPoint(x + halfWidth, y - halfHeight, z - halfDepth) != PlaneSide.Back
+3736	planes[i].testPoint(x - halfWidth, y + halfHeight, z + halfDepth) != PlaneSide.Back
+3737	planes[i].testPoint(x - halfWidth, y + halfHeight, z - halfDepth) != PlaneSide.Back
+3738	planes[i].testPoint(x - halfWidth, y - halfHeight, z + halfDepth) != PlaneSide.Back
+3739	planes[i].testPoint(x - halfWidth, y - halfHeight, z - halfDepth) != PlaneSide.Back
+2848	model.version[1] != VERSION_LO
+2848	model.version[0] != VERSION_HI
+2849	meshes != null
+2850	partId == null
+2851	other.id.equals(partId)
+2852	type == null
+2853	type.equals("TRIANGLES")
+2854	type.equals("LINES")
+2855	type.equals("POINTS")
+2856	type.equals("TRIANGLE_STRIP")
+2857	type.equals("LINE_STRIP")
+2858	attr.equals("POSITION")
+2859	attr.equals("NORMAL")
+2860	attr.equals("COLOR")
+2861	attr.equals("COLORPACKED")
+2862	attr.equals("TANGENT")
+2863	attr.equals("BINORMAL")
+2864	attr.startsWith("TEXCOORD")
+2865	attr.startsWith("BLENDWEIGHT")
+2866	materials == null
+2867	id == null
+2868	diffuse != null
+2869	ambient != null
+2870	emissive != null
+2871	specular != null
+2872	reflection != null
+2873	textures != null
+2874	textureId == null
+2875	fileName == null
+2876	textureType == null
+2877	jsonMaterial.textures == null
+2878	value.equalsIgnoreCase("AMBIENT")
+2879	value.equalsIgnoreCase("BUMP")
+2880	value.equalsIgnoreCase("DIFFUSE")
+2881	value.equalsIgnoreCase("EMISSIVE")
+2882	value.equalsIgnoreCase("NONE")
+2883	value.equalsIgnoreCase("NORMAL")
+2884	value.equalsIgnoreCase("REFLECTION")
+2885	value.equalsIgnoreCase("SHININESS")
+2886	value.equalsIgnoreCase("SPECULAR")
+2887	value.equalsIgnoreCase("TRANSPARENCY")
+2888	colorArray.size >= 3
+2889	vectorArray == null
+2890	vectorArray.size == 2
+2891	nodes != null
+2892	id == null
+2893	translation.size != 3
+2893	translation != null
+2894	rotation != null
+2894	rotation.size != 4
+2895	scale != null
+2895	scale.size != 3
+2896	meshId != null
+2897	materials != null
+2898	meshPartId == null
+2898	materialId == null
+2899	bones != null
+2900	nodeId == null
+2901	val != null
+2901	val.size >= 3
+2902	val != null
+2902	val.size >= 4
+2903	val != null
+2903	val.size >= 3
+2904	children != null
+2905	animations == null
+2906	nodes == null
+2907	keyframes != null
+2907	keyframes.isArray()
+2908	translation.size == 3
+2908	translation != null
+2909	nodeAnim.translation == null
+2910	rotation != null
+2910	rotation.size == 4
+2911	nodeAnim.rotation == null
+2912	scale != null
+2912	scale.size == 3
+2913	nodeAnim.scaling == null
+2914	translationKF.isArray()
+2914	translationKF != null
+2915	translation != null
+2915	translation.size >= 3
+2916	rotationKF.isArray()
+2916	rotationKF != null
+2917	rotation != null
+2917	rotation.size >= 4
+2918	scalingKF.isArray()
+2918	scalingKF != null
+2919	scaling != null
+2919	scaling.size >= 3
+2443	defaultFramebufferHandleInitialized
+2444	Gdx.app.getType() == ApplicationType.iOS
+2445	hasDepth
+2446	hasStencil
+2447	hasDepth
+2448	hasStencil
+2449	hasDepth
+2450	hasStencil
+2451	Gdx.graphics.supportsExtension("GL_EXT_packed_depth_stencil")
+2451	hasStencil
+2451	Gdx.graphics.supportsExtension("GL_OES_packed_depth_stencil")
+2451	result == GL20.GL_FRAMEBUFFER_UNSUPPORTED
+2451	hasDepth
+2452	hasDepth
+2453	hasStencil
+2454	result != GL20.GL_FRAMEBUFFER_COMPLETE
+2455	hasDepthStencilPackedBuffer
+2456	hasDepth
+2457	hasStencil
+2458	result == GL20.GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT
+2459	result == GL20.GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS
+2460	result == GL20.GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT
+2461	result == GL20.GL_FRAMEBUFFER_UNSUPPORTED
+2462	hasDepthStencilPackedBuffer
+2463	hasDepth
+2464	hasStencil
+2465	buffers.get(Gdx.app) != null
+2466	managedResources == null
+2467	Gdx.gl20 == null
+2468	bufferArray == null
+2252	isPrepared
+1573	isEnabled()
+1574	Gdx.gl30 != null
+1574	Gdx.gl30 instanceof GL30Profiler
+1575	Gdx.gl20 instanceof GL30Profiler
+1575	Gdx.gl20 != null
+1576	Gdx.gl20 != null
+1576	Gdx.gl20 instanceof GL20Profiler
+1577	Gdx.gl != null
+1577	Gdx.gl instanceof GL20Profiler
+2170	uWrap != u
+2170	u != null
+2170	force
+2171	v != null
+2171	force
+2171	vWrap != v
+2172	this.minFilter != minFilter
+2172	minFilter != null
+2172	force
+2173	magFilter != null
+2173	this.magFilter != magFilter
+2173	force
+2174	glHandle != 0
+2175	data == null
+2176	data.isPrepared()
+2177	type == TextureDataType.Custom
+2178	data.getFormat() != pixmap.getFormat()
+2179	data.disposePixmap()
+2180	data.useMipMaps()
+2181	disposePixmap
+2322	appType == Application.ApplicationType.Android
+2323	appType == Application.ApplicationType.iOS
+2324	appType == Application.ApplicationType.Desktop
+2325	appType == Application.ApplicationType.Applet
+2326	appType == Application.ApplicationType.WebGL
+2327	type == Type.GLES
+2328	type == Type.WebGL
+2329	type == Type.OpenGL
+2330	found
+3376	screen != null
+3377	screen != null
+3378	screen != null
+3379	screen != null
+3380	screen != null
+3381	this.screen != null
+3382	this.screen != null
+1937	pixelPtr == null
+1938	requestedFormat != format
+1938	requestedFormat != 0
+1939	pixelPtr == null
+1940	requestedFormat != 0
+1940	requestedFormat != format
+1941	pixelPtr == null
+5855	nativesLoaded
+5856	disableNativesLoading
+3593	det < 0
+3594	r1 > r2
+3595	r1 > 0
+3596	r2 > 0
+3597	Math.abs(det) < MathUtils.FLOAT_ROUNDING_ERROR
+3598	Math.abs(y2 - y1) < MathUtils.FLOAT_ROUNDING_ERROR
+3599	Math.abs(y3 - y2) < MathUtils.FLOAT_ROUNDING_ERROR
+3600	count < 6
+3601	signedArea == 0
+3602	x2 < offset
+3603	y2 < offset
+3604	areVerticesClockwise(polygon, 0, polygon.length)
+3605	count <= 2
+11	pointer > 1
+12	pointer == 0
+13	Gdx.input.isTouched(1)
+14	longPressTask.isScheduled()
+15	pointer > 1
+16	longPressFired
+17	pointer == 0
+18	pinching
+19	listener != null
+20	isWithinTapSquare(x, y, tapSquareCenterX, tapSquareCenterY)
+20	inTapSquare
+21	inTapSquare
+22	pointer > 1
+23	inTapSquare
+23	isWithinTapSquare(x, y, tapSquareCenterX, tapSquareCenterY)
+24	longPressFired
+25	inTapSquare
+26	lastTapPointer != pointer
+26	lastTapButton != button
+26	isWithinTapSquare(x, y, lastTapX, lastTapY)
+26	TimeUtils.nanoTime() - lastTapTime > tapCountInterval
+27	pinching
+28	pointer == 0
+29	panning
+29	wasPanning
+30	time - tracker.lastTime < maxFlingDelay
+31	gestureStartTime == 0
+1948	truncate != null
+1949	targetWidth <= font.data.spaceWidth
+1950	start == end
+1951	runStart == end
+1952	markupEnabled
+1953	length >= 0
+1954	length == -2
+1955	runEnd != -1
+1956	runEnd != runStart
+1957	run.glyphs.size == 0
+1958	i > 1
+1958	x > targetWidth
+1958	wrap
+1958	x - xAdvance + (run.glyphs.get(i - 1).xoffset + run.glyphs.get(i - 1).width) * fontData.scaleX - 0.0001f > targetWidth
+1959	truncate != null
+1960	wrapIndex == 0
+1960	wrapIndex >= run.glyphs.size
+1960	run.x == 0
+1961	wrapIndex == 0
+1962	newline
+1963	runEnd == runStart
+1964	(halign & Align.left) == 0
+1965	run.y != lineY
+1966	center
+1967	center
+1968	width > targetWidth
+1969	count > 1
+1970	truncateRun.xAdvances.size > 0
+1971	truncateRun.xAdvances.size > 0
+1972	wrapIndex < glyphCount
+1973	wrapIndex == 0
+1974	fontData.isWhitespace((char)last.id)
+1975	start == end
+1976	ch == ']'
+1977	i > start + 9
+1977	i < start + 2
+1978	i - start <= 7
+1979	ch <= '9'
+1979	ch >= '0'
+1980	ch <= 'f'
+1980	ch >= 'a'
+1981	ch >= 'A'
+1981	ch <= 'F'
+1982	colorStack.size > 1
+1983	ch != ']'
+1984	namedColor == null
+1985	runs.size == 0
+2650	t > percent
+2651	endIndex == -1
+3897	this == o
+3898	o.getClass() != this.getClass()
+3898	o == null
+3740	this == o
+3741	o.getClass() != this.getClass()
+3741	o == null
+59	transform
+60	transform
+61	cullingArea != null
+62	transform
+63	child.isVisible()
+64	cx <= cullRight
+64	cx + child.width >= cullLeft
+64	cy + child.height >= cullBottom
+64	cy <= cullTop
+65	child.isVisible()
+66	cx + child.width >= cullLeft
+66	cy + child.height >= cullBottom
+66	cx <= cullRight
+66	cy <= cullTop
+67	transform
+68	child.isVisible()
+69	child.isVisible()
+70	transform
+71	transform
+72	transform
+73	child.isVisible()
+74	child.getDebug()
+74	child instanceof Group
+75	child.isVisible()
+76	child.getDebug()
+76	child instanceof Group
+77	originY != 0
+77	originX != 0
+78	parentGroup.transform
+79	parentGroup != null
+80	touchable
+80	getTouchable() == Touchable.disabled
+81	child.isVisible()
+82	hit != null
+83	actor.parent != null
+84	actor.parent == this
+85	actor.parent != null
+86	actor.parent == this
+87	index >= children.size
+88	actor.parent != null
+89	actor.parent == this
+90	actor.parent != null
+91	actor.parent == this
+92	index == children.size
+93	children.removeValue(actor, true)
+94	unfocus
+95	stage != null
+96	name.equals(children.get(i).getName())
+97	child instanceof Group
+98	actor != null
+99	first >= maxIndex
+99	first < 0
+100	second < 0
+100	second >= maxIndex
+101	firstIndex == -1
+101	secondIndex == -1
+102	parent == null
+103	parent != this
+104	recursively
+105	child instanceof Group
+106	actor instanceof Group
+2337	Gdx.graphics.getHeight() != Gdx.graphics.getBackBufferHeight()
+2337	Gdx.graphics.getWidth() != Gdx.graphics.getBackBufferWidth()
+2338	Gdx.graphics.getHeight() != Gdx.graphics.getBackBufferHeight()
+2338	Gdx.graphics.getWidth() != Gdx.graphics.getBackBufferWidth()
+3445	axis != null
+3446	axis.equals("x")
+3447	index != null
+3448	index.equals("even")
+3449	length != null
+3450	staggerAxisX
+3451	length != null
+3452	length != null
+3453	staggerAxisX
+3454	(row % 2 == 0) == staggerIndexEven
+3455	cell != null
+3456	tile != null
+3457	tile instanceof AnimatedTiledMapTile
+3458	flipX
+3459	flipY
+3460	rotations == 2
+282	wrap
+283	rowSizes == null
+284	reverse
+285	child instanceof Layout
+286	x > 0
+286	x + incrX > groupWidth
+287	y > 0
+288	y > 0
+289	child instanceof Layout
+290	round
+291	sizeInvalid
+292	wrap
+293	(align & Align.right) != 0
+294	(align & Align.left) == 0
+295	(align & Align.bottom) != 0
+296	(align & Align.top) != 0
+297	reverse
+298	child instanceof Layout
+299	fill > 0
+300	layout != null
+301	height > maxHeight
+301	maxHeight > 0
+302	(align & Align.top) != 0
+303	(align & Align.bottom) == 0
+304	round
+305	layout != null
+306	prefHeight != lastPrefHeight
+307	(align & Align.top) != 0
+308	(align & Align.bottom) == 0
+309	(align & Align.right) != 0
+310	(align & Align.left) == 0
+311	reverse
+312	child instanceof Layout
+313	r == 0
+313	x + width > groupWidth
+314	(align & Align.right) != 0
+315	(align & Align.left) == 0
+316	r > 0
+317	fill > 0
+318	layout != null
+319	height > maxHeight
+319	maxHeight > 0
+320	(align & Align.top) != 0
+321	(align & Align.bottom) == 0
+322	round
+323	layout != null
+324	wrap
+325	sizeInvalid
+326	sizeInvalid
+327	getDebug()
+3362	convertedParameters.length() > 0
+3360	httpRequest != null
+3361	httpRequest == null
+6031	encoding == null
+6031	baseFileHandle == null
+6031	locale == null
+6032	bundle != null
+6033	bundleLocale.equals(locale)
+6033	isBaseBundle
+6034	bundleLocale.equals(candidateLocales.get(0))
+6034	candidateLocales.size() == 1
+6035	isBaseBundle
+6035	baseBundle == null
+6036	bundle == null
+6037	baseBundle == null
+6038	variant.length() > 0
+6039	country.length() > 0
+6040	language.length() > 0
+6041	candidateIndex != candidateLocales.size() - 1
+6042	baseBundle != null
+6042	targetLocale.equals(ROOT_LOCALE)
+6043	bundle != null
+6044	checkFileExistence(fileHandle)
+6045	bundle != null
+6046	locale.equals(ROOT_LOCALE)
+6047	emptyCountry
+6047	emptyVariant
+6047	emptyLanguage
+6048	emptyVariant
+6049	emptyCountry
+6050	result == null
+6051	parent != null
+6052	result == null
+6053	exceptionOnMissingKey
+1557	parameter == null
+1558	encoding == null
+5775	initialCapacity < 0
+5776	initialCapacity > 1 << 30
+5777	loadFactor <= 0
+5778	key == null
+5779	key1 == key
+5780	key2 == key
+5781	key3 == key
+5782	keyTable[i] == key
+5783	key1 == null
+5784	size++ >= threshold
+5785	key2 == null
+5786	size++ >= threshold
+5787	key3 == null
+5788	size++ >= threshold
+5789	key1 == null
+5790	size++ >= threshold
+5791	key2 == null
+5792	size++ >= threshold
+5793	key3 == null
+5794	size++ >= threshold
+5795	key1 == null
+5796	size++ >= threshold
+5797	key2 == null
+5798	size++ >= threshold
+5799	key3 == null
+5800	size++ >= threshold
+5801	++i == pushIterations
+5802	stashSize == stashCapacity
+5803	key != keyTable[index]
+5804	key != keyTable[index]
+5805	key != keyTable[index]
+5806	key != keyTable[index]
+5807	key != keyTable[index]
+5808	key != keyTable[index]
+5809	keyTable[i] == key
+5810	keyTable[index] == key
+5811	keyTable[index] == key
+5812	keyTable[index] == key
+5813	keyTable[i] == key
+5814	index < lastIndex
+5815	maximumCapacity < 0
+5816	size > maximumCapacity
+5817	capacity <= maximumCapacity
+5818	capacity <= maximumCapacity
+5819	size == 0
+5820	value == null
+5821	valueTable[i] == null
+5821	keyTable[i] != null
+5822	identity
+5823	valueTable[i] == value
+5824	value.equals(valueTable[i])
+5825	key != keyTable[index]
+5826	key != keyTable[index]
+5827	key != keyTable[index]
+5828	keyTable[i] == key
+5829	value == null
+5830	keyTable[i] != null
+5830	valueTable[i] == null
+5831	identity
+5832	valueTable[i] == value
+5833	value.equals(valueTable[i])
+5834	sizeNeeded >= threshold
+5835	oldSize > 0
+5836	key != null
+5837	key != null
+5838	value != null
+5839	obj == this
+5840	obj instanceof IdentityMap
+5841	other.size != size
+5842	key != null
+5843	value == null
+5844	other.containsKey(key)
+5844	other.get(key) != null
+5845	value.equals(other.get(key))
+5846	size == 0
+5847	key == null
+5848	key == null
+5849	entries1 == null
+5850	entries1.valid
+5851	values1 == null
+5852	values1.valid
+5853	keys1 == null
+5854	keys1.valid
+434	drawable == null
+435	(align & Align.left) != 0
+436	(align & Align.right) != 0
+437	(align & Align.top) != 0
+438	(align & Align.bottom) != 0
+439	drawable instanceof TransformDrawable
+440	scaleY != 1
+440	scaleX != 1
+440	rotation != 0
+441	drawable != null
+442	this.drawable == drawable
+443	drawable != null
+444	getPrefHeight() != drawable.getMinHeight()
+444	getPrefWidth() != drawable.getMinWidth()
+445	scaling == null
+446	drawable != null
+447	drawable != null
+979	style instanceof ImageButtonStyle
+980	image != null
+981	style.imageDisabled != null
+981	isDisabled()
+982	style.imageDown != null
+982	isPressed()
+983	isChecked
+983	style.imageChecked != null
+984	style.imageOver != null
+984	isOver()
+985	style.imageUp != null
+1124	style instanceof ImageTextButtonStyle
+1125	image != null
+1126	label != null
+1127	isDisabled()
+1127	style.imageDisabled != null
+1128	style.imageDown != null
+1128	isPressed()
+1129	style.imageChecked != null
+1129	isChecked
+1130	isOver()
+1130	style.imageOver != null
+1131	style.imageUp != null
+1132	style.disabledFontColor != null
+1132	isDisabled()
+1133	style.downFontColor != null
+1133	isPressed()
+1134	style.checkedFontColor != null
+1134	isChecked
+1135	style.overFontColor != null
+1135	isOver()
+1136	fontColor != null
+2253	hasNormals
+2254	hasColor
+2255	ownsShader
+2256	numVertices == 0
+2257	ownsShader
+2257	shader != null
+2258	hasColors
+2259	numTexCoords > 0
+2260	i == numTexCoords - 1
+6283	offset > 0
+6284	_streamEndWasReached
+6285	size == 0
+6286	numReadBytes == -1
+6287	pointerToPostion > _pointerToLastSafePosition
+6288	_streamPos >= _pos + _keepSizeAfter
+6289	_bufferBase == null
+6289	_blockSize != blockSize
+6290	_pos > _posLimit
+6291	pointerToPostion > _pointerToLastSafePosition
+6292	_streamEndWasReached
+6293	(_pos + index) + limit > _streamPos
+2360	empty
+2331	empty
+2332	isBound
+2333	isBound
+2334	isBound
+2335	bufferHandle == 0
+2336	isDirty
+2380	isBound
+2381	isBound
+2382	isBound
+2383	bufferHandle == 0
+2384	isDirty
+3375	processor == null
+53	e instanceof InputEvent
+43	processor == null
+44	processor == null
+45	processors.get(i).keyDown(keycode)
+46	processors.get(i).keyUp(keycode)
+47	processors.get(i).keyTyped(character)
+48	processors.get(i).touchDown(screenX, screenY, pointer, button)
+49	processors.get(i).touchUp(screenX, screenY, pointer, button)
+50	processors.get(i).touchDragged(screenX, screenY, pointer)
+51	processors.get(i).mouseMoved(screenX, screenY)
+52	processors.get(i).scrolled(amount)
+6455	size == items.length
+6456	offset + length > array.size
+6457	sizeNeeded > items.length
+6458	index >= size
+6459	index >= size
+6460	index >= size
+6461	index >= size
+6462	index > size
+6463	size == items.length
+6464	ordered
+6465	first >= size
+6466	second >= size
+6467	items[i--] == value
+6468	items[i] == value
+6469	items[i] == value
+6470	items[i] == value
+6471	index >= size
+6472	ordered
+6473	end >= size
+6474	start > end
+6475	ordered
+6476	item == items[ii]
+6477	size == 0
+6478	items.length != size
+6479	sizeNeeded > items.length
+6480	newSize > items.length
+6481	size > newSize
+6482	size == 0
+6483	ordered
+6484	object == this
+6485	ordered
+6486	object instanceof IntArray
+6487	array.ordered
+6488	n != array.size
+6489	items[i] != array.items[i]
+6490	size == 0
+6491	size == 0
+2955	type != o.type
+5448	initialCapacity < 0
+5449	initialCapacity > 1 << 30
+5450	loadFactor <= 0
+5451	key == 0
+5452	hasZeroValue
+5453	key == key1
+5454	key == key2
+5455	key == key3
+5456	key == keyTable[i]
+5457	key1 == EMPTY
+5458	size++ >= threshold
+5459	key2 == EMPTY
+5460	size++ >= threshold
+5461	key3 == EMPTY
+5462	size++ >= threshold
+5463	key == 0
+5464	key1 == EMPTY
+5465	size++ >= threshold
+5466	key2 == EMPTY
+5467	size++ >= threshold
+5468	key3 == EMPTY
+5469	size++ >= threshold
+5470	key1 == EMPTY
+5471	size++ >= threshold
+5472	key2 == EMPTY
+5473	size++ >= threshold
+5474	key3 == EMPTY
+5475	size++ >= threshold
+5476	++i == pushIterations
+5477	stashSize == stashCapacity
+5478	key == 0
+5479	hasZeroValue
+5480	keyTable[index] != key
+5481	keyTable[index] != key
+5482	keyTable[index] != key
+5483	key == keyTable[i]
+5484	key == 0
+5485	hasZeroValue
+5486	key != keyTable[index]
+5487	key != keyTable[index]
+5488	key != keyTable[index]
+5489	key == keyTable[i]
+5490	key == 0
+5491	hasZeroValue
+5492	key == keyTable[index]
+5493	key == keyTable[index]
+5494	key == keyTable[index]
+5495	key == keyTable[i]
+5496	index < lastIndex
+5497	maximumCapacity < 0
+5498	size > maximumCapacity
+5499	capacity <= maximumCapacity
+5500	capacity <= maximumCapacity
+5501	size == 0
+5502	zeroValue == value
+5502	hasZeroValue
+5503	valueTable[i] == value
+5503	keyTable[i] != 0
+5504	hasZeroValue
+5504	Math.abs(zeroValue - value) <= epsilon
+5505	Math.abs(valueTable[i] - value) <= epsilon
+5506	key == 0
+5507	keyTable[index] != key
+5508	keyTable[index] != key
+5509	keyTable[index] != key
+5510	key == keyTable[i]
+5511	hasZeroValue
+5511	zeroValue == value
+5512	valueTable[i] == value
+5512	keyTable[i] != 0
+5513	sizeNeeded >= threshold
+5514	oldSize > 0
+5515	key != EMPTY
+5516	hasZeroValue
+5517	key != EMPTY
+5518	obj == this
+5519	obj instanceof IntFloatMap
+5520	other.size != size
+5521	other.hasZeroValue != hasZeroValue
+5522	hasZeroValue
+5522	other.zeroValue != zeroValue
+5523	key != EMPTY
+5524	other.containsKey(key)
+5524	otherValue == 0f
+5525	otherValue != value
+5526	size == 0
+5527	hasZeroValue
+5528	key == EMPTY
+5529	key == EMPTY
+5530	entries1 == null
+5531	entries1.valid
+5532	values1 == null
+5533	values1.valid
+5534	keys1 == null
+5535	keys1.valid
+4689	initialCapacity < 0
+4690	initialCapacity > 1 << 30
+4691	loadFactor <= 0
+4692	key == 0
+4693	hasZeroValue
+4694	key == key1
+4695	key == key2
+4696	key == key3
+4697	key == keyTable[i]
+4698	key1 == EMPTY
+4699	size++ >= threshold
+4700	key2 == EMPTY
+4701	size++ >= threshold
+4702	key3 == EMPTY
+4703	size++ >= threshold
+4704	key == 0
+4705	key1 == EMPTY
+4706	size++ >= threshold
+4707	key2 == EMPTY
+4708	size++ >= threshold
+4709	key3 == EMPTY
+4710	size++ >= threshold
+4711	key1 == EMPTY
+4712	size++ >= threshold
+4713	key2 == EMPTY
+4714	size++ >= threshold
+4715	key3 == EMPTY
+4716	size++ >= threshold
+4717	++i == pushIterations
+4718	stashSize == stashCapacity
+4719	key == 0
+4720	hasZeroValue
+4721	keyTable[index] != key
+4722	keyTable[index] != key
+4723	keyTable[index] != key
+4724	key == keyTable[i]
+4725	key == 0
+4726	hasZeroValue
+4727	key != keyTable[index]
+4728	key != keyTable[index]
+4729	key != keyTable[index]
+4730	key == keyTable[i]
+4731	key == 0
+4732	hasZeroValue
+4733	key == keyTable[index]
+4734	key == keyTable[index]
+4735	key == keyTable[index]
+4736	key == keyTable[i]
+4737	index < lastIndex
+4738	maximumCapacity < 0
+4739	size > maximumCapacity
+4740	capacity <= maximumCapacity
+4741	capacity <= maximumCapacity
+4742	size == 0
+4743	hasZeroValue
+4743	zeroValue == value
+4744	keyTable[i] != 0
+4744	valueTable[i] == value
+4745	key == 0
+4746	keyTable[index] != key
+4747	keyTable[index] != key
+4748	keyTable[index] != key
+4749	key == keyTable[i]
+4750	hasZeroValue
+4750	zeroValue == value
+4751	valueTable[i] == value
+4751	keyTable[i] != 0
+4752	sizeNeeded >= threshold
+4753	oldSize > 0
+4754	key != EMPTY
+4755	hasZeroValue
+4756	key != EMPTY
+4757	obj == this
+4758	obj instanceof IntIntMap
+4759	other.size != size
+4760	other.hasZeroValue != hasZeroValue
+4761	other.zeroValue != zeroValue
+4761	hasZeroValue
+4762	key != EMPTY
+4763	otherValue == 0
+4763	other.containsKey(key)
+4764	otherValue != value
+4765	size == 0
+4766	hasZeroValue
+4767	key == EMPTY
+4768	key == EMPTY
+4769	entries1 == null
+4770	entries1.valid
+4771	values1 == null
+4772	values1.valid
+4773	keys1 == null
+4774	keys1.valid
+5929	initialCapacity < 0
+5930	initialCapacity > 1 << 30
+5931	loadFactor <= 0
+5932	key == 0
+5933	hasZeroValue
+5934	key1 == key
+5935	key2 == key
+5936	key3 == key
+5937	keyTable[i] == key
+5938	key1 == EMPTY
+5939	size++ >= threshold
+5940	key2 == EMPTY
+5941	size++ >= threshold
+5942	key3 == EMPTY
+5943	size++ >= threshold
+5944	key == 0
+5945	key1 == EMPTY
+5946	size++ >= threshold
+5947	key2 == EMPTY
+5948	size++ >= threshold
+5949	key3 == EMPTY
+5950	size++ >= threshold
+5951	key1 == EMPTY
+5952	size++ >= threshold
+5953	key2 == EMPTY
+5954	size++ >= threshold
+5955	key3 == EMPTY
+5956	size++ >= threshold
+5957	++i == pushIterations
+5958	stashSize == stashCapacity
+5959	key == 0
+5960	hasZeroValue
+5961	keyTable[index] != key
+5962	keyTable[index] != key
+5963	keyTable[index] != key
+5964	key == 0
+5965	hasZeroValue
+5966	keyTable[index] != key
+5967	keyTable[index] != key
+5968	keyTable[index] != key
+5969	keyTable[i] == key
+5970	key == 0
+5971	hasZeroValue
+5972	keyTable[index] == key
+5973	keyTable[index] == key
+5974	keyTable[index] == key
+5975	keyTable[i] == key
+5976	index < lastIndex
+5977	maximumCapacity < 0
+5978	size > maximumCapacity
+5979	capacity <= maximumCapacity
+5980	capacity <= maximumCapacity
+5981	size == 0
+5982	value == null
+5983	zeroValue == null
+5983	hasZeroValue
+5984	keyTable[i] != EMPTY
+5984	valueTable[i] == null
+5985	identity
+5986	value == zeroValue
+5987	valueTable[i] == value
+5988	hasZeroValue
+5988	value.equals(zeroValue)
+5989	value.equals(valueTable[i])
+5990	key == 0
+5991	keyTable[index] != key
+5992	keyTable[index] != key
+5993	keyTable[index] != key
+5994	keyTable[i] == key
+5995	value == null
+5996	zeroValue == null
+5996	hasZeroValue
+5997	valueTable[i] == null
+5997	keyTable[i] != EMPTY
+5998	identity
+5999	value == zeroValue
+6000	valueTable[i] == value
+6001	hasZeroValue
+6001	value.equals(zeroValue)
+6002	value.equals(valueTable[i])
+6003	sizeNeeded >= threshold
+6004	oldSize > 0
+6005	key != EMPTY
+6006	zeroValue != null
+6006	hasZeroValue
+6007	key != EMPTY
+6008	value != null
+6009	obj == this
+6010	obj instanceof IntMap
+6011	other.size != size
+6012	other.hasZeroValue != hasZeroValue
+6013	hasZeroValue
+6014	other.zeroValue == null
+6015	zeroValue != null
+6016	other.zeroValue.equals(zeroValue)
+6017	key != EMPTY
+6018	value == null
+6019	other.containsKey(key)
+6019	other.get(key) != null
+6020	value.equals(other.get(key))
+6021	size == 0
+6022	hasZeroValue
+6023	key == EMPTY
+6024	key == EMPTY
+6025	entries1 == null
+6026	entries1.valid
+6027	values1 == null
+6028	values1.valid
+6029	keys1 == null
+6030	keys1.valid
+5177	initialCapacity < 0
+5178	initialCapacity > 1 << 30
+5179	loadFactor <= 0
+5180	key == 0
+5181	hasZeroValue
+5182	key1 == key
+5183	key2 == key
+5184	key3 == key
+5185	keyTable[i] == key
+5186	key1 == EMPTY
+5187	size++ >= threshold
+5188	key2 == EMPTY
+5189	size++ >= threshold
+5190	key3 == EMPTY
+5191	size++ >= threshold
+5192	offset + length > array.size
+5193	key == 0
+5194	key1 == EMPTY
+5195	size++ >= threshold
+5196	key2 == EMPTY
+5197	size++ >= threshold
+5198	key3 == EMPTY
+5199	size++ >= threshold
+5200	key1 == EMPTY
+5201	size++ >= threshold
+5202	key2 == EMPTY
+5203	size++ >= threshold
+5204	key3 == EMPTY
+5205	size++ >= threshold
+5206	++i == pushIterations
+5207	stashSize == stashCapacity
+5208	key == 0
+5209	hasZeroValue
+5210	keyTable[index] == key
+5211	keyTable[index] == key
+5212	keyTable[index] == key
+5213	keyTable[i] == key
+5214	index < lastIndex
+5215	maximumCapacity < 0
+5216	size > maximumCapacity
+5217	capacity <= maximumCapacity
+5218	capacity <= maximumCapacity
+5219	size == 0
+5220	key == 0
+5221	keyTable[index] != key
+5222	keyTable[index] != key
+5223	keyTable[index] != key
+5224	keyTable[i] == key
+5225	hasZeroValue
+5226	keyTable[i] != EMPTY
+5227	sizeNeeded >= threshold
+5228	oldSize > 0
+5229	key != EMPTY
+5230	keyTable[i] != EMPTY
+5231	obj instanceof IntSet
+5232	other.size != size
+5233	other.hasZeroValue != hasZeroValue
+5234	other.contains(keyTable[i])
+5234	keyTable[i] != EMPTY
+5235	size == 0
+5236	hasZeroValue
+5237	key == EMPTY
+5238	key == EMPTY
+5239	iterator1 == null
+5240	iterator1.valid
+3757	bc * ac - cc * ab < 0
+3758	ab * bc - ac * bb < 0
+3759	(c.x - a.x) * py1 - (c.y - a.y) * px1 > 0 == side12
+3760	(c.x - b.x) * (p.y - b.y) - (c.y - b.y) * (p.x - b.x) > 0 != side12
+3761	(cx - ax) * py1 - (cy - ay) * px1 > 0 == side12
+3762	(cx - bx) * (py - by) - (cy - by) * (px - bx) > 0 != side12
+3763	t < 0
+3763	t > 1
+3764	vertice.y < point.y
+3764	lastVertice.y >= point.y
+3764	vertice.y >= point.y
+3764	lastVertice.y < point.y
+3765	vertice.x + (point.y - vertice.y) / (lastVertice.y - vertice.y) * (lastVertice.x - vertice.x) < point.x
+3766	yi >= y
+3766	yj >= y
+3766	yj < y
+3766	yi < y
+3767	xi + (y - yi) / (yj - yi) * (polygon[j] - xi) < x
+3768	p2.getVertices().length == 0
+3768	p1.getVertices().length == 0
+3769	i < p2.getTransformedVertices().length - 2
+3770	floatArray2.size == 0
+3771	Intersector.pointLineSide(ep2, ep1, e) > 0
+3772	Intersector.pointLineSide(ep2, ep1, s) > 0
+3773	floatArray.size < 2
+3773	floatArray.get(floatArray.size - 2) != ip.x
+3773	floatArray.get(floatArray.size - 1) != ip.y
+3774	Intersector.pointLineSide(ep2, ep1, s) > 0
+3775	floatArray2.size == 0
+3776	length2 == 0
+3777	t < 0
+3778	t > 1
+3779	length2 == 0
+3780	t < 0
+3781	t > 1
+3782	u <= 0
+3783	u >= l
+3784	u < 0
+3784	u > 1
+3785	d < radius
+3786	d1xd2 == 0.0f
+3787	denom != 0
+3788	t < 0
+3789	intersection != null
+3790	plane.testPoint(ray.origin) == Plane.PlaneSide.OnPlane
+3791	intersection != null
+3792	denom != 0
+3793	intersection != null
+3794	plane.testPoint(origin) == Plane.PlaneSide.OnPlane
+3795	intersection != null
+3796	MathUtils.isZero(det)
+3797	p.testPoint(ray.origin) == PlaneSide.OnPlane
+3797	Intersector.isPointInTriangle(ray.origin, t1, t2, t3)
+3798	intersection != null
+3799	u > 1.0f
+3799	u < 0.0f
+3800	v < 0.0f
+3800	u + v > 1.0f
+3801	t < 0
+3802	intersection != null
+3803	t <= MathUtils.FLOAT_ROUNDING_ERROR
+3804	len < 0.f
+3805	dst2 > r2
+3806	intersection != null
+3807	box.contains(ray.origin)
+3808	intersection != null
+3809	ray.direction.x > 0
+3809	ray.origin.x <= box.min.x
+3810	t >= 0
+3811	hit
+3811	v2.y >= box.min.y
+3811	v2.z <= box.max.z
+3811	t < lowest
+3811	v2.y <= box.max.y
+3811	v2.z >= box.min.z
+3812	ray.origin.x >= box.max.x
+3812	ray.direction.x < 0
+3813	t >= 0
+3814	v2.z <= box.max.z
+3814	v2.y >= box.min.y
+3814	v2.z >= box.min.z
+3814	hit
+3814	v2.y <= box.max.y
+3814	t < lowest
+3815	ray.origin.y <= box.min.y
+3815	ray.direction.y > 0
+3816	t >= 0
+3817	v2.z >= box.min.z
+3817	v2.x <= box.max.x
+3817	v2.z <= box.max.z
+3817	hit
+3817	t < lowest
+3817	v2.x >= box.min.x
+3818	ray.direction.y < 0
+3818	ray.origin.y >= box.max.y
+3819	t >= 0
+3820	v2.x >= box.min.x
+3820	t < lowest
+3820	v2.z <= box.max.z
+3820	hit
+3820	v2.x <= box.max.x
+3820	v2.z >= box.min.z
+3821	ray.direction.z > 0
+3821	ray.origin.z <= box.min.z
+3822	t >= 0
+3823	v2.x >= box.min.x
+3823	t < lowest
+3823	v2.x <= box.max.x
+3823	v2.y >= box.min.y
+3823	hit
+3823	v2.y <= box.max.y
+3824	ray.direction.z < 0
+3824	ray.origin.z >= box.max.z
+3825	t >= 0
+3826	v2.x <= box.max.x
+3826	v2.y >= box.min.y
+3826	t < lowest
+3826	v2.x >= box.min.x
+3826	v2.y <= box.max.y
+3826	hit
+3827	hit
+3827	intersection != null
+3828	intersection.x < box.min.x
+3829	intersection.x > box.max.x
+3830	intersection.y < box.min.y
+3831	intersection.y > box.max.y
+3832	intersection.z < box.min.z
+3833	intersection.z > box.max.z
+3834	minx > maxx
+3835	miny > maxy
+3836	minz > maxz
+3837	triangles.length / 3 % 3 != 0
+3838	result == true
+3839	dist < min_dist
+3840	hit == false
+3841	intersection != null
+3842	indices.length % 3 != 0
+3843	result == true
+3844	dist < min_dist
+3845	hit == false
+3846	intersection != null
+3847	triangles.size() % 3 != 0
+3848	result == true
+3849	dist < min_dist
+3850	hit
+3851	intersection != null
+3852	d == 0
+3853	intersection != null
+3854	d == 0
+3855	intersection != null
+3856	d != 0
+3857	ua >= 0
+3857	ua <= 1
+3858	rectangle1.overlaps(rectangle2)
+3859	d != 0
+3860	ua >= 0
+3860	ua <= 1
+3861	ub <= 1
+3861	ub >= 0
+3862	d == 0
+3863	ua < 0
+3863	ua > 1
+3864	ub > 1
+3864	ub < 0
+3865	intersection != null
+3866	d == 0
+3867	ua < 0
+3867	ua > 1
+3868	ub > 1
+3868	ub < 0
+3869	intersection != null
+3870	c.x < r.x
+3871	c.x > r.x + r.width
+3872	c.y < r.y
+3873	c.y > r.y + r.height
+3874	p < min1
+3875	p > max1
+3876	p < min2
+3877	p > max2
+3878	max2 >= min1
+3878	min1 <= min2
+3878	max1 >= min2
+3878	min2 <= min1
+3879	min2 < min1
+3879	max2 > max1
+3879	max1 > max2
+3879	min1 < min2
+3880	mins < maxs
+3881	o < overlap
+3882	p < min1
+3883	p > max1
+3884	p < min2
+3885	p > max2
+3886	min1 <= min2
+3886	max2 >= min1
+3886	max1 >= min2
+3886	min2 <= min1
+3887	min2 < min1
+3887	min1 < min2
+3887	max1 > max2
+3887	max2 > max1
+3888	mins < maxs
+3889	o < overlap
+3890	mtv != null
+3891	r2 == r3
+3891	r1 == r2
+3892	r1
+3893	r1 != r2
+3894	r2 != r3
+3895	r3 != r1
+3896	split.numFront == 2
+3410	cell == null
+3411	tile != null
+3412	flipX
+3413	flipY
+3414	rotations != 0
+3435	cell == null
+3436	tile != null
+3437	flipX
+3438	flipY
+3439	rotations != 0
+5655	metadata == null
+5656	fields != null
+5657	field.isTransient()
+5658	field.isStatic()
+5659	field.isSynthetic()
+5660	field.isAccessible()
+5661	ignoreDeprecated
+5661	field.isAnnotationPresent(Deprecated.class)
+5662	writer instanceof JsonWriter
+5663	defaultValues != null
+5664	value == null
+5664	defaultValue == null
+5665	value != null
+5665	defaultValue != null
+5666	value.equals(defaultValue)
+5667	defaultValue.getClass().isArray()
+5667	value.getClass().isArray()
+5668	Arrays.deepEquals(equals1, equals2)
+5669	debug
+5670	usePrototypes
+5671	classToDefaultValues.containsKey(type)
+5672	metadata == null
+5673	elementType == null
+5674	debug
+5675	value == null
+5676	value == null
+5677	value == null
+5678	knownType == Float.class
+5678	knownType.isPrimitive()
+5678	knownType == String.class
+5678	knownType != null
+5678	knownType == Boolean.class
+5678	knownType == Short.class
+5678	knownType == Integer.class
+5678	knownType == Double.class
+5678	knownType == Character.class
+5678	knownType == Long.class
+5678	knownType == Byte.class
+5679	actualType == Short.class
+5679	actualType == String.class
+5679	actualType == Float.class
+5679	actualType == Double.class
+5679	actualType.isPrimitive()
+5679	actualType == Integer.class
+5679	actualType == Byte.class
+5679	actualType == Character.class
+5679	actualType == Boolean.class
+5679	actualType == Long.class
+5680	value instanceof Serializable
+5681	serializer != null
+5682	value instanceof Array
+5683	knownType != null
+5683	actualType != knownType
+5683	actualType != Array.class
+5684	value instanceof Queue
+5685	knownType != null
+5685	actualType != knownType
+5685	actualType != Queue.class
+5686	value instanceof Collection
+5687	typeName != null
+5687	knownType == null
+5687	knownType != actualType
+5687	actualType != ArrayList.class
+5688	actualType.isArray()
+5689	elementType == null
+5690	value instanceof ObjectMap
+5691	knownType == null
+5692	value instanceof ArrayMap
+5693	knownType == null
+5694	value instanceof Map
+5695	knownType == null
+5696	ClassReflection.isAssignableFrom(Enum.class, actualType)
+5697	typeName != null
+5697	knownType != actualType
+5697	knownType == null
+5698	actualType.getEnumConstants() == null
+5699	knownType == null
+5699	knownType != actualType
+5700	typeName == null
+5701	className == null
+5702	debug
+5703	metadata == null
+5704	elementType == null
+5705	jsonValue == null
+5706	metadata == null
+5707	child.name.equals(typeName)
+5708	ignoreUnknownFields
+5709	debug
+5710	jsonValue == null
+5711	jsonData == null
+5712	jsonData == null
+5713	jsonData.isObject()
+5714	className != null
+5715	type == null
+5716	type == null
+5717	defaultSerializer != null
+5718	ClassReflection.isAssignableFrom(Collection.class, type)
+5718	typeName != null
+5719	serializer != null
+5720	type == Short.class
+5720	type == Byte.class
+5720	type == Integer.class
+5720	type == Long.class
+5720	type == Double.class
+5720	type == String.class
+5720	type == Character.class
+5720	ClassReflection.isAssignableFrom(Enum.class, type)
+5720	type == Boolean.class
+5720	type == Float.class
+5721	object instanceof Serializable
+5722	object instanceof ObjectMap
+5723	object instanceof ArrayMap
+5724	object instanceof Map
+5725	child.name.equals(typeName)
+5726	type != null
+5727	serializer != null
+5728	ClassReflection.isAssignableFrom(Serializable.class, type)
+5729	jsonData.isArray()
+5730	type == Object.class
+5730	type == null
+5731	ClassReflection.isAssignableFrom(Array.class, type)
+5732	ClassReflection.isAssignableFrom(Queue.class, type)
+5733	ClassReflection.isAssignableFrom(Collection.class, type)
+5734	type.isArray()
+5735	elementType == null
+5736	jsonData.isNumber()
+5737	type == float.class
+5737	type == Float.class
+5737	type == null
+5738	type == int.class
+5738	type == Integer.class
+5739	type == long.class
+5739	type == Long.class
+5740	type == Double.class
+5740	type == double.class
+5741	type == String.class
+5742	type == Short.class
+5742	type == short.class
+5743	type == Byte.class
+5743	type == byte.class
+5744	jsonData.isBoolean()
+5745	type == Boolean.class
+5745	type == null
+5745	type == boolean.class
+5746	jsonData.isString()
+5747	type == null
+5747	type == String.class
+5748	type == int.class
+5748	type == Integer.class
+5749	type == float.class
+5749	type == Float.class
+5750	type == long.class
+5750	type == Long.class
+5751	type == double.class
+5751	type == Double.class
+5752	type == short.class
+5752	type == Short.class
+5753	type == Byte.class
+5753	type == byte.class
+5754	type == boolean.class
+5754	type == Boolean.class
+5755	type == char.class
+5755	type == Character.class
+5756	ClassReflection.isAssignableFrom(Enum.class, type)
+5757	string.equals(convertToString(e))
+5758	type == CharSequence.class
+5759	object instanceof Enum
+5760	object instanceof Class
+5761	ClassReflection.isAssignableFrom(Enum.class, type)
+5762	type.getEnumConstants() == null
+5763	type.isArray()
+5764	ClassReflection.isStaticClass(type)
+5764	ClassReflection.isMemberClass(type)
+4014	length == -1
+4015	length == 0
+4016	debug
+4017	p == pe
+4018	cs == 0
+4019	_klen > 0
+4020	_upper < _lower
+4021	data[p] < _json_trans_keys[_mid]
+4022	data[p] > _json_trans_keys[_mid]
+4023	_klen > 0
+4024	_upper < _lower
+4025	data[p] < _json_trans_keys[_mid]
+4026	data[p] > _json_trans_keys[_mid + 1]
+4027	_json_trans_actions[_trans] != 0
+4028	needsUnescape
+4029	stringIsName
+4030	debug
+4031	stringIsUnquoted
+4032	value.equals("true")
+4033	debug
+4034	value.equals("false")
+4035	debug
+4036	value.equals("null")
+4037	couldBeDouble
+4038	debug
+4039	couldBeLong
+4040	debug
+4041	debug
+4042	debug
+4043	top == stack.length
+4044	debug
+4045	debug
+4046	top == stack.length
+4047	debug
+4048	data[p++] == '/'
+4049	debug
+4050	debug
+4051	stringIsName
+4052	p + 1 == eof
+4053	c == '*'
+4053	c == '/'
+4054	debug
+4055	p == eof
+4056	p + 1 == eof
+4057	c == '/'
+4057	c == '*'
+4058	debug
+4059	p == eof
+4060	debug
+4061	p == eof
+4062	cs == 0
+4063	++p != pe
+4064	p == eof
+4065	needsUnescape
+4066	stringIsName
+4067	debug
+4068	stringIsUnquoted
+4069	value.equals("true")
+4070	debug
+4071	value.equals("false")
+4072	debug
+4073	value.equals("null")
+4074	couldBeDouble
+4075	debug
+4076	couldBeLong
+4077	debug
+4078	debug
+4079	p < pe
+4080	data[i] == '\n'
+4081	elements.size != 0
+4082	element.isObject()
+4082	element != null
+4083	parseRuntimeEx != null
+4084	current == null
+4085	current.isArray()
+4085	current.isObject()
+4086	current.size == 0
+4087	current != null
+4088	current != null
+4089	current.size > 0
+4090	c != '\\'
+4091	i == length
+4092	c == 'u'
+5355	current == null
+5356	current == null
+5357	child == null
+5358	child.prev == null
+5359	this.child != null
+5360	child.next != null
+5361	child == null
+5362	child.prev == null
+5363	this.child != null
+5364	child.next != null
+5365	type != ValueType.array
+5366	type != ValueType.array
+5367	type != ValueType.array
+5368	type != ValueType.array
+5369	type != ValueType.array
+5370	type != ValueType.array
+5371	type != ValueType.array
+5372	type != ValueType.array
+5373	type != ValueType.array
+5374	child == null
+5375	child == null
+5376	child == null
+5377	child == null
+5378	child == null
+5379	child == null
+5380	child == null
+5381	child == null
+5382	child == null
+5383	child == null
+5384	child == null
+5385	child == null
+5386	child == null
+5387	child == null
+5388	child == null
+5389	child == null
+5390	child == null
+5391	child == null
+5392	type == null
+5393	current == null
+5394	current.next == null
+5395	isValue()
+5396	object.isObject()
+5397	object.child == null
+5398	child.next != null
+5399	object.isArray()
+5400	object.child == null
+5401	child.next != null
+5402	object.isString()
+5403	object.isDouble()
+5404	object.isLong()
+5405	object.isBoolean()
+5406	object.isNull()
+5407	isValue()
+5408	object.isObject()
+5409	object.child == null
+5410	newLines
+5411	child.next != null
+5411	newLines
+5411	outputType != OutputType.minimal
+5412	buffer.length() - start > settings.singleLineColumns
+5412	newLines
+5413	newLines
+5414	object.isArray()
+5415	object.child == null
+5416	newLines
+5417	child.next != null
+5417	outputType != OutputType.minimal
+5417	newLines
+5418	wrap
+5418	newLines
+5418	buffer.length() - start > settings.singleLineColumns
+5419	newLines
+5420	object.isString()
+5421	object.isDouble()
+5422	object.isLong()
+5423	object.isBoolean()
+5424	object.isNull()
+5425	child.isObject()
+5425	child.isArray()
+5426	child.isNumber()
+5427	parent == null
+5428	type == ValueType.array
+5429	type == ValueType.object
+5430	parent.type == ValueType.array
+5431	child == this
+5432	name.indexOf('.') != -1
+4534	current == null
+4534	current.array
+4535	current.needsComma
+4536	value instanceof BigDecimal
+4536	value instanceof Double
+4536	value instanceof Long
+4536	quoteLongValues
+4536	value instanceof BigInteger
+4537	value instanceof Number
+4538	number.doubleValue() == longValue
+4539	current == null
+4540	current.array
+4541	current.needsComma
+4542	named
+4543	named
+4544	value == null
+4545	value instanceof Boolean
+4545	value instanceof Number
+4546	string.equals("true")
+4546	string.contains("/*")
+4546	this == OutputType.minimal
+4546	string.equals("false")
+4546	string.contains("//")
+4546	string.equals("null")
+4547	minimalValuePattern.matcher(buffer).matches()
+4547	length > 0
+4547	buffer.charAt(length - 1) != ' '
+4548	value.contains("/*")
+4548	minimalNamePattern.matcher(buffer).matches()
+4548	value.contains("//")
+4549	javascriptPattern.matcher(buffer).matches()
+2272	compressedData != null
+2273	file == null
+2274	file.name().endsWith(".zktx")
+2275	compressedData.get() != (byte)0x0AB
+2276	compressedData.get() != (byte)0x04B
+2277	compressedData.get() != (byte)0x054
+2278	compressedData.get() != (byte)0x058
+2279	compressedData.get() != (byte)0x020
+2280	compressedData.get() != (byte)0x031
+2281	compressedData.get() != (byte)0x031
+2282	compressedData.get() != (byte)0x0BB
+2283	compressedData.get() != (byte)0x00D
+2284	compressedData.get() != (byte)0x00A
+2285	compressedData.get() != (byte)0x01A
+2286	compressedData.get() != (byte)0x00A
+2287	endianTag != 0x04030201
+2287	endianTag != 0x01020304
+2288	endianTag != 0x04030201
+2289	numberOfMipmapLevels == 0
+2290	compressedData.isDirect()
+2291	compressedData == null
+2292	glType == 0
+2292	glFormat == 0
+2293	glType + glFormat != 0
+2294	pixelHeight > 0
+2295	pixelDepth > 0
+2296	numberOfFaces == 6
+2297	textureDimensions == 2
+2298	numberOfFaces != 1
+2299	numberOfArrayElements > 0
+2300	glTarget == GL_TEXTURE_1D
+2301	glTarget == GL20.GL_TEXTURE_2D
+2302	glTarget == 0x1234
+2303	numberOfFaces == 6
+2303	target != GL20.GL_TEXTURE_CUBE_MAP
+2304	target <= GL20.GL_TEXTURE_CUBE_MAP_NEGATIVE_Z
+2304	GL20.GL_TEXTURE_CUBE_MAP_POSITIVE_X <= target
+2305	numberOfFaces == 6
+2305	target == GL20.GL_TEXTURE_CUBE_MAP
+2306	target == GL20.GL_TEXTURE_2D
+2306	GL20.GL_TEXTURE_CUBE_MAP_POSITIVE_X <= target
+2306	target <= GL20.GL_TEXTURE_CUBE_MAP_NEGATIVE_Z
+2306	target != glTarget
+2307	previousUnpackAlignment != 4
+2308	singleFace != face
+2308	singleFace != -1
+2309	textureDimensions == 1
+2310	textureDimensions == 2
+2311	numberOfArrayElements > 0
+2312	compressed
+2313	glInternalFormat == ETC1.ETC1_RGB8_OES
+2314	Gdx.graphics.supportsExtension("GL_OES_compressed_ETC1_RGB8_texture")
+2315	textureDimensions == 3
+2316	numberOfArrayElements > 0
+2317	previousUnpackAlignment != 4
+2318	useMipMaps()
+2319	compressedData != null
+2320	level == requestedLevel
+2321	face == requestedFace
+943	text != null
+944	text != null
+944	text.length() > 0
+945	style == null
+946	style.font == null
+947	newText == null
+948	newText instanceof StringBuilder
+949	text.equals(newText)
+950	textEquals(newText)
+951	length != other.length()
+952	chars[i] != other.charAt(i)
+953	fontScaleChanged
+954	fontScaleChanged
+955	ellipsis == null
+955	wrap
+956	style.background != null
+957	fontScaleChanged
+958	wrap
+959	prefHeight != lastPrefHeight
+960	background != null
+961	text.indexOf("\n") != -1
+961	wrap
+962	(labelAlign & Align.left) == 0
+963	(labelAlign & Align.right) != 0
+964	(labelAlign & Align.top) != 0
+965	(labelAlign & Align.bottom) != 0
+966	cache.getFont().isFlipped()
+967	fontScaleChanged
+968	style.background != null
+969	style.fontColor != null
+970	wrap
+971	prefSizeInvalid
+972	background != null
+973	prefSizeInvalid
+974	fontScaleChanged
+975	background != null
+976	(lineAlign & Align.left) != 0
+977	(lineAlign & Align.right) != 0
+978	ellipsis
+1246	actor instanceof Layout
+1246	actor != null
+709	items.size == 0
+710	style.background != null
+711	style == null
+712	background != null
+713	background != null
+714	cullingArea == null
+714	itemY - itemHeight <= cullingArea.y + cullingArea.height
+714	itemY >= cullingArea.y
+715	selected
+716	selected
+717	itemY < cullingArea.y
+718	items.contains(item, false)
+719	selection.getRequired()
+719	items.size > 0
+720	index >= items.size
+720	index < -1
+721	index == -1
+722	newItems == null
+723	oldPrefHeight != getPrefHeight()
+723	oldPrefWidth != getPrefWidth()
+724	newItems == null
+725	oldPrefWidth != getPrefWidth()
+725	oldPrefHeight != getPrefHeight()
+726	items.size == 0
+4418	level >= DEBUG
+4419	level >= DEBUG
+4420	level >= INFO
+4421	level >= INFO
+4422	level >= ERROR
+4423	level >= ERROR
+5013	size == items.length
+5014	offset + length > array.size
+5015	sizeNeeded > items.length
+5016	index >= size
+5017	index >= size
+5018	index >= size
+5019	index >= size
+5020	index > size
+5021	size == items.length
+5022	ordered
+5023	first >= size
+5024	second >= size
+5025	items[i--] == value
+5026	items[i] == value
+5027	items[i] == value
+5028	items[i] == value
+5029	index >= size
+5030	ordered
+5031	end >= size
+5032	start > end
+5033	ordered
+5034	item == items[ii]
+5035	size == 0
+5036	items.length != size
+5037	sizeNeeded > items.length
+5038	newSize > items.length
+5039	size > newSize
+5040	size == 0
+5041	ordered
+5042	object == this
+5043	ordered
+5044	object instanceof LongArray
+5045	array.ordered
+5046	n != array.size
+5047	items[i] != array.items[i]
+5048	size == 0
+5049	size == 0
+4550	initialCapacity < 0
+4551	initialCapacity > 1 << 30
+4552	loadFactor <= 0
+4553	key == 0
+4554	hasZeroValue
+4555	key1 == key
+4556	key2 == key
+4557	key3 == key
+4558	keyTable[i] == key
+4559	key1 == EMPTY
+4560	size++ >= threshold
+4561	key2 == EMPTY
+4562	size++ >= threshold
+4563	key3 == EMPTY
+4564	size++ >= threshold
+4565	key == 0
+4566	key1 == EMPTY
+4567	size++ >= threshold
+4568	key2 == EMPTY
+4569	size++ >= threshold
+4570	key3 == EMPTY
+4571	size++ >= threshold
+4572	key1 == EMPTY
+4573	size++ >= threshold
+4574	key2 == EMPTY
+4575	size++ >= threshold
+4576	key3 == EMPTY
+4577	size++ >= threshold
+4578	++i == pushIterations
+4579	stashSize == stashCapacity
+4580	key == 0
+4581	hasZeroValue
+4582	keyTable[index] != key
+4583	keyTable[index] != key
+4584	keyTable[index] != key
+4585	key == 0
+4586	hasZeroValue
+4587	keyTable[index] != key
+4588	keyTable[index] != key
+4589	keyTable[index] != key
+4590	keyTable[i] == key
+4591	key == 0
+4592	hasZeroValue
+4593	keyTable[index] == key
+4594	keyTable[index] == key
+4595	keyTable[index] == key
+4596	keyTable[i] == key
+4597	index < lastIndex
+4598	maximumCapacity < 0
+4599	size > maximumCapacity
+4600	capacity <= maximumCapacity
+4601	capacity <= maximumCapacity
+4602	size == 0
+4603	value == null
+4604	zeroValue == null
+4604	hasZeroValue
+4605	keyTable[i] != EMPTY
+4605	valueTable[i] == null
+4606	identity
+4607	value == zeroValue
+4608	valueTable[i] == value
+4609	value.equals(zeroValue)
+4609	hasZeroValue
+4610	value.equals(valueTable[i])
+4611	key == 0
+4612	keyTable[index] != key
+4613	keyTable[index] != key
+4614	keyTable[index] != key
+4615	keyTable[i] == key
+4616	value == null
+4617	hasZeroValue
+4617	zeroValue == null
+4618	valueTable[i] == null
+4618	keyTable[i] != EMPTY
+4619	identity
+4620	value == zeroValue
+4621	valueTable[i] == value
+4622	hasZeroValue
+4622	value.equals(zeroValue)
+4623	value.equals(valueTable[i])
+4624	sizeNeeded >= threshold
+4625	oldSize > 0
+4626	key != EMPTY
+4627	hasZeroValue
+4627	zeroValue != null
+4628	key != EMPTY
+4629	value != null
+4630	obj == this
+4631	obj instanceof LongMap
+4632	other.size != size
+4633	other.hasZeroValue != hasZeroValue
+4634	hasZeroValue
+4635	other.zeroValue == null
+4636	zeroValue != null
+4637	other.zeroValue.equals(zeroValue)
+4638	key != EMPTY
+4639	value == null
+4640	other.containsKey(key)
+4640	other.get(key) != null
+4641	value.equals(other.get(key))
+4642	size == 0
+4643	key == EMPTY
+4644	key == EMPTY
+4645	entries1 == null
+4646	entries1.valid
+4647	values1 == null
+4648	values1.valid
+4649	keys1 == null
+4650	keys1.valid
+6339	params.Eos
+6340	encoder.SetAlgorithm(params.Algorithm)
+6341	encoder.SetDictionarySize(params.DictionarySize)
+6342	encoder.SetNumFastBytes(params.Fb)
+6343	encoder.SetMatchFinder(params.MatchFinder)
+6344	encoder.SetLcLpPb(params.Lc, params.Lp, params.Pb)
+6345	eos
+6346	(fileSize = in.available()) == 0
+6347	in.read(properties, 0, propertiesSize) != propertiesSize
+6348	decoder.SetDecoderProperties(properties)
+6349	v < 0
+6350	decoder.Code(in, out, outSize)
+3385	name.equals(layer.getName())
+3386	ClassReflection.isInstance(type, layer)
+3383	name.equals(object.getName())
+3384	ClassReflection.isInstance(type, object)
+3987	x == 0f
+3988	y > 0f
+3989	y == 0f
+3990	Math.abs(z) < 1f
+3991	x < 0f
+3992	u <= (mode - min) / d
+3993	value == 0
+3994	value < min
+3995	value > max
+3996	value < min
+3997	value > max
+3998	value < min
+3999	value > max
+4000	value < min
+4001	value > max
+4002	value < min
+4003	value > max
+3693	det == 0
+3694	radians == 0
+3639	l_det == 0f
+3640	degrees == 0
+3641	radians == 0
+3642	degrees == 0
+3643	radians == 0
+3644	degrees == 0
+3645	radians == 0
+3646	degrees == 0
+3647	radians == 0
+2491	Gdx.gl30 != null
+2492	count == -1
+2493	count > vertices.length - destOffset
+2494	count <= 0
+2494	destOffset >= vertices.length
+2494	srcOffset < 0
+2494	destOffset < 0
+2494	(srcOffset + count) > max
+2495	(vertices.length - destOffset) < count
+2496	count < 0
+2497	srcOffset < 0
+2497	srcOffset >= max
+2497	srcOffset + count > max
+2498	(indices.length - destOffset) < count
+2499	indices.getNumIndices() > 0
+2500	indices.getNumIndices() > 0
+2501	count == 0
+2502	autoBind
+2503	isVertexArray
+2504	indices.getNumIndices() > 0
+2505	indices.getNumIndices() > 0
+2506	autoBind
+2507	meshes.get(Gdx.app) != null
+2508	attributes.get(i).usage == usage
+2509	numVertices == 0
+2510	offset + count > max
+2510	offset < 0
+2510	count < 1
+2511	numIndices > 0
+2512	transform != null
+2513	transform != null
+2514	numIndices > 0
+2515	transform != null
+2516	transform != null
+2517	numIndices > 0
+2518	transform != null
+2519	transform != null
+2520	count < 1
+2520	offset + count > numIndices
+2520	offset < 0
+2521	transform != null
+2522	r > result
+2523	transform != null
+2524	r > result
+2525	transform != null
+2526	r > result
+2527	managedResources == null
+2528	meshesArray == null
+2529	offset < 0
+2529	dimensions < 1
+2529	(offset + dimensions) > vertexSize
+2530	start < 0
+2530	((start + count) * vertexSize) > vertices.length
+2530	count < 1
+2531	count < 1
+2531	start < 0
+2531	((start + count) * vertexSize) > vertices.length
+2532	usage != null
+2533	getVertexAttribute(usage[i]) != null
+2534	size > 0
+2535	a == null
+2536	checks == null
+2537	numIndices > 0
+2538	newVertexSize != vertexSize
+2538	removeDuplicates
+2539	removeDuplicates
+2540	tmp[idx2 + k] != vertices[idx1 + checks[k]]
+2541	found
+2542	newIndex > 0
+2543	attrs == null
+3301	(usage & Usage.Position) == Usage.Position
+3302	(usage & Usage.ColorUnpacked) == Usage.ColorUnpacked
+3303	(usage & Usage.ColorPacked) == Usage.ColorPacked
+3304	(usage & Usage.Normal) == Usage.Normal
+3305	(usage & Usage.TextureCoordinates) == Usage.TextureCoordinates
+3306	this.attributes != null
+3307	this.vertex == null
+3307	this.vertex.length < stride
+3308	a == null
+3309	part != null
+3310	this.attributes == null
+3311	attributes == null
+3312	attributes.equals(mesh.getVertexAttributes())
+3313	(mesh.getMaxVertices() * stride) < vertices.size
+3314	mesh.getMaxIndices() < indices.size
+3315	attributes == null
+3316	destOffset < 0
+3316	destOffset > out.length - vertices.size
+3317	attributes == null
+3318	destOffset > out.length - indices.size
+3318	destOffset < 0
+3319	hasUVTransform = (region != null)
+3320	(vertexTransformationEnabled = (transform != null)) == true
+3321	primitiveType == GL20.GL_LINES
+3322	primitiveType == GL20.GL_TRIANGLES
+3322	primitiveType == GL20.GL_POINTS
+3323	primitiveType == GL20.GL_POINTS
+3324	primitiveType == GL20.GL_LINES
+3325	size > 2
+3326	size > 1
+3327	size > 2
+3328	size > 1
+3329	vertexTransformationEnabled
+3330	norOffset >= 0
+3331	biNorOffset >= 0
+3332	tangentOffset >= 0
+3333	hasColor
+3334	colOffset >= 0
+3335	colSize > 3
+3336	cpOffset >= 0
+3337	uvOffset >= 0
+3337	hasUVTransform
+3338	vindex > Short.MAX_VALUE
+3339	posSize > 1
+3340	posSize > 2
+3341	norOffset >= 0
+3342	nor == null
+3343	colOffset >= 0
+3344	col == null
+3345	colSize > 3
+3346	cpOffset > 0
+3347	col == null
+3348	uv != null
+3348	uvOffset >= 0
+3349	primitiveType != GL20.GL_LINES
+3350	primitiveType == GL20.GL_TRIANGLES
+3350	primitiveType == GL20.GL_POINTS
+3351	primitiveType == GL20.GL_LINES
+3352	primitiveType == GL20.GL_TRIANGLES
+3353	primitiveType == GL20.GL_LINES
+3354	primitiveType == GL20.GL_POINTS
+3355	meshpart.primitiveType != primitiveType
+3356	attributes.equals(mesh.getVertexAttributes())
+3357	numIndices <= 0
+3358	indicesMap == null
+3359	didx < 0
+2758	arg0 == null
+2759	arg0 == this
+2760	arg0 instanceof MeshPart
+2652	mesh.getVertexAttribute(Usage.Position) == null
+2653	model != null
+2654	descriptor != null
+5653	annotations == null
+5654	annotation.annotationType().equals(annotationType)
+2355	useHWMipMap
+2356	Gdx.app.getType() == ApplicationType.Android
+2356	Gdx.app.getType() == ApplicationType.iOS
+2356	Gdx.app.getType() == ApplicationType.WebGL
+2357	Gdx.graphics.supportsExtension("GL_EXT_framebuffer_object")
+2357	Gdx.graphics.supportsExtension("GL_ARB_framebuffer_object")
+2357	Gdx.gl30 != null
+2358	Gdx.gl20 == null
+2358	textureWidth != textureHeight
+2359	level > 1
+2973	node == null
+2974	nanim.translation != null
+2975	kf.keytime > animation.duration
+2976	nanim.rotation != null
+2977	kf.keytime > animation.duration
+2978	nanim.scaling != null
+2979	kf.keytime > animation.duration
+2980	nodeAnim.rotation != null
+2980	nodeAnim.rotation.size > 0
+2980	nodeAnim.scaling != null
+2980	nodeAnim.translation != null
+2980	nodeAnim.scaling.size > 0
+2980	nodeAnim.translation.size > 0
+2981	animation.nodeAnimations.size > 0
+2982	e.key.invBoneBindTransforms == null
+2983	modelNode.translation != null
+2984	modelNode.rotation != null
+2985	modelNode.scale != null
+2986	modelNode.parts != null
+2987	modelNodePart.meshPartId != null
+2988	modelNodePart.meshPartId.equals(part.id)
+2989	modelNodePart.materialId != null
+2990	modelNodePart.materialId.equals(material.id)
+2991	meshMaterial == null
+2991	meshPart == null
+2992	meshPart != null
+2992	meshMaterial != null
+2993	modelNodePart.bones != null
+2994	modelNode.children != null
+2995	mtl.ambient != null
+2996	mtl.diffuse != null
+2997	mtl.specular != null
+2998	mtl.emissive != null
+2999	mtl.reflection != null
+3000	mtl.shininess > 0f
+3001	mtl.opacity != 1.f
+3002	mtl.textures != null
+3003	textures.containsKey(tex.fileName)
+3004	disposables.contains(disposable, true)
+3005	ignoreCase
+3006	(animation = animations.get(i)).id.equalsIgnoreCase(id)
+3007	(animation = animations.get(i)).id.equals(id)
+3008	ignoreCase
+3009	(material = materials.get(i)).id.equalsIgnoreCase(id)
+3010	(material = materials.get(i)).id.equals(id)
+3126	camera != null
+3127	ownContext
+3128	camera == null
+3129	renderables.size > 0
+3130	currentShader != renderable.shader
+3131	currentShader != null
+3132	currentShader != null
+3133	ownContext
+3231	mb.getAttributes().equals(attributes)
+3231	mb.lastIndex() < Short.MAX_VALUE / 2
+3232	model != null
+3233	model == null
+3234	node != null
+3235	model == null
+3236	model == null
+3237	node == null
+3238	model.materials.contains(mpm.material, true)
+3239	model.meshParts.contains(mpm.meshPart, true)
+3240	model.meshes.contains(mpm.meshPart.mesh, true)
+2585	building
+2586	building
+2587	items.size == 0
+2588	samePart
+2589	sameMesh
+2590	building
+2591	renderable.bones == null
+2592	building
+2593	building
+2779	other.id.equals(mesh.id)
+2731	model == null
+2920	mergeTransform
+2921	copy.hasParent()
+2921	parentTransform
+2922	rootNodeIds == null
+2923	nodeId.equals(node.id)
+2924	nodeId.equals(node.id)
+2925	bindPose != null
+2926	materials.contains(part.material, true)
+2927	midx < 0
+2928	node == null
+2929	shareKeyframes
+2930	nanim.translation != null
+2931	nanim.rotation != null
+2932	nanim.scaling != null
+2933	nodeAnim.translation != null
+2933	nodeAnim.rotation != null
+2933	nodeAnim.scaling != null
+2934	animation.nodeAnimations.size > 0
+2935	transform != null
+2935	nodePart.bones == null
+2936	transform != null
+2937	node.parts.size > 0
+2938	nodePart.enabled
+2939	ignoreCase
+2940	(animation = animations.get(i)).id.equalsIgnoreCase(id)
+2941	(animation = animations.get(i)).id.equals(id)
+2942	ignoreCase
+2943	(material = materials.get(i)).id.equalsIgnoreCase(id)
+2944	(material = materials.get(i)).id.equals(id)
+2674	hasRotation
+2675	hasColor
+2676	blendingAttribute != null
+1535	data == null
+1536	modelMaterial.textures != null
+1537	items.get(i).key.equals(fileName)
+1538	data == null
+1539	disposable instanceof Texture
+3371	httpRequest.getUrl() == null
+3372	method.equalsIgnoreCase(HttpMethods.GET)
+3373	"".equals(value)
+3373	value != null
+3374	httpResponseListener != null
+3363	hints != null
+3364	hostname != null
+3365	hints != null
+3366	server != null
+3367	hints != null
+3368	hints != null
+3369	socket != null
+3370	socket != null
+1831	region == null
+1832	top > 0
+1833	left > 0
+1834	middleWidth > 0
+1835	right > 0
+1836	middleHeight > 0
+1837	left > 0
+1838	middleWidth > 0
+1839	right > 0
+1840	bottom > 0
+1841	left > 0
+1842	middleWidth > 0
+1843	right > 0
+1844	middleWidth == 0
+1844	left == 0
+1845	top == 0
+1845	middleHeight == 0
+1846	patches == null
+1846	patches.length != 9
+1847	patches[BOTTOM_LEFT] != null
+1847	patches[BOTTOM_LEFT].getRegionWidth() != leftWidth
+1847	patches[TOP_LEFT].getRegionWidth() != leftWidth
+1847	patches[TOP_LEFT] != null
+1847	patches[MIDDLE_LEFT].getRegionWidth() != leftWidth
+1847	patches[MIDDLE_LEFT] != null
+1848	patches[MIDDLE_RIGHT] != null
+1848	patches[MIDDLE_RIGHT].getRegionWidth() != rightWidth
+1848	patches[TOP_RIGHT] != null
+1848	patches[BOTTOM_RIGHT] != null
+1848	patches[BOTTOM_RIGHT].getRegionWidth() != rightWidth
+1848	patches[TOP_RIGHT].getRegionWidth() != rightWidth
+1849	patches[BOTTOM_CENTER].getRegionHeight() != bottomHeight
+1849	patches[BOTTOM_LEFT] != null
+1849	patches[BOTTOM_RIGHT].getRegionHeight() != bottomHeight
+1849	patches[BOTTOM_RIGHT] != null
+1849	patches[BOTTOM_LEFT].getRegionHeight() != bottomHeight
+1849	patches[BOTTOM_CENTER] != null
+1850	patches[TOP_CENTER] != null
+1850	patches[TOP_LEFT].getRegionHeight() != topHeight
+1850	patches[TOP_CENTER].getRegionHeight() != topHeight
+1850	patches[TOP_RIGHT] != null
+1850	patches[TOP_LEFT] != null
+1850	patches[TOP_RIGHT].getRegionHeight() != topHeight
+1851	patches[BOTTOM_LEFT] != null
+1852	patches[BOTTOM_CENTER] != null
+1853	patches[BOTTOM_RIGHT] != null
+1854	patches[MIDDLE_LEFT] != null
+1855	patches[MIDDLE_CENTER] != null
+1856	patches[MIDDLE_RIGHT] != null
+1857	patches[TOP_LEFT] != null
+1858	patches[TOP_CENTER] != null
+1859	patches[TOP_RIGHT] != null
+1860	idx < vertices.length
+1861	texture == null
+1862	texture != region.getTexture()
+1863	texture.getMagFilter() == TextureFilter.Linear
+1863	texture.getMinFilter() == TextureFilter.Linear
+1864	isStretchW
+1865	isStretchH
+1866	bottomLeft != -1
+1867	bottomCenter != -1
+1868	bottomRight != -1
+1869	middleLeft != -1
+1870	middleCenter != -1
+1871	middleRight != -1
+1872	topLeft != -1
+1873	topCenter != -1
+1874	topRight != -1
+1875	rotation != 0
+1876	scaleX != 1
+1876	scaleY != 1
+1877	padLeft == -1
+1878	padRight == -1
+1879	padTop == -1
+1880	padBottom == -1
+1881	padLeft != -1
+1882	padRight != -1
+1883	padTop != -1
+1884	padBottom != -1
+2761	isAnimated
+2762	parent != null
+2762	inheritTransform
+2763	recursive
+2764	part.invBoneBindTransforms.size != part.bones.length
+2764	part.bones == null
+2764	part.invBoneBindTransforms == null
+2765	recursive
+2766	part.enabled
+2767	transform
+2768	parent != null
+2769	p == child
+2770	p != null
+2770	p.removeChild(child)
+2771	index >= children.size
+2771	index < 0
+2772	index > children.size
+2772	index < 0
+2773	children.removeValue(child, true)
+2774	ignoreCase
+2775	(node = nodes.get(i)).id.equalsIgnoreCase(id)
+2776	(node = nodes.get(i)).id.equals(id)
+2777	recursive
+2778	(node = getNode(nodes.get(i).children, id, true, ignoreCase)) != null
+2754	other.invBoneBindTransforms == null
+2755	invBoneBindTransforms == null
+2756	bones == null
+2756	bones.length != invBoneBindTransforms.size
+2757	bones[i] == null
+2795	logWarning
+2796	tokens.length < 1
+2797	tokens[0].length() == 0
+2798	(firstChar = tokens[0].toLowerCase().charAt(0)) == '#'
+2799	firstChar == 'v'
+2800	tokens[0].length() == 1
+2801	tokens[0].charAt(1) == 'n'
+2802	tokens[0].charAt(1) == 't'
+2803	firstChar == 'f'
+2804	parts.length > 2
+2805	i == 1
+2806	parts[1].length() > 0
+2806	parts.length > 1
+2807	i == 1
+2808	parts.length > 2
+2809	parts[1].length() > 0
+2809	parts.length > 1
+2810	parts.length > 2
+2811	parts.length > 1
+2811	parts[1].length() > 0
+2812	firstChar == 'g'
+2812	firstChar == 'o'
+2813	tokens.length > 1
+2814	tokens[0].equals("mtllib")
+2815	tokens[0].equals("usemtl")
+2816	tokens.length == 1
+2817	groups.get(i).numFaces < 1
+2818	groups.size < 1
+2819	hasNorms
+2820	hasUVs
+2821	numIndices > 0
+2822	hasNorms
+2823	hasUVs
+2824	verts.size > 0
+2825	norms.size > 0
+2826	uvs.size > 0
+2827	groups.size > 0
+2828	group.name.equals(name)
+2829	index == null
+2829	index.length() == 0
+2830	idx < 0
+2831	file.exists() == false
+2831	file == null
+2832	line.length() > 0
+2832	line.charAt(0) == '\t'
+2833	tokens[0].length() == 0
+2834	tokens[0].charAt(0) == '#'
+2835	key.equals("newmtl")
+2836	texFilename != null
+2837	mat.textures == null
+2838	tokens.length > 1
+2839	key.equals("ks")
+2839	key.equals("kd")
+2840	tokens.length > 4
+2841	tokens[0].toLowerCase().equals("kd")
+2842	key.equals("tr")
+2842	key.equals("d")
+2843	key.equals("ns")
+2844	key.equals("map_kd")
+2845	texFilename != null
+2846	mat.textures == null
+2847	m.id.equals(name)
+5858	initialCapacity < 0
+5859	initialCapacity > 1 << 30
+5860	loadFactor <= 0
+5861	key == null
+5862	key.equals(key1)
+5863	key.equals(key2)
+5864	key.equals(key3)
+5865	key.equals(keyTable[i])
+5866	key1 == null
+5867	size++ >= threshold
+5868	key2 == null
+5869	size++ >= threshold
+5870	key3 == null
+5871	size++ >= threshold
+5872	key1 == null
+5873	size++ >= threshold
+5874	key2 == null
+5875	size++ >= threshold
+5876	key3 == null
+5877	size++ >= threshold
+5878	key1 == null
+5879	size++ >= threshold
+5880	key2 == null
+5881	size++ >= threshold
+5882	key3 == null
+5883	size++ >= threshold
+5884	++i == pushIterations
+5885	stashSize == stashCapacity
+5886	key.equals(keyTable[index])
+5887	key.equals(keyTable[index])
+5888	key.equals(keyTable[index])
+5889	key.equals(keyTable[i])
+5890	key.equals(keyTable[index])
+5891	key.equals(keyTable[index])
+5892	key.equals(keyTable[index])
+5893	key.equals(keyTable[i])
+5894	key.equals(keyTable[index])
+5895	key.equals(keyTable[index])
+5896	key.equals(keyTable[index])
+5897	key.equals(keyTable[i])
+5898	index < lastIndex
+5899	maximumCapacity < 0
+5900	size > maximumCapacity
+5901	capacity <= maximumCapacity
+5902	capacity <= maximumCapacity
+5903	size == 0
+5904	keyTable[i] != null
+5904	valueTable[i] == value
+5905	key.equals(keyTable[index])
+5906	key.equals(keyTable[index])
+5907	key.equals(keyTable[index])
+5908	key.equals(keyTable[i])
+5909	keyTable[i] != null
+5909	valueTable[i] == value
+5910	sizeNeeded >= threshold
+5911	oldSize > 0
+5912	key != null
+5913	key != null
+5914	obj == this
+5915	obj instanceof ObjectFloatMap
+5916	other.size != size
+5917	key != null
+5918	otherValue == 0f
+5918	other.containsKey(key)
+5919	otherValue != value
+5920	size == 0
+5921	key == null
+5922	key == null
+5923	entries1 == null
+5924	entries1.valid
+5925	values1 == null
+5926	values1.valid
+5927	keys1 == null
+5928	keys1.valid
+5050	initialCapacity < 0
+5051	initialCapacity > 1 << 30
+5052	loadFactor <= 0
+5053	key == null
+5054	key.equals(key1)
+5055	key.equals(key2)
+5056	key.equals(key3)
+5057	key.equals(keyTable[i])
+5058	key1 == null
+5059	size++ >= threshold
+5060	key2 == null
+5061	size++ >= threshold
+5062	key3 == null
+5063	size++ >= threshold
+5064	key1 == null
+5065	size++ >= threshold
+5066	key2 == null
+5067	size++ >= threshold
+5068	key3 == null
+5069	size++ >= threshold
+5070	key1 == null
+5071	size++ >= threshold
+5072	key2 == null
+5073	size++ >= threshold
+5074	key3 == null
+5075	size++ >= threshold
+5076	++i == pushIterations
+5077	stashSize == stashCapacity
+5078	key.equals(keyTable[index])
+5079	key.equals(keyTable[index])
+5080	key.equals(keyTable[index])
+5081	key.equals(keyTable[i])
+5082	key.equals(keyTable[index])
+5083	key.equals(keyTable[index])
+5084	key.equals(keyTable[index])
+5085	key.equals(keyTable[i])
+5086	key.equals(keyTable[index])
+5087	key.equals(keyTable[index])
+5088	key.equals(keyTable[index])
+5089	key.equals(keyTable[i])
+5090	index < lastIndex
+5091	maximumCapacity < 0
+5092	size > maximumCapacity
+5093	capacity <= maximumCapacity
+5094	capacity <= maximumCapacity
+5095	size == 0
+5096	valueTable[i] == value
+5096	keyTable[i] != null
+5097	key.equals(keyTable[index])
+5098	key.equals(keyTable[index])
+5099	key.equals(keyTable[index])
+5100	key.equals(keyTable[i])
+5101	valueTable[i] == value
+5101	keyTable[i] != null
+5102	sizeNeeded >= threshold
+5103	oldSize > 0
+5104	key != null
+5105	key != null
+5106	obj == this
+5107	obj instanceof ObjectIntMap
+5108	other.size != size
+5109	key != null
+5110	otherValue == 0
+5110	other.containsKey(key)
+5111	otherValue != value
+5112	size == 0
+5113	key == null
+5114	key == null
+5115	entries1 == null
+5116	entries1.valid
+5117	values1 == null
+5118	values1.valid
+5119	keys1 == null
+5120	keys1.valid
+4103	initialCapacity < 0
+4104	initialCapacity > 1 << 30
+4105	loadFactor <= 0
+4106	key == null
+4107	key.equals(key1)
+4108	key.equals(key2)
+4109	key.equals(key3)
+4110	key.equals(keyTable[i])
+4111	key1 == null
+4112	size++ >= threshold
+4113	key2 == null
+4114	size++ >= threshold
+4115	key3 == null
+4116	size++ >= threshold
+4117	key1 == null
+4118	size++ >= threshold
+4119	key2 == null
+4120	size++ >= threshold
+4121	key3 == null
+4122	size++ >= threshold
+4123	key1 == null
+4124	size++ >= threshold
+4125	key2 == null
+4126	size++ >= threshold
+4127	key3 == null
+4128	size++ >= threshold
+4129	++i == pushIterations
+4130	stashSize == stashCapacity
+4131	key.equals(keyTable[index])
+4132	key.equals(keyTable[index])
+4133	key.equals(keyTable[index])
+4134	key.equals(keyTable[i])
+4135	key.equals(keyTable[index])
+4136	key.equals(keyTable[index])
+4137	key.equals(keyTable[index])
+4138	key.equals(keyTable[i])
+4139	key.equals(keyTable[index])
+4140	key.equals(keyTable[index])
+4141	key.equals(keyTable[index])
+4142	key.equals(keyTable[i])
+4143	index < lastIndex
+4144	maximumCapacity < 0
+4145	size > maximumCapacity
+4146	capacity <= maximumCapacity
+4147	capacity <= maximumCapacity
+4148	size == 0
+4149	value == null
+4150	valueTable[i] == null
+4150	keyTable[i] != null
+4151	identity
+4152	valueTable[i] == value
+4153	value.equals(valueTable[i])
+4154	key.equals(keyTable[index])
+4155	key.equals(keyTable[index])
+4156	key.equals(keyTable[index])
+4157	key.equals(keyTable[i])
+4158	value == null
+4159	valueTable[i] == null
+4159	keyTable[i] != null
+4160	identity
+4161	valueTable[i] == value
+4162	value.equals(valueTable[i])
+4163	sizeNeeded >= threshold
+4164	oldSize > 0
+4165	key != null
+4166	key != null
+4167	value != null
+4168	obj == this
+4169	obj instanceof ObjectMap
+4170	other.size != size
+4171	key != null
+4172	value == null
+4173	other.containsKey(key)
+4173	other.get(key) != null
+4174	value.equals(other.get(key))
+4175	size == 0
+4176	braces
+4177	key == null
+4178	key == null
+4179	braces
+4180	entries1 == null
+4181	entries1.valid
+4182	values1 == null
+4183	values1.valid
+4184	keys1 == null
+4185	keys1.valid
+5121	initialCapacity < 0
+5122	initialCapacity > 1 << 30
+5123	loadFactor <= 0
+5124	key == null
+5125	key.equals(key1)
+5126	key.equals(key2)
+5127	key.equals(key3)
+5128	key.equals(keyTable[i])
+5129	key1 == null
+5130	size++ >= threshold
+5131	key2 == null
+5132	size++ >= threshold
+5133	key3 == null
+5134	size++ >= threshold
+5135	offset + length > array.size
+5136	key1 == null
+5137	size++ >= threshold
+5138	key2 == null
+5139	size++ >= threshold
+5140	key3 == null
+5141	size++ >= threshold
+5142	key1 == null
+5143	size++ >= threshold
+5144	key2 == null
+5145	size++ >= threshold
+5146	key3 == null
+5147	size++ >= threshold
+5148	++i == pushIterations
+5149	stashSize == stashCapacity
+5150	key.equals(keyTable[index])
+5151	key.equals(keyTable[index])
+5152	key.equals(keyTable[index])
+5153	key.equals(keyTable[i])
+5154	index < lastIndex
+5155	maximumCapacity < 0
+5156	size > maximumCapacity
+5157	capacity <= maximumCapacity
+5158	capacity <= maximumCapacity
+5159	size == 0
+5160	key.equals(keyTable[index])
+5161	key.equals(keyTable[index])
+5162	key.equals(keyTable[index])
+5163	key.equals(keyTable[i])
+5164	keyTable[i] != null
+5165	sizeNeeded >= threshold
+5166	oldSize > 0
+5167	key != null
+5168	keyTable[i] != null
+5169	obj instanceof ObjectSet
+5170	other.size != size
+5171	other.contains(keyTable[i])
+5171	keyTable[i] != null
+5172	size == 0
+5173	key == null
+5174	key == null
+5175	iterator1 == null
+5176	iterator1.valid
+4820	containsKey(key)
+4821	entries1 == null
+4822	entries1.valid
+4823	values1 == null
+4824	values1.valid
+4825	keys1 == null
+4826	keys1.valid
+4827	size == 0
+4828	i > 0
+4963	super.add(key)
+4964	super.add(key)
+4965	iterator1 == null
+4966	iterator1.valid
+4967	size == 0
+3415	viewBounds.x < cacheBounds.x - tolerance
+3415	viewBounds.y < cacheBounds.y - tolerance
+3415	canCacheMoreS
+3415	viewBounds.x + viewBounds.width > cacheBounds.x + cacheBounds.width + tolerance
+3415	canCacheMoreW
+3415	canCacheMoreE
+3415	canCacheMoreN
+3415	viewBounds.y + viewBounds.height > cacheBounds.y + cacheBounds.height + tolerance
+3416	viewBounds.y < cacheBounds.y - tolerance
+3416	viewBounds.y + viewBounds.height > cacheBounds.y + cacheBounds.height + tolerance
+3416	viewBounds.x < cacheBounds.x - tolerance
+3416	canCacheMoreN
+3416	viewBounds.x + viewBounds.width > cacheBounds.x + cacheBounds.width + tolerance
+3416	canCacheMoreE
+3416	canCacheMoreS
+3416	canCacheMoreW
+3417	cached
+3418	layer instanceof TiledMapTileLayer
+3419	layer instanceof TiledMapImageLayer
+3420	blending
+3421	layer.isVisible()
+3422	blending
+3423	cached
+3424	layer instanceof TiledMapTileLayer
+3425	layer instanceof TiledMapImageLayer
+3426	blending
+3427	layer.isVisible()
+3428	blending
+3429	cell == null
+3430	tile == null
+3431	flipX
+3432	flipY
+3433	rotations != 0
+3434	region == null
+3440	cell == null
+3441	tile != null
+3442	flipX
+3443	flipY
+3444	rotations != 0
+2197	updateFrustum
+2198	yDown
+6330	_buffer == null
+6330	_windowSize != windowSize
+6331	solid
+6332	size == 0
+6333	_pos >= _windowSize
+6334	pos < 0
+6335	pos >= _windowSize
+6336	_pos >= _windowSize
+6337	_pos >= _windowSize
+6338	pos < 0
+1279	complete
+1280	currentAction.getActor() != null
+1280	currentAction.act(delta)
+1281	actor == null
+1282	actor != null
+1283	i > 0
+2709	channel == null
+2710	initializer != null
+2711	channelDescriptor.type == float.class
+2712	channelDescriptor.type == int.class
+2713	array.id == id
+2714	size == capacity
+2715	array.id == descriptor.id
+2716	capacity != requiredCapacity
+2665	particles != null
+2666	particles.size > 0
+2667	boundingBox == null
+2668	ClassReflection.isAssignableFrom(type, influencer.getClass())
+2669	index > -1
+2670	index > -1
+2673	controllerChannel == null
+2752	controllerChannel == null
+2753	hasRotation
+2746	controller != null
+2747	controller != null
+2748	(index = effectControllers.indexOf(controller, true)) > -1
+2749	indices == null
+2750	indices != null
+2751	effect == null
+2671	isCompatible(batch)
+2672	renderData != null
+2073	emitter.isComplete()
+2074	emitter.getName().equals(name)
+2075	index++ > 0
+2076	reader.readLine() == null
+2077	reader.readLine() == null
+2078	imagePath == null
+2079	lastDotIndex != -1
+2080	atlasPrefix != null
+2081	sprite == null
+2082	imagePath == null
+2083	sprite == null
+2084	ownsTexture
+2085	bounds == null
+2705	controllers.get(i).isComplete()
+2706	emitter.name.equals(name)
+2707	bounds == null
+2708	controller.renderer.setBatch(batch)
+1540	param != null
+1540	param.atlasFile != null
+1541	param.imagesDir != null
+1541	param != null
+1542	param != null
+1542	param.atlasFile != null
+2696	resolve(assetData.filename).exists()
+2697	assetData.type == ParticleEffect.class
+2698	parameter.batches != null
+2699	controller.renderer.isCompatible(batch)
+2700	save
+2701	entry.key.equals(fileName)
+2702	parameter != null
+2703	parameter.batches != null
+2704	ClassReflection.isAssignableFrom(type, object.getClass())
+1627	activeCount == maxParticleCount
+1628	active[i]
+1629	count == 0
+1630	active[index]
+1631	accumulator < 1
+1632	delayTimer < delay
+1633	firstUpdate
+1634	durationTimer < duration
+1635	allowCompletion
+1635	continuous
+1636	done
+1637	emissionTime > 0
+1638	emissionDelta >= emissionTime
+1639	activeCount < minParticleCount
+1640	updateParticle(particles[i], delta, deltaMillis)
+1640	active[i]
+1641	premultipliedAlpha
+1642	additive
+1643	active[i]
+1644	premultipliedAlpha
+1644	cleansUpBlendFunction
+1644	additive
+1645	accumulator < 1
+1646	premultipliedAlpha
+1647	additive
+1648	active[i]
+1649	updateParticle(particle, delta, deltaMillis)
+1650	premultipliedAlpha
+1650	cleansUpBlendFunction
+1650	additive
+1651	delayTimer < delay
+1652	firstUpdate
+1653	durationTimer < duration
+1654	continuous
+1654	allowCompletion
+1655	emissionTime > 0
+1656	emissionDelta >= emissionTime
+1657	activeCount < minParticleCount
+1658	emissionValue.isRelative()
+1659	lifeValue.isRelative()
+1660	lifeOffsetValue.isRelative()
+1661	spawnWidthValue.isRelative()
+1662	spawnHeightValue.isRelative()
+1663	angleValue.active
+1663	angleValue.timeline.length > 1
+1664	velocityValue.active
+1665	scaleValue.timeline.length > 1
+1666	rotationValue.timeline.length > 1
+1666	rotationValue.active
+1667	windValue.active
+1668	gravityValue.active
+1669	tintValue.timeline.length > 1
+1670	particle == null
+1671	velocityValue.active
+1672	velocityValue.isRelative()
+1673	angleValue.isRelative()
+1674	(updateFlags & UPDATE_ANGLE) == 0
+1675	scaleValue.isRelative()
+1676	rotationValue.active
+1677	rotationValue.isRelative()
+1678	aligned
+1679	windValue.active
+1680	windValue.isRelative()
+1681	gravityValue.active
+1682	gravityValue.isRelative()
+1683	color == null
+1684	xOffsetValue.active
+1685	yOffsetValue.active
+1686	radiusX == 0
+1686	radiusY == 0
+1687	spawnShapeValue.edges
+1688	(updateFlags & UPDATE_ANGLE) == 0
+1689	px * px + py * py <= radius2
+1690	width != 0
+1691	offsetTime > 0
+1692	offsetTime >= particle.currentLife
+1693	life <= 0
+1694	(updateFlags & UPDATE_SCALE) != 0
+1695	(updateFlags & UPDATE_VELOCITY) != 0
+1696	(updateFlags & UPDATE_ANGLE) != 0
+1697	(updateFlags & UPDATE_ROTATION) != 0
+1698	aligned
+1699	(updateFlags & UPDATE_ROTATION) != 0
+1699	aligned
+1700	aligned
+1701	(updateFlags & UPDATE_WIND) != 0
+1702	(updateFlags & UPDATE_GRAVITY) != 0
+1703	(updateFlags & UPDATE_ROTATION) != 0
+1704	(updateFlags & UPDATE_TINT) != 0
+1705	premultipliedAlpha
+1706	attached
+1707	active[i]
+1708	sprite == null
+1709	particle == null
+1710	allowCompletion
+1710	continuous
+1711	delayTimer < delay
+1712	delayTimer < delay
+1713	particles == null
+1714	particle != null
+1715	bounds == null
+1716	active[i]
+1717	line.startsWith("premultipliedAlpha")
+1718	name == null
+1719	line == null
+2717	defaultVertexShader == null
+2718	defaultFragmentShader == null
+2719	(implementedFlags & materialMask) != materialMask
+2719	config.ignoreUnimplemented
+2720	Gdx.app.getType() == ApplicationType.Desktop
+2721	config.type == ParticleType.Billboard
+2722	config.align == AlignMode.Screen
+2723	config.align == AlignMode.ViewPoint
+2724	other == null
+2725	other == this
+2726	renderable.material.has(BlendingAttribute.Type)
+2727	currentMaterial == renderable.material
+2728	BlendingAttribute.is(t)
+2729	(t & DepthTestAttribute.Type) == DepthTestAttribute.Type
+2730	config.ignoreUnimplemented
+2664	instance == null
+3273	divisionsU < 1
+3273	divisionsV < 1
+3274	u > 0
+3274	v > 0
+4443	exit
+4444	paused
+4445	lastTick > 0L
+4446	valid
+4447	startTime > 0L
+4285	lastTick > 0L
+4286	i != 0
+2481	updateFrustum
+2155	format == Alpha
+2156	format == Intensity
+2157	format == LuminanceAlpha
+2158	format == RGB565
+2159	format == RGBA4444
+2160	format == RGB888
+2161	format == RGBA8888
+2162	format == Gdx2DPixmap.GDX2D_FORMAT_ALPHA
+2163	format == Gdx2DPixmap.GDX2D_FORMAT_LUMINANCE_ALPHA
+2164	format == Gdx2DPixmap.GDX2D_FORMAT_RGB565
+2165	format == Gdx2DPixmap.GDX2D_FORMAT_RGBA4444
+2166	format == Gdx2DPixmap.GDX2D_FORMAT_RGB888
+2167	format == Gdx2DPixmap.GDX2D_FORMAT_RGBA8888
+2168	disposed
+2169	disposed
+2107	disposed
+2108	getRect(name) != null
+2108	name != null
+2109	rect.getHeight() > pageHeight
+2109	rect.getWidth() > pageWidth
+2110	name == null
+2111	name != null
+2112	duplicateBorder
+2112	packToTexture
+2112	page.dirty
+2112	page.texture != null
+2113	duplicateBorder
+2114	rect != null
+2115	rect != null
+2116	rect != null
+2117	page.texture == null
+2118	page.addedRects.size > 0
+1626	page.rects.size > 0
+3651	dist == 0
+3652	dist < 0
+3653	dist == 0
+3654	dist < 0
+2563	color != null
+2564	position != null
+2565	position != null
+2566	color != null
+2962	type != o.type
+2624	Gdx.app.getType() == ApplicationType.Desktop
+2625	pointSpritesEnabled
+2626	renderable.meshPart.mesh != null
+2627	bufferedParticlesCount > 0
+2628	data != null
+3655	vertices.length < 6
+3656	dirty
+3657	worldVertices == null
+3657	worldVertices.length != localVertices.length
+3658	scale
+3659	rotation != 0
+3660	vertices.length < 6
+3661	bounds == null
+3662	y2 <= y
+3662	y1 <= y
+3662	y < y2
+3662	x < ((x2 - x1) / (y2 - y1) * (y - y1) + x1)
+3662	y < y1
+1619	params == null
+1620	line.startsWith(params.texturePrefix)
+1621	image == null
+1621	params.textureExtensions != null
+1622	sibling.exists()
+1623	image != null
+1624	line == null
+1625	line.startsWith("s")
+1942	sprite == null
+1943	dirty
+1944	dirty
+1945	dirty
+1946	dirty
+1947	vertices == null
+1947	regionVertices.length != vertices.length
+1720	maxVertices > 32767
+1721	Gdx.gl30 != null
+1722	defaultShader == null
+1723	drawing
+1724	customShader != null
+1725	drawing
+1726	vertexIndex > 0
+1727	isBlendingEnabled()
+1728	customShader != null
+1729	drawing
+1730	texture != lastTexture
+1731	triangleIndex + regionTrianglesLength > triangles.length
+1731	vertexIndex + regionVerticesLength * VERTEX_SIZE / 2 > vertices.length
+1732	drawing
+1733	texture != lastTexture
+1734	vertexIndex + regionVerticesLength * VERTEX_SIZE / 2 > vertices.length
+1734	triangleIndex + regionTrianglesLength > triangles.length
+1735	drawing
+1736	texture != lastTexture
+1737	vertexIndex + regionVerticesLength * VERTEX_SIZE / 2 > vertices.length
+1737	triangleIndex + regionTrianglesLength > triangles.length
+1738	drawing
+1739	texture != lastTexture
+1740	vertexIndex + verticesCount > vertices.length
+1740	triangleIndex + trianglesCount > triangles.length
+1741	drawing
+1742	texture != lastTexture
+1743	triangleIndex + 6 > triangles.length
+1743	vertexIndex + SPRITE_SIZE > vertices.length
+1744	scaleX != 1
+1744	scaleY != 1
+1745	rotation != 0
+1746	flipX
+1747	flipY
+1748	drawing
+1749	texture != lastTexture
+1750	vertexIndex + SPRITE_SIZE > vertices.length
+1750	triangleIndex + 6 > triangles.length
+1751	flipX
+1752	flipY
+1753	drawing
+1754	texture != lastTexture
+1755	vertexIndex + SPRITE_SIZE > vertices.length
+1755	triangleIndex + 6 > triangles.length
+1756	drawing
+1757	texture != lastTexture
+1758	triangleIndex + 6 > triangles.length
+1758	vertexIndex + SPRITE_SIZE > vertices.length
+1759	drawing
+1760	texture != lastTexture
+1761	vertexIndex + SPRITE_SIZE > vertices.length
+1761	triangleIndex + 6 > triangles.length
+1762	drawing
+1763	texture != lastTexture
+1764	triangleIndex + triangleCount > triangles.length
+1764	vertexIndex + count > vertices.length
+1765	drawing
+1766	texture != lastTexture
+1767	triangleIndex + 6 > triangles.length
+1767	vertexIndex + SPRITE_SIZE > vertices.length
+1768	drawing
+1769	texture != lastTexture
+1770	triangleIndex + 6 > triangles.length
+1770	vertexIndex + SPRITE_SIZE > vertices.length
+1771	scaleX != 1
+1771	scaleY != 1
+1772	rotation != 0
+1773	drawing
+1774	texture != lastTexture
+1775	triangleIndex + 6 > triangles.length
+1775	vertexIndex + SPRITE_SIZE > vertices.length
+1776	scaleX != 1
+1776	scaleY != 1
+1777	rotation != 0
+1778	clockwise
+1779	drawing
+1780	texture != lastTexture
+1781	vertexIndex + SPRITE_SIZE > vertices.length
+1781	triangleIndex + 6 > triangles.length
+1782	vertexIndex == 0
+1783	trianglesInBatch > maxTrianglesInBatch
+1784	blendingDisabled
+1785	blendSrcFunc != -1
+1786	blendSrcFunc == srcFunc
+1786	blendDstFunc == dstFunc
+1787	shader != null
+1787	ownsShader
+1788	drawing
+1789	drawing
+1790	drawing
+1791	drawing
+1792	customShader != null
+1793	drawing
+1794	customShader != null
+1795	drawing
+1796	customShader != null
+1797	customShader == null
+3960	vertices.length < 4
+3961	dirty
+3962	worldVertices.length < localVertices.length
+3962	worldVertices == null
+3963	scale
+3964	rotation != 0
+3965	calculateLength
+3966	calculateScaledLength
+3967	vertices.length < 4
+6089	object == null
+6090	freeObjects.size < max
+6091	object instanceof Poolable
+6092	objects == null
+6093	object == null
+6094	freeObjects.size < max
+5284	head == null
+5285	iter == null
+5286	iter == null
+5287	curr == null
+5288	size == 0
+5289	c == head
+5290	c == tail
+4430	pool == null
+4431	object == null
+4432	pool == null
+4433	objects == null
+4434	object == null
+4435	pool == null
+4436	pool == null
+4437	samePool
+2638	spawnWidthValue.isRelative()
+2639	spawnHeightValue.isRelative()
+2640	spawnDepthValue.isRelative()
+1085	min > max
+1086	stepSize <= 0
+1087	style == null
+1088	animateTime > 0
+1089	stage != null
+1089	stage.getActionsRequestRendering()
+1090	vertical
+1091	bg != null
+1092	round
+1093	min != max
+1094	knob == null
+1095	knobBefore != null
+1096	bg != null
+1097	round
+1098	knobAfter != null
+1099	round
+1100	knob != null
+1101	round
+1102	bg != null
+1103	round
+1104	min != max
+1105	knob == null
+1106	knobBefore != null
+1107	bg != null
+1108	round
+1109	knobAfter != null
+1110	round
+1111	knob != null
+1112	round
+1113	animateTime > 0
+1114	value == oldValue
+1115	cancelled
+1116	animateDuration > 0
+1117	min > max
+1118	value < min
+1119	value > max
+1120	stepSize <= 0
+1121	vertical
+1122	vertical
+1123	animateInterpolation == null
+4651	properties == null
+4652	reader == null
+4653	intVal == -1
+4654	offset == buf.length
+4655	mode == UNICODE
+4656	digit >= 0
+4657	++count < 4
+4658	count <= 4
+4659	nextChar != '\n'
+4660	mode == SLASH
+4661	firstChar
+4662	intVal == -1
+4663	nextChar == '\r'
+4663	nextChar == '\n'
+4664	mode == CONTINUE
+4665	keyLength == 0
+4665	offset > 0
+4665	offset == 0
+4666	keyLength == -1
+4667	mode == KEY_DONE
+4668	keyLength == -1
+4669	Character.isSpace(nextChar)
+4670	mode == CONTINUE
+4671	mode == IGNORE
+4671	offset == 0
+4671	offset == keyLength
+4672	keyLength == -1
+4673	mode == CONTINUE
+4673	mode == IGNORE
+4674	mode == KEY_DONE
+4675	count <= 4
+4675	mode == UNICODE
+4676	offset > 0
+4676	keyLength == -1
+4677	keyLength >= 0
+4678	mode == SLASH
+4679	comment != null
+4680	ch < 127
+4680	ch > 61
+4681	i == 0
+4681	escapeSpace
+4682	ch < 0x0020
+4682	((ch < 0x0020) || (ch > 0x007e)) & escapeUnicode
+4682	ch > 0x007e
+4683	c == '\r'
+4683	c == '\n'
+4683	c > '\u00ff'
+4684	lastIndex != curIndex
+4685	c > '\u00ff'
+4686	c == '\r'
+4686	comment.charAt(curIndex + 1) == '\n'
+4686	curIndex != len - 1
+4687	comment.charAt(curIndex + 1) != '#'
+4687	curIndex == len - 1
+4687	comment.charAt(curIndex + 1) != '!'
+4688	lastIndex != curIndex
+3742	MathUtils.isEqual(len, 1f)
+3742	len != 0.f
+3743	d == 0f
+3744	normalizeAxes
+3745	t >= 0
+3746	xx > zz
+3746	xx > yy
+3747	yy > zz
+3748	(1 - absDot) > 0.1
+3749	d < 0.f
+3750	Math.abs(theta) < 0.001
+3751	this == obj
+3752	obj == null
+3753	obj instanceof Quaternion
+3754	this.w > 1
+3755	s < MathUtils.FLOAT_ROUNDING_ERROR
+3756	d < 0
+5310	size == values.length
+5311	tail == values.length
+5312	size == values.length
+5313	head == -1
+5314	values.length < needed
+5315	head < tail
+5316	size > 0
+5317	size == 0
+5318	head == values.length
+5319	size == 0
+5320	tail == -1
+5321	size == 0
+5322	value == null
+5322	identity
+5323	head < tail
+5324	values[i] == value
+5325	values[i] == value
+5326	values[i] == value
+5327	head < tail
+5328	value.equals(values[i])
+5329	value.equals(values[i])
+5330	value.equals(values[i])
+5331	index == -1
+5332	index < 0
+5333	index >= size
+5334	head < tail
+5335	index >= values.length
+5336	this.head == values.length
+5337	size == 0
+5338	size == 0
+5339	tail == -1
+5340	index < 0
+5341	index >= size
+5342	i >= values.length
+5343	size == 0
+5344	head < tail
+5345	iterable == null
+5346	size == 0
+5347	value != null
+5348	index == backingLength
+5349	this == o
+5350	o == null
+5350	o instanceof Queue
+5351	q.size != size
+5352	myValue == null ? itsValue == null : myValue.equals(itsValue)
+5353	myIndex == myBackingLength
+5354	itsIndex == itsBackingLength
+5275	comp.compare(array[i], pivotValue) < 0
+5276	left == right
+5277	pivotDist == k
+5278	k < pivotDist
+5279	comp.compare(left, mid) > 0
+5280	comp.compare(mid, right) > 0
+5281	comp.compare(left, right) > 0
+5282	comp.compare(left, right) > 0
+5283	comp.compare(mid, right) > 0
+3919	n <= 0
+3920	bits - value + (n - 1) >= 0
+4009	o == this
+4010	o.getClass() != this.getClass()
+4010	o == null
+3663	ratio > rect.getAspectRatio()
+3664	ratio < rect.getAspectRatio()
+3665	s0 != -1
+3665	s2 != -1
+3665	v.charAt(0) == '['
+3665	s1 != -1
+3665	v.charAt(v.length() - 1) == ']'
+3666	this == obj
+3667	obj == null
+3668	getClass() != obj.getClass()
+3669	NumberUtils.floatToRawIntBits(height) != NumberUtils.floatToRawIntBits(other.height)
+3670	NumberUtils.floatToRawIntBits(width) != NumberUtils.floatToRawIntBits(other.width)
+3671	NumberUtils.floatToRawIntBits(x) != NumberUtils.floatToRawIntBits(other.x)
+3672	NumberUtils.floatToRawIntBits(y) != NumberUtils.floatToRawIntBits(other.y)
+2641	edges
+2642	a == -1
+2643	tx == 0
+2644	a == 0
+2645	tz == 0
+2646	ty == 0
+1447	object == null
+4186	constructor == null
+2679	emissionValue.isRelative()
+2680	lifeValue.isRelative()
+2681	lifeOffsetValue.isRelative()
+2682	offsetTime > 0
+2683	offsetTime >= currentLife
+2684	delayTimer < delay
+2685	durationTimer < duration
+2686	emit
+2686	emissionMode == EmissionMode.Enabled
+2686	continuous
+2687	emit
+2688	emissionTime > 0
+2689	emissionDelta >= emissionTime
+2690	controller.particles.size < minParticleCount
+2691	(lifeChannel.data[k + ParticleChannels.CurrentLifeOffset] -= deltaMillis) <= 0
+2692	controller.particles.size < activeParticles
+2693	count <= 0
+2694	delayTimer < delay
+2695	delayTimer < delay
+0	listener != null
+1	listener != null
+2	button != Buttons.LEFT
+3	isTouched[i]
+4	key == Input.Keys.ANY_KEY
+5	key < 0
+5	key > 255
+6	key == Input.Keys.ANY_KEY
+7	key > 255
+7	key < 0
+8	peripheral == Peripheral.Accelerometer
+9	peripheral == Peripheral.Compass
+10	peripheral == Peripheral.MultitouchScreen
+32	connected
+33	connected
+34	connected
+35	connected
+36	connected
+37	connected
+38	connected
+1249	removed
+1255	capture
+3165	depthFunc != 0
+3166	depthMask
+3167	blending
+3168	cullFace > 0
+3169	this.depthMask != depthMask
+3170	depthFunc != depthFunction
+3171	enabled
+3172	enabled
+3173	wasEnabled
+3173	depthFunc != depthFunction
+3174	this.depthRangeNear != depthRangeNear
+3174	this.depthRangeFar != depthRangeFar
+3174	wasEnabled
+3175	enabled != blending
+3176	enabled
+3177	blendDFactor != dFactor
+3177	blendSFactor != sFactor
+3177	enabled
+3178	face != cullFace
+3179	face == GL20.GL_FRONT_AND_BACK
+3179	face == GL20.GL_BACK
+3179	face == GL20.GL_FRONT
+3255	mesh.getVertexAttribute(Usage.Position) != null
+3256	mesh.getVertexAttribute(Usage.Normal) != null
+3257	mesh.getVertexAttribute(Usage.Tangent) != null
+3258	mesh.getVertexAttribute(Usage.BiNormal) != null
+3259	mesh.getNumIndices() > 0
+3260	normalOffset != -1
+3261	tangentOffset != -1
+3262	binormalOffset != -1
+3263	normalOffset != -1
+3264	tangentOffset != -1
+3265	binormalOffset != -1
+3266	vertices.length < capacity
+3266	vertices == null
+3267	indices == null
+3267	indices.length < capacity
+3268	indices[i] < min
+3269	indices[i] > max
+1256	executedCount == repeatCount
+1257	action.act(delta)
+1258	finished
+1259	repeatCount > 0
+1260	executedCount == repeatCount
+1261	action != null
+2119	density == -1
+2120	verts.length > 0
+2121	numX > 0.99f
+2121	numX < 0.01f
+2122	numY < 0.01f
+2122	numY > 0.99f
+2123	offset.x > vertices[i]
+2124	offset.y > vertices[i+1]
+2125	verts == null
+2126	verts[j] == col*gridWidth
+2127	verts[j] == (col+1)*gridWidth
+2128	verts[j+1] == row*gridHeight
+2129	verts[j+1] == (row+1)*gridHeight
+2130	dirty
+1509	descriptors.length == 0
+1510	handle.exists()
+1511	parent.name().equals("")
+1511	parent != null
+1512	w < h
+1513	other.portraitWidth >= best.portraitWidth
+1513	other.portraitHeight >= best.portraitHeight
+1513	w >= other.portraitWidth
+1513	h >= other.portraitHeight
+1514	other.portraitHeight >= best.portraitHeight
+1514	h >= other.portraitWidth
+1514	other.portraitWidth >= best.portraitWidth
+1514	w >= other.portraitHeight
+2677	data.type.equals(type)
+2677	data.filename.equals(filename)
+2678	uniqueData.containsKey(key)
+1262	useShortestDirection
+1254	ran
+2733	value.isRelative()
+2636	t > percent
+2637	endIndex == -1
+1337	scissors.size == 0
+1338	scissor.width < 1
+1338	scissor.height < 1
+1339	maxX - minX < 1
+1340	maxY - minY < 1
+1341	scissors.size == 0
+1342	rect.width < 0
+1343	rect.height < 0
+1344	scissors.size == 0
+5241	flipY
+773	style == null
+774	stage != null
+775	clamp
+776	style == null
+777	panning
+777	fadeScrollBars
+777	touchScrollH
+777	fadeAlpha > 0
+777	touchScrollV
+778	fadeDelay <= 0
+779	flingTimer > 0
+780	amountX == -overscrollDistance
+781	amountX >= maxX + overscrollDistance
+782	amountY == -overscrollDistance
+783	amountY >= maxY + overscrollDistance
+784	flingTimer <= 0
+785	maxX / (hScrollBounds.width - hKnobBounds.width) > areaWidth * 0.1f
+785	flingTimer <= 0
+785	scrollY
+785	maxY / (vScrollBounds.height - vKnobBounds.height) > areaHeight * 0.1f
+785	scrollX
+785	touchScrollH
+785	panning
+785	touchScrollV
+785	smoothScrolling
+786	visualAmountX != amountX
+787	visualAmountX < amountX
+788	visualAmountY != amountY
+789	visualAmountY < amountY
+790	visualAmountX != amountX
+791	visualAmountY != amountY
+792	panning
+793	scrollX
+793	overscrollX
+794	amountX < 0
+795	amountX > 0
+796	amountX > maxX
+797	amountX < maxX
+798	overscrollY
+798	scrollY
+799	amountY < 0
+800	amountY > 0
+801	amountY > maxY
+802	amountY < maxY
+803	animating
+804	stage.getActionsRequestRendering()
+804	stage != null
+805	bg != null
+806	hScrollKnob != null
+807	style.hScroll != null
+808	vScrollKnob != null
+809	style.vScroll != null
+810	widget == null
+811	widget instanceof Layout
+812	fade
+813	scrollY
+814	scrollX
+814	widgetWidth > areaWidth
+814	disableX
+815	scrollX
+816	disableY
+816	scrollY
+816	widgetHeight > areaHeight
+817	fade
+818	scrollY
+818	scrollX
+819	scrollbarsOnTop
+820	scrollX
+821	scrollY
+822	scrollX
+822	hScrollOnBottom
+823	vScrollOnRight
+823	scrollY
+824	fade
+825	scrollX
+825	scrollY
+826	scrollX
+827	hScrollKnob != null
+828	variableSizeKnobs
+829	scrollY
+830	vScrollKnob != null
+831	hScrollOnBottom
+832	vScrollOnRight
+833	variableSizeKnobs
+834	vScrollOnRight
+835	widget instanceof Layout
+836	widget == null
+837	scrollX
+838	scrollY
+839	scrollY
+840	scrollX
+841	fadeScrollBars
+841	scrollbarsOnTop
+842	scrollX
+842	hScrollOnBottom
+843	style.hScrollKnob != null
+844	style.hScroll != null
+845	scrollY
+845	vScrollOnRight
+846	style.hScrollKnob != null
+847	style.hScroll != null
+848	widget instanceof Cullable
+849	style.background != null
+850	ScissorStack.pushScissors(scissorBounds)
+851	scrollY
+851	scrollX
+852	style.corner != null
+853	scrollX
+854	style.hScroll != null
+855	style.hScrollKnob != null
+856	scrollY
+857	style.vScroll != null
+858	style.vScrollKnob != null
+859	widget instanceof Layout
+860	style.background != null
+861	forceScrollY
+862	style.vScrollKnob != null
+863	style.vScroll != null
+864	widget instanceof Layout
+865	style.background != null
+866	forceScrollX
+867	style.hScrollKnob != null
+868	style.hScroll != null
+869	widget == this
+870	this.widget != null
+871	widget != null
+872	actor == null
+873	actor != widget
+874	actor == null
+875	actor != widget
+876	x < 0
+876	y >= getHeight()
+876	x >= getWidth()
+876	y < 0
+877	hScrollBounds.contains(x, y)
+877	scrollX
+878	vScrollBounds.contains(x, y)
+878	scrollY
+879	this.flickScroll == flickScroll
+880	flickScroll
+881	centerHorizontal
+882	x + width > amountX + areaWidth
+883	x < amountX
+884	centerVertical
+885	amountY > maxY - y - height + areaHeight
+886	amountY < maxY - y
+887	scrollX
+888	style.hScrollKnob != null
+889	style.hScroll != null
+890	scrollY
+891	style.vScrollKnob != null
+892	style.vScroll != null
+893	this.fadeScrollBars == fadeScrollBars
+894	fadeScrollBars
+895	ScissorStack.pushScissors(scissorBounds)
+4006	o == this
+4007	o.getClass() != this.getClass()
+4007	o == null
+4812	instance == null
+4813	size < 1
+4814	kthLowest > size
+4815	kthLowest == 1
+4816	kthLowest == size
+4817	quickSelect == null
+4818	comparison < 0
+4819	comparison > 0
+1062	stage == null
+1063	style == null
+1064	selectBoxList != null
+1065	newItems == null
+1066	oldPrefWidth != getPrefWidth()
+1067	newItems == null
+1068	oldPrefWidth != getPrefWidth()
+1069	items.size == 0
+1070	bg != null
+1071	bg != null
+1072	scrollStyle.background != null
+1073	selectBoxList == null
+1073	selectBoxList.disableY
+1074	style.backgroundDisabled != null
+1074	disabled
+1075	style.backgroundOpen != null
+1075	selectBoxList.hasParent()
+1076	clickListener.isOver()
+1076	style.backgroundOver != null
+1077	style.background != null
+1078	background != null
+1079	selected != null
+1080	background != null
+1081	items.contains(item, false)
+1082	items.size > 0
+1083	disabled
+1083	this.disabled
+1084	items.size == 0
+1345	item == null
+1346	isDisabled
+1347	UIUtils.ctrl()
+1347	selected.size == 1
+1347	selected.contains(item)
+1347	required
+1347	toggle
+1348	selected.size == 1
+1348	required
+1349	toggle
+1349	multiple
+1349	UIUtils.ctrl()
+1350	selected.contains(item)
+1350	selected.size == 1
+1351	selected.add(item)
+1351	modified
+1352	fireChangeEvent()
+1353	item == null
+1354	selected.size == 1
+1354	selected.first() == item
+1355	programmaticChangeEvents
+1355	fireChangeEvent()
+1356	item == null
+1357	selected.add(item)
+1358	added
+1359	fireChangeEvent()
+1359	programmaticChangeEvents
+1360	items.size > 0
+1361	item == null
+1362	selected.add(item)
+1363	fireChangeEvent()
+1363	programmaticChangeEvents
+1364	item == null
+1365	selected.add(item)
+1366	added
+1367	fireChangeEvent()
+1367	programmaticChangeEvents
+1368	item == null
+1369	selected.remove(item)
+1370	programmaticChangeEvents
+1370	fireChangeEvent()
+1371	item == null
+1372	selected.remove(item)
+1373	removed
+1374	fireChangeEvent()
+1374	programmaticChangeEvents
+1375	selected.size == 0
+1376	fireChangeEvent()
+1376	programmaticChangeEvents
+1377	actor == null
+1378	item == null
+1379	lastSelected != null
+1380	selected.size > 0
+1275	index >= actions.size
+1276	actions.get(index).act(delta)
+1277	actor == null
+1278	index >= actions.size
+4424	cause == null
+4424	cause == ex
+4425	type.isAssignableFrom(cause.getClass())
+4426	trace == null
+4427	buffer.length() > 0
+4428	info == null
+4429	trace == null
+2209	vertexShader == null
+2210	fragmentShader == null
+2211	prependVertexCode.length() > 0
+2211	prependVertexCode != null
+2212	prependFragmentCode != null
+2212	prependFragmentCode.length() > 0
+2213	isCompiled()
+2214	vertexShaderHandle == -1
+2214	fragmentShaderHandle == -1
+2215	program == -1
+2216	shader == 0
+2217	compiled == 0
+2218	program == -1
+2219	linked == 0
+2220	isCompiled
+2221	(location = attributes.get(name, -2)) == -2
+2222	(location = uniforms.get(name, -2)) == -2
+2223	pedantic
+2223	location == -1
+2224	location == -1
+2225	location == -1
+2226	shaders.get(Gdx.app) != null
+2227	location == -1
+2228	location == -1
+2229	invalidated
+2230	managedResources == null
+2231	Gdx.gl20 == null
+2232	shaderArray == null
+1520	parameter != null
+1521	parameter.vertexFile != null
+1522	parameter.fragmentFile != null
+1523	fileName.endsWith(fragmentFileSuffix)
+1523	vertFileName == null
+1524	fileName.endsWith(vertexFileSuffix)
+1524	fragFileName == null
+1525	parameter != null
+1526	parameter.prependVertexCode != null
+1527	parameter.prependFragmentCode != null
+1528	parameter == null
+1528	shaderProgram.isCompiled()
+1528	parameter.logOnCompileFailure
+3241	building
+3242	building
+2402	defaultShader == null
+2403	autoShapeType
+2404	shapeType != null
+2405	matrixDirty
+2406	shapeType == type
+2407	shapeType == null
+2408	autoShapeType
+2409	shapeType == ShapeType.Line
+2410	shapeType == ShapeType.Filled
+2411	shapeType == ShapeType.Filled
+2412	shapeType == ShapeType.Line
+2413	shapeType == ShapeType.Line
+2414	shapeType == ShapeType.Line
+2415	shapeType == ShapeType.Line
+2416	scaleX != 1
+2416	scaleY != 1
+2417	shapeType == ShapeType.Line
+2418	shapeType == ShapeType.Line
+2419	shapeType == ShapeType.Line
+2420	shapeType == ShapeType.Line
+2421	segments <= 0
+2422	shapeType == ShapeType.Line
+2423	segments <= 0
+2424	shapeType == ShapeType.Line
+2425	segments <= 0
+2426	shapeType == ShapeType.Line
+2427	segments <= 0
+2428	shapeType == ShapeType.Line
+2429	segments <= 0
+2430	shapeType == ShapeType.Line
+2431	shapeType != ShapeType.Line
+2432	count < 6
+2433	count % 2 != 0
+2434	i + 2 >= count
+2435	count < 4
+2436	count % 2 != 0
+2437	shapeType == null
+2438	shapeType != preferred
+2438	shapeType != other
+2439	autoShapeType
+2440	other == null
+2441	matrixDirty
+2442	renderer.getMaxVertices() - renderer.getNumVertices() < newVertices
+4384	input == null
+4385	length == -1
+4386	isWindows
+4387	isLinux
+4388	isMac
+4389	isIos
+4390	isLoaded(libraryName)
+4391	isAndroid
+4392	nativesJar == null
+4393	input == null
+4394	entry == null
+4395	dirName == null
+4396	extractedFile == null
+4397	extractedFile == null
+4398	file.exists()
+4399	canWrite(idealFile)
+4400	file.delete()
+4401	canWrite(file)
+4402	canWrite(file)
+4403	canWrite(file)
+4404	System.getenv("APP_SANDBOX_CONTAINER_ID") != null
+4405	file.exists()
+4406	canExecute(file)
+4406	file.canWrite()
+4407	parent.isDirectory()
+4408	canExecute(testFile)
+4409	(Boolean)canExecute.invoke(file)
+4410	extractedFile.exists()
+4411	extractedCrc.equals(sourceCrc)
+4411	extractedCrc == null
+4412	length == -1
+4413	ex == null
+4414	file.delete()
+4414	loadFile(sourcePath, sourceCrc, file) == null
+4415	loadFile(sourcePath, sourceCrc, file) == null
+4416	loadFile(sourcePath, sourceCrc, file) == null
+4417	file.exists()
+5536	size == items.length
+5537	size == items.length
+5538	offset + length > array.size
+5539	sizeNeeded > items.length
+5540	index >= size
+5541	index >= size
+5542	index >= size
+5543	index >= size
+5544	index > size
+5545	size == items.length
+5546	ordered
+5547	first >= size
+5548	second >= size
+5549	items[i--] == value
+5550	items[i] == value
+5551	items[i] == value
+5552	items[i] == value
+5553	index >= size
+5554	ordered
+5555	end >= size
+5556	start > end
+5557	ordered
+5558	item == items[ii]
+5559	size == 0
+5560	items.length != size
+5561	sizeNeeded > items.length
+5562	newSize > items.length
+5563	size > newSize
+5564	size == 0
+5565	ordered
+5566	object == this
+5567	ordered
+5568	object instanceof ShortArray
+5569	array.ordered
+5570	n != array.size
+5571	items[i] != array.items[i]
+5572	size == 0
+5573	size == 0
+2732	value.isRelative()
+2596	group == GROUP_BLEND
+2597	group == GROUP_BLEND
+1166	atlasFile.exists()
+1167	region.index != -1
+1168	name == null
+1169	resource == null
+1170	typeResources == null
+1171	name == null
+1172	name == null
+1173	type == null
+1174	type == Drawable.class
+1175	type == TextureRegion.class
+1176	type == NinePatch.class
+1177	type == Sprite.class
+1178	typeResources == null
+1179	resource == null
+1180	name == null
+1181	type == null
+1182	typeResources == null
+1183	typeResources == null
+1184	region != null
+1185	texture == null
+1186	region != null
+1187	tiled != null
+1188	patch != null
+1189	region instanceof AtlasRegion
+1190	splits != null
+1191	pads != null
+1192	patch == null
+1193	sprite != null
+1194	textureRegion instanceof AtlasRegion
+1195	region.rotate
+1195	region.packedWidth != region.originalWidth
+1195	region.packedHeight != region.originalHeight
+1196	sprite == null
+1197	drawable != null
+1198	textureRegion instanceof AtlasRegion
+1199	region.splits != null
+1200	region.rotate
+1200	region.packedHeight != region.originalHeight
+1200	region.packedWidth != region.originalWidth
+1201	drawable == null
+1202	drawable == null
+1203	patch != null
+1204	sprite != null
+1205	drawable instanceof BaseDrawable
+1206	resource == null
+1207	typeResources == null
+1208	drawable instanceof TiledDrawable
+1209	drawable instanceof TextureRegionDrawable
+1210	drawable instanceof NinePatchDrawable
+1211	drawable instanceof SpriteDrawable
+1212	drawable instanceof TextureRegionDrawable
+1213	drawable instanceof NinePatchDrawable
+1214	drawable instanceof SpriteDrawable
+1215	newDrawable instanceof BaseDrawable
+1216	drawable instanceof BaseDrawable
+1217	method == null
+1218	name == null
+1219	method == null
+1220	atlas != null
+1221	resource instanceof Disposable
+1222	method.getName().equals(name)
+1543	parameter == null
+1543	parameter.textureAtlasPath == null
+1544	parameter.textureAtlasPath != null
+1545	parameter != null
+1546	parameter.textureAtlasPath != null
+1547	parameter.resources != null
+1548	resources != null
+328	style == null
+329	style instanceof SliderStyle
+330	vertical
+331	Gdx.input.isKeyPressed(Keys.SHIFT_LEFT)
+331	Gdx.input.isKeyPressed(Keys.SHIFT_RIGHT)
+332	value == oldValue
+333	snapValues == null
+334	Math.abs(value - snapValues[i]) <= threshold
+5444	snapshot == null
+5445	snapshot != items
+5445	snapshots == 0
+5446	snapshot == null
+5446	snapshot != items
+5447	recycled.length >= size
+5447	recycled != null
+6396	comparableTimSort == null
+6397	comparableTimSort == null
+6398	comparableTimSort == null
+6399	timSort == null
+6400	timSort == null
+6401	timSort == null
+6402	instance == null
+5006	first != null
+5007	index > c.index
+5008	c.n.n != null
+5009	index < c.index
+5010	first != null
+5011	c.index == index
+5012	iterator == null
+2647	xOffsetValue.active
+2648	yOffsetValue.active
+2649	zOffsetValue.active
+4004	this == o
+4005	o.getClass() != this.getClass()
+4005	o == null
+3254	iv > 0
+3254	iu > 0
+2562	copyFrom.length != (9 * 3)
+248	vertical
+249	firstWidget != null
+250	firstWidget instanceof Layout
+251	secondWidget != null
+252	secondWidget instanceof Layout
+253	vertical
+254	vertical
+255	vertical
+256	vertical
+257	this.vertical == vertical
+258	firstWidget.isVisible()
+258	firstWidget != null
+259	ScissorStack.pushScissors(tempScissors)
+260	secondWidget != null
+260	secondWidget.isVisible()
+261	ScissorStack.pushScissors(tempScissors)
+262	vertical
+263	firstWidget instanceof Layout
+264	secondWidget instanceof Layout
+265	firstWidget instanceof Layout
+266	secondWidget instanceof Layout
+267	effectiveMinAmount > effectiveMaxAmount
+268	minAmount > 1
+268	minAmount < 0
+269	maxAmount < 0
+269	maxAmount > 1
+270	firstWidget != null
+271	widget != null
+272	secondWidget != null
+273	widget != null
+274	actor == null
+275	actor == firstWidget
+276	actor == secondWidget
+277	actor == null
+278	actor == firstWidget
+279	actor == secondWidget
+2569	color != null
+2570	position != null
+2571	direction != null
+2572	position != null
+2573	direction != null
+2574	color != null
+2971	type != o.type
+2086	texture == null
+2087	sprite == null
+2088	dirty
+2089	scaleY != 1
+2089	rotation != 0
+2089	scaleX != 1
+2090	dirty
+2091	scaleX != 1
+2091	scaleY != 1
+2091	rotation != 0
+2092	dirty
+2093	dirty
+2094	dirty
+2095	degrees == 0
+2096	clockwise
+2097	dirty
+2098	scaleX != 1
+2098	scaleY != 1
+2099	rotation != 0
+2100	bounds == null
+2101	isFlipX() != x
+2102	isFlipY() != y
+2103	x
+2104	y
+2105	xAmount != 0
+2106	yAmount != 0
+1986	size > 8191
+1987	defaultShader == null
+1988	shader.isCompiled() == false
+1989	drawing
+1990	customShader != null
+1991	drawing
+1992	idx > 0
+1993	isBlendingEnabled()
+1994	customShader != null
+1995	drawing
+1996	texture != lastTexture
+1997	idx == vertices.length
+1998	scaleX != 1
+1998	scaleY != 1
+1999	rotation != 0
+2000	flipX
+2001	flipY
+2002	drawing
+2003	texture != lastTexture
+2004	idx == vertices.length
+2005	flipX
+2006	flipY
+2007	drawing
+2008	texture != lastTexture
+2009	idx == vertices.length
+2010	drawing
+2011	texture != lastTexture
+2012	idx == vertices.length
+2013	drawing
+2014	texture != lastTexture
+2015	idx == vertices.length
+2016	drawing
+2017	texture != lastTexture
+2018	remainingVertices == 0
+2019	drawing
+2020	texture != lastTexture
+2021	idx == vertices.length
+2022	drawing
+2023	texture != lastTexture
+2024	idx == vertices.length
+2025	scaleY != 1
+2025	scaleX != 1
+2026	rotation != 0
+2027	drawing
+2028	texture != lastTexture
+2029	idx == vertices.length
+2030	scaleX != 1
+2030	scaleY != 1
+2031	rotation != 0
+2032	clockwise
+2033	drawing
+2034	texture != lastTexture
+2035	idx == vertices.length
+2036	idx == 0
+2037	spritesInBatch > maxSpritesInBatch
+2038	blendingDisabled
+2039	blendSrcFunc != -1
+2040	blendingDisabled
+2041	blendingDisabled
+2042	blendDstFunc == dstFunc
+2042	blendSrcFunc == srcFunc
+2043	ownsShader
+2043	shader != null
+2044	drawing
+2045	drawing
+2046	drawing
+2047	drawing
+2048	customShader != null
+2049	drawing
+2050	customShader != null
+2051	drawing
+2052	customShader != null
+2053	customShader == null
+1885	useIndices
+1885	size > 8191
+1886	useIndices
+1887	currentCache != null
+1888	currentCache != null
+1889	cacheID == caches.size - 1
+1890	currentCache == null
+1891	cache.textures == null
+1892	cacheCount > cache.maxCount
+1893	cache.textures.length < cache.textureCount
+1894	cache.counts.length < cache.textureCount
+1895	currentCache == null
+1896	lastIndex < 0
+1896	textures.get(lastIndex) != texture
+1897	mesh.getNumIndices() > 0
+1898	mesh.getNumIndices() > 0
+1899	mesh.getNumIndices() > 0
+1900	flipX
+1901	flipY
+1902	mesh.getNumIndices() > 0
+1903	scaleY != 1
+1903	scaleX != 1
+1904	rotation != 0
+1905	flipX
+1906	flipY
+1907	mesh.getNumIndices() > 0
+1908	mesh.getNumIndices() > 0
+1909	scaleY != 1
+1909	scaleX != 1
+1910	rotation != 0
+1911	mesh.getNumIndices() > 0
+1912	mesh.getNumIndices() > 0
+1913	drawing
+1914	customShader != null
+1915	drawing
+1916	customShader != null
+1917	drawing
+1918	customShader != null
+1919	drawing
+1920	count > length
+1921	customShader != null
+1922	shader != null
+1923	drawing
+1924	drawing
+1925	shader.isCompiled() == false
+1336	sprite instanceof AtlasSprite
+932	child instanceof Layout
+933	childMaxWidth > 0
+934	childMaxHeight > 0
+935	sizeInvalid
+936	child instanceof Layout
+937	sizeInvalid
+938	sizeInvalid
+939	sizeInvalid
+940	sizeInvalid
+941	sizeInvalid
+942	sizeInvalid
+107	viewport == null
+108	batch == null
+109	root.isVisible()
+110	debug
+111	debugShapes == null
+112	debugTableUnderMouse != Debug.none
+112	debugUnderMouse
+112	debugParentUnderMouse
+113	actor == null
+114	debugParentUnderMouse
+114	actor.parent != null
+115	debugTableUnderMouse == Debug.none
+116	actor instanceof Table
+117	actor == null
+118	actor instanceof Group
+118	debugAll
+119	debugAll
+120	actor == except
+121	actor instanceof Group
+122	pointerTouched[pointer]
+123	overLast != null
+124	type == ApplicationType.Desktop
+124	type == ApplicationType.Applet
+124	type == ApplicationType.WebGL
+125	over == overLast
+126	overLast != null
+127	over != null
+128	isInsideViewport(screenX, screenY)
+129	target == null
+130	root.getTouchable() == Touchable.enabled
+131	touchFocuses.size == 0
+132	focus.pointer != pointer
+133	touchFocuses.contains(focus, true)
+134	focus.listener.handle(event)
+135	touchFocuses.size == 0
+136	focus.button != button
+136	focus.pointer != pointer
+137	touchFocuses.removeValue(focus, true)
+138	focus.listener.handle(event)
+139	isInsideViewport(screenX, screenY)
+140	target == null
+141	focus.pointer == pointer
+141	focus.button == button
+141	focus.listenerActor == listenerActor
+141	focus.target == target
+141	focus.listener == listener
+142	focus.listenerActor != actor
+143	touchFocuses.removeValue(focus, true)
+144	focus.listenerActor == exceptActor
+144	focus.listener == exceptListener
+145	touchFocuses.removeValue(focus, true)
+146	scrollFocus.isDescendantOf(actor)
+146	scrollFocus != null
+147	keyboardFocus != null
+147	keyboardFocus.isDescendantOf(actor)
+148	keyboardFocus == actor
+149	oldKeyboardFocus != null
+150	success
+151	actor != null
+152	success
+153	scrollFocus == actor
+154	oldScrollFocus != null
+155	success
+156	actor != null
+157	success
+158	debugShapes.isDrawing()
+158	debugShapes != null
+159	this.debugAll == debugAll
+160	debugAll
+161	this.debugUnderMouse == debugUnderMouse
+162	debugUnderMouse
+163	this.debugParentUnderMouse == debugParentUnderMouse
+164	debugParentUnderMouse
+165	debugTableUnderMouse == null
+166	this.debugTableUnderMouse == debugTableUnderMouse
+167	debugTableUnderMouse != Debug.none
+168	ownsBatch
+3588	properties == null
+3589	copy.properties != null
+4968	c != null
+4844	capacity < 0
+4845	newSize > chars.length
+4846	newSize > chars.length
+4847	offset > value.length
+4847	offset < 0
+4848	value.length - offset < length
+4848	length < 0
+4849	newSize > chars.length
+4850	length == chars.length
+4851	string == null
+4852	newSize > chars.length
+4853	s == null
+4854	start > end
+4854	end > s.length()
+4854	end < 0
+4854	start < 0
+4855	index < 0
+4855	index >= length
+4856	start >= 0
+4857	end > length
+4858	end == start
+4859	end > start
+4860	count >= 0
+4861	location >= length
+4861	0 > location
+4862	count > 0
+4863	min > chars.length
+4864	start > length
+4864	end > length
+4864	start > end
+4865	index > length
+4865	0 > index
+4866	value.length != 0
+4867	index <= length
+4867	0 <= index
+4868	0 <= length
+4868	start >= 0
+4868	length <= value.length - start
+4869	length != 0
+4870	0 > index
+4870	index > length
+4871	0 <= index
+4871	index <= length
+4872	string == null
+4873	min != 0
+4874	s == null
+4875	index < 0
+4875	start < 0
+4875	end < 0
+4875	index > length
+4875	start > end
+4875	end > s.length()
+4876	chars.length - length >= size
+4877	start >= 0
+4878	end > length
+4879	end > start
+4880	diff > 0
+4881	diff < 0
+4882	start == end
+4883	string == null
+4884	length < 2
+4885	surAtFront
+4885	length < 3
+4886	surAtFront == surAtEnd
+4887	surAtFront
+4888	surAtFront
+4889	allowFrontSur
+4889	(length & 1) == 1
+4889	allowEndSur
+4890	index >= length
+4890	0 > index
+4891	newLength < 0
+4892	newLength > chars.length
+4893	length < newLength
+4894	0 <= start
+4894	start <= length
+4895	start == length
+4896	start <= end
+4896	0 <= start
+4896	end <= length
+4897	start == end
+4898	length == 0
+4899	start < 0
+4900	subCount > 0
+4901	subCount + start > length
+4902	chars[i] == firstChar
+4903	found
+4903	subCount + i > length
+4904	o2 == subCount
+4905	subCount <= length
+4905	start >= 0
+4906	subCount > 0
+4907	start > length - subCount
+4908	chars[i] == firstChar
+4909	found
+4910	o2 == subCount
+4911	length < chars.length
+4912	index < 0
+4912	index >= length
+4913	index < 1
+4913	index > length
+4914	endIndex > length
+4914	beginIndex > endIndex
+4914	beginIndex < 0
+4915	value == Integer.MIN_VALUE
+4916	value < 0
+4917	minLength > 1
+4918	value >= 10000
+4919	value >= 1000000000
+4920	value >= 100000000
+4921	value >= 10000000
+4922	value >= 1000000
+4923	value >= 100000
+4924	value >= 1000
+4925	value >= 100
+4926	value >= 10
+4927	value == Long.MIN_VALUE
+4928	value < 0L
+4929	minLength > 1
+4930	value >= 10000
+4931	value >= 1000000000000000000L
+4932	value >= 100000000000000000L
+4933	value >= 10000000000000000L
+4934	value >= 1000000000000000L
+4935	value >= 100000000000000L
+4936	value >= 10000000000000L
+4937	value >= 1000000000000L
+4938	value >= 100000000000L
+4939	value >= 10000000000L
+4940	value >= 1000000000L
+4941	value >= 100000000L
+4942	value >= 10000000L
+4943	value >= 1000000L
+4944	value >= 100000L
+4945	value >= 1000L
+4946	value >= 100L
+4947	value >= 10L
+4948	obj == null
+4949	csq == null
+4950	csq instanceof StringBuilder
+4951	builder == null
+4952	builder == null
+4953	index == -1
+4954	index == length
+4955	chars[index] == find
+4956	this == obj
+4957	obj == null
+4958	getClass() != obj.getClass()
+4959	length != other.length
+4960	chars == chars2
+4961	chars2 == null
+4961	chars == null
+4962	chars[i] != chars2[i]
+500	isTransform()
+501	clip
+502	clipBegin(padLeft, padBottom, getWidth() - padLeft - padRight.get(this), getHeight() - padBottom - padTop.get(this))
+503	background == null
+504	skin == null
+505	this.background == background
+506	padLeftOld + padRightOld != padLeftNew + padRightNew
+506	padTopOld + padBottomOld != padTopNew + padBottomNew
+507	padRightOld != padRightNew
+507	padBottomOld != padBottomNew
+507	padLeftOld != padLeftNew
+507	padTopOld != padTopNew
+508	clip
+509	getTouchable() == Touchable.disabled
+509	touchable
+510	x < 0
+510	y >= getHeight()
+510	x >= getWidth()
+510	y < 0
+511	implicitEndRow
+512	cellCount > 0
+513	lastCell.endRow
+514	cell.row > 0
+515	column == cell.column
+516	cell.column < columnDefaults.size
+517	columnCell != null
+518	actor != null
+519	skin == null
+520	skin == null
+521	skin == null
+522	skin == null
+523	actors != null
+524	super.removeActor(actor, unfocus)
+525	cell != null
+526	actor != null
+527	rowDefaults != null
+528	columnCell != null
+529	cells.size > 0
+530	implicitEndRow
+531	rowDefaults != null
+532	cell.endRow
+533	cell == null
+534	column >= columnDefaults.size
+535	c.actor == actor
+536	sizeInvalid
+537	background != null
+538	sizeInvalid
+539	background != null
+540	sizeInvalid
+541	sizeInvalid
+542	pad == null
+543	top == null
+544	left == null
+545	bottom == null
+546	right == null
+547	padTop == null
+548	padLeft == null
+549	padBottom == null
+550	padRight == null
+551	debug != Debug.table
+552	debug != Debug.cell
+553	debug != Debug.actor
+554	this.debug != debug
+555	debug == Debug.none
+556	n == 0
+557	n == 1
+558	c.actorY + c.computedPadTop < y
+559	c.endRow
+560	array.length < size
+560	array == null
+561	round
+562	actor != null
+563	actor != null
+564	child instanceof Layout
+565	cells.peek().endRow
+565	cellCount > 0
+566	expandHeight[row] == 0
+566	c.expandY != 0
+567	colspan == 1
+567	c.expandX != 0
+567	expandWidth[column] == 0
+568	c.cellAboveIndex != -1
+569	prefWidth < minWidth
+570	prefHeight < minHeight
+571	maxWidth > 0
+571	prefWidth > maxWidth
+572	maxHeight > 0
+572	prefHeight > maxHeight
+573	colspan == 1
+574	expandX != 0
+575	expandWidth[ii] != 0
+576	c.uniformX == Boolean.TRUE
+576	c.colspan == 1
+577	c.uniformY == Boolean.TRUE
+578	uniformPrefHeight > 0
+578	uniformPrefWidth > 0
+579	c.uniformX == Boolean.TRUE
+579	c.colspan == 1
+579	uniformPrefWidth > 0
+580	c.uniformY == Boolean.TRUE
+580	uniformPrefHeight > 0
+581	colspan == 1
+582	prefWidth < minWidth
+583	maxWidth > 0
+583	prefWidth > maxWidth
+584	sizeInvalid
+585	totalGrowWidth == 0
+586	totalGrowHeight == 0
+587	prefWidth < minWidth
+588	prefHeight < minHeight
+589	maxWidth > 0
+589	prefWidth > maxWidth
+590	prefHeight > maxHeight
+590	maxHeight > 0
+591	colspan == 1
+592	totalExpandWidth > 0
+593	expandWidth[i] == 0
+594	totalExpandHeight > 0
+595	expandHeight[i] == 0
+596	colspan == 1
+597	extraWidth > 0
+598	(align & Align.right) != 0
+599	(align & Align.left) == 0
+600	(align & Align.bottom) != 0
+601	(align & Align.top) == 0
+602	fillX > 0
+603	maxWidth > 0
+604	fillY > 0
+605	maxHeight > 0
+606	(align & Align.left) != 0
+607	(align & Align.right) != 0
+608	(align & Align.top) != 0
+609	(align & Align.bottom) != 0
+610	c.endRow
+611	debug == Debug.none
+612	debug == Debug.table
+612	debug == Debug.all
+613	debug == Debug.actor
+613	debug == Debug.all
+614	debug == Debug.all
+614	debug == Debug.cell
+615	c.endRow
+616	debugRects == null
+617	debugRects == null
+618	isTransform()
+619	clip
+620	background != null
+621	clipBegin(x, y, width, height)
+622	getDebug()
+622	debugRects == null
+623	isTransform()
+1270	complete
+1271	began
+1272	complete
+1273	interpolation != null
+1274	complete
+1143	linesBreak.size > 0
+1144	cursorLine * 2 >= linesBreak.size
+1145	glyphPositions[i] > x
+1146	glyphPositions[i] - x <= x - glyphPositions[i - 1]
+1147	prefRows <= 0
+1148	style.background != null
+1149	line < 0
+1150	line >= getLines()
+1151	line > getLines()
+1151	newLine == cursorLine
+1152	line != cursorLine
+1153	moveOffset < 0
+1154	linesBreak.items[index + 1] != linesBreak.items[index]
+1154	index + 1 >= linesBreak.size
+1154	index % 2 == 0
+1154	cursor != linesBreak.items[index]
+1155	line < linesBreak.size / 2
+1155	text.charAt(text.length() - 1) == ENTER_ANDROID
+1155	text.charAt(text.length() - 1) == ENTER_DESKTOP
+1155	text.length() == 0
+1156	cursorLine != firstLineShowing
+1157	background != null
+1158	maxIndex < lineEnd
+1158	maxIndex > lineStart
+1158	minIndex < lineStart
+1158	maxIndex < lineStart
+1158	minIndex > lineEnd
+1158	minIndex < lineEnd
+1158	minIndex > lineStart
+1158	maxIndex > lineEnd
+1159	this.text.equals(lastText)
+1160	lastCharacter == ENTER_ANDROID
+1160	lastCharacter == ENTER_DESKTOP
+1161	layout.width > maxWidthLine
+1162	lineStart >= lastSpace
+1163	lineStart < text.length()
+1164	index + 1 < linesBreak.size
+1164	index >= 0
+1164	linesBreak.items[index] == cursor
+1164	linesBreak.items[index + 1] == cursor
+1165	jump
+924	style == null
+925	style instanceof TextButtonStyle
+926	label != null
+927	style.disabledFontColor != null
+927	isDisabled()
+928	style.downFontColor != null
+928	isPressed()
+929	isChecked
+929	style.checkedFontColor != null
+930	style.overFontColor != null
+930	isOver()
+931	fontColor != null
+624	background != null
+625	glyphPositions[i] > x
+626	glyphPositions[i] - x <= x - glyphPositions[i - 1]
+627	at >= text.length()
+628	isWordCharacter(text.charAt(index))
+629	isWordCharacter(text.charAt(index))
+630	style == null
+631	background != null
+632	distance <= 0
+633	-renderOffset < minX
+634	width - x > visibleWidth
+635	-renderOffset > maxOffset
+636	glyphPositions[i] >= -renderOffset
+637	glyphPositions[visibleTextEnd] > startX + visibleWidth
+638	(textHAlign & Align.left) == 0
+639	(textHAlign & Align.center) != 0
+640	hasSelection
+641	focused
+642	background != null
+643	focused
+643	selection != null
+643	hasSelection
+644	displayText.length() == 0
+645	focused
+645	messageText != null
+646	style.messageFontColor != null
+647	disabled
+647	focused
+648	cursorPatch != null
+648	cursorOn
+649	background != null
+650	font.usesIntegerPositions()
+651	data.hasGlyph(passwordCharacter)
+651	passwordMode
+652	passwordBuffer == null
+653	passwordBuffer.length() > textLength
+654	layout.runs.size > 0
+655	selectionStart > newDisplayText.length()
+656	Gdx.graphics.isContinuousRendering()
+657	(time - lastBlink) / 1000000000.0f > blinkTime
+658	passwordMode
+658	hasSelection
+659	hasSelection
+659	passwordMode
+660	content == null
+661	hasSelection
+662	withinMaxLength(textLength + buffer.length())
+663	c == ENTER_ANDROID
+663	c == ENTER_DESKTOP
+663	writeEnters
+664	c == '\r'
+664	c == '\n'
+665	data.hasGlyph(c)
+665	onlyFontChars
+666	filter.acceptChar(this, c)
+666	filter != null
+667	hasSelection
+668	fireChangeEvent
+669	to.length() == 0
+670	fireChangeEvent
+671	stage == null
+672	textField == null
+673	up
+674	textField == null
+675	stage.setKeyboardFocus(textField)
+676	actor == this
+677	actor instanceof TextField
+678	textField.focusTraversal
+678	textField.isDisabled()
+679	actorCoords.y < currentCoords.y
+679	(actorCoords.y < currentCoords.y || (actorCoords.y == currentCoords.y && actorCoords.x > currentCoords.x)) ^ up
+679	actorCoords.y == currentCoords.y
+679	actorCoords.x > currentCoords.x
+680	(actorCoords.y > bestCoords.y || (actorCoords.y == bestCoords.y && actorCoords.x < bestCoords.x)) ^ up
+680	actorCoords.y > bestCoords.y
+680	actorCoords.x < bestCoords.x
+680	actorCoords.y == bestCoords.y
+680	best == null
+681	actor instanceof Group
+682	str == null
+683	str == null
+684	str.equals(text)
+685	programmaticChangeEvents
+686	newText.equals(oldText)
+687	selectionStart < 0
+688	selectionEnd < 0
+689	selectionEnd == selectionStart
+690	selectionEnd < selectionStart
+691	cursorPosition < 0
+692	style.background != null
+693	style.focusedBackground != null
+694	style.disabledBackground != null
+695	passwordMode
+696	continueCursor(cursor, charOffset)
+4829	useMessageFormat
+4830	messageFormat != null
+4831	ch == '\''
+4832	ch == '{'
+4833	escaped > 0
+4834	(j - i) % 2 != 0
+4835	placeholder < 0
+4836	ch == '{'
+4837	i + 1 < patternLength
+4837	pattern.charAt(i + 1) == '{'
+4838	ch == '}'
+4839	placeholder >= args.length
+4840	pattern.charAt(i - 1) == '{'
+4841	args[placeholder] == null
+4842	ch > '9'
+4842	ch < '0'
+4843	placeholder >= 0
+1053	style == null
+1054	style instanceof TextTooltipStyle
+2182	data.isManaged()
+2183	this.data != null
+2183	data.isManaged() != this.data.isManaged()
+2184	data.isPrepared()
+2185	isManaged()
+2186	data.isManaged()
+2187	glHandle == 0
+2188	data.isManaged()
+2189	managedTextures.get(Gdx.app) != null
+2190	managedTextureArray == null
+2191	managedTextureArray == null
+2192	assetManager == null
+2193	fileName == null
+2484	Gdx.gl30 == null
+2485	data.isManaged()
+2486	data.isManaged() != this.data.isManaged()
+2486	this.data != null
+2487	data.isPrepared()
+2488	isManaged()
+2489	managedTextureArray == null
+2490	managedTextureArray == null
+2054	data != null
+2055	page.texture == null
+2056	region.flip
+2057	regions.get(i).name.equals(name)
+2058	region.name.equals(name)
+2059	region.index != index
+2060	region.name.equals(name)
+2061	regions.get(i).name.equals(name)
+2062	region.name.equals(name)
+2063	region.index != index
+2064	region.name.equals(name)
+2065	region.packedHeight == region.originalHeight
+2065	region.packedWidth == region.originalWidth
+2066	region.rotate
+2067	region.name.equals(name)
+2068	splits == null
+2069	region.pads != null
+2070	colon == -1
+2071	colon == -1
+2072	comma == -1
+1556	parameter != null
+2963	is(type)
+2964	type != o.type
+2965	c != 0
+2966	uvIndex != other.uvIndex
+2967	MathUtils.isEqual(scaleU, other.scaleU)
+2968	MathUtils.isEqual(scaleV, other.scaleV)
+2969	MathUtils.isEqual(offsetU, other.offsetU)
+2970	MathUtils.isEqual(offsetV, other.offsetV)
+3180	obj == null
+3181	obj == this
+3182	obj instanceof TextureDescriptor
+3183	o == this
+3184	t1 != t2
+3185	h1 != h2
+3186	minFilter != o.minFilter
+3187	magFilter != o.magFilter
+3188	uWrap != o.uWrap
+3189	vWrap != o.vWrap
+1529	parameter.textureData == null
+1529	parameter == null
+1530	parameter != null
+1531	info.data.isPrepared()
+1532	info == null
+1533	texture != null
+1534	parameter != null
+2131	texture == null
+2132	regionHeight == 1
+2132	regionWidth == 1
+2133	isFlipX()
+2134	isFlipY()
+2135	x
+2136	y
+2137	xAmount != 0
+2138	yAmount != 0
+1330	region instanceof AtlasRegion
+3393	properties != null
+3394	element.getName().equals("TileSheet")
+3395	properties != null
+3396	element.getName().equals("Layer")
+3397	name.equals("TileSheet")
+3398	name.equals("Null")
+3399	name.equals("Static")
+3400	name.equals("Animated")
+3401	frameName.equals("TileSheet")
+3402	frameName.equals("Static")
+3403	properties != null
+3404	element.getName().equals("Properties")
+3405	type.equals("Int32")
+3406	type.equals("String")
+3407	type.equals("Boolean")
+3408	token.equals("..")
+1295	remainingX > 0
+1296	remainingY > 0
+1297	remainingY > 0
+3409	ownedResources != null
+3389	x < 0
+3389	x >= width
+3390	y < 0
+3390	y >= height
+3391	x < 0
+3391	x >= width
+3392	y >= height
+3392	y < 0
+3387	name.equals(tileset.getName())
+3388	tile != null
+4187	nRemaining < 2
+4188	nRemaining < MIN_MERGE
+4189	runLen < minRun
+4190	DEBUG
+4191	DEBUG
+4192	c == null
+4193	nRemaining < 2
+4194	nRemaining < MIN_MERGE
+4195	runLen < minRun
+4196	DEBUG
+4197	DEBUG
+4198	DEBUG
+4199	start == lo
+4200	DEBUG
+4201	c.compare(pivot, a[mid]) < 0
+4202	DEBUG
+4203	DEBUG
+4204	runHi == hi
+4205	c.compare(a[runHi++], a[lo]) < 0
+4206	DEBUG
+4207	runLen[n - 1] <= runLen[n] + runLen[n + 1]
+4207	runLen[n - 2] <= runLen[n] + runLen[n - 1]
+4207	n >= 2
+4207	n >= 1
+4208	runLen[n - 1] < runLen[n + 1]
+4209	runLen[n] > runLen[n + 1]
+4210	n > 0
+4210	runLen[n - 1] < runLen[n + 1]
+4211	DEBUG
+4212	DEBUG
+4213	DEBUG
+4214	DEBUG
+4215	DEBUG
+4216	i == stackSize - 3
+4217	DEBUG
+4218	len1 == 0
+4219	DEBUG
+4220	len2 == 0
+4221	len1 <= len2
+4222	DEBUG
+4223	c.compare(key, a[base + hint]) > 0
+4224	ofs <= 0
+4225	ofs > maxOfs
+4226	ofs <= 0
+4227	ofs > maxOfs
+4228	DEBUG
+4229	c.compare(key, a[base + m]) > 0
+4230	DEBUG
+4231	DEBUG
+4232	c.compare(key, a[base + hint]) < 0
+4233	ofs <= 0
+4234	ofs > maxOfs
+4235	ofs <= 0
+4236	ofs > maxOfs
+4237	DEBUG
+4238	c.compare(key, a[base + m]) < 0
+4239	DEBUG
+4240	DEBUG
+4241	--len2 == 0
+4242	len1 == 1
+4243	DEBUG
+4244	c.compare(a[cursor2], tmp[cursor1]) < 0
+4245	--len2 == 0
+4246	--len1 == 1
+4247	DEBUG
+4248	count1 != 0
+4249	len1 <= 1
+4250	--len2 == 0
+4251	count2 != 0
+4252	len2 == 0
+4253	--len1 == 1
+4254	minGallop < 0
+4255	len1 == 1
+4256	DEBUG
+4257	len1 == 0
+4258	DEBUG
+4259	DEBUG
+4260	DEBUG
+4261	--len1 == 0
+4262	len2 == 1
+4263	DEBUG
+4264	c.compare(tmp[cursor2], a[cursor1]) < 0
+4265	--len1 == 0
+4266	--len2 == 1
+4267	DEBUG
+4268	count1 != 0
+4269	len1 == 0
+4270	--len2 == 1
+4271	count2 != 0
+4272	len2 <= 1
+4273	--len1 == 0
+4274	minGallop < 0
+4275	len2 == 1
+4276	DEBUG
+4277	len2 == 0
+4278	DEBUG
+4279	DEBUG
+4280	tmp.length < minCapacity
+4281	newSize < 0
+4282	fromIndex > toIndex
+4283	fromIndex < 0
+4284	toIndex > arrayLen
+1285	action == null
+5765	thread.instance == null
+5766	thread.files != Gdx.files
+5766	thread == null
+5767	thread != null
+5768	task.repeatCount != CANCELLED
+5769	instances.contains(this, true)
+5770	task.executeTimeMillis > timeMillis
+5771	task.repeatCount != CANCELLED
+5772	task.repeatCount == 0
+5773	task.repeatCount == CANCELLED
+5774	task.repeatCount > 0
+3470	parameter != null
+3471	parameter != null
+3472	mapOrientation != null
+3473	staggerAxis != null
+3474	staggerIndex != null
+3475	mapBackgroundColor != null
+3476	mapOrientation != null
+3477	"staggered".equals(mapOrientation)
+3478	mapHeight > 1
+3479	properties != null
+3480	name.equals("layer")
+3481	name.equals("objectgroup")
+3482	name.equals("imagelayer")
+3483	source != null
+3484	imageElement != null
+3485	imageElement != null
+3486	source != null
+3487	images.contains(handle, false)
+3488	element.getName().equals("tileset")
+3489	source != null
+3490	offset != null
+3491	imageElement != null
+3492	offset != null
+3493	imageElement != null
+3494	image != null
+3495	imageElement != null
+3496	source != null
+3497	tile != null
+3498	animationElement != null
+3499	terrain != null
+3500	probability != null
+3501	properties != null
+3502	properties != null
+489	instant
+490	container.hasParent()
+491	stage == null
+492	point.y < dist
+493	point.x < dist
+494	point.x + container.getWidth() > stage.getWidth() - dist
+495	point.y + container.getHeight() > stage.getHeight() - dist
+496	pointer != -1
+497	Gdx.input.isTouched()
+498	fromActor.isDescendantOf(actor)
+498	fromActor != null
+499	toActor.isDescendantOf(event.getListenerActor())
+499	toActor != null
+1137	tooltip.container.remove()
+1138	enabled
+1138	tooltip.always
+1139	tooltip.always
+1139	enabled
+1140	tooltip.instant
+1140	time == 0
+1141	tooltip.container.hasParent()
+1142	files != Gdx.files
+1142	files == null
+458	deadzoneRadius < 0
+459	isTouchUp
+460	deadzoneBounds.contains(x, y)
+461	length > 1
+462	knobBounds.contains(x, y)
+463	oldPercentY != knobPercent.y
+463	oldPercentX != knobPercent.x
+464	fire(changeEvent)
+465	style == null
+466	style.knob != null
+467	bg != null
+468	knob != null
+469	deadzoneRadius < 0
+896	node.parent != null
+897	actor instanceof Layout
+898	node.icon != null
+899	node.expanded
+900	sizeInvalid
+901	node.icon != null
+902	node.expanded
+903	style.background != null
+904	style.selection != null
+904	selection.contains(node)
+905	style.over != null
+905	node == overNode
+906	node.icon != null
+907	node.children.size == 0
+908	node.expanded
+909	y >= rowY - height - ySpacing
+909	y < rowY
+910	node.expanded
+911	rowY == -1
+912	node.actor.getY() < low
+913	node.isSelectable()
+914	node.actor.getY() <= high
+915	node.expanded
+916	overNode == null
+917	sizeInvalid
+918	sizeInvalid
+919	node != null
+920	findExpandedObjects(node.children, objects)
+920	node.expanded
+921	object == null
+922	object.equals(node.object)
+923	found != null
+6119	type == '['
+6120	type == '{'
+6121	type == 'Z'
+6122	type == 'T'
+6123	type == 'F'
+6124	type == 'B'
+6125	type == 'U'
+6126	type == 'i'
+6127	type == 'I'
+6128	type == 'l'
+6129	type == 'L'
+6130	type == 'd'
+6131	type == 'D'
+6132	type == 's'
+6132	type == 'S'
+6133	type == 'A'
+6133	type == 'a'
+6134	type == 'C'
+6135	type == '$'
+6136	type == '#'
+6137	size < 0
+6138	size == 0
+6139	prev != null
+6140	size > 0
+6140	++c >= size
+6141	type == '$'
+6142	type == '#'
+6143	size < 0
+6144	size == 0
+6145	prev != null
+6146	++c >= size
+6146	size > 0
+6147	prev != null
+6148	type == 'S'
+6149	type == 's'
+6150	sOptional
+6151	size < 0
+6152	type == 'i'
+6153	type == 'I'
+6154	type == 'l'
+6155	type == 'L'
+6156	useIntOnError
+4491	out instanceof DataOutputStream
+4492	current != null
+4493	current.array
+4494	named
+4495	current != null
+4496	current.array
+4497	named
+4498	current == null
+4498	current.array
+4499	bytes.length <= Byte.MAX_VALUE
+4500	bytes.length <= Short.MAX_VALUE
+4501	bytes.length <= Byte.MAX_VALUE
+4502	bytes.length <= Short.MAX_VALUE
+4503	bytes.length <= Byte.MAX_VALUE
+4504	bytes.length <= Short.MAX_VALUE
+4505	value.isObject()
+4506	value.name != null
+4507	value.isArray()
+4508	value.name != null
+4509	value.isBoolean()
+4510	value.name != null
+4511	value.isDouble()
+4512	value.name != null
+4513	value.isLong()
+4514	value.name != null
+4515	value.isString()
+4516	value.name != null
+4517	value.isNull()
+4518	value.name != null
+4519	object == null
+4520	object instanceof Number
+4521	object instanceof Byte
+4522	object instanceof Short
+4523	object instanceof Integer
+4524	object instanceof Long
+4525	object instanceof Float
+4526	object instanceof Double
+4527	object instanceof Character
+4528	object instanceof CharSequence
+4529	current != null
+4530	current.array
+4531	named
+4532	named
+4533	silent
+1328	isMac
+1329	isMac
+2655	indicesCount > 0
+2656	indices == null
+280	actor == null
+281	actor == null
+3700	len != 0
+3701	len2 > limit2
+3702	len2 == 0f
+3703	len2 > max2
+3704	len2 < min2
+3705	v.charAt(v.length() - 1) == ')'
+3705	v.charAt(0) == '('
+3705	s != -1
+3706	angle < 0
+3707	dir >= 0
+3708	this == obj
+3709	obj == null
+3710	getClass() != obj.getClass()
+3711	NumberUtils.floatToIntBits(x) != NumberUtils.floatToIntBits(other.x)
+3712	NumberUtils.floatToIntBits(y) != NumberUtils.floatToIntBits(other.y)
+3713	other == null
+3714	Math.abs(other.x - x) > epsilon
+3715	Math.abs(other.y - y) > epsilon
+3716	Math.abs(x - this.x) > epsilon
+3717	Math.abs(y - this.y) > epsilon
+3673	len2 == 1f
+3673	len2 == 0f
+3674	dot > 0.9995
+3674	dot < -0.9995
+3675	v.charAt(0) == '('
+3675	s0 != -1
+3675	s1 != -1
+3675	v.charAt(v.length() - 1) == ')'
+3676	len2 > limit2
+3677	len2 == 0f
+3678	len2 > max2
+3679	len2 < min2
+3680	this == obj
+3681	obj == null
+3682	getClass() != obj.getClass()
+3683	NumberUtils.floatToIntBits(x) != NumberUtils.floatToIntBits(other.x)
+3684	NumberUtils.floatToIntBits(y) != NumberUtils.floatToIntBits(other.y)
+3685	NumberUtils.floatToIntBits(z) != NumberUtils.floatToIntBits(other.z)
+3686	other == null
+3687	Math.abs(other.x - x) > epsilon
+3688	Math.abs(other.y - y) > epsilon
+3689	Math.abs(other.z - z) > epsilon
+3690	Math.abs(x - this.x) > epsilon
+3691	Math.abs(y - this.y) > epsilon
+3692	Math.abs(z - this.z) > epsilon
+39	MAJOR != major
+40	MINOR != minor
+41	MAJOR != major
+42	MINOR != minor
+2263	locations == null
+2264	location < 0
+2265	location < 0
+2266	locations == null
+2267	location >= 0
+2483	obj instanceof VertexAttribute
+2139	attributes.length == 0
+2140	vertexAttribute == null
+2141	get(i).usage == usage
+2142	obj == this
+2143	obj instanceof VertexAttributes
+2144	this.attributes.length != other.attributes.length
+2145	attributes[i].equals(other.attributes[i])
+2146	mask == -1
+2147	attributes.length != o.attributes.length
+2148	m1 != m2
+2149	va0.usage != va1.usage
+2150	va0.unit != va1.unit
+2151	va0.numComponents != va1.numComponents
+2152	va0.normalized != va1.normalized
+2153	va0.type != va1.type
+2154	iterable == null
+2361	isBound
+2362	byteBuffer != null
+2362	this.ownsBuffer
+2363	data instanceof ByteBuffer
+2364	isBound
+2365	isBound
+2366	isDirty
+2367	locations == null
+2368	location < 0
+2369	location < 0
+2370	locations == null
+2371	location >= 0
+2372	ownsBuffer
+2233	isBound
+2234	isDirect
+2235	isDirect
+2236	isDirty
+2237	locations == null
+2238	location < 0
+2239	location < 0
+2240	locations == null
+2241	location >= 0
+2242	isBound
+2243	stillValid
+2244	locations == null
+2245	stillValid
+2246	locations == null
+2247	location < 0
+2248	cachedLocations.size == 0
+2249	location < 0
+2250	isDirty
+2251	vaoHandle != -1
+727	wrap
+728	columnSizes == null
+729	reverse
+730	child instanceof Layout
+731	y + incrY > groupHeight
+731	y > 0
+732	x > 0
+733	x > 0
+734	child instanceof Layout
+735	round
+736	sizeInvalid
+737	wrap
+738	(align & Align.top) != 0
+739	(align & Align.bottom) == 0
+740	(align & Align.left) != 0
+741	(align & Align.right) != 0
+742	reverse
+743	child instanceof Layout
+744	fill > 0
+745	layout != null
+746	maxWidth > 0
+746	width > maxWidth
+747	(align & Align.right) != 0
+748	(align & Align.left) == 0
+749	round
+750	layout != null
+751	prefWidth != lastPrefWidth
+752	(align & Align.right) != 0
+753	(align & Align.left) == 0
+754	(align & Align.top) != 0
+755	(align & Align.bottom) == 0
+756	reverse
+757	child instanceof Layout
+758	r == 0
+758	y - height - space < padBottom
+759	(align & Align.bottom) != 0
+760	(align & Align.top) == 0
+761	r > 0
+762	fill > 0
+763	layout != null
+764	width > maxWidth
+764	maxWidth > 0
+765	(align & Align.right) != 0
+766	(align & Align.left) == 0
+767	round
+768	layout != null
+769	sizeInvalid
+770	wrap
+771	sizeInvalid
+772	getDebug()
+4442	centerCamera
+2663	indicesCount > 0
+1055	enabled
+1056	layoutEnabled
+1057	parent != null
+1057	fillParent
+1058	stage != null
+1058	parent == stage.getRoot()
+1059	needsLayout
+1060	layoutEnabled
+1061	parent instanceof Layout
+448	layoutEnabled == enabled
+449	actor instanceof Layout
+450	actor instanceof Group
+451	layoutEnabled
+452	parent != null
+452	fillParent
+453	stage != null
+453	parent == stage.getRoot()
+454	getHeight() != parentHeight
+454	getWidth() != parentWidth
+455	needsLayout
+456	parent instanceof Layout
+457	needsLayout
+470	title == null
+471	style == null
+472	keepWithinStage
+473	camera instanceof OrthographicCamera
+474	getX(Align.right) - camera.position.x > parentWidth / 2 / orthographicCamera.zoom
+475	getX(Align.left) - camera.position.x < -parentWidth / 2 / orthographicCamera.zoom
+476	getY(Align.top) - camera.position.y > parentHeight / 2 / orthographicCamera.zoom
+477	getY(Align.bottom) - camera.position.y < -parentHeight / 2 / orthographicCamera.zoom
+478	getParent() == stage.getRoot()
+479	getX() < 0
+480	getRight() > parentWidth
+481	getY() < 0
+482	getTop() > parentHeight
+483	stage.getKeyboardFocus() == null
+484	style.stageBackground != null
+485	getTouchable() == Touchable.enabled
+485	hit == null
+485	touchable
+485	isModal
+486	hit == null
+486	hit == this
+487	y >= height - getPadTop()
+487	x >= 0
+487	x <= getWidth()
+487	y <= height
+488	getCell(current) != null
+3982	added_values < values.length
+3983	last_value > values.length - 1
+3984	hasEnoughData()
+3985	dirty == true
+3986	hasEnoughData()
+5242	length == -1
+5243	length == 0
+5244	p == pe
+5245	cs == 0
+5246	_klen > 0
+5247	_upper < _lower
+5248	data[p] < _xml_trans_keys[_mid]
+5249	data[p] > _xml_trans_keys[_mid]
+5250	_klen > 0
+5251	_upper < _lower
+5252	data[p] < _xml_trans_keys[_mid]
+5253	data[p] > _xml_trans_keys[_mid + 1]
+5254	_xml_trans_actions[_trans] != 0
+5255	c == '?'
+5255	c == '!'
+5256	data[s + 6] == 'A'
+5256	data[s + 2] == 'C'
+5256	data[s + 4] == 'A'
+5256	data[s + 5] == 'T'
+5256	data[s + 1] == '['
+5256	data[s + 3] == 'D'
+5256	data[s + 7] == '['
+5257	data[s + 2] == '-'
+5257	data[s + 1] == '-'
+5257	c == '!'
+5258	hasBody
+5259	data[current++] != '&'
+5260	data[current++] != ';'
+5261	entityFound
+5262	s < end
+5263	cs == 0
+5264	++p != pe
+5265	p < pe
+5266	data[i] == '\n'
+5267	elements.size != 0
+5268	parent != null
+5269	name.equals("lt")
+5270	name.equals("gt")
+5271	name.equals("amp")
+5272	name.equals("apos")
+5273	name.equals("quot")
+5274	name.startsWith("#x")
+5574	currentElement != null
+5575	startElementContent()
+5576	currentElement == null
+5577	currentElement == null
+5578	indentNextClose
+5579	indentNextClose
+5580	currentElement != null
+5581	indentNextClose

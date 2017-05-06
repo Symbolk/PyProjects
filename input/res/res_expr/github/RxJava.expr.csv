@@ -1,0 +1,2210 @@
+id	line	column	filename	methodname	varname	vartype	else	return	right
+1025	50	8	AbstractDirectTask.java	dispose	f	Future<?>	0	DEF	$ != DISPOSED
+1025	50	8	AbstractDirectTask.java	dispose	f	Future<?>	0	DEF	$ != FINISHED
+1026	51	12	AbstractDirectTask.java	dispose	THIS	AbstractDirectTask	0	DEF	$.compareAndSet(f, DISPOSED)
+1026	51	12	AbstractDirectTask.java	dispose	f	Future<?>	0	DEF	compareAndSet($, DISPOSED)
+1027	52	16	AbstractDirectTask.java	dispose	f	Future<?>	0	DEF	$ != null
+1028	68	12	AbstractDirectTask.java	setFuture	f	Future<?>	0	DEF	$ == FINISHED
+1029	71	12	AbstractDirectTask.java	setFuture	f	Future<?>	0	DEF	$ == DISPOSED
+1030	75	12	AbstractDirectTask.java	setFuture	THIS	AbstractDirectTask	0	DEF	$.compareAndSet(f, future)
+1030	75	12	AbstractDirectTask.java	setFuture	f	Future<?>	0	DEF	compareAndSet($, future)
+1030	75	12	AbstractDirectTask.java	setFuture	future	Future<?>	0	DEF	compareAndSet(f, $)
+340	50	8	AppendOnlyLinkedArrayList.java	add	c	int	0	DEF	o == $
+340	50	8	AppendOnlyLinkedArrayList.java	add	o	int	0	DEF	$ == c
+58132	87	8	AppendOnlyLinkedArrayList.java	forEachWhile	a	Object[]	0	NIL-WHILE	$ != null
+58133	88	12	AppendOnlyLinkedArrayList.java	forEachWhile	i	int	0	NIL-FOR	$ < c
+58133	88	12	AppendOnlyLinkedArrayList.java	forEachWhile	c	int	0	NIL-FOR	i < $
+341	90	16	AppendOnlyLinkedArrayList.java	forEachWhile	o	Object	0	DEF	$ == null
+342	93	16	AppendOnlyLinkedArrayList.java	forEachWhile	o	Object	0	DEF	consumer.test((T)$)
+342	93	16	AppendOnlyLinkedArrayList.java	forEachWhile	consumer	NonThrowingPredicate<? super T>	0	DEF	$.test((T)o)
+58134	112	8	AppendOnlyLinkedArrayList.java	accept	a	Object[]	0	NIL-WHILE	$ != null
+58135	113	12	AppendOnlyLinkedArrayList.java	accept	i	int	0	NIL-FOR	$ < c
+58135	113	12	AppendOnlyLinkedArrayList.java	accept	c	int	0	NIL-FOR	i < $
+343	115	16	AppendOnlyLinkedArrayList.java	accept	o	Object	0	DEF	$ == null
+344	119	16	AppendOnlyLinkedArrayList.java	accept	THIS	AppendOnlyLinkedArrayList	0	RET	$.NotificationLite.acceptFull(o, subscriber)
+344	119	16	AppendOnlyLinkedArrayList.java	accept	o	Object	0	RET	NotificationLite.acceptFull($, subscriber)
+344	119	16	AppendOnlyLinkedArrayList.java	accept	subscriber	Subscriber<? super U>	0	RET	NotificationLite.acceptFull(o, $)
+58136	140	8	AppendOnlyLinkedArrayList.java	accept	a	Object[]	0	NIL-WHILE	$ != null
+58137	141	12	AppendOnlyLinkedArrayList.java	accept	i	int	0	NIL-FOR	$ < c
+58137	141	12	AppendOnlyLinkedArrayList.java	accept	c	int	0	NIL-FOR	i < $
+345	143	16	AppendOnlyLinkedArrayList.java	accept	o	Object	0	DEF	$ == null
+346	147	16	AppendOnlyLinkedArrayList.java	accept	THIS	AppendOnlyLinkedArrayList	0	RET	$.NotificationLite.acceptFull(o, observer)
+346	147	16	AppendOnlyLinkedArrayList.java	accept	o	Object	0	RET	NotificationLite.acceptFull($, observer)
+346	147	16	AppendOnlyLinkedArrayList.java	accept	observer	Observer<? super U>	0	RET	NotificationLite.acceptFull(o, $)
+58138	169	12	AppendOnlyLinkedArrayList.java	forEachWhile	i	int	0	NIL-FOR	$ < c
+58138	169	12	AppendOnlyLinkedArrayList.java	forEachWhile	c	int	0	NIL-FOR	i < $
+347	171	16	AppendOnlyLinkedArrayList.java	forEachWhile	o	Object	0	RET	$ == null
+348	174	16	AppendOnlyLinkedArrayList.java	forEachWhile	o	Object	0	RET	consumer.test(state, (T)$)
+348	174	16	AppendOnlyLinkedArrayList.java	forEachWhile	state	S	0	RET	consumer.test($, (T)o)
+348	174	16	AppendOnlyLinkedArrayList.java	forEachWhile	consumer	BiPredicate<? super S,? super T>	0	RET	$.test(state, (T)o)
+895	44	12	ArrayCompositeDisposable.java	setResource	THIS	ArrayCompositeDisposable	0	RET	o == $.DisposableHelper.DISPOSED
+895	44	12	ArrayCompositeDisposable.java	setResource	o	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+896	48	12	ArrayCompositeDisposable.java	setResource	THIS	ArrayCompositeDisposable	0	RET	$.compareAndSet(index, o, resource)
+896	48	12	ArrayCompositeDisposable.java	setResource	o	Disposable	0	RET	compareAndSet(index, $, resource)
+896	48	12	ArrayCompositeDisposable.java	setResource	index	int	0	RET	compareAndSet($, o, resource)
+896	48	12	ArrayCompositeDisposable.java	setResource	resource	Disposable	0	RET	compareAndSet(index, o, $)
+897	49	16	ArrayCompositeDisposable.java	setResource	o	Disposable	0	DEF	$ != null
+898	66	12	ArrayCompositeDisposable.java	replaceResource	THIS	ArrayCompositeDisposable	0	RET	o == $.DisposableHelper.DISPOSED
+898	66	12	ArrayCompositeDisposable.java	replaceResource	o	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+899	70	12	ArrayCompositeDisposable.java	replaceResource	THIS	ArrayCompositeDisposable	0	RET	$.compareAndSet(index, o, resource)
+899	70	12	ArrayCompositeDisposable.java	replaceResource	o	Disposable	0	RET	compareAndSet(index, $, resource)
+899	70	12	ArrayCompositeDisposable.java	replaceResource	index	int	0	RET	compareAndSet($, o, resource)
+899	70	12	ArrayCompositeDisposable.java	replaceResource	resource	Disposable	0	RET	compareAndSet(index, o, $)
+900	78	8	ArrayCompositeDisposable.java	dispose	THIS	ArrayCompositeDisposable	0	DEF	$.get(0) != $.DisposableHelper.DISPOSED
+58169	80	12	ArrayCompositeDisposable.java	dispose	i	int	0	NIL-FOR	$ < s
+58169	80	12	ArrayCompositeDisposable.java	dispose	s	int	0	NIL-FOR	i < $
+901	82	16	ArrayCompositeDisposable.java	dispose	THIS	ArrayCompositeDisposable	0	DEF	o != $.DisposableHelper.DISPOSED
+901	82	16	ArrayCompositeDisposable.java	dispose	o	Disposable	0	DEF	$ != DisposableHelper.DISPOSED
+902	84	20	ArrayCompositeDisposable.java	dispose	THIS	ArrayCompositeDisposable	0	DEF	o != $.DisposableHelper.DISPOSED
+902	84	20	ArrayCompositeDisposable.java	dispose	o	Disposable	0	DEF	$ != null
+902	84	20	ArrayCompositeDisposable.java	dispose	o	Disposable	0	DEF	$ != DisposableHelper.DISPOSED
+793	46	12	ArrayCompositeSubscription.java	setResource	THIS	ArrayCompositeSubscription	0	RET	o == $.SubscriptionHelper.CANCELLED
+793	46	12	ArrayCompositeSubscription.java	setResource	o	Subscription	0	RET	$ == SubscriptionHelper.CANCELLED
+794	47	16	ArrayCompositeSubscription.java	setResource	resource	Subscription	0	DEF	$ != null
+795	52	12	ArrayCompositeSubscription.java	setResource	THIS	ArrayCompositeSubscription	0	RET	$.compareAndSet(index, o, resource)
+795	52	12	ArrayCompositeSubscription.java	setResource	o	Subscription	0	RET	compareAndSet(index, $, resource)
+795	52	12	ArrayCompositeSubscription.java	setResource	index	int	0	RET	compareAndSet($, o, resource)
+795	52	12	ArrayCompositeSubscription.java	setResource	resource	Subscription	0	RET	compareAndSet(index, o, $)
+796	53	16	ArrayCompositeSubscription.java	setResource	o	Subscription	0	DEF	$ != null
+797	70	12	ArrayCompositeSubscription.java	replaceResource	THIS	ArrayCompositeSubscription	0	RET	o == $.SubscriptionHelper.CANCELLED
+797	70	12	ArrayCompositeSubscription.java	replaceResource	o	Subscription	0	RET	$ == SubscriptionHelper.CANCELLED
+798	71	16	ArrayCompositeSubscription.java	replaceResource	resource	Subscription	0	DEF	$ != null
+799	76	12	ArrayCompositeSubscription.java	replaceResource	THIS	ArrayCompositeSubscription	0	RET	$.compareAndSet(index, o, resource)
+799	76	12	ArrayCompositeSubscription.java	replaceResource	o	Subscription	0	RET	compareAndSet(index, $, resource)
+799	76	12	ArrayCompositeSubscription.java	replaceResource	index	int	0	RET	compareAndSet($, o, resource)
+799	76	12	ArrayCompositeSubscription.java	replaceResource	resource	Subscription	0	RET	compareAndSet(index, o, $)
+800	84	8	ArrayCompositeSubscription.java	dispose	THIS	ArrayCompositeSubscription	0	DEF	$.get(0) != $.SubscriptionHelper.CANCELLED
+58168	86	12	ArrayCompositeSubscription.java	dispose	i	int	0	NIL-FOR	$ < s
+58168	86	12	ArrayCompositeSubscription.java	dispose	s	int	0	NIL-FOR	i < $
+801	88	16	ArrayCompositeSubscription.java	dispose	THIS	ArrayCompositeSubscription	0	DEF	o != $.SubscriptionHelper.CANCELLED
+801	88	16	ArrayCompositeSubscription.java	dispose	o	Subscription	0	DEF	$ != SubscriptionHelper.CANCELLED
+802	90	20	ArrayCompositeSubscription.java	dispose	THIS	ArrayCompositeSubscription	0	DEF	o != $.SubscriptionHelper.CANCELLED
+802	90	20	ArrayCompositeSubscription.java	dispose	o	Subscription	0	DEF	$ != null
+802	90	20	ArrayCompositeSubscription.java	dispose	o	Subscription	0	DEF	$ != SubscriptionHelper.CANCELLED
+209	69	8	AsyncProcessor.java	onSubscribe	THIS	AsyncProcessor	0	RET	$.subscribers.get() == TERMINATED
+210	79	8	AsyncProcessor.java	onNext	THIS	AsyncProcessor	0	RET	$.subscribers.get() == TERMINATED
+211	82	8	AsyncProcessor.java	onNext	t	T	0	RET	$ == null
+212	102	8	AsyncProcessor.java	onError	t	Throwable	0	DEF	$ == null
+213	105	8	AsyncProcessor.java	onError	THIS	AsyncProcessor	0	RET	$.subscribers.get() == TERMINATED
+214	119	8	AsyncProcessor.java	onComplete	THIS	AsyncProcessor	0	RET	$.subscribers.get() == TERMINATED
+215	124	8	AsyncProcessor.java	onComplete	v	T	1	DEF	$ == null
+216	159	8	AsyncProcessor.java	subscribeActual	THIS	AsyncProcessor	1	DEF	$.add(as)
+216	159	8	AsyncProcessor.java	subscribeActual	as	AsyncSubscription<T>	1	DEF	add($)
+217	160	12	AsyncProcessor.java	subscribeActual	as	AsyncSubscription<T>	0	DEF	$.isCancelled()
+218	165	12	AsyncProcessor.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+219	169	16	AsyncProcessor.java	subscribeActual	v	T	1	DEF	$ != null
+220	187	12	AsyncProcessor.java	add	a	AsyncSubscription<T>[]	0	RET	$ == TERMINATED
+221	197	12	AsyncProcessor.java	add	THIS	AsyncProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+221	197	12	AsyncProcessor.java	add	a	AsyncSubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+221	197	12	AsyncProcessor.java	add	b	AsyncSubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+222	212	12	AsyncProcessor.java	remove	n	int	0	RET	$ == 0
+58123	217	12	AsyncProcessor.java	remove	i	int	0	NIL-FOR	$ < n
+58123	217	12	AsyncProcessor.java	remove	n	int	0	NIL-FOR	i < $
+223	218	16	AsyncProcessor.java	remove	i	int	0	DEF	a[$] == ps
+223	218	16	AsyncProcessor.java	remove	a	AsyncSubscription<T>[]	0	DEF	$[i] == ps
+223	218	16	AsyncProcessor.java	remove	ps	AsyncSubscription<T>	0	DEF	a[i] == $
+224	224	12	AsyncProcessor.java	remove	j	int	0	RET	$ < 0
+225	230	12	AsyncProcessor.java	remove	n	int	1	DEF	$ == 1
+226	237	12	AsyncProcessor.java	remove	THIS	AsyncProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+226	237	12	AsyncProcessor.java	remove	a	AsyncSubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+226	237	12	AsyncProcessor.java	remove	b	AsyncSubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+227	281	8	AsyncProcessor.java	getValues	v	T	0	RET	$ == null
+228	282	12	AsyncProcessor.java	getValues	THIS	AsyncProcessor	0	DEF	array.$.length != 0
+228	282	12	AsyncProcessor.java	getValues	array	T[]	0	DEF	$.length != 0
+229	287	8	AsyncProcessor.java	getValues	THIS	AsyncProcessor	0	DEF	array.$.length == 0
+229	287	8	AsyncProcessor.java	getValues	array	T[]	0	DEF	$.length == 0
+230	291	8	AsyncProcessor.java	getValues	THIS	AsyncProcessor	0	DEF	array.$.length != 1
+230	291	8	AsyncProcessor.java	getValues	array	T[]	0	DEF	$.length != 1
+1361	71	8	AsyncSubject.java	onSubscribe	THIS	AsyncSubject	0	DEF	$.subscribers.get() == TERMINATED
+1362	78	8	AsyncSubject.java	onNext	THIS	AsyncSubject	0	RET	$.subscribers.get() == TERMINATED
+1363	81	8	AsyncSubject.java	onNext	t	T	0	RET	$ == null
+1364	101	8	AsyncSubject.java	onError	t	Throwable	0	DEF	$ == null
+1365	104	8	AsyncSubject.java	onError	THIS	AsyncSubject	0	RET	$.subscribers.get() == TERMINATED
+1366	118	8	AsyncSubject.java	onComplete	THIS	AsyncSubject	0	RET	$.subscribers.get() == TERMINATED
+1367	123	8	AsyncSubject.java	onComplete	v	T	1	DEF	$ == null
+1368	158	8	AsyncSubject.java	subscribeActual	THIS	AsyncSubject	1	DEF	$.add(as)
+1368	158	8	AsyncSubject.java	subscribeActual	as	AsyncDisposable<T>	1	DEF	add($)
+1369	159	12	AsyncSubject.java	subscribeActual	as	AsyncDisposable<T>	0	DEF	$.isDisposed()
+1370	164	12	AsyncSubject.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+1371	168	16	AsyncSubject.java	subscribeActual	v	T	1	DEF	$ != null
+1372	186	12	AsyncSubject.java	add	a	AsyncDisposable<T>[]	0	RET	$ == TERMINATED
+1373	196	12	AsyncSubject.java	add	THIS	AsyncSubject	0	RET	$.subscribers.compareAndSet(a, b)
+1373	196	12	AsyncSubject.java	add	a	AsyncDisposable<T>[]	0	RET	subscribers.compareAndSet($, b)
+1373	196	12	AsyncSubject.java	add	b	AsyncDisposable<T>[]	0	RET	subscribers.compareAndSet(a, $)
+1374	211	12	AsyncSubject.java	remove	n	int	0	RET	$ == 0
+58180	216	12	AsyncSubject.java	remove	i	int	0	NIL-FOR	$ < n
+58180	216	12	AsyncSubject.java	remove	n	int	0	NIL-FOR	i < $
+1375	217	16	AsyncSubject.java	remove	i	int	0	DEF	a[$] == ps
+1375	217	16	AsyncSubject.java	remove	a	AsyncDisposable<T>[]	0	DEF	$[i] == ps
+1375	217	16	AsyncSubject.java	remove	ps	AsyncDisposable<T>	0	DEF	a[i] == $
+1376	223	12	AsyncSubject.java	remove	j	int	0	RET	$ < 0
+1377	229	12	AsyncSubject.java	remove	n	int	1	DEF	$ == 1
+1378	236	12	AsyncSubject.java	remove	THIS	AsyncSubject	0	RET	$.subscribers.compareAndSet(a, b)
+1378	236	12	AsyncSubject.java	remove	a	AsyncDisposable<T>[]	0	RET	subscribers.compareAndSet($, b)
+1378	236	12	AsyncSubject.java	remove	b	AsyncDisposable<T>[]	0	RET	subscribers.compareAndSet(a, $)
+1379	280	8	AsyncSubject.java	getValues	v	T	0	RET	$ == null
+1380	281	12	AsyncSubject.java	getValues	THIS	AsyncSubject	0	DEF	array.$.length != 0
+1380	281	12	AsyncSubject.java	getValues	array	T[]	0	DEF	$.length != 0
+1381	286	8	AsyncSubject.java	getValues	THIS	AsyncSubject	0	DEF	array.$.length == 0
+1381	286	8	AsyncSubject.java	getValues	array	T[]	0	DEF	$.length == 0
+1382	290	8	AsyncSubject.java	getValues	THIS	AsyncSubject	0	DEF	array.$.length != 1
+1382	290	8	AsyncSubject.java	getValues	array	T[]	0	DEF	$.length != 1
+325	36	8	BackpressureHelper.java	addCap	u	long	0	RET	$ < 0L
+326	50	8	BackpressureHelper.java	multiplyCap	a	long	0	RET	(($ | b) >>> 31) != 0
+326	50	8	BackpressureHelper.java	multiplyCap	b	long	0	RET	((a | $) >>> 31) != 0
+327	51	12	BackpressureHelper.java	multiplyCap	u	long	0	RET	$ / a != b
+327	51	12	BackpressureHelper.java	multiplyCap	a	long	0	RET	u / $ != b
+327	51	12	BackpressureHelper.java	multiplyCap	b	long	0	RET	u / a != $
+328	68	12	BackpressureHelper.java	add	r	long	0	RET	$ == Long.MAX_VALUE
+329	72	12	BackpressureHelper.java	add	r	long	0	RET	requested.compareAndSet($, u)
+329	72	12	BackpressureHelper.java	add	u	long	0	RET	requested.compareAndSet(r, $)
+329	72	12	BackpressureHelper.java	add	requested	AtomicLong	0	RET	$.compareAndSet(r, u)
+330	89	12	BackpressureHelper.java	addCancel	r	long	0	RET	$ == Long.MIN_VALUE
+331	92	12	BackpressureHelper.java	addCancel	r	long	0	RET	$ == Long.MAX_VALUE
+332	96	12	BackpressureHelper.java	addCancel	r	long	0	RET	requested.compareAndSet($, u)
+332	96	12	BackpressureHelper.java	addCancel	u	long	0	RET	requested.compareAndSet(r, $)
+332	96	12	BackpressureHelper.java	addCancel	requested	AtomicLong	0	RET	$.compareAndSet(r, u)
+333	111	12	BackpressureHelper.java	produced	current	long	0	RET	$ == Long.MAX_VALUE
+334	115	12	BackpressureHelper.java	produced	update	long	0	DEF	$ < 0L
+335	119	12	BackpressureHelper.java	produced	current	long	0	RET	requested.compareAndSet($, update)
+335	119	12	BackpressureHelper.java	produced	update	long	0	RET	requested.compareAndSet(current, $)
+335	119	12	BackpressureHelper.java	produced	requested	AtomicLong	0	RET	$.compareAndSet(current, update)
+336	135	12	BackpressureHelper.java	producedCancel	current	long	0	RET	$ == Long.MIN_VALUE
+337	138	12	BackpressureHelper.java	producedCancel	current	long	0	RET	$ == Long.MAX_VALUE
+338	142	12	BackpressureHelper.java	producedCancel	update	long	0	DEF	$ < 0L
+339	146	12	BackpressureHelper.java	producedCancel	current	long	0	RET	requested.compareAndSet($, update)
+339	146	12	BackpressureHelper.java	producedCancel	update	long	0	RET	requested.compareAndSet(current, $)
+339	146	12	BackpressureHelper.java	producedCancel	requested	AtomicLong	0	RET	$.compareAndSet(current, update)
+1265	145	8	BaseTestConsumer.java	fail	THIS	BaseTestConsumer	0	DEF	$.timeout
+1266	149	8	BaseTestConsumer.java	fail	THIS	BaseTestConsumer	0	DEF	$.isDisposed()
+1267	154	8	BaseTestConsumer.java	fail	tag	CharSequence	0	DEF	$ != null
+1268	164	8	BaseTestConsumer.java	fail	THIS	BaseTestConsumer	0	DEF	$.errors.isEmpty()
+1269	165	12	BaseTestConsumer.java	fail	THIS	BaseTestConsumer	1	DEF	$.errors.size() == 1
+1270	183	8	BaseTestConsumer.java	await	THIS	BaseTestConsumer	0	RET	$.done.getCount() == 0
+1271	215	8	BaseTestConsumer.java	assertComplete	c	long	1	DEF	$ == 0
+1272	218	8	BaseTestConsumer.java	assertComplete	c	long	0	DEF	$ > 1
+1273	231	8	BaseTestConsumer.java	assertNotComplete	c	long	1	DEF	$ == 1
+1274	234	8	BaseTestConsumer.java	assertNotComplete	c	long	0	DEF	$ > 1
+1275	247	8	BaseTestConsumer.java	assertNoErrors	s	int	0	DEF	$ != 0
+1276	291	8	BaseTestConsumer.java	assertError	s	int	0	DEF	$ == 0
+1277	299	16	BaseTestConsumer.java	assertError	THIS	BaseTestConsumer	0	DEF	errorPredicate.test($.e)
+1277	299	16	BaseTestConsumer.java	assertError	errorPredicate	Predicate<Throwable>	0	DEF	$.test(e)
+1278	308	8	BaseTestConsumer.java	assertError	found	boolean	1	DEF	$
+1279	309	12	BaseTestConsumer.java	assertError	s	int	0	DEF	$ != 1
+1280	327	8	BaseTestConsumer.java	assertValue	s	int	0	DEF	$ != 1
+1281	331	8	BaseTestConsumer.java	assertValue	v	T	0	DEF	ObjectHelper.equals(value, $)
+1281	331	8	BaseTestConsumer.java	assertValue	value	T	0	DEF	ObjectHelper.equals($, v)
+58173	350	8	BaseTestConsumer.java	assertNever	i	int	0	NIL-FOR	$ < s
+58173	350	8	BaseTestConsumer.java	assertNever	s	int	0	NIL-FOR	i < $
+1282	352	12	BaseTestConsumer.java	assertNever	v	T	0	DEF	ObjectHelper.equals($, value)
+1282	352	12	BaseTestConsumer.java	assertNever	value	T	0	DEF	ObjectHelper.equals(v, $)
+1283	371	8	BaseTestConsumer.java	assertValue	THIS	BaseTestConsumer	0	DEF	$.values.size() > 1
+58174	392	8	BaseTestConsumer.java	assertNever	i	int	0	NIL-FOR	$ < s
+58174	392	8	BaseTestConsumer.java	assertNever	s	int	0	NIL-FOR	i < $
+1284	395	16	BaseTestConsumer.java	assertNever	v	T	0	DEF	valuePredicate.test($)
+1284	395	16	BaseTestConsumer.java	assertNever	valuePredicate	Predicate<? super T>	0	DEF	$.test(v)
+1285	417	8	BaseTestConsumer.java	assertValueAt	s	int	0	DEF	$ == 0
+1286	421	8	BaseTestConsumer.java	assertValueAt	THIS	BaseTestConsumer	0	DEF	index >= $.values.size()
+1286	421	8	BaseTestConsumer.java	assertValueAt	index	int	0	DEF	$ >= values.size()
+1287	428	12	BaseTestConsumer.java	assertValueAt	THIS	BaseTestConsumer	0	DEF	valuePredicate.test($.values.get(index))
+1287	428	12	BaseTestConsumer.java	assertValueAt	index	int	0	DEF	valuePredicate.test(values.get($))
+1287	428	12	BaseTestConsumer.java	assertValueAt	valuePredicate	Predicate<T>	0	DEF	$.test(values.get(index))
+1288	435	8	BaseTestConsumer.java	assertValueAt	found	boolean	0	DEF	$
+1289	447	8	BaseTestConsumer.java	valueAndClass	o	Object	0	RET	$ != null
+1290	461	8	BaseTestConsumer.java	assertValueCount	s	int	0	DEF	$ != count
+1290	461	8	BaseTestConsumer.java	assertValueCount	count	int	0	DEF	s != $
+1291	484	8	BaseTestConsumer.java	assertValues	THIS	BaseTestConsumer	0	DEF	s != values.$.length
+1291	484	8	BaseTestConsumer.java	assertValues	s	int	0	DEF	$ != values.length
+1291	484	8	BaseTestConsumer.java	assertValues	values	T	0	DEF	s != $.length
+58175	488	8	BaseTestConsumer.java	assertValues	i	int	0	NIL-FOR	$ < s
+58175	488	8	BaseTestConsumer.java	assertValues	s	int	0	NIL-FOR	i < $
+1292	491	12	BaseTestConsumer.java	assertValues	v	T	0	DEF	ObjectHelper.equals(u, $)
+1292	491	12	BaseTestConsumer.java	assertValues	u	T	0	DEF	ObjectHelper.equals($, v)
+1293	508	8	BaseTestConsumer.java	assertValueSet	expected	Collection<? extends T>	0	RET	$.isEmpty()
+1294	513	12	BaseTestConsumer.java	assertValueSet	THIS	BaseTestConsumer	0	DEF	expected.contains($.v)
+1294	513	12	BaseTestConsumer.java	assertValueSet	expected	Collection<? extends T>	0	DEF	$.contains(v)
+1295	536	12	BaseTestConsumer.java	assertValueSequence	actualNext	boolean	0	DEF	$
+1295	536	12	BaseTestConsumer.java	assertValueSequence	expectedNext	boolean	0	DEF	$
+1296	543	12	BaseTestConsumer.java	assertValueSequence	v	T	0	DEF	ObjectHelper.equals(u, $)
+1296	543	12	BaseTestConsumer.java	assertValueSequence	u	T	0	DEF	ObjectHelper.equals($, v)
+1297	549	8	BaseTestConsumer.java	assertValueSequence	actualNext	boolean	0	DEF	$
+1298	552	8	BaseTestConsumer.java	assertValueSequence	expectedNext	boolean	0	DEF	$
+1299	564	8	BaseTestConsumer.java	assertTerminated	THIS	BaseTestConsumer	0	DEF	$.done.getCount() != 0
+1300	568	8	BaseTestConsumer.java	assertTerminated	c	long	0	DEF	$ > 1
+1301	572	8	BaseTestConsumer.java	assertTerminated	s	int	0	DEF	$ > 1
+1302	576	8	BaseTestConsumer.java	assertTerminated	c	long	0	DEF	$ != 0
+1302	576	8	BaseTestConsumer.java	assertTerminated	s	int	0	DEF	$ != 0
+1303	588	8	BaseTestConsumer.java	assertNotTerminated	THIS	BaseTestConsumer	0	DEF	$.done.getCount() == 0
+1304	633	8	BaseTestConsumer.java	assertErrorMessage	s	int	1	DEF	$ == 0
+1305	636	8	BaseTestConsumer.java	assertErrorMessage	s	int	1	DEF	$ == 1
+1306	639	12	BaseTestConsumer.java	assertErrorMessage	errorMessage	String	0	DEF	ObjectHelper.equals(message, $)
+1306	639	12	BaseTestConsumer.java	assertErrorMessage	message	String	0	DEF	ObjectHelper.equals($, errorMessage)
+58176	664	8	BaseTestConsumer.java	getEvents	THIS	BaseTestConsumer	0	NIL-FOR	i < $.completions
+58176	664	8	BaseTestConsumer.java	getEvents	i	long	0	NIL-FOR	$ < completions
+1307	759	12	BaseTestConsumer.java	awaitDone	THIS	BaseTestConsumer	0	DEF	$.done.await(time, unit)
+1307	759	12	BaseTestConsumer.java	awaitDone	time	long	0	DEF	done.await($, unit)
+1307	759	12	BaseTestConsumer.java	awaitDone	unit	TimeUnit	0	DEF	done.await(time, $)
+1308	910	12	BaseTestConsumer.java	awaitCount	start	long	0	DEF	System.currentTimeMillis() - $ >= timeoutMillis
+1308	910	12	BaseTestConsumer.java	awaitCount	timeoutMillis	long	0	DEF	$ > 0L
+1308	910	12	BaseTestConsumer.java	awaitCount	timeoutMillis	long	0	DEF	System.currentTimeMillis() - start >= $
+1309	914	12	BaseTestConsumer.java	awaitCount	THIS	BaseTestConsumer	0	DEF	$.done.getCount() == 0L
+1310	917	12	BaseTestConsumer.java	awaitCount	THIS	BaseTestConsumer	0	DEF	$.values.size() >= atLeast
+1310	917	12	BaseTestConsumer.java	awaitCount	atLeast	int	0	DEF	values.size() >= $
+1311	959	8	BaseTestConsumer.java	assertTimeout	THIS	BaseTestConsumer	0	DEF	$.timeout
+1312	974	8	BaseTestConsumer.java	assertNoTimeout	THIS	BaseTestConsumer	0	DEF	$.timeout
+456	57	8	BasicFuseableConditionalSubscriber.java	onSubscribe	THIS	BasicFuseableConditionalSubscriber	0	DEF	$.SubscriptionHelper.validate($.s, s)
+456	57	8	BasicFuseableConditionalSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.s, $)
+457	60	12	BasicFuseableConditionalSubscriber.java	onSubscribe	s	Subscription	0	DEF	$ instanceof QueueSubscription
+458	64	12	BasicFuseableConditionalSubscriber.java	onSubscribe	THIS	BasicFuseableConditionalSubscriber	0	DEF	$.beforeDownstream()
+459	95	8	BasicFuseableConditionalSubscriber.java	onError	THIS	BasicFuseableConditionalSubscriber	0	RET	$.done
+460	115	8	BasicFuseableConditionalSubscriber.java	onComplete	THIS	BasicFuseableConditionalSubscriber	0	RET	$.done
+461	134	8	BasicFuseableConditionalSubscriber.java	transitiveBoundaryFusion	qs	QueueSubscription<T>	0	RET	$ != null
+462	135	12	BasicFuseableConditionalSubscriber.java	transitiveBoundaryFusion	mode	int	0	RET	($ & BOUNDARY) == 0
+463	137	16	BasicFuseableConditionalSubscriber.java	transitiveBoundaryFusion	m	int	0	DEF	$ != NONE
+986	57	8	BasicFuseableObserver.java	onSubscribe	THIS	BasicFuseableObserver	0	DEF	$.DisposableHelper.validate($.s, s)
+986	57	8	BasicFuseableObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.validate(this.s, $)
+987	60	12	BasicFuseableObserver.java	onSubscribe	s	Disposable	0	DEF	$ instanceof QueueDisposable
+988	64	12	BasicFuseableObserver.java	onSubscribe	THIS	BasicFuseableObserver	0	DEF	$.beforeDownstream()
+989	95	8	BasicFuseableObserver.java	onError	THIS	BasicFuseableObserver	0	RET	$.done
+990	115	8	BasicFuseableObserver.java	onComplete	THIS	BasicFuseableObserver	0	RET	$.done
+991	134	8	BasicFuseableObserver.java	transitiveBoundaryFusion	qs	QueueDisposable<T>	0	RET	$ != null
+992	135	12	BasicFuseableObserver.java	transitiveBoundaryFusion	mode	int	0	RET	($ & BOUNDARY) == 0
+993	137	16	BasicFuseableObserver.java	transitiveBoundaryFusion	m	int	0	DEF	$ != NONE
+478	58	8	BasicFuseableSubscriber.java	onSubscribe	THIS	BasicFuseableSubscriber	0	DEF	$.SubscriptionHelper.validate($.s, s)
+478	58	8	BasicFuseableSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.s, $)
+479	61	12	BasicFuseableSubscriber.java	onSubscribe	s	Subscription	0	DEF	$ instanceof QueueSubscription
+480	65	12	BasicFuseableSubscriber.java	onSubscribe	THIS	BasicFuseableSubscriber	0	DEF	$.beforeDownstream()
+481	96	8	BasicFuseableSubscriber.java	onError	THIS	BasicFuseableSubscriber	0	RET	$.done
+482	116	8	BasicFuseableSubscriber.java	onComplete	THIS	BasicFuseableSubscriber	0	RET	$.done
+483	135	8	BasicFuseableSubscriber.java	transitiveBoundaryFusion	qs	QueueSubscription<T>	0	RET	$ != null
+484	136	12	BasicFuseableSubscriber.java	transitiveBoundaryFusion	mode	int	0	RET	($ & BOUNDARY) == 0
+485	138	16	BasicFuseableSubscriber.java	transitiveBoundaryFusion	m	int	0	DEF	$ != NONE
+232	151	8	BehaviorProcessor.java	subscribeActual	THIS	BehaviorProcessor	1	DEF	$.add(bs)
+232	151	8	BehaviorProcessor.java	subscribeActual	bs	BehaviorSubscription<T>	1	DEF	add($)
+233	152	12	BehaviorProcessor.java	subscribeActual	THIS	BehaviorProcessor	1	DEF	bs.$.cancelled
+233	152	12	BehaviorProcessor.java	subscribeActual	bs	BehaviorSubscription<T>	1	DEF	$.cancelled
+234	159	12	BehaviorProcessor.java	subscribeActual	THIS	BehaviorProcessor	1	DEF	$.NotificationLite.isComplete(o)
+234	159	12	BehaviorProcessor.java	subscribeActual	o	Object	1	DEF	NotificationLite.isComplete($)
+235	169	8	BehaviorProcessor.java	onSubscribe	THIS	BehaviorProcessor	0	RET	$.done
+236	178	8	BehaviorProcessor.java	onNext	t	T	0	RET	$ == null
+237	182	8	BehaviorProcessor.java	onNext	THIS	BehaviorProcessor	0	RET	$.done
+238	194	8	BehaviorProcessor.java	onError	t	Throwable	0	DEF	$ == null
+239	197	8	BehaviorProcessor.java	onError	THIS	BehaviorProcessor	0	RET	$.done
+240	210	8	BehaviorProcessor.java	onComplete	THIS	BehaviorProcessor	0	RET	$.done
+241	235	8	BehaviorProcessor.java	offer	t	T	0	RET	$ == null
+242	242	12	BehaviorProcessor.java	offer	THIS	BehaviorProcessor	0	RET	$.s.isFull()
+243	268	8	BehaviorProcessor.java	getThrowable	THIS	BehaviorProcessor	0	RET	$.NotificationLite.isError(o)
+243	268	8	BehaviorProcessor.java	getThrowable	o	Object	0	RET	NotificationLite.isError($)
+244	281	8	BehaviorProcessor.java	getValue	THIS	BehaviorProcessor	0	RET	$.NotificationLite.isComplete(o)
+244	281	8	BehaviorProcessor.java	getValue	THIS	BehaviorProcessor	0	RET	$.NotificationLite.isError(o)
+244	281	8	BehaviorProcessor.java	getValue	o	Object	0	RET	NotificationLite.isComplete($)
+244	281	8	BehaviorProcessor.java	getValue	o	Object	0	RET	NotificationLite.isError($)
+245	296	8	BehaviorProcessor.java	getValues	b	T[]	0	RET	$ == EMPTY_ARRAY
+246	314	8	BehaviorProcessor.java	getValues	THIS	BehaviorProcessor	0	RET	$.NotificationLite.isError(o)
+246	314	8	BehaviorProcessor.java	getValues	THIS	BehaviorProcessor	0	RET	$.NotificationLite.isComplete(o)
+246	314	8	BehaviorProcessor.java	getValues	o	Object	0	RET	$ == null
+246	314	8	BehaviorProcessor.java	getValues	o	Object	0	RET	NotificationLite.isError($)
+246	314	8	BehaviorProcessor.java	getValues	o	Object	0	RET	NotificationLite.isComplete($)
+247	315	12	BehaviorProcessor.java	getValues	THIS	BehaviorProcessor	0	DEF	array.$.length != 0
+247	315	12	BehaviorProcessor.java	getValues	array	T[]	0	DEF	$.length != 0
+248	321	8	BehaviorProcessor.java	getValues	THIS	BehaviorProcessor	1	DEF	array.$.length != 0
+248	321	8	BehaviorProcessor.java	getValues	array	T[]	1	DEF	$.length != 0
+249	323	12	BehaviorProcessor.java	getValues	THIS	BehaviorProcessor	0	DEF	array.$.length != 1
+249	323	12	BehaviorProcessor.java	getValues	array	T[]	0	DEF	$.length != 1
+250	359	12	BehaviorProcessor.java	add	a	BehaviorSubscription<T>[]	0	RET	$ == TERMINATED
+251	367	12	BehaviorProcessor.java	add	THIS	BehaviorProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+251	367	12	BehaviorProcessor.java	add	a	BehaviorSubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+251	367	12	BehaviorProcessor.java	add	b	BehaviorSubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+252	377	12	BehaviorProcessor.java	remove	a	BehaviorSubscription<T>[]	0	RET	$ == TERMINATED
+252	377	12	BehaviorProcessor.java	remove	a	BehaviorSubscription<T>[]	0	RET	$ == EMPTY
+58124	382	12	BehaviorProcessor.java	remove	i	int	0	NIL-FOR	$ < len
+58124	382	12	BehaviorProcessor.java	remove	len	int	0	NIL-FOR	i < $
+253	383	16	BehaviorProcessor.java	remove	i	int	0	DEF	a[$] == rs
+253	383	16	BehaviorProcessor.java	remove	a	BehaviorSubscription<T>[]	0	DEF	$[i] == rs
+253	383	16	BehaviorProcessor.java	remove	rs	BehaviorSubscription<T>	0	DEF	a[i] == $
+254	389	12	BehaviorProcessor.java	remove	j	int	0	RET	$ < 0
+255	393	12	BehaviorProcessor.java	remove	len	int	1	DEF	$ == 1
+256	400	12	BehaviorProcessor.java	remove	THIS	BehaviorProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+256	400	12	BehaviorProcessor.java	remove	a	BehaviorSubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+256	400	12	BehaviorProcessor.java	remove	b	BehaviorSubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+257	410	8	BehaviorProcessor.java	terminate	a	BehaviorSubscription<T>[]	0	DEF	$ != TERMINATED
+258	412	12	BehaviorProcessor.java	terminate	a	BehaviorSubscription<T>[]	0	DEF	$ != TERMINATED
+1400	149	8	BehaviorSubject.java	subscribeActual	THIS	BehaviorSubject	1	DEF	$.add(bs)
+1400	149	8	BehaviorSubject.java	subscribeActual	bs	BehaviorDisposable<T>	1	DEF	add($)
+1401	150	12	BehaviorSubject.java	subscribeActual	THIS	BehaviorSubject	1	DEF	bs.$.cancelled
+1401	150	12	BehaviorSubject.java	subscribeActual	bs	BehaviorDisposable<T>	1	DEF	$.cancelled
+1402	157	12	BehaviorSubject.java	subscribeActual	THIS	BehaviorSubject	1	DEF	$.NotificationLite.isComplete(o)
+1402	157	12	BehaviorSubject.java	subscribeActual	o	Object	1	DEF	NotificationLite.isComplete($)
+1403	167	8	BehaviorSubject.java	onSubscribe	THIS	BehaviorSubject	0	DEF	$.done
+1404	174	8	BehaviorSubject.java	onNext	t	T	0	RET	$ == null
+1405	178	8	BehaviorSubject.java	onNext	THIS	BehaviorSubject	0	RET	$.done
+1406	190	8	BehaviorSubject.java	onError	t	Throwable	0	DEF	$ == null
+1407	193	8	BehaviorSubject.java	onError	THIS	BehaviorSubject	0	RET	$.done
+1408	206	8	BehaviorSubject.java	onComplete	THIS	BehaviorSubject	0	RET	$.done
+1409	229	8	BehaviorSubject.java	getThrowable	THIS	BehaviorSubject	0	RET	$.NotificationLite.isError(o)
+1409	229	8	BehaviorSubject.java	getThrowable	o	Object	0	RET	NotificationLite.isError($)
+1410	242	8	BehaviorSubject.java	getValue	THIS	BehaviorSubject	0	RET	$.NotificationLite.isComplete(o)
+1410	242	8	BehaviorSubject.java	getValue	THIS	BehaviorSubject	0	RET	$.NotificationLite.isError(o)
+1410	242	8	BehaviorSubject.java	getValue	o	Object	0	RET	NotificationLite.isComplete($)
+1410	242	8	BehaviorSubject.java	getValue	o	Object	0	RET	NotificationLite.isError($)
+1411	257	8	BehaviorSubject.java	getValues	b	T[]	0	RET	$ == EMPTY_ARRAY
+1412	275	8	BehaviorSubject.java	getValues	THIS	BehaviorSubject	0	RET	$.NotificationLite.isComplete(o)
+1412	275	8	BehaviorSubject.java	getValues	THIS	BehaviorSubject	0	RET	$.NotificationLite.isError(o)
+1412	275	8	BehaviorSubject.java	getValues	o	Object	0	RET	$ == null
+1412	275	8	BehaviorSubject.java	getValues	o	Object	0	RET	NotificationLite.isComplete($)
+1412	275	8	BehaviorSubject.java	getValues	o	Object	0	RET	NotificationLite.isError($)
+1413	276	12	BehaviorSubject.java	getValues	THIS	BehaviorSubject	0	DEF	array.$.length != 0
+1413	276	12	BehaviorSubject.java	getValues	array	T[]	0	DEF	$.length != 0
+1414	282	8	BehaviorSubject.java	getValues	THIS	BehaviorSubject	1	DEF	array.$.length != 0
+1414	282	8	BehaviorSubject.java	getValues	array	T[]	1	DEF	$.length != 0
+1415	284	12	BehaviorSubject.java	getValues	THIS	BehaviorSubject	0	DEF	array.$.length != 1
+1415	284	12	BehaviorSubject.java	getValues	array	T[]	0	DEF	$.length != 1
+1416	319	12	BehaviorSubject.java	add	a	BehaviorDisposable<T>[]	0	RET	$ == TERMINATED
+1417	327	12	BehaviorSubject.java	add	THIS	BehaviorSubject	0	RET	$.subscribers.compareAndSet(a, b)
+1417	327	12	BehaviorSubject.java	add	a	BehaviorDisposable<T>[]	0	RET	subscribers.compareAndSet($, b)
+1417	327	12	BehaviorSubject.java	add	b	BehaviorDisposable<T>[]	0	RET	subscribers.compareAndSet(a, $)
+1418	337	12	BehaviorSubject.java	remove	a	BehaviorDisposable<T>[]	0	RET	$ == EMPTY
+1418	337	12	BehaviorSubject.java	remove	a	BehaviorDisposable<T>[]	0	RET	$ == TERMINATED
+58182	342	12	BehaviorSubject.java	remove	i	int	0	NIL-FOR	$ < len
+58182	342	12	BehaviorSubject.java	remove	len	int	0	NIL-FOR	i < $
+1419	343	16	BehaviorSubject.java	remove	i	int	0	DEF	a[$] == rs
+1419	343	16	BehaviorSubject.java	remove	a	BehaviorDisposable<T>[]	0	DEF	$[i] == rs
+1419	343	16	BehaviorSubject.java	remove	rs	BehaviorDisposable<T>	0	DEF	a[i] == $
+1420	349	12	BehaviorSubject.java	remove	j	int	0	RET	$ < 0
+1421	353	12	BehaviorSubject.java	remove	len	int	1	DEF	$ == 1
+1422	360	12	BehaviorSubject.java	remove	THIS	BehaviorSubject	0	RET	$.subscribers.compareAndSet(a, b)
+1422	360	12	BehaviorSubject.java	remove	a	BehaviorDisposable<T>[]	0	RET	subscribers.compareAndSet($, b)
+1422	360	12	BehaviorSubject.java	remove	b	BehaviorDisposable<T>[]	0	RET	subscribers.compareAndSet(a, $)
+1423	370	8	BehaviorSubject.java	terminate	a	BehaviorDisposable<T>[]	0	DEF	$ != TERMINATED
+1424	372	12	BehaviorSubject.java	terminate	a	BehaviorDisposable<T>[]	0	DEF	$ != TERMINATED
+982	38	8	BlockingBaseObserver.java	onSubscribe	THIS	BlockingBaseObserver	0	DEF	$.cancelled
+983	52	8	BlockingBaseObserver.java	dispose	d	Disposable	0	DEF	$ != null
+984	68	8	BlockingBaseObserver.java	blockingGet	THIS	BlockingBaseObserver	0	DEF	$.getCount() != 0
+985	79	8	BlockingBaseObserver.java	blockingGet	e	Throwable	0	DEF	$ != null
+486	39	8	BlockingBaseSubscriber.java	onSubscribe	THIS	BlockingBaseSubscriber	0	DEF	$.SubscriptionHelper.validate($.s, s)
+486	39	8	BlockingBaseSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.s, $)
+487	41	12	BlockingBaseSubscriber.java	onSubscribe	THIS	BlockingBaseSubscriber	0	DEF	$.cancelled
+488	43	16	BlockingBaseSubscriber.java	onSubscribe	THIS	BlockingBaseSubscriber	0	DEF	$.cancelled
+489	62	8	BlockingBaseSubscriber.java	blockingGet	THIS	BlockingBaseSubscriber	0	DEF	$.getCount() != 0
+490	69	16	BlockingBaseSubscriber.java	blockingGet	s	Subscription	0	DEF	$ != null
+491	77	8	BlockingBaseSubscriber.java	blockingGet	e	Throwable	0	DEF	$ != null
+918	25	8	BlockingFirstObserver.java	onNext	THIS	BlockingFirstObserver	0	DEF	$.value == null
+919	34	8	BlockingFirstObserver.java	onError	THIS	BlockingFirstObserver	0	DEF	$.value == null
+475	27	8	BlockingFirstSubscriber.java	onNext	THIS	BlockingFirstSubscriber	0	DEF	$.value == null
+476	36	8	BlockingFirstSubscriber.java	onError	THIS	BlockingFirstSubscriber	1	DEF	$.value == null
+299	32	8	BlockingHelper.java	awaitForComplete	latch	CountDownLatch	0	RET	$.getCount() == 0
+950	44	8	BlockingMultiObserver.java	dispose	d	Disposable	0	DEF	$ != null
+951	52	8	BlockingMultiObserver.java	onSubscribe	THIS	BlockingMultiObserver	0	DEF	$.cancelled
+952	80	8	BlockingMultiObserver.java	blockingGet	THIS	BlockingMultiObserver	0	DEF	$.getCount() != 0
+953	90	8	BlockingMultiObserver.java	blockingGet	ex	Throwable	0	DEF	$ != null
+954	103	8	BlockingMultiObserver.java	blockingGet	THIS	BlockingMultiObserver	0	DEF	$.getCount() != 0
+955	113	8	BlockingMultiObserver.java	blockingGet	ex	Throwable	0	DEF	$ != null
+956	126	8	BlockingMultiObserver.java	blockingGetError	THIS	BlockingMultiObserver	0	RET	$.getCount() != 0
+957	146	8	BlockingMultiObserver.java	blockingGetError	THIS	BlockingMultiObserver	0	TimeoutException	$.getCount() != 0
+958	149	16	BlockingMultiObserver.java	blockingGetError	THIS	BlockingMultiObserver	0	TimeoutException	$.await(timeout, unit)
+958	149	16	BlockingMultiObserver.java	blockingGetError	timeout	long	0	TimeoutException	await($, unit)
+958	149	16	BlockingMultiObserver.java	blockingGetError	unit	TimeUnit	0	TimeoutException	await(timeout, $)
+959	169	8	BlockingMultiObserver.java	blockingAwait	THIS	BlockingMultiObserver	0	RET	$.getCount() != 0
+960	172	16	BlockingMultiObserver.java	blockingAwait	THIS	BlockingMultiObserver	0	RET	$.await(timeout, unit)
+960	172	16	BlockingMultiObserver.java	blockingAwait	timeout	long	0	RET	await($, unit)
+960	172	16	BlockingMultiObserver.java	blockingAwait	unit	TimeUnit	0	RET	await(timeout, $)
+961	182	8	BlockingMultiObserver.java	blockingAwait	ex	Throwable	0	DEF	$ != null
+949	58	8	BlockingObserver.java	dispose	THIS	BlockingObserver	0	DEF	$.DisposableHelper.dispose(this)
+413	39	8	BlockingSubscriber.java	onSubscribe	THIS	BlockingSubscriber	0	DEF	$.SubscriptionHelper.setOnce(this, s)
+413	39	8	BlockingSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.setOnce(this, $)
+414	66	8	BlockingSubscriber.java	cancel	THIS	BlockingSubscriber	0	DEF	$.SubscriptionHelper.cancel(this)
+875	45	8	CancellableDisposable.java	dispose	THIS	CancellableDisposable	0	DEF	$.get() != null
+876	47	12	CancellableDisposable.java	dispose	c	Cancellable	0	DEF	$ != null
+117	58	8	Completable.java	ambArray	THIS	Completable	0	RET	sources.$.length == 0
+117	58	8	Completable.java	ambArray	sources	CompletableSource	0	RET	$.length == 0
+118	61	8	Completable.java	ambArray	THIS	Completable	0	RET	sources.$.length == 1
+118	61	8	Completable.java	ambArray	sources	CompletableSource	0	RET	$.length == 1
+119	116	8	Completable.java	concatArray	THIS	Completable	1	RET	sources.$.length == 0
+119	116	8	Completable.java	concatArray	sources	CompletableSource	1	RET	$.length == 0
+120	119	8	Completable.java	concatArray	THIS	Completable	0	RET	sources.$.length == 1
+120	119	8	Completable.java	concatArray	sources	CompletableSource	0	RET	$.length == 1
+121	244	8	Completable.java	unsafeCreate	source	CompletableSource	0	IllegalArgumentException	$ instanceof Completable
+122	452	8	Completable.java	mergeArray	THIS	Completable	1	RET	sources.$.length == 0
+122	452	8	Completable.java	mergeArray	sources	CompletableSource	1	RET	$.length == 0
+123	455	8	Completable.java	mergeArray	THIS	Completable	0	RET	sources.$.length == 1
+123	455	8	Completable.java	mergeArray	sources	CompletableSource	0	RET	$.length == 1
+124	768	8	Completable.java	wrap	source	CompletableSource	0	RET	$ instanceof Completable
+128	2034	8	Completable.java	test	cancelled	boolean	0	DEF	$
+621	37	8	CompletableAmb.java	subscribeActual	sources	CompletableSource[]	1	RET	$ == null
+622	41	20	CompletableAmb.java	subscribeActual	THIS	CompletableAmb	0	RET	$.element == null
+623	45	20	CompletableAmb.java	subscribeActual	THIS	CompletableAmb	0	DEF	count == sources.$.length
+623	45	20	CompletableAmb.java	subscribeActual	sources	CompletableSource[]	0	DEF	count == $.length
+623	45	20	CompletableAmb.java	subscribeActual	count	int	0	DEF	$ == sources.length
+58146	68	8	CompletableAmb.java	subscribeActual	i	int	0	NIL-FOR	$ < count
+58146	68	8	CompletableAmb.java	subscribeActual	count	int	0	NIL-FOR	i < $
+624	70	12	CompletableAmb.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+625	73	12	CompletableAmb.java	subscribeActual	c	CompletableSource	0	RET	$ == null
+626	75	16	CompletableAmb.java	subscribeActual	once	AtomicBoolean	1	DEF	$.compareAndSet(false, true)
+627	88	8	CompletableAmb.java	subscribeActual	count	int	0	DEF	$ == 0
+648	53	8	CompletableCache.java	subscribeActual	THIS	CompletableCache	1	DEF	$.add(inner)
+648	53	8	CompletableCache.java	subscribeActual	inner	InnerCompletableCache	1	DEF	add($)
+649	54	12	CompletableCache.java	subscribeActual	inner	InnerCompletableCache	0	DEF	$.isDisposed()
+650	58	12	CompletableCache.java	subscribeActual	THIS	CompletableCache	0	DEF	$.once.compareAndSet(false, true)
+651	63	12	CompletableCache.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+652	80	12	CompletableCache.java	onError	THIS	CompletableCache	0	DEF	$.inner.get()
+653	89	12	CompletableCache.java	onComplete	THIS	CompletableCache	0	DEF	$.inner.get()
+654	98	12	CompletableCache.java	add	a	InnerCompletableCache[]	0	RET	$ == TERMINATED
+655	105	12	CompletableCache.java	add	THIS	CompletableCache	0	RET	$.observers.compareAndSet(a, b)
+655	105	12	CompletableCache.java	add	a	InnerCompletableCache[]	0	RET	observers.compareAndSet($, b)
+655	105	12	CompletableCache.java	add	b	InnerCompletableCache[]	0	RET	observers.compareAndSet(a, $)
+656	115	12	CompletableCache.java	remove	n	int	0	RET	$ == 0
+58147	121	12	CompletableCache.java	remove	i	int	0	NIL-FOR	$ < n
+58147	121	12	CompletableCache.java	remove	n	int	0	NIL-FOR	i < $
+657	122	16	CompletableCache.java	remove	i	int	0	DEF	a[$] == inner
+657	122	16	CompletableCache.java	remove	a	InnerCompletableCache[]	0	DEF	$[i] == inner
+657	122	16	CompletableCache.java	remove	inner	InnerCompletableCache	0	DEF	a[i] == $
+658	128	12	CompletableCache.java	remove	j	int	0	RET	$ < 0
+659	134	12	CompletableCache.java	remove	n	int	1	DEF	$ == 1
+660	142	12	CompletableCache.java	remove	THIS	CompletableCache	0	DEF	$.observers.compareAndSet(a, b)
+660	142	12	CompletableCache.java	remove	a	InnerCompletableCache[]	0	DEF	observers.compareAndSet($, b)
+660	142	12	CompletableCache.java	remove	b	InnerCompletableCache[]	0	DEF	observers.compareAndSet(a, $)
+632	37	12	CompletableFromAction.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+633	42	8	CompletableFromAction.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+630	38	12	CompletableFromCallable.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+631	43	8	CompletableFromCallable.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+628	38	12	CompletableFromRunnable.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+629	43	8	CompletableFromRunnable.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+646	38	12	CompletableMergeArray.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+647	42	12	CompletableMergeArray.java	subscribeActual	THIS	CompletableMergeArray	0	RET	$.c == null
+640	41	12	CompletableMergeDelayErrorArray.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+641	45	12	CompletableMergeDelayErrorArray.java	subscribeActual	THIS	CompletableMergeDelayErrorArray	0	DEF	$.c == null
+642	55	8	CompletableMergeDelayErrorArray.java	subscribeActual	wip	AtomicInteger	0	DEF	$.decrementAndGet() == 0
+643	57	12	CompletableMergeDelayErrorArray.java	subscribeActual	ex	Throwable	1	DEF	$ == null
+634	55	12	CompletableMergeDelayErrorIterable.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+635	68	12	CompletableMergeDelayErrorIterable.java	subscribeActual	b	boolean	0	DEF	$
+636	72	12	CompletableMergeDelayErrorIterable.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+637	86	12	CompletableMergeDelayErrorIterable.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+638	95	8	CompletableMergeDelayErrorIterable.java	subscribeActual	wip	AtomicInteger	0	DEF	$.decrementAndGet() == 0
+639	97	12	CompletableMergeDelayErrorIterable.java	subscribeActual	ex	Throwable	1	DEF	$ == null
+617	52	12	CompletableMergeIterable.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+618	66	12	CompletableMergeIterable.java	subscribeActual	b	boolean	0	DEF	$
+619	70	12	CompletableMergeIterable.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+620	85	12	CompletableMergeIterable.java	subscribeActual	set	CompositeDisposable	0	RET	$.isDisposed()
+1327	62	8	CompletableSubject.java	onSubscribe	THIS	CompletableSubject	0	DEF	$.observers.get() == TERMINATED
+1328	69	8	CompletableSubject.java	onError	e	Throwable	0	DEF	$ == null
+1329	72	8	CompletableSubject.java	onError	THIS	CompletableSubject	1	DEF	$.once.compareAndSet(false, true)
+1330	84	8	CompletableSubject.java	onComplete	THIS	CompletableSubject	0	DEF	$.once.compareAndSet(false, true)
+1331	95	8	CompletableSubject.java	subscribeActual	THIS	CompletableSubject	1	DEF	$.add(md)
+1331	95	8	CompletableSubject.java	subscribeActual	md	CompletableDisposable	1	DEF	add($)
+1332	96	12	CompletableSubject.java	subscribeActual	md	CompletableDisposable	0	DEF	$.isDisposed()
+1333	101	12	CompletableSubject.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+1334	112	12	CompletableSubject.java	add	a	CompletableDisposable[]	0	RET	$ == TERMINATED
+1335	121	12	CompletableSubject.java	add	THIS	CompletableSubject	0	RET	$.observers.compareAndSet(a, b)
+1335	121	12	CompletableSubject.java	add	a	CompletableDisposable[]	0	RET	observers.compareAndSet($, b)
+1335	121	12	CompletableSubject.java	add	b	CompletableDisposable[]	0	RET	observers.compareAndSet(a, $)
+1336	131	12	CompletableSubject.java	remove	n	int	0	RET	$ == 0
+58178	137	12	CompletableSubject.java	remove	i	int	0	NIL-FOR	$ < n
+58178	137	12	CompletableSubject.java	remove	n	int	0	NIL-FOR	i < $
+1337	138	16	CompletableSubject.java	remove	i	int	0	DEF	a[$] == inner
+1337	138	16	CompletableSubject.java	remove	a	CompletableDisposable[]	0	DEF	$[i] == inner
+1337	138	16	CompletableSubject.java	remove	inner	CompletableDisposable	0	DEF	a[i] == $
+1338	144	12	CompletableSubject.java	remove	j	int	0	RET	$ < 0
+1339	148	12	CompletableSubject.java	remove	n	int	1	DEF	$ == 1
+1340	156	12	CompletableSubject.java	remove	THIS	CompletableSubject	0	RET	$.observers.compareAndSet(a, b)
+1340	156	12	CompletableSubject.java	remove	a	CompletableDisposable[]	0	RET	observers.compareAndSet($, b)
+1340	156	12	CompletableSubject.java	remove	b	CompletableDisposable[]	0	RET	observers.compareAndSet(a, $)
+1341	167	8	CompletableSubject.java	getThrowable	THIS	CompletableSubject	0	RET	$.observers.get() == TERMINATED
+644	62	12	CompletableUsing.java	subscribeActual	THIS	CompletableUsing	0	RET	$.eager
+645	74	12	CompletableUsing.java	subscribeActual	THIS	CompletableUsing	0	DEF	$.eager
+1182	67	8	CompositeDisposable.java	dispose	THIS	CompositeDisposable	0	RET	$.disposed
+1183	72	12	CompositeDisposable.java	dispose	THIS	CompositeDisposable	0	RET	$.disposed
+1184	91	8	CompositeDisposable.java	add	THIS	CompositeDisposable	0	RET	$.disposed
+1185	93	16	CompositeDisposable.java	add	THIS	CompositeDisposable	0	RET	$.disposed
+1186	95	20	CompositeDisposable.java	add	set	OpenHashSet<Disposable>	0	DEF	$ == null
+1187	116	8	CompositeDisposable.java	addAll	THIS	CompositeDisposable	0	RET	$.disposed
+1188	118	16	CompositeDisposable.java	addAll	THIS	CompositeDisposable	0	RET	$.disposed
+1189	120	20	CompositeDisposable.java	addAll	set	OpenHashSet<Disposable>	0	DEF	$ == null
+1190	140	8	CompositeDisposable.java	remove	THIS	CompositeDisposable	0	RET	$.delete(d)
+1190	140	8	CompositeDisposable.java	remove	d	Disposable	0	RET	delete($)
+1191	150	8	CompositeDisposable.java	delete	THIS	CompositeDisposable	0	RET	$.disposed
+1192	154	12	CompositeDisposable.java	delete	THIS	CompositeDisposable	0	RET	$.disposed
+1193	159	12	CompositeDisposable.java	delete	set	OpenHashSet<Disposable>	0	RET	$ == null
+1193	159	12	CompositeDisposable.java	delete	set	OpenHashSet<Disposable>	0	RET	$.remove(d)
+1193	159	12	CompositeDisposable.java	delete	d	Disposable	0	RET	set.remove($)
+1194	170	8	CompositeDisposable.java	clear	THIS	CompositeDisposable	0	RET	$.disposed
+1195	175	12	CompositeDisposable.java	clear	THIS	CompositeDisposable	0	RET	$.disposed
+1196	191	8	CompositeDisposable.java	size	THIS	CompositeDisposable	0	RET	$.disposed
+1197	195	12	CompositeDisposable.java	size	THIS	CompositeDisposable	0	RET	$.disposed
+1198	209	8	CompositeDisposable.java	dispose	set	OpenHashSet<Disposable>	0	RET	$ == null
+1199	215	12	CompositeDisposable.java	dispose	THIS	CompositeDisposable	0	DEF	$.o instanceof Disposable
+1200	220	20	CompositeDisposable.java	dispose	errors	List<Throwable>	0	DEF	$ == null
+1201	227	8	CompositeDisposable.java	dispose	errors	List<Throwable>	0	CompositeException	$ != null
+1202	228	12	CompositeDisposable.java	dispose	errors	List<Throwable>	0	DEF	$.size() == 1
+129	67	8	CompositeException.java	CompositeException	errors	Iterable<? extends Throwable>	1	DEF	$ != null
+130	69	16	CompositeException.java	CompositeException	THIS	CompositeException	1	DEF	$.ex instanceof CompositeException
+131	72	16	CompositeException.java	CompositeException	THIS	CompositeException	1	DEF	$.ex != null
+132	81	8	CompositeException.java	CompositeException	deDupedExceptions	Set<Throwable>	0	IllegalArgumentException	$.isEmpty()
+133	108	8	CompositeException.java	getCause	THIS	CompositeException	0	DEF	$.cause == null
+134	115	16	CompositeException.java	getCause	THIS	CompositeException	0	DEF	seenCauses.contains($.e)
+134	115	16	CompositeException.java	getCause	seenCauses	Set<Throwable>	0	DEF	$.contains(e)
+135	124	20	CompositeException.java	getCause	THIS	CompositeException	0	DEF	seenCauses.contains($.child)
+135	124	20	CompositeException.java	getCause	seenCauses	Set<Throwable>	0	DEF	$.contains(child)
+136	199	8	CompositeException.java	appendStackTrace	ex	Throwable	0	DEF	$.getCause() != null
+137	252	8	CompositeException.java	getListOfCauses	root	Throwable	1	RET	$ == null
+137	252	8	CompositeException.java	getListOfCauses	root	Throwable	1	RET	$ == ex
+137	252	8	CompositeException.java	getListOfCauses	ex	Throwable	1	RET	root == $
+138	258	16	CompositeException.java	getListOfCauses	cause	Throwable	1	RET	$ == null
+138	258	16	CompositeException.java	getListOfCauses	cause	Throwable	1	RET	$ == root
+138	258	16	CompositeException.java	getListOfCauses	root	Throwable	1	RET	cause == $
+139	283	8	CompositeException.java	getRootCause	THIS	CompositeException	0	RET	$.cause == root
+139	283	8	CompositeException.java	getRootCause	root	Throwable	0	RET	$ == null
+139	283	8	CompositeException.java	getRootCause	root	Throwable	0	RET	cause == $
+140	288	12	CompositeException.java	getRootCause	cause	Throwable	0	RET	$ == root
+140	288	12	CompositeException.java	getRootCause	cause	Throwable	0	RET	$ == null
+140	288	12	CompositeException.java	getRootCause	root	Throwable	0	RET	cause == $
+1049	145	8	ComputationScheduler.java	start	THIS	ComputationScheduler	0	DEF	$.pool.compareAndSet(NONE, update)
+1049	145	8	ComputationScheduler.java	start	update	FixedSchedulerPool	0	DEF	pool.compareAndSet(NONE, $)
+1050	154	12	ComputationScheduler.java	shutdown	curr	FixedSchedulerPool	0	RET	$ == NONE
+1051	157	12	ComputationScheduler.java	shutdown	THIS	ComputationScheduler	0	RET	$.pool.compareAndSet(curr, NONE)
+1051	157	12	ComputationScheduler.java	shutdown	curr	FixedSchedulerPool	0	RET	pool.compareAndSet($, NONE)
+111	122	8	ConnectableFlowable.java	autoConnect	numberOfSubscribers	int	0	RET	$ <= 0
+1124	122	8	ConnectableObservable.java	autoConnect	numberOfSubscribers	int	0	RET	$ <= 0
+1214	70	8	DefaultObserver.java	onSubscribe	THIS	DefaultObserver	0	DEF	$.DisposableHelper.validate($.s, s)
+1214	70	8	DefaultObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.validate(this.s, $)
+99	81	8	DefaultSubscriber.java	onSubscribe	THIS	DefaultSubscriber	0	DEF	$.SubscriptionHelper.validate($.s, s)
+99	81	8	DefaultSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.s, $)
+100	93	8	DefaultSubscriber.java	request	s	Subscription	0	DEF	$ != null
+964	58	8	DeferredScalarDisposable.java	requestFusion	mode	int	0	RET	($ & ASYNC) != 0
+965	72	8	DeferredScalarDisposable.java	complete	state	int	0	RET	($ & (FUSED_READY | FUSED_CONSUMED | TERMINATED | DISPOSED)) != 0
+966	75	8	DeferredScalarDisposable.java	complete	state	int	1	DEF	$ == FUSED_EMPTY
+967	83	8	DeferredScalarDisposable.java	complete	THIS	DeferredScalarDisposable	0	DEF	$.get() != DISPOSED
+968	94	8	DeferredScalarDisposable.java	error	state	int	0	RET	($ & (FUSED_READY | FUSED_CONSUMED | TERMINATED | DISPOSED)) != 0
+969	107	8	DeferredScalarDisposable.java	complete	state	int	0	RET	($ & (FUSED_READY | FUSED_CONSUMED | TERMINATED | DISPOSED)) != 0
+970	117	8	DeferredScalarDisposable.java	poll	THIS	DeferredScalarDisposable	0	RET	$.get() == FUSED_READY
+962	44	8	DeferredScalarObserver.java	onSubscribe	THIS	DeferredScalarObserver	0	DEF	$.DisposableHelper.validate($.s, s)
+962	44	8	DeferredScalarObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.validate(this.s, $)
+963	60	8	DeferredScalarObserver.java	onComplete	v	R	1	DEF	$ != null
+464	48	8	DeferredScalarSubscriber.java	onSubscribe	THIS	DeferredScalarSubscriber	0	DEF	$.SubscriptionHelper.validate($.s, s)
+464	48	8	DeferredScalarSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.s, $)
+465	65	8	DeferredScalarSubscriber.java	onComplete	THIS	DeferredScalarSubscriber	1	DEF	$.hasValue
+803	75	8	DeferredScalarSubscription.java	request	THIS	DeferredScalarSubscription	0	RET	$.SubscriptionHelper.validate(n)
+803	75	8	DeferredScalarSubscription.java	request	n	long	0	RET	SubscriptionHelper.validate($)
+804	80	16	DeferredScalarSubscription.java	request	state	int	0	RET	($ & ~NO_REQUEST_HAS_VALUE) != 0
+805	83	16	DeferredScalarSubscription.java	request	state	int	0	RET	$ == NO_REQUEST_HAS_VALUE
+806	84	20	DeferredScalarSubscription.java	request	THIS	DeferredScalarSubscription	0	DEF	$.compareAndSet(NO_REQUEST_HAS_VALUE, HAS_REQUEST_HAS_VALUE)
+807	86	24	DeferredScalarSubscription.java	request	v	T	0	DEF	$ != null
+808	90	28	DeferredScalarSubscription.java	request	THIS	DeferredScalarSubscription	0	DEF	$.get() != CANCELLED
+809	97	16	DeferredScalarSubscription.java	request	THIS	DeferredScalarSubscription	0	RET	$.compareAndSet(NO_REQUEST_NO_VALUE, HAS_REQUEST_NO_VALUE)
+810	113	12	DeferredScalarSubscription.java	complete	state	int	0	RET	$ == FUSED_EMPTY
+811	119	16	DeferredScalarSubscription.java	complete	THIS	DeferredScalarSubscription	0	DEF	$.get() != CANCELLED
+812	126	12	DeferredScalarSubscription.java	complete	state	int	0	RET	($ & ~HAS_REQUEST_NO_VALUE) != 0
+813	130	12	DeferredScalarSubscription.java	complete	state	int	0	RET	$ == HAS_REQUEST_NO_VALUE
+814	134	16	DeferredScalarSubscription.java	complete	THIS	DeferredScalarSubscription	0	DEF	$.get() != CANCELLED
+815	140	12	DeferredScalarSubscription.java	complete	THIS	DeferredScalarSubscription	0	RET	$.compareAndSet(NO_REQUEST_NO_VALUE, NO_REQUEST_HAS_VALUE)
+816	144	12	DeferredScalarSubscription.java	complete	state	int	0	RET	$ == CANCELLED
+817	153	8	DeferredScalarSubscription.java	requestFusion	mode	int	0	RET	($ & ASYNC) != 0
+818	163	8	DeferredScalarSubscription.java	poll	THIS	DeferredScalarSubscription	0	RET	$.get() == FUSED_READY
+1212	58	8	DisposableCompletableObserver.java	onSubscribe	THIS	DisposableCompletableObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1212	58	8	DisposableCompletableObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+920	50	8	DisposableLambdaObserver.java	onSubscribe	THIS	DisposableLambdaObserver	0	DEF	$.DisposableHelper.validate($.s, s)
+920	50	8	DisposableLambdaObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.validate(this.s, $)
+921	63	8	DisposableLambdaObserver.java	onError	THIS	DisposableLambdaObserver	1	DEF	$.s != $.DisposableHelper.DISPOSED
+922	72	8	DisposableLambdaObserver.java	onComplete	THIS	DisposableLambdaObserver	0	DEF	$.s != $.DisposableHelper.DISPOSED
+1220	69	8	DisposableMaybeObserver.java	onSubscribe	THIS	DisposableMaybeObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1220	69	8	DisposableMaybeObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+1217	72	8	DisposableObserver.java	onSubscribe	THIS	DisposableObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1217	72	8	DisposableObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+1213	61	8	DisposableSingleObserver.java	onSubscribe	THIS	DisposableSingleObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1213	61	8	DisposableSingleObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+101	80	8	DisposableSubscriber.java	onSubscribe	THIS	DisposableSubscriber	0	DEF	$.SubscriptionHelper.setOnce($.s, s)
+101	80	8	DisposableSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.setOnce(this.s, $)
+350	39	8	ExceptionHelper.java	wrapOrThrow	error	Throwable	0	DEF	$ instanceof Error
+351	42	8	ExceptionHelper.java	wrapOrThrow	error	Throwable	0	RET	$ instanceof RuntimeException
+352	58	12	ExceptionHelper.java	addThrowable	current	Throwable	0	RET	$ == TERMINATED
+353	63	12	ExceptionHelper.java	addThrowable	current	Throwable	1	DEF	$ == null
+354	69	12	ExceptionHelper.java	addThrowable	current	Throwable	0	RET	field.compareAndSet($, update)
+354	69	12	ExceptionHelper.java	addThrowable	update	Throwable	0	RET	field.compareAndSet(current, $)
+354	69	12	ExceptionHelper.java	addThrowable	field	AtomicReference<Throwable>	0	RET	$.compareAndSet(current, update)
+355	77	8	ExceptionHelper.java	terminate	current	Throwable	0	DEF	$ != TERMINATED
+58139	93	8	ExceptionHelper.java	flatten	deque	ArrayDeque<Throwable>	0	NIL-WHILE	$.isEmpty()
+356	95	12	ExceptionHelper.java	flatten	e	Throwable	1	DEF	$ instanceof CompositeException
+58140	98	16	ExceptionHelper.java	flatten	i	int	0	NIL-FOR	$ >= 0
+141	68	8	Exceptions.java	throwIfFatal	t	Throwable	1	DEF	$ instanceof VirtualMachineError
+142	70	15	Exceptions.java	throwIfFatal	t	Throwable	1	DEF	$ instanceof ThreadDeath
+143	72	15	Exceptions.java	throwIfFatal	t	Throwable	0	DEF	$ instanceof LinkageError
+1022	53	12	ExecutorScheduler.java	scheduleDirect	THIS	ExecutorScheduler	0	RET	$.executor instanceof ExecutorService
+1023	73	8	ExecutorScheduler.java	scheduleDirect	THIS	ExecutorScheduler	0	RET	$.executor instanceof ScheduledExecutorService
+1024	97	8	ExecutorScheduler.java	schedulePeriodicallyDirect	THIS	ExecutorScheduler	0	RET	$.executor instanceof ScheduledExecutorService
+1125	122	8	Flowable.java	ambArray	len	int	1	RET	$ == 0
+1126	125	8	Flowable.java	ambArray	len	int	0	RET	$ == 1
+1127	264	8	Flowable.java	combineLatest	THIS	Flowable	0	RET	sources.$.length == 0
+1127	264	8	Flowable.java	combineLatest	sources	Publisher<? extends T>[]	0	RET	$.length == 0
+1128	536	8	Flowable.java	combineLatestDelayError	THIS	Flowable	0	RET	sources.$.length == 0
+1128	536	8	Flowable.java	combineLatestDelayError	sources	Publisher<? extends T>[]	0	RET	$.length == 0
+1129	1342	8	Flowable.java	concatArray	THIS	Flowable	1	RET	sources.$.length == 0
+1129	1342	8	Flowable.java	concatArray	sources	Publisher<? extends T>	1	RET	$.length == 0
+1130	1345	8	Flowable.java	concatArray	THIS	Flowable	0	RET	sources.$.length == 1
+1130	1345	8	Flowable.java	concatArray	sources	Publisher<? extends T>	0	RET	$.length == 1
+1131	1374	8	Flowable.java	concatArrayDelayError	THIS	Flowable	1	RET	sources.$.length == 0
+1131	1374	8	Flowable.java	concatArrayDelayError	sources	Publisher<? extends T>	1	RET	$.length == 0
+1132	1377	8	Flowable.java	concatArrayDelayError	THIS	Flowable	0	RET	sources.$.length == 1
+1132	1377	8	Flowable.java	concatArrayDelayError	sources	Publisher<? extends T>	0	RET	$.length == 1
+1133	1833	8	Flowable.java	fromArray	THIS	Flowable	0	RET	items.$.length == 0
+1133	1833	8	Flowable.java	fromArray	items	T	0	RET	$.length == 0
+1134	1836	8	Flowable.java	fromArray	THIS	Flowable	0	RET	items.$.length == 1
+1134	1836	8	Flowable.java	fromArray	items	T	0	RET	$.length == 1
+1135	2081	8	Flowable.java	fromPublisher	source	Publisher<? extends T>	0	RET	$ instanceof Flowable
+1136	2403	8	Flowable.java	intervalRange	count	long	0	IllegalArgumentException	$ < 0L
+1137	2406	8	Flowable.java	intervalRange	count	long	0	RET	$ == 0L
+1138	2411	8	Flowable.java	intervalRange	end	long	0	IllegalArgumentException	$ < 0
+1138	2411	8	Flowable.java	intervalRange	start	long	0	IllegalArgumentException	$ > 0
+1139	3636	8	Flowable.java	range	count	int	1	IllegalArgumentException	$ < 0
+1140	3639	8	Flowable.java	range	count	int	1	RET	$ == 0
+1141	3642	8	Flowable.java	range	count	int	1	RET	$ == 1
+1142	3645	8	Flowable.java	range	start	int	0	IllegalArgumentException	(long)$ + (count - 1) > Integer.MAX_VALUE
+1142	3645	8	Flowable.java	range	count	int	0	IllegalArgumentException	(long)start + ($ - 1) > Integer.MAX_VALUE
+1143	3676	8	Flowable.java	rangeLong	count	long	0	IllegalArgumentException	$ < 0
+1144	3680	8	Flowable.java	rangeLong	count	long	0	RET	$ == 0
+1145	3684	8	Flowable.java	rangeLong	count	long	0	RET	$ == 1
+1146	3689	8	Flowable.java	rangeLong	end	long	0	IllegalArgumentException	$ < 0
+1146	3689	8	Flowable.java	rangeLong	start	long	0	IllegalArgumentException	$ > 0
+1147	4070	8	Flowable.java	unsafeCreate	onSubscribe	Publisher<T>	0	IllegalArgumentException	$ instanceof Flowable
+1148	5040	8	Flowable.java	zipArray	THIS	Flowable	0	RET	sources.$.length == 0
+1148	5040	8	Flowable.java	zipArray	sources	Publisher<? extends T>	0	RET	$.length == 0
+1149	5223	8	Flowable.java	blockingFirst	v	T	0	RET	$ != null
+58170	5290	8	Flowable.java	blockingForEach	it	Iterator<T>	0	NIL-WHILE	$.hasNext()
+1150	5373	8	Flowable.java	blockingLast	v	T	0	RET	$ != null
+1152	6666	12	Flowable.java	concatMap	v	T	0	RET	$ == null
+1154	6738	12	Flowable.java	concatMapDelayError	v	T	0	RET	$ == null
+1155	8064	8	Flowable.java	elementAt	index	long	0	IndexOutOfBoundsException	$ < 0
+1156	8097	8	Flowable.java	elementAt	index	long	0	IndexOutOfBoundsException	$ < 0
+1157	8129	8	Flowable.java	elementAtOrError	index	long	0	IndexOutOfBoundsException	$ < 0
+1159	8421	12	Flowable.java	flatMap	v	T	0	RET	$ == null
+1160	10865	8	Flowable.java	repeat	times	long	0	IllegalArgumentException	$ < 0
+1161	10868	8	Flowable.java	repeat	times	long	0	RET	$ == 0
+1162	11615	8	Flowable.java	retry	times	long	0	IllegalArgumentException	$ < 0
+1163	11742	8	Flowable.java	safeSubscribe	s	Subscriber<? super T>	1	DEF	$ instanceof SafeSubscriber
+1164	12252	8	Flowable.java	skip	count	long	0	RET	$ <= 0L
+1165	12346	8	Flowable.java	skipLast	count	int	0	IndexOutOfBoundsException	$ < 0
+1166	12349	8	Flowable.java	skipLast	count	int	0	RET	$ == 0
+1167	12752	8	Flowable.java	startWithArray	THIS	Flowable	0	RET	fromArray == $.empty()
+1167	12752	8	Flowable.java	startWithArray	fromArray	Flowable<T>	0	RET	$ == empty()
+1168	12959	8	Flowable.java	subscribe	s	Subscriber<? super T>	1	DEF	$ instanceof FlowableSubscriber
+1170	13276	12	Flowable.java	switchMap0	v	T	0	RET	$ == null
+1171	13312	8	Flowable.java	take	count	long	0	IllegalArgumentException	$ < 0
+1172	13400	8	Flowable.java	takeLast	count	int	1	IndexOutOfBoundsException	$ < 0
+1173	13403	8	Flowable.java	takeLast	count	int	1	RET	$ == 0
+1174	13406	8	Flowable.java	takeLast	count	int	0	RET	$ == 1
+1175	13520	8	Flowable.java	takeLast	count	long	0	IndexOutOfBoundsException	$ < 0
+1176	16255	8	Flowable.java	test	cancel	boolean	0	DEF	$
+544	39	8	FlowableAmb.java	subscribeActual	sources	Publisher[]	1	RET	$ == null
+545	43	20	FlowableAmb.java	subscribeActual	THIS	FlowableAmb	0	RET	$.p == null
+546	47	20	FlowableAmb.java	subscribeActual	THIS	FlowableAmb	0	DEF	count == sources.$.length
+546	47	20	FlowableAmb.java	subscribeActual	sources	Publisher[]	0	DEF	count == $.length
+546	47	20	FlowableAmb.java	subscribeActual	count	int	0	DEF	$ == sources.length
+547	63	8	FlowableAmb.java	subscribeActual	count	int	1	RET	$ == 0
+548	67	8	FlowableAmb.java	subscribeActual	count	int	0	RET	$ == 1
+568	49	8	FlowableAutoConnect.java	subscribeActual	THIS	FlowableAutoConnect	0	DEF	$.clients.incrementAndGet() == $.numberOfSubscribers
+589	52	16	FlowableBlockingSubscribe.java	subscribe	bs	BlockingSubscriber<T>	0	DEF	$.isCancelled()
+590	56	16	FlowableBlockingSubscribe.java	subscribe	v	Object	0	DEF	$ == null
+591	57	20	FlowableBlockingSubscribe.java	subscribe	bs	BlockingSubscriber<T>	0	DEF	$.isCancelled()
+592	63	16	FlowableBlockingSubscribe.java	subscribe	bs	BlockingSubscriber<T>	0	DEF	$.isCancelled()
+593	66	16	FlowableBlockingSubscribe.java	subscribe	THIS	FlowableBlockingSubscribe	0	DEF	$.NotificationLite.acceptFull(v, subscriber)
+593	66	16	FlowableBlockingSubscribe.java	subscribe	v	Object	0	DEF	NotificationLite.acceptFull($, subscriber)
+593	66	16	FlowableBlockingSubscribe.java	subscribe	o	Publisher<? extends T>	0	DEF	$ == BlockingSubscriber.TERMINATED
+593	66	16	FlowableBlockingSubscribe.java	subscribe	subscriber	Subscriber<? super T>	0	DEF	NotificationLite.acceptFull(v, $)
+594	91	8	FlowableBlockingSubscribe.java	subscribe	e	Throwable	0	DEF	$ != null
+605	46	8	FlowableBuffer.java	subscribeActual	THIS	FlowableBuffer	1	DEF	$.size == $.skip
+606	48	15	FlowableBuffer.java	subscribeActual	THIS	FlowableBuffer	1	DEF	$.skip > $.size
+603	58	8	FlowableBufferTimed.java	subscribeActual	THIS	FlowableBufferTimed	0	RET	$.maxSize == Integer.MAX_VALUE
+603	58	8	FlowableBufferTimed.java	subscribeActual	THIS	FlowableBufferTimed	0	RET	$.timespan == $.timeskip
+604	66	8	FlowableBufferTimed.java	subscribeActual	THIS	FlowableBufferTimed	0	RET	$.timespan == $.timeskip
+595	58	8	FlowableCache.java	subscribeActual	THIS	FlowableCache	0	DEF	$.once.compareAndSet(false, true)
+595	58	8	FlowableCache.java	subscribeActual	THIS	FlowableCache	0	DEF	$.once.get()
+584	78	8	FlowableCombineLatest.java	subscribeActual	a	Publisher[]	1	RET	$ == null
+585	104	16	FlowableCombineLatest.java	subscribeActual	b	boolean	0	DEF	$
+586	118	16	FlowableCombineLatest.java	subscribeActual	THIS	FlowableCombineLatest	0	DEF	n == a.$.length
+586	118	16	FlowableCombineLatest.java	subscribeActual	a	Publisher[]	0	DEF	n == $.length
+586	118	16	FlowableCombineLatest.java	subscribeActual	n	int	0	DEF	$ == a.length
+587	130	8	FlowableCombineLatest.java	subscribeActual	n	int	0	RET	$ == 0
+588	134	8	FlowableCombineLatest.java	subscribeActual	n	int	0	RET	$ == 1
+556	62	8	FlowableConcatMap.java	subscribeActual	THIS	FlowableConcatMap	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe($.source, s, $.mapper)
+556	62	8	FlowableConcatMap.java	subscribeActual	s	Subscriber<? super R>	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+598	43	8	FlowableConcatMapPublisher.java	subscribeActual	THIS	FlowableConcatMapPublisher	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe($.source, s, $.mapper)
+598	43	8	FlowableConcatMapPublisher.java	subscribeActual	s	Subscriber<? super R>	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+597	42	8	FlowableDelay.java	subscribeActual	THIS	FlowableDelay	1	DEF	$.delayError
+596	38	8	FlowableDistinctUntilChanged.java	subscribeActual	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+553	41	8	FlowableDoAfterNext.java	subscribeActual	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+607	44	8	FlowableDoFinally.java	subscribeActual	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+559	45	8	FlowableDoOnEach.java	subscribeActual	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+574	33	8	FlowableFilter.java	subscribeActual	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+608	50	8	FlowableFlatMap.java	subscribeActual	THIS	FlowableFlatMap	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe($.source, s, $.mapper)
+608	50	8	FlowableFlatMap.java	subscribeActual	s	Subscriber<? super U>	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+550	40	8	FlowableFlatMapPublisher.java	subscribeActual	THIS	FlowableFlatMapPublisher	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe($.source, s, $.mapper)
+550	40	8	FlowableFlatMapPublisher.java	subscribeActual	s	Subscriber<? super U>	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+554	48	8	FlowableFlattenIterable.java	subscribeActual	THIS	FlowableFlattenIterable	0	RET	$.source instanceof Callable
+555	59	12	FlowableFlattenIterable.java	subscribeActual	v	T	0	RET	$ == null
+561	33	8	FlowableFromArray.java	subscribeActual	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+613	45	12	FlowableFromFuture.java	subscribeActual	deferred	DeferredScalarSubscription<T>	0	DEF	$.isCancelled()
+614	50	8	FlowableFromFuture.java	subscribeActual	v	T	1	DEF	$ == null
+551	60	8	FlowableFromIterable.java	subscribe	hasNext	boolean	0	RET	$
+552	65	8	FlowableFromIterable.java	subscribe	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+615	45	12	FlowableLift.java	subscribeActual	st	Subscriber	0	NullPointerException	$ == null
+579	35	8	FlowableMap.java	subscribeActual	s	Subscriber<? super U>	1	DEF	$ instanceof ConditionalSubscriber
+578	52	8	FlowableObserveOn.java	subscribeActual	s	Subscriber<? super T>	1	DEF	$ instanceof ConditionalSubscriber
+575	94	12	FlowablePublish.java	connect	ps	PublishSubscriber<T>	0	DEF	$ == null
+575	94	12	FlowablePublish.java	connect	ps	PublishSubscriber<T>	0	DEF	$.isDisposed()
+576	98	16	FlowablePublish.java	connect	THIS	FlowablePublish	0	DEF	$.current.compareAndSet(ps, u)
+576	98	16	FlowablePublish.java	connect	u	PublishSubscriber<T>	0	DEF	current.compareAndSet(ps, $)
+576	98	16	FlowablePublish.java	connect	ps	PublishSubscriber<T>	0	DEF	current.compareAndSet($, u)
+577	129	8	FlowablePublish.java	connect	doConnect	boolean	0	DEF	$
+562	36	8	FlowableRange.java	subscribeActual	s	Subscriber<? super Integer>	1	DEF	$ instanceof ConditionalSubscriber
+549	38	8	FlowableRangeLong.java	subscribeActual	s	Subscriber<? super Long>	1	DEF	$ instanceof ConditionalSubscriber
+557	130	8	FlowableRefCount.java	subscribeActual	THIS	FlowableRefCount	1	DEF	$.subscriptionCount.incrementAndGet() == 1
+558	143	16	FlowableRefCount.java	subscribeActual	writeLocked	AtomicBoolean	0	DEF	$.get()
+563	96	8	FlowableReplay.java	create	bufferSize	int	0	RET	$ == Integer.MAX_VALUE
+564	184	12	FlowableReplay.java	connect	ps	ReplaySubscriber<T>	0	DEF	$.isDisposed()
+564	184	12	FlowableReplay.java	connect	ps	ReplaySubscriber<T>	0	DEF	$ == null
+565	198	16	FlowableReplay.java	connect	THIS	FlowableReplay	0	DEF	$.current.compareAndSet(ps, u)
+565	198	16	FlowableReplay.java	connect	u	ReplaySubscriber<T>	0	DEF	current.compareAndSet(ps, $)
+565	198	16	FlowableReplay.java	connect	ps	ReplaySubscriber<T>	0	DEF	current.compareAndSet($, u)
+566	226	12	FlowableReplay.java	connect	doConnect	boolean	0	DEF	$
+567	232	8	FlowableReplay.java	connect	doConnect	boolean	0	DEF	$
+543	41	8	FlowableSamplePublisher.java	subscribeActual	THIS	FlowableSamplePublisher	1	DEF	$.emitLast
+572	46	8	FlowableSampleTimed.java	subscribeActual	THIS	FlowableSampleTimed	1	DEF	$.emitLast
+599	50	8	FlowableScalarXMap.java	tryScalarXMapSubscribe	source	Publisher<T>	0	RET	$ instanceof Callable
+600	61	12	FlowableScalarXMap.java	tryScalarXMapSubscribe	t	T	0	RET	$ == null
+601	76	12	FlowableScalarXMap.java	tryScalarXMapSubscribe	r	Publisher	1	RET	$ instanceof Callable
+602	87	16	FlowableScalarXMap.java	tryScalarXMapSubscribe	u	R	0	RET	$ == null
+616	46	8	FlowableSwitchMap.java	subscribeActual	THIS	FlowableSwitchMap	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe($.source, s, $.mapper)
+616	46	8	FlowableSwitchMap.java	subscribeActual	s	Subscriber<? super R>	0	RET	FlowableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+573	50	8	FlowableTimeout.java	subscribeActual	THIS	FlowableTimeout	1	DEF	$.other == null
+612	49	8	FlowableTimeoutTimed.java	subscribeActual	THIS	FlowableTimeoutTimed	1	DEF	$.other == null
+582	44	8	FlowableWindow.java	subscribeActual	THIS	FlowableWindow	1	DEF	$.skip == $.size
+583	47	8	FlowableWindow.java	subscribeActual	THIS	FlowableWindow	1	DEF	$.skip > $.size
+580	60	8	FlowableWindowTimed.java	subscribeActual	THIS	FlowableWindowTimed	0	RET	$.timespan == $.timeskip
+581	61	12	FlowableWindowTimed.java	subscribeActual	THIS	FlowableWindowTimed	0	RET	$.maxSize == Long.MAX_VALUE
+609	64	8	FlowableWithLatestFromMany.java	subscribeActual	others	Publisher[]	1	RET	$ == null
+610	69	20	FlowableWithLatestFromMany.java	subscribeActual	THIS	FlowableWithLatestFromMany	0	DEF	n == others.$.length
+610	69	20	FlowableWithLatestFromMany.java	subscribeActual	others	Publisher[]	0	DEF	n == $.length
+610	69	20	FlowableWithLatestFromMany.java	subscribeActual	n	int	0	DEF	$ == others.length
+611	84	8	FlowableWithLatestFromMany.java	subscribeActual	n	int	0	RET	$ == 0
+569	56	8	FlowableZip.java	subscribeActual	sources	Publisher[]	1	DEF	$ == null
+570	59	16	FlowableZip.java	subscribeActual	THIS	FlowableZip	0	DEF	count == sources.$.length
+570	59	16	FlowableZip.java	subscribeActual	sources	Publisher[]	0	DEF	count == $.length
+570	59	16	FlowableZip.java	subscribeActual	count	int	0	DEF	$ == sources.length
+571	70	8	FlowableZip.java	subscribeActual	count	int	0	RET	$ == 0
+560	61	8	FlowableZipIterable.java	subscribeActual	b	boolean	0	RET	$
+971	54	8	ForEachWhileObserver.java	onNext	THIS	ForEachWhileObserver	0	RET	$.done
+972	68	8	ForEachWhileObserver.java	onNext	b	boolean	0	DEF	$
+973	76	8	ForEachWhileObserver.java	onError	THIS	ForEachWhileObserver	0	RET	$.done
+974	91	8	ForEachWhileObserver.java	onComplete	THIS	ForEachWhileObserver	0	RET	$.done
+415	51	8	ForEachWhileSubscriber.java	onSubscribe	THIS	ForEachWhileSubscriber	0	DEF	$.SubscriptionHelper.setOnce(this, s)
+415	51	8	ForEachWhileSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.setOnce(this, $)
+416	58	8	ForEachWhileSubscriber.java	onNext	THIS	ForEachWhileSubscriber	0	RET	$.done
+417	72	8	ForEachWhileSubscriber.java	onNext	b	boolean	0	DEF	$
+418	80	8	ForEachWhileSubscriber.java	onError	THIS	ForEachWhileSubscriber	0	RET	$.done
+419	95	8	ForEachWhileSubscriber.java	onComplete	THIS	ForEachWhileSubscriber	0	RET	$.done
+854	57	8	FullArbiter.java	request	THIS	FullArbiter	0	DEF	$.SubscriptionHelper.validate(n)
+854	57	8	FullArbiter.java	request	n	long	0	DEF	SubscriptionHelper.validate($)
+855	66	8	FullArbiter.java	cancel	THIS	FullArbiter	0	DEF	$.cancelled
+856	75	8	FullArbiter.java	dispose	d	Disposable	0	DEF	$ != null
+857	81	8	FullArbiter.java	setSubscription	THIS	FullArbiter	0	RET	$.cancelled
+858	82	12	FullArbiter.java	setSubscription	s	Subscription	0	DEF	$ != null
+859	95	8	FullArbiter.java	onNext	THIS	FullArbiter	0	RET	$.cancelled
+860	105	8	FullArbiter.java	onError	THIS	FullArbiter	0	RET	$.cancelled
+861	119	8	FullArbiter.java	drain	THIS	FullArbiter	0	RET	$.wip.getAndIncrement() != 0
+862	133	16	FullArbiter.java	drain	o	Object	0	DEF	$ == null
+863	138	16	FullArbiter.java	drain	o	Object	1	DEF	$ == REQUEST
+864	140	20	FullArbiter.java	drain	mr	long	0	DEF	$ != 0L
+865	145	16	FullArbiter.java	drain	THIS	FullArbiter	0	DEF	o == $.s
+865	145	16	FullArbiter.java	drain	o	Object	0	DEF	$ == s
+866	146	20	FullArbiter.java	drain	THIS	FullArbiter	1	DEF	$.NotificationLite.isSubscription(v)
+866	146	20	FullArbiter.java	drain	v	Object	1	DEF	NotificationLite.isSubscription($)
+867	148	24	FullArbiter.java	drain	THIS	FullArbiter	1	DEF	$.cancelled
+868	151	28	FullArbiter.java	drain	r	long	0	DEF	$ != 0L
+869	157	27	FullArbiter.java	drain	THIS	FullArbiter	1	DEF	$.NotificationLite.isError(v)
+869	157	27	FullArbiter.java	drain	v	Object	1	DEF	NotificationLite.isError($)
+870	162	24	FullArbiter.java	drain	THIS	FullArbiter	1	DEF	$.cancelled
+871	168	27	FullArbiter.java	drain	THIS	FullArbiter	1	DEF	$.NotificationLite.isComplete(v)
+871	168	27	FullArbiter.java	drain	v	Object	1	DEF	NotificationLite.isComplete($)
+872	172	24	FullArbiter.java	drain	THIS	FullArbiter	0	DEF	$.cancelled
+873	178	24	FullArbiter.java	drain	r	long	0	DEF	$ != 0
+874	187	12	FullArbiter.java	drain	missed	int	0	DEF	$ == 0
+994	36	8	FullArbiterObserver.java	onSubscribe	THIS	FullArbiterObserver	0	DEF	$.DisposableHelper.validate($.s, s)
+994	36	8	FullArbiterObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.validate(this.s, $)
+477	37	8	FullArbiterSubscriber.java	onSubscribe	THIS	FullArbiterSubscriber	0	DEF	$.SubscriptionHelper.validate($.s, s)
+477	37	8	FullArbiterSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.s, $)
+1181	41	8	FutureDisposable.java	dispose	f	Future<?>	0	DEF	$ != null
+932	49	12	FutureObserver.java	cancel	THIS	FutureObserver	0	RET	a == $.DisposableHelper.DISPOSED
+932	49	12	FutureObserver.java	cancel	THIS	FutureObserver	0	RET	a == $
+932	49	12	FutureObserver.java	cancel	a	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+932	49	12	FutureObserver.java	cancel	a	Disposable	0	RET	$ == this
+933	53	12	FutureObserver.java	cancel	THIS	FutureObserver	0	RET	$.s.compareAndSet(a, $.DisposableHelper.DISPOSED)
+933	53	12	FutureObserver.java	cancel	a	Disposable	0	RET	s.compareAndSet($, DisposableHelper.DISPOSED)
+934	54	16	FutureObserver.java	cancel	a	Disposable	0	DEF	$ != null
+935	75	8	FutureObserver.java	get	THIS	FutureObserver	0	DEF	$.getCount() != 0
+936	80	8	FutureObserver.java	get	THIS	FutureObserver	0	CancellationException	$.isCancelled()
+937	84	8	FutureObserver.java	get	ex	Throwable	0	ExecutionException	$ != null
+938	92	8	FutureObserver.java	get	THIS	FutureObserver	0	TimeoutException	$.getCount() != 0
+939	94	12	FutureObserver.java	get	THIS	FutureObserver	0	TimeoutException	$.await(timeout, unit)
+939	94	12	FutureObserver.java	get	timeout	long	0	TimeoutException	await($, unit)
+939	94	12	FutureObserver.java	get	unit	TimeUnit	0	TimeoutException	await(timeout, $)
+940	99	8	FutureObserver.java	get	THIS	FutureObserver	0	CancellationException	$.isCancelled()
+941	104	8	FutureObserver.java	get	ex	Throwable	0	ExecutionException	$ != null
+942	117	8	FutureObserver.java	onNext	THIS	FutureObserver	0	RET	$.value != null
+943	127	8	FutureObserver.java	onError	THIS	FutureObserver	1	RET	$.error == null
+944	132	16	FutureObserver.java	onError	THIS	FutureObserver	0	RET	a == $
+944	132	16	FutureObserver.java	onError	THIS	FutureObserver	0	RET	a == $.DisposableHelper.DISPOSED
+944	132	16	FutureObserver.java	onError	a	Disposable	0	RET	$ == this
+944	132	16	FutureObserver.java	onError	a	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+945	136	16	FutureObserver.java	onError	THIS	FutureObserver	0	RET	$.s.compareAndSet(a, this)
+945	136	16	FutureObserver.java	onError	a	Disposable	0	RET	s.compareAndSet($, this)
+946	148	8	FutureObserver.java	onComplete	THIS	FutureObserver	0	RET	$.value == null
+947	154	12	FutureObserver.java	onComplete	THIS	FutureObserver	0	RET	a == $.DisposableHelper.DISPOSED
+947	154	12	FutureObserver.java	onComplete	THIS	FutureObserver	0	RET	a == $
+947	154	12	FutureObserver.java	onComplete	a	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+947	154	12	FutureObserver.java	onComplete	a	Disposable	0	RET	$ == this
+948	157	12	FutureObserver.java	onComplete	THIS	FutureObserver	0	RET	$.s.compareAndSet(a, this)
+948	157	12	FutureObserver.java	onComplete	a	Disposable	0	RET	s.compareAndSet($, this)
+995	48	12	FutureSingleObserver.java	cancel	THIS	FutureSingleObserver	0	RET	a == $
+995	48	12	FutureSingleObserver.java	cancel	THIS	FutureSingleObserver	0	RET	a == $.DisposableHelper.DISPOSED
+995	48	12	FutureSingleObserver.java	cancel	a	Disposable	0	RET	$ == this
+995	48	12	FutureSingleObserver.java	cancel	a	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+996	52	12	FutureSingleObserver.java	cancel	THIS	FutureSingleObserver	0	RET	$.s.compareAndSet(a, $.DisposableHelper.DISPOSED)
+996	52	12	FutureSingleObserver.java	cancel	a	Disposable	0	RET	s.compareAndSet($, DisposableHelper.DISPOSED)
+997	53	16	FutureSingleObserver.java	cancel	a	Disposable	0	DEF	$ != null
+998	74	8	FutureSingleObserver.java	get	THIS	FutureSingleObserver	0	DEF	$.getCount() != 0
+999	79	8	FutureSingleObserver.java	get	THIS	FutureSingleObserver	0	CancellationException	$.isCancelled()
+1000	83	8	FutureSingleObserver.java	get	ex	Throwable	0	ExecutionException	$ != null
+1001	91	8	FutureSingleObserver.java	get	THIS	FutureSingleObserver	0	TimeoutException	$.getCount() != 0
+1002	93	12	FutureSingleObserver.java	get	THIS	FutureSingleObserver	0	TimeoutException	$.await(timeout, unit)
+1002	93	12	FutureSingleObserver.java	get	timeout	long	0	TimeoutException	await($, unit)
+1002	93	12	FutureSingleObserver.java	get	unit	TimeUnit	0	TimeoutException	await(timeout, $)
+1003	98	8	FutureSingleObserver.java	get	THIS	FutureSingleObserver	0	CancellationException	$.isCancelled()
+1004	103	8	FutureSingleObserver.java	get	ex	Throwable	0	ExecutionException	$ != null
+1005	117	8	FutureSingleObserver.java	onSuccess	THIS	FutureSingleObserver	0	RET	a == $.DisposableHelper.DISPOSED
+1005	117	8	FutureSingleObserver.java	onSuccess	a	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+1006	129	12	FutureSingleObserver.java	onError	THIS	FutureSingleObserver	0	RET	a == $.DisposableHelper.DISPOSED
+1006	129	12	FutureSingleObserver.java	onError	a	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+1007	134	12	FutureSingleObserver.java	onError	THIS	FutureSingleObserver	0	RET	$.s.compareAndSet(a, this)
+1007	134	12	FutureSingleObserver.java	onError	a	Disposable	0	RET	s.compareAndSet($, this)
+436	50	12	FutureSubscriber.java	cancel	THIS	FutureSubscriber	0	RET	a == $.SubscriptionHelper.CANCELLED
+436	50	12	FutureSubscriber.java	cancel	THIS	FutureSubscriber	0	RET	a == $
+436	50	12	FutureSubscriber.java	cancel	a	Subscription	0	RET	$ == SubscriptionHelper.CANCELLED
+436	50	12	FutureSubscriber.java	cancel	a	Subscription	0	RET	$ == this
+437	54	12	FutureSubscriber.java	cancel	THIS	FutureSubscriber	0	RET	$.s.compareAndSet(a, $.SubscriptionHelper.CANCELLED)
+437	54	12	FutureSubscriber.java	cancel	a	Subscription	0	RET	s.compareAndSet($, SubscriptionHelper.CANCELLED)
+438	55	16	FutureSubscriber.java	cancel	a	Subscription	0	DEF	$ != null
+439	76	8	FutureSubscriber.java	get	THIS	FutureSubscriber	0	DEF	$.getCount() != 0
+440	81	8	FutureSubscriber.java	get	THIS	FutureSubscriber	0	CancellationException	$.isCancelled()
+441	85	8	FutureSubscriber.java	get	ex	Throwable	0	ExecutionException	$ != null
+442	93	8	FutureSubscriber.java	get	THIS	FutureSubscriber	0	TimeoutException	$.getCount() != 0
+443	95	12	FutureSubscriber.java	get	THIS	FutureSubscriber	0	TimeoutException	$.await(timeout, unit)
+443	95	12	FutureSubscriber.java	get	timeout	long	0	TimeoutException	await($, unit)
+443	95	12	FutureSubscriber.java	get	unit	TimeUnit	0	TimeoutException	await(timeout, $)
+444	100	8	FutureSubscriber.java	get	THIS	FutureSubscriber	0	CancellationException	$.isCancelled()
+445	105	8	FutureSubscriber.java	get	ex	Throwable	0	ExecutionException	$ != null
+446	113	8	FutureSubscriber.java	onSubscribe	THIS	FutureSubscriber	0	DEF	$.SubscriptionHelper.setOnce($.s, s)
+446	113	8	FutureSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.setOnce(this.s, $)
+447	120	8	FutureSubscriber.java	onNext	THIS	FutureSubscriber	0	RET	$.value != null
+448	132	12	FutureSubscriber.java	onError	THIS	FutureSubscriber	0	RET	a == $.SubscriptionHelper.CANCELLED
+448	132	12	FutureSubscriber.java	onError	THIS	FutureSubscriber	0	RET	a == $
+448	132	12	FutureSubscriber.java	onError	a	Subscription	0	RET	$ == SubscriptionHelper.CANCELLED
+448	132	12	FutureSubscriber.java	onError	a	Subscription	0	RET	$ == this
+449	137	12	FutureSubscriber.java	onError	THIS	FutureSubscriber	0	RET	$.s.compareAndSet(a, this)
+449	137	12	FutureSubscriber.java	onError	a	Subscription	0	RET	s.compareAndSet($, this)
+450	146	8	FutureSubscriber.java	onComplete	THIS	FutureSubscriber	0	RET	$.value == null
+451	152	12	FutureSubscriber.java	onComplete	THIS	FutureSubscriber	0	RET	a == $.SubscriptionHelper.CANCELLED
+451	152	12	FutureSubscriber.java	onComplete	THIS	FutureSubscriber	0	RET	a == $
+451	152	12	FutureSubscriber.java	onComplete	a	Subscription	0	RET	$ == SubscriptionHelper.CANCELLED
+451	152	12	FutureSubscriber.java	onComplete	a	Subscription	0	RET	$ == this
+452	155	12	FutureSubscriber.java	onComplete	THIS	FutureSubscriber	0	RET	$.s.compareAndSet(a, this)
+452	155	12	FutureSubscriber.java	onComplete	a	Subscription	0	RET	s.compareAndSet($, this)
+285	44	8	HalfSerializer.java	onNext	wip	AtomicInteger	0	DEF	$.get() == 0
+285	44	8	HalfSerializer.java	onNext	wip	AtomicInteger	0	DEF	$.compareAndSet(0, 1)
+286	46	12	HalfSerializer.java	onNext	wip	AtomicInteger	0	DEF	$.decrementAndGet() != 0
+287	48	16	HalfSerializer.java	onNext	ex	Throwable	1	DEF	$ != null
+288	68	8	HalfSerializer.java	onError	ex	Throwable	1	DEF	error.addThrowable($)
+288	68	8	HalfSerializer.java	onError	error	AtomicThrowable	1	DEF	$.addThrowable(ex)
+289	69	12	HalfSerializer.java	onError	wip	AtomicInteger	0	DEF	$.getAndIncrement() == 0
+290	86	8	HalfSerializer.java	onComplete	wip	AtomicInteger	0	DEF	$.getAndIncrement() == 0
+291	88	12	HalfSerializer.java	onComplete	ex	Throwable	1	DEF	$ != null
+292	107	8	HalfSerializer.java	onNext	wip	AtomicInteger	0	DEF	$.get() == 0
+292	107	8	HalfSerializer.java	onNext	wip	AtomicInteger	0	DEF	$.compareAndSet(0, 1)
+293	109	12	HalfSerializer.java	onNext	wip	AtomicInteger	0	DEF	$.decrementAndGet() != 0
+294	111	16	HalfSerializer.java	onNext	ex	Throwable	1	DEF	$ != null
+295	131	8	HalfSerializer.java	onError	ex	Throwable	1	DEF	error.addThrowable($)
+295	131	8	HalfSerializer.java	onError	error	AtomicThrowable	1	DEF	$.addThrowable(ex)
+296	132	12	HalfSerializer.java	onError	wip	AtomicInteger	0	DEF	$.getAndIncrement() == 0
+297	148	8	HalfSerializer.java	onComplete	wip	AtomicInteger	0	DEF	$.getAndIncrement() == 0
+298	150	12	HalfSerializer.java	onComplete	ex	Throwable	1	DEF	$ != null
+927	54	8	InnerQueuedObserver.java	onSubscribe	THIS	InnerQueuedObserver	0	RET	$.DisposableHelper.setOnce(this, s)
+927	54	8	InnerQueuedObserver.java	onSubscribe	s	Disposable	0	RET	DisposableHelper.setOnce(this, $)
+928	55	12	InnerQueuedObserver.java	onSubscribe	s	Disposable	0	RET	$ instanceof QueueDisposable
+929	60	16	InnerQueuedObserver.java	onSubscribe	m	int	0	RET	$ == QueueSubscription.SYNC
+930	67	16	InnerQueuedObserver.java	onSubscribe	m	int	0	RET	$ == QueueDisposable.ASYNC
+931	80	8	InnerQueuedObserver.java	onNext	THIS	InnerQueuedObserver	1	DEF	$.fusionMode == QueueDisposable.NONE
+466	60	8	InnerQueuedSubscriber.java	onSubscribe	THIS	InnerQueuedSubscriber	0	RET	$.SubscriptionHelper.setOnce(this, s)
+466	60	8	InnerQueuedSubscriber.java	onSubscribe	s	Subscription	0	RET	SubscriptionHelper.setOnce(this, $)
+467	61	12	InnerQueuedSubscriber.java	onSubscribe	s	Subscription	0	RET	$ instanceof QueueSubscription
+468	66	16	InnerQueuedSubscriber.java	onSubscribe	m	int	0	RET	$ == QueueSubscription.SYNC
+469	73	16	InnerQueuedSubscriber.java	onSubscribe	m	int	0	RET	$ == QueueSubscription.ASYNC
+470	89	8	InnerQueuedSubscriber.java	onNext	THIS	InnerQueuedSubscriber	1	DEF	$.fusionMode == QueueSubscription.NONE
+471	108	8	InnerQueuedSubscriber.java	request	THIS	InnerQueuedSubscriber	0	DEF	$.fusionMode != QueueSubscription.SYNC
+472	110	12	InnerQueuedSubscriber.java	request	THIS	InnerQueuedSubscriber	1	DEF	p >= $.limit
+472	110	12	InnerQueuedSubscriber.java	request	p	long	1	DEF	$ >= limit
+473	120	8	InnerQueuedSubscriber.java	requestOne	THIS	InnerQueuedSubscriber	0	DEF	$.fusionMode != QueueSubscription.SYNC
+474	122	12	InnerQueuedSubscriber.java	requestOne	THIS	InnerQueuedSubscriber	1	DEF	p == $.limit
+474	122	12	InnerQueuedSubscriber.java	requestOne	p	long	1	DEF	$ == limit
+1012	166	8	IoScheduler.java	start	THIS	IoScheduler	0	DEF	$.pool.compareAndSet(NONE, update)
+1012	166	8	IoScheduler.java	start	update	CachedWorkerPool	0	DEF	pool.compareAndSet(NONE, $)
+1013	174	12	IoScheduler.java	shutdown	curr	CachedWorkerPool	0	RET	$ == NONE
+1014	177	12	IoScheduler.java	shutdown	THIS	IoScheduler	0	RET	$.pool.compareAndSet(curr, NONE)
+1014	177	12	IoScheduler.java	shutdown	curr	CachedWorkerPool	0	RET	pool.compareAndSet($, NONE)
+923	45	8	LambdaObserver.java	onSubscribe	THIS	LambdaObserver	0	DEF	$.DisposableHelper.setOnce(this, s)
+923	45	8	LambdaObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this, $)
+924	58	8	LambdaObserver.java	onNext	THIS	LambdaObserver	0	DEF	$.isDisposed()
+925	71	8	LambdaObserver.java	onError	THIS	LambdaObserver	0	DEF	$.isDisposed()
+926	84	8	LambdaObserver.java	onComplete	THIS	LambdaObserver	0	DEF	$.isDisposed()
+409	47	8	LambdaSubscriber.java	onSubscribe	THIS	LambdaSubscriber	0	DEF	$.SubscriptionHelper.setOnce(this, s)
+409	47	8	LambdaSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.setOnce(this, $)
+410	60	8	LambdaSubscriber.java	onNext	THIS	LambdaSubscriber	0	DEF	$.isDisposed()
+411	73	8	LambdaSubscriber.java	onError	THIS	LambdaSubscriber	1	DEF	$.get() != $.SubscriptionHelper.CANCELLED
+412	88	8	LambdaSubscriber.java	onComplete	THIS	LambdaSubscriber	0	DEF	$.get() != $.SubscriptionHelper.CANCELLED
+278	54	8	LinkedArrayList.java	add	THIS	LinkedArrayList	1	DEF	$.size == 0
+279	62	8	LinkedArrayList.java	add	THIS	LinkedArrayList	1	DEF	$.indexInTail == $.capacityHint
+58126	99	8	LinkedArrayList.java	toString	s	int	0	NIL-WHILE	j < $
+58126	99	8	LinkedArrayList.java	toString	j	int	0	NIL-WHILE	$ < s
+280	102	12	LinkedArrayList.java	toString	cap	int	0	DEF	++k == $
+280	102	12	LinkedArrayList.java	toString	k	int	0	DEF	++$ == cap
+877	54	8	ListCompositeDisposable.java	dispose	THIS	ListCompositeDisposable	0	RET	$.disposed
+878	59	12	ListCompositeDisposable.java	dispose	THIS	ListCompositeDisposable	0	RET	$.disposed
+879	78	8	ListCompositeDisposable.java	add	THIS	ListCompositeDisposable	0	RET	$.disposed
+880	80	16	ListCompositeDisposable.java	add	THIS	ListCompositeDisposable	0	RET	$.disposed
+881	82	20	ListCompositeDisposable.java	add	set	List<Disposable>	0	DEF	$ == null
+882	97	8	ListCompositeDisposable.java	addAll	THIS	ListCompositeDisposable	0	RET	$.disposed
+883	99	16	ListCompositeDisposable.java	addAll	THIS	ListCompositeDisposable	0	RET	$.disposed
+884	101	20	ListCompositeDisposable.java	addAll	set	List<Disposable>	0	DEF	$ == null
+885	121	8	ListCompositeDisposable.java	remove	THIS	ListCompositeDisposable	0	RET	$.delete(d)
+885	121	8	ListCompositeDisposable.java	remove	d	Disposable	0	RET	delete($)
+886	131	8	ListCompositeDisposable.java	delete	THIS	ListCompositeDisposable	0	RET	$.disposed
+887	135	12	ListCompositeDisposable.java	delete	THIS	ListCompositeDisposable	0	RET	$.disposed
+888	140	12	ListCompositeDisposable.java	delete	set	List<Disposable>	0	RET	$ == null
+888	140	12	ListCompositeDisposable.java	delete	set	List<Disposable>	0	RET	$.remove(d)
+888	140	12	ListCompositeDisposable.java	delete	d	Disposable	0	RET	set.remove($)
+889	148	8	ListCompositeDisposable.java	clear	THIS	ListCompositeDisposable	0	RET	$.disposed
+890	153	12	ListCompositeDisposable.java	clear	THIS	ListCompositeDisposable	0	RET	$.disposed
+891	165	8	ListCompositeDisposable.java	dispose	set	List<Disposable>	0	RET	$ == null
+892	174	16	ListCompositeDisposable.java	dispose	errors	List<Throwable>	0	DEF	$ == null
+893	180	8	ListCompositeDisposable.java	dispose	errors	List<Throwable>	0	CompositeException	$ != null
+894	181	12	ListCompositeDisposable.java	dispose	errors	List<Throwable>	0	DEF	$.size() == 1
+1109	84	8	Maybe.java	ambArray	THIS	Maybe	0	RET	sources.$.length == 0
+1109	84	8	Maybe.java	ambArray	sources	MaybeSource<? extends T>	0	RET	$.length == 0
+1110	87	8	Maybe.java	ambArray	THIS	Maybe	0	RET	sources.$.length == 1
+1110	87	8	Maybe.java	ambArray	sources	MaybeSource<? extends T>	0	RET	$.length == 1
+1111	278	8	Maybe.java	concatArray	THIS	Maybe	0	RET	sources.$.length == 0
+1111	278	8	Maybe.java	concatArray	sources	MaybeSource<? extends T>	0	RET	$.length == 0
+1112	281	8	Maybe.java	concatArray	THIS	Maybe	0	RET	sources.$.length == 1
+1112	281	8	Maybe.java	concatArray	sources	MaybeSource<? extends T>	0	RET	$.length == 1
+1113	308	8	Maybe.java	concatArrayDelayError	THIS	Maybe	1	RET	sources.$.length == 0
+1113	308	8	Maybe.java	concatArrayDelayError	sources	MaybeSource<? extends T>	1	RET	$.length == 0
+1114	311	8	Maybe.java	concatArrayDelayError	THIS	Maybe	0	RET	sources.$.length == 1
+1114	311	8	Maybe.java	concatArrayDelayError	sources	MaybeSource<? extends T>	0	RET	$.length == 1
+1115	993	8	Maybe.java	mergeArray	THIS	Maybe	0	RET	sources.$.length == 0
+1115	993	8	Maybe.java	mergeArray	sources	MaybeSource<? extends T>	0	RET	$.length == 0
+1116	996	8	Maybe.java	mergeArray	THIS	Maybe	0	RET	sources.$.length == 1
+1116	996	8	Maybe.java	mergeArray	sources	MaybeSource<? extends T>	0	RET	$.length == 1
+1117	1034	8	Maybe.java	mergeArrayDelayError	THIS	Maybe	0	RET	sources.$.length == 0
+1117	1034	8	Maybe.java	mergeArrayDelayError	sources	MaybeSource<? extends T>	0	RET	$.length == 0
+1118	1387	8	Maybe.java	unsafeCreate	onSubscribe	MaybeSource<T>	0	IllegalArgumentException	$ instanceof Maybe
+1119	1475	8	Maybe.java	wrap	source	MaybeSource<T>	0	RET	$ instanceof Maybe
+1120	1959	8	Maybe.java	zipArray	THIS	Maybe	0	RET	sources.$.length == 0
+1120	1959	8	Maybe.java	zipArray	sources	MaybeSource<? extends T>	0	RET	$.length == 0
+1123	4155	8	Maybe.java	test	cancelled	boolean	0	DEF	$
+515	43	8	MaybeAmb.java	subscribeActual	sources	MaybeSource<? extends T>[]	1	RET	$ == null
+516	47	20	MaybeAmb.java	subscribeActual	THIS	MaybeAmb	0	RET	$.element == null
+517	51	20	MaybeAmb.java	subscribeActual	THIS	MaybeAmb	0	DEF	count == sources.$.length
+517	51	20	MaybeAmb.java	subscribeActual	sources	MaybeSource<? extends T>[]	0	DEF	count == $.length
+517	51	20	MaybeAmb.java	subscribeActual	count	int	0	DEF	$ == sources.length
+58144	70	8	MaybeAmb.java	subscribeActual	i	int	0	NIL-FOR	$ < count
+58144	70	8	MaybeAmb.java	subscribeActual	count	int	0	NIL-FOR	i < $
+518	72	12	MaybeAmb.java	subscribeActual	parent	AmbMaybeObserver<T>	0	RET	$.isDisposed()
+519	76	12	MaybeAmb.java	subscribeActual	s	MaybeSource<? extends T>	0	RET	$ == null
+520	84	8	MaybeAmb.java	subscribeActual	count	int	0	DEF	$ == 0
+525	53	8	MaybeCache.java	subscribeActual	THIS	MaybeCache	1	RET	$.add(parent)
+525	53	8	MaybeCache.java	subscribeActual	parent	CacheDisposable<T>	1	RET	add($)
+526	54	12	MaybeCache.java	subscribeActual	parent	CacheDisposable<T>	0	RET	$.isDisposed()
+527	59	12	MaybeCache.java	subscribeActual	parent	CacheDisposable<T>	0	DEF	$.isDisposed()
+528	61	16	MaybeCache.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+529	65	20	MaybeCache.java	subscribeActual	v	T	1	DEF	$ != null
+530	76	8	MaybeCache.java	subscribeActual	src	MaybeSource<T>	0	DEF	$ != null
+531	91	12	MaybeCache.java	onSuccess	THIS	MaybeCache	0	DEF	$.inner.isDisposed()
+532	102	12	MaybeCache.java	onError	THIS	MaybeCache	0	DEF	$.inner.isDisposed()
+533	112	12	MaybeCache.java	onComplete	THIS	MaybeCache	0	DEF	$.inner.isDisposed()
+534	121	12	MaybeCache.java	add	a	CacheDisposable<T>[]	0	RET	$ == TERMINATED
+535	130	12	MaybeCache.java	add	THIS	MaybeCache	0	RET	$.observers.compareAndSet(a, b)
+535	130	12	MaybeCache.java	add	a	CacheDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+535	130	12	MaybeCache.java	add	b	CacheDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+536	141	12	MaybeCache.java	remove	n	int	0	RET	$ == 0
+58145	147	12	MaybeCache.java	remove	i	int	0	NIL-FOR	$ < n
+58145	147	12	MaybeCache.java	remove	n	int	0	NIL-FOR	i < $
+537	148	16	MaybeCache.java	remove	i	int	0	DEF	a[$] == inner
+537	148	16	MaybeCache.java	remove	a	CacheDisposable<T>[]	0	DEF	$[i] == inner
+537	148	16	MaybeCache.java	remove	inner	CacheDisposable<T>	0	DEF	a[i] == $
+538	154	12	MaybeCache.java	remove	j	int	0	RET	$ < 0
+539	159	12	MaybeCache.java	remove	n	int	1	DEF	$ == 1
+540	166	12	MaybeCache.java	remove	THIS	MaybeCache	0	RET	$.observers.compareAndSet(a, b)
+540	166	12	MaybeCache.java	remove	a	CacheDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+540	166	12	MaybeCache.java	remove	b	CacheDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+499	42	8	MaybeFromAction.java	subscribeActual	d	Disposable	0	RET	$.isDisposed()
+500	48	16	MaybeFromAction.java	subscribeActual	d	Disposable	1	DEF	$.isDisposed()
+501	56	12	MaybeFromAction.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+521	41	8	MaybeFromCallable.java	subscribeActual	d	Disposable	0	RET	$.isDisposed()
+522	49	16	MaybeFromCallable.java	subscribeActual	d	Disposable	1	DEF	$.isDisposed()
+523	57	12	MaybeFromCallable.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+524	58	16	MaybeFromCallable.java	subscribeActual	v	T	1	DEF	$ == null
+505	45	8	MaybeFromFuture.java	subscribeActual	d	Disposable	0	RET	$.isDisposed()
+506	48	16	MaybeFromFuture.java	subscribeActual	THIS	MaybeFromFuture	1	DEF	$.timeout <= 0L
+507	54	16	MaybeFromFuture.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+508	59	16	MaybeFromFuture.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+509	64	16	MaybeFromFuture.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+510	69	12	MaybeFromFuture.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+511	70	16	MaybeFromFuture.java	subscribeActual	v	T	1	DEF	$ == null
+512	41	8	MaybeFromRunnable.java	subscribeActual	d	Disposable	0	RET	$.isDisposed()
+513	47	16	MaybeFromRunnable.java	subscribeActual	d	Disposable	1	DEF	$.isDisposed()
+514	55	12	MaybeFromRunnable.java	subscribeActual	d	Disposable	0	DEF	$.isDisposed()
+492	50	8	MaybeMergeArray.java	subscribeActual	THIS	MaybeMergeArray	1	DEF	n <= $.bufferSize()
+492	50	8	MaybeMergeArray.java	subscribeActual	n	int	1	DEF	$ <= bufferSize()
+493	62	12	MaybeMergeArray.java	subscribeActual	parent	MergeMaybeObserver<T>	0	RET	$.isCancelled()
+493	62	12	MaybeMergeArray.java	subscribeActual	e	AtomicThrowable	0	RET	$.get() != null
+1342	68	8	MaybeSubject.java	onSubscribe	THIS	MaybeSubject	0	DEF	$.observers.get() == TERMINATED
+1343	76	8	MaybeSubject.java	onSuccess	value	T	0	RET	$ == null
+1344	80	8	MaybeSubject.java	onSuccess	THIS	MaybeSubject	0	DEF	$.once.compareAndSet(false, true)
+1345	91	8	MaybeSubject.java	onError	e	Throwable	0	DEF	$ == null
+1346	94	8	MaybeSubject.java	onError	THIS	MaybeSubject	1	DEF	$.once.compareAndSet(false, true)
+1347	107	8	MaybeSubject.java	onComplete	THIS	MaybeSubject	0	DEF	$.once.compareAndSet(false, true)
+1348	118	8	MaybeSubject.java	subscribeActual	THIS	MaybeSubject	1	DEF	$.add(md)
+1348	118	8	MaybeSubject.java	subscribeActual	md	MaybeDisposable<T>	1	DEF	add($)
+1349	119	12	MaybeSubject.java	subscribeActual	md	MaybeDisposable<T>	0	DEF	$.isDisposed()
+1350	124	12	MaybeSubject.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+1351	128	16	MaybeSubject.java	subscribeActual	v	T	1	DEF	$ == null
+1352	140	12	MaybeSubject.java	add	a	MaybeDisposable<T>[]	0	RET	$ == TERMINATED
+1353	149	12	MaybeSubject.java	add	THIS	MaybeSubject	0	RET	$.observers.compareAndSet(a, b)
+1353	149	12	MaybeSubject.java	add	a	MaybeDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+1353	149	12	MaybeSubject.java	add	b	MaybeDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+1354	160	12	MaybeSubject.java	remove	n	int	0	RET	$ == 0
+58179	166	12	MaybeSubject.java	remove	i	int	0	NIL-FOR	$ < n
+58179	166	12	MaybeSubject.java	remove	n	int	0	NIL-FOR	i < $
+1355	167	16	MaybeSubject.java	remove	i	int	0	DEF	a[$] == inner
+1355	167	16	MaybeSubject.java	remove	a	MaybeDisposable<T>[]	0	DEF	$[i] == inner
+1355	167	16	MaybeSubject.java	remove	inner	MaybeDisposable<T>	0	DEF	a[i] == $
+1356	173	12	MaybeSubject.java	remove	j	int	0	RET	$ < 0
+1357	177	12	MaybeSubject.java	remove	n	int	1	DEF	$ == 1
+1358	185	12	MaybeSubject.java	remove	THIS	MaybeSubject	0	RET	$.observers.compareAndSet(a, b)
+1358	185	12	MaybeSubject.java	remove	a	MaybeDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+1358	185	12	MaybeSubject.java	remove	b	MaybeDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+1359	196	8	MaybeSubject.java	getValue	THIS	MaybeSubject	0	RET	$.observers.get() == TERMINATED
+1360	215	8	MaybeSubject.java	getThrowable	THIS	MaybeSubject	0	RET	$.observers.get() == TERMINATED
+541	72	12	MaybeUsing.java	subscribeActual	THIS	MaybeUsing	0	RET	$.eager
+542	84	12	MaybeUsing.java	subscribeActual	THIS	MaybeUsing	0	DEF	$.eager
+502	43	8	MaybeZipArray.java	subscribeActual	n	int	0	RET	$ == 1
+58143	52	8	MaybeZipArray.java	subscribeActual	i	int	0	NIL-FOR	$ < n
+58143	52	8	MaybeZipArray.java	subscribeActual	n	int	0	NIL-FOR	i < $
+503	53	12	MaybeZipArray.java	subscribeActual	parent	ZipCoordinator<T,R>	0	RET	$.isDisposed()
+504	59	12	MaybeZipArray.java	subscribeActual	source	MaybeSource<? extends T>	0	RET	$ == null
+494	43	16	MaybeZipIterable.java	subscribeActual	THIS	MaybeZipIterable	0	RET	$.source == null
+495	47	16	MaybeZipIterable.java	subscribeActual	THIS	MaybeZipIterable	0	DEF	n == a.$.length
+495	47	16	MaybeZipIterable.java	subscribeActual	a	MaybeSource<? extends T>[]	0	DEF	n == $.length
+495	47	16	MaybeZipIterable.java	subscribeActual	n	int	0	DEF	$ == a.length
+496	58	8	MaybeZipIterable.java	subscribeActual	n	int	0	RET	$ == 0
+497	63	8	MaybeZipIterable.java	subscribeActual	n	int	0	RET	$ == 1
+58142	72	8	MaybeZipIterable.java	subscribeActual	i	int	0	NIL-FOR	$ < n
+58142	72	8	MaybeZipIterable.java	subscribeActual	n	int	0	NIL-FOR	i < $
+498	73	12	MaybeZipIterable.java	subscribeActual	parent	ZipCoordinator<T,R>	0	RET	$.isDisposed()
+281	35	8	MergerBiFunction.java	apply	n	int	0	RET	$ == 0
+58127	46	8	MergerBiFunction.java	apply	s1	T	0	NIL-WHILE	$ != null
+58127	46	8	MergerBiFunction.java	apply	s2	T	0	NIL-WHILE	$ != null
+282	47	12	MergerBiFunction.java	apply	THIS	MergerBiFunction	1	DEF	$.comparator.compare(s1, s2) < 0
+282	47	12	MergerBiFunction.java	apply	s1	T	1	DEF	comparator.compare($, s2) < 0
+282	47	12	MergerBiFunction.java	apply	s2	T	1	DEF	comparator.compare(s1, $) < 0
+283	56	8	MergerBiFunction.java	apply	s1	T	1	DEF	$ != null
+58128	58	12	MergerBiFunction.java	apply	at	Iterator<T>	0	NIL-WHILE	$.hasNext()
+284	62	8	MergerBiFunction.java	apply	s2	T	0	DEF	$ != null
+58129	64	12	MergerBiFunction.java	apply	bt	Iterator<T>	0	NIL-WHILE	$.hasNext()
+771	59	8	MpscLinkedQueue.java	offer	e	T	0	NullPointerException	null == $
+772	90	8	MpscLinkedQueue.java	poll	nextNode	LinkedQueueNode<T>	1	RET	$ != null
+773	96	13	MpscLinkedQueue.java	poll	THIS	MpscLinkedQueue	0	RET	currConsumerNode != $.lvProducerNode()
+773	96	13	MpscLinkedQueue.java	poll	currConsumerNode	LinkedQueueNode<T>	0	RET	$ != lvProducerNode()
+58164	98	12	MpscLinkedQueue.java	poll	currConsumerNode	LinkedQueueNode<T>	0	NIL-WHILE	(nextNode = $.lvNext()) == null
+58164	98	12	MpscLinkedQueue.java	poll	nextNode	LinkedQueueNode<T>	0	NIL-WHILE	($ = currConsumerNode.lvNext()) == null
+58165	118	8	MpscLinkedQueue.java	clear	THIS	MpscLinkedQueue	0	NIL-WHILE	$.isEmpty()
+58165	118	8	MpscLinkedQueue.java	clear	THIS	MpscLinkedQueue	0	NIL-WHILE	$.poll() != null
+1041	48	8	NewThreadWorker.java	schedule	THIS	NewThreadWorker	0	RET	$.disposed
+1042	66	12	NewThreadWorker.java	scheduleDirect	delayTime	long	1	DEF	$ <= 0L
+1043	118	8	NewThreadWorker.java	scheduleActual	parent	DisposableContainer	0	RET	$ != null
+1044	119	12	NewThreadWorker.java	scheduleActual	sr	ScheduledRunnable	0	RET	parent.add($)
+1044	119	12	NewThreadWorker.java	scheduleActual	parent	DisposableContainer	0	RET	$.add(sr)
+1045	126	12	NewThreadWorker.java	scheduleActual	delayTime	long	1	DEF	$ <= 0
+1046	133	12	NewThreadWorker.java	scheduleActual	parent	DisposableContainer	0	DEF	$ != null
+1047	144	8	NewThreadWorker.java	dispose	THIS	NewThreadWorker	0	DEF	$.disposed
+1048	154	8	NewThreadWorker.java	shutdown	THIS	NewThreadWorker	0	DEF	$.disposed
+112	73	8	Notification.java	getValue	THIS	Notification	0	RET	$.NotificationLite.isError(o)
+112	73	8	Notification.java	getValue	o	Object	0	RET	$ != null
+112	73	8	Notification.java	getValue	o	Object	0	RET	NotificationLite.isError($)
+113	88	8	Notification.java	getError	THIS	Notification	0	RET	$.NotificationLite.isError(o)
+113	88	8	Notification.java	getError	o	Object	0	RET	NotificationLite.isError($)
+114	96	8	Notification.java	equals	obj	Object	0	RET	$ instanceof Notification
+115	112	8	Notification.java	toString	o	Object	0	RET	$ == null
+116	115	8	Notification.java	toString	THIS	Notification	0	RET	$.NotificationLite.isError(o)
+116	115	8	Notification.java	toString	o	Object	0	RET	NotificationLite.isError($)
+301	53	12	NotificationLite.java	equals	obj	Object	0	RET	$ instanceof ErrorNotification
+302	216	8	NotificationLite.java	accept	o	Object	1	RET	$ == COMPLETE
+303	220	8	NotificationLite.java	accept	o	Object	0	RET	$ instanceof ErrorNotification
+304	238	8	NotificationLite.java	accept	o	Object	1	RET	$ == COMPLETE
+305	242	8	NotificationLite.java	accept	o	Object	0	RET	$ instanceof ErrorNotification
+306	260	8	NotificationLite.java	acceptFull	o	Object	1	RET	$ == COMPLETE
+307	264	8	NotificationLite.java	acceptFull	o	Object	1	RET	$ instanceof ErrorNotification
+308	268	8	NotificationLite.java	acceptFull	o	Object	0	RET	$ instanceof SubscriptionNotification
+309	286	8	NotificationLite.java	acceptFull	o	Object	1	RET	$ == COMPLETE
+310	290	8	NotificationLite.java	acceptFull	o	Object	1	RET	$ instanceof ErrorNotification
+311	294	8	NotificationLite.java	acceptFull	o	Object	0	RET	$ instanceof DisposableNotification
+397	38	8	ObjectHelper.java	requireNonNull	object	T	0	NullPointerException	$ == null
+398	104	8	ObjectHelper.java	verifyPositive	value	int	0	IllegalArgumentException	$ <= 0
+399	119	8	ObjectHelper.java	verifyPositive	value	long	0	IllegalArgumentException	$ <= 0L
+0	109	8	Observable.java	ambArray	len	int	0	RET	$ == 0
+1	112	8	Observable.java	ambArray	len	int	0	RET	$ == 1
+2	329	8	Observable.java	combineLatest	THIS	Observable	0	RET	sources.$.length == 0
+2	329	8	Observable.java	combineLatest	sources	ObservableSource<? extends T>[]	0	RET	$.length == 0
+3	897	8	Observable.java	combineLatestDelayError	THIS	Observable	0	RET	sources.$.length == 0
+3	897	8	Observable.java	combineLatestDelayError	sources	ObservableSource<? extends T>[]	0	RET	$.length == 0
+4	1179	8	Observable.java	concatArray	THIS	Observable	1	RET	sources.$.length == 0
+4	1179	8	Observable.java	concatArray	sources	ObservableSource<? extends T>	1	RET	$.length == 0
+5	1182	8	Observable.java	concatArray	THIS	Observable	0	RET	sources.$.length == 1
+5	1182	8	Observable.java	concatArray	sources	ObservableSource<? extends T>	0	RET	$.length == 1
+6	1206	8	Observable.java	concatArrayDelayError	THIS	Observable	1	RET	sources.$.length == 0
+6	1206	8	Observable.java	concatArrayDelayError	sources	ObservableSource<? extends T>	1	RET	$.length == 0
+7	1209	8	Observable.java	concatArrayDelayError	THIS	Observable	0	RET	sources.$.length == 1
+7	1209	8	Observable.java	concatArrayDelayError	sources	ObservableSource<? extends T>	0	RET	$.length == 1
+8	1609	8	Observable.java	fromArray	THIS	Observable	1	RET	items.$.length == 0
+8	1609	8	Observable.java	fromArray	items	T	1	RET	$.length == 0
+9	1612	8	Observable.java	fromArray	THIS	Observable	0	RET	items.$.length == 1
+9	1612	8	Observable.java	fromArray	items	T	0	RET	$.length == 1
+10	2124	8	Observable.java	intervalRange	count	long	0	IllegalArgumentException	$ < 0
+11	2128	8	Observable.java	intervalRange	count	long	0	RET	$ == 0L
+12	2133	8	Observable.java	intervalRange	end	long	0	IllegalArgumentException	$ < 0
+12	2133	8	Observable.java	intervalRange	start	long	0	IllegalArgumentException	$ > 0
+13	3246	8	Observable.java	range	count	int	0	IllegalArgumentException	$ < 0
+14	3249	8	Observable.java	range	count	int	0	RET	$ == 0
+15	3252	8	Observable.java	range	count	int	0	RET	$ == 1
+16	3255	8	Observable.java	range	start	int	0	IllegalArgumentException	(long)$ + (count - 1) > Integer.MAX_VALUE
+16	3255	8	Observable.java	range	count	int	0	IllegalArgumentException	(long)start + ($ - 1) > Integer.MAX_VALUE
+17	3283	8	Observable.java	rangeLong	count	long	0	IllegalArgumentException	$ < 0
+18	3287	8	Observable.java	rangeLong	count	long	0	RET	$ == 0
+19	3291	8	Observable.java	rangeLong	count	long	0	RET	$ == 1
+20	3296	8	Observable.java	rangeLong	end	long	0	IllegalArgumentException	$ < 0
+20	3296	8	Observable.java	rangeLong	start	long	0	IllegalArgumentException	$ > 0
+21	3631	8	Observable.java	unsafeCreate	onSubscribe	ObservableSource<T>	0	IllegalArgumentException	$ instanceof Observable
+22	3718	8	Observable.java	wrap	source	ObservableSource<T>	0	RET	$ instanceof Observable
+23	4563	8	Observable.java	zipArray	THIS	Observable	0	RET	sources.$.length == 0
+23	4563	8	Observable.java	zipArray	sources	ObservableSource<? extends T>	0	RET	$.length == 0
+24	4730	8	Observable.java	blockingFirst	v	T	0	RET	$ != null
+58118	4789	8	Observable.java	blockingForEach	it	Iterator<T>	0	NIL-WHILE	$.hasNext()
+25	4859	8	Observable.java	blockingLast	v	T	0	RET	$ != null
+26	4973	8	Observable.java	blockingSingle	v	T	0	NoSuchElementException	$ == null
+28	5984	12	Observable.java	concatMap	v	T	0	RET	$ == null
+30	6042	12	Observable.java	concatMapDelayError	v	T	0	RET	$ == null
+31	7158	8	Observable.java	elementAt	index	long	0	IndexOutOfBoundsException	$ < 0
+32	7187	8	Observable.java	elementAt	index	long	0	IndexOutOfBoundsException	$ < 0
+33	7215	8	Observable.java	elementAtOrError	index	long	0	IndexOutOfBoundsException	$ < 0
+35	7430	12	Observable.java	flatMap	v	T	0	RET	$ == null
+36	9049	8	Observable.java	repeat	times	long	0	IllegalArgumentException	$ < 0
+37	9052	8	Observable.java	repeat	times	long	0	RET	$ == 0
+38	9694	8	Observable.java	retry	times	long	0	IllegalArgumentException	$ < 0
+39	9808	8	Observable.java	safeSubscribe	s	Observer<? super T>	1	DEF	$ instanceof SafeObserver
+40	10252	8	Observable.java	skip	count	long	0	RET	$ <= 0
+41	10334	8	Observable.java	skipLast	count	int	0	IndexOutOfBoundsException	$ < 0
+42	10337	8	Observable.java	skipLast	count	int	0	RET	$ == 0
+43	10685	8	Observable.java	startWithArray	THIS	Observable	0	RET	fromArray == $.empty()
+43	10685	8	Observable.java	startWithArray	fromArray	Observable<T>	0	RET	$ == empty()
+45	11004	12	Observable.java	switchMap	v	T	0	RET	$ == null
+47	11135	12	Observable.java	switchMapDelayError	v	T	0	RET	$ == null
+48	11166	8	Observable.java	take	count	long	0	IllegalArgumentException	$ < 0
+49	11242	8	Observable.java	takeLast	count	int	1	IndexOutOfBoundsException	$ < 0
+50	11245	8	Observable.java	takeLast	count	int	1	RET	$ == 0
+51	11248	8	Observable.java	takeLast	count	int	0	RET	$ == 1
+52	11350	8	Observable.java	takeLast	count	long	0	IndexOutOfBoundsException	$ < 0
+53	13724	8	Observable.java	test	dispose	boolean	0	DEF	$
+759	38	8	ObservableAmb.java	subscribeActual	sources	ObservableSource<? extends T>[]	1	RET	$ == null
+760	42	20	ObservableAmb.java	subscribeActual	THIS	ObservableAmb	0	RET	$.p == null
+761	46	20	ObservableAmb.java	subscribeActual	THIS	ObservableAmb	0	DEF	count == sources.$.length
+761	46	20	ObservableAmb.java	subscribeActual	sources	ObservableSource<? extends T>[]	0	DEF	count == $.length
+761	46	20	ObservableAmb.java	subscribeActual	count	int	0	DEF	$ == sources.length
+762	62	8	ObservableAmb.java	subscribeActual	count	int	1	RET	$ == 0
+763	66	8	ObservableAmb.java	subscribeActual	count	int	0	RET	$ == 1
+724	47	8	ObservableAutoConnect.java	subscribeActual	THIS	ObservableAutoConnect	0	DEF	$.clients.incrementAndGet() == $.numberOfObservers
+767	50	12	ObservableBlockingSubscribe.java	subscribe	bs	BlockingObserver<T>	0	DEF	$.isDisposed()
+768	54	12	ObservableBlockingSubscribe.java	subscribe	v	Object	0	RET	$ == null
+769	63	12	ObservableBlockingSubscribe.java	subscribe	THIS	ObservableBlockingSubscribe	0	DEF	$.NotificationLite.acceptFull(v, observer)
+769	63	12	ObservableBlockingSubscribe.java	subscribe	v	Object	0	DEF	NotificationLite.acceptFull($, observer)
+769	63	12	ObservableBlockingSubscribe.java	subscribe	bs	BlockingObserver<T>	0	DEF	$.isDisposed()
+769	63	12	ObservableBlockingSubscribe.java	subscribe	o	ObservableSource<? extends T>	0	DEF	$ == BlockingObserver.TERMINATED
+769	63	12	ObservableBlockingSubscribe.java	subscribe	observer	Observer<? super T>	0	DEF	NotificationLite.acceptFull(v, $)
+770	85	8	ObservableBlockingSubscribe.java	subscribe	e	Throwable	0	DEF	$ != null
+744	41	8	ObservableBuffer.java	subscribeActual	THIS	ObservableBuffer	1	DEF	$.skip == $.count
+745	43	12	ObservableBuffer.java	subscribeActual	bes	BufferExactObserver<T,U>	0	DEF	$.createBuffer()
+753	57	8	ObservableBufferTimed.java	subscribeActual	THIS	ObservableBufferTimed	0	RET	$.maxSize == Integer.MAX_VALUE
+753	57	8	ObservableBufferTimed.java	subscribeActual	THIS	ObservableBufferTimed	0	RET	$.timespan == $.timeskip
+754	65	8	ObservableBufferTimed.java	subscribeActual	THIS	ObservableBufferTimed	0	RET	$.timespan == $.timeskip
+748	81	8	ObservableCache.java	subscribeActual	THIS	ObservableCache	0	DEF	$.once.get()
+748	81	8	ObservableCache.java	subscribeActual	THIS	ObservableCache	0	DEF	$.once.compareAndSet(false, true)
+711	53	8	ObservableCombineLatest.java	subscribeActual	sources	ObservableSource<? extends T>[]	1	DEF	$ == null
+712	56	16	ObservableCombineLatest.java	subscribeActual	THIS	ObservableCombineLatest	0	DEF	count == sources.$.length
+712	56	16	ObservableCombineLatest.java	subscribeActual	sources	ObservableSource<? extends T>[]	0	DEF	count == $.length
+712	56	16	ObservableCombineLatest.java	subscribeActual	count	int	0	DEF	$ == sources.length
+713	67	8	ObservableCombineLatest.java	subscribeActual	count	int	0	RET	$ == 0
+714	46	8	ObservableConcatMap.java	subscribeActual	THIS	ObservableConcatMap	0	RET	ObservableScalarXMap.tryScalarXMapSubscribe($.source, s, $.mapper)
+714	46	8	ObservableConcatMap.java	subscribeActual	s	Observer<? super U>	0	RET	ObservableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+715	50	8	ObservableConcatMap.java	subscribeActual	THIS	ObservableConcatMap	1	DEF	$.delayErrors == $.ErrorMode.IMMEDIATE
+747	42	8	ObservableDelay.java	subscribeActual	THIS	ObservableDelay	1	DEF	$.delayError
+764	51	8	ObservableFlatMap.java	subscribeActual	THIS	ObservableFlatMap	0	RET	ObservableScalarXMap.tryScalarXMapSubscribe($.source, t, $.mapper)
+764	51	8	ObservableFlatMap.java	subscribeActual	t	Observer<? super U>	0	RET	ObservableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+756	32	8	ObservableFromArray.java	subscribeActual	THIS	ObservableFromArray	0	RET	d.$.fusionMode
+756	32	8	ObservableFromArray.java	subscribeActual	d	FromArrayDisposable<T>	0	RET	$.fusionMode
+726	37	8	ObservableFromCallable.java	subscribeActual	d	DeferredScalarDisposable<T>	0	RET	$.isDisposed()
+727	45	12	ObservableFromCallable.java	subscribeActual	d	DeferredScalarDisposable<T>	1	DEF	$.isDisposed()
+731	38	8	ObservableFromFuture.java	subscribeActual	d	DeferredScalarDisposable<T>	0	RET	$.isDisposed()
+732	44	16	ObservableFromFuture.java	subscribeActual	d	DeferredScalarDisposable<T>	0	DEF	$.isDisposed()
+757	49	8	ObservableFromIterable.java	subscribeActual	hasNext	boolean	0	RET	$
+758	57	8	ObservableFromIterable.java	subscribeActual	THIS	ObservableFromIterable	0	DEF	d.$.fusionMode
+758	57	8	ObservableFromIterable.java	subscribeActual	d	FromIterableDisposable<T>	0	DEF	$.fusionMode
+766	40	8	ObservableObserveOn.java	subscribeActual	THIS	ObservableObserveOn	1	DEF	$.scheduler instanceof TrampolineScheduler
+740	80	12	ObservablePublish.java	connect	ps	PublishObserver<T>	0	DEF	$ == null
+740	80	12	ObservablePublish.java	connect	ps	PublishObserver<T>	0	DEF	$.isDisposed()
+741	84	16	ObservablePublish.java	connect	THIS	ObservablePublish	0	DEF	$.current.compareAndSet(ps, u)
+741	84	16	ObservablePublish.java	connect	u	PublishObserver<T>	0	DEF	current.compareAndSet(ps, $)
+741	84	16	ObservablePublish.java	connect	ps	PublishObserver<T>	0	DEF	current.compareAndSet($, u)
+742	115	8	ObservablePublish.java	connect	doConnect	boolean	0	DEF	$
+716	60	8	ObservableRefCount.java	subscribeActual	THIS	ObservableRefCount	1	DEF	$.subscriptionCount.incrementAndGet() == 1
+717	73	16	ObservableRefCount.java	subscribeActual	writeLocked	AtomicBoolean	0	DEF	$.get()
+735	98	8	ObservableReplay.java	create	bufferSize	int	0	RET	$ == Integer.MAX_VALUE
+736	186	12	ObservableReplay.java	connect	ps	ReplayObserver<T>	0	DEF	$.isDisposed()
+736	186	12	ObservableReplay.java	connect	ps	ReplayObserver<T>	0	DEF	$ == null
+737	192	16	ObservableReplay.java	connect	THIS	ObservableReplay	0	DEF	$.current.compareAndSet(ps, u)
+737	192	16	ObservableReplay.java	connect	u	ReplayObserver<T>	0	DEF	current.compareAndSet(ps, $)
+737	192	16	ObservableReplay.java	connect	ps	ReplayObserver<T>	0	DEF	current.compareAndSet($, u)
+738	221	12	ObservableReplay.java	connect	doConnect	boolean	0	DEF	$
+739	227	8	ObservableReplay.java	connect	doConnect	boolean	0	DEF	$
+765	43	8	ObservableSampleTimed.java	subscribeActual	THIS	ObservableSampleTimed	1	DEF	$.emitLast
+743	38	8	ObservableSampleWithObservable.java	subscribeActual	THIS	ObservableSampleWithObservable	1	DEF	$.emitLast
+719	51	8	ObservableScalarXMap.java	tryScalarXMapSubscribe	source	ObservableSource<T>	0	RET	$ instanceof Callable
+720	62	12	ObservableScalarXMap.java	tryScalarXMapSubscribe	t	T	0	RET	$ == null
+721	77	12	ObservableScalarXMap.java	tryScalarXMapSubscribe	r	ObservableSource<? extends R>	1	RET	$ instanceof Callable
+722	88	16	ObservableScalarXMap.java	tryScalarXMapSubscribe	u	R	0	RET	$ == null
+725	46	8	ObservableSwitchMap.java	subscribeActual	THIS	ObservableSwitchMap	0	RET	ObservableScalarXMap.tryScalarXMapSubscribe($.source, t, $.mapper)
+725	46	8	ObservableSwitchMap.java	subscribeActual	t	Observer<? super R>	0	RET	ObservableScalarXMap.tryScalarXMapSubscribe(source, $, mapper)
+755	47	8	ObservableTimeout.java	subscribeActual	THIS	ObservableTimeout	1	DEF	$.other == null
+723	47	8	ObservableTimeoutTimed.java	subscribeActual	THIS	ObservableTimeoutTimed	1	DEF	$.other == null
+718	38	8	ObservableWindow.java	subscribeActual	THIS	ObservableWindow	1	DEF	$.count == $.skip
+733	59	8	ObservableWindowTimed.java	subscribeActual	THIS	ObservableWindowTimed	0	RET	$.timespan == $.timeskip
+734	60	12	ObservableWindowTimed.java	subscribeActual	THIS	ObservableWindowTimed	0	RET	$.maxSize == Long.MAX_VALUE
+749	65	8	ObservableWithLatestFromMany.java	subscribeActual	others	ObservableSource<?>[]	1	RET	$ == null
+750	70	20	ObservableWithLatestFromMany.java	subscribeActual	THIS	ObservableWithLatestFromMany	0	DEF	n == others.$.length
+750	70	20	ObservableWithLatestFromMany.java	subscribeActual	others	ObservableSource<?>[]	0	DEF	n == $.length
+750	70	20	ObservableWithLatestFromMany.java	subscribeActual	n	int	0	DEF	$ == others.length
+751	85	8	ObservableWithLatestFromMany.java	subscribeActual	n	int	0	RET	$ == 0
+728	52	8	ObservableZip.java	subscribeActual	sources	ObservableSource<? extends T>[]	1	DEF	$ == null
+729	55	16	ObservableZip.java	subscribeActual	THIS	ObservableZip	0	DEF	count == sources.$.length
+729	55	16	ObservableZip.java	subscribeActual	sources	ObservableSource<? extends T>[]	0	DEF	count == $.length
+729	55	16	ObservableZip.java	subscribeActual	count	int	0	DEF	$ == sources.length
+730	66	8	ObservableZip.java	subscribeActual	count	int	0	RET	$ == 0
+746	61	8	ObservableZipIterable.java	subscribeActual	b	boolean	0	RET	$
+903	49	8	ObserverFullArbiter.java	dispose	THIS	ObserverFullArbiter	0	DEF	$.cancelled
+904	64	8	ObserverFullArbiter.java	disposeResource	d	Disposable	0	DEF	$ != null
+905	70	8	ObserverFullArbiter.java	setDisposable	THIS	ObserverFullArbiter	0	RET	$.cancelled
+906	80	8	ObserverFullArbiter.java	onNext	THIS	ObserverFullArbiter	0	RET	$.cancelled
+907	90	8	ObserverFullArbiter.java	onError	THIS	ObserverFullArbiter	0	RET	$.cancelled
+908	104	8	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	0	RET	$.wip.getAndIncrement() != 0
+909	117	16	ObserverFullArbiter.java	drain	o	Object	0	DEF	$ == null
+910	123	16	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	0	DEF	o == $.s
+910	123	16	ObserverFullArbiter.java	drain	o	Object	0	DEF	$ == s
+911	124	20	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	1	DEF	$.NotificationLite.isDisposable(v)
+911	124	20	ObserverFullArbiter.java	drain	v	Object	1	DEF	NotificationLite.isDisposable($)
+912	127	24	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	1	DEF	$.cancelled
+913	132	27	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	1	DEF	$.NotificationLite.isError(v)
+913	132	27	ObserverFullArbiter.java	drain	v	Object	1	DEF	NotificationLite.isError($)
+914	137	24	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	1	DEF	$.cancelled
+915	143	27	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	1	DEF	$.NotificationLite.isComplete(v)
+915	143	27	ObserverFullArbiter.java	drain	v	Object	1	DEF	NotificationLite.isComplete($)
+916	147	24	ObserverFullArbiter.java	drain	THIS	ObserverFullArbiter	0	DEF	$.cancelled
+917	158	12	ObserverFullArbiter.java	drain	missed	int	0	DEF	$ == 0
+752	36	8	ObserverResourceWrapper.java	onSubscribe	THIS	ObserverResourceWrapper	0	DEF	$.DisposableHelper.setOnce($.subscription, s)
+752	36	8	ObserverResourceWrapper.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(subscription, $)
+312	63	8	OpenHashSet.java	add	curr	T	0	RET	$ != null
+313	64	12	OpenHashSet.java	add	curr	T	0	RET	$.equals(value)
+313	64	12	OpenHashSet.java	add	value	T	0	RET	curr.equals($)
+314	70	16	OpenHashSet.java	add	curr	T	0	DEF	$ == null
+315	73	16	OpenHashSet.java	add	curr	T	0	RET	$.equals(value)
+315	73	16	OpenHashSet.java	add	value	T	0	RET	curr.equals($)
+316	79	8	OpenHashSet.java	add	THIS	OpenHashSet	0	DEF	++$.size >= $.maxSize
+317	89	8	OpenHashSet.java	remove	curr	T	0	RET	$ == null
+318	92	8	OpenHashSet.java	remove	curr	T	0	RET	$.equals(value)
+318	92	8	OpenHashSet.java	remove	value	T	0	RET	curr.equals($)
+319	98	12	OpenHashSet.java	remove	curr	T	0	RET	$ == null
+320	101	12	OpenHashSet.java	remove	curr	T	0	RET	$.equals(value)
+320	101	12	OpenHashSet.java	remove	value	T	0	RET	curr.equals($)
+321	118	16	OpenHashSet.java	removeEntry	curr	T	0	RET	$ == null
+322	124	16	OpenHashSet.java	removeEntry	last	int	0	DEF	$ <= pos ? $ >= slot || slot > pos : $ >= slot && slot > pos
+322	124	16	OpenHashSet.java	removeEntry	last	int	0	DEF	$ >= slot
+322	124	16	OpenHashSet.java	removeEntry	last	int	0	DEF	$ >= slot
+322	124	16	OpenHashSet.java	removeEntry	slot	int	0	DEF	$ > pos
+322	124	16	OpenHashSet.java	removeEntry	slot	int	0	DEF	last <= pos ? last >= $ || $ > pos : last >= $ && $ > pos
+322	124	16	OpenHashSet.java	removeEntry	slot	int	0	DEF	$ > pos
+322	124	16	OpenHashSet.java	removeEntry	slot	int	0	DEF	last >= $
+322	124	16	OpenHashSet.java	removeEntry	slot	int	0	DEF	last >= $
+322	124	16	OpenHashSet.java	removeEntry	pos	int	0	DEF	slot > $
+322	124	16	OpenHashSet.java	removeEntry	pos	int	0	DEF	last <= $ ? last >= slot || slot > $ : last >= slot && slot > $
+322	124	16	OpenHashSet.java	removeEntry	pos	int	0	DEF	slot > $
+58130	144	8	OpenHashSet.java	rehash	j	int	0	NIL-FOR	$-- != 0
+58131	145	12	OpenHashSet.java	rehash	a	T[]	0	NIL-WHILE	$[--i] == null
+58131	145	12	OpenHashSet.java	rehash	i	int	0	NIL-WHILE	a[--$] == null
+323	147	12	OpenHashSet.java	rehash	pos	int	0	DEF	b[$] != null
+323	147	12	OpenHashSet.java	rehash	b	T[]	0	DEF	$[pos] != null
+324	150	20	OpenHashSet.java	rehash	pos	int	0	DEF	b[$] == null
+324	150	20	OpenHashSet.java	rehash	b	T[]	0	DEF	$[pos] == null
+707	51	8	ParallelCollect.java	subscribe	THIS	ParallelCollect	0	RET	$.validate(subscribers)
+707	51	8	ParallelCollect.java	subscribe	subscribers	Subscriber<? super C>[]	0	RET	validate($)
+58160	59	8	ParallelCollect.java	subscribe	i	int	0	NIL-FOR	$ < n
+58160	59	8	ParallelCollect.java	subscribe	n	int	0	NIL-FOR	i < $
+705	57	8	ParallelConcatMap.java	subscribe	THIS	ParallelConcatMap	0	RET	$.validate(subscribers)
+705	57	8	ParallelConcatMap.java	subscribe	subscribers	Subscriber<? super R>[]	0	RET	validate($)
+58159	66	8	ParallelConcatMap.java	subscribe	i	int	0	NIL-FOR	$ < n
+58159	66	8	ParallelConcatMap.java	subscribe	n	int	0	NIL-FOR	i < $
+699	50	8	ParallelDoOnNextTry.java	subscribe	THIS	ParallelDoOnNextTry	0	RET	$.validate(subscribers)
+699	50	8	ParallelDoOnNextTry.java	subscribe	subscribers	Subscriber<? super T>[]	0	RET	validate($)
+58156	58	8	ParallelDoOnNextTry.java	subscribe	i	int	0	NIL-FOR	$ < n
+58156	58	8	ParallelDoOnNextTry.java	subscribe	n	int	0	NIL-FOR	i < $
+700	60	12	ParallelDoOnNextTry.java	subscribe	a	Subscriber	1	DEF	$ instanceof ConditionalSubscriber
+703	43	8	ParallelFilter.java	subscribe	THIS	ParallelFilter	0	RET	$.validate(subscribers)
+703	43	8	ParallelFilter.java	subscribe	subscribers	Subscriber<? super T>[]	0	RET	validate($)
+58158	51	8	ParallelFilter.java	subscribe	i	int	0	NIL-FOR	$ < n
+58158	51	8	ParallelFilter.java	subscribe	n	int	0	NIL-FOR	i < $
+704	53	12	ParallelFilter.java	subscribe	a	Subscriber	1	DEF	$ instanceof ConditionalSubscriber
+701	48	8	ParallelFilterTry.java	subscribe	THIS	ParallelFilterTry	0	RET	$.validate(subscribers)
+701	48	8	ParallelFilterTry.java	subscribe	subscribers	Subscriber<? super T>[]	0	RET	validate($)
+58157	56	8	ParallelFilterTry.java	subscribe	i	int	0	NIL-FOR	$ < n
+58157	56	8	ParallelFilterTry.java	subscribe	n	int	0	NIL-FOR	i < $
+702	58	12	ParallelFilterTry.java	subscribe	a	Subscriber	1	DEF	$ instanceof ConditionalSubscriber
+709	60	8	ParallelFlatMap.java	subscribe	THIS	ParallelFlatMap	0	RET	$.validate(subscribers)
+709	60	8	ParallelFlatMap.java	subscribe	subscribers	Subscriber<? super R>[]	0	RET	validate($)
+58162	69	8	ParallelFlatMap.java	subscribe	i	int	0	NIL-FOR	$ < n
+58162	69	8	ParallelFlatMap.java	subscribe	n	int	0	NIL-FOR	i < $
+1322	68	8	ParallelFlowable.java	validate	THIS	ParallelFlowable	0	RET	subscribers.$.length != p
+1322	68	8	ParallelFlowable.java	validate	p	int	0	RET	subscribers.length != $
+1322	68	8	ParallelFlowable.java	validate	subscribers	Subscriber<?>[]	0	RET	$.length != p
+1323	744	8	ParallelFlowable.java	fromArray	THIS	ParallelFlowable	0	IllegalArgumentException	publishers.$.length == 0
+1323	744	8	ParallelFlowable.java	fromArray	publishers	Publisher<T>	0	IllegalArgumentException	$.length == 0
+708	40	8	ParallelFromArray.java	subscribe	THIS	ParallelFromArray	0	RET	$.validate(subscribers)
+708	40	8	ParallelFromArray.java	subscribe	subscribers	Subscriber<? super T>[]	0	RET	validate($)
+58161	46	8	ParallelFromArray.java	subscribe	i	int	0	NIL-FOR	$ < n
+58161	46	8	ParallelFromArray.java	subscribe	n	int	0	NIL-FOR	i < $
+706	54	8	ParallelFromPublisher.java	subscribe	THIS	ParallelFromPublisher	0	RET	$.validate(subscribers)
+706	54	8	ParallelFromPublisher.java	subscribe	subscribers	Subscriber<? super T>[]	0	RET	validate($)
+691	52	8	ParallelJoin.java	subscribeActual	THIS	ParallelJoin	1	DEF	$.delayErrors
+693	46	8	ParallelMap.java	subscribe	THIS	ParallelMap	0	RET	$.validate(subscribers)
+693	46	8	ParallelMap.java	subscribe	subscribers	Subscriber<? super R>[]	0	RET	validate($)
+58153	54	8	ParallelMap.java	subscribe	i	int	0	NIL-FOR	$ < n
+58153	54	8	ParallelMap.java	subscribe	n	int	0	NIL-FOR	i < $
+694	56	12	ParallelMap.java	subscribe	a	Subscriber	1	DEF	$ instanceof ConditionalSubscriber
+697	51	8	ParallelMapTry.java	subscribe	THIS	ParallelMapTry	0	RET	$.validate(subscribers)
+697	51	8	ParallelMapTry.java	subscribe	subscribers	Subscriber<? super R>[]	0	RET	validate($)
+58155	59	8	ParallelMapTry.java	subscribe	i	int	0	NIL-FOR	$ < n
+58155	59	8	ParallelMapTry.java	subscribe	n	int	0	NIL-FOR	i < $
+698	61	12	ParallelMapTry.java	subscribe	a	Subscriber	1	DEF	$ instanceof ConditionalSubscriber
+692	68	8	ParallelPeek.java	subscribe	THIS	ParallelPeek	0	RET	$.validate(subscribers)
+692	68	8	ParallelPeek.java	subscribe	subscribers	Subscriber<? super T>[]	0	RET	validate($)
+58152	76	8	ParallelPeek.java	subscribe	i	int	0	NIL-FOR	$ < n
+58152	76	8	ParallelPeek.java	subscribe	n	int	0	NIL-FOR	i < $
+710	50	8	ParallelReduce.java	subscribe	THIS	ParallelReduce	0	RET	$.validate(subscribers)
+710	50	8	ParallelReduce.java	subscribe	subscribers	Subscriber<? super R>[]	0	RET	validate($)
+58163	58	8	ParallelReduce.java	subscribe	i	int	0	NIL-FOR	$ < n
+58163	58	8	ParallelReduce.java	subscribe	n	int	0	NIL-FOR	i < $
+695	51	8	ParallelRunOn.java	subscribe	THIS	ParallelRunOn	0	RET	$.validate(subscribers)
+695	51	8	ParallelRunOn.java	subscribe	subscribers	Subscriber<? super T>[]	0	RET	validate($)
+58154	62	8	ParallelRunOn.java	subscribe	i	int	0	NIL-FOR	$ < n
+58154	62	8	ParallelRunOn.java	subscribe	n	int	0	NIL-FOR	i < $
+696	68	12	ParallelRunOn.java	subscribe	a	Subscriber	1	DEF	$ instanceof ConditionalSubscriber
+259	97	8	PublishProcessor.java	subscribeActual	THIS	PublishProcessor	1	DEF	$.add(ps)
+259	97	8	PublishProcessor.java	subscribeActual	ps	PublishSubscription<T>	1	DEF	add($)
+260	100	12	PublishProcessor.java	subscribeActual	ps	PublishSubscription<T>	0	DEF	$.isCancelled()
+261	105	12	PublishProcessor.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+262	122	12	PublishProcessor.java	add	a	PublishSubscription<T>[]	0	RET	$ == TERMINATED
+263	132	12	PublishProcessor.java	add	THIS	PublishProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+263	132	12	PublishProcessor.java	add	a	PublishSubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+263	132	12	PublishProcessor.java	add	b	PublishSubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+264	146	12	PublishProcessor.java	remove	a	PublishSubscription<T>[]	0	RET	$ == TERMINATED
+264	146	12	PublishProcessor.java	remove	a	PublishSubscription<T>[]	0	RET	$ == EMPTY
+58125	152	12	PublishProcessor.java	remove	i	int	0	NIL-FOR	$ < n
+58125	152	12	PublishProcessor.java	remove	n	int	0	NIL-FOR	i < $
+265	153	16	PublishProcessor.java	remove	i	int	0	DEF	a[$] == ps
+265	153	16	PublishProcessor.java	remove	a	PublishSubscription<T>[]	0	DEF	$[i] == ps
+265	153	16	PublishProcessor.java	remove	ps	PublishSubscription<T>	0	DEF	a[i] == $
+266	159	12	PublishProcessor.java	remove	j	int	0	RET	$ < 0
+267	165	12	PublishProcessor.java	remove	n	int	1	DEF	$ == 1
+268	172	12	PublishProcessor.java	remove	THIS	PublishProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+268	172	12	PublishProcessor.java	remove	a	PublishSubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+268	172	12	PublishProcessor.java	remove	b	PublishSubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+269	180	8	PublishProcessor.java	onSubscribe	THIS	PublishProcessor	0	RET	$.subscribers.get() == TERMINATED
+270	190	8	PublishProcessor.java	onNext	THIS	PublishProcessor	0	RET	$.subscribers.get() == TERMINATED
+271	193	8	PublishProcessor.java	onNext	t	T	0	RET	$ == null
+272	205	8	PublishProcessor.java	onError	THIS	PublishProcessor	0	RET	$.subscribers.get() == TERMINATED
+273	209	8	PublishProcessor.java	onError	t	Throwable	0	DEF	$ == null
+274	222	8	PublishProcessor.java	onComplete	THIS	PublishProcessor	0	RET	$.subscribers.get() == TERMINATED
+275	245	8	PublishProcessor.java	offer	t	T	0	RET	$ == null
+276	252	12	PublishProcessor.java	offer	THIS	PublishProcessor	0	RET	$.s.isFull()
+277	270	8	PublishProcessor.java	getThrowable	THIS	PublishProcessor	0	RET	$.subscribers.get() == TERMINATED
+1425	86	8	PublishSubject.java	subscribeActual	THIS	PublishSubject	1	DEF	$.add(ps)
+1425	86	8	PublishSubject.java	subscribeActual	ps	PublishDisposable<T>	1	DEF	add($)
+1426	89	12	PublishSubject.java	subscribeActual	ps	PublishDisposable<T>	0	DEF	$.isDisposed()
+1427	94	12	PublishSubject.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+1428	111	12	PublishSubject.java	add	a	PublishDisposable<T>[]	0	RET	$ == TERMINATED
+1429	121	12	PublishSubject.java	add	THIS	PublishSubject	0	RET	$.subscribers.compareAndSet(a, b)
+1429	121	12	PublishSubject.java	add	a	PublishDisposable<T>[]	0	RET	subscribers.compareAndSet($, b)
+1429	121	12	PublishSubject.java	add	b	PublishDisposable<T>[]	0	RET	subscribers.compareAndSet(a, $)
+1430	135	12	PublishSubject.java	remove	a	PublishDisposable<T>[]	0	RET	$ == TERMINATED
+1430	135	12	PublishSubject.java	remove	a	PublishDisposable<T>[]	0	RET	$ == EMPTY
+58183	141	12	PublishSubject.java	remove	i	int	0	NIL-FOR	$ < n
+58183	141	12	PublishSubject.java	remove	n	int	0	NIL-FOR	i < $
+1431	142	16	PublishSubject.java	remove	i	int	0	DEF	a[$] == ps
+1431	142	16	PublishSubject.java	remove	a	PublishDisposable<T>[]	0	DEF	$[i] == ps
+1431	142	16	PublishSubject.java	remove	ps	PublishDisposable<T>	0	DEF	a[i] == $
+1432	148	12	PublishSubject.java	remove	j	int	0	RET	$ < 0
+1433	154	12	PublishSubject.java	remove	n	int	1	DEF	$ == 1
+1434	161	12	PublishSubject.java	remove	THIS	PublishSubject	0	RET	$.subscribers.compareAndSet(a, b)
+1434	161	12	PublishSubject.java	remove	a	PublishDisposable<T>[]	0	RET	subscribers.compareAndSet($, b)
+1434	161	12	PublishSubject.java	remove	b	PublishDisposable<T>[]	0	RET	subscribers.compareAndSet(a, $)
+1435	169	8	PublishSubject.java	onSubscribe	THIS	PublishSubject	0	DEF	$.subscribers.get() == TERMINATED
+1436	176	8	PublishSubject.java	onNext	THIS	PublishSubject	0	RET	$.subscribers.get() == TERMINATED
+1437	179	8	PublishSubject.java	onNext	t	T	0	RET	$ == null
+1438	191	8	PublishSubject.java	onError	THIS	PublishSubject	0	RET	$.subscribers.get() == TERMINATED
+1439	195	8	PublishSubject.java	onError	t	Throwable	0	DEF	$ == null
+1440	208	8	PublishSubject.java	onComplete	THIS	PublishSubject	0	RET	$.subscribers.get() == TERMINATED
+1441	223	8	PublishSubject.java	getThrowable	THIS	PublishSubject	0	RET	$.subscribers.get() == TERMINATED
+357	58	16	QueueDrainHelper.java	drainMaxLoop	THIS	QueueDrainHelper	0	RET	$.checkTerminated(d, empty, a, delayError, q, qd)
+357	58	16	QueueDrainHelper.java	drainMaxLoop	d	boolean	0	RET	checkTerminated($, empty, a, delayError, q, qd)
+357	58	16	QueueDrainHelper.java	drainMaxLoop	empty	boolean	0	RET	checkTerminated(d, $, a, delayError, q, qd)
+357	58	16	QueueDrainHelper.java	drainMaxLoop	q	SimplePlainQueue<T>	0	RET	checkTerminated(d, empty, a, delayError, $, qd)
+357	58	16	QueueDrainHelper.java	drainMaxLoop	a	Subscriber<? super U>	0	RET	checkTerminated(d, empty, $, delayError, q, qd)
+357	58	16	QueueDrainHelper.java	drainMaxLoop	delayError	boolean	0	RET	checkTerminated(d, empty, a, $, q, qd)
+357	58	16	QueueDrainHelper.java	drainMaxLoop	qd	QueueDrain<T,U>	0	RET	checkTerminated(d, empty, a, delayError, q, $)
+358	59	20	QueueDrainHelper.java	drainMaxLoop	dispose	Disposable	0	DEF	$ != null
+359	65	16	QueueDrainHelper.java	drainMaxLoop	empty	boolean	0	DEF	$
+360	70	16	QueueDrainHelper.java	drainMaxLoop	r	long	1	DEF	$ != 0L
+361	71	20	QueueDrainHelper.java	drainMaxLoop	v	T	0	DEF	qd.accept(a, $)
+361	71	20	QueueDrainHelper.java	drainMaxLoop	a	Subscriber<? super U>	0	DEF	qd.accept($, v)
+361	71	20	QueueDrainHelper.java	drainMaxLoop	qd	QueueDrain<T,U>	0	DEF	$.accept(a, v)
+362	72	24	QueueDrainHelper.java	drainMaxLoop	r	long	0	DEF	$ != Long.MAX_VALUE
+363	78	20	QueueDrainHelper.java	drainMaxLoop	dispose	Disposable	0	DEF	$ != null
+364	87	12	QueueDrainHelper.java	drainMaxLoop	missed	int	0	DEF	$ == 0
+365	95	8	QueueDrainHelper.java	checkTerminated	qd	QueueDrain<T,U>	0	RET	$.cancelled()
+366	100	8	QueueDrainHelper.java	checkTerminated	d	boolean	0	RET	$
+367	101	12	QueueDrainHelper.java	checkTerminated	delayError	boolean	1	RET	$
+368	102	16	QueueDrainHelper.java	checkTerminated	empty	boolean	0	RET	$
+369	104	20	QueueDrainHelper.java	checkTerminated	err	Throwable	1	DEF	$ != null
+370	113	16	QueueDrainHelper.java	checkTerminated	err	Throwable	1	RET	$ != null
+371	118	16	QueueDrainHelper.java	checkTerminated	empty	boolean	0	RET	$
+372	133	12	QueueDrainHelper.java	drainLoop	THIS	QueueDrainHelper	0	RET	$.checkTerminated(qd.done(), q.isEmpty(), a, delayError, q, dispose, qd)
+372	133	12	QueueDrainHelper.java	drainLoop	q	SimplePlainQueue<T>	0	RET	checkTerminated(qd.done(), $.isEmpty(), a, delayError, $, dispose, qd)
+372	133	12	QueueDrainHelper.java	drainLoop	a	Observer<? super U>	0	RET	checkTerminated(qd.done(), q.isEmpty(), $, delayError, q, dispose, qd)
+372	133	12	QueueDrainHelper.java	drainLoop	delayError	boolean	0	RET	checkTerminated(qd.done(), q.isEmpty(), a, $, q, dispose, qd)
+372	133	12	QueueDrainHelper.java	drainLoop	dispose	Disposable	0	RET	checkTerminated(qd.done(), q.isEmpty(), a, delayError, q, $, qd)
+372	133	12	QueueDrainHelper.java	drainLoop	qd	ObservableQueueDrain<T,U>	0	RET	checkTerminated($.done(), q.isEmpty(), a, delayError, q, dispose, $)
+373	142	16	QueueDrainHelper.java	drainLoop	THIS	QueueDrainHelper	0	RET	$.checkTerminated(d, empty, a, delayError, q, dispose, qd)
+373	142	16	QueueDrainHelper.java	drainLoop	d	boolean	0	RET	checkTerminated($, empty, a, delayError, q, dispose, qd)
+373	142	16	QueueDrainHelper.java	drainLoop	empty	boolean	0	RET	checkTerminated(d, $, a, delayError, q, dispose, qd)
+373	142	16	QueueDrainHelper.java	drainLoop	q	SimplePlainQueue<T>	0	RET	checkTerminated(d, empty, a, delayError, $, dispose, qd)
+373	142	16	QueueDrainHelper.java	drainLoop	a	Observer<? super U>	0	RET	checkTerminated(d, empty, $, delayError, q, dispose, qd)
+373	142	16	QueueDrainHelper.java	drainLoop	delayError	boolean	0	RET	checkTerminated(d, empty, a, $, q, dispose, qd)
+373	142	16	QueueDrainHelper.java	drainLoop	dispose	Disposable	0	RET	checkTerminated(d, empty, a, delayError, q, $, qd)
+373	142	16	QueueDrainHelper.java	drainLoop	qd	ObservableQueueDrain<T,U>	0	RET	checkTerminated(d, empty, a, delayError, q, dispose, $)
+374	146	16	QueueDrainHelper.java	drainLoop	empty	boolean	0	DEF	$
+375	154	12	QueueDrainHelper.java	drainLoop	missed	int	0	DEF	$ == 0
+376	162	8	QueueDrainHelper.java	checkTerminated	qd	ObservableQueueDrain<T,U>	0	RET	$.cancelled()
+377	168	8	QueueDrainHelper.java	checkTerminated	d	boolean	0	RET	$
+378	169	12	QueueDrainHelper.java	checkTerminated	delayError	boolean	1	RET	$
+379	170	16	QueueDrainHelper.java	checkTerminated	empty	boolean	0	RET	$
+380	173	20	QueueDrainHelper.java	checkTerminated	err	Throwable	1	DEF	$ != null
+381	182	16	QueueDrainHelper.java	checkTerminated	err	Throwable	1	RET	$ != null
+382	188	16	QueueDrainHelper.java	checkTerminated	empty	boolean	0	RET	$
+383	208	8	QueueDrainHelper.java	createQueue	capacityHint	int	0	RET	$ < 0
+384	260	12	QueueDrainHelper.java	postCompleteRequest	r	long	0	RET	state.compareAndSet($, u)
+384	260	12	QueueDrainHelper.java	postCompleteRequest	u	long	0	RET	state.compareAndSet(r, $)
+384	260	12	QueueDrainHelper.java	postCompleteRequest	state	AtomicLong	0	RET	$.compareAndSet(r, u)
+385	262	16	QueueDrainHelper.java	postCompleteRequest	r	long	0	RET	$ == COMPLETED_MASK
+58141	324	12	QueueDrainHelper.java	postCompleteDrain	e	long	0	NIL-WHILE	$ != n
+58141	324	12	QueueDrainHelper.java	postCompleteDrain	n	long	0	NIL-WHILE	e != $
+386	325	16	QueueDrainHelper.java	postCompleteDrain	THIS	QueueDrainHelper	0	RET	$.isCancelled(isCancelled)
+386	325	16	QueueDrainHelper.java	postCompleteDrain	isCancelled	BooleanSupplier	0	RET	isCancelled($)
+387	331	16	QueueDrainHelper.java	postCompleteDrain	t	T	0	RET	$ == null
+388	340	12	QueueDrainHelper.java	postCompleteDrain	THIS	QueueDrainHelper	0	RET	$.isCancelled(isCancelled)
+388	340	12	QueueDrainHelper.java	postCompleteDrain	isCancelled	BooleanSupplier	0	RET	isCancelled($)
+389	344	12	QueueDrainHelper.java	postCompleteDrain	queue	Queue<T>	0	RET	$.isEmpty()
+390	351	12	QueueDrainHelper.java	postCompleteDrain	e	long	0	RET	n == $
+390	351	12	QueueDrainHelper.java	postCompleteDrain	n	long	0	RET	$ == e
+391	355	16	QueueDrainHelper.java	postCompleteDrain	n	long	0	RET	($ & REQUESTED_MASK) == 0L
+392	394	8	QueueDrainHelper.java	postComplete	queue	Queue<T>	0	RET	$.isEmpty()
+393	399	8	QueueDrainHelper.java	postComplete	THIS	QueueDrainHelper	0	RET	$.postCompleteDrain(state.get(), actual, queue, state, isCancelled)
+393	399	8	QueueDrainHelper.java	postComplete	actual	Subscriber<? super T>	0	RET	postCompleteDrain(state.get(), $, queue, state, isCancelled)
+393	399	8	QueueDrainHelper.java	postComplete	queue	Queue<T>	0	RET	postCompleteDrain(state.get(), actual, $, state, isCancelled)
+393	399	8	QueueDrainHelper.java	postComplete	state	AtomicLong	0	RET	postCompleteDrain($.get(), actual, queue, $, isCancelled)
+393	399	8	QueueDrainHelper.java	postComplete	isCancelled	BooleanSupplier	0	RET	postCompleteDrain(state.get(), actual, queue, state, $)
+394	406	12	QueueDrainHelper.java	postComplete	r	long	0	RET	($ & COMPLETED_MASK) != 0L
+395	412	12	QueueDrainHelper.java	postComplete	r	long	0	RET	state.compareAndSet($, u)
+395	412	12	QueueDrainHelper.java	postComplete	u	long	0	RET	state.compareAndSet(r, $)
+395	412	12	QueueDrainHelper.java	postComplete	state	AtomicLong	0	RET	$.compareAndSet(r, u)
+396	414	16	QueueDrainHelper.java	postComplete	r	long	0	DEF	$ != 0L
+975	68	8	QueueDrainObserver.java	fastPathEmit	THIS	QueueDrainObserver	1	RET	$.wip.compareAndSet(0, 1)
+975	68	8	QueueDrainObserver.java	fastPathEmit	THIS	QueueDrainObserver	1	RET	$.wip.get() == 0
+976	70	12	QueueDrainObserver.java	fastPathEmit	THIS	QueueDrainObserver	0	RET	$.leave(-1) == 0
+977	75	12	QueueDrainObserver.java	fastPathEmit	THIS	QueueDrainObserver	0	RET	$.enter()
+978	92	8	QueueDrainObserver.java	fastPathOrderedEmit	THIS	QueueDrainObserver	1	RET	$.wip.compareAndSet(0, 1)
+978	92	8	QueueDrainObserver.java	fastPathOrderedEmit	THIS	QueueDrainObserver	1	RET	$.wip.get() == 0
+979	93	12	QueueDrainObserver.java	fastPathOrderedEmit	q	SimplePlainQueue<U>	1	RET	$.isEmpty()
+980	95	16	QueueDrainObserver.java	fastPathOrderedEmit	THIS	QueueDrainObserver	0	RET	$.leave(-1) == 0
+981	103	12	QueueDrainObserver.java	fastPathOrderedEmit	THIS	QueueDrainObserver	0	RET	$.enter()
+420	72	8	QueueDrainSubscriber.java	fastPathEmitMax	THIS	QueueDrainSubscriber	1	RET	$.wip.get() == 0
+420	72	8	QueueDrainSubscriber.java	fastPathEmitMax	THIS	QueueDrainSubscriber	1	RET	$.wip.compareAndSet(0, 1)
+421	74	12	QueueDrainSubscriber.java	fastPathEmitMax	r	long	1	RET	$ != 0L
+422	75	16	QueueDrainSubscriber.java	fastPathEmitMax	THIS	QueueDrainSubscriber	0	DEF	$.accept(s, value)
+422	75	16	QueueDrainSubscriber.java	fastPathEmitMax	s	Subscriber	0	DEF	accept($, value)
+422	75	16	QueueDrainSubscriber.java	fastPathEmitMax	value	U	0	DEF	accept(s, $)
+423	76	20	QueueDrainSubscriber.java	fastPathEmitMax	r	long	0	DEF	$ != Long.MAX_VALUE
+424	80	16	QueueDrainSubscriber.java	fastPathEmitMax	THIS	QueueDrainSubscriber	0	RET	$.leave(-1) == 0
+425	90	12	QueueDrainSubscriber.java	fastPathEmitMax	THIS	QueueDrainSubscriber	0	RET	$.enter()
+426	101	8	QueueDrainSubscriber.java	fastPathOrderedEmitMax	THIS	QueueDrainSubscriber	1	RET	$.wip.compareAndSet(0, 1)
+426	101	8	QueueDrainSubscriber.java	fastPathOrderedEmitMax	THIS	QueueDrainSubscriber	1	RET	$.wip.get() == 0
+427	103	12	QueueDrainSubscriber.java	fastPathOrderedEmitMax	r	long	1	RET	$ != 0L
+428	104	16	QueueDrainSubscriber.java	fastPathOrderedEmitMax	q	SimplePlainQueue<U>	1	RET	$.isEmpty()
+429	105	20	QueueDrainSubscriber.java	fastPathOrderedEmitMax	THIS	QueueDrainSubscriber	0	DEF	$.accept(s, value)
+429	105	20	QueueDrainSubscriber.java	fastPathOrderedEmitMax	s	Subscriber	0	DEF	accept($, value)
+429	105	20	QueueDrainSubscriber.java	fastPathOrderedEmitMax	value	U	0	DEF	accept(s, $)
+430	106	24	QueueDrainSubscriber.java	fastPathOrderedEmitMax	r	long	0	DEF	$ != Long.MAX_VALUE
+431	110	20	QueueDrainSubscriber.java	fastPathOrderedEmitMax	THIS	QueueDrainSubscriber	0	RET	$.leave(-1) == 0
+432	124	12	QueueDrainSubscriber.java	fastPathOrderedEmitMax	THIS	QueueDrainSubscriber	0	RET	$.enter()
+433	157	8	QueueDrainSubscriber.java	requested	THIS	QueueDrainSubscriber	0	DEF	$.SubscriptionHelper.validate(n)
+433	157	8	QueueDrainSubscriber.java	requested	n	long	0	DEF	SubscriptionHelper.validate($)
+1178	40	8	ReferenceDisposable.java	dispose	value	T	0	DEF	$ != null
+1179	42	12	ReferenceDisposable.java	dispose	value	T	0	DEF	$ != null
+144	251	8	ReplayProcessor.java	subscribeActual	THIS	ReplayProcessor	0	RET	$.add(rs)
+144	251	8	ReplayProcessor.java	subscribeActual	rs	ReplaySubscription<T>	0	RET	add($)
+145	252	12	ReplayProcessor.java	subscribeActual	THIS	ReplayProcessor	0	RET	rs.$.cancelled
+145	252	12	ReplayProcessor.java	subscribeActual	rs	ReplaySubscription<T>	0	RET	$.cancelled
+146	262	8	ReplayProcessor.java	onSubscribe	THIS	ReplayProcessor	0	RET	$.done
+147	271	8	ReplayProcessor.java	onNext	t	T	0	RET	$ == null
+148	275	8	ReplayProcessor.java	onNext	THIS	ReplayProcessor	0	RET	$.done
+149	290	8	ReplayProcessor.java	onError	t	Throwable	0	DEF	$ == null
+150	293	8	ReplayProcessor.java	onError	THIS	ReplayProcessor	0	RET	$.done
+151	312	8	ReplayProcessor.java	onComplete	THIS	ReplayProcessor	0	RET	$.done
+152	340	8	ReplayProcessor.java	getThrowable	THIS	ReplayProcessor	0	RET	$.NotificationLite.isError(o)
+152	340	8	ReplayProcessor.java	getThrowable	o	Object	0	RET	NotificationLite.isError($)
+153	364	8	ReplayProcessor.java	getValues	b	T[]	0	RET	$ == EMPTY_ARRAY
+154	411	12	ReplayProcessor.java	add	a	ReplaySubscription<T>[]	0	RET	$ == TERMINATED
+155	419	12	ReplayProcessor.java	add	THIS	ReplayProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+155	419	12	ReplayProcessor.java	add	a	ReplaySubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+155	419	12	ReplayProcessor.java	add	b	ReplaySubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+156	429	12	ReplayProcessor.java	remove	a	ReplaySubscription<T>[]	0	RET	$ == TERMINATED
+156	429	12	ReplayProcessor.java	remove	a	ReplaySubscription<T>[]	0	RET	$ == EMPTY
+58121	434	12	ReplayProcessor.java	remove	i	int	0	NIL-FOR	$ < len
+58121	434	12	ReplayProcessor.java	remove	len	int	0	NIL-FOR	i < $
+157	435	16	ReplayProcessor.java	remove	i	int	0	DEF	a[$] == rs
+157	435	16	ReplayProcessor.java	remove	a	ReplaySubscription<T>[]	0	DEF	$[i] == rs
+157	435	16	ReplayProcessor.java	remove	rs	ReplaySubscription<T>	0	DEF	a[i] == $
+158	441	12	ReplayProcessor.java	remove	j	int	0	RET	$ < 0
+159	445	12	ReplayProcessor.java	remove	len	int	1	DEF	$ == 1
+160	452	12	ReplayProcessor.java	remove	THIS	ReplayProcessor	0	RET	$.subscribers.compareAndSet(a, b)
+160	452	12	ReplayProcessor.java	remove	a	ReplaySubscription<T>[]	0	RET	subscribers.compareAndSet($, b)
+160	452	12	ReplayProcessor.java	remove	b	ReplaySubscription<T>[]	0	RET	subscribers.compareAndSet(a, $)
+1470	236	8	ReplaySubject.java	subscribeActual	THIS	ReplaySubject	0	RET	rs.$.cancelled
+1470	236	8	ReplaySubject.java	subscribeActual	rs	ReplayDisposable<T>	0	RET	$.cancelled
+1471	237	12	ReplaySubject.java	subscribeActual	THIS	ReplaySubject	0	RET	$.add(rs)
+1471	237	12	ReplaySubject.java	subscribeActual	rs	ReplayDisposable<T>	0	RET	add($)
+1472	238	16	ReplaySubject.java	subscribeActual	THIS	ReplaySubject	0	RET	rs.$.cancelled
+1472	238	16	ReplaySubject.java	subscribeActual	rs	ReplayDisposable<T>	0	RET	$.cancelled
+1473	249	8	ReplaySubject.java	onSubscribe	THIS	ReplaySubject	0	DEF	$.done
+1474	256	8	ReplaySubject.java	onNext	t	T	0	RET	$ == null
+1475	260	8	ReplaySubject.java	onNext	THIS	ReplaySubject	0	RET	$.done
+1476	274	8	ReplaySubject.java	onError	t	Throwable	0	DEF	$ == null
+1477	277	8	ReplaySubject.java	onError	THIS	ReplaySubject	0	RET	$.done
+1478	296	8	ReplaySubject.java	onComplete	THIS	ReplaySubject	0	RET	$.done
+1479	324	8	ReplaySubject.java	getThrowable	THIS	ReplaySubject	0	RET	$.NotificationLite.isError(o)
+1479	324	8	ReplaySubject.java	getThrowable	o	Object	0	RET	NotificationLite.isError($)
+1480	351	8	ReplaySubject.java	getValues	b	T[]	0	RET	$ == EMPTY_ARRAY
+1481	398	12	ReplaySubject.java	add	a	ReplayDisposable<T>[]	0	RET	$ == TERMINATED
+1482	406	12	ReplaySubject.java	add	THIS	ReplaySubject	0	RET	$.observers.compareAndSet(a, b)
+1482	406	12	ReplaySubject.java	add	a	ReplayDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+1482	406	12	ReplaySubject.java	add	b	ReplayDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+1483	416	12	ReplaySubject.java	remove	a	ReplayDisposable<T>[]	0	RET	$ == TERMINATED
+1483	416	12	ReplaySubject.java	remove	a	ReplayDisposable<T>[]	0	RET	$ == EMPTY
+58184	421	12	ReplaySubject.java	remove	i	int	0	NIL-FOR	$ < len
+58184	421	12	ReplaySubject.java	remove	len	int	0	NIL-FOR	i < $
+1484	422	16	ReplaySubject.java	remove	i	int	0	DEF	a[$] == rs
+1484	422	16	ReplaySubject.java	remove	a	ReplayDisposable<T>[]	0	DEF	$[i] == rs
+1484	422	16	ReplaySubject.java	remove	rs	ReplayDisposable<T>	0	DEF	a[i] == $
+1485	428	12	ReplaySubject.java	remove	j	int	0	RET	$ < 0
+1486	432	12	ReplaySubject.java	remove	len	int	1	DEF	$ == 1
+1487	439	12	ReplaySubject.java	remove	THIS	ReplaySubject	0	RET	$.observers.compareAndSet(a, b)
+1487	439	12	ReplaySubject.java	remove	a	ReplayDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+1487	439	12	ReplaySubject.java	remove	b	ReplayDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+1488	447	8	ReplaySubject.java	terminate	THIS	ReplaySubject	0	RET	$.buffer.compareAndSet(null, terminalValue)
+1488	447	8	ReplaySubject.java	terminate	terminalValue	Object	0	RET	buffer.compareAndSet(null, $)
+1215	95	8	ResourceCompletableObserver.java	onSubscribe	THIS	ResourceCompletableObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1215	95	8	ResourceCompletableObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+1216	118	8	ResourceCompletableObserver.java	dispose	THIS	ResourceCompletableObserver	0	DEF	$.DisposableHelper.dispose($.s)
+1263	105	8	ResourceMaybeObserver.java	onSubscribe	THIS	ResourceMaybeObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1263	105	8	ResourceMaybeObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+1264	128	8	ResourceMaybeObserver.java	dispose	THIS	ResourceMaybeObserver	0	DEF	$.DisposableHelper.dispose($.s)
+1239	103	8	ResourceObserver.java	onSubscribe	THIS	ResourceObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1239	103	8	ResourceObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+1240	126	8	ResourceObserver.java	dispose	THIS	ResourceObserver	0	DEF	$.DisposableHelper.dispose($.s)
+1218	98	8	ResourceSingleObserver.java	onSubscribe	THIS	ResourceSingleObserver	0	DEF	$.DisposableHelper.setOnce($.s, s)
+1218	98	8	ResourceSingleObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.setOnce(this.s, $)
+1219	121	8	ResourceSingleObserver.java	dispose	THIS	ResourceSingleObserver	0	DEF	$.DisposableHelper.dispose($.s)
+97	118	8	ResourceSubscriber.java	onSubscribe	THIS	ResourceSubscriber	0	DEF	$.SubscriptionHelper.deferredSetOnce($.s, $.missedRequested, s)
+97	118	8	ResourceSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.deferredSetOnce(this.s, missedRequested, $)
+98	154	8	ResourceSubscriber.java	dispose	THIS	ResourceSubscriber	0	DEF	$.SubscriptionHelper.cancel($.s)
+1052	169	8	RxJavaPlugins.java	setFailOnNonBlockingScheduler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1053	287	8	RxJavaPlugins.java	initComputationScheduler	f	Function<? super Callable<Scheduler>,? extends Scheduler>	0	RET	$ == null
+1054	303	8	RxJavaPlugins.java	initIoScheduler	f	Function<? super Callable<Scheduler>,? extends Scheduler>	0	RET	$ == null
+1055	319	8	RxJavaPlugins.java	initNewThreadScheduler	f	Function<? super Callable<Scheduler>,? extends Scheduler>	0	RET	$ == null
+1056	335	8	RxJavaPlugins.java	initSingleScheduler	f	Function<? super Callable<Scheduler>,? extends Scheduler>	0	RET	$ == null
+1057	349	8	RxJavaPlugins.java	onComputationScheduler	f	Function<? super Scheduler,? extends Scheduler>	0	RET	$ == null
+1058	362	8	RxJavaPlugins.java	onError	error	Throwable	1	DEF	$ == null
+1059	365	12	RxJavaPlugins.java	onError	THIS	RxJavaPlugins	0	DEF	$.isBug(error)
+1059	365	12	RxJavaPlugins.java	onError	error	Throwable	0	DEF	isBug($)
+1060	370	8	RxJavaPlugins.java	onError	f	Consumer<? super Throwable>	0	RET	$ != null
+1061	395	8	RxJavaPlugins.java	isBug	error	Throwable	0	RET	$ instanceof OnErrorNotImplementedException
+1062	400	8	RxJavaPlugins.java	isBug	error	Throwable	0	RET	$ instanceof MissingBackpressureException
+1063	405	8	RxJavaPlugins.java	isBug	error	Throwable	0	RET	$ instanceof IllegalStateException
+1064	410	8	RxJavaPlugins.java	isBug	error	Throwable	0	RET	$ instanceof NullPointerException
+1065	414	8	RxJavaPlugins.java	isBug	error	Throwable	0	RET	$ instanceof IllegalArgumentException
+1066	418	8	RxJavaPlugins.java	isBug	error	Throwable	0	RET	$ instanceof CompositeException
+1067	439	8	RxJavaPlugins.java	onIoScheduler	f	Function<? super Scheduler,? extends Scheduler>	0	RET	$ == null
+1068	453	8	RxJavaPlugins.java	onNewThreadScheduler	f	Function<? super Scheduler,? extends Scheduler>	0	RET	$ == null
+1069	467	8	RxJavaPlugins.java	onSchedule	f	Function<? super Runnable,? extends Runnable>	0	RET	$ == null
+1070	481	8	RxJavaPlugins.java	onSingleScheduler	f	Function<? super Scheduler,? extends Scheduler>	0	RET	$ == null
+1071	535	8	RxJavaPlugins.java	setComputationSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1072	546	8	RxJavaPlugins.java	setErrorHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1073	557	8	RxJavaPlugins.java	setInitComputationSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1074	568	8	RxJavaPlugins.java	setInitIoSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1075	579	8	RxJavaPlugins.java	setInitNewThreadSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1076	590	8	RxJavaPlugins.java	setInitSingleSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1077	601	8	RxJavaPlugins.java	setIoSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1078	612	8	RxJavaPlugins.java	setNewThreadSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1079	623	8	RxJavaPlugins.java	setScheduleHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1080	634	8	RxJavaPlugins.java	setSingleSchedulerHandler	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1081	770	8	RxJavaPlugins.java	setOnCompletableAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1082	782	8	RxJavaPlugins.java	setOnCompletableSubscribe	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1083	794	8	RxJavaPlugins.java	setOnFlowableAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1084	806	8	RxJavaPlugins.java	setOnMaybeAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1085	818	8	RxJavaPlugins.java	setOnConnectableFlowableAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1086	830	8	RxJavaPlugins.java	setOnFlowableSubscribe	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1087	842	8	RxJavaPlugins.java	setOnMaybeSubscribe	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1088	854	8	RxJavaPlugins.java	setOnObservableAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1089	866	8	RxJavaPlugins.java	setOnConnectableObservableAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1090	879	8	RxJavaPlugins.java	setOnObservableSubscribe	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1091	891	8	RxJavaPlugins.java	setOnSingleAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1092	903	8	RxJavaPlugins.java	setOnSingleSubscribe	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1093	920	8	RxJavaPlugins.java	onSubscribe	f	BiFunction<? super Flowable,? super Subscriber,? extends Subscriber>	0	RET	$ != null
+1094	937	8	RxJavaPlugins.java	onSubscribe	f	BiFunction<? super Observable,? super Observer,? extends Observer>	0	RET	$ != null
+1095	954	8	RxJavaPlugins.java	onSubscribe	f	BiFunction<? super Single,? super SingleObserver,? extends SingleObserver>	0	RET	$ != null
+1096	969	8	RxJavaPlugins.java	onSubscribe	f	BiFunction<? super Completable,? super CompletableObserver,? extends CompletableObserver>	0	RET	$ != null
+1097	986	8	RxJavaPlugins.java	onSubscribe	f	BiFunction<? super Maybe,? super MaybeObserver,? extends MaybeObserver>	0	RET	$ != null
+1098	1002	8	RxJavaPlugins.java	onAssembly	f	Function<? super Maybe,? extends Maybe>	0	RET	$ != null
+1099	1018	8	RxJavaPlugins.java	onAssembly	f	Function<? super Flowable,? extends Flowable>	0	RET	$ != null
+1100	1034	8	RxJavaPlugins.java	onAssembly	f	Function<? super ConnectableFlowable,? extends ConnectableFlowable>	0	RET	$ != null
+1101	1050	8	RxJavaPlugins.java	onAssembly	f	Function<? super Observable,? extends Observable>	0	RET	$ != null
+1102	1066	8	RxJavaPlugins.java	onAssembly	f	Function<? super ConnectableObservable,? extends ConnectableObservable>	0	RET	$ != null
+1103	1082	8	RxJavaPlugins.java	onAssembly	f	Function<? super Single,? extends Single>	0	RET	$ != null
+1104	1096	8	RxJavaPlugins.java	onAssembly	f	Function<? super Completable,? extends Completable>	0	RET	$ != null
+1105	1110	8	RxJavaPlugins.java	setOnParallelAssembly	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1106	1140	8	RxJavaPlugins.java	onAssembly	f	Function<? super ParallelFlowable,? extends ParallelFlowable>	0	RET	$ != null
+1107	1158	8	RxJavaPlugins.java	onBeforeBlocking	f	BooleanSupplier	0	RET	$ != null
+1108	1179	8	RxJavaPlugins.java	setOnBeforeBlocking	THIS	RxJavaPlugins	0	IllegalStateException	$.lockdown
+1203	46	8	SafeObserver.java	onSubscribe	THIS	SafeObserver	0	RET	$.DisposableHelper.validate($.s, s)
+1203	46	8	SafeObserver.java	onSubscribe	s	Disposable	0	RET	DisposableHelper.validate(this.s, $)
+1204	79	8	SafeObserver.java	onNext	THIS	SafeObserver	0	RET	$.done
+1205	82	8	SafeObserver.java	onNext	THIS	SafeObserver	0	RET	$.s == null
+1206	87	8	SafeObserver.java	onNext	t	T	0	RET	$ == null
+1207	139	8	SafeObserver.java	onError	THIS	SafeObserver	0	RET	$.done
+1208	145	8	SafeObserver.java	onError	THIS	SafeObserver	0	RET	$.s == null
+1209	166	8	SafeObserver.java	onError	t	Throwable	0	DEF	$ == null
+1210	181	8	SafeObserver.java	onComplete	THIS	SafeObserver	0	RET	$.done
+1211	187	8	SafeObserver.java	onComplete	THIS	SafeObserver	0	RET	$.s == null
+102	46	8	SafeSubscriber.java	onSubscribe	THIS	SafeSubscriber	0	RET	$.SubscriptionHelper.validate($.s, s)
+102	46	8	SafeSubscriber.java	onSubscribe	s	Subscription	0	RET	SubscriptionHelper.validate(this.s, $)
+103	68	8	SafeSubscriber.java	onNext	THIS	SafeSubscriber	0	RET	$.done
+104	71	8	SafeSubscriber.java	onNext	THIS	SafeSubscriber	0	RET	$.s == null
+105	76	8	SafeSubscriber.java	onNext	t	T	0	RET	$ == null
+106	127	8	SafeSubscriber.java	onError	THIS	SafeSubscriber	0	RET	$.done
+107	133	8	SafeSubscriber.java	onError	THIS	SafeSubscriber	0	RET	$.s == null
+108	154	8	SafeSubscriber.java	onError	t	Throwable	0	DEF	$ == null
+109	169	8	SafeSubscriber.java	onComplete	THIS	SafeSubscriber	0	RET	$.done
+110	174	8	SafeSubscriber.java	onComplete	THIS	SafeSubscriber	0	RET	$.s == null
+789	49	8	ScalarSubscription.java	request	THIS	ScalarSubscription	0	RET	$.SubscriptionHelper.validate(n)
+789	49	8	ScalarSubscription.java	request	n	long	0	RET	SubscriptionHelper.validate($)
+790	52	8	ScalarSubscription.java	request	THIS	ScalarSubscription	0	DEF	$.compareAndSet(NO_REQUEST, REQUESTED)
+791	56	12	ScalarSubscription.java	request	THIS	ScalarSubscription	0	DEF	$.get() != CANCELLED
+792	89	8	ScalarSubscription.java	poll	THIS	ScalarSubscription	0	RET	$.get() == NO_REQUEST
+1031	69	12	ScheduledRunnable.java	run	THIS	ScheduledRunnable	0	DEF	$.compareAndSet(PARENT_INDEX, o, DONE)
+1031	69	12	ScheduledRunnable.java	run	o	Object	0	DEF	$ != DISPOSED
+1031	69	12	ScheduledRunnable.java	run	o	Object	0	DEF	compareAndSet(PARENT_INDEX, $, DONE)
+1031	69	12	ScheduledRunnable.java	run	o	Object	0	DEF	$ != null
+1032	75	16	ScheduledRunnable.java	run	THIS	ScheduledRunnable	0	DEF	$.compareAndSet(FUTURE_INDEX, o, DONE)
+1032	75	16	ScheduledRunnable.java	run	o	Object	0	DEF	$ == DISPOSED
+1032	75	16	ScheduledRunnable.java	run	o	Object	0	DEF	compareAndSet(FUTURE_INDEX, $, DONE)
+1033	85	12	ScheduledRunnable.java	setFuture	o	Object	0	RET	$ == DONE
+1034	88	12	ScheduledRunnable.java	setFuture	o	Object	0	RET	$ == DISPOSED
+1035	92	12	ScheduledRunnable.java	setFuture	THIS	ScheduledRunnable	0	RET	$.compareAndSet(FUTURE_INDEX, o, f)
+1035	92	12	ScheduledRunnable.java	setFuture	o	Object	0	RET	compareAndSet(FUTURE_INDEX, $, f)
+1035	92	12	ScheduledRunnable.java	setFuture	f	Future<?>	0	RET	compareAndSet(FUTURE_INDEX, o, $)
+1036	102	12	ScheduledRunnable.java	dispose	o	Object	0	DEF	$ == DONE
+1036	102	12	ScheduledRunnable.java	dispose	o	Object	0	DEF	$ == DISPOSED
+1037	105	12	ScheduledRunnable.java	dispose	THIS	ScheduledRunnable	0	DEF	$.compareAndSet(FUTURE_INDEX, o, DISPOSED)
+1037	105	12	ScheduledRunnable.java	dispose	o	Object	0	DEF	compareAndSet(FUTURE_INDEX, $, DISPOSED)
+1038	106	16	ScheduledRunnable.java	dispose	o	Object	0	DEF	$ != null
+1039	115	12	ScheduledRunnable.java	dispose	o	Object	0	RET	$ == DISPOSED
+1039	115	12	ScheduledRunnable.java	dispose	o	Object	0	RET	$ == null
+1039	115	12	ScheduledRunnable.java	dispose	o	Object	0	RET	$ == DONE
+1040	118	12	ScheduledRunnable.java	dispose	THIS	ScheduledRunnable	0	RET	$.compareAndSet(PARENT_INDEX, o, DISPOSED)
+1040	118	12	ScheduledRunnable.java	dispose	o	Object	0	RET	compareAndSet(PARENT_INDEX, $, DISPOSED)
+1177	167	8	Scheduler.java	schedulePeriodicallyDirect	THIS	Scheduler	0	RET	d == $.EmptyDisposable.INSTANCE
+1177	167	8	Scheduler.java	schedulePeriodicallyDirect	d	Disposable	0	RET	$ == EmptyDisposable.INSTANCE
+1009	62	12	SchedulerPoolFactory.java	start	curr	ScheduledExecutorService	0	RET	$ != null
+1009	62	12	SchedulerPoolFactory.java	start	curr	ScheduledExecutorService	0	RET	$.isShutdown()
+1010	66	12	SchedulerPoolFactory.java	start	curr	ScheduledExecutorService	1	RET	PURGE_THREAD.compareAndSet($, next)
+1010	66	12	SchedulerPoolFactory.java	start	next	ScheduledExecutorService	1	RET	PURGE_THREAD.compareAndSet(curr, $)
+1011	112	8	SchedulerPoolFactory.java	create	exec	ScheduledExecutorService	0	DEF	$ instanceof ScheduledThreadPoolExecutor
+1180	73	8	SerialDisposable.java	get	THIS	SerialDisposable	0	RET	d == $.DisposableHelper.DISPOSED
+1180	73	8	SerialDisposable.java	get	d	Disposable	0	RET	$ == DisposableHelper.DISPOSED
+1221	68	8	SerializedObserver.java	onSubscribe	THIS	SerializedObserver	0	DEF	$.DisposableHelper.validate($.s, s)
+1221	68	8	SerializedObserver.java	onSubscribe	s	Disposable	0	DEF	DisposableHelper.validate(this.s, $)
+1222	89	8	SerializedObserver.java	onNext	THIS	SerializedObserver	0	RET	$.done
+1223	92	8	SerializedObserver.java	onNext	t	T	0	RET	$ == null
+1224	98	12	SerializedObserver.java	onNext	THIS	SerializedObserver	0	RET	$.done
+1225	101	12	SerializedObserver.java	onNext	THIS	SerializedObserver	0	RET	$.emitting
+1226	103	16	SerializedObserver.java	onNext	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+1227	120	8	SerializedObserver.java	onError	THIS	SerializedObserver	0	RET	$.done
+1228	126	12	SerializedObserver.java	onError	THIS	SerializedObserver	1	DEF	$.done
+1229	129	12	SerializedObserver.java	onError	THIS	SerializedObserver	1	RET	$.emitting
+1230	132	16	SerializedObserver.java	onError	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+1231	137	16	SerializedObserver.java	onError	THIS	SerializedObserver	1	DEF	$.delayError
+1232	150	8	SerializedObserver.java	onError	reportError	boolean	0	RET	$
+1233	161	8	SerializedObserver.java	onComplete	THIS	SerializedObserver	0	RET	$.done
+1234	165	12	SerializedObserver.java	onComplete	THIS	SerializedObserver	0	RET	$.done
+1235	168	12	SerializedObserver.java	onComplete	THIS	SerializedObserver	0	RET	$.emitting
+1236	170	16	SerializedObserver.java	onComplete	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+1237	190	16	SerializedObserver.java	emitLoop	q	AppendOnlyLinkedArrayList<Object>	0	RET	$ == null
+1238	197	12	SerializedObserver.java	emitLoop	THIS	SerializedObserver	0	RET	q.accept($.actual)
+1238	197	12	SerializedObserver.java	emitLoop	q	AppendOnlyLinkedArrayList<Object>	0	RET	$.accept(actual)
+190	53	8	SerializedProcessor.java	onSubscribe	THIS	SerializedProcessor	1	RET	$.done
+191	55	16	SerializedProcessor.java	onSubscribe	THIS	SerializedProcessor	1	DEF	$.done
+192	58	20	SerializedProcessor.java	onSubscribe	THIS	SerializedProcessor	0	RET	$.emitting
+193	60	24	SerializedProcessor.java	onSubscribe	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+194	74	8	SerializedProcessor.java	onSubscribe	cancel	boolean	1	DEF	$
+195	84	8	SerializedProcessor.java	onNext	THIS	SerializedProcessor	0	RET	$.done
+196	88	12	SerializedProcessor.java	onNext	THIS	SerializedProcessor	0	RET	$.done
+197	91	12	SerializedProcessor.java	onNext	THIS	SerializedProcessor	0	RET	$.emitting
+198	93	16	SerializedProcessor.java	onNext	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+199	108	8	SerializedProcessor.java	onError	THIS	SerializedProcessor	0	RET	$.done
+200	114	12	SerializedProcessor.java	onError	THIS	SerializedProcessor	1	DEF	$.done
+201	118	16	SerializedProcessor.java	onError	THIS	SerializedProcessor	0	RET	$.emitting
+202	120	20	SerializedProcessor.java	onError	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+203	131	8	SerializedProcessor.java	onError	reportError	boolean	0	RET	$
+204	140	8	SerializedProcessor.java	onComplete	THIS	SerializedProcessor	0	RET	$.done
+205	144	12	SerializedProcessor.java	onComplete	THIS	SerializedProcessor	0	RET	$.done
+206	148	12	SerializedProcessor.java	onComplete	THIS	SerializedProcessor	0	RET	$.emitting
+207	150	16	SerializedProcessor.java	onComplete	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+208	168	16	SerializedProcessor.java	emitLoop	q	AppendOnlyLinkedArrayList<Object>	0	RET	$ == null
+1490	55	8	SerializedSubject.java	onSubscribe	THIS	SerializedSubject	1	RET	$.done
+1491	57	16	SerializedSubject.java	onSubscribe	THIS	SerializedSubject	1	DEF	$.done
+1492	60	20	SerializedSubject.java	onSubscribe	THIS	SerializedSubject	0	RET	$.emitting
+1493	62	24	SerializedSubject.java	onSubscribe	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+1494	76	8	SerializedSubject.java	onSubscribe	cancel	boolean	1	DEF	$
+1495	86	8	SerializedSubject.java	onNext	THIS	SerializedSubject	0	RET	$.done
+1496	90	12	SerializedSubject.java	onNext	THIS	SerializedSubject	0	RET	$.done
+1497	93	12	SerializedSubject.java	onNext	THIS	SerializedSubject	0	RET	$.emitting
+1498	95	16	SerializedSubject.java	onNext	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+1499	110	8	SerializedSubject.java	onError	THIS	SerializedSubject	0	RET	$.done
+1500	116	12	SerializedSubject.java	onError	THIS	SerializedSubject	1	DEF	$.done
+1501	120	16	SerializedSubject.java	onError	THIS	SerializedSubject	0	RET	$.emitting
+1502	122	20	SerializedSubject.java	onError	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+1503	133	8	SerializedSubject.java	onError	reportError	boolean	0	RET	$
+1504	142	8	SerializedSubject.java	onComplete	THIS	SerializedSubject	0	RET	$.done
+1505	146	12	SerializedSubject.java	onComplete	THIS	SerializedSubject	0	RET	$.done
+1506	150	12	SerializedSubject.java	onComplete	THIS	SerializedSubject	0	RET	$.emitting
+1507	152	16	SerializedSubject.java	onComplete	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+1508	170	16	SerializedSubject.java	emitLoop	q	AppendOnlyLinkedArrayList<Object>	0	RET	$ == null
+79	68	8	SerializedSubscriber.java	onSubscribe	THIS	SerializedSubscriber	0	DEF	$.SubscriptionHelper.validate($.subscription, s)
+79	68	8	SerializedSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.subscription, $)
+80	76	8	SerializedSubscriber.java	onNext	THIS	SerializedSubscriber	0	RET	$.done
+81	79	8	SerializedSubscriber.java	onNext	t	T	0	RET	$ == null
+82	85	12	SerializedSubscriber.java	onNext	THIS	SerializedSubscriber	0	RET	$.done
+83	88	12	SerializedSubscriber.java	onNext	THIS	SerializedSubscriber	0	RET	$.emitting
+84	90	16	SerializedSubscriber.java	onNext	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+85	107	8	SerializedSubscriber.java	onError	THIS	SerializedSubscriber	0	RET	$.done
+86	113	12	SerializedSubscriber.java	onError	THIS	SerializedSubscriber	1	DEF	$.done
+87	116	12	SerializedSubscriber.java	onError	THIS	SerializedSubscriber	1	RET	$.emitting
+88	119	16	SerializedSubscriber.java	onError	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+89	124	16	SerializedSubscriber.java	onError	THIS	SerializedSubscriber	1	DEF	$.delayError
+90	137	8	SerializedSubscriber.java	onError	reportError	boolean	0	RET	$
+91	148	8	SerializedSubscriber.java	onComplete	THIS	SerializedSubscriber	0	RET	$.done
+92	152	12	SerializedSubscriber.java	onComplete	THIS	SerializedSubscriber	0	RET	$.done
+93	155	12	SerializedSubscriber.java	onComplete	THIS	SerializedSubscriber	0	RET	$.emitting
+94	157	16	SerializedSubscriber.java	onComplete	q	AppendOnlyLinkedArrayList<Object>	0	DEF	$ == null
+95	177	16	SerializedSubscriber.java	emitLoop	q	AppendOnlyLinkedArrayList<Object>	0	RET	$ == null
+96	184	12	SerializedSubscriber.java	emitLoop	THIS	SerializedSubscriber	0	RET	q.accept($.actual)
+96	184	12	SerializedSubscriber.java	emitLoop	q	AppendOnlyLinkedArrayList<Object>	0	RET	$.accept(actual)
+1313	98	8	Single.java	ambArray	THIS	Single	0	RET	sources.$.length == 0
+1313	98	8	Single.java	ambArray	sources	SingleSource<? extends T>	0	RET	$.length == 0
+1314	101	8	Single.java	ambArray	THIS	Single	0	RET	sources.$.length == 1
+1314	101	8	Single.java	ambArray	sources	SingleSource<? extends T>	0	RET	$.length == 1
+1315	924	8	Single.java	unsafeCreate	onSubscribe	SingleSource<T>	0	IllegalArgumentException	$ instanceof Single
+1316	1008	8	Single.java	wrap	source	SingleSource<T>	0	RET	$ instanceof Single
+1317	1487	8	Single.java	zipArray	THIS	Single	0	RET	sources.$.length == 0
+1317	1487	8	Single.java	zipArray	sources	SingleSource<? extends T>	0	RET	$.length == 0
+1321	3135	8	Single.java	test	cancelled	boolean	0	DEF	$
+674	38	8	SingleAmb.java	subscribeActual	sources	SingleSource<? extends T>[]	1	RET	$ == null
+675	42	20	SingleAmb.java	subscribeActual	THIS	SingleAmb	0	RET	$.element == null
+676	46	20	SingleAmb.java	subscribeActual	THIS	SingleAmb	0	DEF	count == sources.$.length
+676	46	20	SingleAmb.java	subscribeActual	sources	SingleSource<? extends T>[]	0	DEF	count == $.length
+676	46	20	SingleAmb.java	subscribeActual	count	int	0	DEF	$ == sources.length
+58149	67	8	SingleAmb.java	subscribeActual	i	int	0	NIL-FOR	$ < count
+58149	67	8	SingleAmb.java	subscribeActual	count	int	0	NIL-FOR	i < $
+677	69	12	SingleAmb.java	subscribeActual	shared	AmbSingleObserver<T>	0	RET	$.get()
+678	73	12	SingleAmb.java	subscribeActual	s1	SingleSource<? extends T>	0	RET	$ == null
+679	76	16	SingleAmb.java	subscribeActual	shared	AmbSingleObserver<T>	1	DEF	$.compareAndSet(false, true)
+661	50	8	SingleCache.java	subscribeActual	THIS	SingleCache	1	DEF	$.add(d)
+661	50	8	SingleCache.java	subscribeActual	d	CacheDisposable<T>	1	DEF	add($)
+662	51	12	SingleCache.java	subscribeActual	d	CacheDisposable<T>	0	DEF	$.isDisposed()
+663	56	12	SingleCache.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+664	64	8	SingleCache.java	subscribeActual	THIS	SingleCache	0	DEF	$.wip.getAndIncrement() == 0
+665	72	12	SingleCache.java	add	a	CacheDisposable<T>[]	0	RET	$ == TERMINATED
+666	80	12	SingleCache.java	add	THIS	SingleCache	0	RET	$.observers.compareAndSet(a, b)
+666	80	12	SingleCache.java	add	a	CacheDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+666	80	12	SingleCache.java	add	b	CacheDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+667	91	12	SingleCache.java	remove	n	int	0	RET	$ == 0
+58148	96	12	SingleCache.java	remove	i	int	0	NIL-FOR	$ < n
+58148	96	12	SingleCache.java	remove	n	int	0	NIL-FOR	i < $
+668	97	16	SingleCache.java	remove	i	int	0	DEF	a[$] == observer
+668	97	16	SingleCache.java	remove	a	CacheDisposable<T>[]	0	DEF	$[i] == observer
+668	97	16	SingleCache.java	remove	observer	CacheDisposable<T>	0	DEF	a[i] == $
+669	103	12	SingleCache.java	remove	j	int	0	RET	$ < 0
+670	109	12	SingleCache.java	remove	n	int	1	DEF	$ == 1
+671	116	12	SingleCache.java	remove	THIS	SingleCache	0	RET	$.observers.compareAndSet(a, b)
+671	116	12	SingleCache.java	remove	a	CacheDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+671	116	12	SingleCache.java	remove	b	CacheDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+672	133	12	SingleCache.java	onSuccess	THIS	SingleCache	0	DEF	$.d.isDisposed()
+673	145	12	SingleCache.java	onError	THIS	SingleCache	0	DEF	$.d.isDisposed()
+680	36	12	SingleFromCallable.java	subscribeActual	v	T	1	DEF	$ != null
+400	57	8	SinglePostCompleteSubscriber.java	onSubscribe	THIS	SinglePostCompleteSubscriber	0	DEF	$.SubscriptionHelper.validate($.s, s)
+400	57	8	SinglePostCompleteSubscriber.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.validate(this.s, $)
+401	69	8	SinglePostCompleteSubscriber.java	complete	p	long	0	DEF	$ != 0
+402	75	12	SinglePostCompleteSubscriber.java	complete	r	long	0	RET	($ & COMPLETE_MASK) != 0
+403	79	12	SinglePostCompleteSubscriber.java	complete	r	long	0	RET	($ & REQUEST_MASK) != 0
+404	86	12	SinglePostCompleteSubscriber.java	complete	THIS	SinglePostCompleteSubscriber	0	RET	$.compareAndSet(0, COMPLETE_MASK)
+405	103	8	SinglePostCompleteSubscriber.java	request	THIS	SinglePostCompleteSubscriber	0	DEF	$.SubscriptionHelper.validate(n)
+405	103	8	SinglePostCompleteSubscriber.java	request	n	long	0	DEF	SubscriptionHelper.validate($)
+406	106	16	SinglePostCompleteSubscriber.java	request	r	long	0	DEF	($ & COMPLETE_MASK) != 0
+407	107	20	SinglePostCompleteSubscriber.java	request	THIS	SinglePostCompleteSubscriber	0	DEF	$.compareAndSet(COMPLETE_MASK, COMPLETE_MASK + 1)
+408	114	16	SinglePostCompleteSubscriber.java	request	THIS	SinglePostCompleteSubscriber	0	DEF	$.compareAndSet(r, u)
+408	114	16	SinglePostCompleteSubscriber.java	request	r	long	0	DEF	compareAndSet($, u)
+408	114	16	SinglePostCompleteSubscriber.java	request	u	long	0	DEF	compareAndSet(r, $)
+1015	73	12	SingleScheduler.java	start	current	ScheduledExecutorService	0	RET	$ != SHUTDOWN
+1016	74	16	SingleScheduler.java	start	next	ScheduledExecutorService	0	DEF	$ != null
+1017	79	12	SingleScheduler.java	start	next	ScheduledExecutorService	0	DEF	$ == null
+1018	82	12	SingleScheduler.java	start	THIS	SingleScheduler	0	RET	$.executor.compareAndSet(current, next)
+1018	82	12	SingleScheduler.java	start	current	ScheduledExecutorService	0	RET	executor.compareAndSet($, next)
+1018	82	12	SingleScheduler.java	start	next	ScheduledExecutorService	0	RET	executor.compareAndSet(current, $)
+1019	92	8	SingleScheduler.java	shutdown	current	ScheduledExecutorService	0	DEF	$ != SHUTDOWN
+1020	94	12	SingleScheduler.java	shutdown	current	ScheduledExecutorService	0	DEF	$ != SHUTDOWN
+1021	112	12	SingleScheduler.java	scheduleDirect	delay	long	1	DEF	$ <= 0L
+1383	69	8	SingleSubject.java	onSubscribe	THIS	SingleSubject	0	DEF	$.observers.get() == TERMINATED
+1384	77	8	SingleSubject.java	onSuccess	value	T	0	RET	$ == null
+1385	81	8	SingleSubject.java	onSuccess	THIS	SingleSubject	0	DEF	$.once.compareAndSet(false, true)
+1386	92	8	SingleSubject.java	onError	e	Throwable	0	DEF	$ == null
+1387	95	8	SingleSubject.java	onError	THIS	SingleSubject	1	DEF	$.once.compareAndSet(false, true)
+1388	109	8	SingleSubject.java	subscribeActual	THIS	SingleSubject	1	DEF	$.add(md)
+1388	109	8	SingleSubject.java	subscribeActual	md	SingleDisposable<T>	1	DEF	add($)
+1389	110	12	SingleSubject.java	subscribeActual	md	SingleDisposable<T>	0	DEF	$.isDisposed()
+1390	115	12	SingleSubject.java	subscribeActual	ex	Throwable	1	DEF	$ != null
+1391	126	12	SingleSubject.java	add	a	SingleDisposable<T>[]	0	RET	$ == TERMINATED
+1392	135	12	SingleSubject.java	add	THIS	SingleSubject	0	RET	$.observers.compareAndSet(a, b)
+1392	135	12	SingleSubject.java	add	a	SingleDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+1392	135	12	SingleSubject.java	add	b	SingleDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+1393	146	12	SingleSubject.java	remove	n	int	0	RET	$ == 0
+58181	152	12	SingleSubject.java	remove	i	int	0	NIL-FOR	$ < n
+58181	152	12	SingleSubject.java	remove	n	int	0	NIL-FOR	i < $
+1394	153	16	SingleSubject.java	remove	i	int	0	DEF	a[$] == inner
+1394	153	16	SingleSubject.java	remove	a	SingleDisposable<T>[]	0	DEF	$[i] == inner
+1394	153	16	SingleSubject.java	remove	inner	SingleDisposable<T>	0	DEF	a[i] == $
+1395	159	12	SingleSubject.java	remove	j	int	0	RET	$ < 0
+1396	163	12	SingleSubject.java	remove	n	int	1	DEF	$ == 1
+1397	171	12	SingleSubject.java	remove	THIS	SingleSubject	0	RET	$.observers.compareAndSet(a, b)
+1397	171	12	SingleSubject.java	remove	a	SingleDisposable<T>[]	0	RET	observers.compareAndSet($, b)
+1397	171	12	SingleSubject.java	remove	b	SingleDisposable<T>[]	0	RET	observers.compareAndSet(a, $)
+1398	183	8	SingleSubject.java	getValue	THIS	SingleSubject	0	RET	$.observers.get() == TERMINATED
+1399	203	8	SingleSubject.java	getThrowable	THIS	SingleSubject	0	RET	$.observers.get() == TERMINATED
+681	64	12	SingleUsing.java	subscribeActual	THIS	SingleUsing	0	DEF	$.eager
+682	73	12	SingleUsing.java	subscribeActual	THIS	SingleUsing	0	DEF	$.eager
+683	43	8	SingleZipArray.java	subscribeActual	n	int	0	RET	$ == 1
+58150	52	8	SingleZipArray.java	subscribeActual	i	int	0	NIL-FOR	$ < n
+58150	52	8	SingleZipArray.java	subscribeActual	n	int	0	NIL-FOR	i < $
+684	53	12	SingleZipArray.java	subscribeActual	parent	ZipCoordinator<T,R>	0	RET	$.isDisposed()
+685	59	12	SingleZipArray.java	subscribeActual	source	SingleSource<? extends T>	0	RET	$ == null
+686	43	16	SingleZipIterable.java	subscribeActual	THIS	SingleZipIterable	0	RET	$.source == null
+687	47	16	SingleZipIterable.java	subscribeActual	THIS	SingleZipIterable	0	DEF	n == a.$.length
+687	47	16	SingleZipIterable.java	subscribeActual	a	SingleSource<? extends T>[]	0	DEF	n == $.length
+687	47	16	SingleZipIterable.java	subscribeActual	n	int	0	DEF	$ == a.length
+688	58	8	SingleZipIterable.java	subscribeActual	n	int	0	RET	$ == 0
+689	63	8	SingleZipIterable.java	subscribeActual	n	int	0	RET	$ == 1
+58151	72	8	SingleZipIterable.java	subscribeActual	i	int	0	NIL-FOR	$ < n
+58151	72	8	SingleZipIterable.java	subscribeActual	n	int	0	NIL-FOR	i < $
+690	73	12	SingleZipIterable.java	subscribeActual	parent	ZipCoordinator<T,R>	0	RET	$.isDisposed()
+784	60	8	SpscArrayQueue.java	offer	e	E	0	NullPointerException	null == $
+785	67	8	SpscArrayQueue.java	offer	THIS	SpscArrayQueue	0	RET	index >= $.producerLookAhead
+785	67	8	SpscArrayQueue.java	offer	index	long	0	RET	$ >= producerLookAhead
+786	69	12	SpscArrayQueue.java	offer	THIS	SpscArrayQueue	1	DEF	null == $.lvElement($.calcElementOffset(index + step, mask))
+786	69	12	SpscArrayQueue.java	offer	step	int	1	DEF	null == lvElement(calcElementOffset(index + $, mask))
+786	69	12	SpscArrayQueue.java	offer	mask	int	1	DEF	null == lvElement(calcElementOffset(index + step, $))
+786	69	12	SpscArrayQueue.java	offer	index	long	1	DEF	null == lvElement(calcElementOffset($ + step, mask))
+787	71	19	SpscArrayQueue.java	offer	THIS	SpscArrayQueue	0	RET	null != $.lvElement(offset)
+787	71	19	SpscArrayQueue.java	offer	offset	int	0	RET	null != lvElement($)
+788	93	8	SpscArrayQueue.java	poll	e	E	0	RET	null == $
+58167	117	8	SpscArrayQueue.java	clear	THIS	SpscArrayQueue	0	NIL-WHILE	$.isEmpty()
+58167	117	8	SpscArrayQueue.java	clear	THIS	SpscArrayQueue	0	NIL-WHILE	$.poll() != null
+774	68	8	SpscLinkedArrayQueue.java	offer	e	T	0	NullPointerException	null == $
+775	76	8	SpscLinkedArrayQueue.java	offer	THIS	SpscLinkedArrayQueue	1	RET	index < $.producerLookAhead
+775	76	8	SpscLinkedArrayQueue.java	offer	index	long	1	RET	$ < producerLookAhead
+776	82	12	SpscLinkedArrayQueue.java	offer	THIS	SpscLinkedArrayQueue	1	RET	null == $.lvElement(buffer, lookAheadElementOffset)
+776	82	12	SpscLinkedArrayQueue.java	offer	lookAheadElementOffset	int	1	RET	null == lvElement(buffer, $)
+776	82	12	SpscLinkedArrayQueue.java	offer	buffer	AtomicReferenceArray<Object>	1	RET	null == lvElement($, lookAheadElementOffset)
+777	85	19	SpscLinkedArrayQueue.java	offer	THIS	SpscLinkedArrayQueue	1	RET	null == $.lvElement(buffer, $.calcWrappedOffset(index + 1, mask))
+777	85	19	SpscLinkedArrayQueue.java	offer	buffer	AtomicReferenceArray<Object>	1	RET	null == lvElement($, calcWrappedOffset(index + 1, mask))
+777	85	19	SpscLinkedArrayQueue.java	offer	index	long	1	RET	null == lvElement(buffer, calcWrappedOffset($ + 1, mask))
+777	85	19	SpscLinkedArrayQueue.java	offer	mask	int	1	RET	null == lvElement(buffer, calcWrappedOffset(index + 1, $))
+778	136	8	SpscLinkedArrayQueue.java	poll	e	Object	1	RET	null != $
+778	136	8	SpscLinkedArrayQueue.java	poll	isNextBuffer	boolean	1	RET	$
+779	140	15	SpscLinkedArrayQueue.java	poll	isNextBuffer	boolean	0	RET	$
+780	152	8	SpscLinkedArrayQueue.java	newBufferPoll	n	T	0	DEF	null != $
+781	166	8	SpscLinkedArrayQueue.java	peek	e	Object	0	RET	$ == HAS_NEXT
+58166	181	8	SpscLinkedArrayQueue.java	clear	THIS	SpscLinkedArrayQueue	0	NIL-WHILE	$.poll() != null
+58166	181	8	SpscLinkedArrayQueue.java	clear	THIS	SpscLinkedArrayQueue	0	NIL-WHILE	$.isEmpty()
+782	196	12	SpscLinkedArrayQueue.java	size	before	long	0	RET	$ == after
+782	196	12	SpscLinkedArrayQueue.java	size	after	long	0	RET	before == $
+783	264	8	SpscLinkedArrayQueue.java	offer	THIS	SpscLinkedArrayQueue	1	DEF	null == $.lvElement(buffer, pi)
+783	264	8	SpscLinkedArrayQueue.java	offer	buffer	AtomicReferenceArray<Object>	1	DEF	null == lvElement($, pi)
+783	264	8	SpscLinkedArrayQueue.java	offer	pi	int	1	DEF	null == lvElement(buffer, $)
+453	66	8	StrictSubscriber.java	request	n	long	1	DEF	$ <= 0
+454	76	8	StrictSubscriber.java	cancel	THIS	StrictSubscriber	0	DEF	$.done
+455	83	8	StrictSubscriber.java	onSubscribe	THIS	StrictSubscriber	1	DEF	$.once.compareAndSet(false, true)
+1008	43	8	SubscriberCompletableObserver.java	onSubscribe	THIS	SubscriberCompletableObserver	0	DEF	$.DisposableHelper.validate($.d, d)
+1008	43	8	SubscriberCompletableObserver.java	onSubscribe	d	Disposable	0	DEF	DisposableHelper.validate(this.d, $)
+434	39	8	SubscriberResourceWrapper.java	onSubscribe	THIS	SubscriberResourceWrapper	0	DEF	$.SubscriptionHelper.setOnce($.subscription, s)
+434	39	8	SubscriberResourceWrapper.java	onSubscribe	s	Subscription	0	DEF	SubscriptionHelper.setOnce(subscription, $)
+435	63	8	SubscriberResourceWrapper.java	request	THIS	SubscriberResourceWrapper	0	DEF	$.SubscriptionHelper.validate(n)
+435	63	8	SubscriberResourceWrapper.java	request	n	long	0	DEF	SubscriptionHelper.validate($)
+819	73	8	SubscriptionArbiter.java	setSubscription	THIS	SubscriptionArbiter	0	RET	$.cancelled
+820	80	8	SubscriptionArbiter.java	setSubscription	THIS	SubscriptionArbiter	0	RET	$.compareAndSet(0, 1)
+820	80	8	SubscriptionArbiter.java	setSubscription	THIS	SubscriptionArbiter	0	RET	$.get() == 0
+821	83	12	SubscriptionArbiter.java	setSubscription	a	Subscription	0	DEF	$ != null
+822	91	12	SubscriptionArbiter.java	setSubscription	THIS	SubscriptionArbiter	0	DEF	$.decrementAndGet() != 0
+823	95	12	SubscriptionArbiter.java	setSubscription	r	long	0	DEF	$ != 0L
+824	103	8	SubscriptionArbiter.java	setSubscription	a	Subscription	0	DEF	$ != null
+825	111	8	SubscriptionArbiter.java	request	THIS	SubscriptionArbiter	0	RET	$.SubscriptionHelper.validate(n)
+825	111	8	SubscriptionArbiter.java	request	n	long	0	RET	SubscriptionHelper.validate($)
+826	112	12	SubscriptionArbiter.java	request	THIS	SubscriptionArbiter	0	RET	$.unbounded
+827	115	12	SubscriptionArbiter.java	request	THIS	SubscriptionArbiter	0	RET	$.compareAndSet(0, 1)
+827	115	12	SubscriptionArbiter.java	request	THIS	SubscriptionArbiter	0	RET	$.get() == 0
+828	118	16	SubscriptionArbiter.java	request	r	long	0	DEF	$ != Long.MAX_VALUE
+829	121	20	SubscriptionArbiter.java	request	r	long	0	DEF	$ == Long.MAX_VALUE
+830	127	16	SubscriptionArbiter.java	request	THIS	SubscriptionArbiter	0	DEF	$.decrementAndGet() != 0
+831	131	16	SubscriptionArbiter.java	request	a	Subscription	0	DEF	$ != null
+832	145	8	SubscriptionArbiter.java	produced	THIS	SubscriptionArbiter	0	RET	$.unbounded
+833	148	8	SubscriptionArbiter.java	produced	THIS	SubscriptionArbiter	0	RET	$.get() == 0
+833	148	8	SubscriptionArbiter.java	produced	THIS	SubscriptionArbiter	0	RET	$.compareAndSet(0, 1)
+834	151	12	SubscriptionArbiter.java	produced	r	long	0	DEF	$ != Long.MAX_VALUE
+835	153	16	SubscriptionArbiter.java	produced	u	long	0	DEF	$ < 0L
+836	160	12	SubscriptionArbiter.java	produced	THIS	SubscriptionArbiter	0	RET	$.decrementAndGet() == 0
+837	176	8	SubscriptionArbiter.java	cancel	THIS	SubscriptionArbiter	0	DEF	$.cancelled
+838	184	8	SubscriptionArbiter.java	drain	THIS	SubscriptionArbiter	0	RET	$.getAndIncrement() != 0
+839	200	12	SubscriptionArbiter.java	drainLoop	ms	Subscription	0	DEF	$ != null
+840	205	12	SubscriptionArbiter.java	drainLoop	mr	long	0	DEF	$ != 0L
+841	210	12	SubscriptionArbiter.java	drainLoop	mp	long	0	DEF	$ != 0L
+842	216	12	SubscriptionArbiter.java	drainLoop	THIS	SubscriptionArbiter	1	DEF	$.cancelled
+843	217	16	SubscriptionArbiter.java	drainLoop	a	Subscription	0	DEF	$ != null
+844	221	16	SubscriptionArbiter.java	drainLoop	ms	Subscription	0	DEF	$ != null
+845	226	16	SubscriptionArbiter.java	drainLoop	r	long	0	DEF	$ != Long.MAX_VALUE
+846	229	20	SubscriptionArbiter.java	drainLoop	u	long	1	DEF	$ != Long.MAX_VALUE
+847	231	24	SubscriptionArbiter.java	drainLoop	v	long	0	DEF	$ < 0L
+848	242	16	SubscriptionArbiter.java	drainLoop	ms	Subscription	1	DEF	$ != null
+849	243	20	SubscriptionArbiter.java	drainLoop	a	Subscription	0	DEF	$ != null
+850	247	20	SubscriptionArbiter.java	drainLoop	r	long	0	DEF	$ != 0L
+851	251	23	SubscriptionArbiter.java	drainLoop	mr	long	0	DEF	$ != 0L
+851	251	23	SubscriptionArbiter.java	drainLoop	a	Subscription	0	DEF	$ != null
+852	258	12	SubscriptionArbiter.java	drainLoop	missed	int	0	RET	$ == 0
+853	259	16	SubscriptionArbiter.java	drainLoop	requestAmount	long	0	DEF	$ != 0L
+1241	84	8	TestObserver.java	onSubscribe	s	Disposable	0	RET	$ == null
+1242	88	8	TestObserver.java	onSubscribe	THIS	TestObserver	0	RET	$.subscription.compareAndSet(null, s)
+1242	88	8	TestObserver.java	onSubscribe	s	Disposable	0	RET	subscription.compareAndSet(null, $)
+1243	90	12	TestObserver.java	onSubscribe	THIS	TestObserver	0	DEF	$.subscription.get() != $.DisposableHelper.DISPOSED
+1244	96	8	TestObserver.java	onSubscribe	THIS	TestObserver	0	RET	$.initialFusionMode != 0
+1245	97	12	TestObserver.java	onSubscribe	s	Disposable	0	RET	$ instanceof QueueDisposable
+1246	103	16	TestObserver.java	onSubscribe	m	int	0	RET	$ == QueueDisposable.SYNC
+58171	108	24	TestObserver.java	onSubscribe	THIS	TestObserver	0	NIL-WHILE	(t = $.qs.poll()) != null
+58171	108	24	TestObserver.java	onSubscribe	t	T	0	NIL-WHILE	($ = qs.poll()) != null
+1247	128	8	TestObserver.java	onNext	THIS	TestObserver	0	DEF	$.checkSubscriptionOnce
+1248	130	12	TestObserver.java	onNext	THIS	TestObserver	0	DEF	$.subscription.get() == null
+1249	137	8	TestObserver.java	onNext	THIS	TestObserver	0	RET	$.establishedFusionMode == QueueDisposable.ASYNC
+58172	139	16	TestObserver.java	onNext	THIS	TestObserver	0	NIL-WHILE	(t = $.qs.poll()) != null
+58172	139	16	TestObserver.java	onNext	t	T	0	NIL-WHILE	($ = qs.poll()) != null
+1250	151	8	TestObserver.java	onNext	t	T	0	DEF	$ == null
+1251	160	8	TestObserver.java	onError	THIS	TestObserver	0	DEF	$.checkSubscriptionOnce
+1252	162	12	TestObserver.java	onError	THIS	TestObserver	0	DEF	$.subscription.get() == null
+1253	169	12	TestObserver.java	onError	t	Throwable	1	DEF	$ == null
+1254	183	8	TestObserver.java	onComplete	THIS	TestObserver	0	DEF	$.checkSubscriptionOnce
+1255	185	12	TestObserver.java	onComplete	THIS	TestObserver	0	DEF	$.subscription.get() == null
+1256	242	8	TestObserver.java	assertSubscribed	THIS	TestObserver	0	DEF	$.subscription.get() == null
+1257	254	8	TestObserver.java	assertNotSubscribed	THIS	TestObserver	1	DEF	$.subscription.get() != null
+1258	257	8	TestObserver.java	assertNotSubscribed	THIS	TestObserver	0	DEF	$.errors.isEmpty()
+1259	298	8	TestObserver.java	assertFusionMode	m	int	0	AssertionError	$ != mode
+1259	298	8	TestObserver.java	assertFusionMode	mode	int	0	AssertionError	m != $
+1260	299	12	TestObserver.java	assertFusionMode	THIS	TestObserver	1	AssertionError	$.qs != null
+1261	325	8	TestObserver.java	assertFuseable	THIS	TestObserver	0	AssertionError	$.qs == null
+1262	338	8	TestObserver.java	assertNotFuseable	THIS	TestObserver	0	AssertionError	$.qs != null
+58177	105	8	TestScheduler.java	triggerActions	THIS	TestScheduler	0	NIL-WHILE	$.queue.isEmpty()
+1324	107	12	TestScheduler.java	triggerActions	THIS	TestScheduler	0	DEF	current.$.time > targetTimeInNanoseconds
+1324	107	12	TestScheduler.java	triggerActions	current	TimedRunnable	0	DEF	$.time > targetTimeInNanoseconds
+1324	107	12	TestScheduler.java	triggerActions	targetTimeInNanoseconds	long	0	DEF	current.time > $
+1325	115	12	TestScheduler.java	triggerActions	THIS	TestScheduler	0	DEF	current.$.scheduler.$.disposed
+1325	115	12	TestScheduler.java	triggerActions	current	TimedRunnable	0	DEF	$.scheduler.disposed
+54	121	8	TestSubscriber.java	TestSubscriber	initialRequest	long	0	IllegalArgumentException	$ < 0
+55	134	8	TestSubscriber.java	onSubscribe	s	Subscription	0	RET	$ == null
+56	138	8	TestSubscriber.java	onSubscribe	THIS	TestSubscriber	0	RET	$.subscription.compareAndSet(null, s)
+56	138	8	TestSubscriber.java	onSubscribe	s	Subscription	0	RET	subscription.compareAndSet(null, $)
+57	140	12	TestSubscriber.java	onSubscribe	THIS	TestSubscriber	0	DEF	$.subscription.get() != $.SubscriptionHelper.CANCELLED
+58	146	8	TestSubscriber.java	onSubscribe	THIS	TestSubscriber	0	RET	$.initialFusionMode != 0
+59	147	12	TestSubscriber.java	onSubscribe	s	Subscription	0	RET	$ instanceof QueueSubscription
+60	153	16	TestSubscriber.java	onSubscribe	m	int	0	RET	$ == QueueSubscription.SYNC
+58119	158	24	TestSubscriber.java	onSubscribe	THIS	TestSubscriber	0	NIL-WHILE	(t = $.qs.poll()) != null
+58119	158	24	TestSubscriber.java	onSubscribe	t	T	0	NIL-WHILE	($ = qs.poll()) != null
+61	175	8	TestSubscriber.java	onSubscribe	mr	long	0	DEF	$ != 0L
+62	191	8	TestSubscriber.java	onNext	THIS	TestSubscriber	0	DEF	$.checkSubscriptionOnce
+63	193	12	TestSubscriber.java	onNext	THIS	TestSubscriber	0	DEF	$.subscription.get() == null
+64	199	8	TestSubscriber.java	onNext	THIS	TestSubscriber	0	RET	$.establishedFusionMode == QueueSubscription.ASYNC
+58120	201	16	TestSubscriber.java	onNext	THIS	TestSubscriber	0	NIL-WHILE	(t = $.qs.poll()) != null
+58120	201	16	TestSubscriber.java	onNext	t	T	0	NIL-WHILE	($ = qs.poll()) != null
+65	213	8	TestSubscriber.java	onNext	t	T	0	DEF	$ == null
+66	222	8	TestSubscriber.java	onError	THIS	TestSubscriber	0	DEF	$.checkSubscriptionOnce
+67	224	12	TestSubscriber.java	onError	THIS	TestSubscriber	0	DEF	$.subscription.get() == null
+68	232	12	TestSubscriber.java	onError	t	Throwable	0	DEF	$ == null
+69	244	8	TestSubscriber.java	onComplete	THIS	TestSubscriber	0	DEF	$.checkSubscriptionOnce
+70	246	12	TestSubscriber.java	onComplete	THIS	TestSubscriber	0	DEF	$.subscription.get() == null
+71	267	8	TestSubscriber.java	cancel	THIS	TestSubscriber	0	DEF	$.cancelled
+72	309	8	TestSubscriber.java	assertSubscribed	THIS	TestSubscriber	0	DEF	$.subscription.get() == null
+73	321	8	TestSubscriber.java	assertNotSubscribed	THIS	TestSubscriber	1	DEF	$.subscription.get() != null
+74	324	8	TestSubscriber.java	assertNotSubscribed	THIS	TestSubscriber	0	DEF	$.errors.isEmpty()
+75	351	8	TestSubscriber.java	assertFusionMode	m	int	0	AssertionError	$ != mode
+75	351	8	TestSubscriber.java	assertFusionMode	mode	int	0	AssertionError	m != $
+76	352	12	TestSubscriber.java	assertFusionMode	THIS	TestSubscriber	1	AssertionError	$.qs != null
+77	378	8	TestSubscriber.java	assertFuseable	THIS	TestSubscriber	0	AssertionError	$.qs == null
+78	391	8	TestSubscriber.java	assertNotFuseable	THIS	TestSubscriber	0	AssertionError	$.qs != null
+1326	81	8	Timed.java	equals	other	Object	0	RET	$ instanceof Timed
+161	184	8	UnicastProcessor.java	doTerminate	THIS	UnicastProcessor	0	DEF	$.onTerminate.compareAndSet(r, null)
+161	184	8	UnicastProcessor.java	doTerminate	r	Runnable	0	DEF	onTerminate.compareAndSet($, null)
+161	184	8	UnicastProcessor.java	doTerminate	r	Runnable	0	DEF	$ != null
+58122	199	12	UnicastProcessor.java	drainRegular	r	long	0	NIL-WHILE	$ != e
+58122	199	12	UnicastProcessor.java	drainRegular	e	long	0	NIL-WHILE	r != $
+162	205	16	UnicastProcessor.java	drainRegular	THIS	UnicastProcessor	0	RET	$.checkTerminated(failFast, d, empty, a, q)
+162	205	16	UnicastProcessor.java	drainRegular	d	boolean	0	RET	checkTerminated(failFast, $, empty, a, q)
+162	205	16	UnicastProcessor.java	drainRegular	empty	boolean	0	RET	checkTerminated(failFast, d, $, a, q)
+162	205	16	UnicastProcessor.java	drainRegular	q	SpscLinkedArrayQueue<T>	0	RET	checkTerminated(failFast, d, empty, a, $)
+162	205	16	UnicastProcessor.java	drainRegular	failFast	boolean	0	RET	checkTerminated($, d, empty, a, q)
+162	205	16	UnicastProcessor.java	drainRegular	a	Subscriber<? super T>	0	RET	checkTerminated(failFast, d, empty, $, q)
+163	209	16	UnicastProcessor.java	drainRegular	empty	boolean	0	DEF	$
+164	218	12	UnicastProcessor.java	drainRegular	THIS	UnicastProcessor	0	RET	$.checkTerminated(failFast, $.done, q.isEmpty(), a, q)
+164	218	12	UnicastProcessor.java	drainRegular	r	long	0	RET	$ == e
+164	218	12	UnicastProcessor.java	drainRegular	e	long	0	RET	r == $
+164	218	12	UnicastProcessor.java	drainRegular	q	SpscLinkedArrayQueue<T>	0	RET	checkTerminated(failFast, done, $.isEmpty(), a, $)
+164	218	12	UnicastProcessor.java	drainRegular	failFast	boolean	0	RET	checkTerminated($, done, q.isEmpty(), a, q)
+164	218	12	UnicastProcessor.java	drainRegular	a	Subscriber<? super T>	0	RET	checkTerminated(failFast, done, q.isEmpty(), $, q)
+165	222	12	UnicastProcessor.java	drainRegular	r	long	0	DEF	$ != Long.MAX_VALUE
+165	222	12	UnicastProcessor.java	drainRegular	e	long	0	DEF	$ != 0
+166	227	12	UnicastProcessor.java	drainRegular	missed	int	0	DEF	$ == 0
+167	240	12	UnicastProcessor.java	drainFused	THIS	UnicastProcessor	0	RET	$.cancelled
+168	248	12	UnicastProcessor.java	drainFused	THIS	UnicastProcessor	0	RET	$.error != null
+168	248	12	UnicastProcessor.java	drainFused	d	boolean	0	RET	$
+168	248	12	UnicastProcessor.java	drainFused	failFast	boolean	0	RET	$
+169	256	12	UnicastProcessor.java	drainFused	d	boolean	0	RET	$
+170	260	16	UnicastProcessor.java	drainFused	ex	Throwable	1	DEF	$ != null
+171	269	12	UnicastProcessor.java	drainFused	missed	int	0	DEF	$ == 0
+172	276	8	UnicastProcessor.java	drain	THIS	UnicastProcessor	0	RET	$.wip.getAndIncrement() != 0
+173	284	12	UnicastProcessor.java	drain	a	Subscriber	0	RET	$ != null
+174	286	16	UnicastProcessor.java	drain	THIS	UnicastProcessor	1	DEF	$.enableOperatorFusion
+175	295	12	UnicastProcessor.java	drain	missed	int	0	DEF	$ == 0
+176	303	8	UnicastProcessor.java	checkTerminated	THIS	UnicastProcessor	0	RET	$.cancelled
+177	309	8	UnicastProcessor.java	checkTerminated	d	boolean	0	RET	$
+178	310	12	UnicastProcessor.java	checkTerminated	THIS	UnicastProcessor	0	RET	$.error != null
+178	310	12	UnicastProcessor.java	checkTerminated	failFast	boolean	0	RET	$
+179	316	12	UnicastProcessor.java	checkTerminated	empty	boolean	0	RET	$
+180	319	16	UnicastProcessor.java	checkTerminated	e	Throwable	1	DEF	$ != null
+181	333	8	UnicastProcessor.java	onSubscribe	THIS	UnicastProcessor	1	DEF	$.done
+181	333	8	UnicastProcessor.java	onSubscribe	THIS	UnicastProcessor	1	DEF	$.cancelled
+182	342	8	UnicastProcessor.java	onNext	THIS	UnicastProcessor	0	RET	$.done
+182	342	8	UnicastProcessor.java	onNext	THIS	UnicastProcessor	0	RET	$.cancelled
+183	346	8	UnicastProcessor.java	onNext	t	T	0	RET	$ == null
+184	357	8	UnicastProcessor.java	onError	THIS	UnicastProcessor	0	RET	$.cancelled
+184	357	8	UnicastProcessor.java	onError	THIS	UnicastProcessor	0	RET	$.done
+185	362	8	UnicastProcessor.java	onError	t	Throwable	0	DEF	$ == null
+186	376	8	UnicastProcessor.java	onComplete	THIS	UnicastProcessor	0	RET	$.cancelled
+186	376	8	UnicastProcessor.java	onComplete	THIS	UnicastProcessor	0	RET	$.done
+187	389	8	UnicastProcessor.java	subscribeActual	THIS	UnicastProcessor	1	DEF	$.once.compareAndSet(false, true)
+187	389	8	UnicastProcessor.java	subscribeActual	THIS	UnicastProcessor	1	DEF	$.once.get()
+188	393	12	UnicastProcessor.java	subscribeActual	THIS	UnicastProcessor	1	DEF	$.cancelled
+189	466	8	UnicastProcessor.java	getThrowable	THIS	UnicastProcessor	0	RET	$.done
+1442	201	8	UnicastSubject.java	subscribeActual	THIS	UnicastSubject	1	RET	$.once.compareAndSet(false, true)
+1442	201	8	UnicastSubject.java	subscribeActual	THIS	UnicastSubject	1	RET	$.once.get()
+1443	204	12	UnicastSubject.java	subscribeActual	THIS	UnicastSubject	0	RET	$.disposed
+1444	216	8	UnicastSubject.java	doTerminate	THIS	UnicastSubject	0	DEF	$.onTerminate.compareAndSet(r, null)
+1444	216	8	UnicastSubject.java	doTerminate	r	Runnable	0	DEF	$ != null
+1444	216	8	UnicastSubject.java	doTerminate	r	Runnable	0	DEF	onTerminate.compareAndSet($, null)
+1445	223	8	UnicastSubject.java	onSubscribe	THIS	UnicastSubject	0	DEF	$.disposed
+1445	223	8	UnicastSubject.java	onSubscribe	THIS	UnicastSubject	0	DEF	$.done
+1446	230	8	UnicastSubject.java	onNext	THIS	UnicastSubject	0	RET	$.done
+1446	230	8	UnicastSubject.java	onNext	THIS	UnicastSubject	0	RET	$.disposed
+1447	233	8	UnicastSubject.java	onNext	t	T	0	RET	$ == null
+1448	243	8	UnicastSubject.java	onError	THIS	UnicastSubject	0	RET	$.disposed
+1448	243	8	UnicastSubject.java	onError	THIS	UnicastSubject	0	RET	$.done
+1449	247	8	UnicastSubject.java	onError	t	Throwable	0	DEF	$ == null
+1450	260	8	UnicastSubject.java	onComplete	THIS	UnicastSubject	0	RET	$.done
+1450	260	8	UnicastSubject.java	onComplete	THIS	UnicastSubject	0	RET	$.disposed
+1451	278	16	UnicastSubject.java	drainNormal	THIS	UnicastSubject	0	RET	$.disposed
+1452	288	16	UnicastSubject.java	drainNormal	d	boolean	0	RET	$
+1453	289	20	UnicastSubject.java	drainNormal	failFast	boolean	0	RET	$
+1453	289	20	UnicastSubject.java	drainNormal	canBeError	boolean	0	RET	$
+1454	290	24	UnicastSubject.java	drainNormal	THIS	UnicastSubject	1	RET	$.failedFast(q, a)
+1454	290	24	UnicastSubject.java	drainNormal	q	SimpleQueue<T>	1	RET	failedFast($, a)
+1454	290	24	UnicastSubject.java	drainNormal	a	Observer<? super T>	1	RET	failedFast(q, $)
+1455	297	20	UnicastSubject.java	drainNormal	empty	boolean	0	RET	$
+1456	303	16	UnicastSubject.java	drainNormal	empty	boolean	0	DEF	$
+1457	311	12	UnicastSubject.java	drainNormal	missed	int	0	DEF	$ == 0
+1458	325	12	UnicastSubject.java	drainFused	THIS	UnicastSubject	0	RET	$.disposed
+1459	332	12	UnicastSubject.java	drainFused	d	boolean	0	RET	$
+1459	332	12	UnicastSubject.java	drainFused	failFast	boolean	0	RET	$
+1460	333	16	UnicastSubject.java	drainFused	THIS	UnicastSubject	0	RET	$.failedFast(q, a)
+1460	333	16	UnicastSubject.java	drainFused	q	SpscLinkedArrayQueue<T>	0	RET	failedFast($, a)
+1460	333	16	UnicastSubject.java	drainFused	a	Observer<? super T>	0	RET	failedFast(q, $)
+1461	340	12	UnicastSubject.java	drainFused	d	boolean	0	RET	$
+1462	346	12	UnicastSubject.java	drainFused	missed	int	0	DEF	$ == 0
+1463	355	8	UnicastSubject.java	errorOrComplete	ex	Throwable	1	DEF	$ != null
+1464	364	8	UnicastSubject.java	failedFast	ex	Throwable	1	RET	$ != null
+1465	375	8	UnicastSubject.java	drain	THIS	UnicastSubject	0	RET	$.wip.getAndIncrement() != 0
+1466	384	12	UnicastSubject.java	drain	a	Observer<? super T>	0	RET	$ != null
+1467	385	16	UnicastSubject.java	drain	THIS	UnicastSubject	1	DEF	$.enableOperatorFusion
+1468	394	12	UnicastSubject.java	drain	missed	int	0	DEF	$ == 0
+1469	409	8	UnicastSubject.java	getThrowable	THIS	UnicastSubject	0	RET	$.done
+349	172	8	VolatileSizeArrayList.java	equals	obj	Object	0	RET	$ instanceof VolatileSizeArrayList

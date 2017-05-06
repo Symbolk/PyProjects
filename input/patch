@@ -1,0 +1,76 @@
+id	line	column	filename	methodname	varname	vartype	lastassign	isparam	incondnum	bodyuse	if
+
+#chart 1
+
+8879	1797	8	AbstractCategoryItemRenderer.java	getLegendItems	result	LegendItemCollection	CLASS_INSTANCE_CREATION	0	0	RET_USE	0
+8879	1797	8	AbstractCategoryItemRenderer.java	getLegendItems	index	int	getIndexOf()	0	0	NO_USE	0
+8879	1797	8	AbstractCategoryItemRenderer.java	getLegendItems	dataset	CategoryDataset	getDataset()	0	1	NO_USE	1
+8879	1797	8	AbstractCategoryItemRenderer.java	getLegendItems	THIS	AbstractCategoryItemRenderer	UNKNOWN_AS	0	4	NO_USE	0
+
+
+#chart 4
+
+12827	4497	24	XYPlot.java	getDataRange	a	XYAnnotation	CAST	0	1	PARAM_USE	0
+12827	4497	24	XYPlot.java	getDataRange	r	XYItemRenderer	getRendererForDataset()	0	2	CLALLER_USE	1
+12827	4497	24	XYPlot.java	getDataRange	d	XYDataset	CAST	0	1	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	result	Range	combine()	0	0	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	mappedDatasets	List	CLASS_INSTANCE_CREATION	0	0	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	includedAnnotations	List	CLASS_INSTANCE_CREATION	0	0	CLALLER_USE	0
+12827	4497	24	XYPlot.java	getDataRange	isDomainAxis	boolean	LITERAL	0	0	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	domainIndex	int	getDomainAxisIndex()	0	2	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	rangeIndex	int	getRangeAxisIndex()	0	2	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	iterator	Iterator	iterator()	0	0	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	axis	ValueAxis	PARAM_AS	1	0	NO_USE	0
+12827	4497	24	XYPlot.java	getDataRange	THIS	XYPlot	UNKNOWN_AS	0	0	NO_USE	0
+
+#chart 9
+19404	944	8	TimeSeries.java	createCopy	emptyRange	boolean	LITERAL	0	0	NO_USE	0
+19404	944	8	TimeSeries.java	createCopy	startIndex	int	PREFIX_EXPR	0	2	NO_USE	1
+19404	944	8	TimeSeries.java	createCopy	endIndex	int	-	0	2	NO_USE	1
+19404	944	8	TimeSeries.java	createCopy	start	RegularTimePeriod	PARAM_AS	1	2	NO_USE	0
+19404	944	8	TimeSeries.java	createCopy	end	RegularTimePeriod	PARAM_AS	1	2	NO_USE	0
+19404	944	8	TimeSeries.java	createCopy	THIS	TimeSeries	UNKNOWN_AS	0	1	NO_USE	0
+
+
+#chart 15-1
+1	1378	8	PiePlot.java	getMaximumExplodePercent	THIS	PiePlot	UNKNOWN_AS	0	1	NO_USE	1
+
+#chart 15-2
+2	2051	8	PiePlot.java	initialise	THIS	PiePlot	UNKNOWN_AS	0	1	NO_USE	1
+
+#chart 19-1
+1	698	8	CategoryPlot.java	getDomainAxisIndex	axis	PiePlot	UNKNOWN_AS	1	1	NO_USE	1
+1	698	8	CategoryPlot.java	getDomainAxisIndex	THIS	PiePlot	UNKNOWN_AS	0	0	NO_USE	0
+
+#chart 19-2
+2	976	8	CategoryPlot.java	getDomainAxisIndex	axis	PiePlot	UNKNOWN_AS	1	1	NO_USE	1
+2	976	8	CategoryPlot.java	getDomainAxisIndex	THIS	PiePlot	UNKNOWN_AS	0	0	NO_USE	0
+
+#chart-26
+54203	1193	16	Axis.java	drawLabel	owner	ChartRenderingInfo	getOwner()	0	1	CLALLER_USE	1
+54203	1193	16	Axis.java	drawLabel	font	Font	getLabelFont()	0	0	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	insets	RectangleInsets	getLabelInsets()	0	0	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	fm	FontMetrics	getFontMetrics()	0	0	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	labelBounds	Rectangle2D	getBounds2D()	0	0	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	hotspot	Shape	CLASS_INSTANCE_CREATION	0	1	OTHER_USE	0
+54203	1193	16	Axis.java	drawLabel	label	String	PARAM_AS	1	2	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	g2	Graphics2D	PARAM_AS	1	0	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	plotArea	Rectangle2D	PARAM_AS	1	0	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	dataArea	Rectangle2D	PARAM_AS	1	0	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	edge	RectangleEdge	PARAM_AS	1	4	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	state	AxisState	PARAM_AS	1	1	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	plotState	PlotRenderingInfo	PARAM_AS	1	1	NO_USE	0
+54203	1193	16	Axis.java	drawLabel	THIS	Axis	UNKNOWN_AS	0	0	FIELD_USE	0
+
+
+#lang-7
+136112	453	8	NumberUtils.java	createNumber	str	String	PARAM_AS	1	12	NO_USE	1
+136112	453	8	NumberUtils.java	createNumber	THIS	NumberUtils	UNKNOWN_AS	0	2	NO_USE	0
+
+#lang-9
+137471	143	8	FastDateParser.java	init	regex	StringBuilder	CLASS_INSTANCE_CREATION	0	2	NO_USE	0
+137471	143	8	FastDateParser.java	init	collector	List<Strategy>	CLASS_INSTANCE_CREATION	0	0	NO_USE	0
+137471	143	8	FastDateParser.java	init	patternMatcher	Matcher	matcher()	0	2	NO_USE	1
+137471	143	8	FastDateParser.java	init	currentStrategy	Strategy	NAME	0	2	NO_USE	0
+137471	143	8	FastDateParser.java	init	THIS	FastDateParser	NAME	0	0	NO_USE	0
+

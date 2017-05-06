@@ -1,0 +1,143 @@
+id	oracle
+107	type == ResponseBody.class
+108	type == Void.class
+109	RequestBody.class.isAssignableFrom(Utils.getRawType(type))
+62	getRawType(returnType) != Call.class
+110	getRawType(returnType) != Call.class
+66	call != null
+67	creationFailure != null
+68	creationFailure instanceof IOException
+69	executed
+70	failure == null
+70	call == null
+71	failure != null
+72	canceled
+73	executed
+74	creationFailure != null
+75	creationFailure instanceof IOException
+76	call == null
+77	canceled
+78	call == null
+79	code >= 300
+79	code < 200
+80	code == 205
+80	code == 204
+81	call != null
+82	canceled
+83	Build.VERSION.SDK_INT != 0
+84	callbackExecutor != null
+85	headers != null
+86	isFormEncoded
+87	isMultipart
+88	"Content-Type".equalsIgnoreCase(name)
+89	type == null
+90	relativeUrl == null
+91	PATH_SEGMENT_ALWAYS_ENCODE_SET.indexOf(codePoint) != -1
+91	alreadyEncoded
+91	codePoint == '%'
+91	codePoint < 0x20
+91	codePoint == '/'
+91	codePoint >= 0x7f
+92	codePoint == '\f'
+92	codePoint == '\n'
+92	codePoint == '\r'
+92	codePoint == '\t'
+92	alreadyEncoded
+93	codePoint == '%'
+93	codePoint < 0x20
+93	codePoint == '/'
+93	alreadyEncoded
+93	codePoint >= 0x7f
+93	PATH_SEGMENT_ALWAYS_ENCODE_SET.indexOf(codePoint) != -1
+94	utf8Buffer == null
+95	relativeUrl != null
+96	urlBuilder == null
+97	encoded
+98	encoded
+99	urlBuilder != null
+100	url == null
+101	body == null
+102	formBuilder != null
+103	multipartBuilder != null
+104	hasBody
+105	contentType != null
+106	body != null
+63	rawResponse.isSuccessful()
+64	code < 400
+65	rawResponse.isSuccessful()
+111	validateEagerly
+112	platform.isDefaultMethod(method)
+113	result != null
+114	result == null
+115	adapter != null
+116	skipPast != null
+117	converter != null
+118	skipPast != null
+119	converter != null
+120	skipPast != null
+121	converter != null
+0	argumentCount != handlers.length
+1	boolean.class == type
+2	byte.class == type
+3	char.class == type
+4	double.class == type
+5	float.class == type
+6	int.class == type
+7	long.class == type
+8	short.class == type
+9	type instanceof Class<?>
+10	type instanceof ParameterizedType
+11	rawType instanceof Class
+12	type instanceof GenericArrayType
+13	type instanceof TypeVariable
+14	type instanceof WildcardType
+15	a == b
+16	a instanceof Class
+17	a instanceof ParameterizedType
+18	b instanceof ParameterizedType
+19	a instanceof GenericArrayType
+20	b instanceof GenericArrayType
+21	a instanceof WildcardType
+22	b instanceof WildcardType
+23	a instanceof TypeVariable
+24	b instanceof TypeVariable
+25	toResolve == rawType
+26	toResolve.isInterface()
+27	interfaces[i] == toResolve
+28	toResolve.isAssignableFrom(interfaces[i])
+29	rawType.isInterface()
+30	rawSupertype == toResolve
+31	toResolve.isAssignableFrom(rawSupertype)
+32	toFind.equals(array[i])
+33	supertype.isAssignableFrom(contextRawType)
+34	toResolve instanceof TypeVariable
+35	toResolve == typeVariable
+36	toResolve instanceof Class
+36	((Class<?>) toResolve).isArray()
+37	toResolve instanceof GenericArrayType
+38	toResolve instanceof ParameterizedType
+39	resolvedTypeArgument != args[t]
+40	changed
+41	toResolve instanceof WildcardType
+42	originalLowerBound.length == 1
+43	lowerBound != originalLowerBound[0]
+44	originalUpperBound.length == 1
+45	upperBound != originalUpperBound[0]
+46	declaredByRaw == null
+47	declaredBy instanceof ParameterizedType
+48	((Class<?>) type).isPrimitive()
+48	type instanceof Class<?>
+49	object == null
+50	cls.isInstance(annotation)
+51	service.isInterface()
+52	service.getInterfaces().length > 0
+53	index < 0
+53	index >= types.length
+54	paramType instanceof WildcardType
+55	type instanceof Class<?>
+56	type instanceof ParameterizedType
+57	hasUnresolvableType(typeArgument)
+58	type instanceof GenericArrayType
+59	type instanceof TypeVariable
+60	type instanceof WildcardType
+61	returnType instanceof ParameterizedType

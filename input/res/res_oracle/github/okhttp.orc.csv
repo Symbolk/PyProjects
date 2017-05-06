@@ -1,0 +1,1105 @@
+id	oracle
+20	dns == null
+21	socketFactory == null
+22	proxyAuthenticator == null
+23	protocols == null
+24	connectionSpecs == null
+25	proxySelector == null
+26	proxy != null
+260	Util.isAndroidGetsocknameError(e)
+261	context == null
+262	x509TrustManager != null
+263	hostname != null
+264	setAlpnProtocols.isSupported(sslSocket)
+264	setAlpnProtocols != null
+265	getAlpnSelectedProtocol == null
+266	getAlpnSelectedProtocol.isSupported(socket)
+267	t != null
+268	reported
+686	trustedCert != null
+687	toVerify.equals(trustedCert)
+687	result.size() > 1
+688	verifySignature(trustedCert, trustedCert)
+689	verifySignature(toVerify, signingCert)
+690	foundTrustedCertificate
+691	toVerify.getIssuerDN().equals(signingCert.getSubjectDN())
+692	other == this
+184	body != null
+185	contentType != null
+186	contentLength != -1
+187	userRequest.header("Host") == null
+188	userRequest.header("Connection") == null
+189	userRequest.header("Range") == null
+189	userRequest.header("Accept-Encoding") == null
+190	cookies.isEmpty()
+191	userRequest.header("User-Agent") == null
+192	transparentGzip
+192	HttpHeaders.hasBody(networkResponse)
+192	"gzip".equalsIgnoreCase(networkResponse.header("Content-Encoding"))
+193	i > 0
+798	snapshot == null
+799	entry.matches(request, response)
+800	HttpMethod.invalidatesCache(response.request().method())
+801	requestMethod.equals("GET")
+802	HttpHeaders.hasVaryAll(response)
+803	editor == null
+804	editor != null
+805	editor != null
+806	cacheStrategy.networkRequest != null
+807	cacheStrategy.cacheResponse != null
+808	line.isEmpty()
+808	result > Integer.MAX_VALUE
+808	result < 0
+824	name.equalsIgnoreCase("Cache-Control")
+825	headerValue != null
+826	name.equalsIgnoreCase("Pragma")
+827	value.charAt(pos) == ','
+827	value.charAt(pos) == ';'
+827	pos == value.length()
+828	value.charAt(pos) == '\"'
+828	pos < value.length()
+829	"no-cache".equalsIgnoreCase(directive)
+830	"no-store".equalsIgnoreCase(directive)
+831	"max-age".equalsIgnoreCase(directive)
+832	"s-maxage".equalsIgnoreCase(directive)
+833	"private".equalsIgnoreCase(directive)
+834	"public".equalsIgnoreCase(directive)
+835	"must-revalidate".equalsIgnoreCase(directive)
+836	"max-stale".equalsIgnoreCase(directive)
+837	"min-fresh".equalsIgnoreCase(directive)
+838	"only-if-cached".equalsIgnoreCase(directive)
+839	"no-transform".equalsIgnoreCase(directive)
+840	canUseHeaderValue
+841	noCache
+842	noStore
+843	maxAgeSeconds != -1
+844	sMaxAgeSeconds != -1
+845	isPrivate
+846	isPublic
+847	mustRevalidate
+848	maxStaleSeconds != -1
+849	minFreshSeconds != -1
+850	onlyIfCached
+851	noTransform
+852	result.length() == 0
+565	cache != null
+566	cacheResponse == null
+566	cacheCandidate != null
+567	cacheResponse == null
+567	networkRequest == null
+568	networkRequest == null
+569	cacheCandidate != null
+569	networkResponse == null
+570	cacheResponse != null
+571	networkResponse.code() == HTTP_NOT_MODIFIED
+572	HttpHeaders.hasBody(response)
+573	responseCache == null
+574	CacheStrategy.isCacheable(userResponse, networkRequest)
+575	HttpMethod.invalidatesCache(networkRequest.method())
+576	cacheRequest == null
+577	cacheBodyUnbuffered == null
+578	value.startsWith("1")
+578	"Warning".equalsIgnoreCase(fieldName)
+579	isEndToEnd(fieldName)
+579	networkHeaders.get(fieldName) == null
+580	"Content-Length".equalsIgnoreCase(fieldName)
+581	isEndToEnd(fieldName)
+582	response.cacheControl().isPublic()
+582	response.cacheControl().maxAgeSeconds() != -1
+582	response.cacheControl().isPrivate()
+582	response.header("Expires") != null
+176	HttpMethod.permitsRequestBody(request.method())
+176	request.body() != null
+177	"100-continue".equalsIgnoreCase(request.header("Expect"))
+178	responseBuilder == null
+179	connection.isMultiplexed()
+180	responseBuilder == null
+181	code == 101
+181	forWebSocket
+182	"close".equalsIgnoreCase(response.request().header("Connection"))
+182	"close".equalsIgnoreCase(response.header("Connection"))
+183	code == 204
+183	response.body().contentLength() > 0
+183	code == 205
+764	other == this
+765	pins.isEmpty()
+766	certificateChainCleaner != null
+767	pin.hashAlgorithm.equals("sha256/")
+768	sha256 == null
+769	pin.hash.equals(sha256)
+770	pin.hashAlgorithm.equals("sha1/")
+771	sha1 == null
+772	pin.hash.equals(sha1)
+773	pin.matches(hostname)
+774	result.isEmpty()
+775	certificate instanceof X509Certificate
+18	result == null
+19	javaName == null
+0	keepAliveDuration <= 0
+1	connection.allocations.isEmpty()
+2	connection.isEligible(address, route)
+3	connection.isEligible(address, null)
+3	connection.isMultiplexed()
+3	connection != streamAllocation.connection()
+4	cleanupRunning
+5	connection.noNewStreams
+5	maxIdleConnections == 0
+6	connection.allocations.isEmpty()
+7	pruneAndGetAllocationCount(connection, now) > 0
+8	idleDurationNs > longestIdleDurationNs
+9	idleConnectionCount > this.maxIdleConnections
+9	longestIdleDurationNs >= this.keepAliveDurationNs
+10	idleConnectionCount > 0
+11	inUseConnectionCount > 0
+12	reference.get() != null
+13	references.isEmpty()
+809	specToApply.tlsVersions != null
+810	specToApply.cipherSuites != null
+811	indexOfFallbackScsv != -1
+811	isFallback
+812	tls
+813	nonEmptyIntersection( Util.NATURAL_ORDER, tlsVersions, socket.getEnabledProtocols())
+813	tlsVersions != null
+814	cipherSuites != null
+814	nonEmptyIntersection( CipherSuite.ORDER_BY_NAME, cipherSuites, socket.getEnabledCipherSuites())
+815	other instanceof ConnectionSpec
+816	other == this
+817	this.tls != that.tls
+818	tls
+819	Arrays.equals(this.cipherSuites, that.cipherSuites)
+820	Arrays.equals(this.tlsVersions, that.tlsVersions)
+821	this.supportsTlsExtensions != that.supportsTlsExtensions
+822	tls
+823	tls
+130	connectionSpec.isCompatible(sslSocket)
+131	tlsConfiguration == null
+132	isFallbackPossible
+133	e instanceof ProtocolException
+134	e instanceof InterruptedIOException
+135	e instanceof SSLHandshakeException
+136	e.getCause() instanceof CertificateException
+137	e instanceof SSLPeerUnverifiedException
+138	connectionSpecs.get(i).isCompatible(socket)
+695	builder.name == null
+696	builder.value == null
+697	builder.domain == null
+698	domainMatch
+699	pathMatch(url, path)
+700	secure
+700	url.isHttps()
+701	urlHost.equals(domain)
+702	urlHost.charAt(urlHost.length() - domain.length() - 1) == '.'
+702	verifyAsIpAddress(urlHost)
+702	urlHost.endsWith(domain)
+703	urlPath.equals(path)
+704	urlPath.startsWith(path)
+705	path.endsWith("/")
+706	urlPath.charAt(path.length()) == '/'
+707	pairEqualsSign == cookiePairEnd
+708	cookieName.isEmpty()
+708	indexOfControlOrNonAscii(cookieName) != -1
+709	indexOfControlOrNonAscii(cookieValue) != -1
+710	attributeName.equalsIgnoreCase("expires")
+711	attributeName.equalsIgnoreCase("max-age")
+712	attributeName.equalsIgnoreCase("domain")
+713	attributeName.equalsIgnoreCase("path")
+714	attributeName.equalsIgnoreCase("secure")
+715	attributeName.equalsIgnoreCase("httponly")
+716	deltaSeconds == Long.MIN_VALUE
+717	deltaSeconds != -1L
+718	expiresAt < currentTimeMillis
+718	expiresAt > HttpDate.MAX_DATE
+719	domain == null
+720	domainMatch(urlHost, domain)
+721	urlHost.length() != domain.length()
+721	PublicSuffixDatabase.get().getEffectiveTldPlusOne(domain) == null
+722	path.startsWith("/")
+722	path == null
+723	matcher.usePattern(TIME_PATTERN).matches()
+723	hour == -1
+724	matcher.usePattern(DAY_OF_MONTH_PATTERN).matches()
+724	dayOfMonth == -1
+725	month == -1
+725	matcher.usePattern(MONTH_PATTERN).matches()
+726	matcher.usePattern(YEAR_PATTERN).matches()
+726	year == -1
+727	year >= 70
+727	year <= 99
+728	year >= 0
+728	year <= 69
+729	year < 1601
+730	month == -1
+731	dayOfMonth > 31
+731	dayOfMonth < 1
+732	hour > 23
+732	hour < 0
+733	minute > 59
+733	minute < 0
+734	second < 0
+734	second > 59
+735	dateCharacter == !invert
+735	invert
+736	s.matches("-?\\d+")
+737	s.endsWith(".")
+738	s.startsWith(".")
+739	canonicalDomain == null
+740	cookie == null
+741	cookies == null
+742	persistent
+743	expiresAt == Long.MIN_VALUE
+744	hostOnly
+745	forObsoleteRfc2965
+746	secure
+747	httpOnly
+748	other instanceof Cookie
+519	initialized
+520	fileSystem.exists(journalFileBackup)
+521	fileSystem.exists(journalFile)
+522	fileSystem.exists(journalFile)
+523	maxSize <= 0
+524	valueCount <= 0
+525	Integer.toString(appVersion).equals(appVersionString)
+525	"".equals(blank)
+525	MAGIC.equals(magic)
+525	Integer.toString(valueCount).equals(valueCountString)
+525	VERSION_1.equals(version)
+526	source.exhausted()
+527	firstSpace == -1
+528	secondSpace == -1
+529	line.startsWith(REMOVE)
+529	firstSpace == REMOVE.length()
+530	entry == null
+531	secondSpace != -1
+531	line.startsWith(CLEAN)
+531	firstSpace == CLEAN.length()
+532	secondSpace == -1
+532	line.startsWith(DIRTY)
+532	firstSpace == DIRTY.length()
+533	secondSpace == -1
+533	firstSpace == READ.length()
+533	line.startsWith(READ)
+534	entry.currentEditor == null
+535	journalWriter != null
+536	entry.currentEditor != null
+537	fileSystem.exists(journalFile)
+538	entry == null
+538	entry.readable
+539	snapshot == null
+540	journalRebuildRequired()
+541	entry.sequenceNumber != expectedSequenceNumber
+541	expectedSequenceNumber != ANY_SEQUENCE_NUMBER
+541	entry == null
+542	entry != null
+542	entry.currentEditor != null
+543	mostRecentRebuildFailed
+543	mostRecentTrimFailed
+544	hasJournalErrors
+545	entry == null
+546	initialized
+547	entry.currentEditor != editor
+548	success
+548	entry.readable
+549	editor.written[i]
+550	fileSystem.exists(entry.dirtyFiles[i])
+551	success
+552	fileSystem.exists(dirty)
+553	entry.readable | success
+554	success
+555	size > maxSize
+555	journalRebuildRequired()
+556	entry == null
+557	size <= maxSize
+557	removed
+558	entry.currentEditor != null
+559	journalRebuildRequired()
+560	isClosed()
+561	initialized
+562	initialized
+562	closed
+563	entry.currentEditor != null
+564	matcher.matches()
+857	executorService == null
+858	maxRequests < 1
+859	maxRequestsPerHost < 1
+860	runningAsyncCalls.size() < maxRequests
+860	runningCallsForHost(call) < maxRequestsPerHost
+861	runningAsyncCalls.size() >= maxRequests
+862	readyAsyncCalls.isEmpty()
+863	runningCallsForHost(call) < maxRequestsPerHost
+864	runningAsyncCalls.size() >= maxRequests
+865	c.host().equals(call.host())
+866	calls.remove(call)
+867	promoteCalls
+868	runningCallsCount == 0
+868	idleCallback != null
+650	pos == length
+651	pos >= length
+652	chars[pos] == ' '
+653	chars[pos] != '='
+653	pos == length
+654	chars[beg + 1] == 'i'
+654	chars[beg + 1] == 'I'
+654	end - beg > 4
+654	chars[beg + 3] == '.'
+654	chars[beg] == 'O'
+654	chars[beg] == 'o'
+654	chars[beg + 2] == 'd'
+654	chars[beg + 2] == 'D'
+655	pos == length
+656	chars[pos] == '"'
+657	chars[pos] == '\\'
+658	pos + 4 >= length
+659	chars[pos] == ','
+659	pos == length
+659	chars[pos] == '+'
+659	chars[pos] == ';'
+660	chars[pos] == ' '
+661	chars[pos] >= 'A'
+661	chars[pos] <= 'F'
+662	hexLen < 5
+662	(hexLen & 1) == 0
+663	pos >= length
+664	chars[pos] == ';'
+664	pos == length
+664	chars[pos] == ','
+664	chars[pos] == '+'
+665	pos == length
+666	res < 128
+667	res <= 247
+667	res >= 192
+668	res <= 223
+669	res <= 239
+670	chars[pos] != '\\'
+670	pos == length
+671	(b & 0xC0) != 0x80
+672	position + 1 >= length
+673	b1 <= '9'
+673	b1 >= '0'
+674	b1 >= 'a'
+674	b1 <= 'f'
+675	b1 <= 'F'
+675	b1 >= 'A'
+676	b2 <= '9'
+676	b2 >= '0'
+677	b2 <= 'f'
+677	b2 >= 'a'
+678	b2 <= 'F'
+678	b2 >= 'A'
+679	attType == null
+680	pos == length
+681	attributeType.equalsIgnoreCase(attType)
+682	pos >= length
+683	chars[pos] == ';'
+683	chars[pos] == ','
+684	chars[pos] != '+'
+685	attType == null
+583	hasErrors
+584	hasErrors
+585	hasErrors
+270	byteCount < 0
+270	byteCount > source.size()
+271	byteCount < 0
+272	fileChannel.read(byteBuffer, pos) == -1
+869	countBytes
+870	i > 0
+871	countBytes
+760	cipherSuiteString == null
+761	tlsVersionString == null
+762	cipherSuite == null
+763	other instanceof Handshake
+516	other instanceof Header
+749	name.equalsIgnoreCase(name(i))
+750	result == null
+751	values == null
+752	name.equalsIgnoreCase(namesAndValues[i])
+753	namesAndValues == null
+754	namesAndValues.length % 2 != 0
+755	namesAndValues[i] == null
+756	value.indexOf('\0') != -1
+756	name.length() == 0
+756	name.indexOf('\0') != -1
+757	headers == null
+758	header.getValue() == null
+758	header.getKey() == null
+759	name.length() == 0
+759	value.indexOf('\0') != -1
+759	name.indexOf('\0') != -1
+517	result.containsKey(STATIC_HEADER_TABLE[i].name)
+518	c <= 'Z'
+518	c >= 'A'
+276	"chunked".equalsIgnoreCase(request.header("Transfer-Encoding"))
+277	contentLength != -1
+278	connection != null
+279	HttpHeaders.hasBody(response)
+280	"chunked".equalsIgnoreCase(response.header("Transfer-Encoding"))
+281	contentLength != -1
+282	state != STATE_IDLE
+283	state != STATE_READ_RESPONSE_HEADERS
+283	state != STATE_OPEN_REQUEST_BODY
+284	statusLine.code == HTTP_CONTINUE
+284	expectContinue
+285	state != STATE_OPEN_REQUEST_BODY
+286	state != STATE_OPEN_REQUEST_BODY
+287	state != STATE_OPEN_RESPONSE_BODY
+288	state != STATE_OPEN_RESPONSE_BODY
+289	state != STATE_OPEN_RESPONSE_BODY
+290	streamAllocation == null
+511	flags == 0
+512	(flags & FLAG_END_PUSH_PROMISE) != 0
+512	type == TYPE_PUSH_PROMISE
+513	type == TYPE_DATA
+513	(flags & FLAG_COMPRESSED) != 0
+501	stream != null
+502	Internal.instance.code(responseBuilder) == HTTP_CONTINUE
+502	expectContinue
+503	host != null
+504	HTTP_2_SKIPPED_REQUEST_HEADERS.contains(name)
+505	header == null
+506	statusLine != null
+506	statusLine.code == HTTP_CONTINUE
+507	name.equals(RESPONSE_STATUS)
+508	HTTP_2_SKIPPED_RESPONSE_HEADERS.contains(name)
+509	statusLine == null
+510	stream != null
+450	builder.client
+451	builder.client
+452	client
+453	shutdown
+454	stream.isOpen()
+455	associatedStreamId == 0
+456	client
+457	flushHeaders
+458	byteCount == 0
+459	streams.containsKey(streamId)
+460	delta > 0
+461	shutdown
+462	pings == null
+463	ping != null
+464	shutdown
+465	streams.isEmpty()
+466	pings != null
+467	streamsToClose != null
+468	thrown != null
+469	pingsToCancel != null
+470	thrown == null
+471	thrown != null
+472	sendConnectionPreface
+473	windowSize != Settings.DEFAULT_INITIAL_WINDOW_SIZE
+474	shutdown
+475	currentPushRequests.contains(streamId)
+476	buffer.size() != byteCount
+416	client
+417	nextFrame(true, handler)
+418	logger.isLoggable(FINE)
+419	CONNECTION_PREFACE.equals(connectionPreface)
+420	length < 0
+420	length > INITIAL_MAX_FRAME_SIZE
+421	requireSettings
+421	type != TYPE_SETTINGS
+422	logger.isLoggable(FINE)
+423	streamId == 0
+424	(flags & FLAG_PRIORITY) != 0
+425	streamId == 0
+426	gzipped
+427	length != 5
+428	streamId == 0
+429	length != 4
+430	streamId == 0
+431	errorCode == null
+432	streamId != 0
+433	(flags & FLAG_ACK) != 0
+434	length != 0
+435	length % 6 != 0
+436	value != 0
+436	value != 1
+437	value < 0
+438	value < INITIAL_MAX_FRAME_SIZE
+438	value > 16777215
+439	streamId == 0
+440	length != 8
+441	streamId != 0
+442	length < 8
+443	streamId != 0
+444	errorCode == null
+445	opaqueDataLength > 0
+446	length != 4
+447	increment == 0
+448	(flags & FLAG_PADDED) != 0
+449	padding > length
+477	connection == null
+478	requestHeaders == null
+479	errorCode != null
+480	sink.closed
+480	sink.finished
+480	source.finished
+480	source.closed
+480	hasResponseHeaders
+481	isLocallyInitiated()
+482	result != null
+483	responseHeaders == null
+484	out
+485	outFinished
+486	hasResponseHeaders
+486	isLocallyInitiated()
+487	closeInternal(rstStatusCode)
+488	closeInternal(errorCode)
+489	this.errorCode != null
+490	sink.finished
+490	source.finished
+491	responseHeaders == null
+492	open
+493	open
+494	this.errorCode == null
+495	cancel
+496	open
+497	delta > 0
+498	sink.closed
+499	sink.finished
+500	errorCode != null
+379	closed
+380	client
+381	logger.isLoggable(FINE)
+382	closed
+383	peerSettings.getHeaderTableSize() != -1
+384	closed
+385	byteCount > length
+386	closed
+387	closed
+388	closed
+389	closed
+390	closed
+391	errorCode.httpCode == -1
+392	closed
+393	outFinished
+394	byteCount > 0
+395	closed
+396	settings.isSet(i)
+397	id == 4
+398	id == 7
+399	closed
+400	closed
+401	errorCode.httpCode == -1
+402	debugData.length > 0
+403	closed
+404	windowSizeIncrement == 0
+404	windowSizeIncrement > 0x7fffffffL
+405	logger.isLoggable(FINE)
+406	length > maxFrameSize
+407	(streamId & 0x80000000) != 0
+408	closed
+409	outFinished
+410	byteCount > length
+194	value.length() == 0
+195	position.getIndex() == value.length()
+196	format == null
+197	position.getIndex() != 0
+158	s == null
+159	equal(cachedRequest.values(field), newRequest.headers(field))
+160	"Vary".equalsIgnoreCase(responseHeaders.name(i))
+161	result.isEmpty()
+162	varyFields.isEmpty()
+163	varyFields.contains(fieldName)
+164	index == -1
+165	header.regionMatches(true, matcher.start(1), "realm", 0, 5)
+166	realm != null
+167	cookieJar == CookieJar.NO_COOKIES
+168	cookies.isEmpty()
+169	response.request().method().equals("HEAD")
+170	responseCode != HTTP_NOT_MODIFIED
+170	responseCode != HTTP_NO_CONTENT
+170	responseCode < HTTP_CONTINUE
+170	responseCode >= 200
+171	"chunked".equalsIgnoreCase(response.header("Transfer-Encoding"))
+171	contentLength(response) != -1
+172	characters.indexOf(input.charAt(pos)) != -1
+173	c != ' '
+173	c != '\t'
+174	seconds > Integer.MAX_VALUE
+175	seconds < 0
+30	username.isEmpty()
+31	password.isEmpty()
+32	scheme.equals("http")
+33	scheme.equals("https")
+34	queryNamesAndValues == null
+35	i > 0
+36	value != null
+37	ampersandOffset == -1
+38	equalsOffset == -1
+38	equalsOffset > ampersandOffset
+39	queryNamesAndValues == null
+40	queryNamesAndValues == null
+41	name.equals(queryNamesAndValues.get(i))
+42	queryNamesAndValues == null
+43	queryNamesAndValues == null
+44	name.equals(queryNamesAndValues.get(i))
+45	queryNamesAndValues == null
+46	queryNamesAndValues == null
+47	fragment == null
+48	plusIsSpace
+48	c == '+'
+48	c == '%'
+49	i + 2 < limit
+49	codePoint == '%'
+50	d2 != -1
+50	d1 != -1
+51	codePoint == '+'
+51	plusIsSpace
+52	c >= '0'
+52	c <= '9'
+53	c <= 'f'
+53	c >= 'a'
+54	c >= 'A'
+54	c <= 'F'
+55	codePoint < 0x20
+55	codePoint >= 0x80
+55	asciiOnly
+55	encodeSet.indexOf(codePoint) != -1
+55	codePoint == '+'
+55	alreadyEncoded
+55	codePoint == 0x7f
+55	plusIsSpace
+55	strict
+55	percentEncoded(input, i, limit)
+55	codePoint == '%'
+56	codePoint == '\f'
+56	alreadyEncoded
+56	codePoint == '\t'
+56	codePoint == '\r'
+56	codePoint == '\n'
+57	plusIsSpace
+57	codePoint == '+'
+58	asciiOnly
+58	codePoint == 0x7f
+58	codePoint >= 0x80
+58	percentEncoded(input, i, limit)
+58	codePoint == '%'
+58	strict
+58	codePoint < 0x20
+58	encodeSet.indexOf(codePoint) != -1
+58	alreadyEncoded
+59	utf8Buffer == null
+411	n > 0
+412	node.children == null
+413	node.terminalBits > nbits
+413	node.children != null
+414	current.children == null
+415	current.children[i] == null
+259	protocol.equals("")
+259	protocol == null
+269	provider.unsupported
+269	provider.selected == null
+789	typeSubtype.lookingAt()
+790	parameter.lookingAt()
+791	name.equalsIgnoreCase("charset")
+791	name == null
+792	token != null
+793	charsetParameter.equalsIgnoreCase(charset)
+793	charset != null
+776	result != -1L
+777	countBytes
+778	headers != null
+779	contentType != null
+780	contentLength != -1
+781	countBytes
+782	countBytes
+783	countBytes
+631	ipAddress.equalsIgnoreCase(altNames.get(i))
+632	verifyHostname(hostname, altNames.get(i))
+633	hasDns
+634	cn != null
+635	subjectAltNames == null
+636	entry.size() < 2
+636	entry == null
+637	altNameType == null
+638	altNameType == type
+639	altName != null
+640	hostname.startsWith(".")
+640	hostname.endsWith("..")
+640	hostname.length() == 0
+640	hostname == null
+641	pattern.length() == 0
+641	pattern.endsWith("..")
+641	pattern == null
+641	pattern.startsWith(".")
+642	hostname.endsWith(".")
+643	pattern.endsWith(".")
+644	pattern.contains("*")
+645	pattern.indexOf('*', 1) != -1
+645	pattern.startsWith("*.")
+646	hostname.length() < pattern.length()
+647	"*.".equals(pattern)
+648	hostname.endsWith(suffix)
+649	hostname.lastIndexOf('.', suffixStartIndexInHostname - 1) != -1
+649	suffixStartIndexInHostname > 0
+693	builder.sslSocketFactory != null
+693	isTLS
+694	trustManagers.length != 1
+694	trustManagers[0] instanceof X509TrustManager
+252	m == null
+253	targetException instanceof RuntimeException
+254	m == null
+255	targetException instanceof RuntimeException
+256	methodName != null
+257	method != null
+257	returnType != null
+257	returnType.isAssignableFrom(method.getReturnType())
+258	(method.getModifiers() & Modifier.PUBLIC) == 0
+375	sent != -1
+376	sent == -1
+376	received != -1
+377	sent == -1
+377	received != -1
+378	latch.await(timeout, unit)
+241	context == null
+242	logger.isLoggable(Level.FINE)
+243	stackTrace == null
+244	protocol == Protocol.HTTP_1_0
+245	android != null
+246	jdk9 != null
+247	jdkWithJettyBoot != null
+248	protocol == Protocol.HTTP_1_0
+249	fieldType.isInstance(value)
+249	value == null
+250	fieldName.equals("delegate")
+251	delegate != null
+586	domain == null
+587	domainLabels.length == rule.length
+587	rule[0].charAt(0) != EXCEPTION_MARKER
+588	rule[0].charAt(0) == EXCEPTION_MARKER
+589	listRead.get()
+589	listRead.compareAndSet(false, true)
+590	publicSuffixListBytes == null
+591	rule != null
+592	domainLabelsUtf8Bytes.length > 1
+593	rule != null
+594	wildcardMatch != null
+595	rule != null
+596	exception != null
+597	wildcardMatch == null
+597	exactMatch == null
+598	expectDot
+599	compareResult != 0
+600	publicSuffixByteIndex == publicSuffixLength
+601	labels[currentLabelIndex].length == currentLabelByteIndex
+602	currentLabelIndex == labels.length - 1
+603	compareResult < 0
+604	compareResult > 0
+605	labelBytesLeft < publicSuffixBytesLeft
+606	labelBytesLeft > publicSuffixBytesLeft
+607	is != null
+14	executed
+15	result == null
+16	executed
+17	forWebSocket
+92	protocol != null
+93	route.address().sslSocketFactory() == null
+94	connectionSpecs.contains(ConnectionSpec.CLEARTEXT)
+95	Platform.get().isCleartextTrafficPermitted(host)
+96	route.requiresTunnel()
+97	routeException == null
+98	connectionRetryEnabled
+98	connectionSpecSelector.connectionFailed(e)
+99	http2Connection != null
+100	++attemptedConnections > maxAttempts
+101	tunnelRequest == null
+102	route.address().sslSocketFactory() == null
+103	protocol == Protocol.HTTP_2
+104	connectionSpec.supportsTlsExtensions()
+105	address.hostnameVerifier().verify(address.url().host(), sslSocket.getSession())
+106	Util.isAndroidGetsocknameError(e)
+107	sslSocket != null
+108	success
+109	contentLength == -1L
+110	sink.buffer().exhausted()
+110	source.buffer().exhausted()
+111	tunnelRequest == null
+112	"close".equalsIgnoreCase(response.header("Connection"))
+113	noNewStreams
+113	allocations.size() >= allocationLimit
+114	Internal.instance.equalsNonHost(this.route.address(), address)
+115	address.url().host().equals(this.route().address().url().host())
+116	http2Connection == null
+117	route == null
+118	route.proxy().type() != Proxy.Type.DIRECT
+119	this.route.proxy().type() != Proxy.Type.DIRECT
+120	this.route.socketAddress().equals(route.socketAddress())
+121	route.address().hostnameVerifier() != OkHostnameVerifier.INSTANCE
+122	supportsUrl(address.url())
+123	url.port() != route.address().url().port()
+124	url.host().equals(route.address().url().host())
+125	http2Connection != null
+126	socket.isOutputShutdown()
+126	socket.isInputShutdown()
+126	socket.isClosed()
+127	http2Connection != null
+128	doExtensiveChecks
+129	source.exhausted()
+153	index >= interceptors.size()
+154	this.httpCodec != null
+154	this.connection.supportsUrl(request.url())
+155	this.httpCodec != null
+155	calls > 1
+156	next.calls != 1
+156	index + 1 < interceptors.size()
+156	httpCodec != null
+157	response == null
+339	"GET".equals(request.method())
+340	response.code() != 101
+341	"Upgrade".equalsIgnoreCase(headerConnection)
+342	"websocket".equalsIgnoreCase(headerUpgrade)
+343	acceptExpected.equals(headerAccept)
+344	pingIntervalMillis != 0
+345	messageAndCloseQueue.isEmpty()
+346	cancelFuture != null
+347	failed
+347	enqueuedClose
+347	messageAndCloseQueue.isEmpty()
+348	code == -1
+349	receivedCloseCode != -1
+350	messageAndCloseQueue.isEmpty()
+350	enqueuedClose
+351	cancelFuture != null
+352	toClose != null
+353	text == null
+354	bytes == null
+355	enqueuedClose
+355	failed
+356	queueSize + data.size() > MAX_QUEUE_SIZE
+357	enqueuedClose
+357	failed
+357	messageAndCloseQueue.isEmpty()
+358	reason != null
+359	reasonBytes.size() > CLOSE_MESSAGE_MAX
+360	failed
+360	enqueuedClose
+361	executor != null
+362	failed
+363	pong == null
+364	messageOrClose instanceof Close
+365	receivedCloseCode != -1
+366	messageOrClose == null
+367	pong != null
+368	messageOrClose instanceof Message
+369	messageOrClose instanceof Close
+370	streamsToClose != null
+371	failed
+372	failed
+373	cancelFuture != null
+374	executor != null
+273	prefix.equals(PREFIX_CLEAN)
+274	header.size() != FILE_HEADER_SIZE
+275	file == null
+794	contentType != null
+795	charset == null
+796	content == null
+797	file == null
+152	includeAuthorityInRequestLine(request, proxyType)
+27	copy.size() > byteCount
+28	code == HTTP_UNAUTHORIZED
+29	code == HTTP_PROXY_AUTH
+784	contentLength > Integer.MAX_VALUE
+785	contentLength != -1
+785	contentLength != bytes.length
+786	contentType != null
+787	charset == null
+788	content == null
+207	streamAllocation != null
+208	canceled
+209	recover(e.getLastConnectException(), false, request)
+210	recover(e, requestSendStarted, request)
+211	releaseConnection
+212	priorResponse != null
+213	followUp == null
+214	forWebSocket
+215	++followUpCount > MAX_FOLLOW_UPS
+216	followUp.body() instanceof UnrepeatableRequestBody
+217	sameConnection(response, followUp.url())
+218	streamAllocation.codec() != null
+219	url.isHttps()
+220	client.retryOnConnectionFailure()
+221	userRequest.body() instanceof UnrepeatableRequestBody
+221	requestSendStarted
+222	isRecoverable(e, requestSendStarted)
+223	streamAllocation.hasMoreRoutes()
+224	e instanceof ProtocolException
+225	e instanceof InterruptedIOException
+226	e instanceof SSLHandshakeException
+227	e.getCause() instanceof CertificateException
+228	e instanceof SSLPeerUnverifiedException
+229	userResponse == null
+230	selectedProxy.type() != Proxy.Type.HTTP
+231	method.equals("GET")
+231	method.equals("HEAD")
+232	client.followRedirects()
+233	location == null
+234	url == null
+235	client.followSslRedirects()
+235	sameScheme
+236	HttpMethod.permitsRequestBody(method)
+237	HttpMethod.redirectsToGet(method)
+238	maintainBody
+239	sameConnection(userResponse, url)
+240	userResponse.request().body() instanceof UnrepeatableRequestBody
+853	address == null
+854	proxy == null
+855	inetSocketAddress == null
+856	obj instanceof Route
+60	addSuppressedExceptionMethod != null
+139	hasNextInetSocketAddress()
+140	hasNextProxy()
+141	hasNextPostponed()
+142	routeDatabase.shouldPostpone(route)
+143	failedRoute.proxy().type() != Proxy.Type.DIRECT
+143	address.proxySelector() != null
+144	proxy != null
+145	hasNextProxy()
+146	proxy.type() == Proxy.Type.DIRECT
+146	proxy.type() == Proxy.Type.SOCKS
+147	proxyAddress instanceof InetSocketAddress
+148	socketPort < 1
+148	socketPort > 65535
+149	proxy.type() == Proxy.Type.SOCKS
+150	address == null
+151	hasNextInetSocketAddress()
+514	id >= values.length
+515	other.isSet(i)
+198	statusLine.startsWith("HTTP/1.")
+199	statusLine.length() < 9
+199	statusLine.charAt(8) != ' '
+200	httpMinorVersion == 0
+201	httpMinorVersion == 1
+202	statusLine.startsWith("ICY ")
+203	statusLine.length() < codeStart + 3
+204	statusLine.length() > codeStart + 3
+205	statusLine.charAt(codeStart + 3) != ' '
+206	message != null
+61	candidate.successCount == 0
+62	candidate.isHealthy(doExtensiveHealthChecks)
+63	released
+64	codec != null
+65	canceled
+66	allocatedConnection.noNewStreams
+66	allocatedConnection != null
+67	connection != null
+68	selectedRoute == null
+69	canceled
+70	connection != null
+71	result.isMultiplexed()
+72	codec != this.codec
+72	codec == null
+73	noNewStreams
+74	streamFinished
+75	released
+76	connection != null
+77	noNewStreams
+78	connection.noNewStreams
+78	this.codec == null
+78	this.released
+79	connection.allocations.isEmpty()
+80	Internal.instance.connectionBecameIdle(connectionPool, connection)
+81	codecToCancel != null
+82	connectionToCancel != null
+83	e instanceof StreamResetException
+84	streamResetException.errorCode == ErrorCode.REFUSED_STREAM
+85	refusedStreamCount > 1
+85	streamResetException.errorCode != ErrorCode.REFUSED_STREAM
+86	connection != null
+86	connection.isMultiplexed()
+86	e instanceof ConnectionShutdownException
+87	connection.successCount == 0
+88	route != null
+88	e != null
+89	this.connection != null
+90	reference.get() == this
+91	connection.allocations.size() != 1
+91	codec != null
+608	arrayLength - offset < count
+608	(offset | count) < 0
+608	offset > arrayLength
+609	closeable != null
+610	socket != null
+611	isAndroidGetsocknameError(e)
+612	serverSocket != null
+613	originalDuration == Long.MAX_VALUE
+614	comparator.compare(a, b) == 0
+615	first == null
+615	second == null
+615	first.length == 0
+615	second.length == 0
+616	comparator.compare(a, b) == 0
+617	c > '\u001f'
+617	c < '\u007f'
+618	comparator.compare(array[i], value) == 0
+619	delimiters.indexOf(input.charAt(i)) != -1
+620	input.charAt(i) == delimiter
+621	result.isEmpty()
+622	containsInvalidHostnameAsciiCodes(result)
+623	c >= '\u007f'
+623	c <= '\u001f'
+624	" #%/:?@[\\]".indexOf(c) != -1
+625	c >= '\u007f'
+625	c <= '\u001f'
+626	source.rangeEquals(0, UTF_8_BOM)
+627	source.rangeEquals(0, UTF_16_BE_BOM)
+628	source.rangeEquals(0, UTF_16_LE_BOM)
+629	source.rangeEquals(0, UTF_32_BE_BOM)
+630	source.rangeEquals(0, UTF_32_LE_BOM)
+291	code < 1000
+291	code >= 5000
+292	code >= 1012
+292	code >= 1004
+292	code <= 2999
+292	code <= 1006
+293	message != null
+310	source == null
+311	frameCallback == null
+312	isControlFrame
+313	closed
+314	isControlFrame
+314	isFinalFrame
+315	reservedFlag1
+315	reservedFlag2
+315	reservedFlag3
+316	isMasked == isClient
+317	frameLength == PAYLOAD_SHORT
+318	frameLength == PAYLOAD_LONG
+319	frameLength < 0
+320	frameLength > PAYLOAD_BYTE_MAX
+320	isControlFrame
+321	isMasked
+322	frameBytesRead < frameLength
+323	isClient
+324	read == -1
+325	bufferSize == 1
+326	bufferSize != 0
+327	codeExceptionMessage != null
+328	opcode != OPCODE_TEXT
+328	opcode != OPCODE_BINARY
+329	opcode == OPCODE_TEXT
+330	isControlFrame
+331	closed
+332	frameBytesRead == frameLength
+333	isFinalFrame
+334	opcode != OPCODE_CONTINUATION
+335	frameLength == 0
+335	isFinalFrame
+336	isMasked
+337	read == -1
+338	read == -1
+294	sink == null
+295	random == null
+296	code != 0
+296	reason != null
+297	code != 0
+298	reason != null
+299	writerClosed
+300	length > PAYLOAD_BYTE_MAX
+301	isClient
+302	activeWriter
+303	writerClosed
+304	isFinal
+305	isClient
+306	byteCount <= PAYLOAD_BYTE_MAX
+307	byteCount <= PAYLOAD_SHORT_MAX
+308	isClient
+309	read == -1
