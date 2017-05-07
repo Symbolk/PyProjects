@@ -8,7 +8,7 @@ import os
 import datetime
 from sklearn.metrics import accuracy_score
 
-def predict(data_file_path, model_file_path, result_file_path, output_path, feature_num, classes, x_encoders, y_encoder):
+def predict(data_file_path, model_file_path, result_file_path, output_path, summary_file, feature_num, classes, x_encoders, y_encoder):
     start_time = datetime.datetime.now()
     data_file_name = data_file_path.split('/')[-1][0:-4]
 
@@ -26,7 +26,6 @@ def predict(data_file_path, model_file_path, result_file_path, output_path, feat
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     ## save the summary results in one file
-    summary_file = output_path + 'summary.csv'
 
     # load the testing data from file
     # testing_file = data_file_path[0:-4] + '_test.csv'
@@ -131,7 +130,7 @@ def predict(data_file_path, model_file_path, result_file_path, output_path, feat
     accuracy10 = (float(right10) / len(X_test) * 100.0)
     print('Precision: %.3f%%' % accuracy10)
 
-
+    ## sum up the results in the summary_file
     with open(summary_file, 'a+') as f:
         f.write('%s,' % X_test.shape[0])
         f.write('{},'.format(right1))
@@ -154,6 +153,7 @@ def predict(data_file_path, model_file_path, result_file_path, output_path, feat
     pyplot.show()
 
     # xgb.plot_importance(model)
+    # xgb.plot_tree(model, num_trees=2)
 
     end_time = datetime.datetime.now()
     run_time = end_time - start_time

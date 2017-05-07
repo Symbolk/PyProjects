@@ -15,7 +15,7 @@ def run_expr(params):
 
 
     # store vital info in the summary file
-    summary_file = params['output_path'] + 'summary.csv'
+    summary_file = params['output_path'] + 'summary_expr.csv'
     if not os.path.exists(summary_file):
         # write the header only once
         with open(summary_file, 'a+') as f:
@@ -35,7 +35,7 @@ def run_expr(params):
     # train the model
     # train(frequent_file_path, model_saved_path, feature_num, 'multi:softprob', class_num)
     # predict
-    predict(data_file_path, model_saved_path, result_path, params['output_path'], feature_num, classes, x_encoders, y_encoder)
+    predict(data_file_path, model_saved_path, result_path, params['output_path'], summary_file, feature_num, classes, x_encoders, y_encoder)
     # run_gen_exprs(params, y_encoder)
 
 if __name__ == '__main__':

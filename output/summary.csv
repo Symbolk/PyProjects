@@ -1,3 +1,0 @@
-time, project_bugid, #classes, #samples, frequency, #frequent_classes, #frequent_samples, #test_samples, #top1, p(top1), #top5, p(top5), #top10, p(top10)
-2017-05-06 13:27:39.715829,okhttp_,912,1595,0,912,1595,1595,315,19.749%,480,30.094%,547,34.295%
-2017-05-06 13:27:54.603071,RxJava_,576,2209,0,576,2209,2209,763,34.541%,1175,53.191%,1395,63.151%

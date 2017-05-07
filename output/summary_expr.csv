@@ -1,0 +1,2 @@
+time, project_bugid, #classes, #samples, frequency, #frequent_classes, #frequent_samples, #test_samples, #top1, p(top1), #top5, p(top5), #top10, p(top10)
+2017-05-07 11:04:08.329502,RxJava_,576,2209,0,576,2209,2209,763,34.541%,1175,53.191%,1395,63.151%
