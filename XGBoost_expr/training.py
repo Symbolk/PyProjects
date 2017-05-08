@@ -75,9 +75,9 @@ def train(data_file_path, model_file_path, feature_num, training_objective, clas
 
     watchlist = [(M_train, 'train'), (M_valid, 'eval')]
     model = xgb.Booster()
-    # model = xgb.train(params, M_train, num_boost_round=num_round, evals=watchlist,
-    #                 early_stopping_rounds=early_stop, learning_rates=learning_rates)
-    model = xgb.train(params, M_train, evals=watchlist)
+    model = xgb.train(params, M_train, num_boost_round=num_round, evals=watchlist,
+                    early_stopping_rounds=early_stop, learning_rates=learning_rates)
+    # model = xgb.train(params, M_train, evals=watchlist)
     # print(model.predict(M_valid))
 
     ### do cv with the func

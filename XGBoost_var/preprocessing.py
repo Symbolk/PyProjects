@@ -77,6 +77,17 @@ def preprocess(summary_file, data_file_path, feature_num):
 
     ### get all the encoded pos examples and
     # the row indexes in raw file and encoded file are the same haha
+
+    p_num = 0
+    n_num = 0
+    for i in range(Y.shape[0]):
+        if Y[i] == '1':
+            p_num+=1
+        elif Y[i] == '0':
+            n_num+=1
+    print('Positive examples : {}'.format(p_num))
+    print('Negative examples : {}'.format(n_num))
+
     if not os.path.exists(testing_file):
         p_num = 0
         n_num = 0
@@ -105,8 +116,6 @@ def preprocess(summary_file, data_file_path, feature_num):
                             f.write('%s,'%x)
                         f.write('\n')
 
-        print('Positive examples : {}'.format(p_num))
-        print('Negative examples : {}'.format(n_num))
 
     with open(summary_file, 'a+') as f:
         f.write('%s,' % class_num)

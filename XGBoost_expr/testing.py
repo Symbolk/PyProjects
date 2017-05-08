@@ -125,10 +125,10 @@ def predict(data_file_path, model_file_path, result_file_path, output_path, summ
 
     print('Right in top5: %d' % right5)
     accuracy5 = (float(right5) / len(X_test) * 100.0)
-    print('Precision: %.3f%%' % accuracy5)
+    print('Precision(top5): %.3f%%' % accuracy5)
     print('Right in top10: %d' % right10)
     accuracy10 = (float(right10) / len(X_test) * 100.0)
-    print('Precision: %.3f%%' % accuracy10)
+    print('Precision(top10): %.3f%%' % accuracy10)
 
     ## sum up the results in the summary_file
     with open(summary_file, 'a+') as f:

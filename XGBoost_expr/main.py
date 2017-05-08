@@ -33,7 +33,7 @@ def run_expr(params):
     class_num = len(classes)
 
     # train the model
-    # train(frequent_file_path, model_saved_path, feature_num, 'multi:softprob', class_num)
+    train(frequent_file_path, model_saved_path, feature_num, 'multi:softprob', class_num)
     # predict
     predict(data_file_path, model_saved_path, result_path, params['output_path'], summary_file, feature_num, classes, x_encoders, y_encoder)
     # run_gen_exprs(params, y_encoder)
@@ -44,7 +44,7 @@ if __name__ == '__main__':
         'project':'RxJava',
         'bugid':'',
         'type': 'expr',
-        'expr_frequency': 0,
+        'expr_frequency': 1,
         'model_path': '../model/',
         'input_path':'../input/',
         'output_path':'../output/',

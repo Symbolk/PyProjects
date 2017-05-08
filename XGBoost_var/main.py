@@ -26,7 +26,7 @@ def run_var(params):
     # preprocess, encode
     x_encoders, y_encoder = preprocess(summary_file, data_file_path, feature_num)
     # train the model
-    # train(data_file_path, model_saved_path, feature_num, 'binary:logistic')
+    train(data_file_path, model_saved_path, feature_num, 'binary:logistic')
     # predict
     predict(data_file_path,model_saved_path, result_path, params['output_path'], summary_file, feature_num, x_encoders, y_encoder)
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
         'project': 'RxJava',
         'bugid': '',
         'type': 'expr',
-        'expr_frequency': 0,
+        'expr_frequency': 1,
         'model_path': '../model/',
         'input_path': '../input/',
         'output_path': '../output/',
