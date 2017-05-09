@@ -1,0 +1,68 @@
+Training set size: (5046,)
+Validation set size: (561,)
+Preprossing finished, time cost : 0:00:00.436700
+Data splited and saved in ../input/chart/expr/chart_26.expr_train.csv and ../input/chart/expr/chart_26.expr_valid.csv
+Training data size: (5607, 7)
+Validating data size: (561, 7)
+Training the model...
+[0]	train-merror:0.833601	eval-merror:0.846702
+Multiple eval metrics have been passed: 'eval-merror' will be used for early stopping.
+
+Will train until eval-merror hasn't improved in 10 rounds.
+[1]	train-merror:0.833601	eval-merror:0.846702
+[2]	train-merror:0.833601	eval-merror:0.846702
+[3]	train-merror:0.833601	eval-merror:0.846702
+[4]	train-merror:0.833601	eval-merror:0.846702
+[5]	train-merror:0.808632	eval-merror:0.836007
+[6]	train-merror:0.749599	eval-merror:0.775401
+[7]	train-merror:0.730337	eval-merror:0.762923
+[8]	train-merror:0.720171	eval-merror:0.746881
+[9]	train-merror:0.711432	eval-merror:0.73975
+[10]	train-merror:0.708757	eval-merror:0.734403
+[11]	train-merror:0.703585	eval-merror:0.73262
+[12]	train-merror:0.702158	eval-merror:0.73262
+[13]	train-merror:0.700375	eval-merror:0.73262
+[14]	train-merror:0.700018	eval-merror:0.73262
+[15]	train-merror:0.698948	eval-merror:0.73262
+[16]	train-merror:0.699304	eval-merror:0.734403
+[17]	train-merror:0.697699	eval-merror:0.729055
+[18]	train-merror:0.698056	eval-merror:0.729055
+[19]	train-merror:0.696986	eval-merror:0.727273
+[20]	train-merror:0.696986	eval-merror:0.727273
+[21]	train-merror:0.696629	eval-merror:0.727273
+[22]	train-merror:0.695916	eval-merror:0.72549
+[23]	train-merror:0.696272	eval-merror:0.72549
+[24]	train-merror:0.696094	eval-merror:0.72549
+[25]	train-merror:0.696094	eval-merror:0.72549
+[26]	train-merror:0.696094	eval-merror:0.72549
+[27]	train-merror:0.695737	eval-merror:0.72549
+[28]	train-merror:0.635812	eval-merror:0.657754
+[29]	train-merror:0.632959	eval-merror:0.655971
+[30]	train-merror:0.632067	eval-merror:0.655971
+[31]	train-merror:0.631532	eval-merror:0.655971
+[32]	train-merror:0.63171	eval-merror:0.655971
+[33]	train-merror:0.63171	eval-merror:0.655971
+[34]	train-merror:0.63171	eval-merror:0.655971
+[35]	train-merror:0.63064	eval-merror:0.655971
+[36]	train-merror:0.630462	eval-merror:0.655971
+[37]	train-merror:0.630462	eval-merror:0.655971
+[38]	train-merror:0.630997	eval-merror:0.659537
+[39]	train-merror:0.630284	eval-merror:0.655971
+Stopping. Best iteration:
+[29]	train-merror:0.632959	eval-merror:0.655971
+
+Model saved in ../model/chart_26.expr_model.pkl
+Training fininshed, time cost : 8:22:43.143515
+../model/chart_26.expr_model.pkl
+../output/chart/expr
+Testing set size: (5607, 7)
+Model loaded from ../model/chart_26.expr_model.pkl
+<xgboost.core.Booster object at 0x7f5f2bae08d0>
+Right at top1: 2073
+Accuracy(top1): 36.972%
+Right in top5: 2600
+Precision(top5): 46.371%
+Right in top10: 3184
+Precision(top10): 56.786%
+Testing results saved in ../output/chart/expr/chart_26.expr_results.csv
+

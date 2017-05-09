@@ -1,0 +1,1601 @@
+id	oracle
+1025	f != DISPOSED
+1025	f != FINISHED
+1026	compareAndSet(f, DISPOSED)
+1027	f != null
+1028	f == FINISHED
+1029	f == DISPOSED
+1030	compareAndSet(f, future)
+340	o == c
+341	o == null
+342	consumer.test((T)o)
+343	o == null
+344	NotificationLite.acceptFull(o, subscriber)
+345	o == null
+346	NotificationLite.acceptFull(o, observer)
+347	o == null
+348	consumer.test(state, (T)o)
+895	o == DisposableHelper.DISPOSED
+896	compareAndSet(index, o, resource)
+897	o != null
+898	o == DisposableHelper.DISPOSED
+899	compareAndSet(index, o, resource)
+900	get(0) != DisposableHelper.DISPOSED
+901	o != DisposableHelper.DISPOSED
+902	o != null
+902	o != DisposableHelper.DISPOSED
+793	o == SubscriptionHelper.CANCELLED
+794	resource != null
+795	compareAndSet(index, o, resource)
+796	o != null
+797	o == SubscriptionHelper.CANCELLED
+798	resource != null
+799	compareAndSet(index, o, resource)
+800	get(0) != SubscriptionHelper.CANCELLED
+801	o != SubscriptionHelper.CANCELLED
+802	o != null
+802	o != SubscriptionHelper.CANCELLED
+209	subscribers.get() == TERMINATED
+210	subscribers.get() == TERMINATED
+211	t == null
+212	t == null
+213	subscribers.get() == TERMINATED
+214	subscribers.get() == TERMINATED
+215	v == null
+216	add(as)
+217	as.isCancelled()
+218	ex != null
+219	v != null
+220	a == TERMINATED
+221	subscribers.compareAndSet(a, b)
+222	n == 0
+223	a[i] == ps
+224	j < 0
+225	n == 1
+226	subscribers.compareAndSet(a, b)
+227	v == null
+228	array.length != 0
+229	array.length == 0
+230	array.length != 1
+1361	subscribers.get() == TERMINATED
+1362	subscribers.get() == TERMINATED
+1363	t == null
+1364	t == null
+1365	subscribers.get() == TERMINATED
+1366	subscribers.get() == TERMINATED
+1367	v == null
+1368	add(as)
+1369	as.isDisposed()
+1370	ex != null
+1371	v != null
+1372	a == TERMINATED
+1373	subscribers.compareAndSet(a, b)
+1374	n == 0
+1375	a[i] == ps
+1376	j < 0
+1377	n == 1
+1378	subscribers.compareAndSet(a, b)
+1379	v == null
+1380	array.length != 0
+1381	array.length == 0
+1382	array.length != 1
+325	u < 0L
+326	((a | b) >>> 31) != 0
+327	u / a != b
+328	r == Long.MAX_VALUE
+329	requested.compareAndSet(r, u)
+330	r == Long.MIN_VALUE
+331	r == Long.MAX_VALUE
+332	requested.compareAndSet(r, u)
+333	current == Long.MAX_VALUE
+334	update < 0L
+335	requested.compareAndSet(current, update)
+336	current == Long.MIN_VALUE
+337	current == Long.MAX_VALUE
+338	update < 0L
+339	requested.compareAndSet(current, update)
+1265	timeout
+1266	isDisposed()
+1267	tag != null
+1268	errors.isEmpty()
+1269	errors.size() == 1
+1270	done.getCount() == 0
+1271	c == 0
+1272	c > 1
+1273	c == 1
+1274	c > 1
+1275	s != 0
+1276	s == 0
+1277	errorPredicate.test(e)
+1278	found
+1279	s != 1
+1280	s != 1
+1281	ObjectHelper.equals(value, v)
+1282	ObjectHelper.equals(v, value)
+1283	values.size() > 1
+1284	valuePredicate.test(v)
+1285	s == 0
+1286	index >= values.size()
+1287	valuePredicate.test(values.get(index))
+1288	found
+1289	o != null
+1290	s != count
+1291	s != values.length
+1292	ObjectHelper.equals(u, v)
+1293	expected.isEmpty()
+1294	expected.contains(v)
+1295	expectedNext
+1295	actualNext
+1296	ObjectHelper.equals(u, v)
+1297	actualNext
+1298	expectedNext
+1299	done.getCount() != 0
+1300	c > 1
+1301	s > 1
+1302	s != 0
+1302	c != 0
+1303	done.getCount() == 0
+1304	s == 0
+1305	s == 1
+1306	ObjectHelper.equals(message, errorMessage)
+1307	done.await(time, unit)
+1308	timeoutMillis > 0L
+1308	System.currentTimeMillis() - start >= timeoutMillis
+1309	done.getCount() == 0L
+1310	values.size() >= atLeast
+1311	timeout
+1312	timeout
+456	SubscriptionHelper.validate(this.s, s)
+457	s instanceof QueueSubscription
+458	beforeDownstream()
+459	done
+460	done
+461	qs != null
+462	(mode & BOUNDARY) == 0
+463	m != NONE
+986	DisposableHelper.validate(this.s, s)
+987	s instanceof QueueDisposable
+988	beforeDownstream()
+989	done
+990	done
+991	qs != null
+992	(mode & BOUNDARY) == 0
+993	m != NONE
+478	SubscriptionHelper.validate(this.s, s)
+479	s instanceof QueueSubscription
+480	beforeDownstream()
+481	done
+482	done
+483	qs != null
+484	(mode & BOUNDARY) == 0
+485	m != NONE
+232	add(bs)
+233	bs.cancelled
+234	NotificationLite.isComplete(o)
+235	done
+236	t == null
+237	done
+238	t == null
+239	done
+240	done
+241	t == null
+242	s.isFull()
+243	NotificationLite.isError(o)
+244	NotificationLite.isComplete(o)
+244	NotificationLite.isError(o)
+245	b == EMPTY_ARRAY
+246	o == null
+246	NotificationLite.isError(o)
+246	NotificationLite.isComplete(o)
+247	array.length != 0
+248	array.length != 0
+249	array.length != 1
+250	a == TERMINATED
+251	subscribers.compareAndSet(a, b)
+252	a == TERMINATED
+252	a == EMPTY
+253	a[i] == rs
+254	j < 0
+255	len == 1
+256	subscribers.compareAndSet(a, b)
+257	a != TERMINATED
+258	a != TERMINATED
+1400	add(bs)
+1401	bs.cancelled
+1402	NotificationLite.isComplete(o)
+1403	done
+1404	t == null
+1405	done
+1406	t == null
+1407	done
+1408	done
+1409	NotificationLite.isError(o)
+1410	NotificationLite.isComplete(o)
+1410	NotificationLite.isError(o)
+1411	b == EMPTY_ARRAY
+1412	o == null
+1412	NotificationLite.isComplete(o)
+1412	NotificationLite.isError(o)
+1413	array.length != 0
+1414	array.length != 0
+1415	array.length != 1
+1416	a == TERMINATED
+1417	subscribers.compareAndSet(a, b)
+1418	a == EMPTY
+1418	a == TERMINATED
+1419	a[i] == rs
+1420	j < 0
+1421	len == 1
+1422	subscribers.compareAndSet(a, b)
+1423	a != TERMINATED
+1424	a != TERMINATED
+982	cancelled
+983	d != null
+984	getCount() != 0
+985	e != null
+486	SubscriptionHelper.validate(this.s, s)
+487	cancelled
+488	cancelled
+489	getCount() != 0
+490	s != null
+491	e != null
+918	value == null
+919	value == null
+475	value == null
+476	value == null
+299	latch.getCount() == 0
+300	Thread.currentThread() instanceof NonBlockingThread
+300	RxJavaPlugins.onBeforeBlocking()
+300	RxJavaPlugins.isFailOnNonBlockingScheduler()
+950	d != null
+951	cancelled
+952	getCount() != 0
+953	ex != null
+954	getCount() != 0
+955	ex != null
+956	getCount() != 0
+957	getCount() != 0
+958	await(timeout, unit)
+959	getCount() != 0
+960	await(timeout, unit)
+961	ex != null
+949	DisposableHelper.dispose(this)
+413	SubscriptionHelper.setOnce(this, s)
+414	SubscriptionHelper.cancel(this)
+875	get() != null
+876	c != null
+117	sources.length == 0
+118	sources.length == 1
+119	sources.length == 0
+120	sources.length == 1
+121	source instanceof Completable
+122	sources.length == 0
+123	sources.length == 1
+124	source instanceof Completable
+125	this instanceof FuseToFlowable
+126	this instanceof FuseToMaybe
+127	this instanceof FuseToObservable
+128	cancelled
+621	sources == null
+622	element == null
+623	count == sources.length
+624	set.isDisposed()
+625	c == null
+626	once.compareAndSet(false, true)
+627	count == 0
+648	add(inner)
+649	inner.isDisposed()
+650	once.compareAndSet(false, true)
+651	ex != null
+652	inner.get()
+653	inner.get()
+654	a == TERMINATED
+655	observers.compareAndSet(a, b)
+656	n == 0
+657	a[i] == inner
+658	j < 0
+659	n == 1
+660	observers.compareAndSet(a, b)
+632	d.isDisposed()
+633	d.isDisposed()
+630	d.isDisposed()
+631	d.isDisposed()
+628	d.isDisposed()
+629	d.isDisposed()
+646	set.isDisposed()
+647	c == null
+640	set.isDisposed()
+641	c == null
+642	wip.decrementAndGet() == 0
+643	ex == null
+634	set.isDisposed()
+635	b
+636	set.isDisposed()
+637	set.isDisposed()
+638	wip.decrementAndGet() == 0
+639	ex == null
+617	set.isDisposed()
+618	b
+619	set.isDisposed()
+620	set.isDisposed()
+1327	observers.get() == TERMINATED
+1328	e == null
+1329	once.compareAndSet(false, true)
+1330	once.compareAndSet(false, true)
+1331	add(md)
+1332	md.isDisposed()
+1333	ex != null
+1334	a == TERMINATED
+1335	observers.compareAndSet(a, b)
+1336	n == 0
+1337	a[i] == inner
+1338	j < 0
+1339	n == 1
+1340	observers.compareAndSet(a, b)
+1341	observers.get() == TERMINATED
+644	eager
+645	eager
+1182	disposed
+1183	disposed
+1184	disposed
+1185	disposed
+1186	set == null
+1187	disposed
+1188	disposed
+1189	set == null
+1190	delete(d)
+1191	disposed
+1192	disposed
+1193	set == null
+1193	set.remove(d)
+1194	disposed
+1195	disposed
+1196	disposed
+1197	disposed
+1198	set == null
+1199	o instanceof Disposable
+1200	errors == null
+1201	errors != null
+1202	errors.size() == 1
+129	errors != null
+130	ex instanceof CompositeException
+131	ex != null
+132	deDupedExceptions.isEmpty()
+133	cause == null
+134	seenCauses.contains(e)
+135	seenCauses.contains(child)
+136	ex.getCause() != null
+137	root == null
+137	root == ex
+138	cause == null
+138	cause == root
+139	root == null
+139	cause == root
+140	cause == root
+140	cause == null
+1049	pool.compareAndSet(NONE, update)
+1050	curr == NONE
+1051	pool.compareAndSet(curr, NONE)
+111	numberOfSubscribers <= 0
+1124	numberOfSubscribers <= 0
+1214	DisposableHelper.validate(this.s, s)
+99	SubscriptionHelper.validate(this.s, s)
+100	s != null
+964	(mode & ASYNC) != 0
+965	(state & (FUSED_READY | FUSED_CONSUMED | TERMINATED | DISPOSED)) != 0
+966	state == FUSED_EMPTY
+967	get() != DISPOSED
+968	(state & (FUSED_READY | FUSED_CONSUMED | TERMINATED | DISPOSED)) != 0
+969	(state & (FUSED_READY | FUSED_CONSUMED | TERMINATED | DISPOSED)) != 0
+970	get() == FUSED_READY
+962	DisposableHelper.validate(this.s, s)
+963	v != null
+464	SubscriptionHelper.validate(this.s, s)
+465	hasValue
+803	SubscriptionHelper.validate(n)
+804	(state & ~NO_REQUEST_HAS_VALUE) != 0
+805	state == NO_REQUEST_HAS_VALUE
+806	compareAndSet(NO_REQUEST_HAS_VALUE, HAS_REQUEST_HAS_VALUE)
+807	v != null
+808	get() != CANCELLED
+809	compareAndSet(NO_REQUEST_NO_VALUE, HAS_REQUEST_NO_VALUE)
+810	state == FUSED_EMPTY
+811	get() != CANCELLED
+812	(state & ~HAS_REQUEST_NO_VALUE) != 0
+813	state == HAS_REQUEST_NO_VALUE
+814	get() != CANCELLED
+815	compareAndSet(NO_REQUEST_NO_VALUE, NO_REQUEST_HAS_VALUE)
+816	state == CANCELLED
+817	(mode & ASYNC) != 0
+818	get() == FUSED_READY
+1212	DisposableHelper.setOnce(this.s, s)
+920	DisposableHelper.validate(this.s, s)
+921	s != DisposableHelper.DISPOSED
+922	s != DisposableHelper.DISPOSED
+1220	DisposableHelper.setOnce(this.s, s)
+1217	DisposableHelper.setOnce(this.s, s)
+1213	DisposableHelper.setOnce(this.s, s)
+101	SubscriptionHelper.setOnce(this.s, s)
+350	error instanceof Error
+351	error instanceof RuntimeException
+352	current == TERMINATED
+353	current == null
+354	field.compareAndSet(current, update)
+355	current != TERMINATED
+356	e instanceof CompositeException
+141	t instanceof VirtualMachineError
+142	t instanceof ThreadDeath
+143	t instanceof LinkageError
+1022	executor instanceof ExecutorService
+1023	executor instanceof ScheduledExecutorService
+1024	executor instanceof ScheduledExecutorService
+1125	len == 0
+1126	len == 1
+1127	sources.length == 0
+1128	sources.length == 0
+1129	sources.length == 0
+1130	sources.length == 1
+1131	sources.length == 0
+1132	sources.length == 1
+1133	items.length == 0
+1134	items.length == 1
+1135	source instanceof Flowable
+1136	count < 0L
+1137	count == 0L
+1138	start > 0
+1138	end < 0
+1139	count < 0
+1140	count == 0
+1141	count == 1
+1142	(long)start + (count - 1) > Integer.MAX_VALUE
+1143	count < 0
+1144	count == 0
+1145	count == 1
+1146	start > 0
+1146	end < 0
+1147	onSubscribe instanceof Flowable
+1148	sources.length == 0
+1149	v != null
+1150	v != null
+1151	this instanceof ScalarCallable
+1152	v == null
+1153	this instanceof ScalarCallable
+1154	v == null
+1155	index < 0
+1156	index < 0
+1157	index < 0
+1158	this instanceof ScalarCallable
+1159	v == null
+1160	times < 0
+1161	times == 0
+1162	times < 0
+1163	s instanceof SafeSubscriber
+1164	count <= 0L
+1165	count < 0
+1166	count == 0
+1167	fromArray == empty()
+1168	s instanceof FlowableSubscriber
+1169	this instanceof ScalarCallable
+1170	v == null
+1171	count < 0
+1172	count < 0
+1173	count == 0
+1174	count == 1
+1175	count < 0
+1176	cancel
+544	sources == null
+545	p == null
+546	count == sources.length
+547	count == 0
+548	count == 1
+568	clients.incrementAndGet() == numberOfSubscribers
+589	bs.isCancelled()
+590	v == null
+591	bs.isCancelled()
+592	bs.isCancelled()
+593	o == BlockingSubscriber.TERMINATED
+593	NotificationLite.acceptFull(v, subscriber)
+594	e != null
+605	size == skip
+606	skip > size
+603	maxSize == Integer.MAX_VALUE
+603	timespan == timeskip
+604	timespan == timeskip
+595	once.compareAndSet(false, true)
+595	once.get()
+584	a == null
+585	b
+586	n == a.length
+587	n == 0
+588	n == 1
+556	FlowableScalarXMap.tryScalarXMapSubscribe(source, s, mapper)
+598	FlowableScalarXMap.tryScalarXMapSubscribe(source, s, mapper)
+597	delayError
+596	s instanceof ConditionalSubscriber
+553	s instanceof ConditionalSubscriber
+607	s instanceof ConditionalSubscriber
+559	s instanceof ConditionalSubscriber
+574	s instanceof ConditionalSubscriber
+608	FlowableScalarXMap.tryScalarXMapSubscribe(source, s, mapper)
+550	FlowableScalarXMap.tryScalarXMapSubscribe(source, s, mapper)
+554	source instanceof Callable
+555	v == null
+561	s instanceof ConditionalSubscriber
+613	deferred.isCancelled()
+614	v == null
+551	hasNext
+552	s instanceof ConditionalSubscriber
+615	st == null
+579	s instanceof ConditionalSubscriber
+578	s instanceof ConditionalSubscriber
+231	this instanceof SerializedProcessor
+575	ps == null
+575	ps.isDisposed()
+576	current.compareAndSet(ps, u)
+577	doConnect
+562	s instanceof ConditionalSubscriber
+549	s instanceof ConditionalSubscriber
+557	subscriptionCount.incrementAndGet() == 1
+558	writeLocked.get()
+563	bufferSize == Integer.MAX_VALUE
+564	ps.isDisposed()
+564	ps == null
+565	current.compareAndSet(ps, u)
+566	doConnect
+567	doConnect
+543	emitLast
+572	emitLast
+599	source instanceof Callable
+600	t == null
+601	r instanceof Callable
+602	u == null
+616	FlowableScalarXMap.tryScalarXMapSubscribe(source, s, mapper)
+573	other == null
+612	other == null
+582	skip == size
+583	skip > size
+580	timespan == timeskip
+581	maxSize == Long.MAX_VALUE
+609	others == null
+610	n == others.length
+611	n == 0
+569	sources == null
+570	count == sources.length
+571	count == 0
+560	b
+971	done
+972	b
+973	done
+974	done
+415	SubscriptionHelper.setOnce(this, s)
+416	done
+417	b
+418	done
+419	done
+854	SubscriptionHelper.validate(n)
+855	cancelled
+856	d != null
+857	cancelled
+858	s != null
+859	cancelled
+860	cancelled
+861	wip.getAndIncrement() != 0
+862	o == null
+863	o == REQUEST
+864	mr != 0L
+865	o == s
+866	NotificationLite.isSubscription(v)
+867	cancelled
+868	r != 0L
+869	NotificationLite.isError(v)
+870	cancelled
+871	NotificationLite.isComplete(v)
+872	cancelled
+873	r != 0
+874	missed == 0
+994	DisposableHelper.validate(this.s, s)
+477	SubscriptionHelper.validate(this.s, s)
+1181	f != null
+932	a == DisposableHelper.DISPOSED
+932	a == this
+933	s.compareAndSet(a, DisposableHelper.DISPOSED)
+934	a != null
+935	getCount() != 0
+936	isCancelled()
+937	ex != null
+938	getCount() != 0
+939	await(timeout, unit)
+940	isCancelled()
+941	ex != null
+942	value != null
+943	error == null
+944	a == this
+944	a == DisposableHelper.DISPOSED
+945	s.compareAndSet(a, this)
+946	value == null
+947	a == DisposableHelper.DISPOSED
+947	a == this
+948	s.compareAndSet(a, this)
+995	a == this
+995	a == DisposableHelper.DISPOSED
+996	s.compareAndSet(a, DisposableHelper.DISPOSED)
+997	a != null
+998	getCount() != 0
+999	isCancelled()
+1000	ex != null
+1001	getCount() != 0
+1002	await(timeout, unit)
+1003	isCancelled()
+1004	ex != null
+1005	a == DisposableHelper.DISPOSED
+1006	a == DisposableHelper.DISPOSED
+1007	s.compareAndSet(a, this)
+436	a == SubscriptionHelper.CANCELLED
+436	a == this
+437	s.compareAndSet(a, SubscriptionHelper.CANCELLED)
+438	a != null
+439	getCount() != 0
+440	isCancelled()
+441	ex != null
+442	getCount() != 0
+443	await(timeout, unit)
+444	isCancelled()
+445	ex != null
+446	SubscriptionHelper.setOnce(this.s, s)
+447	value != null
+448	a == SubscriptionHelper.CANCELLED
+448	a == this
+449	s.compareAndSet(a, this)
+450	value == null
+451	a == SubscriptionHelper.CANCELLED
+451	a == this
+452	s.compareAndSet(a, this)
+285	wip.get() == 0
+285	wip.compareAndSet(0, 1)
+286	wip.decrementAndGet() != 0
+287	ex != null
+288	error.addThrowable(ex)
+289	wip.getAndIncrement() == 0
+290	wip.getAndIncrement() == 0
+291	ex != null
+292	wip.get() == 0
+292	wip.compareAndSet(0, 1)
+293	wip.decrementAndGet() != 0
+294	ex != null
+295	error.addThrowable(ex)
+296	wip.getAndIncrement() == 0
+297	wip.getAndIncrement() == 0
+298	ex != null
+927	DisposableHelper.setOnce(this, s)
+928	s instanceof QueueDisposable
+929	m == QueueSubscription.SYNC
+930	m == QueueDisposable.ASYNC
+931	fusionMode == QueueDisposable.NONE
+466	SubscriptionHelper.setOnce(this, s)
+467	s instanceof QueueSubscription
+468	m == QueueSubscription.SYNC
+469	m == QueueSubscription.ASYNC
+470	fusionMode == QueueSubscription.NONE
+471	fusionMode != QueueSubscription.SYNC
+472	p >= limit
+473	fusionMode != QueueSubscription.SYNC
+474	p == limit
+1012	pool.compareAndSet(NONE, update)
+1013	curr == NONE
+1014	pool.compareAndSet(curr, NONE)
+923	DisposableHelper.setOnce(this, s)
+924	isDisposed()
+925	isDisposed()
+926	isDisposed()
+409	SubscriptionHelper.setOnce(this, s)
+410	isDisposed()
+411	get() != SubscriptionHelper.CANCELLED
+412	get() != SubscriptionHelper.CANCELLED
+278	size == 0
+279	indexInTail == capacityHint
+280	++k == cap
+877	disposed
+878	disposed
+879	disposed
+880	disposed
+881	set == null
+882	disposed
+883	disposed
+884	set == null
+885	delete(d)
+886	disposed
+887	disposed
+888	set == null
+888	set.remove(d)
+889	disposed
+890	disposed
+891	set == null
+892	errors == null
+893	errors != null
+894	errors.size() == 1
+1109	sources.length == 0
+1110	sources.length == 1
+1111	sources.length == 0
+1112	sources.length == 1
+1113	sources.length == 0
+1114	sources.length == 1
+1115	sources.length == 0
+1116	sources.length == 1
+1117	sources.length == 0
+1118	onSubscribe instanceof Maybe
+1119	source instanceof Maybe
+1120	sources.length == 0
+1121	this instanceof FuseToFlowable
+1122	this instanceof FuseToObservable
+1123	cancelled
+515	sources == null
+516	element == null
+517	count == sources.length
+518	parent.isDisposed()
+519	s == null
+520	count == 0
+525	add(parent)
+526	parent.isDisposed()
+527	parent.isDisposed()
+528	ex != null
+529	v != null
+530	src != null
+531	inner.isDisposed()
+532	inner.isDisposed()
+533	inner.isDisposed()
+534	a == TERMINATED
+535	observers.compareAndSet(a, b)
+536	n == 0
+537	a[i] == inner
+538	j < 0
+539	n == 1
+540	observers.compareAndSet(a, b)
+499	d.isDisposed()
+500	d.isDisposed()
+501	d.isDisposed()
+521	d.isDisposed()
+522	d.isDisposed()
+523	d.isDisposed()
+524	v == null
+505	d.isDisposed()
+506	timeout <= 0L
+507	d.isDisposed()
+508	d.isDisposed()
+509	d.isDisposed()
+510	d.isDisposed()
+511	v == null
+512	d.isDisposed()
+513	d.isDisposed()
+514	d.isDisposed()
+492	n <= bufferSize()
+493	parent.isCancelled()
+493	e.get() != null
+1342	observers.get() == TERMINATED
+1343	value == null
+1344	once.compareAndSet(false, true)
+1345	e == null
+1346	once.compareAndSet(false, true)
+1347	once.compareAndSet(false, true)
+1348	add(md)
+1349	md.isDisposed()
+1350	ex != null
+1351	v == null
+1352	a == TERMINATED
+1353	observers.compareAndSet(a, b)
+1354	n == 0
+1355	a[i] == inner
+1356	j < 0
+1357	n == 1
+1358	observers.compareAndSet(a, b)
+1359	observers.get() == TERMINATED
+1360	observers.get() == TERMINATED
+541	eager
+542	eager
+502	n == 1
+503	parent.isDisposed()
+504	source == null
+494	source == null
+495	n == a.length
+496	n == 0
+497	n == 1
+498	parent.isDisposed()
+281	n == 0
+282	comparator.compare(s1, s2) < 0
+283	s1 != null
+284	s2 != null
+771	null == e
+772	nextNode != null
+773	currConsumerNode != lvProducerNode()
+1041	disposed
+1042	delayTime <= 0L
+1043	parent != null
+1044	parent.add(sr)
+1045	delayTime <= 0
+1046	parent != null
+1047	disposed
+1048	disposed
+112	o != null
+112	NotificationLite.isError(o)
+113	NotificationLite.isError(o)
+114	obj instanceof Notification
+115	o == null
+116	NotificationLite.isError(o)
+301	obj instanceof ErrorNotification
+302	o == COMPLETE
+303	o instanceof ErrorNotification
+304	o == COMPLETE
+305	o instanceof ErrorNotification
+306	o == COMPLETE
+307	o instanceof ErrorNotification
+308	o instanceof SubscriptionNotification
+309	o == COMPLETE
+310	o instanceof ErrorNotification
+311	o instanceof DisposableNotification
+397	object == null
+398	value <= 0
+399	value <= 0L
+0	len == 0
+1	len == 1
+2	sources.length == 0
+3	sources.length == 0
+4	sources.length == 0
+5	sources.length == 1
+6	sources.length == 0
+7	sources.length == 1
+8	items.length == 0
+9	items.length == 1
+10	count < 0
+11	count == 0L
+12	end < 0
+12	start > 0
+13	count < 0
+14	count == 0
+15	count == 1
+16	(long)start + (count - 1) > Integer.MAX_VALUE
+17	count < 0
+18	count == 0
+19	count == 1
+20	start > 0
+20	end < 0
+21	onSubscribe instanceof Observable
+22	source instanceof Observable
+23	sources.length == 0
+24	v != null
+25	v != null
+26	v == null
+27	this instanceof ScalarCallable
+28	v == null
+29	this instanceof ScalarCallable
+30	v == null
+31	index < 0
+32	index < 0
+33	index < 0
+34	this instanceof ScalarCallable
+35	v == null
+36	times < 0
+37	times == 0
+38	times < 0
+39	s instanceof SafeObserver
+40	count <= 0
+41	count < 0
+42	count == 0
+43	fromArray == empty()
+44	this instanceof ScalarCallable
+45	v == null
+46	this instanceof ScalarCallable
+47	v == null
+48	count < 0
+49	count < 0
+50	count == 0
+51	count == 1
+52	count < 0
+53	dispose
+759	sources == null
+760	p == null
+761	count == sources.length
+762	count == 0
+763	count == 1
+724	clients.incrementAndGet() == numberOfObservers
+767	bs.isDisposed()
+768	v == null
+769	bs.isDisposed()
+769	o == BlockingObserver.TERMINATED
+769	NotificationLite.acceptFull(v, observer)
+770	e != null
+744	skip == count
+745	bes.createBuffer()
+753	maxSize == Integer.MAX_VALUE
+753	timespan == timeskip
+754	timespan == timeskip
+748	once.get()
+748	once.compareAndSet(false, true)
+711	sources == null
+712	count == sources.length
+713	count == 0
+714	ObservableScalarXMap.tryScalarXMapSubscribe(source, s, mapper)
+715	delayErrors == ErrorMode.IMMEDIATE
+747	delayError
+764	ObservableScalarXMap.tryScalarXMapSubscribe(source, t, mapper)
+756	d.fusionMode
+726	d.isDisposed()
+727	d.isDisposed()
+731	d.isDisposed()
+732	d.isDisposed()
+757	hasNext
+758	d.fusionMode
+766	scheduler instanceof TrampolineScheduler
+740	ps == null
+740	ps.isDisposed()
+741	current.compareAndSet(ps, u)
+742	doConnect
+716	subscriptionCount.incrementAndGet() == 1
+717	writeLocked.get()
+735	bufferSize == Integer.MAX_VALUE
+736	ps.isDisposed()
+736	ps == null
+737	current.compareAndSet(ps, u)
+738	doConnect
+739	doConnect
+765	emitLast
+743	emitLast
+719	source instanceof Callable
+720	t == null
+721	r instanceof Callable
+722	u == null
+725	ObservableScalarXMap.tryScalarXMapSubscribe(source, t, mapper)
+755	other == null
+723	other == null
+718	count == skip
+733	timespan == timeskip
+734	maxSize == Long.MAX_VALUE
+749	others == null
+750	n == others.length
+751	n == 0
+728	sources == null
+729	count == sources.length
+730	count == 0
+746	b
+903	cancelled
+904	d != null
+905	cancelled
+906	cancelled
+907	cancelled
+908	wip.getAndIncrement() != 0
+909	o == null
+910	o == s
+911	NotificationLite.isDisposable(v)
+912	cancelled
+913	NotificationLite.isError(v)
+914	cancelled
+915	NotificationLite.isComplete(v)
+916	cancelled
+917	missed == 0
+752	DisposableHelper.setOnce(subscription, s)
+312	curr != null
+313	curr.equals(value)
+314	curr == null
+315	curr.equals(value)
+316	++size >= maxSize
+317	curr == null
+318	curr.equals(value)
+319	curr == null
+320	curr.equals(value)
+321	curr == null
+322	slot > pos
+322	last <= pos ? last >= slot || slot > pos : last >= slot && slot > pos
+322	slot > pos
+322	last >= slot
+322	last >= slot
+323	b[pos] != null
+324	b[pos] == null
+707	validate(subscribers)
+705	validate(subscribers)
+699	validate(subscribers)
+700	a instanceof ConditionalSubscriber
+703	validate(subscribers)
+704	a instanceof ConditionalSubscriber
+701	validate(subscribers)
+702	a instanceof ConditionalSubscriber
+709	validate(subscribers)
+1322	subscribers.length != p
+1323	publishers.length == 0
+708	validate(subscribers)
+706	validate(subscribers)
+691	delayErrors
+693	validate(subscribers)
+694	a instanceof ConditionalSubscriber
+697	validate(subscribers)
+698	a instanceof ConditionalSubscriber
+692	validate(subscribers)
+710	validate(subscribers)
+695	validate(subscribers)
+696	a instanceof ConditionalSubscriber
+259	add(ps)
+260	ps.isCancelled()
+261	ex != null
+262	a == TERMINATED
+263	subscribers.compareAndSet(a, b)
+264	a == TERMINATED
+264	a == EMPTY
+265	a[i] == ps
+266	j < 0
+267	n == 1
+268	subscribers.compareAndSet(a, b)
+269	subscribers.get() == TERMINATED
+270	subscribers.get() == TERMINATED
+271	t == null
+272	subscribers.get() == TERMINATED
+273	t == null
+274	subscribers.get() == TERMINATED
+275	t == null
+276	s.isFull()
+277	subscribers.get() == TERMINATED
+1425	add(ps)
+1426	ps.isDisposed()
+1427	ex != null
+1428	a == TERMINATED
+1429	subscribers.compareAndSet(a, b)
+1430	a == TERMINATED
+1430	a == EMPTY
+1431	a[i] == ps
+1432	j < 0
+1433	n == 1
+1434	subscribers.compareAndSet(a, b)
+1435	subscribers.get() == TERMINATED
+1436	subscribers.get() == TERMINATED
+1437	t == null
+1438	subscribers.get() == TERMINATED
+1439	t == null
+1440	subscribers.get() == TERMINATED
+1441	subscribers.get() == TERMINATED
+357	checkTerminated(d, empty, a, delayError, q, qd)
+358	dispose != null
+359	empty
+360	r != 0L
+361	qd.accept(a, v)
+362	r != Long.MAX_VALUE
+363	dispose != null
+364	missed == 0
+365	qd.cancelled()
+366	d
+367	delayError
+368	empty
+369	err != null
+370	err != null
+371	empty
+372	checkTerminated(qd.done(), q.isEmpty(), a, delayError, q, dispose, qd)
+373	checkTerminated(d, empty, a, delayError, q, dispose, qd)
+374	empty
+375	missed == 0
+376	qd.cancelled()
+377	d
+378	delayError
+379	empty
+380	err != null
+381	err != null
+382	empty
+383	capacityHint < 0
+384	state.compareAndSet(r, u)
+385	r == COMPLETED_MASK
+386	isCancelled(isCancelled)
+387	t == null
+388	isCancelled(isCancelled)
+389	queue.isEmpty()
+390	n == e
+391	(n & REQUESTED_MASK) == 0L
+392	queue.isEmpty()
+393	postCompleteDrain(state.get(), actual, queue, state, isCancelled)
+394	(r & COMPLETED_MASK) != 0L
+395	state.compareAndSet(r, u)
+396	r != 0L
+975	wip.compareAndSet(0, 1)
+975	wip.get() == 0
+976	leave(-1) == 0
+977	enter()
+978	wip.compareAndSet(0, 1)
+978	wip.get() == 0
+979	q.isEmpty()
+980	leave(-1) == 0
+981	enter()
+420	wip.get() == 0
+420	wip.compareAndSet(0, 1)
+421	r != 0L
+422	accept(s, value)
+423	r != Long.MAX_VALUE
+424	leave(-1) == 0
+425	enter()
+426	wip.compareAndSet(0, 1)
+426	wip.get() == 0
+427	r != 0L
+428	q.isEmpty()
+429	accept(s, value)
+430	r != Long.MAX_VALUE
+431	leave(-1) == 0
+432	enter()
+433	SubscriptionHelper.validate(n)
+1178	value != null
+1179	value != null
+144	add(rs)
+145	rs.cancelled
+146	done
+147	t == null
+148	done
+149	t == null
+150	done
+151	done
+152	NotificationLite.isError(o)
+153	b == EMPTY_ARRAY
+154	a == TERMINATED
+155	subscribers.compareAndSet(a, b)
+156	a == TERMINATED
+156	a == EMPTY
+157	a[i] == rs
+158	j < 0
+159	len == 1
+160	subscribers.compareAndSet(a, b)
+1470	rs.cancelled
+1471	add(rs)
+1472	rs.cancelled
+1473	done
+1474	t == null
+1475	done
+1476	t == null
+1477	done
+1478	done
+1479	NotificationLite.isError(o)
+1480	b == EMPTY_ARRAY
+1481	a == TERMINATED
+1482	observers.compareAndSet(a, b)
+1483	a == TERMINATED
+1483	a == EMPTY
+1484	a[i] == rs
+1485	j < 0
+1486	len == 1
+1487	observers.compareAndSet(a, b)
+1488	buffer.compareAndSet(null, terminalValue)
+1215	DisposableHelper.setOnce(this.s, s)
+1216	DisposableHelper.dispose(s)
+1263	DisposableHelper.setOnce(this.s, s)
+1264	DisposableHelper.dispose(s)
+1239	DisposableHelper.setOnce(this.s, s)
+1240	DisposableHelper.dispose(s)
+1218	DisposableHelper.setOnce(this.s, s)
+1219	DisposableHelper.dispose(s)
+97	SubscriptionHelper.deferredSetOnce(this.s, missedRequested, s)
+98	SubscriptionHelper.cancel(s)
+1052	lockdown
+1053	f == null
+1054	f == null
+1055	f == null
+1056	f == null
+1057	f == null
+1058	error == null
+1059	isBug(error)
+1060	f != null
+1061	error instanceof OnErrorNotImplementedException
+1062	error instanceof MissingBackpressureException
+1063	error instanceof IllegalStateException
+1064	error instanceof NullPointerException
+1065	error instanceof IllegalArgumentException
+1066	error instanceof CompositeException
+1067	f == null
+1068	f == null
+1069	f == null
+1070	f == null
+1071	lockdown
+1072	lockdown
+1073	lockdown
+1074	lockdown
+1075	lockdown
+1076	lockdown
+1077	lockdown
+1078	lockdown
+1079	lockdown
+1080	lockdown
+1081	lockdown
+1082	lockdown
+1083	lockdown
+1084	lockdown
+1085	lockdown
+1086	lockdown
+1087	lockdown
+1088	lockdown
+1089	lockdown
+1090	lockdown
+1091	lockdown
+1092	lockdown
+1093	f != null
+1094	f != null
+1095	f != null
+1096	f != null
+1097	f != null
+1098	f != null
+1099	f != null
+1100	f != null
+1101	f != null
+1102	f != null
+1103	f != null
+1104	f != null
+1105	lockdown
+1106	f != null
+1107	f != null
+1108	lockdown
+1203	DisposableHelper.validate(this.s, s)
+1204	done
+1205	s == null
+1206	t == null
+1207	done
+1208	s == null
+1209	t == null
+1210	done
+1211	s == null
+102	SubscriptionHelper.validate(this.s, s)
+103	done
+104	s == null
+105	t == null
+106	done
+107	s == null
+108	t == null
+109	done
+110	s == null
+789	SubscriptionHelper.validate(n)
+790	compareAndSet(NO_REQUEST, REQUESTED)
+791	get() != CANCELLED
+792	get() == NO_REQUEST
+1031	o != DISPOSED
+1031	compareAndSet(PARENT_INDEX, o, DONE)
+1031	o != null
+1032	o == DISPOSED
+1032	compareAndSet(FUTURE_INDEX, o, DONE)
+1033	o == DONE
+1034	o == DISPOSED
+1035	compareAndSet(FUTURE_INDEX, o, f)
+1036	o == DONE
+1036	o == DISPOSED
+1037	compareAndSet(FUTURE_INDEX, o, DISPOSED)
+1038	o != null
+1039	o == DISPOSED
+1039	o == null
+1039	o == DONE
+1040	compareAndSet(PARENT_INDEX, o, DISPOSED)
+1177	d == EmptyDisposable.INSTANCE
+1009	curr != null
+1009	curr.isShutdown()
+1010	PURGE_THREAD.compareAndSet(curr, next)
+1011	exec instanceof ScheduledThreadPoolExecutor
+1180	d == DisposableHelper.DISPOSED
+1221	DisposableHelper.validate(this.s, s)
+1222	done
+1223	t == null
+1224	done
+1225	emitting
+1226	q == null
+1227	done
+1228	done
+1229	emitting
+1230	q == null
+1231	delayError
+1232	reportError
+1233	done
+1234	done
+1235	emitting
+1236	q == null
+1237	q == null
+1238	q.accept(actual)
+190	done
+191	done
+192	emitting
+193	q == null
+194	cancel
+195	done
+196	done
+197	emitting
+198	q == null
+199	done
+200	done
+201	emitting
+202	q == null
+203	reportError
+204	done
+205	done
+206	emitting
+207	q == null
+208	q == null
+1490	done
+1491	done
+1492	emitting
+1493	q == null
+1494	cancel
+1495	done
+1496	done
+1497	emitting
+1498	q == null
+1499	done
+1500	done
+1501	emitting
+1502	q == null
+1503	reportError
+1504	done
+1505	done
+1506	emitting
+1507	q == null
+1508	q == null
+79	SubscriptionHelper.validate(this.subscription, s)
+80	done
+81	t == null
+82	done
+83	emitting
+84	q == null
+85	done
+86	done
+87	emitting
+88	q == null
+89	delayError
+90	reportError
+91	done
+92	done
+93	emitting
+94	q == null
+95	q == null
+96	q.accept(actual)
+1313	sources.length == 0
+1314	sources.length == 1
+1315	onSubscribe instanceof Single
+1316	source instanceof Single
+1317	sources.length == 0
+1318	this instanceof FuseToFlowable
+1319	this instanceof FuseToMaybe
+1320	this instanceof FuseToObservable
+1321	cancelled
+674	sources == null
+675	element == null
+676	count == sources.length
+677	shared.get()
+678	s1 == null
+679	shared.compareAndSet(false, true)
+661	add(d)
+662	d.isDisposed()
+663	ex != null
+664	wip.getAndIncrement() == 0
+665	a == TERMINATED
+666	observers.compareAndSet(a, b)
+667	n == 0
+668	a[i] == observer
+669	j < 0
+670	n == 1
+671	observers.compareAndSet(a, b)
+672	d.isDisposed()
+673	d.isDisposed()
+680	v != null
+400	SubscriptionHelper.validate(this.s, s)
+401	p != 0
+402	(r & COMPLETE_MASK) != 0
+403	(r & REQUEST_MASK) != 0
+404	compareAndSet(0, COMPLETE_MASK)
+405	SubscriptionHelper.validate(n)
+406	(r & COMPLETE_MASK) != 0
+407	compareAndSet(COMPLETE_MASK, COMPLETE_MASK + 1)
+408	compareAndSet(r, u)
+1015	current != SHUTDOWN
+1016	next != null
+1017	next == null
+1018	executor.compareAndSet(current, next)
+1019	current != SHUTDOWN
+1020	current != SHUTDOWN
+1021	delay <= 0L
+1383	observers.get() == TERMINATED
+1384	value == null
+1385	once.compareAndSet(false, true)
+1386	e == null
+1387	once.compareAndSet(false, true)
+1388	add(md)
+1389	md.isDisposed()
+1390	ex != null
+1391	a == TERMINATED
+1392	observers.compareAndSet(a, b)
+1393	n == 0
+1394	a[i] == inner
+1395	j < 0
+1396	n == 1
+1397	observers.compareAndSet(a, b)
+1398	observers.get() == TERMINATED
+1399	observers.get() == TERMINATED
+681	eager
+682	eager
+683	n == 1
+684	parent.isDisposed()
+685	source == null
+686	source == null
+687	n == a.length
+688	n == 0
+689	n == 1
+690	parent.isDisposed()
+784	null == e
+785	index >= producerLookAhead
+786	null == lvElement(calcElementOffset(index + step, mask))
+787	null != lvElement(offset)
+788	null == e
+774	null == e
+775	index < producerLookAhead
+776	null == lvElement(buffer, lookAheadElementOffset)
+777	null == lvElement(buffer, calcWrappedOffset(index + 1, mask))
+778	isNextBuffer
+778	null != e
+779	isNextBuffer
+780	null != n
+781	e == HAS_NEXT
+782	before == after
+783	null == lvElement(buffer, pi)
+453	n <= 0
+454	done
+455	once.compareAndSet(false, true)
+1489	this instanceof SerializedSubject
+1008	DisposableHelper.validate(this.d, d)
+434	SubscriptionHelper.setOnce(subscription, s)
+435	SubscriptionHelper.validate(n)
+819	cancelled
+820	compareAndSet(0, 1)
+820	get() == 0
+821	a != null
+822	decrementAndGet() != 0
+823	r != 0L
+824	a != null
+825	SubscriptionHelper.validate(n)
+826	unbounded
+827	compareAndSet(0, 1)
+827	get() == 0
+828	r != Long.MAX_VALUE
+829	r == Long.MAX_VALUE
+830	decrementAndGet() != 0
+831	a != null
+832	unbounded
+833	get() == 0
+833	compareAndSet(0, 1)
+834	r != Long.MAX_VALUE
+835	u < 0L
+836	decrementAndGet() == 0
+837	cancelled
+838	getAndIncrement() != 0
+839	ms != null
+840	mr != 0L
+841	mp != 0L
+842	cancelled
+843	a != null
+844	ms != null
+845	r != Long.MAX_VALUE
+846	u != Long.MAX_VALUE
+847	v < 0L
+848	ms != null
+849	a != null
+850	r != 0L
+851	a != null
+851	mr != 0L
+852	missed == 0
+853	requestAmount != 0L
+1241	s == null
+1242	subscription.compareAndSet(null, s)
+1243	subscription.get() != DisposableHelper.DISPOSED
+1244	initialFusionMode != 0
+1245	s instanceof QueueDisposable
+1246	m == QueueDisposable.SYNC
+1247	checkSubscriptionOnce
+1248	subscription.get() == null
+1249	establishedFusionMode == QueueDisposable.ASYNC
+1250	t == null
+1251	checkSubscriptionOnce
+1252	subscription.get() == null
+1253	t == null
+1254	checkSubscriptionOnce
+1255	subscription.get() == null
+1256	subscription.get() == null
+1257	subscription.get() != null
+1258	errors.isEmpty()
+1259	m != mode
+1260	qs != null
+1261	qs == null
+1262	qs != null
+1324	current.time > targetTimeInNanoseconds
+1325	current.scheduler.disposed
+54	initialRequest < 0
+55	s == null
+56	subscription.compareAndSet(null, s)
+57	subscription.get() != SubscriptionHelper.CANCELLED
+58	initialFusionMode != 0
+59	s instanceof QueueSubscription
+60	m == QueueSubscription.SYNC
+61	mr != 0L
+62	checkSubscriptionOnce
+63	subscription.get() == null
+64	establishedFusionMode == QueueSubscription.ASYNC
+65	t == null
+66	checkSubscriptionOnce
+67	subscription.get() == null
+68	t == null
+69	checkSubscriptionOnce
+70	subscription.get() == null
+71	cancelled
+72	subscription.get() == null
+73	subscription.get() != null
+74	errors.isEmpty()
+75	m != mode
+76	qs != null
+77	qs == null
+78	qs != null
+1326	other instanceof Timed
+161	onTerminate.compareAndSet(r, null)
+161	r != null
+162	checkTerminated(failFast, d, empty, a, q)
+163	empty
+164	r == e
+164	checkTerminated(failFast, done, q.isEmpty(), a, q)
+165	e != 0
+165	r != Long.MAX_VALUE
+166	missed == 0
+167	cancelled
+168	failFast
+168	error != null
+168	d
+169	d
+170	ex != null
+171	missed == 0
+172	wip.getAndIncrement() != 0
+173	a != null
+174	enableOperatorFusion
+175	missed == 0
+176	cancelled
+177	d
+178	error != null
+178	failFast
+179	empty
+180	e != null
+181	done
+181	cancelled
+182	done
+182	cancelled
+183	t == null
+184	cancelled
+184	done
+185	t == null
+186	cancelled
+186	done
+187	once.compareAndSet(false, true)
+187	once.get()
+188	cancelled
+189	done
+1442	once.compareAndSet(false, true)
+1442	once.get()
+1443	disposed
+1444	r != null
+1444	onTerminate.compareAndSet(r, null)
+1445	disposed
+1445	done
+1446	done
+1446	disposed
+1447	t == null
+1448	disposed
+1448	done
+1449	t == null
+1450	done
+1450	disposed
+1451	disposed
+1452	d
+1453	canBeError
+1453	failFast
+1454	failedFast(q, a)
+1455	empty
+1456	empty
+1457	missed == 0
+1458	disposed
+1459	d
+1459	failFast
+1460	failedFast(q, a)
+1461	d
+1462	missed == 0
+1463	ex != null
+1464	ex != null
+1465	wip.getAndIncrement() != 0
+1466	a != null
+1467	enableOperatorFusion
+1468	missed == 0
+1469	done
+349	obj instanceof VolatileSizeArrayList

@@ -1,0 +1,164 @@
+Training expr model for fastjson_...
+Raw data size: (5650, 10)
+All class num: 2033
+Frequent class(>2) num: 394
+Frequent rows num: 3643
+Training set size: (3941,)
+Validation set size: (438,)
+Preprossing finished, time cost : 0:00:00.104114
+Data splited and saved in ../input/fastjson/expr/fastjson_.expr_train.csv and ../input/fastjson/expr/fastjson_.expr_valid.csv
+Training data size: (4379, 7)
+Validating data size: (438, 7)
+Model file already exists and be removed.
+Training the model...
+[0]	train-merror:0.926467	eval-merror:0.922374
+Multiple eval metrics have been passed: 'eval-merror' will be used for early stopping.
+
+Will train until eval-merror hasn't improved in 10 rounds.
+[1]	train-merror:0.926467	eval-merror:0.922374
+[2]	train-merror:0.873715	eval-merror:0.885845
+[3]	train-merror:0.859785	eval-merror:0.869863
+[4]	train-merror:0.855903	eval-merror:0.856164
+[5]	train-merror:0.832382	eval-merror:0.835616
+[6]	train-merror:0.822106	eval-merror:0.828767
+[7]	train-merror:0.818452	eval-merror:0.824201
+[8]	train-merror:0.808404	eval-merror:0.815068
+[9]	train-merror:0.806577	eval-merror:0.815068
+[10]	train-merror:0.80201	eval-merror:0.815068
+[11]	train-merror:0.785339	eval-merror:0.80137
+[12]	train-merror:0.767298	eval-merror:0.796804
+[13]	train-merror:0.758621	eval-merror:0.792237
+[14]	train-merror:0.753825	eval-merror:0.792237
+[15]	train-merror:0.751998	eval-merror:0.792237
+[16]	train-merror:0.744006	eval-merror:0.780822
+[17]	train-merror:0.732816	eval-merror:0.773973
+[18]	train-merror:0.728248	eval-merror:0.771689
+[19]	train-merror:0.721169	eval-merror:0.757991
+[20]	train-merror:0.713405	eval-merror:0.751142
+[21]	train-merror:0.710665	eval-merror:0.751142
+[22]	train-merror:0.707239	eval-merror:0.739726
+[23]	train-merror:0.702443	eval-merror:0.73516
+[24]	train-merror:0.697876	eval-merror:0.730594
+[25]	train-merror:0.696278	eval-merror:0.723744
+[26]	train-merror:0.694679	eval-merror:0.730594
+[27]	train-merror:0.689884	eval-merror:0.728311
+[28]	train-merror:0.687828	eval-merror:0.728311
+[29]	train-merror:0.683033	eval-merror:0.723744
+[30]	train-merror:0.680521	eval-merror:0.726027
+[31]	train-merror:0.676867	eval-merror:0.730594
+[32]	train-merror:0.674127	eval-merror:0.723744
+[33]	train-merror:0.673898	eval-merror:0.726027
+[34]	train-merror:0.670244	eval-merror:0.716895
+[35]	train-merror:0.664764	eval-merror:0.69863
+[36]	train-merror:0.663165	eval-merror:0.696347
+[37]	train-merror:0.659283	eval-merror:0.684932
+[38]	train-merror:0.654031	eval-merror:0.678082
+[39]	train-merror:0.650148	eval-merror:0.671233
+[40]	train-merror:0.643754	eval-merror:0.659817
+[41]	train-merror:0.641927	eval-merror:0.657534
+[42]	train-merror:0.636447	eval-merror:0.655251
+[43]	train-merror:0.631423	eval-merror:0.652968
+[44]	train-merror:0.630281	eval-merror:0.655251
+[45]	train-merror:0.626627	eval-merror:0.648402
+[46]	train-merror:0.62069	eval-merror:0.648402
+[47]	train-merror:0.617949	eval-merror:0.646119
+[48]	train-merror:0.613154	eval-merror:0.641553
+[49]	train-merror:0.610413	eval-merror:0.639269
+[50]	train-merror:0.608358	eval-merror:0.643836
+[51]	train-merror:0.603562	eval-merror:0.636986
+[52]	train-merror:0.600594	eval-merror:0.63242
+[53]	train-merror:0.598082	eval-merror:0.625571
+[54]	train-merror:0.595798	eval-merror:0.621005
+[55]	train-merror:0.593743	eval-merror:0.621005
+[56]	train-merror:0.591916	eval-merror:0.614155
+[57]	train-merror:0.588034	eval-merror:0.605023
+[58]	train-merror:0.586435	eval-merror:0.60274
+[59]	train-merror:0.585065	eval-merror:0.607306
+[60]	train-merror:0.58301	eval-merror:0.607306
+[61]	train-merror:0.581411	eval-merror:0.609589
+[62]	train-merror:0.579356	eval-merror:0.616438
+[63]	train-merror:0.577986	eval-merror:0.607306
+[64]	train-merror:0.575702	eval-merror:0.600457
+[65]	train-merror:0.573875	eval-merror:0.593607
+[66]	train-merror:0.570907	eval-merror:0.59589
+[67]	train-merror:0.570907	eval-merror:0.59589
+[68]	train-merror:0.567481	eval-merror:0.593607
+[69]	train-merror:0.566568	eval-merror:0.591324
+[70]	train-merror:0.566111	eval-merror:0.598173
+[71]	train-merror:0.565426	eval-merror:0.598173
+[72]	train-merror:0.563142	eval-merror:0.593607
+[73]	train-merror:0.561315	eval-merror:0.598173
+[74]	train-merror:0.55926	eval-merror:0.591324
+[75]	train-merror:0.558347	eval-merror:0.586758
+[76]	train-merror:0.55789	eval-merror:0.586758
+[77]	train-merror:0.555606	eval-merror:0.584475
+[78]	train-merror:0.554921	eval-merror:0.579909
+[79]	train-merror:0.554236	eval-merror:0.577626
+[80]	train-merror:0.552181	eval-merror:0.575342
+[81]	train-merror:0.549897	eval-merror:0.568493
+[82]	train-merror:0.550126	eval-merror:0.56621
+[83]	train-merror:0.54807	eval-merror:0.577626
+[84]	train-merror:0.545787	eval-merror:0.568493
+[85]	train-merror:0.545102	eval-merror:0.557078
+[86]	train-merror:0.544873	eval-merror:0.557078
+[87]	train-merror:0.542818	eval-merror:0.557078
+[88]	train-merror:0.541448	eval-merror:0.554795
+[89]	train-merror:0.540534	eval-merror:0.557078
+[90]	train-merror:0.539849	eval-merror:0.554795
+[91]	train-merror:0.538251	eval-merror:0.554795
+[92]	train-merror:0.535967	eval-merror:0.550228
+[93]	train-merror:0.535054	eval-merror:0.547945
+[94]	train-merror:0.533912	eval-merror:0.545662
+[95]	train-merror:0.532542	eval-merror:0.545662
+[96]	train-merror:0.532998	eval-merror:0.550228
+[97]	train-merror:0.529801	eval-merror:0.534247
+[98]	train-merror:0.529116	eval-merror:0.53653
+[99]	train-merror:0.528431	eval-merror:0.527397
+[100]	train-merror:0.527061	eval-merror:0.527397
+[101]	train-merror:0.525462	eval-merror:0.522831
+[102]	train-merror:0.524777	eval-merror:0.525114
+[103]	train-merror:0.524549	eval-merror:0.52968
+[104]	train-merror:0.524092	eval-merror:0.52968
+[105]	train-merror:0.52295	eval-merror:0.522831
+[106]	train-merror:0.521352	eval-merror:0.520548
+[107]	train-merror:0.519753	eval-merror:0.518265
+[108]	train-merror:0.519297	eval-merror:0.518265
+[109]	train-merror:0.51884	eval-merror:0.509132
+[110]	train-merror:0.519068	eval-merror:0.506849
+[111]	train-merror:0.51884	eval-merror:0.506849
+[112]	train-merror:0.519068	eval-merror:0.511416
+[113]	train-merror:0.517926	eval-merror:0.515982
+[114]	train-merror:0.516785	eval-merror:0.515982
+[115]	train-merror:0.516328	eval-merror:0.511416
+[116]	train-merror:0.516556	eval-merror:0.515982
+[117]	train-merror:0.515414	eval-merror:0.518265
+[118]	train-merror:0.514729	eval-merror:0.515982
+[119]	train-merror:0.514501	eval-merror:0.518265
+[120]	train-merror:0.511989	eval-merror:0.513699
+Stopping. Best iteration:
+[110]	train-merror:0.519068	eval-merror:0.506849
+
+Model saved in ../model/fastjson_.expr_model.pkl
+
+Raw data size: (5650, 10)
+All class num: 2033
+Frequent class(>2) num: 394
+Frequent rows num: 3643
+Training set size: (3941,)
+Validation set size: (438,)
+Preprossing finished, time cost : 0:00:00.082021
+Data splited and saved in ../input/fastjson/expr/fastjson_.expr_train.csv and ../input/fastjson/expr/fastjson_.expr_valid.csv
+../model/fastjson_.expr_model.pkl
+../output/fastjson/expr
+Testing set size: (4379, 7)
+Model loaded from ../model/fastjson_.expr_model.pkl
+<xgboost.core.Booster object at 0x7fc358831990>
+Right at top1: 2137
+Accuracy(top1): 48.801%
+Right in top5: 3431
+Precision(top5): 78.351%
+Right in top10: 3850
+Precision(top10): 87.920%
+Testing results saved in ../output/fastjson/expr/fastjson_.expr_results.csv
+Predicting finished, time cost : 0:06:33.784795
+

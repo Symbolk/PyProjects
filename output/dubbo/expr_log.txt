@@ -1,0 +1,113 @@
+/usr/bin/python2.7 /home/symbolk/PycharmProjects/Expr_Var_Predicting/XGBoost_expr/main.py
+Training expr model for dubbo_...
+Raw data size: (2434, 10)
+All class num: 968
+Frequent class(>2) num: 142
+Frequent rows num: 1443
+Training set size: (1595,)
+Validation set size: (178,)
+Preprossing finished, time cost : 0:00:00.018754
+Data splited and saved in ../input/dubbo/expr/dubbo_.expr_train.csv and ../input/dubbo/expr/dubbo_.expr_valid.csv
+Training data size: (1773, 7)
+Validating data size: (355, 7)
+Model file already exists and be removed.
+Training the model...
+[0]	train-merror:0.854484	eval-merror:0.861972
+Multiple eval metrics have been passed: 'eval-merror' will be used for early stopping.
+
+Will train until eval-merror hasn't improved in 10 rounds.
+[1]	train-merror:0.854484	eval-merror:0.861972
+[2]	train-merror:0.854484	eval-merror:0.861972
+[3]	train-merror:0.822335	eval-merror:0.828169
+[4]	train-merror:0.816695	eval-merror:0.822535
+[5]	train-merror:0.784546	eval-merror:0.788732
+[6]	train-merror:0.753525	eval-merror:0.76338
+[7]	train-merror:0.733785	eval-merror:0.738028
+[8]	train-merror:0.70784	eval-merror:0.712676
+[9]	train-merror:0.704456	eval-merror:0.707042
+[10]	train-merror:0.694303	eval-merror:0.698592
+[11]	train-merror:0.688099	eval-merror:0.698592
+[12]	train-merror:0.688663	eval-merror:0.704225
+[13]	train-merror:0.684715	eval-merror:0.701408
+[14]	train-merror:0.673435	eval-merror:0.690141
+[15]	train-merror:0.673435	eval-merror:0.692958
+[16]	train-merror:0.666667	eval-merror:0.68169
+[17]	train-merror:0.658206	eval-merror:0.670423
+[18]	train-merror:0.652566	eval-merror:0.670423
+[19]	train-merror:0.652002	eval-merror:0.670423
+[20]	train-merror:0.65031	eval-merror:0.667606
+[21]	train-merror:0.645234	eval-merror:0.661972
+[22]	train-merror:0.643542	eval-merror:0.659155
+[23]	train-merror:0.638466	eval-merror:0.656338
+[24]	train-merror:0.635082	eval-merror:0.653521
+[25]	train-merror:0.632262	eval-merror:0.650704
+[26]	train-merror:0.63057	eval-merror:0.650704
+[27]	train-merror:0.628878	eval-merror:0.639437
+[28]	train-merror:0.626622	eval-merror:0.63662
+[29]	train-merror:0.622673	eval-merror:0.63662
+[30]	train-merror:0.619853	eval-merror:0.639437
+[31]	train-merror:0.612521	eval-merror:0.630986
+[32]	train-merror:0.606317	eval-merror:0.628169
+[33]	train-merror:0.604061	eval-merror:0.622535
+[34]	train-merror:0.598985	eval-merror:0.619718
+[35]	train-merror:0.593909	eval-merror:0.616901
+[36]	train-merror:0.586012	eval-merror:0.614084
+[37]	train-merror:0.585448	eval-merror:0.611268
+[38]	train-merror:0.582628	eval-merror:0.616901
+[39]	train-merror:0.5815	eval-merror:0.614084
+[40]	train-merror:0.579244	eval-merror:0.608451
+[41]	train-merror:0.579244	eval-merror:0.616901
+[42]	train-merror:0.57586	eval-merror:0.611268
+[43]	train-merror:0.571348	eval-merror:0.611268
+[44]	train-merror:0.566836	eval-merror:0.605634
+[45]	train-merror:0.56176	eval-merror:0.597183
+[46]	train-merror:0.558376	eval-merror:0.6
+[47]	train-merror:0.553864	eval-merror:0.594366
+[48]	train-merror:0.552735	eval-merror:0.588732
+[49]	train-merror:0.548223	eval-merror:0.580282
+[50]	train-merror:0.546531	eval-merror:0.580282
+[51]	train-merror:0.545403	eval-merror:0.583099
+[52]	train-merror:0.544839	eval-merror:0.571831
+[53]	train-merror:0.540891	eval-merror:0.577465
+[54]	train-merror:0.540891	eval-merror:0.577465
+[55]	train-merror:0.539763	eval-merror:0.574648
+[56]	train-merror:0.534687	eval-merror:0.580282
+[57]	train-merror:0.532431	eval-merror:0.574648
+[58]	train-merror:0.529047	eval-merror:0.569014
+[59]	train-merror:0.525099	eval-merror:0.56338
+[60]	train-merror:0.522843	eval-merror:0.55493
+[61]	train-merror:0.523407	eval-merror:0.560563
+[62]	train-merror:0.522279	eval-merror:0.560563
+[63]	train-merror:0.521151	eval-merror:0.557746
+[64]	train-merror:0.520587	eval-merror:0.55493
+[65]	train-merror:0.517766	eval-merror:0.543662
+[66]	train-merror:0.516638	eval-merror:0.540845
+[67]	train-merror:0.514946	eval-merror:0.535211
+[68]	train-merror:0.513254	eval-merror:0.540845
+[69]	train-merror:0.508742	eval-merror:0.535211
+[70]	train-merror:0.50705	eval-merror:0.538028
+[71]	train-merror:0.504794	eval-merror:0.535211
+[72]	train-merror:0.505922	eval-merror:0.538028
+[73]	train-merror:0.505358	eval-merror:0.538028
+[74]	train-merror:0.501974	eval-merror:0.535211
+[75]	train-merror:0.502538	eval-merror:0.538028
+[76]	train-merror:0.500282	eval-merror:0.538028
+[77]	train-merror:0.499718	eval-merror:0.538028
+Stopping. Best iteration:
+[67]	train-merror:0.514946	eval-merror:0.535211
+
+Model saved in ../model/dubbo_.expr_model.pkl
+Training fininshed, time cost : 1:20:36.217051
+../model/dubbo_.expr_model.pkl
+../output/dubbo/expr
+Testing set size: (1773, 7)
+Model loaded from ../model/dubbo_.expr_model.pkl
+<xgboost.core.Booster object at 0x7f622ea9ee10>
+Right at top1: 887
+Accuracy(top1): 50.028%
+Right in top5: 1339
+Precision(top5): 75.522%
+Right in top10: 1489
+Precision(top10): 83.982%
+Testing results saved in ../output/dubbo/expr/dubbo_.expr_results.csv
+

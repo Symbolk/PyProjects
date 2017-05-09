@@ -1,0 +1,87 @@
+/usr/bin/python2.7 /home/symbolk/PycharmProjects/Expr_Var_Predicting/XGBoost_expr/main.py
+Training expr model for okhttp_...
+Raw data size: (1595, 10)
+All class num: 912
+Frequent class(>2) num: 74
+Frequent rows num: 653
+Training set size: (1435,)
+Validation set size: (160,)
+Preprossing finished, time cost : 0:00:00.012302
+Data splited and saved in ../input/okhttp/expr/okhttp_.expr_train.csv and ../input/okhttp/expr/okhttp_.expr_valid.csv
+Training data size: (1595, 7)
+Validating data size: (160, 7)
+Model file already exists and be removed.
+Training the model...
+[0]	train-merror:0.937304	eval-merror:0.9125
+Multiple eval metrics have been passed: 'eval-merror' will be used for early stopping.
+
+Will train until eval-merror hasn't improved in 10 rounds.
+[1]	train-merror:0.8721	eval-merror:0.8625
+[2]	train-merror:0.868339	eval-merror:0.85
+[3]	train-merror:0.833856	eval-merror:0.79375
+[4]	train-merror:0.834483	eval-merror:0.79375
+[5]	train-merror:0.817555	eval-merror:0.78125
+[6]	train-merror:0.812539	eval-merror:0.78125
+[7]	train-merror:0.80815	eval-merror:0.78125
+[8]	train-merror:0.803762	eval-merror:0.775
+[9]	train-merror:0.803762	eval-merror:0.775
+[10]	train-merror:0.794357	eval-merror:0.76875
+[11]	train-merror:0.788088	eval-merror:0.75625
+[12]	train-merror:0.781818	eval-merror:0.75
+[13]	train-merror:0.780564	eval-merror:0.75
+[14]	train-merror:0.775549	eval-merror:0.75
+[15]	train-merror:0.772414	eval-merror:0.75
+[16]	train-merror:0.77116	eval-merror:0.75
+[17]	train-merror:0.768025	eval-merror:0.75
+[18]	train-merror:0.766144	eval-merror:0.75
+[19]	train-merror:0.766771	eval-merror:0.75
+[20]	train-merror:0.765517	eval-merror:0.74375
+[21]	train-merror:0.762382	eval-merror:0.73125
+[22]	train-merror:0.759875	eval-merror:0.71875
+[23]	train-merror:0.75674	eval-merror:0.7125
+[24]	train-merror:0.755486	eval-merror:0.70625
+[25]	train-merror:0.752978	eval-merror:0.69375
+[26]	train-merror:0.751097	eval-merror:0.69375
+[27]	train-merror:0.748589	eval-merror:0.69375
+[28]	train-merror:0.745455	eval-merror:0.69375
+[29]	train-merror:0.744828	eval-merror:0.68125
+[30]	train-merror:0.738558	eval-merror:0.68125
+[31]	train-merror:0.738558	eval-merror:0.68125
+[32]	train-merror:0.731034	eval-merror:0.675
+[33]	train-merror:0.730408	eval-merror:0.675
+[34]	train-merror:0.729154	eval-merror:0.675
+[35]	train-merror:0.728527	eval-merror:0.675
+[36]	train-merror:0.726646	eval-merror:0.6625
+[37]	train-merror:0.723511	eval-merror:0.6625
+[38]	train-merror:0.723511	eval-merror:0.6625
+[39]	train-merror:0.72163	eval-merror:0.675
+[40]	train-merror:0.719122	eval-merror:0.675
+[41]	train-merror:0.717241	eval-merror:0.675
+[42]	train-merror:0.714734	eval-merror:0.6625
+[43]	train-merror:0.714107	eval-merror:0.6625
+[44]	train-merror:0.714107	eval-merror:0.6625
+[45]	train-merror:0.712226	eval-merror:0.6625
+[46]	train-merror:0.711599	eval-merror:0.6625
+Stopping. Best iteration:
+[36]	train-merror:0.726646	eval-merror:0.6625
+
+Model saved in ../model/okhttp_.expr_model.pkl
+Training fininshed, time cost : 0:46:16.959343
+../model/okhttp_.expr_model.pkl
+../output/okhttp/expr
+Testing set size: (1595, 7)
+Model loaded from ../model/okhttp_.expr_model.pkl
+<xgboost.core.Booster object at 0x7f7b4d5eefd0>
+Right at top1: 460
+Accuracy(top1): 28.840%
+Result file already exists and be removed.
+Answer file already exists and be removed.
+Right in top5: 652
+Precision(top5): 40.878%
+Right in top10: 756
+Precision(top10): 47.398%
+Testing results saved in ../output/okhttp/expr/okhttp_.expr_results.csv
+Predicting finished, time cost : 0:00:44.449535
+
+Process finished with exit code 0
+

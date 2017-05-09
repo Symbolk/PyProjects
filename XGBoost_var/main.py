@@ -33,10 +33,10 @@ def run_var(params):
 
 if __name__ == '__main__':
     params = {
-        'project': 'RxJava',
+        'project': 'guava',
         'bugid': '',
         'type': 'expr',
-        'expr_frequency': 1,
+        'expr_frequency': 2,
         'model_path': '../model/',
         'input_path': '../input/',
         'output_path': '../output/',

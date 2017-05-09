@@ -1,547 +1,756 @@
-No 1 is right.,Right result is: $ == null.,Probability is: 0.163351580501.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.011458074674.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00240233447403.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0023813911248.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00237257964909.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.0020077386871.
-No 1 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00184044742491.
-No 2 is right.,Right result is: $.pos == $.length.,Probability is: 0.00168264447711.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.0016365313204.
-No 1 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00157003500499.
-No 10 is right.,Right result is: $ == null.,Probability is: 0.151590719819.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0141191398725.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00351783121005.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00194900040515.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.0019454312278.
-No 4 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00185211282223.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00179671612568.
-No 9 is right.,Right result is: p < $.,Probability is: 0.00173474871553.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.0016304072924.
-No 2 is right.,Right result is: $ <= 0.,Probability is: 0.00157729757484.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.160527005792.
-No 3 is right.,Right result is: $ != null.,Probability is: 0.00713428482413.
-No 1 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.0046722823754.
-No 5 is right.,Right result is: $.pos < $.length.,Probability is: 0.00340143823996.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00303154462017.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00270309182815.
-No 2 is right.,Right result is: $.pos == $.length.,Probability is: 0.00247553619556.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00233155442402.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00190941651817.
-No 2 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00189415167551.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.161473065615.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.0135490540415.
-No 5 is right.,Right result is: $.isEmpty().,Probability is: 0.00378395384178.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00193659786601.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00192066968884.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00190531497356.
-No 9 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00186688022222.
-No 10 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00177733052988.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.00168227020185.
-No 7 is right.,Right result is: p < $.,Probability is: 0.00166470522527.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.165580749512.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.0162191595882.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.0016986556584.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.00162468571216.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00153556209989.
-No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00152013765182.
-No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.00147216708865.
-No 2 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.00142337428406.
-No 5 is right.,Right result is: $.currentEditor != null.,Probability is: 0.00138182460796.
-No 1 is right.,Right result is: $ instanceof SSLHandshakeException.,Probability is: 0.00136554555502.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.163541257381.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0135870268568.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00379455881193.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00192605168559.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00191065482795.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00187211332377.
-No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00178231170867.
-No 4 is right.,Right result is: $ == this.,Probability is: 0.00168698490597.
-No 1 is right.,Right result is: p < $.,Probability is: 0.0016693706857.
-No 9 is right.,Right result is: $ <= 0.,Probability is: 0.00151785358321.
-No 3 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00664158957079.
-No 1 is right.,Right result is: $.closed.,Probability is: 0.00524038635194.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.00467819813639.
-No 3 is right.,Right result is: $.pos == $.length.,Probability is: 0.00447701662779.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00351423770189.
-No 1 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00324136274867.
-No 4 is right.,Right result is: $ == null.,Probability is: 0.00308627472259.
-No 4 is right.,Right result is: $.hasNext().,Probability is: 0.00264619663358.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00262822164223.
-No 1 is right.,Right result is: $.initialized.,Probability is: 0.00228630728088.
-No 3 is right.,Right result is: $.closed.,Probability is: 0.0100650768727.
-No 4 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00657379208133.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.00463044317439.
-No 9 is right.,Right result is: $.pos == $.length.,Probability is: 0.00443131523207.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00363807938993.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00305476994254.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00261918432079.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00259199785069.
-No 4 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00249304505996.
-No 4 is right.,Right result is: $.initialized.,Probability is: 0.00226296856999.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0896830931306.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0172298010439.
-No 4 is right.,Right result is: $.isEmpty().,Probability is: 0.00250948732719.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00188701483421.
-No 1 is right.,Right result is: $ < 1.,Probability is: 0.00178068759851.
-No 1 is right.,Right result is: $.failed.,Probability is: 0.00171029381454.
-No 1 is right.,Right result is: $.startsWith(".").,Probability is: 0.00160263921134.
-No 1 is right.,Right result is: $.endsWith(".").,Probability is: 0.00155303336214.
-No 3 is right.,Right result is: $.lookingAt().,Probability is: 0.00151649548206.
-No 3 is right.,Right result is: i < $.length.,Probability is: 0.00148823915515.
-No 2 is right.,Right result is: $.,Probability is: 0.0260531883687.
-No 4 is right.,Right result is: $ != null.,Probability is: 0.0140380132943.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00661459844559.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0050451811403.
-No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00328774214722.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00321151409298.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00258001103066.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00255189975724.
-No 1 is right.,Right result is: $ < 1.,Probability is: 0.00226921378635.
-No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00224580522627.
-No 10 is right.,Right result is: $ != null.,Probability is: 0.0718066468835.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0337795801461.
-No 2 is right.,Right result is: $.,Probability is: 0.00912705156952.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00278127240017.
-No 4 is right.,Right result is: i < $.,Probability is: 0.00249634543434.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.0017908255104.
-No 1 is right.,Right result is: $ != 0.,Probability is: 0.00170329306275.
-No 4 is right.,Right result is: $ <= 0.,Probability is: 0.00168094330002.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.00167086301371.
-No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.0016278977273.
-No 1 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00658040074632.
-No 2 is right.,Right result is: $.closed.,Probability is: 0.00519210658967.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.00463509792462.
-No 10 is right.,Right result is: $.pos == $.length.,Probability is: 0.00443576974794.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00364173669368.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0030578407459.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00269046006724.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00262181716971.
-No 1 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00249555124901.
-No 10 is right.,Right result is: $.initialized.,Probability is: 0.00226524355821.
-No 10 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00658040074632.
-No 2 is right.,Right result is: $.closed.,Probability is: 0.00519210658967.
-No 4 is right.,Right result is: $.pos < $.length.,Probability is: 0.00463509792462.
-No 1 is right.,Right result is: $.pos == $.length.,Probability is: 0.00443576974794.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00364173669368.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0030578407459.
-No 3 is right.,Right result is: $ != null.,Probability is: 0.00269046006724.
-No 2 is right.,Right result is: $.hasNext().,Probability is: 0.00262181716971.
-No 4 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00249555124901.
-No 3 is right.,Right result is: $.initialized.,Probability is: 0.00226524355821.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.0603054650128.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0488563030958.
-No 3 is right.,Right result is: $.isEmpty().,Probability is: 0.00417381385341.
-No 4 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00205922499299.
-No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00196044845507.
-No 3 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00190181145445.
-No 4 is right.,Right result is: p < $.,Probability is: 0.00183621933684.
-No 2 is right.,Right result is: $ == this.,Probability is: 0.00172577472404.
-No 3 is right.,Right result is: $ == 0.,Probability is: 0.00169541488867.
-No 4 is right.,Right result is: $ <= 0.,Probability is: 0.00166955846362.
-No 1 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00678060995415.
-No 2 is right.,Right result is: $.closed.,Probability is: 0.00554381450638.
-No 3 is right.,Right result is: $.pos < $.length.,Probability is: 0.00477612111717.
-No 2 is right.,Right result is: $.pos == $.length.,Probability is: 0.00457072863355.
-No 3 is right.,Right result is: $.client.,Probability is: 0.0035877970513.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.00315087591298.
-No 4 is right.,Right result is: $.hasNext().,Probability is: 0.00270158634521.
-No 4 is right.,Right result is: $ != null.,Probability is: 0.00269776419736.
-No 1 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00257147871889.
-No 4 is right.,Right result is: $.initialized.,Probability is: 0.00233416375704.
-No 1 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00678060995415.
-No 4 is right.,Right result is: $.closed.,Probability is: 0.00554381450638.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.00477612111717.
-No 2 is right.,Right result is: $.pos == $.length.,Probability is: 0.00457072863355.
-No 3 is right.,Right result is: $.client.,Probability is: 0.0035877970513.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00315087591298.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00270158634521.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00269776419736.
-No 3 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00257147871889.
-No 1 is right.,Right result is: $.initialized.,Probability is: 0.00233416375704.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0856263712049.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0148192653432.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00495905987918.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00214570504613.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00214177463204.
-No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00203903857619.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00197805091739.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00190982921049.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00169783562887.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00164457026403.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0491731613874.
-No 1 is right.,Right result is: $.,Probability is: 0.010010975413.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00485955597833.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00294644455425.
-No 5 is right.,Right result is: i < $.,Probability is: 0.00270837568678.
-No 5 is right.,Right result is: $ == 0.,Probability is: 0.0024069105275.
-No 5 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00227405573241.
-No 7 is right.,Right result is: i < $.length.,Probability is: 0.00218262756243.
-No 7 is right.,Right result is: $.length() == 0.,Probability is: 0.00218216283247.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00217799702659.
-No 5 is right.,Right result is: $ < size.,Probability is: 0.0591100156307.
-No 7 is right.,Right result is: i < $.,Probability is: 0.013066323474.
-No 7 is right.,Right result is: $ > 0.,Probability is: 0.00877499580383.
-No 9 is right.,Right result is: $ < limit.,Probability is: 0.00666404375806.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00439373077825.
-No 6 is right.,Right result is: i < $.length.,Probability is: 0.00429744226858.
-No 5 is right.,Right result is: $ < 0.,Probability is: 0.00379317230545.
-No 6 is right.,Right result is: $ != -1.,Probability is: 0.00369172845967.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00343074835837.
-No 6 is right.,Right result is: $ < length.,Probability is: 0.00342141021974.
-No 4 is right.,Right result is: i < $.,Probability is: 0.190502136946.
-No 6 is right.,Right result is: $ < size.,Probability is: 0.0104920817539.
-No 1 is right.,Right result is: $ > 0.,Probability is: 0.00754447467625.
-No 1 is right.,Right result is: $ < limit.,Probability is: 0.00478444108739.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00377759616822.
-No 4 is right.,Right result is: i < $.length.,Probability is: 0.00369481020607.
-No 1 is right.,Right result is: $ < 0.,Probability is: 0.00326125416905.
-No 1 is right.,Right result is: $ != -1.,Probability is: 0.00317403487861.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00294965296052.
-No 1 is right.,Right result is: $ < length.,Probability is: 0.00294162449427.
-No 1 is right.,Right result is: i < $.,Probability is: 0.143070846796.
-No 1 is right.,Right result is: $ > 0.,Probability is: 0.0080598667264.
-No 1 is right.,Right result is: $ < size.,Probability is: 0.00450618052855.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0040356577374.
-No 1 is right.,Right result is: $ < 0.,Probability is: 0.00348404282704.
-No 5 is right.,Right result is: $ != -1.,Probability is: 0.00339086609893.
-No 5 is right.,Right result is: $ < limit.,Probability is: 0.00332170329057.
-No 2 is right.,Right result is: $ == 0.,Probability is: 0.00315115507692.
-No 9 is right.,Right result is: $ < length.,Probability is: 0.00314257806167.
-No 5 is right.,Right result is: $.,Probability is: 0.00300954701379.
-No 2 is right.,Right result is: $ < size.,Probability is: 0.0247630830854.
-No 1 is right.,Right result is: i < $.,Probability is: 0.0127837015316.
-No 4 is right.,Right result is: $ > 0.,Probability is: 0.00914413202554.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00457856152207.
-No 1 is right.,Right result is: $ < limit.,Probability is: 0.00451298756525.
-No 8 is right.,Right result is: $ < 0.,Probability is: 0.00395273929462.
-No 1 is right.,Right result is: $ != -1.,Probability is: 0.00384702766314.
-No 7 is right.,Right result is: $ == 0.,Probability is: 0.0035750688985.
-No 2 is right.,Right result is: $ < length.,Probability is: 0.00356533774175.
-No 2 is right.,Right result is: $.,Probability is: 0.00341441086493.
-No 1 is right.,Right result is: $.,Probability is: 0.30845245719.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0035409736447.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.00244978722185.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00222050910816.
-No 7 is right.,Right result is: $.isEmpty().,Probability is: 0.00214696163312.
-No 2 is right.,Right result is: i < $.,Probability is: 0.00194759597071.
-No 10 is right.,Right result is: $ != 0.,Probability is: 0.00170239177532.
-No 5 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.0016570178559.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00159039720893.
-No 8 is right.,Right result is: $.length() == 0.,Probability is: 0.00159005913883.
-No 3 is right.,Right result is: i < $.,Probability is: 0.0148716215044.
-No 3 is right.,Right result is: $ > 0.,Probability is: 0.00838694628328.
-No 1 is right.,Right result is: $ < size.,Probability is: 0.00708459503949.
-No 3 is right.,Right result is: $ < limit.,Probability is: 0.00490846345201.
-No 3 is right.,Right result is: i < $.length.,Probability is: 0.00372094567865.
-No 1 is right.,Right result is: $ < 0.,Probability is: 0.00362543039955.
-No 5 is right.,Right result is: $ != -1.,Probability is: 0.00352847203612.
-No 5 is right.,Right result is: $ == 0.,Probability is: 0.00340794376098.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00324491993524.
-No 5 is right.,Right result is: $.,Probability is: 0.00313167856075.
-No 7 is right.,Right result is: $ != null.,Probability is: 0.017343563959.
-No 3 is right.,Right result is: $.,Probability is: 0.00982617493719.
-No 5 is right.,Right result is: i < $.,Probability is: 0.00664673699066.
-No 5 is right.,Right result is: $ == null.,Probability is: 0.00533164897934.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00330371619202.
-No 2 is right.,Right result is: i < $.length.,Probability is: 0.0032451369334.
-No 5 is right.,Right result is: $.length() == 0.,Probability is: 0.00223733577877.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00223207706586.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00213779159822.
-No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00212500919588.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0460255220532.
-No 1 is right.,Right result is: $.,Probability is: 0.00950053334236.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00492752017453.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00279621034861.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00257028010674.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00228418619372.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00215810537338.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00207133917138.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00207089819014.
-No 2 is right.,Right result is: p < $.,Probability is: 0.00206694449298.
-No 6 is right.,Right result is: $ != null.,Probability is: 0.0460255220532.
-No 1 is right.,Right result is: $.,Probability is: 0.00950053334236.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00492752017453.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00279621034861.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00257028010674.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00228418619372.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00215810537338.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00207133917138.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00207089819014.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00206694449298.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0740130245686.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0571071021259.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00318519934081.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00202283333056.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00199015741237.
-No 5 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00195001170505.
-No 6 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00185647397302.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.00175718066748.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00173883349635.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00160549662542.
-No 6 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00663258461282.
-No 1 is right.,Right result is: $.closed.,Probability is: 0.00542278913781.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.00467185536399.
-No 1 is right.,Right result is: $.pos == $.length.,Probability is: 0.00447094673291.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00367061654106.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00308209005743.
-No 3 is right.,Right result is: $.hasNext().,Probability is: 0.00264260894619.
-No 3 is right.,Right result is: $ != null.,Probability is: 0.00261517916806.
-No 1 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00251534138806.
-No 1 is right.,Right result is: $.initialized.,Probability is: 0.00228320737369.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.017343563959.
-No 1 is right.,Right result is: $.,Probability is: 0.00982617493719.
-No 3 is right.,Right result is: i < $.,Probability is: 0.00664673699066.
-No 4 is right.,Right result is: $ == null.,Probability is: 0.00533164897934.
-No 9 is right.,Right result is: $.isEmpty().,Probability is: 0.00330371619202.
-No 9 is right.,Right result is: i < $.length.,Probability is: 0.0032451369334.
-No 7 is right.,Right result is: $.length() == 0.,Probability is: 0.00223733577877.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00223207706586.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00213779159822.
-No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00212500919588.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0720836594701.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0208608526736.
-No 1 is right.,Right result is: $ < size.,Probability is: 0.0160338841379.
-No 2 is right.,Right result is: $.hasNext().,Probability is: 0.00295903091319.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00246196426451.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00216063065454.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.00176050676964.
-No 2 is right.,Right result is: $ <= 0.,Probability is: 0.00164721813053.
-No 2 is right.,Right result is: $ < limit.,Probability is: 0.00163750175852.
-No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.0015952369431.
-No 1 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00658040074632.
-No 2 is right.,Right result is: $.closed.,Probability is: 0.00519210658967.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.00463509792462.
-No 1 is right.,Right result is: $.pos == $.length.,Probability is: 0.00443576974794.
-No 2 is right.,Right result is: $.client.,Probability is: 0.00364173669368.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0030578407459.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00269046006724.
-No 2 is right.,Right result is: $.hasNext().,Probability is: 0.00262181716971.
-No 2 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00249555124901.
-No 1 is right.,Right result is: $.initialized.,Probability is: 0.00226524355821.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0580409094691.
-No 5 is right.,Right result is: $.,Probability is: 0.00938022136688.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00486511923373.
-No 7 is right.,Right result is: $.isEmpty().,Probability is: 0.00276080006734.
-No 9 is right.,Right result is: i < $.,Probability is: 0.00260325660929.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00225526001304.
-No 5 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00213077571243.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00204510823824.
-No 3 is right.,Right result is: $.length() == 0.,Probability is: 0.00204467284493.
-No 3 is right.,Right result is: p < $.,Probability is: 0.00204076920636.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0460255220532.
-No 7 is right.,Right result is: $.,Probability is: 0.00950053334236.
-No 9 is right.,Right result is: $ == null.,Probability is: 0.00492752017453.
-No 4 is right.,Right result is: $.isEmpty().,Probability is: 0.00279621034861.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00257028010674.
-No 10 is right.,Right result is: $ == 0.,Probability is: 0.00228418619372.
-No 7 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00215810537338.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00207133917138.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00207089819014.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00206694449298.
-No 1 is right.,Right result is: $.,Probability is: 0.302498012781.
-No 4 is right.,Right result is: $ == null.,Probability is: 0.00419230153784.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00240249582566.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00236257258803.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00196013459936.
-No 9 is right.,Right result is: $.isEmpty().,Probability is: 0.00185671914369.
-No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00136960484087.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.00130962522235.
-No 1 is right.,Right result is: $ < size.,Probability is: 0.00129129935522.
-No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.00127594929654.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0142865907401.
-No 2 is right.,Right result is: $.,Probability is: 0.00995181873441.
-No 2 is right.,Right result is: i < $.,Probability is: 0.00673172622919.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00513451872393.
-No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00334595958702.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00326838204637.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.0026256965939.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00259708752856.
-No 1 is right.,Right result is: pos < $.length().,Probability is: 0.0022855727002.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00216512661427.
-No 3 is right.,Right result is: $ != null.,Probability is: 0.0181767921895.
-No 1 is right.,Right result is: $.,Probability is: 0.00991335883737.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00662486581132.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0051146754995.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00333302863874.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00325575075112.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00261554913595.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00258705066517.
-No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00227673980407.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00215675937943.
-No 1 is right.,Right result is: $.chars[$.pos] == ' '.,Probability is: 0.00663372734562.
-No 1 is right.,Right result is: $.closed.,Probability is: 0.00542372325435.
-No 1 is right.,Right result is: $.pos < $.length.,Probability is: 0.0046726600267.
-No 1 is right.,Right result is: $.pos == $.length.,Probability is: 0.00447171693668.
-No 1 is right.,Right result is: $.client.,Probability is: 0.00351007771678.
-No 8 is right.,Right result is: $ == null.,Probability is: 0.00308262114413.
-No 7 is right.,Right result is: $.hasNext().,Probability is: 0.0026430641301.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.00263932486996.
-No 5 is right.,Right result is: $.queryNamesAndValues == null.,Probability is: 0.00251577491872.
-No 1 is right.,Right result is: $.initialized.,Probability is: 0.00228360062465.
-No 9 is right.,Right result is: $ == null.,Probability is: 0.0634833499789.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.0181567650288.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00372334429994.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00216092169285.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00208312878385.
-No 2 is right.,Right result is: i < $.,Probability is: 0.00206179148518.
-No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00198320578784.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00197571702302.
-No 1 is right.,Right result is: $ == this.,Probability is: 0.00187713420019.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00185753463302.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.0668643191457.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0221091415733.
-No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00206291372888.
-No 1 is right.,Right result is: $ > length.,Probability is: 0.00168144458439.
-No 1 is right.,Right result is: $ >= 'A'.,Probability is: 0.00161507562734.
-No 1 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00153460924048.
-No 2 is right.,Right result is: $ <= '9'.,Probability is: 0.00152579578571.
-No 1 is right.,Right result is: $.closed.,Probability is: 0.00147810636554.
-No 5 is right.,Right result is: $ > 0L.,Probability is: 0.00143728230614.
-No 4 is right.,Right result is: $.forWebSocket.,Probability is: 0.00139102165122.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0804410129786.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.079692825675.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00197921483777.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00183596066199.
-No 1 is right.,Right result is: $.isMultiplexed().,Probability is: 0.00153525534552.
-No 2 is right.,Right result is: $.currentEditor != null.,Probability is: 0.00143692444544.
-No 1 is right.,Right result is: $.tlsVersions != null.,Probability is: 0.00136848480906.
-No 1 is right.,Right result is: $.httpCode == -1.,Probability is: 0.00136388547253.
-No 1 is right.,Right result is: $.lookingAt().,Probability is: 0.00133118173108.
-No 4 is right.,Right result is: $ instanceof SSLHandshakeException.,Probability is: 0.00132438179571.
-No 6 is right.,Right result is: $ > 0.,Probability is: 0.00926817394793.
-No 2 is right.,Right result is: $ != -1.,Probability is: 0.00763138988987.
-No 3 is right.,Right result is: i < $.,Probability is: 0.00759545853361.
-No 1 is right.,Right result is: $ < 0.,Probability is: 0.00645919889212.
-No 1 is right.,Right result is: $ != 0.,Probability is: 0.00614574924111.
-No 2 is right.,Right result is: $ == -1.,Probability is: 0.00569200515747.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00496923690662.
-No 9 is right.,Right result is: $ == 0.,Probability is: 0.00467465491965.
-No 2 is right.,Right result is: $ < limit.,Probability is: 0.00352506060153.
-No 1 is right.,Right result is: $.,Probability is: 0.00346072786488.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0408656895161.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0319070629776.
-No 7 is right.,Right result is: $.isEmpty().,Probability is: 0.00455066654831.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00224515190348.
-No 10 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00213745702058.
-No 10 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00206903368235.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00200201128609.
-No 2 is right.,Right result is: $ == 0.,Probability is: 0.00184849346988.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00165039731655.
-No 4 is right.,Right result is: $.hasNext().,Probability is: 0.00158890709281.
-No 10 is right.,Right result is: $ != null.,Probability is: 0.0408656895161.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0319070629776.
-No 4 is right.,Right result is: $.isEmpty().,Probability is: 0.00455066654831.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00224515190348.
-No 6 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00213745702058.
-No 9 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00206903368235.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00200201128609.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00184849346988.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00165039731655.
-No 4 is right.,Right result is: $.hasNext().,Probability is: 0.00158890709281.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.0408656895161.
-No 4 is right.,Right result is: $ == null.,Probability is: 0.0319070629776.
-No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00455066654831.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00224515190348.
-No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00213745702058.
-No 4 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00206903368235.
-No 2 is right.,Right result is: p < $.,Probability is: 0.00200201128609.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00184849346988.
-No 2 is right.,Right result is: $.length() == 0.,Probability is: 0.00165039731655.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00158890709281.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0408656895161.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0319070629776.
-No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00455066654831.
-No 2 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00224515190348.
-No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00213745702058.
-No 2 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00206903368235.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00200201128609.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00184849346988.
-No 2 is right.,Right result is: $.length() == 0.,Probability is: 0.00165039731655.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00158890709281.
-No 2 is right.,Right result is: $ == null.,Probability is: 0.0987780541182.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0594396442175.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00305266934447.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00183925346937.
-No 1 is right.,Right result is: $.isMultiplexed().,Probability is: 0.00153800880071.
-No 1 is right.,Right result is: $.httpCode == -1.,Probability is: 0.00147541996557.
-No 9 is right.,Right result is: $.currentEditor != null.,Probability is: 0.00143950164784.
-No 1 is right.,Right result is: $ instanceof SSLHandshakeException.,Probability is: 0.00142423703801.
-No 1 is right.,Right result is: $.tlsVersions != null.,Probability is: 0.00137093907688.
-No 1 is right.,Right result is: $.lookingAt().,Probability is: 0.0013335691765.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0408656895161.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0319070629776.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00455066654831.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00224515190348.
-No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00213745702058.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00206903368235.
-No 8 is right.,Right result is: p < $.,Probability is: 0.00200201128609.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00184849346988.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00165039731655.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00158890709281.
-No 1 is right.,Right result is: $.,Probability is: 0.308491677046.
-No 10 is right.,Right result is: $ == null.,Probability is: 0.00338833942078.
-No 7 is right.,Right result is: $ != null.,Probability is: 0.00245009874925.
-No 2 is right.,Right result is: $ == 0.,Probability is: 0.00222079153173.
-No 6 is right.,Right result is: $.isEmpty().,Probability is: 0.00214723451063.
-No 2 is right.,Right result is: i < $.,Probability is: 0.00197374029085.
-No 6 is right.,Right result is: $ != 0.,Probability is: 0.00170260830782.
-No 2 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00165722856764.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00159059953876.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00159026135225.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0587031580508.
-No 5 is right.,Right result is: $ != null.,Probability is: 0.0536810904741.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00326047930866.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00216831802391.
-No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00206430861726.
-No 8 is right.,Right result is: p < $.,Probability is: 0.00167091784533.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00166979408823.
-No 5 is right.,Right result is: $.length() == 0.,Probability is: 0.0015939171426.
-No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00153453135863.
-No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00151721946895.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0587031580508.
-No 1 is right.,Right result is: $ != null.,Probability is: 0.0536810904741.
-No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00326047930866.
-No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00216831802391.
-No 9 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00206430861726.
-No 1 is right.,Right result is: p < $.,Probability is: 0.00167091784533.
-No 8 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00166979408823.
-No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.0015939171426.
-No 8 is right.,Right result is: $.hasNext().,Probability is: 0.00153453135863.
-No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00151721946895.
-No 1 is right.,Right result is: $ < size.,Probability is: 0.0562310218811.
-No 3 is right.,Right result is: i < $.,Probability is: 0.0124299190938.
-No 1 is right.,Right result is: $ > 0.,Probability is: 0.00834760349244.
-No 3 is right.,Right result is: $ < limit.,Probability is: 0.0063394671306.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00478576682508.
-No 3 is right.,Right result is: i < $.length.,Probability is: 0.00408813264221.
-No 1 is right.,Right result is: $ < 0.,Probability is: 0.00360842328519.
-No 5 is right.,Right result is: $ != -1.,Probability is: 0.0035119203385.
-No 7 is right.,Right result is: $ == 0.,Probability is: 0.00339195691049.
-No 1 is right.,Right result is: $ < length.,Probability is: 0.00325476797298.
-No 1 is right.,Right result is: i < $.,Probability is: 0.220746099949.
-No 1 is right.,Right result is: $ < size.,Probability is: 0.00954880844802.
-No 1 is right.,Right result is: $ > 0.,Probability is: 0.00578890834004.
-No 1 is right.,Right result is: $ < limit.,Probability is: 0.00435430370271.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.0039364635013.
-No 1 is right.,Right result is: i < $.length.,Probability is: 0.00336263445206.
-No 1 is right.,Right result is: $ == 0.,Probability is: 0.00319699686952.
-No 1 is right.,Right result is: $ < 0.,Probability is: 0.00296805636026.
-No 6 is right.,Right result is: $ != -1.,Probability is: 0.00288867857307.
-No 1 is right.,Right result is: $ < length.,Probability is: 0.00267716241069.
-No 7 is right.,Right result is: $ < size.,Probability is: 0.023170877248.
-No 1 is right.,Right result is: $ > 0.,Probability is: 0.00855618715286.
-No 2 is right.,Right result is: $ != -1.,Probability is: 0.00704514188692.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00652497494593.
-No 1 is right.,Right result is: $ < 0.,Probability is: 0.00596299907193.
-No 1 is right.,Right result is: $ != 0.,Probability is: 0.0059099229984.
-No 1 is right.,Right result is: $ == -1.,Probability is: 0.00525474175811.
-No 1 is right.,Right result is: $ == null.,Probability is: 0.00490535004064.
-No 4 is right.,Right result is: $ == 0.,Probability is: 0.0044852043502.
-No 2 is right.,Right result is: $ < limit.,Probability is: 0.00422281352803.
-No 4 is right.,Right result is: $ == null.,Probability is: 0.0843449532986.
-No 2 is right.,Right result is: $ != null.,Probability is: 0.0145974913612.
-No 6 is right.,Right result is: $.isEmpty().,Probability is: 0.00435793632641.
-No 1 is right.,Right result is: i < $.,Probability is: 0.00211359420791.
-No 6 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00210972246714.
-No 6 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00200852379203.
-No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00194844882935.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.740605175495.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0124438544735.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00202163960785.
+No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.00165900099091.
+No 1 is right.,Right result is: i < $.size().,Probability is: 0.0015552949626.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00151896371972.
+No 1 is right.,Right result is: $ == 0x7f.,Probability is: 0.00121035147458.
+No 1 is right.,Right result is: $.sink.$.finished.,Probability is: 0.0012094208505.
+No 1 is right.,Right result is: $ >= 0x80.,Probability is: 0.0011202149326.
+No 1 is right.,Right result is: $.currentEditor != null.,Probability is: 0.00100503850263.
+No 3 is right.,Right result is: $ == null.,Probability is: 0.591331362724.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0207833331078.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00464678928256.
+No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.0027558109723.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00233550649136.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00211825990118.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00204303185456.
+No 3 is right.,Right result is: $ == 0x7f.,Probability is: 0.00201054732315.
+No 4 is right.,Right result is: $ <= 0.,Probability is: 0.00197726557963.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00189721561037.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.755829870701.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00456064380705.
+No 3 is right.,Right result is: $ != null.,Probability is: 0.00328546948731.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.00234180898406.
+No 4 is right.,Right result is: $ == this.,Probability is: 0.00201648147777.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00185239349958.
+No 1 is right.,Right result is: i < $.valueCount.,Probability is: 0.00151077692863.
+No 1 is right.,Right result is: i < $.size().,Probability is: 0.00149626121856.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00146211346146.
+No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.00141943572089.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.753844082355.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.014392436482.
+No 9 is right.,Right result is: $ != null.,Probability is: 0.00863620638847.
+No 2 is right.,Right result is: $ == this.,Probability is: 0.00214498722926.
+No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0015552904224.
+No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.0015098931035.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00139513763133.
+No 1 is right.,Right result is: i < $.size().,Probability is: 0.00122272653971.
+No 3 is right.,Right result is: $ == 0x7f.,Probability is: 0.00110156752635.
+No 4 is right.,Right result is: $ <= 0.,Probability is: 0.00108333246317.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.783507287502.
+No 3 is right.,Right result is: $ != null.,Probability is: 0.0247113369405.
+No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.00138507562224.
+No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00116931484081.
+No 1 is right.,Right result is: $ == 0x7f.,Probability is: 0.00101050478406.
+No 1 is right.,Right result is: $ >= 0x80.,Probability is: 0.000935251126066.
+No 1 is right.,Right result is: isEndToEnd($).,Probability is: 0.00082653661957.
+No 1 is right.,Right result is: i < $.size().,Probability is: 0.000774668995291.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.000732426182367.
+No 2 is right.,Right result is: $ < pinsSize.,Probability is: 0.000717802380677.
+No 4 is right.,Right result is: $ == null.,Probability is: 0.705489575863.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0104871559888.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00534045463428.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00200036470778.
+No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.00194197602104.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.0017684759805.
+No 6 is right.,Right result is: $ == 0x7f.,Probability is: 0.00141680066008.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00139334739652.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00136087206192.
+No 6 is right.,Right result is: $ >= 0x80.,Probability is: 0.0013112896122.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.0152034452185.
+No 4 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.0093294037506.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.00918102636933.
+No 9 is right.,Right result is: $.chars[$.pos] != '='.,Probability is: 0.00849070027471.
+No 8 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00810585543513.
+No 3 is right.,Right result is: $.shutdown.,Probability is: 0.00782333500683.
+No 4 is right.,Right result is: i < $.valueCount.,Probability is: 0.00695827184245.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.00681112241.
+No 6 is right.,Right result is: $.state != STATE_OPEN_REQUEST_BODY.,Probability is: 0.00594316935167.
+No 1 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.00576255749911.
+No 1 is right.,Right result is: $.closed.,Probability is: 0.0431426428258.
+No 6 is right.,Right result is: $.tls.,Probability is: 0.0128739196807.
+No 2 is right.,Right result is: i < $.valueCount.,Probability is: 0.00913121178746.
+No 1 is right.,Right result is: other == $.,Probability is: 0.00727144489065.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.00686097983271.
+No 4 is right.,Right result is: $.initialized.,Probability is: 0.00644315872341.
+No 4 is right.,Right result is: $.chars[$.pos] == ';'.,Probability is: 0.00625758292153.
+No 1 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.0055381488055.
+No 1 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.00551916891709.
+No 1 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00528002949432.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.410387158394.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0631739348173.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0116126630455.
+No 1 is right.,Right result is: $ != -1.,Probability is: 0.00824665371329.
+No 1 is right.,Right result is: $ < 1.,Probability is: 0.00287884171121.
+No 3 is right.,Right result is: indexOfControlOrNonAscii($) != -1.,Probability is: 0.00227696355432.
+No 4 is right.,Right result is: $ > 0L.,Probability is: 0.0019766939804.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00193864060566.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00168977747671.
+No 1 is right.,Right result is: $.startsWith(".").,Probability is: 0.00161718402524.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0854778364301.
+No 1 is right.,Right result is: $.,Probability is: 0.0301485154778.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.0087166512385.
+No 6 is right.,Right result is: $.isEmpty().,Probability is: 0.00685282098129.
+No 7 is right.,Right result is: $.length() == 0.,Probability is: 0.00683012837544.
+No 9 is right.,Right result is: $.startsWith(".").,Probability is: 0.00635568145663.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.00585891120136.
+No 9 is right.,Right result is: $ < 1.,Probability is: 0.00550137273967.
+No 2 is right.,Right result is: $ < input.length().,Probability is: 0.0054366197437.
+No 8 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00483002280816.
+No 8 is right.,Right result is: $ != null.,Probability is: 0.257259190083.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.018498364836.
+No 9 is right.,Right result is: $.isEmpty().,Probability is: 0.00891458615661.
+No 10 is right.,Right result is: $ > 0.,Probability is: 0.00574165536091.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.00562651176006.
+No 1 is right.,Right result is: isEndToEnd($).,Probability is: 0.00397890713066.
+No 1 is right.,Right result is: $.,Probability is: 0.00315910577774.
+No 9 is right.,Right result is: c < $.,Probability is: 0.00293354876339.
+No 1 is right.,Right result is: $ < certsSize.,Probability is: 0.0028820510488.
+No 1 is right.,Right result is: $ < pinsSize.,Probability is: 0.0027911067009.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.0129764955491.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.0117036895826.
+No 1 is right.,Right result is: i < $.valueCount.,Probability is: 0.00920396670699.
+No 4 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.00771186733618.
+No 2 is right.,Right result is: $.chars[$.pos] == ';'.,Probability is: 0.00761151034385.
+No 10 is right.,Right result is: other == $.,Probability is: 0.00732938200235.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.00649449555203.
+No 2 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00598968518898.
+No 2 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00532209966332.
+No 1 is right.,Right result is: $.logger.isLoggable(FINE).,Probability is: 0.00527254538611.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.0129764955491.
+No 9 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.0117036895826.
+No 8 is right.,Right result is: i < $.valueCount.,Probability is: 0.00920396670699.
+No 1 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.00771186733618.
+No 1 is right.,Right result is: $.chars[$.pos] == ';'.,Probability is: 0.00761151034385.
+No 1 is right.,Right result is: other == $.,Probability is: 0.00732938200235.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.00649449555203.
+No 1 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00598968518898.
+No 1 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00532209966332.
+No 1 is right.,Right result is: $.logger.isLoggable(FINE).,Probability is: 0.00527254538611.
+No 3 is right.,Right result is: $ != null.,Probability is: 0.155747666955.
+No 3 is right.,Right result is: $ == null.,Probability is: 0.0650191903114.
+No 4 is right.,Right result is: $.isEmpty().,Probability is: 0.0103835389018.
+No 5 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00472075818107.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.0042604804039.
+No 1 is right.,Right result is: isEndToEnd($).,Probability is: 0.00408709282055.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00391387846321.
+No 4 is right.,Right result is: $ <= 0.,Probability is: 0.00381667143665.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00380009878427.
+No 1 is right.,Right result is: $ < pinsSize.,Probability is: 0.00365870911628.
+No 3 is right.,Right result is: $.tls.,Probability is: 0.0219830106944.
+No 2 is right.,Right result is: $.initialized.,Probability is: 0.012639131397.
+No 2 is right.,Right result is: $.pos == $.length.,Probability is: 0.0108923129737.
+No 4 is right.,Right result is: i < $.valueCount.,Probability is: 0.00718725286424.
+No 1 is right.,Right result is: other == $.,Probability is: 0.00682066055015.
+No 7 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00651216926053.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.00616601807997.
+No 2 is right.,Right result is: $.closed.,Probability is: 0.00615711137652.
+No 1 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00592984957621.
+No 2 is right.,Right result is: $.hasErrors.,Probability is: 0.00592167535797.
+No 6 is right.,Right result is: $.tls.,Probability is: 0.0219830106944.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.012639131397.
+No 1 is right.,Right result is: $.pos == $.length.,Probability is: 0.0108923129737.
+No 5 is right.,Right result is: i < $.valueCount.,Probability is: 0.00718725286424.
+No 1 is right.,Right result is: other == $.,Probability is: 0.00682066055015.
+No 5 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00651216926053.
+No 2 is right.,Right result is: $ == null.,Probability is: 0.00616601807997.
+No 5 is right.,Right result is: $.closed.,Probability is: 0.00615711137652.
+No 2 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00592984957621.
+No 1 is right.,Right result is: $.hasErrors.,Probability is: 0.00592167535797.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.233048796654.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.0253233835101.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0145431505516.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00681362161413.
+No 6 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00435677682981.
+No 7 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.003544901032.
+No 2 is right.,Right result is: $.length() == 0.,Probability is: 0.00352050899528.
+No 2 is right.,Right result is: $.equals("GET").,Probability is: 0.00344673008658.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00328618846834.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00315646221861.
+No 10 is right.,Right result is: $ != null.,Probability is: 0.229968577623.
+No 2 is right.,Right result is: i < $.length.,Probability is: 0.00870904698968.
+No 2 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00513256108388.
+No 3 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00451298849657.
+No 1 is right.,Right result is: $.,Probability is: 0.00379160209559.
+No 1 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.00307934661396.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.00285790022463.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00271522509865.
+No 2 is right.,Right result is: $ == null.,Probability is: 0.00271292147227.
+No 1 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00248186453246.
+No 1 is right.,Right result is: $ < size.,Probability is: 0.250349313021.
+No 5 is right.,Right result is: $ < limit.,Probability is: 0.0363582111895.
+No 6 is right.,Right result is: $ < length.,Probability is: 0.0275625064969.
+No 1 is right.,Right result is: i < $.,Probability is: 0.0235947873443.
+No 2 is right.,Right result is: $ < valueCount.,Probability is: 0.0134710483253.
+No 1 is right.,Right result is: $ > 0.,Probability is: 0.00757417408749.
+No 5 is right.,Right result is: i < $.length.,Probability is: 0.0075136711821.
+No 4 is right.,Right result is: $.hasNext().,Probability is: 0.00562602374703.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.00495926383883.
+No 2 is right.,Right result is: $ != -1.,Probability is: 0.00430450635031.
+No 1 is right.,Right result is: i < $.,Probability is: 0.739744782448.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.00729933660477.
+No 2 is right.,Right result is: $ < size.,Probability is: 0.00610051723197.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.00495071150362.
+No 5 is right.,Right result is: $ < length.,Probability is: 0.00319918850437.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.0027613309212.
+No 4 is right.,Right result is: $ > 0.,Probability is: 0.00218931981362.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.00147397862747.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00137018179521.
+No 2 is right.,Right result is: $ < 1.,Probability is: 0.00127853185404.
+No 1 is right.,Right result is: i < $.,Probability is: 0.497635513544.
+No 5 is right.,Right result is: $ > 0.,Probability is: 0.00451721809804.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.00439756689593.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.00304125645198.
+No 4 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00290297414176.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.00280858273618.
+No 6 is right.,Right result is: $ < 1.,Probability is: 0.00263799168169.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00259971129708.
+No 2 is right.,Right result is: $ <= 0.,Probability is: 0.00228290003724.
+No 1 is right.,Right result is: $ != -1.,Probability is: 0.00208532810211.
+No 3 is right.,Right result is: $ < size.,Probability is: 0.0333260670304.
+No 7 is right.,Right result is: i < $.,Probability is: 0.0273910742253.
+No 9 is right.,Right result is: $ > 0.,Probability is: 0.0108501994982.
+No 8 is right.,Right result is: $ < limit.,Probability is: 0.00930002052337.
+No 2 is right.,Right result is: $ < length.,Probability is: 0.00884892139584.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.00830781366676.
+No 3 is right.,Right result is: $.hasNext().,Probability is: 0.00792624428868.
+No 7 is right.,Right result is: $ != null.,Probability is: 0.00710427388549.
+No 8 is right.,Right result is: $ != -1.,Probability is: 0.00616631563753.
+No 9 is right.,Right result is: $ < 1.,Probability is: 0.00464523024857.
+No 2 is right.,Right result is: $.,Probability is: 0.812017202377.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.00228741555475.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.00209347903728.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00123376457486.
+No 5 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.000854247657117.
+No 4 is right.,Right result is: p < $.,Probability is: 0.00082091067452.
+No 5 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.000740212853998.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.000705256941728.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.000686981598847.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.000609559065197.
+No 1 is right.,Right result is: i < $.,Probability is: 0.0377593934536.
+No 1 is right.,Right result is: $ > 0.,Probability is: 0.0213297493756.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.0155836027116.
+No 1 is right.,Right result is: $ < size.,Probability is: 0.0148496842012.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.0134084094316.
+No 1 is right.,Right result is: $ >= 'A'.,Probability is: 0.0118847731501.
+No 1 is right.,Right result is: $ <= 'F'.,Probability is: 0.0100303050131.
+No 1 is right.,Right result is: $ >= 'a'.,Probability is: 0.00854277517647.
+No 1 is right.,Right result is: $ >= '0'.,Probability is: 0.00801838934422.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.0079561797902.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0609894506633.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.00916177593172.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.008141618222.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.0076892641373.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00623457925394.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00568797579035.
+No 1 is right.,Right result is: p < $.,Probability is: 0.00509049929678.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00491668144241.
+No 1 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.00467335106805.
+No 1 is right.,Right result is: $ == 0x7f.,Probability is: 0.00451089581475.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.141688838601.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.00854361429811.
+No 8 is right.,Right result is: $ == null.,Probability is: 0.00534644024447.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00522543350235.
+No 8 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00501058762893.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00452205166221.
+No 2 is right.,Right result is: isEndToEnd($).,Probability is: 0.00449802167714.
+No 3 is right.,Right result is: p < $.,Probability is: 0.00442786049098.
+No 4 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.00428826222196.
+No 1 is right.,Right result is: percentEncoded(input, $, limit).,Probability is: 0.0042571099475.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.15030041337.
+No 3 is right.,Right result is: i < $.length.,Probability is: 0.00845789350569.
+No 4 is right.,Right result is: $ == null.,Probability is: 0.00529279839247.
+No 4 is right.,Right result is: $ <= 0.,Probability is: 0.00517300562933.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00496031576768.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.004476680886.
+No 4 is right.,Right result is: isEndToEnd($).,Probability is: 0.00445289211348.
+No 1 is right.,Right result is: p < $.,Probability is: 0.00438343500718.
+No 1 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.00424523744732.
+No 5 is right.,Right result is: percentEncoded(input, $, limit).,Probability is: 0.00421439763159.
+No 4 is right.,Right result is: $ != null.,Probability is: 0.144450590014.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.103124268353.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0157317202538.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0073639890179.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00580012612045.
+No 6 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00481987791136.
+No 7 is right.,Right result is: $.hasNext().,Probability is: 0.00390043528751.
+No 1 is right.,Right result is: isEndToEnd($).,Probability is: 0.00374651723541.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00350909004919.
+No 1 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00342953740619.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.0198889039457.
+No 2 is right.,Right result is: $.initialized.,Probability is: 0.0110689187422.
+No 2 is right.,Right result is: other == $.,Probability is: 0.0101444749162.
+No 1 is right.,Right result is: i < $.valueCount.,Probability is: 0.00948628038168.
+No 10 is right.,Right result is: $.sink.$.finished.,Probability is: 0.00697305845097.
+No 1 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00686735566705.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.00674159172922.
+No 1 is right.,Right result is: $.chars[$.pos] == ';'.,Probability is: 0.006646130234.
+No 1 is right.,Right result is: $.errorCode != null.,Probability is: 0.00664320588112.
+No 1 is right.,Right result is: $.hasErrors.,Probability is: 0.00639578932896.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0609894506633.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.00916177593172.
+No 5 is right.,Right result is: i < $.length.,Probability is: 0.008141618222.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.0076892641373.
+No 5 is right.,Right result is: $ == this.,Probability is: 0.00623457925394.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00568797579035.
+No 1 is right.,Right result is: p < $.,Probability is: 0.00509049929678.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00491668144241.
+No 1 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.00467335106805.
+No 2 is right.,Right result is: $ == 0x7f.,Probability is: 0.00451089581475.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.0837392583489.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0529972724617.
+No 1 is right.,Right result is: $ < size.,Probability is: 0.0523844063282.
+No 2 is right.,Right result is: $ == null.,Probability is: 0.0455141998827.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.0175698231906.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.00970843620598.
+No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00969495810568.
+No 1 is right.,Right result is: $ < length.,Probability is: 0.00656955502927.
+No 2 is right.,Right result is: i < $.size().,Probability is: 0.00507831247523.
+No 1 is right.,Right result is: $ < pinsSize.,Probability is: 0.00340557098389.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.0128702446818.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.0116078611463.
+No 2 is right.,Right result is: i < $.valueCount.,Probability is: 0.00912860501558.
+No 1 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.00764872319996.
+No 1 is right.,Right result is: $.chars[$.pos] == ';'.,Probability is: 0.00754918763414.
+No 2 is right.,Right result is: other == $.,Probability is: 0.00726936897263.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.00644131936133.
+No 2 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.0059406417422.
+No 3 is right.,Right result is: $.sink.$.finished.,Probability is: 0.00578257534653.
+No 1 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00527852261439.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.152369126678.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.00845266506076.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00516980793327.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0049572493881.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00447391299531.
+No 1 is right.,Right result is: isEndToEnd($).,Probability is: 0.00445013912395.
+No 1 is right.,Right result is: p < $.,Probability is: 0.00438072485849.
+No 2 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.00424261298031.
+No 1 is right.,Right result is: percentEncoded(input, $, limit).,Probability is: 0.00421179225668.
+No 3 is right.,Right result is: $ == this.,Probability is: 0.0041099479422.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.141688838601.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.00854361429811.
+No 3 is right.,Right result is: $ == null.,Probability is: 0.00534644024447.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00522543350235.
+No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00501058762893.
+No 2 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00452205166221.
+No 1 is right.,Right result is: isEndToEnd($).,Probability is: 0.00449802167714.
+No 2 is right.,Right result is: p < $.,Probability is: 0.00442786049098.
+No 1 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.00428826222196.
+No 8 is right.,Right result is: percentEncoded(input, $, limit).,Probability is: 0.0042571099475.
+No 1 is right.,Right result is: $.,Probability is: 0.710195839405.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.00335514335893.
+No 5 is right.,Right result is: $ != null.,Probability is: 0.00204170378856.
+No 9 is right.,Right result is: $ == null.,Probability is: 0.00188622821588.
+No 3 is right.,Right result is: $ > 0.,Probability is: 0.00156718445942.
+No 8 is right.,Right result is: $ == 0x7f.,Probability is: 0.00149305735249.
+No 7 is right.,Right result is: $ >= 0x80.,Probability is: 0.00142757955473.
+No 9 is right.,Right result is: isEndToEnd($).,Probability is: 0.00135145371314.
+No 9 is right.,Right result is: percentEncoded(input, i, $).,Probability is: 0.0012960289605.
+No 3 is right.,Right result is: $ <= 0.,Probability is: 0.00121433159802.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0668857991695.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00917403586209.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00721240462735.
+No 6 is right.,Right result is: $.length() == 0.,Probability is: 0.00718852132559.
+No 9 is right.,Right result is: $.startsWith(".").,Probability is: 0.00713621173054.
+No 4 is right.,Right result is: $ == null.,Probability is: 0.0059822765179.
+No 2 is right.,Right result is: $ < input.length().,Probability is: 0.00572189269587.
+No 10 is right.,Right result is: $ < 1.,Probability is: 0.0053839487955.
+No 8 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.0050834659487.
+No 1 is right.,Right result is: $.endsWith(".").,Probability is: 0.00499149085954.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0777598321438.
+No 7 is right.,Right result is: pos < $.length().,Probability is: 0.00878638122231.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00712956534699.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00710595631972.
+No 1 is right.,Right result is: $.startsWith(".").,Probability is: 0.00705424696207.
+No 3 is right.,Right result is: $ == null.,Probability is: 0.00681181065738.
+No 4 is right.,Right result is: $ < input.length().,Probability is: 0.00565617252141.
+No 1 is right.,Right result is: $ < 1.,Probability is: 0.00532211037353.
+No 2 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00502507854253.
+No 2 is right.,Right result is: $.endsWith(".").,Probability is: 0.00493416050449.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.0206896495074.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.0115145631135.
+No 8 is right.,Right result is: other == $.,Probability is: 0.010552899912.
+No 1 is right.,Right result is: i < $.valueCount.,Probability is: 0.00810805615038.
+No 1 is right.,Right result is: $.pos >= $.length.,Probability is: 0.00714384159073.
+No 1 is right.,Right result is: $.chars[$.pos] == ';'.,Probability is: 0.00691370945424.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.0067260847427.
+No 1 is right.,Right result is: $.hasErrors.,Probability is: 0.00665328884497.
+No 7 is right.,Right result is: $.closed.,Probability is: 0.00624686293304.
+No 6 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00612902827561.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0766887292266.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0300972238183.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0247514713556.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.0100608523935.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.0072916042991.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00612180214375.
+No 8 is right.,Right result is: $.equals("GET").,Probability is: 0.00387762882747.
+No 6 is right.,Right result is: $.noNewStreams.,Probability is: 0.0038010252174.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00354050984606.
+No 1 is right.,Right result is: pin.hash.equals($).,Probability is: 0.00346157699823.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.511486709118.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0375753343105.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00300134159625.
+No 1 is right.,Right result is: $ >= 'A'.,Probability is: 0.00138966704253.
+No 7 is right.,Right result is: $.forWebSocket.,Probability is: 0.00133588816971.
+No 10 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00123035511933.
+No 2 is right.,Right result is: $.hasNext().,Probability is: 0.00106894597411.
+No 2 is right.,Right result is: $.tls.,Probability is: 0.000970729277469.
+No 1 is right.,Right result is: $ <= 'F'.,Probability is: 0.000918102625292.
+No 1 is right.,Right result is: $ > length.,Probability is: 0.000896738143638.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.537203073502.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0804996564984.
+No 2 is right.,Right result is: $ != -1.,Probability is: 0.00624094251543.
+No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00330748525448.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00152953842189.
+No 1 is right.,Right result is: $.isMultiplexed().,Probability is: 0.00125931890216.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0010548416758.
+No 1 is right.,Right result is: $.forWebSocket.,Probability is: 0.00102399813477.
+No 2 is right.,Right result is: runningCallsForHost($) < maxRequestsPerHost.,Probability is: 0.000764140102547.
+No 4 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.000760048977099.
+No 3 is right.,Right result is: $ != -1.,Probability is: 0.322297215462.
+No 3 is right.,Right result is: $ > 0.,Probability is: 0.00937157589942.
+No 9 is right.,Right result is: $ < 0.,Probability is: 0.00936857517809.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.00788228027523.
+No 1 is right.,Right result is: $ == 0.,Probability is: 0.00623918604106.
+No 1 is right.,Right result is: i < $.,Probability is: 0.00511677796021.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.0050678672269.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.00418959232047.
+No 1 is right.,Right result is: $ == -1.,Probability is: 0.00368360080756.
+No 1 is right.,Right result is: $ != 0.,Probability is: 0.00335999485105.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0701746419072.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0608496777713.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0147299868986.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0102310553193.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00522910337895.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00437402911484.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00353389373049.
+No 1 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.00345761352219.
+No 2 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00330848922022.
+No 9 is right.,Right result is: pos < $.,Probability is: 0.00320896459743.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0701746419072.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0608496777713.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0147299868986.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0102310553193.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00522910337895.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00437402911484.
+No 5 is right.,Right result is: $.hasNext().,Probability is: 0.00353389373049.
+No 6 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.00345761352219.
+No 1 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00330848922022.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.00320896459743.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0701746419072.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0608496777713.
+No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.0147299868986.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0102310553193.
+No 2 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00522910337895.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00437402911484.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00353389373049.
+No 2 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.00345761352219.
+No 1 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00330848922022.
+No 4 is right.,Right result is: pos < $.,Probability is: 0.00320896459743.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0701746419072.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0608496777713.
+No 7 is right.,Right result is: $.isEmpty().,Probability is: 0.0147299868986.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0102310553193.
+No 5 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00522910337895.
+No 7 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00437402911484.
+No 8 is right.,Right result is: $.hasNext().,Probability is: 0.00353389373049.
+No 2 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.00345761352219.
+No 6 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00330848922022.
+No 3 is right.,Right result is: pos < $.,Probability is: 0.00320896459743.
+No 2 is right.,Right result is: $ != null.,Probability is: 0.191944301128.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.152890130877.
+No 7 is right.,Right result is: $.isEmpty().,Probability is: 0.050011601299.
+No 10 is right.,Right result is: $ != -1.,Probability is: 0.00992443971336.
+No 8 is right.,Right result is: $.hasNext().,Probability is: 0.00243229488842.
+No 9 is right.,Right result is: $.isMultiplexed().,Probability is: 0.00200258754194.
+No 3 is right.,Right result is: i < $.size().,Probability is: 0.00168816372752.
+No 5 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00167742487974.
+No 2 is right.,Right result is: $.forWebSocket.,Probability is: 0.0016283771256.
+No 6 is right.,Right result is: $.tls.,Probability is: 0.00124416081235.
+No 4 is right.,Right result is: $ != null.,Probability is: 0.0701746419072.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0608496777713.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0147299868986.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0102310553193.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00522910337895.
+No 2 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00437402911484.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00353389373049.
+No 1 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.00345761352219.
+No 3 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00330848922022.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.00320896459743.
+No 5 is right.,Right result is: $.,Probability is: 0.77796202898.
+No 8 is right.,Right result is: i < $.length.,Probability is: 0.00246771168895.
+No 10 is right.,Right result is: $ != null.,Probability is: 0.00191859318875.
+No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00146321509965.
+No 9 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00145431375131.
+No 9 is right.,Right result is: p < $.,Probability is: 0.000967657600995.
+No 4 is right.,Right result is: $ == null.,Probability is: 0.000918623933103.
+No 1 is right.,Right result is: $ instanceof RuntimeException.,Probability is: 0.000872534175869.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.000809787190519.
+No 1 is right.,Right result is: $ != 0.,Probability is: 0.000792296137661.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0949315801263.
+No 6 is right.,Right result is: $ == null.,Probability is: 0.0675494298339.
+No 4 is right.,Right result is: $.isEmpty().,Probability is: 0.0152233522385.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00921640172601.
+No 8 is right.,Right result is: $.hasNext().,Probability is: 0.00532592181116.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00514059932902.
+No 5 is right.,Right result is: pos < $.,Probability is: 0.00315465219319.
+No 5 is right.,Right result is: $.isSet(i).,Probability is: 0.00265402509831.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00245976611041.
+No 7 is right.,Right result is: $.length() == 0.,Probability is: 0.00230547809042.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0949315801263.
+No 6 is right.,Right result is: $ == null.,Probability is: 0.0675494298339.
+No 5 is right.,Right result is: $.isEmpty().,Probability is: 0.0152233522385.
+No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00921640172601.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00532592181116.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00514059932902.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.00315465219319.
+No 1 is right.,Right result is: $.isSet(i).,Probability is: 0.00265402509831.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00245976611041.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00230547809042.
+No 1 is right.,Right result is: $ < size.,Probability is: 0.396036177874.
+No 1 is right.,Right result is: $ > 0.,Probability is: 0.0307298209518.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.0282412655652.
+No 1 is right.,Right result is: $ < length.,Probability is: 0.0152134206146.
+No 1 is right.,Right result is: i < $.,Probability is: 0.0141768502071.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.0107310637832.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.0054064267315.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00400399323553.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00357125303708.
+No 1 is right.,Right result is: $ >= 'A'.,Probability is: 0.00275646382943.
+No 1 is right.,Right result is: i < $.,Probability is: 0.778954446316.
+No 1 is right.,Right result is: $ < size.,Probability is: 0.00906538497657.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.00488951941952.
+No 1 is right.,Right result is: $ > 0.,Probability is: 0.00446598045528.
+No 5 is right.,Right result is: $ < valueCount.,Probability is: 0.00412954390049.
+No 9 is right.,Right result is: p < $.,Probability is: 0.00247375015169.
+No 3 is right.,Right result is: $ == 0.,Probability is: 0.00240907352418.
+No 1 is right.,Right result is: $ <= 0.,Probability is: 0.00226659676991.
+No 2 is right.,Right result is: $ < length.,Probability is: 0.00196312949993.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.001917092246.
+No 4 is right.,Right result is: $ > 0.,Probability is: 0.157073050737.
+No 3 is right.,Right result is: $ < size.,Probability is: 0.0428481139243.
+No 4 is right.,Right result is: $ < 0.,Probability is: 0.00829085428268.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.00781443621963.
+No 1 is right.,Right result is: $ != -1.,Probability is: 0.00668546650559.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.00652142707258.
+No 4 is right.,Right result is: $ < length.,Probability is: 0.00626475969329.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00586997298524.
+No 4 is right.,Right result is: $ != 0.,Probability is: 0.00581803312525.
+No 1 is right.,Right result is: $ == 0.,Probability is: 0.00556125026196.
+No 8 is right.,Right result is: $ == null.,Probability is: 0.409088760614.
+No 7 is right.,Right result is: $ != null.,Probability is: 0.017501803115.
+No 10 is right.,Right result is: $.isEmpty().,Probability is: 0.00990213174373.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00516409706324.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00330203538761.
+No 1 is right.,Right result is: $.equals("GET").,Probability is: 0.00291370647028.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00268670730293.
+No 9 is right.,Right result is: $.length() == 0.,Probability is: 0.00266822054982.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00265697552823.
+No 1 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.0023517285008.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.341666162014.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0628581494093.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00595613848418.
+No 7 is right.,Right result is: $.hasNext().,Probability is: 0.00536304805428.
+No 6 is right.,Right result is: $.currentEditor != null.,Probability is: 0.00321028404869.
+No 1 is right.,Right result is: i < $.size().,Probability is: 0.00309809762985.
+No 1 is right.,Right result is: $.hasErrors.,Probability is: 0.00300679099746.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.00299783330411.
+No 1 is right.,Right result is: $.readable.,Probability is: 0.00293042929843.
+No 1 is right.,Right result is: $ instanceof InterruptedIOException.,Probability is: 0.00291886553168.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.117257915437.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.025590993464.
+No 8 is right.,Right result is: $ != null.,Probability is: 0.0201385468245.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.0108770038933.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.0106930816546.
+No 8 is right.,Right result is: $.equals("GET").,Probability is: 0.00427762512118.
+No 1 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00409900210798.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00390071771108.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00357892620377.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00341762136668.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.120029836893.
+No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.0255451127887.
+No 4 is right.,Right result is: $ != null.,Probability is: 0.0191430766135.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00884430296719.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00672355107963.
+No 1 is right.,Right result is: $.equals("GET").,Probability is: 0.00426995614544.
+No 3 is right.,Right result is: close.equalsIgnoreCase($.header("Connection")).,Probability is: 0.00409165304154.
+No 1 is right.,Right result is: $ == this.,Probability is: 0.00389372417703.
+No 3 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00357250985689.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00341149419546.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0578835681081.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0443118289113.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0238926392049.
+No 1 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00945714581758.
+No 5 is right.,Right result is: $.length() == 0.,Probability is: 0.00752095784992.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00718993414193.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00644609099254.
+No 1 is right.,Right result is: $.code == HTTP_CONTINUE.,Probability is: 0.00524653820321.
+No 9 is right.,Right result is: $.startsWith(".").,Probability is: 0.00501031149179.
+No 5 is right.,Right result is: $ > 59.,Probability is: 0.00461234571412.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0413719564676.
+No 5 is right.,Right result is: $.isEmpty().,Probability is: 0.0409255363047.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0343877710402.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.0234962031245.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.0107056135312.
+No 4 is right.,Right result is: $.startsWith(".").,Probability is: 0.00760714476928.
+No 4 is right.,Right result is: $.code == HTTP_CONTINUE.,Probability is: 0.00466252816841.
+No 1 is right.,Right result is: $ > 59.,Probability is: 0.00455068703741.
+No 1 is right.,Right result is: $ < 0.,Probability is: 0.00444222148508.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00421839905903.
+No 3 is right.,Right result is: $ == null.,Probability is: 0.0578835681081.
+No 4 is right.,Right result is: $.isEmpty().,Probability is: 0.0443118289113.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0238926392049.
+No 2 is right.,Right result is: HttpHeaders.hasBody($).,Probability is: 0.00945714581758.
+No 3 is right.,Right result is: $.length() == 0.,Probability is: 0.00752095784992.
+No 1 is right.,Right result is: chunked.equalsIgnoreCase($.header("Transfer-Encoding")).,Probability is: 0.00718993414193.
+No 3 is right.,Right result is: pos < $.length().,Probability is: 0.00644609099254.
+No 1 is right.,Right result is: $.code == HTTP_CONTINUE.,Probability is: 0.00524653820321.
+No 4 is right.,Right result is: $.startsWith(".").,Probability is: 0.00501031149179.
+No 1 is right.,Right result is: $ > 59.,Probability is: 0.00461234571412.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.374376922846.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0501524470747.
+No 2 is right.,Right result is: $.isEmpty().,Probability is: 0.00844592507929.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00502735516056.
+No 2 is right.,Right result is: $.tls.,Probability is: 0.00324326497503.
+No 1 is right.,Right result is: $.hasErrors.,Probability is: 0.00317879253998.
+No 3 is right.,Right result is: i < $.size().,Probability is: 0.00282785925083.
+No 1 is right.,Right result is: $.state != STATE_OPEN_REQUEST_BODY.,Probability is: 0.00277673476376.
+No 1 is right.,Right result is: $ instanceof InterruptedIOException.,Probability is: 0.00236045173369.
+No 2 is right.,Right result is: $.shutdown.,Probability is: 0.00230825482868.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.233630716801.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.123996347189.
+No 9 is right.,Right result is: $.isEmpty().,Probability is: 0.00686099333689.
+No 3 is right.,Right result is: $.hasNext().,Probability is: 0.00467944797128.
+No 1 is right.,Right result is: $.shutdown.,Probability is: 0.00381591194309.
+No 1 is right.,Right result is: $.state != STATE_OPEN_REQUEST_BODY.,Probability is: 0.00320686376654.
+No 9 is right.,Right result is: $ != -1.,Probability is: 0.00297427363694.
+No 1 is right.,Right result is: $.endsWith(".").,Probability is: 0.00271983165294.
+No 1 is right.,Right result is: $ < 1.,Probability is: 0.00271084834822.
+No 1 is right.,Right result is: i < $.size().,Probability is: 0.00250466587022.
+No 4 is right.,Right result is: $ != null.,Probability is: 0.138750225306.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0547503493726.
+No 1 is right.,Right result is: $.indexOf(codePoint) != -1.,Probability is: 0.00556932669133.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00529968598858.
+No 1 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.00501770665869.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00455456925556.
+No 1 is right.,Right result is: $.chars[$.pos] == ';'.,Probability is: 0.00447146035731.
+No 1 is right.,Right result is: other == $.,Probability is: 0.00430615153164.
+No 1 is right.,Right result is: i < $.size().,Probability is: 0.0040354593657.
+No 1 is right.,Right result is: $.sink.$.finished.,Probability is: 0.00377236283384.
+No 2 is right.,Right result is: $.tls.,Probability is: 0.0151990018785.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.00932667776942.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.00900122709572.
+No 1 is right.,Right result is: $.chars[$.pos] != '='.,Probability is: 0.00848821923137.
+No 2 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00810348708183.
+No 3 is right.,Right result is: $.shutdown.,Probability is: 0.00782104954123.
+No 1 is right.,Right result is: i < $.valueCount.,Probability is: 0.00695623829961.
+No 8 is right.,Right result is: $.initialized.,Probability is: 0.006809131708.
+No 9 is right.,Right result is: $.state != STATE_OPEN_REQUEST_BODY.,Probability is: 0.00594143243507.
+No 10 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.0057608736679.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0694987922907.
+No 6 is right.,Right result is: $ == null.,Probability is: 0.0285670943558.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.0124543430284.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.00765341054648.
+No 1 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00714107928798.
+No 1 is right.,Right result is: $.chars[$.pos] != '='.,Probability is: 0.0064882687293.
+No 1 is right.,Right result is: $.shutdown.,Probability is: 0.00558913964778.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.00558315170929.
+No 1 is right.,Right result is: $.state != STATE_OPEN_REQUEST_BODY.,Probability is: 0.00487641058862.
+No 8 is right.,Right result is: i < $.valueCount.,Probability is: 0.00445533264428.
+No 1 is right.,Right result is: $.tls.,Probability is: 0.015173192136.
+No 4 is right.,Right result is: $ != null.,Probability is: 0.0099299736321.
+No 1 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.00931083969772.
+No 3 is right.,Right result is: $.chars[$.pos] != '='.,Probability is: 0.00847380515188.
+No 9 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00808972585946.
+No 4 is right.,Right result is: $.shutdown.,Probability is: 0.00780776841566.
+No 9 is right.,Right result is: i < $.valueCount.,Probability is: 0.00694442586973.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.00679756933823.
+No 1 is right.,Right result is: $.state != STATE_OPEN_REQUEST_BODY.,Probability is: 0.00593134295195.
+No 1 is right.,Right result is: $.chars[$.pos] == ','.,Probability is: 0.00575109105557.
+No 8 is right.,Right result is: $ != null.,Probability is: 0.0869978889823.
+No 9 is right.,Right result is: $ == null.,Probability is: 0.0614196769893.
+No 6 is right.,Right result is: $.tls.,Probability is: 0.0117487516254.
+No 5 is right.,Right result is: $.journalRebuildRequired().,Probability is: 0.00721981236711.
+No 6 is right.,Right result is: $.fileSystem.exists($.journalFile).,Probability is: 0.00673650624231.
+No 3 is right.,Right result is: $.chars[$.pos] != '='.,Probability is: 0.00612068083137.
+No 6 is right.,Right result is: $.shutdown.,Probability is: 0.00527249090374.
+No 1 is right.,Right result is: $.initialized.,Probability is: 0.00526684196666.
+No 1 is right.,Right result is: $.state != STATE_OPEN_REQUEST_BODY.,Probability is: 0.00460014073178.
+No 1 is right.,Right result is: i < $.valueCount.,Probability is: 0.00420291861519.
+No 3 is right.,Right result is: $ == -1.,Probability is: 0.146995097399.
+No 1 is right.,Right result is: $ < 0.,Probability is: 0.0952423810959.
+No 1 is right.,Right result is: $ != -1.,Probability is: 0.00984175968915.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.00754199642688.
+No 1 is right.,Right result is: $ < 1.,Probability is: 0.00734354043379.
+No 1 is right.,Right result is: $ != 0.,Probability is: 0.00723482389003.
+No 1 is right.,Right result is: $ == 0.,Probability is: 0.00713477656245.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00668209046125.
+No 5 is right.,Right result is: $ > Integer.MAX_VALUE.,Probability is: 0.0063793505542.
+No 1 is right.,Right result is: p < $.,Probability is: 0.00542200822383.
+No 1 is right.,Right result is: $ == -1.,Probability is: 0.146995097399.
+No 1 is right.,Right result is: $ < 0.,Probability is: 0.0952423810959.
+No 1 is right.,Right result is: $ != -1.,Probability is: 0.00984175968915.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.00754199642688.
+No 1 is right.,Right result is: $ < 1.,Probability is: 0.00734354043379.
+No 1 is right.,Right result is: $ != 0.,Probability is: 0.00723482389003.
+No 1 is right.,Right result is: $ == 0.,Probability is: 0.00713477656245.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.00668209046125.
+No 1 is right.,Right result is: $ > Integer.MAX_VALUE.,Probability is: 0.0063793505542.
+No 8 is right.,Right result is: p < $.,Probability is: 0.00542200822383.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.058173391968.
+No 4 is right.,Right result is: $.isEmpty().,Probability is: 0.0351694412529.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0234267245978.
+No 4 is right.,Right result is: pos < $.length().,Probability is: 0.00843938905746.
+No 10 is right.,Right result is: $.closed.,Probability is: 0.00558750610799.
+No 2 is right.,Right result is: $.length() == 0.,Probability is: 0.00547150243074.
+No 1 is right.,Right result is: $.startsWith(".").,Probability is: 0.00495989853516.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.0047658989206.
+No 1 is right.,Right result is: $ == -1.,Probability is: 0.00473927240819.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.00439737271518.
+No 3 is right.,Right result is: $ < size.,Probability is: 0.36787289381.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.0492243655026.
+No 1 is right.,Right result is: $ < length.,Probability is: 0.0200928412378.
+No 1 is right.,Right result is: i < $.,Probability is: 0.018196862191.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.0115569783375.
+No 1 is right.,Right result is: $ == -1.,Probability is: 0.00521581852809.
+No 3 is right.,Right result is: $ < 0.,Probability is: 0.00507806427777.
+No 3 is right.,Right result is: $ > 0.,Probability is: 0.00506688514724.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00434950506315.
+No 1 is right.,Right result is: $ < 1.,Probability is: 0.00342835392803.
+No 1 is right.,Right result is: i < $.,Probability is: 0.788877367973.
+No 1 is right.,Right result is: $ < limit.,Probability is: 0.00717614777386.
+No 1 is right.,Right result is: $ < size.,Probability is: 0.00501280277967.
+No 1 is right.,Right result is: $ < valueCount.,Probability is: 0.00414624065161.
+No 1 is right.,Right result is: $ == 0.,Probability is: 0.00273313350044.
+No 1 is right.,Right result is: $ < 0.,Probability is: 0.00256046373397.
+No 3 is right.,Right result is: $ < length.,Probability is: 0.00230414257385.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00154568138532.
+No 1 is right.,Right result is: p < $.,Probability is: 0.00147999788169.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00144618342165.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0367341600358.
+No 2 is right.,Right result is: $ == null.,Probability is: 0.0168990064412.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.0149113507941.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0147366235033.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00904470030218.
+No 2 is right.,Right result is: pos < $.length().,Probability is: 0.00893228780478.
+No 1 is right.,Right result is: $.hasNext().,Probability is: 0.00504424888641.
+No 1 is right.,Right result is: pos < $.,Probability is: 0.00465419888496.
+No 3 is right.,Right result is: $.,Probability is: 0.00435231393203.
+No 3 is right.,Right result is: i < $.length.,Probability is: 0.0036003915593.
+No 10 is right.,Right result is: $ != null.,Probability is: 0.123892553151.
+No 1 is right.,Right result is: $ == null.,Probability is: 0.0160316154361.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0127154812217.
+No 1 is right.,Right result is: $.,Probability is: 0.0042443680577.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.00354581093416.
+No 1 is right.,Right result is: i < $.length.,Probability is: 0.00351109378971.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00325354584493.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00315068475902.
+No 1 is right.,Right result is: $ == -1.,Probability is: 0.00244277482852.
+No 9 is right.,Right result is: pos < $.,Probability is: 0.0023074131459.
+No 1 is right.,Right result is: $ != null.,Probability is: 0.0367341600358.
+No 9 is right.,Right result is: $ == null.,Probability is: 0.0168990064412.
+No 1 is right.,Right result is: $.length() == 0.,Probability is: 0.0149113507941.
+No 1 is right.,Right result is: $.isEmpty().,Probability is: 0.0147366235033.
+No 1 is right.,Right result is: $.indexOf('\0') != -1.,Probability is: 0.00904470030218.
+No 1 is right.,Right result is: pos < $.length().,Probability is: 0.00893228780478.

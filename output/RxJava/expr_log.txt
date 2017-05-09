@@ -1,0 +1,164 @@
+/usr/bin/python2.7 /home/symbolk/PycharmProjects/Expr_Var_Predicting/XGBoost_expr/main.py
+Training expr model for RxJava_...
+Raw data size: (2209, 10)
+All class num: 576
+Frequent class(>1) num: 277
+Frequent rows num: 1910
+Training set size: (1988,)
+Validation set size: (221,)
+Preprossing finished, time cost : 0:00:00.035891
+Data splited and saved in ../input/RxJava/expr/RxJava_.expr_train.csv and ../input/RxJava/expr/RxJava_.expr_valid.csv
+Training data size: (2209, 7)
+Validating data size: (221, 7)
+Training the model...
+[0]	train-merror:0.866003	eval-merror:0.882353
+Multiple eval metrics have been passed: 'eval-merror' will be used for early stopping.
+
+Will train until eval-merror hasn't improved in 10 rounds.
+[1]	train-merror:0.817112	eval-merror:0.823529
+[2]	train-merror:0.750113	eval-merror:0.746606
+[3]	train-merror:0.742417	eval-merror:0.728507
+[4]	train-merror:0.736985	eval-merror:0.705882
+[5]	train-merror:0.72431	eval-merror:0.701357
+[6]	train-merror:0.685378	eval-merror:0.678733
+[7]	train-merror:0.670892	eval-merror:0.669683
+[8]	train-merror:0.66048	eval-merror:0.665158
+[9]	train-merror:0.656406	eval-merror:0.665158
+[10]	train-merror:0.648257	eval-merror:0.647059
+[11]	train-merror:0.63694	eval-merror:0.633484
+[12]	train-merror:0.631055	eval-merror:0.615385
+[13]	train-merror:0.619285	eval-merror:0.615385
+[14]	train-merror:0.604799	eval-merror:0.606335
+[15]	train-merror:0.600272	eval-merror:0.59276
+[16]	train-merror:0.596197	eval-merror:0.59276
+[17]	train-merror:0.58986	eval-merror:0.58371
+[18]	train-merror:0.581258	eval-merror:0.570136
+[19]	train-merror:0.576279	eval-merror:0.565611
+[20]	train-merror:0.575826	eval-merror:0.565611
+[21]	train-merror:0.574015	eval-merror:0.565611
+[22]	train-merror:0.567225	eval-merror:0.561086
+[23]	train-merror:0.557718	eval-merror:0.552036
+[24]	train-merror:0.54957	eval-merror:0.542986
+[25]	train-merror:0.54957	eval-merror:0.542986
+[26]	train-merror:0.543685	eval-merror:0.538462
+[27]	train-merror:0.540063	eval-merror:0.529412
+[28]	train-merror:0.534631	eval-merror:0.520362
+[29]	train-merror:0.52603	eval-merror:0.515837
+[30]	train-merror:0.523314	eval-merror:0.515837
+[31]	train-merror:0.517881	eval-merror:0.502262
+[32]	train-merror:0.517429	eval-merror:0.497738
+[33]	train-merror:0.510638	eval-merror:0.493213
+[34]	train-merror:0.505206	eval-merror:0.470588
+[35]	train-merror:0.502037	eval-merror:0.470588
+[36]	train-merror:0.499774	eval-merror:0.475113
+[37]	train-merror:0.496605	eval-merror:0.466063
+[38]	train-merror:0.489362	eval-merror:0.461538
+[39]	train-merror:0.484382	eval-merror:0.452489
+[40]	train-merror:0.480308	eval-merror:0.438914
+[41]	train-merror:0.477592	eval-merror:0.438914
+[42]	train-merror:0.474876	eval-merror:0.443439
+[43]	train-merror:0.472159	eval-merror:0.443439
+[44]	train-merror:0.466727	eval-merror:0.434389
+[45]	train-merror:0.464011	eval-merror:0.429864
+[46]	train-merror:0.459484	eval-merror:0.425339
+[47]	train-merror:0.45722	eval-merror:0.425339
+[48]	train-merror:0.45541	eval-merror:0.425339
+[49]	train-merror:0.453146	eval-merror:0.425339
+[50]	train-merror:0.450883	eval-merror:0.425339
+[51]	train-merror:0.448619	eval-merror:0.420814
+[52]	train-merror:0.447261	eval-merror:0.420814
+[53]	train-merror:0.444545	eval-merror:0.41629
+[54]	train-merror:0.442734	eval-merror:0.41629
+[55]	train-merror:0.43866	eval-merror:0.411765
+[56]	train-merror:0.436849	eval-merror:0.411765
+[57]	train-merror:0.434133	eval-merror:0.40724
+[58]	train-merror:0.432775	eval-merror:0.40724
+[59]	train-merror:0.430964	eval-merror:0.40724
+[60]	train-merror:0.428248	eval-merror:0.40724
+[61]	train-merror:0.424627	eval-merror:0.40724
+[62]	train-merror:0.422363	eval-merror:0.40724
+[63]	train-merror:0.419194	eval-merror:0.402715
+[64]	train-merror:0.418742	eval-merror:0.402715
+[65]	train-merror:0.418289	eval-merror:0.40724
+[66]	train-merror:0.416025	eval-merror:0.402715
+[67]	train-merror:0.413309	eval-merror:0.411765
+[68]	train-merror:0.412856	eval-merror:0.40724
+[69]	train-merror:0.409688	eval-merror:0.40724
+[70]	train-merror:0.406971	eval-merror:0.40724
+[71]	train-merror:0.406066	eval-merror:0.40724
+[72]	train-merror:0.404255	eval-merror:0.402715
+[73]	train-merror:0.402445	eval-merror:0.393665
+[74]	train-merror:0.401086	eval-merror:0.393665
+[75]	train-merror:0.398823	eval-merror:0.384615
+[76]	train-merror:0.39656	eval-merror:0.38914
+[77]	train-merror:0.397012	eval-merror:0.38914
+[78]	train-merror:0.396107	eval-merror:0.38914
+[79]	train-merror:0.394296	eval-merror:0.38914
+[80]	train-merror:0.391127	eval-merror:0.384615
+[81]	train-merror:0.390222	eval-merror:0.384615
+[82]	train-merror:0.390222	eval-merror:0.384615
+[83]	train-merror:0.390222	eval-merror:0.380091
+[84]	train-merror:0.388411	eval-merror:0.375566
+[85]	train-merror:0.3866	eval-merror:0.380091
+[86]	train-merror:0.3866	eval-merror:0.375566
+[87]	train-merror:0.385695	eval-merror:0.375566
+[88]	train-merror:0.383884	eval-merror:0.371041
+[89]	train-merror:0.381621	eval-merror:0.371041
+[90]	train-merror:0.380263	eval-merror:0.371041
+[91]	train-merror:0.37981	eval-merror:0.366516
+[92]	train-merror:0.378904	eval-merror:0.371041
+[93]	train-merror:0.378452	eval-merror:0.366516
+[94]	train-merror:0.376188	eval-merror:0.343891
+[95]	train-merror:0.375736	eval-merror:0.352941
+[96]	train-merror:0.373925	eval-merror:0.352941
+[97]	train-merror:0.373925	eval-merror:0.352941
+[98]	train-merror:0.372114	eval-merror:0.343891
+[99]	train-merror:0.368945	eval-merror:0.339367
+[100]	train-merror:0.368493	eval-merror:0.343891
+[101]	train-merror:0.367134	eval-merror:0.339367
+[102]	train-merror:0.366682	eval-merror:0.339367
+[103]	train-merror:0.366229	eval-merror:0.339367
+[104]	train-merror:0.365776	eval-merror:0.334842
+[105]	train-merror:0.364418	eval-merror:0.325792
+[106]	train-merror:0.364418	eval-merror:0.339367
+[107]	train-merror:0.361249	eval-merror:0.339367
+[108]	train-merror:0.360797	eval-merror:0.325792
+[109]	train-merror:0.360344	eval-merror:0.325792
+[110]	train-merror:0.360344	eval-merror:0.321267
+[111]	train-merror:0.359891	eval-merror:0.321267
+[112]	train-merror:0.359891	eval-merror:0.321267
+[113]	train-merror:0.358986	eval-merror:0.321267
+[114]	train-merror:0.357628	eval-merror:0.325792
+[115]	train-merror:0.35627	eval-merror:0.325792
+[116]	train-merror:0.355364	eval-merror:0.321267
+[117]	train-merror:0.355364	eval-merror:0.316742
+[118]	train-merror:0.354459	eval-merror:0.316742
+[119]	train-merror:0.353554	eval-merror:0.321267
+[120]	train-merror:0.352648	eval-merror:0.321267
+[121]	train-merror:0.35129	eval-merror:0.321267
+[122]	train-merror:0.350385	eval-merror:0.316742
+[123]	train-merror:0.349479	eval-merror:0.316742
+[124]	train-merror:0.349932	eval-merror:0.321267
+[125]	train-merror:0.348121	eval-merror:0.325792
+[126]	train-merror:0.349027	eval-merror:0.330317
+[127]	train-merror:0.348121	eval-merror:0.325792
+Stopping. Best iteration:
+[117]	train-merror:0.355364	eval-merror:0.316742
+
+Model saved in ../model/RxJava_.expr_model.pkl
+Training fininshed, time cost : 2:38:35.043360
+../model/RxJava_.expr_model.pkl
+../output/RxJava/expr
+Testing set size: (2209, 7)
+Model loaded from ../model/RxJava_.expr_model.pkl
+<xgboost.core.Booster object at 0x7fe36827add0>
+Right at top1: 1440
+Accuracy(top1): 65.188%
+Result file already exists and be removed.
+Answer file already exists and be removed.
+Right in top5: 1868
+Precision(top5): 84.563%
+Right in top10: 1927
+Precision(top10): 87.234%
+Testing results saved in ../output/RxJava/expr/RxJava_.expr_results.csv
+

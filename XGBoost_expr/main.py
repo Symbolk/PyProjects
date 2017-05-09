@@ -41,10 +41,10 @@ def run_expr(params):
 if __name__ == '__main__':
 
     params ={
-        'project':'RxJava',
-        'bugid':'',
+        'project':'chart',
+        'bugid':'26',
         'type': 'expr',
-        'expr_frequency': 1,
+        'expr_frequency': 5,
         'model_path': '../model/',
         'input_path':'../input/',
         'output_path':'../output/',
