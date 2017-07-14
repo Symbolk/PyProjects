@@ -16,7 +16,7 @@ Based on:
 
 IDE:
 
-> Pycharm(http://www.jetbrains.com/pycharm/)
+> [Pycharm](http://www.jetbrains.com/pycharm/)
 
 ---
 
